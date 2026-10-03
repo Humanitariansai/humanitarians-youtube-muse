@@ -1,0 +1,456 @@
+{
+  "metadata": {
+    "slug": "claude-allowed",
+    "title": "Claude, Allowed.",
+    "topic": "CLAUDE · AI USE POLICIES",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken @NikBearBrown outro stays.",
+    "audience": "smart, pragmatic general audience — not necessarily AI experts",
+    "source_doc": "nikbearbrown/humanitarians-youtube-muse: claude-for-artificial-intelligence/hai-claude-allowed (beat_sheet.json, PEDAGOGY.md, NARRATION-GATE-P.md); rewritten for the humanitarians AI channel",
+    "playlist": "How to use AI",
+    "chapter_number": 0,
+    "tags": [
+      "Claude",
+      "AI policy",
+      "AI at school",
+      "AI at work",
+      "disclosure",
+      "academic integrity",
+      "AI fluency",
+      "Anthropic",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. Everyone says AI is banned — at school, at work. But a ban is a rule, and rules have edges. Let's read the sentence, not the story around it.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types the naive question"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'is AI banned everywhere' → 'what does the ban actually cover' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Everyone says AI is banned at school, so is AI banned everywhere",
+            "triggerWords": "is AI banned everywhere",
+            "replacementWords": "what does the ban actually cover",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "claude-allowed",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive ban question and corrects it to the real one: what the ban actually covers.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. Policy: the written AI rules where you study or work. Disclosure: saying openly that AI helped. AI fluency: being good at using AI — like being good with a spreadsheet.",
+      "estimated_duration_s": 12.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'policy' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'disclosure' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'AI fluency' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "policy",
+                "meaning": "the written AI rules where you study or work"
+              },
+              {
+                "term": "disclosure",
+                "meaning": "saying openly that AI helped"
+              },
+              {
+                "term": "AI fluency",
+                "meaning": "being good at using AI — like being good with a spreadsheet"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Meet the hero object: the AI-use policy. Schools have one. Employers have one. A few paragraphs — and nearly all the confusion hides inside a single exception.",
+      "estimated_duration_s": 10.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An AI policy document drops in; a terracotta highlighter sweeps to one line — 'the exception'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "policy doc drops in"
+          },
+          {
+            "at": 0.55,
+            "event": "highlighter lands on the exception line"
+          },
+          {
+            "at": 0.8,
+            "event": "'the exception' label"
+          }
+        ],
+        "manim": {
+          "class": "B00_PolicyPage"
+        },
+        "motion_claim": "An AI policy document drops in; a terracotta highlighter sweeps to one line — 'the exception'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Most bans say roughly the same thing: don't use AI to do work you're supposed to do yourself, and submit it without saying so. That's the scope — evaluated work, submitted as yours, undisclosed. Not: never use AI. Not: never get good at it. Not: never practice on your own time.",
+      "estimated_duration_s": 20.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Six policy slips sort into two rows: 'banned' (graded work / as your own / undisclosed) and 'open' (practice / get fluent / own time); a check lands on the open row.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "two rows appear: banned, open"
+          },
+          {
+            "at": 0.35,
+            "event": "banned slips drop: graded work, as your own, undisclosed"
+          },
+          {
+            "at": 0.65,
+            "event": "open slips drop: practice, get fluent, own time"
+          },
+          {
+            "at": 0.9,
+            "event": "check on the open row"
+          }
+        ],
+        "manim": {
+          "class": "B01_Scope"
+        },
+        "motion_claim": "Six policy slips sort into two rows: 'banned' (graded work / as your own / undisclosed) and 'open' (practice / get fluent / own time); a check lands on the open row."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here's the trap. Nearly every policy has an exception — something like 'except for educational purposes.' One teacher reads that as any use with permission. Another reads it as nothing AI, full stop. You don't want to learn which one is yours after you submit. So ask first, and get the answer in writing — even an email reply counts. Assumptions here are expensive.",
+      "estimated_duration_s": 25.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The exception phrase sits on a plate and splits into three readings (permissive / middle / strict); a check lands on an envelope — 'ask · in writing'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "exception plate lands"
+          },
+          {
+            "at": 0.35,
+            "event": "three reading cards drop in"
+          },
+          {
+            "at": 0.7,
+            "event": "envelope arrives"
+          },
+          {
+            "at": 0.85,
+            "event": "check on the envelope: ask, get it in writing"
+          }
+        ],
+        "manim": {
+          "class": "B02_Trap"
+        },
+        "motion_claim": "The exception phrase sits on a plate and splits into three readings (permissive / middle / strict); a check lands on an envelope — 'ask · in writing'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "What's yours, no matter the policy: fluency. Practice prompting on your own time. Quiz yourself on your own material. Get explanations when you're confused — as long as you don't submit AI output as your own work. Anthropic's AI Fluency course is free and openly licensed, so anyone can take it. A ban on graded homework is not a ban on getting capable.",
+      "estimated_duration_s": 25.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A workbench pad; three items drop in one by one — a prompt page, a quiz card, a course book tagged 'free'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "workbench pad"
+          },
+          {
+            "at": 0.3,
+            "event": "prompt page drops in"
+          },
+          {
+            "at": 0.55,
+            "event": "quiz card drops in"
+          },
+          {
+            "at": 0.8,
+            "event": "course book with 'free' tag"
+          }
+        ],
+        "manim": {
+          "class": "B03_Fluency"
+        },
+        "motion_claim": "A workbench pad; three items drop in one by one — a prompt page, a quiz card, a course book tagged 'free'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One question before the reveal — commit to it. What actually gets people caught? Using AI — or something else? Think before the next beat.",
+      "estimated_duration_s": 10.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A sparse beat: a big '?' on the stage, the question caption under it, a terracotta dot — hold.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "'?' lands"
+          },
+          {
+            "at": 0.4,
+            "event": "question caption"
+          },
+          {
+            "at": 0.65,
+            "event": "terracotta dot"
+          }
+        ],
+        "manim": {
+          "class": "B04_Predict"
+        },
+        "motion_claim": "A sparse beat: a big '?' on the stage, the question caption under it, a terracotta dot — hold."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "It's not the use. It's the undisclosed use. People aren't punished for being AI-fluent — they're punished for submitting AI-assisted work without saying so. Same output, different path. Disclosure doesn't make everything automatically fine. But it puts you in the conversation instead of outside it.",
+      "estimated_duration_s": 18.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two identical pages: the left gets a check ('disclosed — the conversation'), the right a cross ('undisclosed — the violation').",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "two identical pages"
+          },
+          {
+            "at": 0.4,
+            "event": "check lands left: disclosed"
+          },
+          {
+            "at": 0.6,
+            "event": "cross lands right: undisclosed"
+          },
+          {
+            "at": 0.85,
+            "event": "captions: the conversation / the violation"
+          }
+        ],
+        "manim": {
+          "class": "B05_Reveal"
+        },
+        "motion_claim": "Two identical pages: the left gets a check ('disclosed — the conversation'), the right a cross ('undisclosed — the violation')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: Draft me a short, honest email to my teacher asking whether I can use Claude for [describe your assignment or subject]. I want to start the right conversation — keep it to one paragraph. Then two checks yourself. Does the email name the exact assignment? And do you have the teacher's reply in writing before you use AI on it? At work, swap in your manager.",
+      "estimated_duration_s": 28.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Ask Before You Use",
+            "command": "Draft me a short, honest email to my teacher asking whether I can use Claude for [describe your assignment or subject]. I want to start the right conversation — keep it to one paragraph.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: the email names the exact assignment.",
+              "Check: you have the reply in writing before using AI on it."
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Claude, Allowed. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Claude, Allowed.",
+            "slug": "claude-allowed",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
