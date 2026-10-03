@@ -215,3 +215,4 @@ One line per push to GitHub: the date and the commit note. The commit ID for eac
 | 2026-09-26 | feat(fall-2026): materials target — 97 kept, Replit Learning Experiences Creator recovered |
 | 2026-09-26 | feat(fall-2026): company demand report — Anthropic 5/5; Google unreadable but verified by hand |
 | 2026-10-03 | feat(fall-2026): assignment 4 part 1 — opportunity matcher (python + n8n), anthropic live pull, digest outputs |
+| 2026-10-03 | feat(fall-2026): assignment 4 films 1–4 pre-render packages (all static-QC clean) + SCALE-TESTS.md + package/ (exec summary, architecture SVG) |
