@@ -1,0 +1,537 @@
+{
+  "metadata": {
+    "slug": "how-to-use-claude",
+    "title": "How to Use Claude",
+    "topic": "CLAUDE · GETTING STARTED",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "general audience — smart and pragmatic, not necessarily AI experts; may never have used an AI chat tool",
+    "source_doc": "claude/claude-youtube/claude-liam-how-to-use-claude/beat_sheet.json (mirror repo nikbearbrown/humanitarians-youtube-muse); rebuilt 2026-10-03 for Liam/Teardown",
+    "playlist": "Getting started with Claude",
+    "chapter_number": 0,
+    "tags": [
+      "How to use Claude",
+      "Claude",
+      "AI chat",
+      "getting started",
+      "Claude Projects",
+      "Claude artifacts",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. If you have never used an AI chat tool, start here. Most advice says: write a better prompt. But the better question is the one on screen.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'What is the one prompt'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'one prompt' -> 'context' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "What is the one prompt\nthat makes Claude work",
+            "triggerWords": "one prompt",
+            "replacementWords": "context",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "how-to-use-claude",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive prompt question and corrects it to the film's thesis: context.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. A prompt: what you type into the chat. Context: everything Claude can see about your work — your project, your constraints, your examples. And a model: the AI program behind the chat, trained to answer questions well.",
+      "estimated_duration_s": 15.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'prompt' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'context' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'model' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "prompt",
+                "meaning": "what you type into the chat"
+              },
+              {
+                "term": "context",
+                "meaning": "everything Claude can see about your work"
+              },
+              {
+                "term": "model",
+                "meaning": "the AI program behind the chat"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Start with what you see. Claude is a chat window in your browser. You type at the bottom; the answer appears above — as simple as texting a friend.",
+      "estimated_duration_s": 11.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A Claude chat window drops onto the stage; the word 'chat window' beside it. A cursor lands in the composer; two reply lines appear above it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "window drops in"
+          },
+          {
+            "at": 0.4,
+            "event": "cursor in the composer"
+          },
+          {
+            "at": 0.55,
+            "event": "reply lines above"
+          }
+        ],
+        "manim": {
+          "class": "B00_ChatWindow"
+        },
+        "motion_claim": "A Claude chat window drops onto the stage; the word 'chat window' beside it. A cursor lands in the composer; two reply lines appear above it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Behind that window sits a model — an AI program trained on a huge library of writing, so it can answer questions well. The window is how you talk to it. The model is what answers.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The window shifts right; a dark model block rises behind it and three lights come on. Label 'model' beside the block.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "model block rises behind the window"
+          },
+          {
+            "at": 0.45,
+            "event": "lights come on"
+          }
+        ],
+        "manim": {
+          "class": "B01_ModelBehind"
+        },
+        "motion_claim": "The window shifts right; a dark model block rises behind it and three lights come on. Label 'model' beside the block."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Most people use it like a search engine. One question, one answer, close the tab. But Claude knows nothing about your project, your constraints, or what you already tried. So it answers a stranger — and the answer is generic.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A question bubble lands in the composer; a thin two-line reply appears. The window fades (tab closed); the thin reply stays, labelled 'a stranger'.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "question bubble"
+          },
+          {
+            "at": 0.3,
+            "event": "thin reply"
+          },
+          {
+            "at": 0.45,
+            "event": "window closes"
+          },
+          {
+            "at": 0.7,
+            "event": "'a stranger' lands"
+          }
+        ],
+        "manim": {
+          "class": "B02_Stranger"
+        },
+        "motion_claim": "A question bubble lands in the composer; a thin two-line reply appears. The window fades (tab closed); the thin reply stays, labelled 'a stranger'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here is the one idea. Claude's answer is only as good as what it can see. Give it your project, your constraints, and an example of what good looks like — and its first draft lands close to your last draft. More context, fewer revision rounds.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three context cards (project, constraints, example) drop into the window one by one. The reply card grows from thin to full. Labels 'context' and 'answer'.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "context cards drop in"
+          },
+          {
+            "at": 0.75,
+            "event": "reply grows full"
+          }
+        ],
+        "manim": {
+          "class": "B03_ContextIn"
+        },
+        "motion_claim": "Three context cards (project, constraints, example) drop into the window one by one. The reply card grows from thin to full. Labels 'context' and 'answer'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Projects fix this. In Claude, open a Project for the thing you are working on — a report, a garden plan, a job application. Drop in your style, your constraints, and an example you like. Do it once: every chat inside that Project starts already knowing.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An open project box; three cards labelled style, rules, example drop in. A message rides through and an informed reply comes out. Label 'project' beside the box.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "project box opens"
+          },
+          {
+            "at": 0.55,
+            "event": "style, rules, example drop in"
+          },
+          {
+            "at": 0.85,
+            "event": "chat rides through, informed reply out"
+          }
+        ],
+        "manim": {
+          "class": "B04_Project"
+        },
+        "motion_claim": "An open project box; three cards labelled style, rules, example drop in. A message rides through and an informed reply comes out. Label 'project' beside the box."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "First strength: artifacts. When the answer should be a finished piece — a document, a chart, a small program — Claude builds it in a panel beside the chat. Not text to copy. A thing you can use.",
+      "estimated_duration_s": 15.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The chat window; a side panel grows beside it holding a finished document page. Label 'artifact' beside the panel.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "side panel grows"
+          },
+          {
+            "at": 0.5,
+            "event": "finished page inside"
+          }
+        ],
+        "manim": {
+          "class": "B05_Artifact"
+        },
+        "motion_claim": "The chat window; a side panel grows beside it holding a finished document page. Label 'artifact' beside the panel."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Second: analysis. Hand it something long — a report, a contract, a pile of notes — and it maps the structure first, before you say what to change. Your questions get sharper, because you can see the shape of the thing.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A stack of long pages; a scan line sweeps down them; a structure map of three section blocks appears beside. Label 'analysis'.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "page stack"
+          },
+          {
+            "at": 0.3,
+            "event": "scan sweep"
+          },
+          {
+            "at": 0.8,
+            "event": "structure map"
+          }
+        ],
+        "manim": {
+          "class": "B06_Analysis"
+        },
+        "motion_claim": "A stack of long pages; a scan line sweeps down them; a structure map of three section blocks appears beside. Label 'analysis'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Third: rewriting. Give it your rough draft and one example of the voice you want. It hits the tone on the first pass — and you spend your time on ideas, not phrasing.",
+      "estimated_duration_s": 13.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A rough-draft card and a 'your voice' example card feed in; a polished page grows with a check. Labels 'rough draft' and 'your voice'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "rough draft"
+          },
+          {
+            "at": 0.3,
+            "event": "'your voice' example"
+          },
+          {
+            "at": 0.75,
+            "event": "polished page + check"
+          }
+        ],
+        "manim": {
+          "class": "B07_Rewrite"
+        },
+        "motion_claim": "A rough-draft card and a 'your voice' example card feed in; a polished page grows with a check. Labels 'rough draft' and 'your voice'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One warning. When Claude does not know something, it can still answer confidently. So treat important facts like a first draft: check them against a source you trust.",
+      "estimated_duration_s": 11.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A reply bubble holds one factual claim; a large check stamps onto it. Label 'check it'.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "claim bubble"
+          },
+          {
+            "at": 0.8,
+            "event": "check stamps on"
+          }
+        ],
+        "manim": {
+          "class": "B08_CheckIt"
+        },
+        "motion_claim": "A reply bubble holds one factual claim; a large check stamps onto it. Label 'check it'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: I'm starting [describe your project in one sentence]. My main constraint is [constraint]. What is the first question you need answered before you can actually help me? Then check two things yourself. One: does its question point at something you haven't told it yet? Answer it — that is the context it wanted. Two: does its next answer fit your constraint? If not, say so.",
+      "estimated_duration_s": 28.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "How to Use Claude",
+            "command": "I'm starting [describe your project in one sentence]. My main constraint is [constraint]. What is the first question you need answered before you can actually help me?",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: does its question point at something you haven't told it yet? Answer it.",
+              "Check: does its next answer fit your constraint? If not, say so."
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "How to Use Claude. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "How to Use Claude.",
+            "slug": "how-to-use-claude",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
