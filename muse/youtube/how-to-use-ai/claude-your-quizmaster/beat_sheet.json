@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "Claude, Your Quizmaster.",
+    "slug": "claude-your-quizmaster",
+    "series": "Humanitarians AI \u2014 Muse films",
+    "lane": "how-to-use-ai",
+    "skill": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam, in for Bear",
+    "voice_kokoro": "am_onyx",
+    "register": "Teardown",
+    "watermark": "@NikBearBrown",
+    "engine": "kokoro"
+  },
+  "beats": [
+    {
+      "id": "BIDEA",
+      "scene": "M01",
+      "dur_s": 19,
+      "act": "hook",
+      "voice": "Liam",
+      "line": "Hallo. This is Liam, in for Bear. Most of us open Claude the same way: paste in the material, ask for the answer. But the best use of an answer machine is making it ask the questions. This film turns Claude into your quizmaster.",
+      "screen": "Chat-composer card; the naive ask 'Claude, explain this chapter to me' corrected to 'Claude, quiz me on this chapter'."
+    },
+    {
+      "id": "BDEFS",
+      "scene": "M02",
+      "dur_s": 21,
+      "act": "hook",
+      "voice": "Liam",
+      "line": "Four terms, plainly. Retrieval practice: pulling an answer out of your memory instead of re-reading it. The testing effect: the lab finding that quizzing builds memory, not just checks it. Spaced repetition: reviewing again right as you start to forget. Predict-first: guessing before you look \u2014 wrong guesses count too.",
+      "screen": "Four term cards appear: retrieval practice / testing effect / spaced repetition / predict-first."
+    },
+    {
+      "id": "B01",
+      "scene": "M03",
+      "dur_s": 27,
+      "act": "1",
+      "voice": "Liam",
+      "line": "Why quizzing works. Read a chapter and the words go in \u2014 it feels productive because you recognize them. But memory researchers ran the experiment: a week later, the re-readers kept about forty percent. The quizzers kept about sixty. The act of pulling the answer out \u2014 retrieval \u2014 is what strengthens the trace. Testing is not a check on learning. It is how learning happens.",
+      "screen": "Two panels: 'reread' (arrow in, trace fades) vs 'quiz' (arrow out, trace thickens); hero number 61% vs 40%, tagged 'memory researchers'."
+    },
+    {
+      "id": "B02",
+      "scene": "M04",
+      "dur_s": 27,
+      "act": "1",
+      "voice": "Liam",
+      "line": "Try it now \u2014 this move runs on you. Before I explain predict-first: what is retrieval practice? Commit to an answer in your head. Done? Here it is: pulling an answer out of memory instead of re-reading it. Even a wrong guess helps \u2014 researchers found that failed attempts still boost what you learn next. The attempt primes your brain to catch the answer.",
+      "screen": "A face-down 'commit first' card flips to reveal the definition; note lands: 'wrong guesses count'."
+    },
+    {
+      "id": "B03",
+      "scene": "M05",
+      "dur_s": 27,
+      "act": "1",
+      "voice": "Liam",
+      "line": "Space the repetitions. Memory fades \u2014 that is not a flaw, it is the system. Quiz today, then again tomorrow as it starts to slip; then next week; then next month. Each review catches the memory just as it is fading and stretches how long it lasts. And Claude builds the schedule: paste in your topic, ask when to come back, and it will tell you.",
+      "screen": "A memory curve falls; quiz dots at today / tomorrow / next week / next month lift it back up; tag: 'catches it as it fades'."
+    },
+    {
+      "id": "B04",
+      "scene": "M06",
+      "dur_s": 26,
+      "act": "1",
+      "voice": "Liam",
+      "line": "Then explain it back. You tell Claude the concept \u2014 not Claude telling you. Explain the new regulation, the new process, the new client's business, in your own words. Claude reads your explanation and marks what is right, what is incomplete, what you missed. Where you hesitate or go wrong \u2014 that is information. It tells you exactly what to study next.",
+      "screen": "You explain to a Claude card; marks land: check (right), '?' (incomplete), gap tagged 'study this'."
+    },
+    {
+      "id": "B05",
+      "scene": "M07",
+      "dur_s": 21,
+      "act": "2",
+      "voice": "Liam",
+      "line": "Same moves, your work life. A new compliance rule, a new platform, a new product line \u2014 quiz yourself, space the reviews, explain it back. One honest line: Claude does not know your industry's edge. You bring that. It handles the repetition. You bring the judgment about what matters.",
+      "screen": "Three work cards (new rule / new platform / new product) each get a quiz card; tag: 'your judgment'."
+    },
+    {
+      "id": "BVDT",
+      "scene": "M08",
+      "dur_s": 29,
+      "act": "recap",
+      "voice": "Liam",
+      "line": "Act one: the four moves. Quiz, don't ask \u2014 you do the retrieving; Claude just asks the questions. Predict before you look \u2014 the attempt is the mechanism, not the answer. Space the reviews \u2014 today, tomorrow, next week, next month. Explain it back \u2014 the gaps surface faster than re-reading ever could. Act two: the same moves at work. Four moves. One principle: the struggle is the learning.",
+      "screen": "Recap plate: the four moves; you retrieve, Claude only asks; same moves at work; 'the struggle is the learning'."
+    },
+    {
+      "id": "BHTF",
+      "scene": "M08",
+      "dur_s": 36,
+      "act": "do_today",
+      "voice": "Liam",
+      "line": "Your turn. Paste this into Claude, with your topic where it says your topic. It quizzes you one question at a time, then hands you the spaced schedule. Here is the prompt: 'Quiz me on your topic. Ask one question at a time and wait for my answer. Tell me what is right, what is incomplete, and what I missed. After five questions, give me a spaced schedule: when to review again \u2014 tomorrow, next week, next month.' Swap in your material \u2014 and answer before you look.",
+      "screen": "Composer card with the full quiz prompt; 'YOUR TOPIC' as the placeholder."
+    },
+    {
+      "id": "BOUT",
+      "scene": "M08",
+      "dur_s": 10,
+      "act": "outro",
+      "voice": "Liam",
+      "line": "Claude, Your Quizmaster. Liam, in for Bear. At Nik Bear Brown.",
+      "screen": "@NikBearBrown watermark card."
+    }
+  ]
+}
