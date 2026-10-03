@@ -1,0 +1,581 @@
+{
+  "metadata": {
+    "slug": "how-to-rot-your-brain-with-ai",
+    "title": "How to outsource everything to AI & get dumb",
+    "topic": "AI · BRAIN ROT",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "watermark": "@NikBearBrown",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the composer; spoken outro stays.",
+    "audience": "smart general audience — pragmatic, not necessarily AI experts; every term explained",
+    "source_doc": "nikbearbrown/humanitarians-youtube-muse, claude-for-artificial-intelligence/how-to-rot-your-brain-with-ai/beat_sheet.json (read 2026-10-03); evidence beats B07/B08 fact-checked 2026-10-03, see FACTCHECK.md",
+    "playlist": "How to use AI",
+    "chapter_number": 0,
+    "tags": [
+      "AI brain rot",
+      "cognitive offloading",
+      "ChatGPT",
+      "how to use AI",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. You asked: how do I outsource everything to AI, and stay sharp? Wrong question. Everything includes the thinking. The real question is: how do I outsource the work, and keep the thinking?",
+      "estimated_duration_s": 15.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'How do I outsource everything to AI and stay sharp?'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'outsource everything' → 'outsource the work' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I outsource everything\nto AI and stay sharp?",
+            "triggerWords": "outsource everything",
+            "replacementWords": "outsource the work",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "how-to-rot-your-brain-with-ai",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive outsource-everything question and corrects it to the real one: outsource the work, keep the thinking.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms you'll hear. Brain rot: your judgment fading, because you stopped doing the thinking. Outsource: handing work off — to someone, or to something. And constraints: the rules you set before you start. The format, who's reading it, and what's not allowed in.",
+      "estimated_duration_s": 17.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'brain rot' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'outsource' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'constraints' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "brain rot",
+                "meaning": "your judgment fading, because you stopped doing the thinking"
+              },
+              {
+                "term": "outsource",
+                "meaning": "handing work off — to someone, or to something"
+              },
+              {
+                "term": "constraints",
+                "meaning": "the rules you set first: format, audience, what's not allowed"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Meet your brain. It runs on use — the more you think things through, the stronger it gets. And meet your AI. It never sleeps, never gets tired, and it will do any work you hand it. The only question: which work should you never hand over?",
+      "estimated_duration_s": 18.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A worker with a glowing brain in the head stands left; a dark AI box with a terracotta spark drops in right; labels 'you' and 'your AI'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "worker fades in with glowing brain"
+          },
+          {
+            "at": 0.45,
+            "event": "the dark AI box drops in; its spark lights"
+          },
+          {
+            "at": 0.7,
+            "event": "labels 'you' / 'your AI' land"
+          }
+        ],
+        "manim": {
+          "class": "B00_Hero"
+        },
+        "motion_claim": "A worker with a glowing brain in the head stands left; a dark AI box with a terracotta spark drops in right; labels 'you' and 'your AI'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here's how most people use AI. Problem. Open the app. Paste it in. Hope it understands. Like GPS: it gets you there. But you stop learning the terrain. And the first time you navigate without it, you're lost in your own city.",
+      "estimated_duration_s": 16.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A phone draws a turn-by-turn route while a 'terrain knowledge' gauge beside it drains from full to one bar.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "worker and phone arrive"
+          },
+          {
+            "at": 0.35,
+            "event": "the route draws on the phone"
+          },
+          {
+            "at": 0.6,
+            "event": "the terrain-knowledge gauge fills, then drains"
+          }
+        ],
+        "manim": {
+          "class": "B01_PasteHope"
+        },
+        "motion_claim": "A phone draws a turn-by-turn route while a 'terrain knowledge' gauge beside it drains from full to one bar."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So here's the one line you can't cross. Outsource work to AI — that's fine. But you cannot outsource understanding. The thinking that happens before you open the app stays yours. Clear intent in, useful output out. Vague hope in, garbage out.",
+      "estimated_duration_s": 16.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Pages and a gear fly into the AI box and earn an ink check ('work'); a terracotta ring locks around the worker's brain ('understanding').",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "worker and AI box on stage"
+          },
+          {
+            "at": 0.3,
+            "event": "pages and gear arc into the box; check lands"
+          },
+          {
+            "at": 0.65,
+            "event": "the ring grows around the brain; label swaps to 'understanding'"
+          }
+        ],
+        "manim": {
+          "class": "B02_OneLine"
+        },
+        "motion_claim": "Pages and a gear fly into the AI box and earn an ink check ('work'); a terracotta ring locks around the worker's brain ('understanding')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The fix is five steps, and the first two are yours — before you touch the AI. One: write your constraints. What should this look like, who's reading it, what's not allowed. Two: write a rough draft. A bad one. That draft is your thinking, on paper.",
+      "estimated_duration_s": 18.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A 'constraints' card lands with its three lines (format, audience, not allowed); a pencil scribbles a messy rough draft on a page.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "the constraints card drops in with its three lines"
+          },
+          {
+            "at": 0.5,
+            "event": "page and pencil arrive"
+          },
+          {
+            "at": 0.7,
+            "event": "the pencil scribbles the rough draft"
+          }
+        ],
+        "manim": {
+          "class": "B03_ThinkFirst"
+        },
+        "motion_claim": "A 'constraints' card lands with its three lines (format, audience, not allowed); a pencil scribbles a messy rough draft on a page."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Three: paste your draft and your constraints into the AI. Four: ask for three versions. Now the AI is working inside your thinking — not instead of it.",
+      "estimated_duration_s": 11.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The draft page and constraints card slide into the AI box; three finished pages spring out, labelled '3 versions'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "draft, constraints card and AI box on stage"
+          },
+          {
+            "at": 0.35,
+            "event": "draft and card arc into the box"
+          },
+          {
+            "at": 0.65,
+            "event": "three pages spring out; '3 versions' lands"
+          }
+        ],
+        "manim": {
+          "class": "B04_HandOver"
+        },
+        "motion_claim": "The draft page and constraints card slide into the AI box; three finished pages spring out, labelled '3 versions'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Five: pick one version, edit it, call it yours. Two extra minutes of thinking at the start — and what comes out is genuinely yours.",
+      "estimated_duration_s": 10.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three pages in a row; the middle one lifts, a pencil edit line draws on it, an ink check lands, label 'yours'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "three pages land in a row"
+          },
+          {
+            "at": 0.4,
+            "event": "the middle page lifts"
+          },
+          {
+            "at": 0.65,
+            "event": "edit line draws; check and 'yours' land"
+          }
+        ],
+        "manim": {
+          "class": "B05_YouDecide"
+        },
+        "motion_claim": "Three pages in a row; the middle one lifts, a pencil edit line draws on it, an ink check lands, label 'yours'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Same method, everywhere you work. A strategy document — say, a ninety-day rollout plan: you write the goals first. An email: you write the one point that must land. A spreadsheet: you list your assumptions. Intent first, always.",
+      "estimated_duration_s": 15.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three stations — strategy page, email envelope, spreadsheet grid — each with a small AI box: the pencil writes first, then the work slides into the box.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "three stations land: strategy, email, spreadsheet"
+          },
+          {
+            "at": 0.35,
+            "event": "station one: pencil writes, work slides into its AI box"
+          },
+          {
+            "at": 0.6,
+            "event": "station two: same motion"
+          },
+          {
+            "at": 0.8,
+            "event": "station three: same motion"
+          }
+        ],
+        "manim": {
+          "class": "B06_ThreeDomains"
+        },
+        "motion_claim": "Three stations — strategy page, email envelope, spreadsheet grid — each with a small AI box: the pencil writes first, then the work slides into the box."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "In London, researchers scanned twenty-four volunteers navigating the city. When they navigated themselves, the brain's navigation areas lit up with every junction. When they followed turn-by-turn directions, those areas simply didn't respond. The brain switched off its interest in the streets around it. Published in Nature Communications, 2017.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A head with a glowing brain region; turn-by-turn arrows arrive and the glow dies to ghost grey; caption 'UCL, 2017'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "head fades in, brain region glowing"
+          },
+          {
+            "at": 0.5,
+            "event": "turn-by-turn arrows draw in from the right"
+          },
+          {
+            "at": 0.65,
+            "event": "the glow dies; label swaps to 'GPS navigates'; caption lands"
+          }
+        ],
+        "manim": {
+          "class": "B07_GPSBrain"
+        },
+        "motion_claim": "A head with a glowing brain region; turn-by-turn arrows arrive and the glow dies to ghost grey; caption 'UCL, 2017'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And it's not just maps. In 2025, MIT put brain sensors on fifty-four people writing essays. The ChatGPT group showed the weakest brain engagement — and afterward, eighty-three percent of them couldn't quote a single sentence of the essay they'd just written, against eleven percent in the group that wrote without AI. Per MIT Media Lab — a preprint, so suggestive, not settled.",
+      "estimated_duration_s": 25.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two meters: 'wrote with AI' fills to a hero 83%, 'wrote without AI' to 11%; caption 'per MIT Media Lab, 2025 · preprint'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "'wrote with AI' meter fills; hero 83% lands"
+          },
+          {
+            "at": 0.55,
+            "event": "'wrote without AI' meter fills to 11%"
+          },
+          {
+            "at": 0.8,
+            "event": "attribution caption lands"
+          }
+        ],
+        "manim": {
+          "class": "B08_EightyThree"
+        },
+        "motion_claim": "Two meters: 'wrote with AI' fills to a hero 83%, 'wrote without AI' to 11%; caption 'per MIT Media Lab, 2025 · preprint'."
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The trap is subtle. Brain rot doesn't feel like getting dumb. It feels like getting fast. You're shipping more, faster. But when someone asks why you did it that way, you can't explain. You used AI to think, so you wouldn't have to.",
+      "estimated_duration_s": 17.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The AI box streams out pages while a speedometer needle swings up; a 'why?' bubble pops over the worker as his brain gauge drains.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "AI box and worker on stage"
+          },
+          {
+            "at": 0.3,
+            "event": "pages stream out; the needle swings up"
+          },
+          {
+            "at": 0.65,
+            "event": "'why?' bubble pops; the brain gauge drains"
+          }
+        ],
+        "manim": {
+          "class": "B09_FastTrap"
+        },
+        "motion_claim": "The AI box streams out pages while a speedometer needle swings up; a 'why?' bubble pops over the worker as his brain gauge drains."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Pick one thing you're working on this week. Write your constraints and a rough draft before you open the AI. Then paste this in: Here is my rough draft and my constraints — paste your draft, then your constraints: audience, format, and what can't be in it. Give me three improved versions. Keep my core point. Don't change my voice. Run it, and notice: the AI is working inside your thinking now, not instead of it.",
+      "estimated_duration_s": 31.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "AI · YOUR TURN",
+            "segment": "Outsource Work, Not Understanding",
+            "command": "Here is my rough draft and my constraints: [paste your draft here] [paste your constraints: audience, format, and what can't be in it]. Give me 3 improved versions. Keep my core point. Don't change my voice.",
+            "runningText": "paste this into your AI…",
+            "output": [
+              "Check: the AI worked inside your thinking, not instead of it.",
+              "Check: you can explain every choice in the version you picked."
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "How to outsource everything to AI & get dumb. At Nik Bear Brown.",
+      "estimated_duration_s": 5.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "How to outsource everything to AI & get dumb",
+            "slug": "how-to-rot-your-brain-with-ai",
+            "handle": "@NikBearBrown",
+            "subline": "Outsource work, not understanding."
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
