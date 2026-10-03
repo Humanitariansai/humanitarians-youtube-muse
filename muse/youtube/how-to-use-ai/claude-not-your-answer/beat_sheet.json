@@ -1,0 +1,567 @@
+{
+  "metadata": {
+    "slug": "claude-not-your-answer",
+    "title": "Claude, Not Your Answer.",
+    "topic": "CLAUDE · AI PRIVACY AT WORK",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "Hallo (clean per prior films)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience — not necessarily AI experts",
+    "source_doc": "mirror repo nikbearbrown/humanitarians-youtube-muse, claude-for-artificial-intelligence/hai-not-your-answer/ (read 2026-10-03); facts re-checked against primary sources, see FACTCHECK.md",
+    "playlist": "How to Use AI",
+    "chapter_number": 0,
+    "tags": [
+      "Claude",
+      "AI privacy",
+      "model training",
+      "opt out",
+      "data retention",
+      "Samsung",
+      "clean room",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. You use Claude at work, and the answers are good. So the real question is not whether to use it. It is what you should never paste into it.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Can I paste my work'"
+          },
+          {
+            "at": 0.55,
+            "event": "backspaces 'paste my work' -> 'paste anything confidential'"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Can I paste my work\ninto Claude?",
+            "triggerWords": "paste my work",
+            "replacementWords": "paste anything confidential",
+            "fontSize": 70,
+            "charSize": 22,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "claude-not-your-answer",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive paste question and corrects it to the real one: what is confidential.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms you will need. Training: when a company uses your chats to teach its model. Retention: how long it keeps those chats. And a clean room: a personal rule that sensitive stuff never enters the chat at all.",
+      "estimated_duration_s": 15.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'training' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'retention' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'clean room' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "training",
+                "meaning": "a company using your chats to teach its model"
+              },
+              {
+                "term": "retention",
+                "meaning": "how long the company keeps your chats"
+              },
+              {
+                "term": "clean room",
+                "meaning": "a rule: sensitive stuff never enters the chat"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Picture the scene. You are on a deadline, Claude is open, and the document you need summarized is right there. You paste it in and get your answer in seconds. That paste — quick, harmless-feeling — is what this film is about.",
+      "estimated_duration_s": 16.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Your chat window; a document slides in from the left and a ring marks the paste.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "chat window lands"
+          },
+          {
+            "at": 0.35,
+            "event": "document slides into the window"
+          },
+          {
+            "at": 0.7,
+            "event": "a ring marks the paste"
+          }
+        ],
+        "manim": {
+          "class": "B00_ThePaste"
+        },
+        "motion_claim": "Your chat window; a document slides in from the left and a ring marks the paste."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "In April 2023, Samsung let its engineers use ChatGPT. Within about three weeks, three leaks: source code pasted to fix a bug, equipment code pasted to fix a defect, and a whole meeting uploaded for minutes. Samsung banned the tools and warned of disciplinary action.",
+      "estimated_duration_s": 18.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three documents drop one by one into a chat window; a ban stamp lands over it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "chat window"
+          },
+          {
+            "at": 0.35,
+            "event": "first document drops in"
+          },
+          {
+            "at": 0.55,
+            "event": "second document drops in"
+          },
+          {
+            "at": 0.7,
+            "event": "third document drops in"
+          },
+          {
+            "at": 0.88,
+            "event": "ban stamp lands"
+          }
+        ],
+        "manim": {
+          "class": "B01_Samsung"
+        },
+        "motion_claim": "Three documents drop one by one into a chat window; a ban stamp lands over it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here is why the paste matters. On a personal Claude plan — Free, Pro, or Max — your chats can train the model, and be kept up to five years. Since September 2025, that training is on by default.",
+      "estimated_duration_s": 15.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A cable runs from your chat window to a dark training server; its lights come on; a '5 years' tag lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "chat window and training server"
+          },
+          {
+            "at": 0.4,
+            "event": "cable draws; server lights come on"
+          },
+          {
+            "at": 0.65,
+            "event": "'5 years' tag lands"
+          },
+          {
+            "at": 0.85,
+            "event": "the ON toggle"
+          }
+        ],
+        "manim": {
+          "class": "B02_TheMechanism"
+        },
+        "motion_claim": "A cable runs from your chat window to a dark training server; its lights come on; a '5 years' tag lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The fix is one toggle. In Claude: Settings, then Privacy, and switch the training toggle off. Do it before your next conversation, not after.",
+      "estimated_duration_s": 9.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A settings panel; the Privacy row highlights; a cursor flips the training toggle from ON to OFF.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "settings panel"
+          },
+          {
+            "at": 0.4,
+            "event": "Privacy row highlights"
+          },
+          {
+            "at": 0.65,
+            "event": "cursor flips the toggle OFF"
+          }
+        ],
+        "manim": {
+          "class": "B03_TheToggle"
+        },
+        "motion_claim": "A settings panel; the Privacy row highlights; a cursor flips the training toggle from ON to OFF."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The same switch exists everywhere. ChatGPT: Settings, Data controls, turn off Improve the model for everyone. Grok: on X, Settings, Privacy and safety, uncheck training. Gemini: on Google's My Activity page, turn off Gemini Apps activity.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three app panels — ChatGPT, Grok, Gemini — each with a toggle that flips OFF in turn.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "three panels land"
+          },
+          {
+            "at": 0.35,
+            "event": "ChatGPT toggle flips"
+          },
+          {
+            "at": 0.6,
+            "event": "Grok toggle flips"
+          },
+          {
+            "at": 0.8,
+            "event": "Gemini toggle flips"
+          }
+        ],
+        "manim": {
+          "class": "B04_Everywhere"
+        },
+        "motion_claim": "Three app panels — ChatGPT, Grok, Gemini — each with a toggle that flips OFF in turn."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One catch: the toggle only works going forward. It cannot pull back anything already used in a training run. So flip it now — not after your next session.",
+      "estimated_duration_s": 11.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The OFF toggle; an arrow runs forward from it; a sealed box marked 'already used' stays shut.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "toggle OFF"
+          },
+          {
+            "at": 0.4,
+            "event": "arrow runs forward"
+          },
+          {
+            "at": 0.65,
+            "event": "sealed 'already used' box stays shut"
+          }
+        ],
+        "manim": {
+          "class": "B05_GoingForward"
+        },
+        "motion_claim": "The OFF toggle; an arrow runs forward from it; a sealed box marked 'already used' stays shut."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "I am not a lawyer — but a lawyer could frame a paste three ways. Breaking your NDA: the AI company is an outside party. Breaking data protection law, depending on where you live. Or breaking your own company's IT policy.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three seals stamp down in a row: NDA, data law, IT policy.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "NDA seal stamps"
+          },
+          {
+            "at": 0.5,
+            "event": "data-law seal stamps"
+          },
+          {
+            "at": 0.75,
+            "event": "IT-policy seal stamps"
+          }
+        ],
+        "manim": {
+          "class": "B06_Legal"
+        },
+        "motion_claim": "Three seals stamp down in a row: NDA, data law, IT policy."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So run a clean room. Four things never go into a personal AI account: client names, internal financials, source code, meeting recordings. And anonymize before you paste — swap real names for placeholders.",
+      "estimated_duration_s": 13.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Four documents each get an X; then one document's real name swaps to a placeholder.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "four documents"
+          },
+          {
+            "at": 0.35,
+            "event": "X marks land one by one"
+          },
+          {
+            "at": 0.7,
+            "event": "a name swaps to a placeholder"
+          }
+        ],
+        "manim": {
+          "class": "B07_CleanRoom"
+        },
+        "motion_claim": "Four documents each get an X; then one document's real name swaps to a placeholder."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And if your company will pay for it: work and enterprise plans do not train on your data at all. If sensitive data is your daily work, that is the plan to ask for.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An office block rises; a shield with a check lands on it: no training.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "office block rises"
+          },
+          {
+            "at": 0.55,
+            "event": "shield lands"
+          },
+          {
+            "at": 0.75,
+            "event": "check draws; 'no training'"
+          }
+        ],
+        "manim": {
+          "class": "B08_Enterprise"
+        },
+        "motion_claim": "An office block rises; a shield with a check lands on it: no training."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: Look through our past chats and list every piece of work data I pasted in — names, numbers, code, meetings — and flag what should never have gone in. Then check two things yourself: in Claude, open Settings, then Privacy, and confirm the training toggle is off. And delete any chat holding something confidential.",
+      "estimated_duration_s": 24.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Audit Your AI Privacy",
+            "command": "Look through our past chats and list every piece of work data I pasted in — names, numbers, code, meetings — and flag what should never have gone in.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: Claude → Settings → Privacy — the training toggle is off.",
+              "Check: any chat holding something confidential is deleted."
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Claude, Not Your Answer. At Nik Bear Brown.",
+      "estimated_duration_s": 3.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Claude, Not Your Answer.",
+            "slug": "claude-not-your-answer",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
