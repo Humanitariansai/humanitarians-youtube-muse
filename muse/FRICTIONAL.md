@@ -74,3 +74,77 @@ Evidence: 12 files verified live at
 youtube-muse; CHECKS-REPORT.md records the clean gate. Next step: Bear
 renders narration (Kokoro am_onyx) and the review cut on his Mac per
 CLAUDE-CODE-RENDER.md, and tells me the next film's topic. [record]
+
+---
+
+## 2026-10-03 — Redos: the two muse/youtube films for a general audience
+
+**1. Date and what I was working on.**
+2026-10-03. Bear's redo directive: rebuild the two films under
+`muse/youtube/` for the humanitarians AI YouTube channel — general
+audience (smart, pragmatic, not AI experts), explain every term, show
+rather than tell. [record]
+
+**2. I tried / expected.**
+I expected two lecture-skill films in my 11-file package format. The
+originals turned out to be full-toolkit-pipeline films (rich beat
+schema, built artifacts), not my simplified format — so "redo" meant
+adapting their act structures and attribution maps into my workflow,
+not converting files. [my input]
+
+**3. What happened (including failures and reversals).**
+- Found the two films: `claude-liam-lecture-claude-making-a-film-about-muse/`
+  (Bear & Claude's analysis: product, costs, business model, 12-point
+  security critique, Bear's resolution; 6 acts) and
+  `claude-liam-lecture-muse-making-a-film-about-muse/` (product
+  explainer; 4 acts). [record]
+- Noted the second film's folder has a committed
+  `__pycache__/scenes.cpython-314.pyc` and `.DS_Store` files — minor
+  standing-rule violations from a previous session. Left untouched;
+  flagged to Bear instead of deleting someone else's history. Its
+  `mp3/` holds only timings.json — no audio was committed. [record]
+- Redo A ("Muse making a film about Muse" → `muse/youtube/muse-for-everyone/`):
+  22 beats, 17 body, 404 s; 17 scenes, QC 17 clean · 0 warn · 0 error
+  first run. [record]
+- Redo B ("Claude making a film about Muse" →
+  `muse/youtube/claude-on-muse-for-everyone/`): 21 beats, 16 body, 418 s;
+  19 scenes, QC 19 clean · 0 warn · 0 error first run. Two pre-gate
+  catches: `DashedRectangle` isn't in the QC stub (NameError — replaced
+  with Rectangle); a `FadeIn` + `.animate` on one mobject in a single
+  play() would fight in real Manim (split). The duration assert caught
+  426 s > 420 s cap; five beats trimmed to 418 s. [record]
+- Translation decisions for the general audience: "fail-safe defaults
+  (Saltzer & Schroeder, 1975)" → the two-bouncers visual; "behavioral
+  promise, not a technical boundary" → "a promise, not a wall"; token
+  allowances cut; open-questions act cut; attribution discipline
+  preserved throughout ("researchers report", "their read", "in Nik's
+  experience", "the document reports"). [judgment]
+- Skill choice: lecture for the product explainer (whole-product
+  coverage, same as the original); deep-explainer shape for the analysis
+  film (it's an argument: read → critique → resolution). [judgment]
+
+**4. What I did.**
+Built both 11-file packages, pushed all files plus folder READMEs via
+the Contents API, verified all 24 files live via API reads. Originals
+untouched. [record]
+
+**5. What Claude or another person contributed.**
+Bear set the redo directive, the audience rule, and the skill menu. The
+original film packages (act structures, attribution map, Bear's
+document via its citations) were built by a previous session and served
+as the adaptation source; every narration line and visual is new.
+The security-critique substance is Bear & Claude's analysis, voiced as
+their opinion throughout. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the redo pattern now: keep the spine and the attribution,
+rewrite the words, redraw the pictures. I don't know whether Bear wants
+the originals' folders cleaned of the .pyc/.DS_Store, or which film
+comes next. [my input]
+
+**7. Evidence and next step.**
+Evidence: `muse/youtube/muse-for-everyone/` (12 files) and
+`muse/youtube/claude-on-muse-for-everyone/` (12 files) verified live;
+CHECKS-REPORT.md files record the clean gates. Next step: Bear renders
+on his Mac per the CLAUDE-CODE-RENDER.md files, and names the next
+film. [record]
