@@ -1,0 +1,21 @@
+{
+  "candidate": "Candidate 04",
+  "candidate_num": 4,
+  "title": "Why an Invisible Change Can Flip a Model's Mind",
+  "question": "Why an Invisible Change Can Flip a Model's Mind",
+  "slug": "why-invisible-change-can-flip-models-mind",
+  "channel": "@HumanitariansAI",
+  "skill": "course-skepticism",
+  "course": "computational-skepticism-for-ai",
+  "video_ideas_path": "computational-skepticism-for-ai/vids/video-ideas.md",
+  "source_chapter": "computational-skepticism-for-ai/chapters/04-robustness-what-understanding-means-when-a-pixel-can-break-the-model.md",
+  "score": "9/10",
+  "production_mode": "Mixed",
+  "hook": "Change every pixel by an amount no human eye can detect, and the classifier flips from \"panda\" to \"gibbon\" \u2014 with even higher confidence.",
+  "core_idea": "In a million-dimensional input, a per-coordinate nudge of \u03b5 aligned with the weights (\u03b4 = \u03b5\u00b7sign(w)) accumulates into a total activation shift of \u03b5\u2016w\u2016\u2081 \u2014 imperceptible per coordinate, decisive in sum.",
+  "visual_object": "a running-sum bar that grows as thousands of tiny per-coordinate pushes are added one by one, crossing the decision threshold",
+  "manim_move": "accumulate",
+  "prerequisites": "dot product, rough idea of a decision score/threshold",
+  "exclusions": "no PGD iteration/projection math, no boundary-tilting account, no defense toolkit, no non-robust-features debate",
+  "mode": "spec"
+}

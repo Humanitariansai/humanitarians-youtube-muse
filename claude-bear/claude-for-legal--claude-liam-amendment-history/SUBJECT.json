@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Amendment History.",
+ "slug": "claude-for-legal--claude-liam-amendment-history",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-amendment-history/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-amendment-history",
+ "family": "claude-for-legal",
+ "mode": "redo"
+}

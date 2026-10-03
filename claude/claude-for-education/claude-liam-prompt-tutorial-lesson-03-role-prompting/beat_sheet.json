@@ -1,0 +1,357 @@
+{
+ "metadata": {
+  "slug": "claude-liam-prompt-tutorial-lesson-03-role-prompting",
+  "title": "Role Prompting: Register and Calibration, Not Costume",
+  "channel": "hai",
+  "persona": "Kore",
+  "brand": "claude-liam",
+  "audience": "Claude",
+  "engine": "kokoro",
+  "voice": "af_kore",
+  "voice_kokoro": "af_kore",
+  "palette": "claude",
+  "register": "Pragmatist",
+  "format": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "source": "Anthropic Prompt Engineering Interactive Tutorial — Lesson 03: Role Prompting",
+  "topic": "PROMPT ENGINEERING · ANTHROPIC",
+  "build": {
+   "at": "2026-07-17T00:52:23",
+   "cut": "review",
+   "filled": 7,
+   "of": 7,
+   "slates": [],
+   "skin_warnings": [
+    "B06: palette=claude but the outro is 'LogoOutro' — OUTRO LAW wants ClaudeTitleOutro"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Kore for Humanitarians AI.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Talofa, Humanitarians",
+      "topic": "HUMANITARIANS AI · Role Prompting: Register and Calibration, Not Costume",
+      "segment": "Humanitarians AI",
+      "command": "This is Humanitarians.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "YTV01",
+   "act": "VERDICT",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "lead_silence_s": 0.5,
+   "narration_text": "Let's recap with Claude. Register combines four axes: vocabulary complexity, assumed reader knowledge, tone formality, and explanation depth. Assigning a role like pediatric oncologist or pathologist shifts all four axes while the factual content stays the same. Role is functional and calibrates the response; persona adds character and voice, and both are valid different uses. Use role when response quality is sensitive to register; skip it for purely factual, register-agnostic tasks.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Role calibrates register, not costume",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "Register combines four axes: vocabulary complexity, assumed reader knowledge, tone formality, and explanation depth.",
+       "Assigning a role like pediatric oncologist or pathologist shifts all four axes while the factual content stays the same.",
+       "Role is functional and calibrates the response; persona adds character and voice, and both are valid different uses.",
+       "Use role when response quality is sensitive to register; skip it for purely factual, register-agnostic tasks."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "estimated_duration_s": 22
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Here is why Role Prompting: Register and Calibration, Not Costume belongs in your working knowledge. The systems, policies, and tools shaped by it affect decisions at your level — whether or not you understand the mechanism. Knowing the underlying logic gives you the frame; missing it means reasoning from output with no access to the inputs.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Role calibrates register, not costume",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "Register combines four axes: vocabulary complexity, assumed reader knowledge, tone formality, and explanation depth.",
+       "Assigning a role like pediatric oncologist or pathologist shifts all four axes while the factual content stays the same.",
+       "Role is functional and calibrates the response; persona adds character and voice, and both are valid different uses.",
+       "Use role when response quality is sensitive to register; skip it for purely factual, register-agnostic tasks."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B00",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "The four-axis view of register, vocabulary, assumed knowledge, tone, and depth, made role prompting click for me, along with the test of whether the role changes what counts as a good answer. I want to feel the difference directly. Can you (1) answer one fixed factual question twice, once as a pediatric oncologist speaking to a child and once as a pathologist at grand rounds, (2) annotate how each of the four axes shifted between them, and (3) give me one task where adding a role would add zero value and explain why?",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · PROMPT ENGINEERING · ANTHROPIC",
+      "segment": "Role Prompting: Register and Calibration, Not Costume",
+      "command": "The four-axis view of register, vocabulary, assumed knowledge, tone, and depth, made role prompting click for me, along with the test of whether the role changes what counts as a good answer. I want to feel the difference directly. Can you (1) answer one fixed factual question twice, once as a pediatric oncologist speaking to a child and once as a pathologist at grand rounds, (2) annotate how each of the four axes shifted between them, and (3) give me one task where adding a role would add zero value and explain why?",
+      "runningText": "reading the tutorial…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B00.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "greeting": "Kumusta, Kore",
+    "topic": "PROMPT ENGINEERING · ANTHROPIC",
+    "segment": "Role Prompting: Register and Calibration, Not Costume",
+    "command": "Role prompting is misunderstood as costume. A role prompt sets register: vocabulary, assumed knowledge level, tone, depth. That is calibration, not theater. And calibration matters for every response.",
+    "runningText": "reading the tutorial…",
+    "folderLabel": "@HumanitariansAI",
+    "modelLabel": "Fable 5",
+    "effortLabel": "High"
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 17.86,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B00.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:52:23"
+   }
+  },
+  {
+   "beat_id": "B01",
+   "scene": "B01_RegisterMatrix",
+   "narration_text": "Register is the combination of four axes: vocabulary complexity, assumed knowledge of the reader, tone formality, and explanation depth. Assign Claude the role of a pediatric oncologist talking to a child, and all four shift: simple words, no assumed prior knowledge, warm tone, short explanations. Assign the role of a pathologist presenting at grand rounds, and all four shift in the other direction. Same factual content. Two completely different responses.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B01_RegisterMatrix",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 24.47,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B01.mp4",
+    "filled_by": "manim:B01_RegisterMatrix",
+    "at": "2026-07-17T00:52:23"
+   }
+  },
+  {
+   "beat_id": "B02",
+   "scene": "B02_RoleVsPersona",
+   "narration_text": "There is an important distinction between role and persona. Role is functional: 'You are an expert tax attorney.' It calibrates the response. Persona goes further: 'You are Marcus, a sardonic 1970s tax attorney who uses nautical metaphors.' Persona adds character, voice, consistency. Both are valid uses. Know which one you need. Role for calibration. Persona for voice.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B02_RoleVsPersona",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B02.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 20.71,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B02.mp4",
+    "filled_by": "manim:B02_RoleVsPersona",
+    "at": "2026-07-17T00:52:23"
+   }
+  },
+  {
+   "beat_id": "B03",
+   "scene": "B03_WhenRoleHelps",
+   "narration_text": "Role prompting helps most when the response quality is sensitive to register: technical writing for a specific audience, explanations at a specific knowledge level, editorial feedback in a specific tradition. It helps least when the task is purely factual and register-agnostic. Writing a tax return or extracting a date from a document: role adds no value there. The test: does the role change what counts as a good answer? If yes, use it.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B03_WhenRoleHelps",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B03.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 22.93,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B03.mp4",
+    "filled_by": "manim:B03_WhenRoleHelps",
+    "at": "2026-07-17T00:52:23"
+   }
+  },
+  {
+   "beat_id": "B04",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "Your turn. Take one prompt and run it under three different roles: a domain expert, a curious generalist, and a skeptic. Compare the outputs. You are not looking for which is better — you are learning what the role actually controls. The delta between those three responses is the range of register your role prompt is navigating. Kore, in for Humanitarians AI.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · PROMPT ENGINEERING · ANTHROPIC",
+      "segment": "Role Prompting: Register and Calibration, Not Costume",
+      "command": "Run one prompt under three roles: domain expert, curious generalist, skeptic. Compare the outputs to learn what the role actually controls.",
+      "runningText": "paste this into Claude…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B04.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "greeting": "Your turn.",
+    "topic": "PROMPT ENGINEERING · ANTHROPIC",
+    "segment": "Role Prompting: Register and Calibration, Not Costume",
+    "command": "Run one prompt under three roles: domain expert, curious generalist, skeptic. Compare the outputs to learn what the role actually controls.",
+    "runningText": "paste this into Claude…",
+    "folderLabel": "@HumanitariansAI",
+    "modelLabel": "Fable 5",
+    "effortLabel": "High"
+   },
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 17.45,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B04.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:52:23"
+   }
+  },
+  {
+   "beat_id": "B05",
+   "scene": "ClaudeTitleOutro",
+   "narration_text": "Role Prompting: Register and Calibration, Not Costume",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Role Prompting: Register and Calibration, Not Costume",
+      "handle": "@HumanitariansAI",
+      "subline": "Kore, in for Humanitarians AI."
+     },
+     "rendered": {
+      "out": "media/B05.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "title": "Role Prompting: Register and Calibration, Not Costume",
+    "handle": "@HumanitariansAI",
+    "subline": "Kore, in for Humanitarians AI."
+   },
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 5.1,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B05.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:52:23"
+   }
+  },
+  {
+   "beat_id": "B06",
+   "act": "outro",
+   "narration_text": "Role Prompting: Register and Calibration, Not Costume. From Humanitarians AI.",
+   "reuse_audio": "mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 13.68,
+   "new_visual_element": "bear-brown logo sting — glitchSlices",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Role Prompting: Register and Calibration, Not Costume",
+      "handle": "@HumanitariansAI",
+      "subline": "youtube.com/@HumanitariansAI"
+     },
+     "picked": {
+      "brand": "bear-brown",
+      "animation": "glitchSlices",
+      "svg": "bear-brown-logo-2.svg",
+      "mp3": "bear-brown-1.mp3",
+      "locked": true
+     },
+     "rendered": {
+      "out": "media/B06.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B06.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:52:23"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  }
+ ]
+}

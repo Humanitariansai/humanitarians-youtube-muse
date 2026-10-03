@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Action Creator.",
+ "slug": "claude-agent-sdk-demos--claude-liam-action-creator",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-agent-sdk-demos/youtube/claude-liam-action-creator/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-agent-sdk-demos/youtube/claude-liam-action-creator",
+ "family": "claude-agent-sdk-demos",
+ "mode": "redo"
+}

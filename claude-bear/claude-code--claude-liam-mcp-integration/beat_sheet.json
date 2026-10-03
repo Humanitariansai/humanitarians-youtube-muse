@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "title": "MCP Integration.",
+    "slug": "claude-code--claude-liam-mcp-integration",
+    "topic": "MCP INTEGRATION · CLAUDE CODE PLUGINS",
+    "purpose": "Answer whether connecting a Claude Code plugin to an external service is a thing you ask for or a thing you configure, using the mcp-integration skill's own Asana tool-naming convention as the concrete case. Lands the carry-out that MCP integration is a config entry with an exact connection type and tool name, and either one wrong fails silently.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-code/youtube/claude-liam-mcp-integration/beat_sheet.json",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Code",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (the exact Asana tool name, mcp__plugin_asana_asana__asana_create_task: exact match fires precisely, one underscore off fires silently, a wildcard also fires but widens scope)",
+    "build": {
+      "at": "2026-08-29T02:58:43",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone asks how to add an app to their plugin so it can use Asana. But there's no app step — you configure an MCP server, choosing one of four connection types. What's in that config?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'How do I add an app to my Claude plugin so it can use Asana?', hesitates on 'app', corrects to 'MCP server', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I add an app\nto my Claude plugin\nso it can use Asana?",
+            "face": "serif",
+            "fontSize": 64,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "app",
+            "replacementWords": "MCP server",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-mcp-integration"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('app' -> 'MCP server') is visible on a late frame.",
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 10.11,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T02:58:43"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / 2 wrong guess, falsified",
+      "narration_text": "To reach an external service, a plugin declares it — in a config file, as one of four connection types. If this were like installing an app, one setting would work for everything. It doesn't: a local script Claude spawns itself needs stdio; a hosted service authenticating with OAuth, like Asana, needs SSE instead. Pick the wrong type, and Claude can't reach it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "One config box branching to four labelled connection types; a mismatched type crossed out, unreachable"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "One declaration, four types",
+          "mechanic": "A single config box at top labelled 'external service' branches down into four cards: stdio, SSE, HTTP, WebSocket. A fifth ghost card reading 'one app-install setting' fades in center, gets a terracotta strike through it, and dissolves. Then a local-script icon connects cleanly to the stdio card; a hosted-OAuth icon (Asana) tries to connect to stdio instead, and the line breaks with a small terracotta X before rerouting to SSE, which connects cleanly.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "MIVB01Scene"
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 19.31,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T02:58:43"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "Two places to write that declaration. A dedicated dot-mcp-dot-json file at the plugin's root — the usual choice with more than one server. Or an inline mcpServers field inside plugin-dot-json, for a single simple server. Say the Asana server goes in dot-mcp-dot-json, type SSE. Each tool it offers gets a fixed name: mcp, two underscores, plugin, underscore, the plugin name, underscore, the server name, two underscores, the tool name. Asana's create-task tool becomes mcp__plugin_asana_asana__asana_create_task — exactly that string, with two underscores between each section.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Two config file shapes; THE ANCHOR — the exact tool-name string built piece by piece"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — one exact string",
+          "mechanic": "Two file cards fade in side by side: '.mcp.json' (recommended, multiple servers) and 'plugin.json / mcpServers' (single server). Both fade out. THE ANCHOR. The tool-name string builds left to right in monospace, segment by segment, each segment briefly highlighted as it's named: mcp__ / plugin_ / asana_ / asana__ / asana_create_task, assembling into the full string mcp__plugin_asana_asana__asana_create_task, which then holds, centered, large. THIS EXACT STRING RETURNS AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "MIVB02Scene"
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 34.82,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T02:58:43"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "Get that name exactly right, and Claude calls exactly that one tool — nothing more, nothing less. Get one underscore wrong, and nothing happens: no error, just silence, because a name mismatch isn't reported. Some plugins pre-allow with a wildcard instead, to dodge that risk — asana star matches every tool the server offers, not just create-task. That also fires without error. But now the plugin can call anything Asana exposes, which is exactly what the specific name was there to prevent.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS — the exact string firing cleanly on one tool; then a wildcard string lighting up every tool on the same server"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS — exact vs wildcard",
+          "mechanic": "THE B02 STRING RETURNS, identical, and fires cleanly into a single lit tool card: 'asana_create_task'. Then one character is swapped (the final underscore run breaks), the string dims, and 'no error. no strike. just silence.' appears beside it in serif italic. Below, a wildcard string 'mcp__plugin_asana_asana__*' appears and lights up every tool card the Asana server offers, all at once, in teal — no error there either, but now the whole row is lit instead of one card.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "MIVB03Scene"
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 26.13,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T02:58:43"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "Adding an MCP server isn't an app install — it's a config entry with the right connection type and an exact tool name. Get either wrong, and it fails quietly, not loudly.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "Adding an MCP server isn't an app install — it's a config entry with the right connection type and an exact tool name. Get either wrong, and it fails quietly, not loudly.",
+            "attribution": "",
+            "sparkLine": "Exact, or silent."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "actual_duration_s": 10.24,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T02:58:43"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. Add an MCP server to my plugin that connects to Asana for task management. Watch three things when Claude answers: does the configuration land in dot-mcp-dot-json, not inline inside plugin-dot-json? Is the type set to SSE — not stdio, not HTTP — since Asana is a hosted service using OAuth? And does the command's allowed-tools list the exact tool name, mcp__plugin_asana_asana__asana_create_task, rather than a wildcard? Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 28,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "MCP INTEGRATION · CLAUDE CODE PLUGINS",
+            "segment": "Your Turn",
+            "command": "Add an MCP server to my plugin that connects to Asana for task management.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 28.67,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T02:58:43"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "MCP Integration. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "MCP Integration. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 3.41,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T02:58:43"
+      }
+    }
+  ]
+}

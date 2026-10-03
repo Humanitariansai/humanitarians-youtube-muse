@@ -1,0 +1,10 @@
+{
+ "question": "Claude, On Message",
+ "slug": "books--claude-liam-marketing",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-marketing/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-marketing",
+ "family": "books",
+ "mode": "redo"
+}

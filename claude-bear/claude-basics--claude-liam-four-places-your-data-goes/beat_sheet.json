@@ -1,0 +1,1112 @@
+{
+  "metadata": {
+    "title": "Three You Can Take Back. One You Can't.",
+    "slug": "claude-basics--claude-liam-four-places-your-data-goes",
+    "topic": "CLAUDE BASICS · WHERE YOUR DATA GOES",
+    "purpose": "Answer one real question in the Plain register: where does one detail you type into an AI actually go, and which of those places can you undo? Redo of the ai-explainer/Teardown source — same four-level descent (conversation, product memory, provider systems, training) ranked by reversibility, re-registered to Plain, cold open replaced by the hesitant writer, close carrying the Humanitarians AI skin.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/youtube/claude-basics/claude-liam-four-places-your-data-goes/beat_sheet.json",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration (Kokoro am_onyx) — master clock; every beat conforms to measured audio",
+    "register": "Plain",
+    "persona": "Liam (in for Bear)",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "aspect_ratio": "16:9",
+    "playlist": "Claude Basics",
+    "channel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "folderLabel": "@HumanitariansAI",
+    "in_for_bear": true,
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "skill_source": "ai-explainer",
+    "tags": [
+      "Claude",
+      "AI privacy",
+      "data retention",
+      "model training",
+      "AI literacy",
+      "Humanitarians AI",
+      "Anthropic",
+      "memory",
+      "context window",
+      "opt out"
+    ],
+    "audience": "HAI",
+    "sources": [
+      "Inspired by Anthropic's education video 'What does AI know about you?' (Zoe, Anthropic education team). The four-use taxonomy is theirs and is credited on screen (B03) and in this note — nothing is quoted, screenshotted, or parroted.",
+      "Body beats (B01-B22, BVDT) reuse the source reel's ClaudeDescent / ClaudeMemoryReread / ClaudeVerdictArtifact REMOTION components unchanged in visual grammar — they were already valid REMOTION (not AI-video, pantry, or human-drop) so NO-GENAI/NO-PANTRY LAW required no substitution there. Only B00 (BrutalistHesitantWriter) and the outro (OutroCTA) carry the Humanitarians AI skin, per this skill's redo-mode instructions.",
+      "See SCRIPT.md 'Known mixed-skin note' — ClaudeDescent/ClaudeMemoryReread/ClaudeVerdictArtifact are locked to the Claude fidelity token palette (no ink/accent/bg override in their prop schemas); this is expected, not a defect."
+    ],
+    "total_estimated_duration_s": 240,
+    "anchor_pair": "n/a — source used a running four-level descent, not a single planted/paid-off anchor image",
+    "build": {
+      "at": "2026-08-28T09:18:46",
+      "cut": "master",
+      "filled": 26,
+      "of": 26,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone assumes they can just delete what they told an AI. Wrong question — there are four places, and only three let you take it back. So which one can't you undo?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "new_visual_element": "Writer types 'I told an AI where I live. Can I delete it?', hesitates on 'delete', corrects to 'undo', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "I told an AI\nwhere I live.\nCan I delete it?",
+            "face": "serif",
+            "fontSize": 84,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "delete",
+            "replacementWords": "undo",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-four-places-data-goes"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('delete' -> 'undo') is visible on a late frame. BUG FOUND+FIXED: original triggerWords 'delete it' (two words) never matched because BrutalistHesitantWriter matches trigger words against single whitespace-split tokens (buildActs: core.toLowerCase() vs triggers list) — a multi-word trigger phrase can never equal a single token, so the correction silently never fired. Changed to single-word triggerWords 'delete' -> replacementWords 'undo', confirmed on frame pull.",
+      "actual_duration_s": 8.87,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "THE-DETAIL",
+      "narration_text": "Start with the detail. One sentence, three facts: you have a partner, they hike, you live near Denver. Harmless on its own. Also enough to put you, roughly, on a map.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "detail",
+            "detail": [
+              "partner",
+              "hiking",
+              "near Denver"
+            ],
+            "sparkLine": "Three facts.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 9.19,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "THE-DETAIL",
+      "narration_text": "Those three facts don't go to one place. They go to four, and the four are stacked. Each level is narrower than the one above it, because each level keeps less of what you said — and keeps it for longer.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "establish",
+            "levels": [
+              {
+                "name": "The Conversation",
+                "widthPct": 100,
+                "gate": "unresolved"
+              },
+              {
+                "name": "Product Memory",
+                "widthPct": 68,
+                "gate": "unresolved"
+              },
+              {
+                "name": "Provider Systems",
+                "widthPct": 44,
+                "gate": "unresolved"
+              },
+              {
+                "name": "Training",
+                "widthPct": 26,
+                "gate": "unresolved"
+              }
+            ],
+            "detail": [
+              "partner",
+              "hiking",
+              "near Denver"
+            ],
+            "sparkLine": "Four places. Stacked.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 10.35,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "THE-DETAIL",
+      "narration_text": "Anthropic's education team laid these four out and the taxonomy is correct — I'm borrowing it. What they don't draw is the axis that actually decides how careful you should be.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "establish",
+            "levels": [
+              {
+                "name": "The Conversation",
+                "widthPct": 100,
+                "gate": "unresolved"
+              },
+              {
+                "name": "Product Memory",
+                "widthPct": 68,
+                "gate": "unresolved"
+              },
+              {
+                "name": "Provider Systems",
+                "widthPct": 44,
+                "gate": "unresolved"
+              },
+              {
+                "name": "Training",
+                "widthPct": 26,
+                "gate": "unresolved"
+              }
+            ],
+            "highlightGates": true,
+            "sparkLine": "Watch the doors.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B03.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 9.94,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B03.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "THE-DETAIL",
+      "narration_text": "Not where does it go. Which of these can I walk back out of. Every level has a door. Three of them open both ways.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "establish",
+            "levels": [
+              {
+                "name": "The Conversation",
+                "widthPct": 100,
+                "gate": "unresolved"
+              },
+              {
+                "name": "Product Memory",
+                "widthPct": 68,
+                "gate": "unresolved"
+              },
+              {
+                "name": "Provider Systems",
+                "widthPct": 44,
+                "gate": "unresolved"
+              },
+              {
+                "name": "Training",
+                "widthPct": 26,
+                "gate": "unresolved"
+              }
+            ],
+            "highlightGates": true,
+            "sparkLine": "Can you come back?",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 6.42,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "LEVEL-1-CONVERSATION",
+      "narration_text": "Level one is the conversation itself. While the window is open the model is working with your three facts. When the window closes, it isn't holding them anywhere, because it wasn't holding them anywhere else to begin with.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 0,
+            "railCount": 0,
+            "detail": [
+              "partner",
+              "hiking",
+              "near Denver"
+            ],
+            "sparkLine": "Open window only.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 11.58,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "LEVEL-1-CONVERSATION",
+      "narration_text": "Open a fresh chat tomorrow and it starts blank. Not discreet — empty. On its own, the model has no idea your partner hikes, and no way to find out unless you tell it again.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 0,
+            "railCount": 0,
+            "detail": [],
+            "emptied": true,
+            "sparkLine": "Empty, not discreet.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 9.98,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "LEVEL-1-CONVERSATION",
+      "narration_text": "So the first door swings both ways. Close the tab and the detail is gone from the only place it was living. Level one costs you nothing. Almost everything you ever type stops here.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 0,
+            "railCount": 0,
+            "resolveGate": "door-both",
+            "sparkLine": "Both ways.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 10.45,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "LEVEL-2-MEMORY",
+      "narration_text": "Level two is where the language gets loose. So let's ask for the mechanism instead of the marketing.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 7,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "The mechanism,",
+            "command": "Show me what \"the model remembers me\" actually means — mechanically, step by step.",
+            "topic": "CLAUDE BASICS · WHERE YOUR DATA GOES",
+            "segment": "Product Memory",
+            "runningText": "resolving the mechanism…",
+            "output": [],
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 5.93,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "LEVEL-2-MEMORY",
+      "narration_text": "Here's what that phrase hides. The model did not remember you. A file on your account did — and that file gets read into the blank chat before you finish typing your first word.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeMemoryReread",
+          "props": {
+            "cardTitle": "Saved to your account",
+            "cardLines": [
+              "partner",
+              "hiking",
+              "near Denver"
+            ],
+            "sparkLine": "A file, re-read.",
+            "sparkAnchor": "bottom",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 9.54,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "LEVEL-2-MEMORY",
+      "narration_text": "That distinction isn't pedantry, it's the whole point. A memory you can open is a memory you can edit. In most products you can read the file, change a line, clear it, or switch the whole thing off.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 1,
+            "railCount": 1,
+            "detail": [
+              "partner",
+              "hiking",
+              "near Denver"
+            ],
+            "sparkLine": "Openable, editable.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B10.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 10.62,
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B10.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "LEVEL-2-MEMORY",
+      "narration_text": "Second door still swings both ways — but somebody set the latch before you got here. Depending on the product, memory is on by default or waiting to be switched on. That's a setting, and settings are checkable.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 1,
+            "railCount": 1,
+            "resolveGate": "door-both-latch",
+            "sparkLine": "Somebody set it.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B11.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 11.18,
+      "audio_file": "mp3/beat-B11.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B11.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "LEVEL-3-PROVIDER",
+      "narration_text": "Level three isn't the model at all. It's the provider's own machinery — keeping the service up, reviewing for abuse, fixing bugs, research, and depending on the company, commercial uses too.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 2,
+            "railCount": 2,
+            "detail": [
+              "partner",
+              "hiking",
+              "near Denver"
+            ],
+            "sparkLine": "Not the model.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B12.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 10.56,
+      "audio_file": "mp3/beat-B12.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B12.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B13",
+      "act": "LEVEL-3-PROVIDER",
+      "narration_text": "Your three facts sit in that machinery for a retention period. And here is the part worth saying plainly: the period is real, it's usually written down, and it is not yours.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 2,
+            "railCount": 2,
+            "clock": true,
+            "sparkLine": "Written down. Not yours.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B13.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 9.6,
+      "audio_file": "mp3/beat-B13.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B13.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B14",
+      "act": "LEVEL-3-PROVIDER",
+      "narration_text": "Third door still opens both ways — past a clock you don't wind. You can ask for deletion. You don't set the interval.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 2,
+            "railCount": 2,
+            "resolveGate": "door-both-clock",
+            "sparkLine": "You can ask.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B14.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "Register edit: source's trailing clause 'That's not sinister, it's operational' was a design-verdict judgment (Teardown), cut for Plain per redo-mode instructions. Facts (you can ask; you don't set the interval) unchanged.",
+      "actual_duration_s": 6.59,
+      "audio_file": "mp3/beat-B14.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B14.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B15",
+      "act": "LEVEL-3-PROVIDER",
+      "narration_text": "But notice what changed. This is the first level where being in control stops meaning you can undo it, and starts meaning you can file a request and wait.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 2,
+            "railCount": 2,
+            "resolveGate": "door-both-clock",
+            "sparkLine": "Request, not undo.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B15.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 8.68,
+      "audio_file": "mp3/beat-B15.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B15.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B16",
+      "act": "LEVEL-4-TRAINING",
+      "narration_text": "Level four is training. Some providers use conversations to improve the next model. Personal details are generally stripped out first — generally, and that hedge belongs to them, not to me.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 3,
+            "railCount": 3,
+            "detail": [
+              "partner",
+              "hiking",
+              "near Denver"
+            ],
+            "sparkLine": "Generally. Their word.",
+            "sparkAnchor": "bottom",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B16.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 11.05,
+      "audio_file": "mp3/beat-B16.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B16.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B17",
+      "act": "LEVEL-4-TRAINING",
+      "narration_text": "And then your sentence stops being a sentence. It becomes a very small adjustment to how likely certain words are to follow other words. Not a record of you. A pattern.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "MANIM",
+        "source": "own",
+        "manim": {
+          "scene": "B17_WordsBecomePattern",
+          "spec": "The three detail tokens dissolve into a probability distribution over next-tokens. Words break to glyphs, glyphs settle into a bar distribution that nudges by a hair. No colour shift, no darkening — cream stage, warm ink, terracotta only on the single bar that moves. Reveal lands on the spoken word 'pattern'."
+        },
+        "rendered": {
+          "out": "manim/B17.mp4",
+          "at": ""
+        }
+      },
+      "actual_duration_s": 9.15,
+      "audio_file": "mp3/beat-B17.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B17.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B18",
+      "act": "LEVEL-4-TRAINING",
+      "narration_text": "That's offered as reassurance, and it is one — nobody can read your words back out. It's also the door that doesn't swing. You cannot un-train a model on a conversation it has already learned from.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 3,
+            "railCount": 3,
+            "resolveGate": "arch-oneway",
+            "resolveAtP": 0.503,
+            "sparkLine": "This one doesn't swing.",
+            "sparkAnchor": "bottom",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B18.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 10.77,
+      "audio_file": "mp3/beat-B18.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B18.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B19",
+      "act": "LEVEL-4-TRAINING",
+      "narration_text": "Where providers train on conversations, most let you opt out — and you should go find that toggle. But understand what it buys. It protects every conversation after you flip it. Not one before.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "level",
+            "activeLevel": 3,
+            "railCount": 3,
+            "resolveGate": "arch-oneway",
+            "prospectiveOnly": true,
+            "sparkLine": "Forward only.",
+            "sparkAnchor": "bottom",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B19.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 10.52,
+      "audio_file": "mp3/beat-B19.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B19.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B20",
+      "act": "WHAT-FOLLOWS",
+      "narration_text": "Four levels. Three doors that open both ways. One arch.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 7,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "pullback",
+            "levels": [
+              {
+                "name": "The Conversation",
+                "widthPct": 100,
+                "gate": "door-both"
+              },
+              {
+                "name": "Product Memory",
+                "widthPct": 68,
+                "gate": "door-both-latch"
+              },
+              {
+                "name": "Provider Systems",
+                "widthPct": 44,
+                "gate": "door-both-clock"
+              },
+              {
+                "name": "Training",
+                "widthPct": 26,
+                "gate": "arch-oneway"
+              }
+            ],
+            "sparkLine": "Three. And one.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B20.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.86,
+      "audio_file": "mp3/beat-B20.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B20.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B21",
+      "act": "WHAT-FOLLOWS",
+      "narration_text": "That gives you a rule to work from: price what you share against the least reversible place it could reach, not the most likely one. Most of what you type never leaves level one. Decide as though it might.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "pullback",
+            "emphasis": 3,
+            "sparkLine": "Price the worst case.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B21.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "Register edit: source's opening clause 'Which gives you a rule that beats any blanket policy' carried a comparative design judgment ('beats'); trimmed to a neutral 'gives you a rule to work from.' The heuristic itself (facts + advice) is unchanged.",
+      "actual_duration_s": 10.77,
+      "audio_file": "mp3/beat-B21.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B21.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "B22",
+      "act": "WHAT-FOLLOWS",
+      "narration_text": "And the cheapest habit on the list costs you nothing. If the tool doesn't need the real name to do the job, don't give it the real name. Rewording an email works exactly as well with a placeholder in it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeDescent",
+          "props": {
+            "mode": "compare",
+            "before": [
+              "partner",
+              "hiking",
+              "near Denver"
+            ],
+            "after": [
+              "[NAME]",
+              "hiking",
+              "[CITY]"
+            ],
+            "sparkLine": "Swap the name.",
+            "sparkAnchor": "top",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/B22.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 10.88,
+      "audio_file": "mp3/beat-B22.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B22.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "6 CARRY-OUT",
+      "narration_text": "Four places, and they are not the same kind of place. The conversation forgets when you close it. Memory is a file you can open and edit. Provider systems hold it on a clock you don't set. Training turns it into a pattern, and that one is permanent. Opt-outs are forward-looking. Everything else is a setting you can go check in about five minutes.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 19,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Three You Can Take Back. One You Can't.",
+            "artifactHeading": "In short",
+            "artifactLines": [
+              "1 · the conversation — reversible. Close it and it's gone from the only place it lived.",
+              "2 · product memory — reversible. Not the model remembering; a file on your account, re-read.",
+              "3 · provider systems — partial. You can request deletion; you don't set the retention clock.",
+              "4 · training — not reversible. Your words become a pattern, and patterns don't un-learn.",
+              "opt-out protects every conversation after the toggle, and none before it.",
+              "price what you share against the least reversible place it could reach."
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "artifactHeading changed from source's 'The verdict' to 'In short' — same recap lines (already factual, no rewrite needed), judgment-flavored heading word removed per Plain register.",
+      "actual_duration_s": 17.3,
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Open the privacy and data settings for the AI tool you use most, and find four specific things: whether it keeps conversation history, whether it has a memory feature and whether it's on, what retention period it states, and whether training on your conversations is on or off. Then ask which of those four you could reverse tomorrow and which one you couldn't. That last clause is the whole exercise — you'll find the first three are toggles and the fourth is a date.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "command": "Open the privacy and data settings for the AI tool I use most. Find four things: whether it keeps conversation history, whether it has a memory feature and whether it's on, what retention period it states, and whether training on my conversations is on or off. Then tell me which of those four I could reverse tomorrow and which one I couldn't.",
+            "topic": "YOUR TURN · WHERE YOUR DATA GOES",
+            "segment": "Three You Can Take Back. One You Can't.",
+            "runningText": "paste this into Claude and run it on your own account…",
+            "output": [],
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 21.78,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Three you can take back. One you can't. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Three you can take back. One you can't. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.78,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:18:46"
+      }
+    }
+  ]
+}

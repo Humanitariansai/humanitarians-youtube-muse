@@ -1,0 +1,342 @@
+{
+ "metadata": {
+  "title": "Precognition: Why Telling Claude to Think First Doubles Accuracy.",
+  "slug": "claude-liam-prompt-engineering-precognition",
+  "topic": "PROMPT ENGINEERING · ANTHROPIC",
+  "register": "Pragmatist",
+  "audience": "Claude",
+  "brand": "claude-liam",
+  "persona": "Kore (in for Humanitarians AI)",
+  "voice": "af_kore",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "palette": "claude",
+  "style_preset": "claude",
+  "ground": "#FAF9F5",
+  "greeting": "Sawadee, Kore",
+  "folderLabel": "@HumanitariansAI",
+  "in_for_bear": true,
+  "playlist": "Claude research",
+  "build": {
+   "at": "2026-07-17T00:11:16",
+   "cut": "review",
+   "filled": 7,
+   "of": 7,
+   "slates": [],
+   "skin_warnings": [
+    "B06: palette=claude but the outro is 'LogoOutro' — OUTRO LAW wants ClaudeTitleOutro"
+   ]
+  },
+  "channel": "hai"
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Kore for Humanitarians AI.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Hola, Humanitarians",
+      "topic": "HUMANITARIANS AI · Precognition: Why Telling Claude to Think First Doubles Accuracy.",
+      "segment": "Humanitarians AI",
+      "command": "This is Humanitarians.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "YTV01",
+   "act": "VERDICT",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "lead_silence_s": 0.5,
+   "narration_text": "Let's recap with Claude. Transformers are autoregressive: every token conditions on prior ones, so one wrong intermediate token compounds toward wrong continuations. Once the model writes 'the answer is $0.10,' it is anchored and later tokens follow from that mistake. 'Think step by step' puts reasoning on paper first, shifting the probability distribution toward the correct final token. Chain-of-thought helps multi-step math and logic but hurts simple lookups; extended thinking is a separate scratch-work budget.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Why thinking first doubles accuracy",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "Transformers are autoregressive: every token conditions on prior ones, so one wrong intermediate token compounds toward wrong continuations.",
+       "Once the model writes 'the answer is $0.10,' it is anchored and later tokens follow from that mistake.",
+       "'Think step by step' puts reasoning on paper first, shifting the probability distribution toward the correct final token.",
+       "Chain-of-thought helps multi-step math and logic but hurts simple lookups; extended thinking is a separate scratch-work budget."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "estimated_duration_s": 22
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Here is why Precognition: Why Telling Claude to Think First Doubles Accuracy. belongs in your working knowledge. The systems, policies, and tools shaped by it affect decisions at your level — whether or not you understand the mechanism. Knowing the underlying logic gives you the frame; missing it means reasoning from output with no access to the inputs.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Why thinking first doubles accuracy",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "Transformers are autoregressive: every token conditions on prior ones, so one wrong intermediate token compounds toward wrong continuations.",
+       "Once the model writes 'the answer is $0.10,' it is anchored and later tokens follow from that mistake.",
+       "'Think step by step' puts reasoning on paper first, shifting the probability distribution toward the correct final token.",
+       "Chain-of-thought helps multi-step math and logic but hurts simple lookups; extended thinking is a separate scratch-work budget."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B00",
+   "act": "cold open",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "The framing that I'm helping the model 'structure its probability mass correctly before it commits' finally makes chain-of-thought click for me. I want to test the boundary. Help me (1) build a multi-step problem where 'think step by step' clearly shifts the distribution toward the right answer, (2) construct a simple yes/no lookup where those five hundred reasoning tokens become pure noise, and (3) rewrite one prompt to use extended thinking's scratch-work budget instead, so I stop conflating the two mechanisms.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 14.2,
+   "actual_duration_s": 12.03,
+   "audio_file": "mp3/beat-B00.mp3",
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · PROMPT ENGINEERING · ANTHROPIC",
+      "segment": "Precognition: Why Telling Claude to Think First Doubles Accuracy.",
+      "command": "The framing that I'm helping the model 'structure its probability mass correctly before it commits' finally makes chain-of-thought click for me. I want to test the boundary. Help me (1) build a multi-step problem where 'think step by step' clearly shifts the distribution toward the right answer, (2) construct a simple yes/no lookup where those five hundred reasoning tokens become pure noise, and (3) rewrite one prompt to use extended thinking's scratch-work budget instead, so I stop conflating the two mechanisms.",
+      "runningText": "reading the tutorial…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B00.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B00.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:11:16"
+   }
+  },
+  {
+   "beat_id": "B01",
+   "act": "the autoregressive mechanism",
+   "scene": "B01_AutoregressiveMechanism",
+   "narration_text": "Transformers are autoregressive: every output token conditions on all prior tokens. A wrong intermediate token narrows the probability distribution toward wrong continuations. The error compounds. Once the model has written 'the answer is $0.10,' it has committed — the subsequent tokens follow from that wrong anchor.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 20.4,
+   "actual_duration_s": 18.26,
+   "audio_file": "mp3/beat-B01.mp3",
+   "shot": {
+    "type": "GRAPHIC",
+    "graphic": {
+     "engine": "manim",
+     "manim": "B01_AutoregressiveMechanism",
+     "production_viz": "Token boxes in sequence — each box shows probability narrowing. Wrong token highlighted in terracotta causes distribution drift."
+    }
+   },
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B01.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-17T00:11:16"
+   }
+  },
+  {
+   "beat_id": "B02",
+   "act": "chain-of-thought fix",
+   "scene": "B02_ChainOfThought",
+   "narration_text": "Adding 'think step by step before answering' forces the model to put its work on paper before committing to the answer. The intermediate tokens — the reasoning steps — shift the probability distribution toward the correct final token. You are not asking the model to be smarter. You are asking it to structure its probability mass correctly before it has to commit.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 21.2,
+   "actual_duration_s": 18.39,
+   "audio_file": "mp3/beat-B02.mp3",
+   "shot": {
+    "type": "GRAPHIC",
+    "graphic": {
+     "engine": "manim",
+     "manim": "B02_ChainOfThought",
+     "production_viz": "Two-column: without CoT (wrong) vs with CoT (correct). Reasoning steps shown as intermediate tokens funneling toward correct answer."
+    }
+   },
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B02.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-17T00:11:16"
+   }
+  },
+  {
+   "beat_id": "B03",
+   "act": "when CoT helps vs hurts",
+   "scene": "B03_CoTScope",
+   "narration_text": "Chain-of-thought helps with multi-step math, logic puzzles, and complex code. It hurts simple lookups: adding five hundred tokens of reasoning to a yes/no question is noise — the model spends tokens it cannot use productively. Extended thinking is a different mechanism entirely — a token budget for scratch-work before the answer. Don't conflate them.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 21.9,
+   "actual_duration_s": 19.39,
+   "audio_file": "mp3/beat-B03.mp3",
+   "shot": {
+    "type": "GRAPHIC",
+    "graphic": {
+     "engine": "manim",
+     "manim": "B03_CoTScope",
+     "production_viz": "Two-column table: CoT helps (multi-step math, logic, code) vs does not help (simple lookup, yes/no). Left column bars grow, right stays flat."
+    }
+   },
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B03.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-17T00:11:16"
+   }
+  },
+  {
+   "beat_id": "B04",
+   "act": "handoff",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "Ask Claude: 'A bat and a ball cost $1.10 total. The bat costs $1 more than the ball. How much is the ball? Think step by step before answering.' That's the classic one-shot failure turned into a chain-of-thought demo. What changes in the output when you add the step-by-step instruction? Run it both ways. Kore, in for Humanitarians AI.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 21.9,
+   "actual_duration_s": 17.34,
+   "audio_file": "mp3/beat-B04.mp3",
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · PROMPT ENGINEERING · ANTHROPIC",
+      "segment": "Precognition: Why Telling Claude to Think First Doubles Accuracy.",
+      "command": "A bat and a ball cost $1.10 total. The bat costs $1 more than the ball. How much is the ball? Think step by step before answering.",
+      "runningText": "paste this into Claude…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B04.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B04.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:11:16"
+   }
+  },
+  {
+   "beat_id": "B05",
+   "act": "outro",
+   "scene": "ClaudeTitleOutro",
+   "narration_text": "Precognition: Why Telling Claude to Think First Doubles Accuracy.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 5.4,
+   "actual_duration_s": 5.55,
+   "audio_file": "mp3/beat-B05.mp3",
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Precognition: Why Telling Claude to Think First Doubles Accuracy.",
+      "handle": "@HumanitariansAI",
+      "subline": "Kore, in for Humanitarians AI."
+     },
+     "rendered": {
+      "out": "media/B05.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B05.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:11:16"
+   }
+  },
+  {
+   "beat_id": "B06",
+   "act": "outro",
+   "narration_text": "Precognition: Why Telling Claude to Think First Doubles Accuracy.. From Humanitarians AI.",
+   "reuse_audio": "mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 9.44,
+   "new_visual_element": "bear-brown logo sting — glitchSlices",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Precognition: Why Telling Claude to Think First Doubles Accuracy.",
+      "handle": "@HumanitariansAI",
+      "subline": "youtube.com/@HumanitariansAI"
+     },
+     "picked": {
+      "brand": "bear-brown",
+      "animation": "glitchSlices",
+      "svg": "bear-brown-logo-2.svg",
+      "mp3": "bear-brown-2.mp3",
+      "locked": true
+     },
+     "rendered": {
+      "out": "media/B06.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B06.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:11:16"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  }
+ ]
+}

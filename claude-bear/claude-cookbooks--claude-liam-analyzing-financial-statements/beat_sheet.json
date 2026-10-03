@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "title": "Claude, Analyzing Financial Statements.",
+    "slug": "claude-cookbooks--claude-liam-analyzing-financial-statements",
+    "topic": "ANALYZING-FINANCIAL-STATEMENTS · ANTHROPIC SKILL",
+    "purpose": "Answer whether Claude analyzing a balance sheet is general financial judgment or something more specific, using the analyzing-financial-statements skill's own description as the concrete case. Lands the carry-out that a financial-analysis skill is SKILL.md, a spec Claude reads and runs the same way against whatever statement you hand it.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-cookbooks/youtube/claude-liam-analyzing-financial-statements/beat_sheet.json",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Across the Curriculum",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (hand the skill a balance sheet: same three steps run every time; then the same pipeline runs identically twice, and just as readily against a statement outside the spec)",
+    "build": {
+      "at": "2026-08-29T05:07:37",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone wonders how you'd teach Claude to analyze financial statements. But Claude isn't trained for this — it's pointed at a skill it reads before acting. So: how do you point it at one?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'How do I teach Claude to analyze financial statements?', hesitates on 'teach', corrects to 'point', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I teach Claude\nto analyze financial\nstatements?",
+            "face": "serif",
+            "fontSize": 64,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "teach",
+            "replacementWords": "point",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-analyzing-financial-statements"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('teach' -> 'point') is visible on a late frame.",
+      "actual_duration_s": 9.96,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T05:07:37"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / 2 wrong guess, falsified",
+      "narration_text": "A skill is a folder Claude reads before it works — not something it's trained on. This one is analyzing-financial-statements: calculate_ratios.py, interpret_ratios.py, and a two-kilobyte SKILL.md holding the full instruction set, plain language, no hidden logic. Claude reads the file, then acts. The file is the program.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A folder opening to three files, SKILL.md highlighted; 'not trained on it' callout; 'the file is the program' closer"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "A skill is a folder",
+          "mechanic": "A folder icon opens into three file rows: calculate_ratios.py (12k), interpret_ratios.py (16k), and SKILL.md (2k) — SKILL.md recolors teal and grows slightly. A 'not trained on it' tag crosses out a brain glyph. Closing line: 'the file is the program'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "AFSB01Scene"
+      },
+      "actual_duration_s": 18.56,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T05:07:37"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "The instructions sit in a Steps section: read each step in order, execute it, return the result — linear, no branching unless a step says so. Watch the anchor. Hand the skill a balance sheet: it reads the numbers, runs calculate_ratios.py, and hands back the ratios. Same three steps, every time.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR — three linear pipeline phases, then a balance sheet arrowing through calculate_ratios.py to a ratios output"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — a balance sheet, three steps",
+          "mechanic": "Three phase cards appear left to right and connect with arrows: 'read SKILL.md' / 'execute' / 'return result'. They fade back. THE ANCHOR. A card labelled 'balance sheet' arrows into a card labelled 'calculate_ratios.py', which arrows into a card labelled 'ratios out'. Closing line beneath: 'same three steps, every time'. THIS EXACT SEQUENCE RETURNS AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "AFSB02Scene"
+      },
+      "actual_duration_s": 15.87,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T05:07:37"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "Same input, same output, every run — hand it the identical balance sheet twice and calculate_ratios.py returns the identical ratios both times. That's the payoff of a file being the program. But the reverse holds too: hand it a statement the steps weren't written for, and it still runs those same steps — against numbers the SKILL.md never specified. The limit is the spec: only what it names.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS — the same pipeline firing identically twice, then split: identical statement twice = identical ratios; statement outside the spec = same steps still run"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS — same input, same output; then the limit",
+          "mechanic": "THE B02 PIPELINE RETURNS, identical, running twice in a row — two matching 'ratios out' cards appear side by side, labelled 'same input, same output'. Then it splits: left card 'in-spec statement' → pipeline → clean ratios, labelled 'the payoff'; right card 'statement outside the spec' → the same pipeline → ratios computed anyway, labelled 'the limit'. Closing line: 'only what SKILL.md names'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "AFSB03Scene"
+      },
+      "actual_duration_s": 20.84,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T05:07:37"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "A financial-analysis skill isn't Claude reasoning about finance on its own — it's SKILL.md, a spec Claude reads and runs the same way against whatever statement you hand it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "A financial-analysis skill isn't Claude reasoning about finance on its own — it's SKILL.md, a spec Claude reads and runs the same way against whatever statement you hand it.",
+            "attribution": "",
+            "sparkLine": "Same spec, every run."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 10.52,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T05:07:37"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. I want to analyze financial statements for investment insights. Read the analyzing-financial-statements skill and walk me through what you will do before you do it. Watch for that walk-through — explaining first is what surfaces which ratios it's about to run, and which steps SKILL.md actually specifies. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "ANALYZING-FINANCIAL-STATEMENTS · ANTHROPIC SKILL",
+            "segment": "Your Turn",
+            "command": "I want to analyze financial statements for investment insights. Read the analyzing-financial-statements skill and walk me through what you will do before you do it.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.82,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T05:07:37"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude, Analyzing Financial Statements. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude, Analyzing Financial Statements. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 4.33,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T05:07:37"
+      }
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "metadata": {
+    "title": "Why an Invisible Change Can Flip a Model's Mind",
+    "slug": "why-invisible-change-can-flip-models-mind",
+    "topic": "ROBUSTNESS & ADVERSARIAL AI · PERTURBATIONS",
+    "purpose": "Answer one real question in the Plain register: why does an invisible change flip a model's mind? Lands the carry-out that per-coordinate nudges accumulate into a decisive total activation shift in high dimensions.",
+    "skill": "course-skepticism",
+    "register": "Plain",
+    "brand": "hai-fellows",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#FAF9F5",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "in_for_bear": true,
+    "clock": "narration",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "anchor_pair": "B07 -> B08 (L1 accumulation and threshold crossing)",
+    "one_flag": "B09 — piecewise linear activations (ReLU) exposing deep networks",
+    "mirror_pair": "B10 / B11 — mirrored construction (both directions)",
+    "gate_c": "SIGNED — CARRY-OUT.md",
+    "gate_h": "N/A — course-skepticism (BrutalistHesitantWriter, no puppet host)",
+    "build": {
+      "at": "2026-08-29T15:39:13",
+      "cut": "master",
+      "filled": 15,
+      "of": 15,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone sees an image flipped by an invisible perturbation and assumes the model is hallucinating on random noise. It isn't. The math is completely systematic. Let's see why.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types naive question, hesitates on 'random noise', corrects to 'accumulated linear math'",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "If an adversarial change\nis invisible to human eyes,\nis the model failing\non random noise?",
+            "face": "serif",
+            "fontSize": 76,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#3D3929",
+            "accent": "#D97757",
+            "bg": "#FAF9F5",
+            "triggerWords": "random noise",
+            "replacementWords": "accumulated linear math",
+            "mistakeRate": 8,
+            "hesitateWithin": 3,
+            "hesitateBetween": 5,
+            "charMs": 42,
+            "jitter": 14,
+            "seed": "course-invisible-change"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": "2026-08-29T15:30:00"
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per course-skepticism SKILL.md. Writer types naive framing, hesitates, corrects to accumulated linear math. Liam reads final corrected question over typing animation.",
+      "actual_duration_s": 10.35,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "remotion:BrutalistHesitantWriter",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes",
+      "narration_text": "In 2014, researchers showed an image classifier a photo of a panda. It predicted panda with fifty-eight percent confidence. Then they added a faint pattern of noise — so subtle that to human eyes, the picture was identical.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Clean Panda photo frame, 57.7% confidence mark, epsilon=0.007 noise layer"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Clean Panda and the Faint Perturbation",
+          "mechanic": "A clean card showing 'Panda' classified at 57.7% confidence, and a subtle perturbation layer with epsilon = 0.007 added.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B01Scene"
+      },
+      "actual_duration_s": 13.61,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "1 stakes",
+      "narration_text": "To a person, the panda hasn't moved a millimeter. But the model looked at the perturbed image and predicted gibbon — with over ninety-nine percent confidence. An invisible change flipped the model's entire classification.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Perturbed image, flip to 'Gibbon' at 99.3% confidence in terracotta"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Flip to Gibbon with 99.3% Confidence",
+          "mechanic": "The image remains visually identical to a panda, but the classification badge snaps decisively to 'Gibbon (99.3%)' in bold terracotta.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B02Scene"
+      },
+      "actual_duration_s": 12.39,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "2 wrong guess",
+      "narration_text": "The natural reaction is to assume the model is fragile or broke on random glitching. But if the noise were truly random, the pushes would cancel each other out. Something far more structured is happening.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Random noise vectors canceling out vs structured alignment"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Random noise cancels out",
+          "mechanic": "Opposing random vector arrows summing to near zero, crossed out to show why random noise cannot flip the decision score.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B03Scene"
+      },
+      "actual_duration_s": 11.43,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "3 mechanism",
+      "narration_text": "Consider how a linear layer scores an input. It takes every input feature, multiplies it by a learned weight, and sums them up. If the total score exceeds a threshold, the model predicts one class over another.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Linear scoring equation f(x) = w^T x, feature vector, weight vector, decision threshold"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Linear decision boundary",
+          "mechanic": "The dot product formula f(x) = sum(w_i x_i) showing input coordinates multiplied by weights against a zero threshold line.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B04Scene"
+      },
+      "actual_duration_s": 11.88,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "3 mechanism",
+      "narration_text": "Now introduce a tiny change, delta. To keep the change invisible to human vision, no single pixel value is allowed to change by more than a tiny budget, epsilon — say, less than one percent brightness.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Perturbation budget constraint: |delta_i| <= epsilon = 0.007"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Per-coordinate epsilon budget",
+          "mechanic": "A single coordinate showing a microscopic bounded perturbation window between -epsilon and +epsilon.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B05Scene"
+      },
+      "actual_duration_s": 12.29,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "3 mechanism",
+      "narration_text": "Instead of choosing random noise, the attacker aligns every single coordinate with the model's weights. If a weight is positive, add epsilon. If a weight is negative, subtract epsilon. Every single coordinate is pushed in the exact direction that increases the activation.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Sign alignment delta = epsilon * sign(w), coordinated pushes across features"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Sign alignment formula",
+          "mechanic": "The rule delta_i = epsilon * sign(w_i) matching positive weights with +epsilon and negative weights with -epsilon.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B06Scene"
+      },
+      "actual_duration_s": 15.49,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "4 anchor planted",
+      "narration_text": "Look at the mathematics of that sum. The change in the model's score is epsilon times the sum of the absolute weights. In a single coordinate, the push is imperceptible. But across a million pixels, those tiny pushes do not cancel — they accumulate.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "MANIM MOVE accumulate: running-sum bar growing step-by-step as Delta f = epsilon * ||w||_1"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Manim Move: accumulate across dimensions",
+          "mechanic": "A dynamic running-sum accumulator adding up thousands of tiny positive epsilon * |w_i| contributions into a rising progress bar.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B07Scene"
+      },
+      "actual_duration_s": 13.99,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "4 anchor payoff",
+      "narration_text": "In a high-dimensional image with a million numbers, a nudge of less than one percent per pixel adds up to a massive shift of thousands of units in total score. The running sum blasts past the decision threshold.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The accumulated activation bar surging past the threshold line from Panda to Gibbon"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Crossing the decision threshold",
+          "mechanic": "The running-sum bar crosses the dashed threshold line, flipping the output indicator from Panda to Gibbon in bright terracotta.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B08Scene"
+      },
+      "actual_duration_s": 11.9,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B08.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "1 one flag",
+      "narration_text": "One flag — neural networks are non-linear, but modern architectures rely on piecewise linear units like ReLU. Locally, their loss surfaces behave like high-dimensional linear planes, leaving them exposed to the exact same linear accumulation.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Piecewise linear ReLU curve and high-dimensional linear hyperplane"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Piecewise linearity in deep networks",
+          "mechanic": "A ReLU activation curve showing locally linear segments that preserve high-dimensional linear vulnerabilities.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B09Scene"
+      },
+      "actual_duration_s": 14.29,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "5 DIRECTION A",
+      "narration_text": "So in one direction, the perturbation is genuinely invisible. No individual pixel shifts enough for human biology to register any change.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Direction A: ||delta||_infinity <= epsilon (retina icon, 0% visible change)"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Direction A: Invisible to human perception",
+          "mechanic": "A human perception meter remaining at zero, highlighting that per-coordinate perturbation is sub-perceptual.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B10Scene"
+      },
+      "actual_duration_s": 8.51,
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "5 DIRECTION B",
+      "narration_text": "Yet in the other direction, the mathematical shift is overwhelming. High dimensions turn millions of unnoticeable nudges into an irresistible force.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Direction B: Delta f = epsilon * ||w||_1 (huge terracotta vector shift)"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Direction B: Decisive to high-dimensional models",
+          "mechanic": "Mirrors B10: A model activation shift gauge pinned to maximum in terracotta, proving the mathematical impact.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B11Scene"
+      },
+      "actual_duration_s": 9.13,
+      "audio_file": "mp3/beat-B11.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B11.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "In a million-dimensional space, an invisible nudge on every coordinate accumulates into a decisive shift across the whole model.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "In a million-dimensional space, an invisible nudge on every coordinate accumulates into a decisive shift across the whole model.",
+            "attribution": "",
+            "sparkLine": "Tiny per coordinate. Massive in sum."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": "2026-08-29T15:30:00"
+          }
+        }
+      },
+      "actual_duration_s": 7.87,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "remotion:WantQuote",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. Take an image classifier or embedding model in your stack. Calculate the L-one norm of its first layer weights across input dimensions. Multiply by an epsilon of one two-hundred-and-fifty-fifth. See how large an activation shift an aligned adversary can generate without changing a single visible pixel. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "ROBUSTNESS & ADVERSARIAL PERTURBATIONS",
+            "segment": "Your Turn",
+            "command": "Take an image classifier or embedding model in your stack. Calculate the L1 norm of its first layer weights across input dimensions. Multiply by an epsilon of 1/255. See how large an activation shift an aligned adversary can generate without changing a single visible pixel.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": "2026-08-29T15:30:00"
+          }
+        }
+      },
+      "actual_duration_s": 19.65,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "remotion:ClaudeComposerAsk",
+        "at": "2026-08-29T15:39:13"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Why an Invisible Change Can Flip a Model's Mind. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Computational Skepticism for AI from @HumanitariansAI.",
+            "handle": "@HumanitariansAI",
+            "title": "Why an Invisible Change Can Flip a Model's Mind",
+            "subline": "Liam, in for Bear."
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": "2026-08-29T15:30:00"
+          }
+        }
+      },
+      "actual_duration_s": 4.86,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "remotion:OutroCTA",
+        "at": "2026-08-29T15:39:13"
+      }
+    }
+  ]
+}

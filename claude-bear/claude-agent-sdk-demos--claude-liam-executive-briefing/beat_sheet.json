@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "title": "Claude, Executive Briefing.",
+    "slug": "claude-agent-sdk-demos--claude-liam-executive-briefing",
+    "topic": "SKILLS · EXECUTIVE-BRIEFING",
+    "purpose": "Answer whether Claude senses on its own when writing needs boardroom polish, or whether that switch is flipped by something more mechanical, using the executive-briefing skill as the concrete case. Lands the carry-out that the skill matches a fixed list of trigger words, not the meaning behind the request.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-agent-sdk-demos/youtube/claude-liam-executive-briefing/beat_sheet.json",
+    "register": "Plain",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (the same research memo: worded with trigger words vs. without)",
+    "build": {
+      "at": "2026-08-28T23:27:04",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone assumes a Skill applies its own judgment about when to help. It doesn't — it matches a fixed list of trigger words in a file. So what decides when executive-briefing actually switches on?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'A Skill must be some judgment Claude applies automatically. Is that it?', hesitates on 'judgment', corrects to 'list', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "A Skill must be\nsome judgment Claude\napplies automatically.\nIs that it?",
+            "face": "serif",
+            "fontSize": 68,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "judgment",
+            "replacementWords": "list",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-executive-briefing"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('judgment' -> 'list') is visible on a late frame.",
+      "actual_duration_s": 11.14,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:27:04"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes",
+      "narration_text": "executive-briefing is one file — SKILL.md, about four kilobytes. Open it and there's no hidden logic. Right at the top is a printed list: executive, briefing, C-suite, board, leadership, presentation. Claude checks a request against this list before it does anything else.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The one-file folder: SKILL.md called out, the printed trigger-word list inside it, no other files"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "One file, a printed list",
+          "mechanic": "A folder opens on cream to reveal exactly one item: SKILL.md, marked '~4k, plain text'. A label reads 'executive-briefing'. The file opens to show a printed list of six words: executive, briefing, C-suite, board, leadership, presentation.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "EBRB01Scene"
+      },
+      "actual_duration_s": 15.4,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T23:27:04"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "Say a research memo comes in with the request: \"turn this into a board presentation.\" Two of those words are on the list — board, presentation — so the skill fires: read SKILL.md, run its steps in order, return a structured executive brief. Same memo, same words, same brief, every time.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 21,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR — a research memo, the request's matching words lighting up on the list, the pipeline firing into a structured brief"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — words match, the pipeline fires",
+          "mechanic": "THE ANCHOR. A memo card appears labelled 'research memo'. Beside it, the request 'turn this into a board presentation' — the words 'board' and 'presentation' light up against the B01 list. Three phases fire in sequence: 'Read SKILL.md', 'Run the steps', 'Return the result'. The memo card transforms into a structured brief card. THIS EXACT MEMO RETURNS AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "EBRB02Scene"
+      },
+      "actual_duration_s": 16.23,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T23:27:04"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "Take the exact same memo and ask instead: \"make this shorter for my boss.\" Same intent, same document — but none of those words are on the list, and the skill stays silent. You get an ordinary rewrite, not the executive-brief structure. The list decides, not the meaning behind your request.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 21,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS — the same memo, a second request with no matching words, the pipeline stays dark, an ordinary rewrite appears instead"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS — no match, no fire",
+          "mechanic": "THE B02 MEMO RETURNS, identical. A new request appears: 'make this shorter for my boss' — no word lights up against the list. The three-phase pipeline stays dark, struck through in terracotta. Beside it, an ordinary rewrite card appears instead of the structured brief, labelled 'not the executive-brief structure'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "EBRB03Scene"
+      },
+      "actual_duration_s": 15.34,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T23:27:04"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "executive-briefing doesn't notice what you need — it matches a fixed list of trigger words, and the moment your request skips that list, the skill stays quiet, no matter what you actually meant.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "executive-briefing doesn't notice what you need — it matches a fixed list of trigger words, and the moment your request skips that list, the skill stays quiet, no matter what you actually meant.",
+            "attribution": "",
+            "sparkLine": "The list decides, not the meaning."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 10.18,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:27:04"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. I want to turn my research findings into an executive-ready briefing. Read the executive-briefing skill and walk me through what you'll do before you do it — and tell me which of my words made it fire. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 21,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "SKILLS · EXECUTIVE-BRIEFING",
+            "segment": "Your Turn",
+            "command": "I want to turn my research findings into an executive-ready briefing. Read the executive-briefing skill and walk me through what you'll do before you do it — and tell me which of my words made it fire.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 13.67,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:27:04"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude, Executive Briefing. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude, Executive Briefing. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.58,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:27:04"
+      }
+    }
+  ]
+}

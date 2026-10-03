@@ -1,0 +1,10 @@
+{
+ "question": "Why splitting a chunk from its document makes it retrieve for the wrong question",
+ "slug": "claude-basics--claude-cookbooks-splitting-chunk-from-document-makes",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/claude-cookbooks-splitting-chunk-from-document-makes/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/claude-cookbooks-splitting-chunk-from-document-makes",
+ "family": "claude-basics",
+ "mode": "redo"
+}

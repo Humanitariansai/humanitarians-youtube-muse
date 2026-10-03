@@ -1,0 +1,10 @@
+{
+ "question": "Claude, By the Numbers",
+ "slug": "books--claude-liam-data",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-data/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-data",
+ "family": "books",
+ "mode": "redo"
+}

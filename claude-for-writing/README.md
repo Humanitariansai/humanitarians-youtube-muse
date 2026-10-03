@@ -1,0 +1,118 @@
+# Claude for Writing
+
+This directory is the **Claude for Writing** collection in the Humanitarians YouTube production repository. Each child project is a beat-sheet-driven video workspace; rendered media may be gitignored or stored alongside its production files.
+
+## Collection snapshot
+
+- Video projects with `beat_sheet.json`: **31**
+- Authored beats represented: **515**
+- Masters present locally: **0**
+- Review cuts present locally: **0**
+- Audio-stage projects: **0**
+- Beat-sheet-only projects: **31**
+- Invalid/unreadable beat sheets: **0**
+
+## How to read the inventory
+
+- **State** is inferred from files currently present; it is not a publishing claim.
+- **Runtime** uses measured beat durations when present and estimated durations otherwise.
+- **QC**, **Facts**, and **Status** report whether `_qc/REPORT.md`, `FACTCHECK.md`, and `STATUS.md` exist.
+- A local master is not permission to publish. YouTube uploads must use the channel ledger and publishing review gates.
+
+## Video and beat-sheet inventory
+
+| Project | Title | Series / genre | Persona / audience | Voice | Beats | Runtime | State | QC | Facts | Status |
+|---|---|---|---|---|---:|---:|---|:---:|:---:|:---:|
+| `claude-liam-vox-academic-register` | Why Trying Harder to Sound Academic Makes Your Writing Less Academic | — | Claude | af_kore | 14 | 2:22 | beat sheet authored | no | no | no |
+| `claude-liam-vox-bronze-argument` | The Bronze Argument: How a Statue Makes a Political Claim | — | Claude | af_kore | 15 | 2:19 | beat sheet authored | no | no | no |
+| `claude-liam-vox-king-four-appeals` | Why the Most Powerful Persuasion Feels Inevitable | — | Claude | af_kore | 18 | 3:41 | beat sheet authored | no | no | no |
+| `claude-liam-vox-proposal-problem-definition` | Why Most Proposals Fail Before the Solution: The Problem Definition Test | — | Claude | af_kore | 13 | 2:16 | beat sheet authored | no | no | no |
+| `claude-liam-vox-review-not-reaction` | What a Review Has to Do That a Reaction Never Does | — | Claude | af_kore | 15 | 2:22 | beat sheet authored | no | no | no |
+| `claude-liam-vox-script-extemporization` | Why the Script Made the Extemporization Possible | — | Claude | af_kore | 16 | 2:37 | beat sheet authored | no | no | no |
+| `claude-liam-vox-steel-man` | Why Steel-Manning the Opposition Makes Your Argument Harder to Attack | — | Claude | af_kore | 14 | 2:15 | beat sheet authored | no | no | no |
+| `claude-liam-vox-summary-vs-synthesis` | Summary vs. Synthesis: The Move No Source Can Make For You | — | Claude | af_kore | 18 | 2:55 | beat sheet authored | no | no | no |
+| `claude-liam-vox-three-distinctions` | Three Questions That Catch Broken Causal Arguments | — | Claude | af_kore | 20 | 3:26 | beat sheet authored | no | no | no |
+| `claude-liam-vox-truman-usefulness` | The Word That Erased 70,000 People | — | Claude | af_kore | 13 | 2:12 | beat sheet authored | no | no | no |
+| `nbb-vox-academic-register` | Why Trying Harder to Sound Academic Makes Your Writing Less Academic | — | NikBearBrown | af_kore | 18 | 3:28 | beat sheet authored | no | yes | no |
+| `nbb-vox-bronze-argument` | The Bronze Argument: How a Statue Makes a Political Claim | — | NikBearBrown | af_kore | 19 | 3:20 | beat sheet authored | no | yes | no |
+| `nbb-vox-king-four-appeals` | Why the Most Powerful Persuasion Feels Inevitable | — | NikBearBrown | af_kore | 22 | 5:20 | beat sheet authored | no | yes | no |
+| `nbb-vox-proposal-problem-definition` | Why Most Proposals Fail Before the Solution: The Problem Definition Test | — | NikBearBrown | af_kore | 17 | 3:26 | beat sheet authored | no | yes | no |
+| `nbb-vox-review-not-reaction` | What a Review Has to Do That a Reaction Never Does | — | NikBearBrown | af_kore | 19 | 3:36 | beat sheet authored | no | yes | no |
+| `nbb-vox-script-extemporization` | Why the Script Made the Extemporization Possible | — | NikBearBrown | af_kore | 20 | 3:50 | beat sheet authored | no | yes | no |
+| `nbb-vox-steel-man` | Why Steel-Manning the Opposition Makes Your Argument Harder to Attack | — | NikBearBrown | af_kore | 18 | 3:17 | beat sheet authored | no | yes | no |
+| `nbb-vox-summary-vs-synthesis` | Summary vs. Synthesis: The Move No Source Can Make For You | — | NikBearBrown | af_kore | 22 | 3:56 | beat sheet authored | no | yes | no |
+| `nbb-vox-three-distinctions` | Three Questions That Catch Broken Causal Arguments | — | NikBearBrown | af_kore | 24 | 4:31 | beat sheet authored | no | yes | no |
+| `nbb-vox-truman-usefulness` | The Word That Erased 70,000 People | — | NikBearBrown | af_kore | 17 | 3:23 | beat sheet authored | no | yes | no |
+| `subby-a-complete-substack-writing` | Subby — Substack Writing Assistant | — | HAI Fellows | af_kore | 10 | 1:33 | beat sheet authored | yes | no | no |
+| `subby-the-writing-tool-you-didnt` | Subby: The Substack Writing Tool You Didn't Know You Needed | — | HAI Fellows | af_kore | 10 | 1:30 | beat sheet authored | yes | no | no |
+| `vox-academic-register` | Why Trying Harder to Sound Academic Makes Your Writing Less Academic | — | — | af_kore | 14 | 2:33 | beat sheet authored | no | yes | no |
+| `vox-bronze-argument` | The Bronze Argument: How a Statue Makes a Political Claim | — | — | af_kore | 15 | 2:36 | beat sheet authored | no | yes | no |
+| `vox-king-four-appeals` | Why the Most Powerful Persuasion Feels Inevitable | — | — | af_kore | 18 | 4:28 | beat sheet authored | no | yes | no |
+| `vox-proposal-problem-definition` | Why Most Proposals Fail Before the Solution: The Problem Definition Test | — | — | af_kore | 13 | 2:29 | beat sheet authored | no | yes | no |
+| `vox-review-not-reaction` | What a Review Has to Do That a Reaction Never Does | — | — | af_kore | 15 | 2:50 | beat sheet authored | no | yes | no |
+| `vox-script-extemporization` | Why the Script Made the Extemporization Possible | — | — | af_kore | 16 | 3:03 | beat sheet authored | no | yes | no |
+| `vox-steel-man` | Why Steel-Manning the Opposition Makes Your Argument Harder to Attack | — | — | af_kore | 14 | 2:27 | beat sheet authored | no | yes | no |
+| `vox-summary-vs-synthesis` | Summary vs. Synthesis: The Move No Source Can Make For You | — | — | af_kore | 18 | 3:12 | beat sheet authored | no | yes | no |
+| `vox-three-distinctions` | Three Questions That Catch Broken Causal Arguments | — | — | af_kore | 20 | 3:48 | beat sheet authored | no | yes | no |
+
+## Repository conventions
+
+- The beat sheet is the production source of truth for narration, timing, shot routing, persona, and playlist metadata.
+- Preserve source projects and audience variants; do not overwrite a sibling cut.
+- Keep credentials, OAuth tokens, upload ledgers, and large generated media out of Git.
+- Publishing is an external state change: preview the exact upload set, privacy, channel, and playlist before committing quota.
+
+_This inventory is generated from the current filesystem and should be refreshed after substantial batch changes._
+
+<!-- BEGIN BRUTALIST REBUILD GUIDE -->
+
+# Claude For Writing
+
+This folder organizes **31 video projects** built around beat sheets. Each project README explains the subject, supplies research and fact-check prompts, and documents the free local rebuild workflow.
+
+## Rebuild toolkit
+
+```bash
+git clone https://github.com/nikbearbrown/brutalist.art.git
+cd brutalist.art
+./setup --install
+./setup
+```
+
+Brutalist is audio-first and local: the beat sheet drives narration, measured audio becomes the clock, generated visual beats compile immediately, and unavailable media remains as labeled slates until a human fills the pantry. The human conducts, watches, fact-checks, refines, and decides whether anything is published.
+
+## Projects in this folder
+
+- [Academic Register](./claude-liam-vox-academic-register/)
+- [Bronze Argument](./claude-liam-vox-bronze-argument/)
+- [King Four Appeals](./claude-liam-vox-king-four-appeals/)
+- [Proposal Problem Definition](./claude-liam-vox-proposal-problem-definition/)
+- [Review Not Reaction](./claude-liam-vox-review-not-reaction/)
+- [Script Extemporization](./claude-liam-vox-script-extemporization/)
+- [Steel Man](./claude-liam-vox-steel-man/)
+- [Summary Vs Synthesis](./claude-liam-vox-summary-vs-synthesis/)
+- [Three Distinctions](./claude-liam-vox-three-distinctions/)
+- [Truman Usefulness](./claude-liam-vox-truman-usefulness/)
+- [Vox Academic Register](./nbb-vox-academic-register/)
+- [Vox Bronze Argument](./nbb-vox-bronze-argument/)
+- [Vox King Four Appeals](./nbb-vox-king-four-appeals/)
+- [Vox Proposal Problem Definition](./nbb-vox-proposal-problem-definition/)
+- [Vox Review Not Reaction](./nbb-vox-review-not-reaction/)
+- [Vox Script Extemporization](./nbb-vox-script-extemporization/)
+- [Vox Steel Man](./nbb-vox-steel-man/)
+- [Vox Summary Vs Synthesis](./nbb-vox-summary-vs-synthesis/)
+- [Vox Three Distinctions](./nbb-vox-three-distinctions/)
+- [Vox Truman Usefulness](./nbb-vox-truman-usefulness/)
+- [Subby A Complete Substack Writing](./subby-a-complete-substack-writing/)
+- [Subby The Writing Tool You Didnt](./subby-the-writing-tool-you-didnt/)
+- [Academic Register](./vox-academic-register/)
+- [Bronze Argument](./vox-bronze-argument/)
+- [King Four Appeals](./vox-king-four-appeals/)
+- [Proposal Problem Definition](./vox-proposal-problem-definition/)
+- [Review Not Reaction](./vox-review-not-reaction/)
+- [Script Extemporization](./vox-script-extemporization/)
+- [Steel Man](./vox-steel-man/)
+- [Summary Vs Synthesis](./vox-summary-vs-synthesis/)
+- [Three Distinctions](./vox-three-distinctions/)
+
+<!-- END BRUTALIST REBUILD GUIDE -->

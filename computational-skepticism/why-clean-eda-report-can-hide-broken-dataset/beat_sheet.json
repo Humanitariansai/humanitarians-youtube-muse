@@ -1,0 +1,583 @@
+{
+  "metadata": {
+    "title": "Why a Clean EDA Report Can Hide a Broken Dataset",
+    "slug": "why-clean-eda-report-can-hide-broken-dataset",
+    "topic": "DATA & MODEL VALIDATION · SILENT JOINS",
+    "purpose": "Answer one real question in the Plain register: why can a clean EDA report hide a broken dataset? Lands the carry-out that diagnostics only read survivors.",
+    "skill": "course-skepticism",
+    "register": "Plain",
+    "brand": "hai-fellows",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#FAF9F5",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "in_for_bear": true,
+    "clock": "narration",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "anchor_pair": "B03 -> B08 (three source tables funneling into a join anchor)",
+    "one_flag": "B10 — composite illustration of silent join failure vs unmonitored joins",
+    "mirror_pair": "B11 / B12 — mirrored construction (both directions)",
+    "gate_c": "SIGNED — CARRY-OUT.md",
+    "gate_h": "N/A — course-skepticism (BrutalistHesitantWriter, no puppet host)",
+    "build": {
+      "at": "2026-08-29T15:10:52",
+      "cut": "master",
+      "filled": 16,
+      "of": 16,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "An exploratory data analysis report comes back spotless: zero missing values, clean distributions, no outliers. You assume the dataset is complete. It might not be. In fact, it could destroy your deployment. Let's see why.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types naive question, hesitates on 'is the dataset complete?', corrects to 'can it still destroy your model?'",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "If an exploratory data report\nshows zero missing values\nand clean distributions,\nis the dataset complete?",
+            "face": "serif",
+            "fontSize": 80,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#3D3929",
+            "accent": "#D97757",
+            "bg": "#FAF9F5",
+            "triggerWords": "is the dataset complete?",
+            "replacementWords": "can it still destroy your model?",
+            "mistakeRate": 8,
+            "hesitateWithin": 3,
+            "hesitateBetween": 5,
+            "charMs": 42,
+            "jitter": 14,
+            "seed": "course-clean-eda"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per course-skepticism SKILL.md. Writer types naive framing, hesitates, corrects to can it still destroy your model. Liam reads over typing animation.",
+      "actual_duration_s": 13.06,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes",
+      "narration_text": "Picture a dataset assembled for machine learning: seventy-nine thousand four hundred rows, tidy formats, and zero obvious garbage. The exploratory analysis runs clean. Missingness is near zero, distributions are well-behaved, and every summary check reports success.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Spotless EDA report card: 79,400 rows, 0% missingness badge, tidy bell curve histogram, REPORT CLEAN stamp"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Pristine EDA Report",
+          "mechanic": "A clean data validation dashboard showing 79,400 rows, 0.0% missingness, tidy histograms, and a green-lit validation check in warm ink and terracotta.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B01Scene"
+      },
+      "actual_duration_s": 15.3,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "1 stakes",
+      "narration_text": "The model trains cleanly and passes validation. But deployed in production, it repeatedly fails on a specific group of users. Retraining, tuning hyperparameters, and changing architectures change nothing. The dataset, looked at in isolation, still appears flawless.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Deployment failure card: validation passing vs production failure trace on subpopulation; retraining yields 0% fix"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Production Breakdown on Subpopulation",
+          "mechanic": "Contrasting clean internal validation with persistent production failure on a subpopulation; retraining and regularizing leave the gap intact.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B02Scene"
+      },
+      "actual_duration_s": 15.15,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PLANTED",
+      "narration_text": "To see why, let's look at how the data was created. The final table was assembled by taking three separate source systems and joining them on a shared customer identifier into a single combined table.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR: Three distinct source tables (Ticketing, Profiles, Transactions) funneling through a join into one combined table"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR: Three Source Tables Funneling into Join",
+          "mechanic": "Three separate upstream system tables feeding streams of records into a central join funnel, outputting one combined table.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B03Scene"
+      },
+      "actual_duration_s": 12.22,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "2 wrong guess",
+      "narration_text": "Intuition assumes that because the missing-value check found zero empty cells in the table, the dataset captured everyone who was supposed to be there.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The naive mental model: '0% Missing Cells' equated directly to '100% Population Represented'"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Naive Mental Model: Zero Missingness = Full Coverage",
+          "mechanic": "A diagram linking 0% missing cells directly to complete population coverage, presented cleanly before falsification.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B04Scene"
+      },
+      "actual_duration_s": 8.75,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "2 BREAK IT",
+      "narration_text": "That assumption collapses the moment you examine the join. Four percent of the records failed to match across all three source systems and were silently dropped before the table was ever created.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Falsification: 4% join drop highlighted in terracotta at the join funnel; unjoined rows fall out into the void"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Falsifying Case: The 4% Silent Join Drop",
+          "mechanic": "At the funnel neck, a 4% drop rate highlighted in terracotta causes non-matching rows to spill out into empty space before the final table.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B05Scene"
+      },
+      "actual_duration_s": 10.75,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "3 mechanism",
+      "narration_text": "A four percent loss sounds minor if spread evenly. But it was not even. One specific subpopulation had inconsistent identifier formatting in an older source system. Nearly all of their records failed the join and were erased.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Identifier mismatch: Standard IDs vs Legacy IDs; the legacy subpopulation suffers 100% join failure"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Selective Drop: Inconsistent Identifiers",
+          "mechanic": "Two identifier formats compared: standard modern numeric IDs matching seamlessly vs legacy alphanumeric formats failing the match completely.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B06Scene"
+      },
+      "actual_duration_s": 12.97,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "3 mechanism",
+      "narration_text": "When the join collapses multiple tables into one, unmatched rows do not leave behind blank entries. They vanish completely. The training set never saw them, so the model never learned how to serve them.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "MANIM MOVE collapse: Three streams collapse into output table; mismatched rows collapse outward and vanish into empty void"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "MANIM MOVE: Funnel Collapse & Vanishing Rows",
+          "mechanic": "Three source streams collapse inward into the output table; the mismatched subpopulation rows collapse outward and vanish from existence.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B07Scene"
+      },
+      "actual_duration_s": 11.75,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "4 ANCHOR PAYOFF",
+      "narration_text": "Now bring back the exploratory data report. The histograms, summary statistics, and missing-value checks only examine the surviving rows inside the table. They cannot detect missingness in records that do not exist.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR PAYOFF: EDA diagnostic lens scans only inside the surviving table; reports '0.0% Missing', blind to the dropped void outside"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR PAYOFF: EDA Lens Scans Only Survivors",
+          "mechanic": "The EDA inspection lens scans across the merged table, finding 0% missing values within the surviving rows while entirely missing the void of dropped rows outside.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B08Scene"
+      },
+      "actual_duration_s": 12.61,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B08.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "4 ANCHOR PAYOFF",
+      "narration_text": "Seventy-nine thousand four hundred rows was never a census of the real world. It was simply the residue of an upstream filtering process that nobody audited.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "79,400 rows re-labeled as 'Residue of an Upstream Filter', not 'The Real World'"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Residue vs Population Reality",
+          "mechanic": "The 79,400 row count stamped as 'Residue of Filter Process' in warm ink, contrasted with the absent total population in terracotta.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B09Scene"
+      },
+      "actual_duration_s": 9.32,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "3 ONE FLAG",
+      "narration_text": "One flag — this example is a composite illustration of silent join failure. When pipelines track and log raw source row counts end-to-end, join drop rates become immediately visible before model training begins.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ONE FLAG banner: 'FLAG: COMPOSITE MECHANISM'. Unmonitored joins vs end-to-end lineage auditing"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The One Flag: Composite Illustration & Lineage Auditing",
+          "mechanic": "A terracotta FLAG banner highlighting composite mechanism: Left = unmonitored silent join; Right = end-to-end row count tracking across source systems.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B10Scene"
+      },
+      "actual_duration_s": 12.99,
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "5 DIRECTION A",
+      "narration_text": "So a spotless exploratory report does not prove your dataset is complete. Standard summary statistics can only tell you about consistency within the rows that survived the pipeline.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Direction A: SPOTLESS EDA REPORT ≠ COMPLETE DATASET struck through with terracotta"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Direction A: Clean EDA does not prove completeness",
+          "mechanic": "Headline 'SPOTLESS EDA REPORT' pointing to 'COMPLETE POPULATION', struck through with a heavy terracotta bar.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B11Scene"
+      },
+      "actual_duration_s": 11.14,
+      "audio_file": "mp3/beat-B11.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B11.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "5 DIRECTION B",
+      "narration_text": "And yet exploratory analysis is not useless. It catches corrupt types, impossible values, and extreme outliers. But its vision stops at the table's edge — it cannot see what was never recorded.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Direction B: EDA Scope Card: Catches corrupt types, invalid values, and internal skew, bounded by table boundaries"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Direction B: What EDA reliably catches",
+          "mechanic": "Mirrors B11: Checklist of internal pathologies EDA solves (corrupt types, outliers, invalid ranges), bounded strictly by the table's perimeter.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B12Scene"
+      },
+      "actual_duration_s": 11.54,
+      "audio_file": "mp3/beat-B12.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B12.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "You cannot compute the missingness of rows that never made it into the dataset — every diagnostic reads only the survivors and calls them the world.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "You cannot compute the missingness of rows that never made it into the dataset — every diagnostic reads only the survivors and calls them the world.",
+            "attribution": "",
+            "sparkLine": "Diagnostics only read survivors."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 8.47,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. Take an assembled dataset in your current pipeline. Before running any summary statistics, trace its row count back to the original source tables. Calculate the exact drop rate at every join, and check if dropped records cluster in a specific subpopulation. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "DATA VALIDATION & SILENT JOINS",
+            "segment": "Your Turn",
+            "command": "Take an assembled dataset in your current pipeline. Before running any summary statistics, trace its row count back to the original source tables. Calculate the exact drop rate at every join, and check if dropped records cluster in a specific subpopulation.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 17.28,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T15:10:52"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Why a Clean EDA Report Can Hide a Broken Dataset. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Computational Skepticism for AI from @HumanitariansAI.",
+            "handle": "@HumanitariansAI",
+            "title": "Why a Clean EDA Report Can Hide a Broken Dataset",
+            "subline": "Liam, in for Bear."
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 5.23,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T15:10:52"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+You give an LLM the same earnings call quote three times. Same model. Same prompt. But you get three different answers. The output changed because you turned one dial. Temperature.

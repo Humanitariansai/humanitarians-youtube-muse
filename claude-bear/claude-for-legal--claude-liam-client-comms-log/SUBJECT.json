@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Client Comms Log.",
+ "slug": "claude-for-legal--claude-liam-client-comms-log",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-client-comms-log/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-client-comms-log",
+ "family": "claude-for-legal",
+ "mode": "redo"
+}

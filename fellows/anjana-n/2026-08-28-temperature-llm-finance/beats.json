@@ -1,0 +1,56 @@
+{
+  "project": "temperature-finance",
+  "skill": "ai-explainer",
+  "voice": "am_onyx",
+  "total_target_seconds": 48,
+  "bookends": {
+    "intro": "claude-branded",
+    "outro": "claude-branded + title card"
+  },
+  "beats": [
+    {
+      "id": 1,
+      "label": "hook",
+      "narration_file": "narration/01_hook.txt",
+      "visual_brief": "visuals/01_hook.md",
+      "audio_file": "audio/01_hook.wav",
+      "target_seconds": 8,
+      "actual_seconds": null,
+      "visual_type": "remotion",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "label": "dial",
+      "narration_file": "narration/02_dial.txt",
+      "visual_brief": "visuals/02_dial.md",
+      "audio_file": "audio/02_dial.wav",
+      "target_seconds": 12,
+      "actual_seconds": null,
+      "visual_type": "remotion",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "label": "finance",
+      "narration_file": "narration/03_finance.txt",
+      "visual_brief": "visuals/03_finance.md",
+      "audio_file": "audio/03_finance.wav",
+      "target_seconds": 15,
+      "actual_seconds": null,
+      "visual_type": "remotion",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "label": "close",
+      "narration_file": "narration/04_close.txt",
+      "visual_brief": "visuals/04_close.md",
+      "audio_file": "audio/04_close.wav",
+      "target_seconds": 7,
+      "actual_seconds": null,
+      "visual_type": "remotion",
+      "status": "pending"
+    }
+  ]
+}

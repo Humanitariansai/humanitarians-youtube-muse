@@ -1,0 +1,21 @@
+{
+  "candidate": "Candidate 03",
+  "candidate_num": 3,
+  "title": "Why a Clean EDA Report Can Hide a Broken Dataset",
+  "question": "Why a Clean EDA Report Can Hide a Broken Dataset",
+  "slug": "why-clean-eda-report-can-hide-broken-dataset",
+  "channel": "@HumanitariansAI",
+  "skill": "course-skepticism",
+  "course": "computational-skepticism-for-ai",
+  "video_ideas_path": "computational-skepticism-for-ai/vids/video-ideas.md",
+  "source_chapter": "computational-skepticism-for-ai/chapters/03-data-validation-reconstructing-the-epistemic-frame-behind-a-dataset.md",
+  "score": "9/10",
+  "production_mode": "Doodle",
+  "hook": "A dataset passes every check \u2014 no missing values, clean distributions, no outliers \u2014 and still destroys the deployment built on it.",
+  "core_idea": "A join silently dropped 4% of rows, concentrated in one subpopulation with inconsistent identifiers; you cannot compute the missingness of rows that never existed, so every diagnostic read the survivors and called them the world.",
+  "visual_object": "three source tables funneling through a join into one merged table, with rows falling out of the funnel unseen while the EDA report stamps \"clean\"",
+  "manim_move": "collapse",
+  "prerequisites": "what a table join is, what a histogram/missing-value check does",
+  "exclusions": "no SQL syntax, no MCAR/MAR/MNAR taxonomy, no six-step procedure walkthrough, no pandas code; do NOT present the case as a sourced incident \u2014 the chapter itself flags it as a composite illustration, and the video must keep that flag",
+  "mode": "spec"
+}

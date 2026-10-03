@@ -1,0 +1,535 @@
+{
+  "metadata": {
+    "title": "ECIS — Episode 4: Not Just What. Who, How Clean, and What Came Before.",
+    "slug": "ecis-ep4",
+    "topic": "ECIS · EARNINGS SIGNALS · S4",
+    "aspect_ratio": "16:9",
+    "register": "Teardown",
+    "audience": "Claude",
+    "brand": "claude-anjana",
+    "engine": "kokoro",
+    "voice_kokoro": "af_bella",
+    "palette": "claude",
+    "style_preset": "claude",
+    "ground": "#FAF9F5",
+    "color_semantics": "Claude fidelity UI beats (B00 ask, B07 verdict, B08 handoff, B09 outro) stay cream/ink/terracotta per CLAUDE-BRAND.md. Body beats (B01-B06) illustrate the context-weighting mechanism itself — dark stage (#0a0a0f), same PEDAGOGY-approved deviation as Episodes 1-3. Purple (Llama), teal (Mistral), amber (Qwen) model nodes carry over unchanged from Episode 3. Green/amber/grey speaker-weight bars, and blue/green/red trend arrows, are this episode's own accent scheme layered on the same dark stage.",
+    "greeting": "Hello, Anjana",
+    "greeting_note": "Plain English hello, narrator is Anjana; no channel handle or brand chip on this build.",
+    "note": "Fresh build — derived from examples/ecis-ep4/script.md + visuals/*.md (original pre-production briefs; script.md and README.md were empty placeholders, authored from the pre-existing narration/*.txt + visuals/*.md briefs). Beats B00 (ask), B07 (verdict), B08 (your-turn handoff), B09 (title outro) added per the ai-explainer shared skeleton and the your-turn closing standard; the six body beats (B01-B06) come from script.md's six narration beats, kept verbatim. Source voice was listed as am_onyx in README.md/script.md/beats.json — overridden to af_bella (Anjana, no handle) per the series convention established in Episode 1. GATE P signed (see PEDAGOGY.md — VERDICT: PASS). Delivery: rendered at 4K in both 16:9 (this beat sheet, 3840x2160, complete) and 9:16 (short/beat_sheet.json, aspect_ratio 9:16, 2160x3840, complete, via runtime/scripts/shorts.py — B08 auto-dropped to fit the 3:00 Shorts cap, outro rewritten and re-signed in short/PEDAGOGY.md). One visual QC fix made after the first 16:9 compile: B02's CFO-to-analyst speaker swap had no fade-out on the CFO block, so during the ~0.05 fraction crossfade both speaker labels, weight badges, and equations rendered stacked and garbled on top of each other — fixed by giving the CFO block a matching fade-out over the same window the analyst block fades in. Re-rendered and re-verified (both orientations, since the portrait Ecis4Speaker916 shares the same fix) before final compile. B04's two example timelines were later changed from real illustrative tickers (NVDA, MSFT) to fully generic placeholders ('Company A' / 'Company B'), per explicit request — a deliberate departure from Episodes 2 and 3's dashboard-beat precedent. Re-rendered and re-verified in both orientations, both masters recompiled. PROOF review pass (2026-08-27): added a CFO-in-a-noisy-chunk edge case to B03/Ecis4Quality (does high speaker authority override bad chunk quality? no — now shown on screen) plus an on-screen 'ECIS CHUNK-SCORING · 4 DIMENSIONS' anchor tag; retimed B02/Ecis4Speaker's CFO→Analyst equation windows to the real narration cue (duration 450→750 frames, 25s) after frame-grab QC showed the old windows landing early against actual audio; added a fourth preview line to B00's cold-open array ('— all multiplied into one signal') so the framework is previewed before, not only after, the worked examples. Re-rendered and re-verified via frame grabs at narration-matched timestamps, both orientations, master recompiled.",
+    "tags": [
+      "ECIS",
+      "earnings calls",
+      "NLP",
+      "financial signals",
+      "speaker weighting",
+      "data quality",
+      "temporal patterns",
+      "Claude"
+    ],
+    "build": {
+      "at": "2026-08-27T12:53:24",
+      "cut": "master",
+      "filled": 10,
+      "of": 10,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "ASK",
+      "narration_text": "Last episode, ECIS had three models, quality gates, and full provenance. I'm Anjana — here's what changed this week: it learned to weigh who's speaking, how clean the source is, and what happened last quarter.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "type-on",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "ClaudeComposerAsk: greeting 'Hello, Anjana'; ask types itself"
+          },
+          {
+            "at": 0.55,
+            "event": "runningText 'loading this week's build…'"
+          },
+          {
+            "at": 0.75,
+            "event": "output lines resolve: 'who said it now matters' / 'clean data gets more weight' / 'trends beat single quarters' / '— all multiplied into one signal' (previews the B05 equation before the three mechanism beats)"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hello, Anjana",
+            "topic": "ECIS · EARNINGS SIGNALS · S4",
+            "segment": "ECIS — Episode 4",
+            "command": "Last time, ECIS had three models, quality gates, and full provenance. This week you added context — speaker authority, chunk quality, and trend history. Can you show me how that changes a signal?",
+            "runningText": "loading this week's build…",
+            "folderLabel": "",
+            "output": [
+              "who said it now matters",
+              "clean data gets more weight",
+              "trends beat single quarters",
+              "— all multiplied into one signal"
+            ]
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 15,
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 12.84,
+      "engine": "kokoro",
+      "voice": "af_bella",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-27T12:53:24"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "RECAP",
+      "narration_text": "ECIS could read earnings calls with three models, gate its own quality, and trace every signal. That was episode three. Now it understands context.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "a composite flash of Episode 3's key visuals — the triple model nodes (purple/teal/amber), the conveyor-belt quality gates, the provenance stack — layered into one compact image"
+          },
+          {
+            "at": 0.5,
+            "event": "hold — recognizable callback to Episode 3"
+          },
+          {
+            "at": 0.7,
+            "event": "the composite dims; the word 'Context.' fades in below it, large and clean"
+          }
+        ],
+        "remotion": {
+          "pattern": "Ecis4Recap",
+          "props": {
+            "sparkLine": "Now it understands context."
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 5,
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 9.65,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-27T12:53:24"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "SPEAKER",
+      "narration_text": "Not all speakers are equal. When a CFO says \"we are raising guidance,\" that is the most authoritative voice on the call. When an analyst says the same words in a question, that is speculation. The system now assigns a weight to every speaker. CFO, one point zero. CEO, zero point eight. Analyst, zero point three. Operator, zero. The same sentence, the same confidence score, lands completely differently depending on who said it.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "build",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "quote card lands center: 'We are raising our full-year revenue outlook.'"
+          },
+          {
+            "at": 0.15,
+            "event": "speaker label 'CFO — Sarah Chen', weight badge '1.0' green; equation 0.85 × 1.0 = 0.85; output glows green, strong"
+          },
+          {
+            "at": 0.45,
+            "event": "speaker label swaps to 'Analyst — David Park', weight badge '0.3' amber; equation updates to 0.85 × 0.3 = 0.26; output dims"
+          },
+          {
+            "at": 0.7,
+            "event": "quote card slides left; a role-hierarchy bar stack fades in on the right: CFO 1.0, CEO 0.8, COO 0.7, IR 0.6, Analyst 0.3, Operator 0.0 (greyed out)"
+          },
+          {
+            "at": 0.92,
+            "event": "label lands: 'Same words. Different authority.'"
+          }
+        ],
+        "remotion": {
+          "pattern": "Ecis4Speaker",
+          "props": {
+            "sparkLine": "Same words. Different authority."
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 15,
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 26.09,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "media",
+        "at": "2026-08-27T12:53:24"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "QUALITY",
+      "narration_text": "Even the right speaker can be reading from a noisy chunk. Safe harbour disclaimers mixed in with real guidance. A sentence cut mid-thought by the chunker. Three different speakers in one chunk. The system now scores every chunk on four dimensions: boilerplate ratio, token count, section completeness, and speaker transitions. The scores combine into a single quality multiplier. Clean chunks keep their weight. Noisy chunks get suppressed before they reach the triangulator.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "build",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "a messy chunk card on the left — red-highlighted boilerplate, a sentence cut mid-word, two speaker labels visible"
+          },
+          {
+            "at": 0.2,
+            "event": "four score meters fill in sequence: boilerplate 0.35, token count 0.72, completeness 0.50, transitions 0.40 — merging into 'Quality: 0.49' amber"
+          },
+          {
+            "at": 0.45,
+            "event": "a clean chunk card appears on the right — single speaker, complete sentences, no highlights"
+          },
+          {
+            "at": 0.6,
+            "event": "its four meters fill high (0.05 / 0.95 / 0.98 / 1.0) merging into 'Quality: 0.94' bright green"
+          },
+          {
+            "at": 0.8,
+            "event": "both chunks flow toward a compact triangulator icon — the clean chunk's arrow thick and bright, the noisy chunk's arrow thin and nearly invisible"
+          },
+          {
+            "at": 0.93,
+            "event": "label lands: 'Quality gates the signal, not the data.'"
+          }
+        ],
+        "remotion": {
+          "pattern": "Ecis4Quality",
+          "props": {
+            "sparkLine": "Quality gates the signal, not the data."
+          },
+          "rendered": {
+            "out": "media/B03.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 12,
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 27.41,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B03.mp4",
+        "filled_by": "media",
+        "at": "2026-08-27T12:53:24"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "TEMPORAL",
+      "narration_text": "A single quarter means nothing in isolation. \"Revenue guidance raised\" hits different when the company raised guidance last quarter too. The system now links signals across time. Consecutive raises. Consecutive lowers. Reversals. Stable maintained. Every signal carries its trend context. Two quarters of raised guidance in a row is a pattern. A sudden reversal after three stable quarters is a different pattern. The scorecard can now measure which patterns actually predict market returns.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "build",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "a horizontal timeline for 'Company A' with four quarterly markers: Q1 raised (green up), Q2 raised (green up), Q3 raised (green up), Q4 lowered (red down)"
+          },
+          {
+            "at": 0.3,
+            "event": "trend tags animate between markers: Q1→Q2 and Q2→Q3 'consecutive_raise' in green bands; Q3→Q4 'reversal' in a pulsing red band"
+          },
+          {
+            "at": 0.55,
+            "event": "a second, smaller timeline appears below for 'Company B' — four quarters all 'maintained', steady blue arrows, tagged 'stable_maintained'"
+          },
+          {
+            "at": 0.85,
+            "event": "label lands: 'Patterns, not snapshots.'"
+          }
+        ],
+        "remotion": {
+          "pattern": "Ecis4Temporal",
+          "props": {
+            "sparkLine": "Patterns, not snapshots."
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 12,
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 30.31,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-27T12:53:24"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "TOGETHER",
+      "narration_text": "Three multipliers now flow into every signal. Reader confidence, scaled by speaker authority, scaled by chunk quality. Trend context rides alongside. The triangulator does not just ask what the readers found. It asks who said it, how clean the source was, and whether it fits the pattern.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "build",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "the triangulator node sits center, same style as prior episodes; three inputs stack in from the left: reader confidence 0.85 (white), speaker weight 0.8 CEO (green), chunk quality 0.92 (green)"
+          },
+          {
+            "at": 0.35,
+            "event": "equation animates step by step: 0.85 × 0.8 = 0.68, then 0.68 × 0.92 = 0.63"
+          },
+          {
+            "at": 0.7,
+            "event": "the output signal exits right at confidence 0.63 with a trend tag 'consecutive_raise' riding alongside it like a luggage tag"
+          },
+          {
+            "at": 0.88,
+            "event": "label lands below: 'What. Who. How clean. What came before.' — each word mapped to its input above"
+          }
+        ],
+        "remotion": {
+          "pattern": "Ecis4Together",
+          "props": {
+            "sparkLine": "What. Who. How clean. What came before."
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 8,
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 19.08,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "media",
+        "at": "2026-08-27T12:53:24"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "CLOSE",
+      "narration_text": "Three models. Three multipliers. Trend across quarters. ECIS, episode four.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "stagger",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "flash 1: the triple-node architecture (purple, teal, amber) — on 'three models'"
+          },
+          {
+            "at": 0.33,
+            "event": "flash 2: the reader × speaker × quality equation from B05 — on 'three multipliers'"
+          },
+          {
+            "at": 0.67,
+            "event": "flash 3: the Company A Q1–Q4 timeline with the reversal tag from B04 — on 'trend across quarters'"
+          },
+          {
+            "at": 0.85,
+            "event": "title lands center screen: 'ECIS — Episode 4'"
+          }
+        ],
+        "remotion": {
+          "pattern": "Ecis4Close",
+          "props": {
+            "sparkLine": "Context, not just scale."
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 5,
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 5.14,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-27T12:53:24"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "VERDICT",
+      "narration_text": "Let's recap with Claude. Every signal is now scaled by who said it — a CFO's words carry far more weight than an analyst's question. The source chunk's own quality multiplies in too, so noisy chunks get suppressed before they reach the triangulator. And every signal carries its trend context — a consecutive raise, a reversal, or steady guidance. Three multipliers, one final signal.",
+      "lead_silence_s": 0.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "stagger",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "0.5s lead pause, then ClaudeVerdictArtifact card builds in"
+          },
+          {
+            "at": 0.15,
+            "event": "line 1: speaker-weight icon settles in"
+          },
+          {
+            "at": 0.35,
+            "event": "line 2: quality-meter icon settles in"
+          },
+          {
+            "at": 0.55,
+            "event": "line 3: trend-timeline icon settles in"
+          },
+          {
+            "at": 0.75,
+            "event": "line 4: the combined equation icon locks in, largest element"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "sparkLine": "",
+            "artifactTitle": "ECIS — episode four",
+            "artifactHeading": "What. Who. How clean. What came before.",
+            "artifactLines": [
+              "Speaker authority scales every signal — a CFO carries far more weight than an analyst.",
+              "Chunk quality gates noisy sources before they reach the triangulator.",
+              "Every signal now carries its trend: consecutive raises, reversals, or stable guidance.",
+              "Reader confidence × speaker weight × chunk quality = the final signal."
+            ]
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 18,
+      "audio_file": "mp3/beat-B07.mp3",
+      "actual_duration_s": 25.03,
+      "engine": "kokoro",
+      "voice": "af_bella",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-27T12:53:24"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "HANDOFF",
+      "narration_text": "Your turn. \"I collect information from multiple sources for a decision I make regularly, and right now I weigh every source's input about equally regardless of who it came from or how reliable that particular piece was. Can you help me: one, list the sources I actually use and rank them by how much I should trust each; two, name one 'noisy chunk' problem in my own process — information that's incomplete, mixed with irrelevant content, or hard to attribute; and three, tell me honestly whether weighting my sources by authority and cleanliness would have changed a recent decision I made?\" Paste that into Claude and see whether your own process has a who-said-it problem hiding in it.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "type-on",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "ClaudeComposerAsk: greeting 'Your turn.'; prompt types itself into the composer"
+          },
+          {
+            "at": 0.6,
+            "event": "runningText 'checking your own source weighting…'"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "ECIS · EARNINGS SIGNALS · S4",
+            "segment": "ECIS — Episode 4",
+            "command": "I collect information from multiple sources for a decision I make regularly, and right now I weigh every source's input about equally regardless of who it came from or how reliable that particular piece was. Can you help me: one, list the sources I actually use and rank them by how much I should trust each; two, name one 'noisy chunk' problem in my own process — information that's incomplete, mixed with irrelevant content, or hard to attribute; and three, tell me honestly whether weighting my sources by authority and cleanliness would have changed a recent decision I made?",
+            "runningText": "checking your own source weighting…",
+            "folderLabel": ""
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 26,
+      "audio_file": "mp3/beat-B08.mp3",
+      "actual_duration_s": 40.54,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-27T12:53:24"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "OUTRO",
+      "narration_text": "Who said it. How clean it was. What came before. That's Anjana.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "ClaudeTitleOutro: title 'ECIS — Episode 4' in serif, terracotta period"
+          },
+          {
+            "at": 0.8,
+            "event": "subline fades in: 'subscribe · episode four'"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "ECIS — Episode 4",
+            "handle": "",
+            "subline": "subscribe · episode four"
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 7,
+      "audio_file": "mp3/beat-B09.mp3",
+      "actual_duration_s": 3.67,
+      "engine": "kokoro",
+      "voice": "af_bella",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-08-27T12:53:24"
+      }
+    }
+  ]
+}

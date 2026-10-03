@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Counsel",
+ "slug": "books--claude-liam-legal-finance",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-legal-finance/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-legal-finance",
+ "family": "books",
+ "mode": "redo"
+}

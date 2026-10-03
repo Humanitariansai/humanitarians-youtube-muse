@@ -1,0 +1,269 @@
+{
+  "metadata": {
+    "title": "Splitting the Claims",
+    "slug": "patent-agent-video2-splitting-claims",
+    "topic": "Claude Code · Patent Intelligence",
+    "register": "Pragmatist",
+    "voice": "claude-hai",
+    "voice_kokoro": "af_bella",
+    "engine": "kokoro",
+    "palette": "humanitarians",
+    "style_preset": "claude",
+    "style": "claude-cli",
+    "channel": "claude-hai",
+    "channel_title": "@HumanitariansAI",
+    "note": "Mycroft patent intelligence progress video 2 of 3. Real build session: claim-splitting regex built and tested against a real BigQuery-pulled patent (US-11791319-B2, 20/20 claims correctly classified), then stress-tested against 3 more real patents (44 more claims). A real false-positive was found and traced by hand (Claim 5 of US-11197952-B2 flagged for multi-dependency, actually a single clean reference).",
+    "total_estimated_duration_seconds": 110,
+    "build": {
+      "at": "2026-08-28T14:28:21",
+      "cut": "master",
+      "filled": 8,
+      "of": 8,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00A",
+      "act": "INTRO",
+      "role_note": "presenter executive summary",
+      "narration_text": "Hi, I'm Aishwarya from the Mycroft team. This video walks through building the real claim-splitting logic for the patent Claims Agent, and testing it against real BigQuery data.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "command": "",
+            "topic": "Claude Code · Patent Intelligence",
+            "segment": "Splitting the Claims",
+            "folderLabel": "@HumanitariansAI",
+            "greeting": "Hi, I'm Aishwarya",
+            "runningText": "from the Mycroft team",
+            "output": [
+              "This video walks through building the real claim-splitting logic",
+              "for the patent Claims Agent, and testing it against real BigQuery data."
+            ]
+          },
+          "rendered": {
+            "out": "media/B00A.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 10,
+      "audio_file": "mp3/beat-B00A.mp3",
+      "actual_duration_s": 11.71,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00A.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T14:28:21"
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN LAW — the real stakes stated plainly",
+      "narration_text": "Twenty claims, one real patent, one regex. The question wasn't whether it would run — it was whether it would get every single one right.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "command": "claude \"split raw patent claims text into independent and dependent claims\"",
+            "topic": "Claude Code · Patent Intelligence",
+            "segment": "Splitting the Claims",
+            "folderLabel": "@HumanitariansAI",
+            "greeting": "Hai,",
+            "runningText": "building the claim splitter…",
+            "output": [
+              "20 claims parsed.",
+              "3 independent, 17 dependent."
+            ]
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 10,
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 8.47,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T14:28:21"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "PROBLEM",
+      "role_note": "the build — how the split-and-classify logic works",
+      "narration_text": "Method: real claims text is numbered sequentially, a claim naming the one it depends on directly in its own text. A regex can split on the numbering and check each claim for a claim N reference to classify it as independent or dependent.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B01_HowItSplits",
+          "file": "scenes.py"
+        }
+      },
+      "estimated_duration_s": 20,
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 15.23,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim:B01_HowItSplits",
+        "at": "2026-08-28T14:28:21"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "OUTPUT",
+      "role_note": "the first real test result — 20/20 correct",
+      "narration_text": "Running it against US-11791319-B2 — a real semiconductor patent, twenty claims, three independent, seventeen dependent, including chained dependencies three levels deep. Every single one came back correctly classified, verified by hand against the raw text.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B02_FirstRealTest",
+          "file": "scenes.py"
+        }
+      },
+      "estimated_duration_s": 20,
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 20.91,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim:B02_FirstRealTest",
+        "at": "2026-08-28T14:28:21"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "CHANGE",
+      "role_note": "stress-testing against more real patents",
+      "narration_text": "One clean result on one patent proves the code runs — it doesn't prove the logic holds. Three more real patents, forty-four more claims. The parser held up: every independent claim identified correctly, every dependency chain traced correctly.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B03_StressTest",
+          "file": "scenes.py"
+        }
+      },
+      "estimated_duration_s": 20,
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 15.96,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim:B03_StressTest",
+        "at": "2026-08-28T14:28:21"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "OUTPUT",
+      "role_note": "the honest catch — a false positive, traced by hand",
+      "narration_text": "The stress test flagged two claims as possible multi-dependencies. Checking the actual raw text by hand: it was a false alarm. The claim said claim 3, plainly — the flag had triggered on an unrelated or later in the same sentence, nothing to do with the dependency. The dependency parsing was right. The false-positive detector was too eager.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B04_TheHonestCatch",
+          "file": "scenes.py"
+        }
+      },
+      "estimated_duration_s": 22,
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 22.93,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim:B04_TheHonestCatch",
+        "at": "2026-08-28T14:28:21"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "NEXT STEPS",
+      "role_note": "HANDOFF LAW — a runnable prompt, read and discussed",
+      "narration_text": "Your turn. Take any patent's claims text, run it through the same split-and-classify logic, and check the flagged claims by hand before trusting any of it — a parser that runs without crashing is not the same as a parser that's correct.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "command": "claude \"split this patent's claims text into independent and dependent claims, and flag any that might have multiple dependencies for manual review: [PASTE CLAIMS TEXT]\"",
+            "topic": "Claude Code · Patent Intelligence",
+            "segment": "Splitting the Claims",
+            "folderLabel": "@HumanitariansAI",
+            "greeting": "Your turn.",
+            "runningText": "paste this into Claude…"
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 15,
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 14.72,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T14:28:21"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "OUTRO",
+      "role_note": "OUTRO LAW — title restate, Humanitarians AI",
+      "narration_text": "Splitting the Claims. Built with Claude, for Humanitarians AI.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Splitting the Claims.",
+            "handle": "@HumanitariansAI",
+            "subline": "correct, not just running"
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 6,
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 4.07,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T14:28:21"
+      }
+    }
+  ]
+}

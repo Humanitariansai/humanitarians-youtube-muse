@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "title": "Writing Hookify Rules",
+    "slug": "claude-code--claude-liam-writing-rules",
+    "topic": "HOOKIFY RULES · CLAUDE CODE PLUGINS",
+    "purpose": "Answer whether stopping Claude from running a dangerous command needs custom code, using the writing-rules skill's own rm -rf block as the concrete case. Lands the carry-out that a hookify rule is a markdown file Claude reads before every tool call, not a script -- and it only catches exactly what its pattern says.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-code/youtube/claude-liam-writing-rules/beat_sheet.json",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Code",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (the hookify rule blocking rm -rf: fires reliably at the exact pattern, then either over-fires on a broad pattern or lets a rephrased danger through on a narrow one)",
+    "build": {
+      "at": "2026-08-29T04:43:57",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone wants Claude to catch a dangerous command automatically. Their first thought: write a script. But hookify needs no code — just a rule. So: how do you write one that blocks rm -rf?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'How do I write a script to stop Claude from running rm -rf?', hesitates on 'script', corrects to 'rule', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I write a script\nto stop Claude\nfrom running rm -rf?",
+            "face": "serif",
+            "fontSize": 64,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "script",
+            "replacementWords": "rule",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-writing-rules"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('script' -> 'rule') is visible on a late frame.",
+      "actual_duration_s": 10.47,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T04:43:57"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / 2 wrong guess, falsified",
+      "narration_text": "A hookify rule isn't code — it's a markdown file. Save it at dot-claude slash hookify dot name dot local dot md, with a YAML frontmatter block on top and a message underneath. There's no build step and no restart: Claude reads the file fresh on every single tool call, so an edit takes effect on the very next one.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A script/gears card receding while a markdown file card with a frontmatter divider grows in its place; the file path underneath; a 'read fresh, every call' tag"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "A rule, not a script",
+          "mechanic": "Left: a card labelled 'custom hook script' with a terminal glyph, fading back. Right: a card labelled 'hookify rule' growing, showing a '---' frontmatter divider and two lines of YAML appearing beneath it. Below both, the file path '.claude/hookify.block-rm.local.md' fades in, then a small looping-arrows glyph with the words 'read fresh, every call'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "WHRB01Scene"
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 18.18,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T04:43:57"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "Five frontmatter fields sit above the message: name, kebab-case verb-first; enabled, true or false; event — bash, file, stop, prompt, or all; and pattern, a regex to match. Action defaults to warn; block stops the operation outright. Watch the anchor: event bash, pattern matching rm -rf, action block — Claude reaches for the command, the pattern matches, and it never runs.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR — five field chips lighting in turn, then a rule card (event: bash / pattern: rm -rf / action: block), a command attempt arrowing into it, BLOCKED lighting in terracotta"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — five fields, then a block",
+          "mechanic": "Five small chips fade in one at a time across the top, each labelled with a field name (name / enabled / event / pattern / action), then fade out together. THE ANCHOR. A rule card appears centered: three stacked lines 'event: bash', 'pattern: rm -rf', 'action: block'. A command box reading 'rm -rf ~' arrows into the rule card; the rule card's text recolors to terracotta and a 'BLOCKED' chip lights beneath it. THIS EXACT SEQUENCE RETURNS AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "WHRB02Scene"
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 20.37,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T04:43:57"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "Get that pattern exact and the block fires every time — reliable, because the check is a straight regex match. But precision cuts both ways. Pattern the word log, and you also catch catalog and login — blocking things nobody asked about. Pattern only rm -rf slash tmp, and the identical danger typed against a different path sails straight through.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS — the same rule blocking three times in a row; then split: 'log' lighting up catalog/login as a false block, 'rm -rf /tmp' letting 'rm -rf ~' pass as a false miss"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS — precision cuts both ways",
+          "mechanic": "THE B02 RULE CARD RETURNS, identical, firing 'BLOCKED' three times in a row against three attempts. Then it splits into two cards side by side: left reads 'pattern: log' with 'catalog' and 'login' lighting up terracotta beneath it, labelled 'false block'; right reads 'pattern: rm -rf /tmp' with 'rm -rf ~' passing through unlit, labelled 'false miss'. A closing line beneath both: 'same match, opposite mistake'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "WHRB03Scene"
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 19.31,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T04:43:57"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "A hookify rule isn't a script you write — it's a markdown file Claude reads before every tool call, and it only catches exactly what its pattern says, no more, no less.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "A hookify rule isn't a script you write — it's a markdown file Claude reads before every tool call, and it only catches exactly what its pattern says, no more, no less.",
+            "attribution": "",
+            "sparkLine": "Exactly what the pattern says."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "actual_duration_s": 9.81,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T04:43:57"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. Create a hookify rule that blocks rm -rf commands, and one that warns when editing .env files. Watch two things when Claude answers. Does the rm rule set action to block, not warn — warn still lets the command run. And does the .env rule check file_path directly, in a conditions block, rather than only the new text being written — a path check catches the edit itself, not just what's typed inside it. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 30,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "HOOKIFY RULES · CLAUDE CODE PLUGINS",
+            "segment": "Your Turn",
+            "command": "Create a hookify rule that blocks rm -rf commands, and one that warns when editing .env files.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 23.87,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T04:43:57"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Writing Hookify Rules. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Writing Hookify Rules. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 3.37,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T04:43:57"
+      }
+    }
+  ]
+}

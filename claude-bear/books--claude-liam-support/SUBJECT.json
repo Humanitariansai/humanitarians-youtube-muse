@@ -1,0 +1,10 @@
+{
+ "question": "Claude, On Call",
+ "slug": "books--claude-liam-support",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-support/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-support",
+ "family": "books",
+ "mode": "redo"
+}

@@ -1,0 +1,784 @@
+{
+  "metadata": {
+    "title": "Knowing the Noise by Name.",
+    "slug": "claude-hai-gravitational-wave-detection",
+    "topic": "Irreducibly Human",
+    "brand": "claude-hai",
+    "audience": "HAI",
+    "persona": "HAI",
+    "folderLabel": "@HumanitariansAI",
+    "register": "Pragmatist",
+    "engine": "kokoro",
+    "voice_kokoro": "af_bella",
+    "palette": "claude",
+    "style_preset": "claude",
+    "ground": "#F2F0E9",
+    "typography": {
+      "serif": "EB Garamond",
+      "ui": "system sans",
+      "mono": "SF Mono"
+    },
+    "aspect_ratio": "16:9",
+    "fit": "crop",
+    "clock": "narration (Kokoro af_bella) — per-beat mp3 durations are MEASURED, never estimated",
+    "greeting": "Hej, HAI",
+    "greeting_note": "hello lexicon: Swedish (Hej) — one of the short forms the HAI persona's word budget allows. Wagwan is Bear's only; not applicable to this channel.",
+    "playlist": "AI in Astronomy & Space Science",
+    "purpose": "Rebuild of the 20-beat vox-editorial reel at claude-for-astronomy/gravitational-wave-detection/ as an ai-explainer reel on the claude-hai channel. Same subject (LIGO's Gravity Spy glitch classifier; GW170817's near miss as the cold-open stakes), re-authored to the ai-explainer spine (Claude composer cold open -> presenter -> BLUF -> body -> verdict -> YOUR TURN -> title restate) and rewritten from the Vox-editorial voice into the Pragmatist register: method, when to use it, and where it fails. Facts carried from the source reel's FACTCHECK.md (verified 2026-08-08, primary sources cited per claim) — see FACTCHECK.md and SOURCES.md here.",
+    "color_semantics": "Claude fidelity palette. Terracotta #D97757 is the ONE accent and marks exactly one focal event per beat: the glitch, the counter's target, the misread, the unnamed class. Ink #3D3929 carries everything else. No second hue is introduced for 'signal vs noise' — the accent moves, the meaning does not.",
+    "note": "ILLUSTRATE LAW: the Claude UI appears at B00 (cold open, with RESULT lines), B11 (verdict artifact), B12 (handoff), B13 (title outro). Every other beat illustrates its concept as a reel-local Manim scene (scenes.py) in the Claude fidelity palette. No LaTeX/MathTex anywhere — this machine has no dvisvgm, and nothing in the reel needs typeset math. metadata.channel_title is deliberately omitted: compile.py's bottom-centre overlay sits below the title-safe inset and trips GATE V edge-bleed; the channel is carried by the composer folder chip, a per-scene wordmark bug, and the full-size handle on the outro (see BUILD-LOG.md).",
+    "tags": [
+      "LIGO",
+      "gravitational waves",
+      "Gravity Spy",
+      "glitch classification",
+      "convolutional neural network",
+      "citizen science",
+      "human in the loop",
+      "GW170817",
+      "Humanitarians AI"
+    ],
+    "build": {
+      "at": "2026-08-10T20:00:48",
+      "cut": "master",
+      "filled": 14,
+      "of": 14,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "COLD OPEN",
+      "content_type": "title",
+      "narration_text": "A detector sensitive enough to feel a passing gravitational wave is also sensitive enough to invent one. So here is the method for telling the difference, the accuracy it actually reaches, and the place where it stops working.",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "lane": "ask",
+        "motion": "type-on",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "cream page; IRREDUCIBLY HUMAN eyebrow, then the serif segment title Knowing the Noise by Name"
+          },
+          {
+            "at": "0.15",
+            "event": "spark + greeting Hej, HAI settles above the composer card"
+          },
+          {
+            "at": "0.25",
+            "event": "the ask types itself into the composer; send button arms when it lands"
+          },
+          {
+            "at": "0.55",
+            "event": "terracotta running indicator: sorting the noise…"
+          },
+          {
+            "at": "0.70",
+            "event": "three result lines stagger in — method, accuracy, limit. The ask lands ANSWERED."
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "provenance": "proven-core/ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hej, HAI",
+            "topic": "IRREDUCIBLY HUMAN",
+            "segment": "Knowing the Noise by Name",
+            "command": "LIGO logged about a million instrument glitches in one 51-day observing run, and some of them look like real black-hole mergers. What is the actual method for sorting them, how accurate is it, and where does it fail?",
+            "runningText": "sorting the noise…",
+            "output": [
+              "method — a CNN trained on citizen-science labels",
+              "accuracy — 97.1% average, across 20 named classes",
+              "limit — it can only name a class it has already seen"
+            ],
+            "folderLabel": "@HumanitariansAI",
+            "modelLabel": "Fable 5",
+            "effortLabel": "High"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 13.93,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "PRESENTER",
+      "content_type": "title",
+      "narration_text": "I am Om Mali, and this is Humanitarians AI. Today's method comes out of gravitational wave astronomy, and it is worth your time because the hard part here is not the physics. It is trusting the instrument.",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "lane": "manim",
+        "motion": "kinetic",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "top-left kicker: AI IN ASTRONOMY & SPACE SCIENCE · EP. 03"
+          },
+          {
+            "at": "0.15",
+            "event": "the name OM MALI draws on large, centre-left, terracotta hairline sweeping under it"
+          },
+          {
+            "at": "0.45",
+            "event": "role line fades in beneath: Humanitarians AI · presenter"
+          },
+          {
+            "at": "0.65",
+            "event": "the beat's claim types in on the right: 'the hard part is not the physics' with 'trusting the instrument' landing in terracotta"
+          },
+          {
+            "at": "0.90",
+            "event": "@HumanitariansAI wordmark bug settles bottom-right, inside title-safe"
+          }
+        ]
+      },
+      "graphic": {
+        "manim": "B01_Presenter",
+        "engine": "manim"
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 13.57,
+      "build": {
+        "status": "MANIM",
+        "src": "manim\\B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "EXECUTIVE SUMMARY",
+      "content_type": "definitional",
+      "narration_text": "Here is the whole idea in one breath. A gravitational wave detector produces far more noise than signal. So scientists turned every glitch into a picture, had volunteers sort and name those pictures, and trained a neural network on the labels. Naming the noise is what makes a detection trustworthy.",
+      "estimated_duration_s": 19,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "lane": "manim",
+        "motion": "kinetic",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "eyebrow: THE WHOLE IDEA, IN ONE BREATH"
+          },
+          {
+            "at": "0.20",
+            "event": "line 1 sets: 'far more noise than signal' — a dense field of small ink glitch ticks fills behind it, one lone terracotta tick among them"
+          },
+          {
+            "at": "0.45",
+            "event": "line 2 sets: 'every glitch becomes a picture' — three ticks resolve into three small framed tiles"
+          },
+          {
+            "at": "0.65",
+            "event": "line 3 sets: 'people name them, a network learns the names' — name chips attach to the tiles"
+          },
+          {
+            "at": "0.85",
+            "event": "the closing line lands full-width in terracotta: NAMING THE NOISE IS THE TRUST STEP"
+          }
+        ]
+      },
+      "graphic": {
+        "manim": "B02_OneBreath",
+        "engine": "manim"
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 18.86,
+      "build": {
+        "status": "MANIM",
+        "src": "manim\\B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "THE STAKES",
+      "content_type": "realworld",
+      "narration_text": "August seventeenth, 2017. LIGO records a real neutron star merger. One point one seconds before it, a converter saturates at Livingston and drops a glitch on top of the signal. The automated search cannot register both detectors together, so the first alert goes out on Hanford alone.",
+      "estimated_duration_s": 30,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "lane": "manim",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "two labelled lanes draw in — HANFORD above, LIVINGSTON below — each carrying a schematic strain trace"
+          },
+          {
+            "at": "0.20",
+            "event": "a shared time axis draws beneath them; a dashed vertical marks MERGER, t = 0"
+          },
+          {
+            "at": "0.38",
+            "event": "on the spoken 'one point one seconds before', a terracotta glitch spike stabs the Livingston lane"
+          },
+          {
+            "at": "0.52",
+            "event": "the Livingston lane greys downstream of the spike"
+          },
+          {
+            "at": "0.66",
+            "event": "Hanford's arrow reaches the joint-search card; Livingston's dashed path to it is crossed out in terracotta"
+          },
+          {
+            "at": "0.78",
+            "event": "the card stamps SINGLE DETECTOR, then first public alert"
+          },
+          {
+            "at": "0.88",
+            "event": "a second axis marker lands: FERMI · GRB 170817A · +1.7 s"
+          },
+          {
+            "at": "0.95",
+            "event": "closing line: One glitch, and the alert went out on one detector."
+          }
+        ]
+      },
+      "graphic": {
+        "manim": "B03_NearMiss",
+        "engine": "manim"
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 19.8,
+      "build": {
+        "status": "MANIM",
+        "src": "manim\\B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "THE PROBLEM",
+      "content_type": "data",
+      "narration_text": "That was not a rare accident. In LIGO's first observing run, fifty one and a half days, the detectors logged about one million glitches. The team that characterises the detector is small. Hand sorting was never going to scale.",
+      "estimated_duration_s": 17,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "lane": "manim",
+        "motion": "isotype",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "title: OBSERVING RUN 1 · 51.5 DAYS; a 51-cell day bar draws across the frame"
+          },
+          {
+            "at": "0.25",
+            "event": "a counter climbs toward 1,000,000 as the day bar fills; the counter's final figure lands in terracotta on the spoken 'one million'"
+          },
+          {
+            "at": "0.60",
+            "event": "citation line under the counter: 'approximately 10^6 glitches over SNR 6 in the 51.5 d of O1 — Zevin et al. 2017'"
+          },
+          {
+            "at": "0.75",
+            "event": "right side: a tall stack of glitch tiles vs a handful of reviewer marks; the ratio is the whole point"
+          },
+          {
+            "at": "0.90",
+            "event": "stamp: HAND SORTING DOES NOT SCALE"
+          }
+        ]
+      },
+      "graphic": {
+        "manim": "B04_MillionGlitches",
+        "engine": "manim"
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 14.83,
+      "build": {
+        "status": "MANIM",
+        "src": "manim\\B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "THE PROBLEM",
+      "content_type": "structure",
+      "narration_text": "And some of the noise is actively deceptive. A blip is about ten milliseconds long and spread across a wide band, and in a time frequency picture it looks like the chirp of a massive black hole merger. Standard consistency checks cannot tell them apart.",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "lane": "manim",
+        "motion": "annotate",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "two identical spectrogram frames draw side by side, level, with frequency and time axes"
+          },
+          {
+            "at": "0.28",
+            "event": "the left frame fills with a merger: a compact smear whose bands drift right as frequency rises"
+          },
+          {
+            "at": "0.50",
+            "event": "the right frame fills with a blip: the SAME envelope, no drift. The two read as near twins."
+          },
+          {
+            "at": "0.62",
+            "event": "labels land — MERGER real signal / BLIP instrument noise — and the pair HOLDS on screen for over two seconds"
+          },
+          {
+            "at": "0.75",
+            "event": "a line notes the shared footprint: about ten milliseconds, wide band, about two blips per hour per detector"
+          },
+          {
+            "at": "0.85",
+            "event": "a consistency-check bracket spans both frames and returns the same verdict under each"
+          },
+          {
+            "at": "0.94",
+            "event": "the right verdict flips to a terracotta MISREAD chip"
+          }
+        ]
+      },
+      "graphic": {
+        "manim": "B05_Impostor",
+        "engine": "manim"
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 15.55,
+      "build": {
+        "status": "MANIM",
+        "src": "manim\\B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "THE FRAMEWORK",
+      "content_type": "mechanism",
+      "narration_text": "So here is the method, and it has four parts. Every glitch becomes a spectrogram, shown at four time windows at once. Volunteers sort those pictures into named shapes. A convolutional network trains on their labels. Then the network sorts the incoming flood first, and routes the cases it is unsure about back to people.",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "lane": "manim",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "title: GRAVITY SPY · THE LOOP; four numbered stations draw left to right as empty nodes"
+          },
+          {
+            "at": "0.20",
+            "event": "station 1 lights: RENDER — a glitch becomes four stacked spectrogram tiles"
+          },
+          {
+            "at": "0.42",
+            "event": "station 2 lights: LABEL — volunteer marks drop named chips onto the tiles"
+          },
+          {
+            "at": "0.62",
+            "event": "station 3 lights: TRAIN — the labelled tiles feed a small layered network glyph"
+          },
+          {
+            "at": "0.80",
+            "event": "station 4 lights: SORT — the network fans the incoming flood into named bins"
+          },
+          {
+            "at": "0.92",
+            "event": "a terracotta return arc closes the loop from station 4 back to station 2, captioned 'unsure cases route to people'"
+          }
+        ]
+      },
+      "graphic": {
+        "manim": "B06_Framework",
+        "engine": "manim"
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 20.29,
+      "build": {
+        "status": "MANIM",
+        "src": "manim\\B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "WORKED EXAMPLE",
+      "content_type": "mechanism",
+      "narration_text": "Run one blip through it. Four windows at once, so the fine structure and the context are both visible in the same view. Volunteers who have seen thousands of these call it a blip. The network, trained on those calls, labels the next one in milliseconds.",
+      "estimated_duration_s": 21,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "lane": "manim",
+        "motion": "drawon",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "the four framework stations persist as a chip rail across the top; a terracotta marker sits at RENDER"
+          },
+          {
+            "at": "0.14",
+            "event": "four windows open — 0.25 s · 0.5 s · 1.0 s · 2.0 s — the SAME event, the feature narrowing as the window widens"
+          },
+          {
+            "at": "0.46",
+            "event": "the marker slides to LABEL; volunteer marks land and a terracotta BLIP chip appears under 'the human call'"
+          },
+          {
+            "at": "0.68",
+            "event": "a divider splits the column; the marker slides to TRAIN and a small network glyph builds under 'the machine call'"
+          },
+          {
+            "at": "0.82",
+            "event": "the marker reaches SORT and an output card resolves: BLIP, in milliseconds"
+          },
+          {
+            "at": "0.93",
+            "event": "closing line: Trained on the human calls."
+          }
+        ]
+      },
+      "graphic": {
+        "manim": "B07_WorkedExample",
+        "engine": "manim"
+      },
+      "audio_file": "mp3/beat-B07.mp3",
+      "actual_duration_s": 15.51,
+      "build": {
+        "status": "MANIM",
+        "src": "manim\\B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "THE RESULT",
+      "content_type": "data",
+      "narration_text": "The numbers. On held out test data the first classifier reached about ninety seven percent average accuracy across twenty named classes. By the end of the third observing run it had labelled more than six hundred thousand glitches.",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "lane": "manim",
+        "motion": "isotype",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "title: WHAT IT ACTUALLY DELIVERS"
+          },
+          {
+            "at": "0.15",
+            "event": "left: an accuracy arc fills to 97.1% and the figure lands in terracotta, cited 'CNN average accuracy on test data — Zevin et al. 2017'"
+          },
+          {
+            "at": "0.40",
+            "event": "a 20-cell strip draws beneath it, one cell per named class, four of them labelled Blip · Koi Fish · Whistle · Scattered Light"
+          },
+          {
+            "at": "0.62",
+            "event": "right: two bars grow to their real values — HANFORD 233,981 and LIVINGSTON 379,805 — each number appearing as its bar lands"
+          },
+          {
+            "at": "0.85",
+            "event": "the two bars total to 613,786 through O3, cited 'Glanzer et al. 2022'"
+          }
+        ]
+      },
+      "graphic": {
+        "manim": "B08_Result",
+        "engine": "manim"
+      },
+      "audio_file": "mp3/beat-B08.mp3",
+      "actual_duration_s": 14.29,
+      "build": {
+        "status": "MANIM",
+        "src": "manim\\B08.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "WHERE IT FAILS",
+      "content_type": "mechanism",
+      "narration_text": "Now the part that decides whether you should use this. A trained classifier can only name a shape it has already seen. In beta testing, volunteers found two morphologies the machine had no class for, nicknamed Paired Doves and Helix. The people found them, not the network.",
+      "estimated_duration_s": 23,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "lane": "manim",
+        "motion": "isotype",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "a row of incoming glitch tiles draws in above five labelled bins — Blip · Koi Fish · Whistle · Scattered Light · +16 more"
+          },
+          {
+            "at": "0.28",
+            "event": "five tiles drop INTO their bins; a fresh row arrives behind them, the stream does not stop"
+          },
+          {
+            "at": "0.45",
+            "event": "two terracotta tiles match no bin and hold a question mark"
+          },
+          {
+            "at": "0.58",
+            "event": "the network returns its only possible answer, nearest known class — struck through, captioned confidently wrong"
+          },
+          {
+            "at": "0.72",
+            "event": "a volunteer mark reaches past the bins and two new terracotta bins are drawn: Paired Doves, Helix"
+          },
+          {
+            "at": "0.86",
+            "event": "the two stalled tiles land in the new bins, captioned found by people, not by the network"
+          },
+          {
+            "at": "0.94",
+            "event": "closing rule: A classifier cannot name what it has never seen."
+          }
+        ]
+      },
+      "graphic": {
+        "manim": "B09_UnseenClass",
+        "engine": "manim"
+      },
+      "audio_file": "mp3/beat-B09.mp3",
+      "actual_duration_s": 16.85,
+      "build": {
+        "status": "MANIM",
+        "src": "manim\\B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "SCOPE",
+      "content_type": "structure",
+      "narration_text": "Be precise about scope. This classifier does not detect gravitational waves. Matched filtering does that, and it is classical signal processing, not a trained model. It also did not clean the 2017 glitch. BayesWave did that one event. Naming a whole category of noise, continuously, is the job it is for.",
+      "estimated_duration_s": 25,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "lane": "manim",
+        "motion": "annotate",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "title: WHAT THIS TOOL IS NOT FOR; three labelled lanes draw as columns — DETECT · CLEAN ONE EVENT · NAME THE CATEGORY"
+          },
+          {
+            "at": "0.25",
+            "event": "lane 1 fills with a template bank and the owner chip MATCHED FILTERING (classical), and is struck through as not-Gravity-Spy"
+          },
+          {
+            "at": "0.50",
+            "event": "lane 2 fills with a single glitch being subtracted and the owner chip BAYESWAVE (one event), also struck through"
+          },
+          {
+            "at": "0.72",
+            "event": "lane 3 stays live and turns terracotta: GRAVITY SPY — a continuous stream of tiles flowing into named bins"
+          },
+          {
+            "at": "0.90",
+            "event": "closing line under lane 3: use it for the category, not the catch"
+          }
+        ]
+      },
+      "graphic": {
+        "manim": "B10_Scope",
+        "engine": "manim"
+      },
+      "audio_file": "mp3/beat-B10.mp3",
+      "actual_duration_s": 21.29,
+      "build": {
+        "status": "MANIM",
+        "src": "manim\\B10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "VERDICT",
+      "content_type": "definitional",
+      "lead_silence_s": 0.5,
+      "narration_text": "Let's recap with Claude. The problem is trust, not detection. The method is a picture of every glitch, human labels, and a network trained on them. The result is about ninety seven percent accuracy and over six hundred thousand glitches named. And the limit is the shape nobody has named yet.",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "lane": "bookend",
+        "motion": "stagger",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "the artifact page scales up on the cream stage, spark + title bar"
+          },
+          {
+            "at": "0.2",
+            "event": "four numbered recap lines stagger in, one per spoken clause"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "provenance": "proven-core/ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Knowing the Noise by Name — one page",
+            "artifactHeading": "The method, and its hole",
+            "artifactLines": [
+              "The problem is trust, not detection: an instrument you cannot vet cannot be believed.",
+              "The method: every glitch as a four-window spectrogram, volunteers name it, a CNN trains on their labels.",
+              "The result: ~97.1% average accuracy over 20 classes; 613,786 glitches labelled through O3.",
+              "The limit: a classifier cannot name a class it has never seen — Paired Doves and Helix came from people."
+            ]
+          },
+          "rendered": {
+            "out": "media/B11.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B11.mp3",
+      "actual_duration_s": 18.56,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B11.mp4",
+        "filled_by": "media",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "HANDOFF",
+      "content_type": "definitional",
+      "narration_text": "Your turn. Paste this one. I have a labelled dataset where two classes look nearly identical and one is rare. Walk me through the human in the loop step that catches a class my model has no label for, the metric that exposes the confusion between the two look alikes, and the test that would prove the pipeline failed. Then grade the answer on three things. A named metric. A human where new classes appear. A stated failure condition.",
+      "estimated_duration_s": 34,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "lane": "bookend",
+        "motion": "type-on",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "spark + greeting 'Your turn.' — the one greeting that drops the persona"
+          },
+          {
+            "at": "0.1",
+            "event": "the suggested prompt types itself into the composer while the voice reads it verbatim"
+          },
+          {
+            "at": "0.55",
+            "event": "terracotta running line: paste this into Claude…"
+          },
+          {
+            "at": "0.7",
+            "event": "the three-item rubric staggers in as output lines, one per spoken grading criterion"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "provenance": "proven-core/ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "IRREDUCIBLY HUMAN",
+            "segment": "Knowing the Noise by Name",
+            "command": "I have a labelled dataset where two classes look nearly identical and one is rare. Walk me through (1) the human-in-the-loop step that catches a class my model has no label for, (2) the metric that exposes the confusion between the two look-alikes, and (3) the test that would prove the pipeline failed.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "grade it: a NAMED metric, not accuracy",
+              "grade it: a human placed where NEW classes appear",
+              "grade it: a stated failure condition"
+            ],
+            "folderLabel": "@HumanitariansAI",
+            "modelLabel": "Fable 5",
+            "effortLabel": "High"
+          },
+          "rendered": {
+            "out": "media/B12.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B12.mp3",
+      "actual_duration_s": 25.49,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B12.mp4",
+        "filled_by": "media",
+        "at": "2026-08-10T20:00:48"
+      }
+    },
+    {
+      "beat_id": "B13",
+      "act": "OUTRO",
+      "content_type": "title",
+      "narration_text": "Knowing the noise by name. Humanitarians AI. I am Om Mali.",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "lane": "bookend",
+        "motion": "fade",
+        "show": [
+          {
+            "at": "0.0",
+            "event": "the episode title restates poster-style in serif, terracotta period"
+          },
+          {
+            "at": "0.3",
+            "event": "@HumanitariansAI beneath it, full size"
+          },
+          {
+            "at": "0.5",
+            "event": "subline: AI in Astronomy & Space Science · Ep. 03"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "provenance": "proven-core/ClaudeTitleOutro",
+          "props": {
+            "title": "Knowing the Noise by Name.",
+            "handle": "@HumanitariansAI",
+            "subline": "AI in Astronomy & Space Science · Ep. 03"
+          },
+          "rendered": {
+            "out": "media/B13.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B13.mp3",
+      "actual_duration_s": 4.42,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B13.mp4",
+        "filled_by": "media",
+        "at": "2026-08-10T20:00:48"
+      }
+    }
+  ]
+}

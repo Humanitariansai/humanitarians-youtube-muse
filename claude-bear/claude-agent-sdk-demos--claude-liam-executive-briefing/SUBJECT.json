@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Executive Briefing.",
+ "slug": "claude-agent-sdk-demos--claude-liam-executive-briefing",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-agent-sdk-demos/youtube/claude-liam-executive-briefing/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-agent-sdk-demos/youtube/claude-liam-executive-briefing",
+ "family": "claude-agent-sdk-demos",
+ "mode": "redo"
+}

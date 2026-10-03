@@ -1,0 +1,465 @@
+{
+  "metadata": {
+    "title": "Your Weekly Video, Handled.",
+    "slug": "hai-weekly-video-submission",
+    "topic": "HUMANITARIANS AI · WEEKLY VIDEOS",
+    "register": "Pragmatist",
+    "audience": "Humanitarians AI",
+    "brand": "claude",
+    "engine": "kokoro",
+    "voice_kokoro": "af_bella",
+    "palette": "claude",
+    "style_preset": "claude",
+    "ground": "#FAF9F5",
+    "aspect_ratio": "16:9",
+    "presenter": "Rohan V.",
+    "channel": "@HumanitariansAI",
+    "note": "Fellow-onboarding reel: the complete weekly video pipeline, from a cold install to four files delivered. ILLUSTRATE LAW — the Claude desktop app appears only where the app IS the subject (B02, B11); GitHub and Drive appear on their own product surfaces where those services are the subject (B07, B08, B09). Every other beat is a concept illustration. Written for fellows with no coding background: the through-line is that ten pipeline steps exist and seven of them are the agent's.",
+    "links": {
+      "toolkit_repo": "https://github.com/nikbearbrown/brutalist.art",
+      "submission_repo": "https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows",
+      "drive_folder": "https://drive.google.com/drive/folders/1yf3ZJ9NfDJvdDAiuPiWEwKDjdkQMEh0g"
+    },
+    "tags": [
+      "Humanitarians AI",
+      "fellows",
+      "weekly video",
+      "Brutalist",
+      "Claude",
+      "no code",
+      "GitHub pull request",
+      "Google Drive"
+    ],
+    "build": {
+      "at": "2026-08-28T21:59:38",
+      "cut": "master",
+      "filled": 13,
+      "of": 13,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "ASK",
+      "narration_text": "Hi, I'm Rohan. If you're a fellow at Humanitarians AI, you owe four video files every week. And if you're not a coder, that can sound impossible. It isn't. There's a toolkit that builds them for you, and you drive the whole thing by talking to Claude. No commands, no code. Here's exactly how it works.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "type-on",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hi, Rohan",
+            "topic": "HUMANITARIANS AI · WEEKLY VIDEOS",
+            "segment": "Your Weekly Video, Handled",
+            "command": "I have to deliver four videos every week for Humanitarians AI and I don't write code. Walk me through the whole thing — set up, script, render, and submission — without me touching a terminal.",
+            "runningText": "planning your week…",
+            "folderLabel": "@HumanitariansAI",
+            "modelLabel": "Claude",
+            "effortLabel": "Desktop",
+            "output": [
+              "seven steps the agent handles",
+              "three steps that stay yours",
+              "four files, in the right two places"
+            ]
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 24,
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 19.37,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "REQUIREMENT",
+      "narration_text": "Start with what's actually due. Every Friday, two videos. One on a STEM or AI topic you're interested in. One on the progress you or your team made on your project. Each one gets exported twice — sixteen by nine for YouTube, nine by sixteen for Shorts. Two topics, two formats, four files, all in four K. You can swap in a topic you're passionate about, as long as one of your four files across any two-week stretch is a real research update.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "HaiSubmitRequirementGrid",
+          "props": {
+            "sparkLine": "Two topics. Two formats. Four files. Every Friday.",
+            "flexNote": "Flexibility: swap in a passion topic — but at least 1 of 4 files across any two-week stretch must be a research update. That is the floor."
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 37,
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 31.52,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "SETUP",
+      "narration_text": "Setup happens once. Open the Claude desktop app, make a folder for your work, and ask Claude to set up Brutalist. It asks your permission before it touches anything — you click approve. It clones the toolkit, installs what it needs, and downloads the voice model. Notice what you didn’t do. You never opened a terminal. You approved a request. From week two onwards, don’t set anything up. Open a new chat in the same project, say your two topics, and you’re already in the loop.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "type-on",
+        "remotion": {
+          "pattern": "HaiSubmitClaudeSetup",
+          "props": {
+            "userMessage": "Set up Brutalist for me in this folder.",
+            "claudeReply": "I can do that. I need to clone the toolkit and install its dependencies — approve the request below and I will handle the rest.",
+            "command": "git clone https://github.com/nikbearbrown/brutalist.art",
+            "doneLines": [
+              "Cloned brutalist.art",
+              "Installed Python + Remotion dependencies",
+              "Downloaded the Kokoro voice model (free, local)",
+              "Ready — what are your two topics this week?"
+            ],
+            "sparkLine": "Set up once. Every week after: new chat, same project, two topics."
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 29,
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 29.35,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B02.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "PLAN",
+      "narration_text": "Now the weekly loop. You tell Claude what your video is about, in plain English. That is your entire input. Claude turns it into a beat sheet — a numbered plan where every beat is one moment of the video, carrying its own narration line and its own visual. Script and storyboard, in one file.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "HaiSubmitBeatSheet",
+          "props": {
+            "ask": "Make me a video about how transformers handle long context.",
+            "sparkLine": "One sentence in. A script and a storyboard out."
+          },
+          "rendered": {
+            "out": "media/B03.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 25,
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 19.52,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B03.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "MECHANISM",
+      "narration_text": "Then Claude generates the narration — a real voice, running locally on your machine, completely free. Here's the part worth understanding. The audio is measured first, and those measurements become the clock. Every visual is then cut to fit the voice. Nothing drifts, and nothing is ever timed by hand.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "HaiSubmitAudioClock",
+          "props": {
+            "sparkLine": "The voice is the clock. Every visual conforms to it.",
+            "voiceLabel": "Kokoro · af_bella · local · free"
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 24,
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 20.29,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "YOUR JOB",
+      "narration_text": "Claude compiles a preview and hands it back to you. This step is yours, and it's the one thing Claude genuinely cannot do — it has never watched a video, so it can't tell you whether yours lands. So watch it. If a beat is wrong, say so in plain words: beat four is confusing, rebuild it. Only that beat changes. Repeat until you'd put your name on it.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "HaiSubmitReviewLoop",
+          "props": {
+            "quote": "Claude writes the video faster and more correctly than you ever will — and it has never once watched one. Taste is not a step it does slowly. It is a step it cannot do.",
+            "example": "“beat 4 is confusing — rebuild it”",
+            "sparkLine": "You are the conductor. Repeat until you would put your name on it."
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 29,
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 22.61,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B05.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "FORMATS",
+      "narration_text": "Once you approve it, Claude renders the four K master, then derives the vertical cut from that same master automatically. You never build the same video twice. Run your second topic through the same loop, and your four files are done.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "HaiSubmitFormats",
+          "props": {
+            "sparkLine": "Build once. The vertical cut is derived, not rebuilt."
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 19,
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 14.61,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "SUBMIT · CODE",
+      "narration_text": "Now submission — and this is two different destinations, which is where people get confused. The code and the documents go to GitHub. Your beat sheet, your scene files, your build notes. Text files, nothing over twenty-five megabytes. Claude commits those into the fellows folder of the Humanitarians YouTube repository.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "HaiSubmitGitHubDocs",
+          "props": {
+            "repoUrl": "https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows",
+            "sparkLine": "Paperwork to the repo. Never the video files."
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 23,
+      "audio_file": "mp3/beat-B07.mp3",
+      "actual_duration_s": 21.93,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "SUBMIT · ACCESS",
+      "narration_text": "How they get there depends on your access, and this is the classic blocker. If you're new and don't have write access yet, Claude forks the repository to your own account, pushes there, and opens a pull request back. If you do have access, Claude creates a branch on the main repository and opens the pull request from there. Either way, you say submit my work, and you approve it.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "HaiSubmitForkBranch",
+          "props": {
+            "banner": "You say “submit my work.” Claude picks the correct lane and asks you to approve it.",
+            "sparkLine": "You never need to know what a fork is."
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 34,
+      "audio_file": "mp3/beat-B08.mp3",
+      "actual_duration_s": 22.53,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "SUBMIT · VIDEO",
+      "narration_text": "The video files themselves never go to GitHub — they are far too large. They go to the shared Google Drive folder. And this is the one step you do by hand: open the Drive link, and upload your four finished files. That is the only manual step in the entire process.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "HaiSubmitDriveUpload",
+          "props": {
+            "driveUrl": "https://drive.google.com/drive/folders/1yf3ZJ9NfDJvdDAiuPiWEwKDjdkQMEh0g",
+            "folderName": "HAI — Weekly Video Submissions",
+            "sparkLine": "One folder. Four files. That is the whole handoff."
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 21,
+      "audio_file": "mp3/beat-B09.mp3",
+      "actual_duration_s": 18.75,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B09.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "RECAP",
+      "narration_text": "So here's the whole week, split in two. Claude clones and installs, writes the beat sheet, generates the narration, renders the visuals, compiles the master, derives the short, and handles the GitHub side. You do three things: say what the video is about, watch the preview and approve it, and upload your four files to Drive. Not one of them needs a command line.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "HaiSubmitRecap",
+          "props": {
+            "sparkLine": "Ten steps. Seven are the machine’s. Three are yours."
+          },
+          "rendered": {
+            "out": "media/B10.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 32,
+      "audio_file": "mp3/beat-B10.mp3",
+      "actual_duration_s": 22.02,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B10.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "YOUR TURN",
+      "narration_text": "Your turn. Open the Claude desktop app and paste this in. It will set everything up, and then ask you what your first video is about.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "type-on",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "HUMANITARIANS AI · WEEKLY VIDEOS",
+            "segment": "Start Your First One",
+            "command": "Clone https://github.com/nikbearbrown/brutalist.art into this folder, install it, and then ask me what my first weekly video should be about. Keep me out of the terminal — just tell me what you need me to approve.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI",
+            "modelLabel": "Claude",
+            "effortLabel": "Desktop",
+            "output": [
+              "installs the toolkit for you",
+              "asks for your topic, writes the beat sheet",
+              "stops at the preview so you can judge it"
+            ]
+          },
+          "rendered": {
+            "out": "media/B11.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 11,
+      "audio_file": "mp3/beat-B11.mp3",
+      "actual_duration_s": 8.13,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B11.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "OUTRO",
+      "narration_text": "Four files, every Friday. Documents to GitHub, videos to Drive. And you never typed a command. I'm Rohan V., for Humanitarians AI.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Your Weekly Video, Handled.",
+            "handle": "@HumanitariansAI",
+            "subline": "Rohan V."
+          },
+          "rendered": {
+            "out": "media/B12.mp4",
+            "at": ""
+          }
+        }
+      },
+      "estimated_duration_s": 10,
+      "audio_file": "mp3/beat-B12.mp3",
+      "actual_duration_s": 10.6,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B12.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T21:59:38"
+      }
+    }
+  ]
+}

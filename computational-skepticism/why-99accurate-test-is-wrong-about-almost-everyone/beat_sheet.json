@@ -1,0 +1,583 @@
+{
+  "metadata": {
+    "title": "Why a 99%-accurate test is wrong about almost everyone it flags",
+    "slug": "why-99accurate-test-is-wrong-about-almost-everyone",
+    "topic": "UNCERTAINTY & PROBABILITY · BASE RATES",
+    "purpose": "Answer one real question in the Plain register: why does a 99% accurate test fail on almost everyone it flags? Lands the carry-out that the base rate outweighs accuracy.",
+    "skill": "course-skepticism",
+    "register": "Plain",
+    "brand": "hai-fellows",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#FAF9F5",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "in_for_bear": true,
+    "clock": "narration",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "anchor_pair": "B03 -> B08 (10,000-person dot grid anchor)",
+    "one_flag": "B10 — general population screening vs symptomatic referral",
+    "mirror_pair": "B11 / B12 — mirrored construction (both directions)",
+    "gate_c": "SIGNED — CARRY-OUT.md",
+    "gate_h": "N/A — course-skepticism (BrutalistHesitantWriter, no puppet host)",
+    "build": {
+      "at": "2026-08-29T00:40:32",
+      "cut": "master",
+      "filled": 16,
+      "of": 16,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone gets a positive result from a ninety-nine percent accurate test. Naturally, they assume they are ninety-nine percent likely to be sick. They're not. They are almost certainly healthy. Let's see why.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types naive question, hesitates on '99% likely', corrects to 'almost certainly healthy'",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "If a test is 99% accurate\nand flags someone,\nare they 99% likely\nto have the disease?",
+            "face": "serif",
+            "fontSize": 80,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#3D3929",
+            "accent": "#D97757",
+            "bg": "#FAF9F5",
+            "triggerWords": "99% likely",
+            "replacementWords": "almost certainly healthy",
+            "mistakeRate": 8,
+            "hesitateWithin": 3,
+            "hesitateBetween": 5,
+            "charMs": 42,
+            "jitter": 14,
+            "seed": "course-99acc-test"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per course-skepticism SKILL.md. Writer types naive framing, hesitates, corrects to almost certainly healthy. Liam reads final corrected question over typing animation.",
+      "actual_duration_s": 10.84,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes",
+      "narration_text": "Imagine a screening test for a rare disease that affects one person in ten thousand. The test is ninety-nine percent accurate. You test positive. When doctors at Harvard were asked your chance of being sick, most guessed ninety-five percent.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Screening test badge, 99% accuracy mark, Harvard survey 95% estimate in terracotta"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Harvard survey vs intuition",
+          "mechanic": "A screening test badge with 99% accuracy in ink. A callout showing Harvard medical staff estimating 95% probability of disease in terracotta.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B01Scene"
+      },
+      "actual_duration_s": 13.23,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "1 stakes",
+      "narration_text": "The actual answer is about one percent. Your intuition was off by two orders of magnitude, even though the test did exactly what the box promised.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 7,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Large terracotta reveal: ≈ 1%, two orders of magnitude gap"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The actual probability: ~1%",
+          "mechanic": "A bold typography display showing '≈ 1%' in terracotta, contrasting with the 95% intuition in ink, highlighting the two-order-of-magnitude error.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B02Scene"
+      },
+      "actual_duration_s": 8.7,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PLANTED",
+      "narration_text": "To see why, let's count people instead of probabilities. Picture ten thousand people arriving at a clinic. In that entire crowd, exactly one person actually has the disease. Nine thousand nine hundred and ninety-nine are completely healthy.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR: 10,000-person dot grid, 1 terracotta sick dot, 9,999 ink healthy dots"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR: 10,000 people dot grid",
+          "mechanic": "A high-density grid representing 10,000 people. Exactly 1 dot highlighted in terracotta (sick); 9,999 dots in warm ink (healthy).",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B03Scene"
+      },
+      "actual_duration_s": 13.38,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "2 wrong guess",
+      "narration_text": "Intuition assumes that because the test is ninety-nine percent accurate, ninety-nine percent of the positive flags must belong to sick people.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Naive assumption card: 99% accuracy equated directly to 99% true positives"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The wrong model: accuracy = precision",
+          "mechanic": "A diagram equating 99% test accuracy directly to 99% positive predictive value, presented cleanly before falsification.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B04Scene"
+      },
+      "actual_duration_s": 8.6,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "2 BREAK IT",
+      "narration_text": "That breaks the moment you split the crowd into its two real pools: the one person who is sick, and the huge crowd that isn't.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 7,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Splitting the population: 1 sick on left, 9,999 healthy on right"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Splitting the population into unequal pools",
+          "mechanic": "The 10,000 people split into two clearly separated pools: 1 sick person in a tiny terracotta box, 9,999 healthy in an immense ink box.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B05Scene"
+      },
+      "actual_duration_s": 7.04,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "3 mechanism",
+      "narration_text": "Start with the sick pool. There is only one sick person. The ninety-nine percent accurate test catches them. That gives us exactly one true positive.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 7,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Testing the sick pool: 1 sick person → 1 True Positive"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Testing the sick pool",
+          "mechanic": "Focus on the 1 sick person: test runs, detects condition, yields 1 True Positive in terracotta.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B06Scene"
+      },
+      "actual_duration_s": 8.7,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "3 mechanism",
+      "narration_text": "Now look at the healthy pool. Nine thousand nine hundred and ninety-nine people. The test gets ninety-nine percent of them right, but it fails on one percent. One percent of nearly ten thousand people is roughly one hundred false positives.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "MANIM MOVE accumulate: 100 false positive flags lighting up across the healthy grid"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Accumulating false positives from healthy population",
+          "mechanic": "Across the 9,999 healthy grid, 1% errors accumulate dot-by-dot / cluster-by-cluster into ~100 false positive flags glowing in terracotta.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B07Scene"
+      },
+      "actual_duration_s": 13.08,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "4 ANCHOR PAYOFF",
+      "narration_text": "Now gather every positive result in the clinic. You have one true positive from the sick person, and one hundred false alarms from the healthy crowd. That's one hundred and one positive flags in total.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR PAYOFF: 1 True Positive + 100 False Positives = 101 Total Positives"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "All positive flags collected: 1 vs 100",
+          "mechanic": "The 1 true positive dot sits next to a tray of 100 false positive dots. Total = 101 flags in the positive result bucket.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B08Scene"
+      },
+      "actual_duration_s": 11.71,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B08.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "4 ANCHOR PAYOFF",
+      "narration_text": "If you hold a positive test slip, you are simply one person in that pool of one hundred and one. The chance you are the single sick individual is one out of one hundred and one — less than one percent.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Ratio fraction: 1 / 101 ≈ 0.99% highlighted in terracotta"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The true probability calculation: 1 in 101",
+          "mechanic": "Highlighting 1 True Positive over the 101 Total Flags: fraction 1 / 101 resolving to ≈ 0.99% (< 1%) in bold terracotta.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B09Scene"
+      },
+      "actual_duration_s": 11.07,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "3 ONE FLAG",
+      "narration_text": "One flag — this arithmetic applies to general screening across the whole population. If a patient comes in already exhibiting classic symptoms, their prior odds are much higher, and the positive test carries far more weight.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ONE FLAG: General population screening vs targeted clinical referral"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The One Flag: Screening vs Symptomatic Context",
+          "mechanic": "Two contexts side by side with a terracotta FLAG banner: Left = General population screening (low prior); Right = Symptomatic clinical referral (high prior).",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B10Scene"
+      },
+      "actual_duration_s": 12.69,
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "5 DIRECTION A",
+      "narration_text": "So a positive flag from an accurate model does not prove the condition is present. When base rates are tiny, sheer population size overwhelms classifier accuracy.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 7,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Direction A: POSITIVE FLAG ≠ PROOF OF CONDITION struck through in terracotta"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Direction A: Positive flag does not prove condition",
+          "mechanic": "Headline 'POSITIVE RESULT' pointing to 'PROVEN ILLNESS', struck through with a heavy terracotta bar.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B11Scene"
+      },
+      "actual_duration_s": 10.24,
+      "audio_file": "mp3/beat-B11.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B11.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "5 DIRECTION B",
+      "narration_text": "And yet a positive test is not useless either. It raised that patient's probability of disease a hundred-fold, from one in ten thousand up to one in a hundred.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Direction B: 1 in 10,000 → 1 in 100 (100× probability update arrow)"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Direction B: 100x evidence update",
+          "mechanic": "Mirrors B11: '1 in 10,000' updating via a rising terracotta arrow labeled '100x increase' to '1 in 100'. Evidence is real, not decorative.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B12Scene"
+      },
+      "actual_duration_s": 9.51,
+      "audio_file": "mp3/beat-B12.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B12.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "When what you're looking for is rare, the healthy population manufactures more false positives than the sick population can manufacture true ones.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "When what you're looking for is rare, the healthy population manufactures more false positives than the sick population can manufacture true ones.",
+            "attribution": "",
+            "sparkLine": "Base rate beats accuracy."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 8.68,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. Take an AI detection system in your domain — a fraud detector, a spam filter, or a security scanner. Look up its claimed accuracy, and then find the true background rate of incidents in production. Calculate the ratio of true alerts to false alarms. Run that calculation before your next deployment review. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "BASE RATES & AI CLASSIFICATION",
+            "segment": "Your Turn",
+            "command": "Take an AI detection system in your domain — a fraud detector, a spam filter, or a security scanner. Look up its claimed accuracy, and then find the true background rate of incidents in production. Calculate the ratio of true alerts to false alarms.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.71,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T00:40:32"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Why a 99%-accurate test is wrong about almost everyone it flags. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Computational Skepticism for AI from @HumanitariansAI.",
+            "handle": "@HumanitariansAI",
+            "title": "Why a 99%-accurate test is wrong about almost everyone it flags",
+            "subline": "Liam, in for Bear."
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 6.42,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T00:40:32"
+      }
+    }
+  ]
+}

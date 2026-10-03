@@ -1,0 +1,583 @@
+{
+  "metadata": {
+    "title": "The average that never settles",
+    "slug": "average-that-never-settles",
+    "topic": "UNCERTAINTY & PROBABILITY · HEAVY TAILS & CLT",
+    "purpose": "Answer one real question in the Plain register: why does the sample average fail to converge in heavy-tailed systems? Lands the carry-out that average-loss evaluation measures a nonexistent quantity when variance is infinite.",
+    "skill": "course-skepticism",
+    "register": "Plain",
+    "brand": "hai-fellows",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#FAF9F5",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "in_for_bear": true,
+    "clock": "narration",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "anchor_pair": "B03 -> B08 (Dual running-mean traces racing side-by-side)",
+    "one_flag": "B10 — physical measurement limits vs consequence tails",
+    "mirror_pair": "B11 / B12 — mirrored construction (both directions)",
+    "gate_c": "SIGNED — CARRY-OUT.md",
+    "gate_h": "N/A — course-skepticism (BrutalistHesitantWriter, no puppet host)",
+    "build": {
+      "at": "2026-08-29T01:02:02",
+      "cut": "master",
+      "filled": 16,
+      "of": 16,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "If you collect enough observations, you assume the running average has to settle down. In our world, it often doesn't. Some averages wander forever. Let's see why.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types naive question, hesitates on \"always settle down\", corrects to \"sometimes wander forever\"",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "If you collect enough data,\ndoes every average\nalways settle down?",
+            "face": "serif",
+            "fontSize": 80,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#3D3929",
+            "accent": "#D97757",
+            "bg": "#FAF9F5",
+            "triggerWords": "always settle down",
+            "replacementWords": "sometimes wander forever",
+            "mistakeRate": 8,
+            "hesitateWithin": 3,
+            "hesitateBetween": 5,
+            "charMs": 42,
+            "jitter": 14,
+            "seed": "course-average-settle"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per course-skepticism SKILL.md. Writer types naive framing, hesitates, corrects to sometimes wander forever.",
+      "actual_duration_s": 9.05,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes",
+      "narration_text": "Standard statistics makes a seductive promise: add up enough independent random samples, and the average converges to a steady, predictable center. It's the foundation of benchmarks, dashboards, and error metrics.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Dashboard with running sample mean formula, Gaussian silhouette, and the CLT convergence promise"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Central Limit Promise",
+          "mechanic": "Formula card showing running sample mean converging to mu, with a clean Gaussian silhouette in ink.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B01Scene"
+      },
+      "actual_duration_s": 12.76,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "1 stakes",
+      "narration_text": "You collect one thousand data points from your model's production run. The average looks rock-solid. You feel confident that you have measured the true baseline cost of an error.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Running line chart showing 1,000 data points collected, leveling off smoothly with status: stable"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "1,000 Samples In: Apparent Stability",
+          "mechanic": "A line chart from N=1 to 1000 leveling smoothly. Status badge reads N=1,000 / STABLE in ink.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B02Scene"
+      },
+      "actual_duration_s": 9.6,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PLANTED",
+      "narration_text": "To test that confidence, let's set up two parallel simulations: a well-behaved Gaussian world on the left, and a heavy-tailed Cauchy world on the right.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR: Dual-panel arena on cream ground — Gaussian World on left, Heavy-Tailed World on right"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR: The Two Parallel Worlds",
+          "mechanic": "Dual-panel arena. Left: Gaussian World (Bell curve). Right: Heavy-Tailed World (Cauchy distribution).",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B03Scene"
+      },
+      "actual_duration_s": 8.64,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "2 wrong guess",
+      "narration_text": "Intuition insists that no matter where data comes from, dividing by a huge number N will eventually crush any single outlier and force the running mean to freeze in place.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Naive intuition diagram: dividing by large N assumed to crush any single outlier into zero"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The wrong model: Divisor crushes outliers",
+          "mechanic": "Formula showing 1/N scaling down outliers. Label indicates naive assumption that large N guarantees convergence.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B04Scene"
+      },
+      "actual_duration_s": 10.43,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "3 break it",
+      "narration_text": "Now observation one thousand and one arrives in both worlds. In the Gaussian world, nothing flinches. In the heavy-tailed world, the average jumps across the screen as if you had barely started.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Falsification: Point 1,001 arrives. Gaussian stays flat; Cauchy kicks violently in terracotta"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Observation 1,001 Arrives",
+          "mechanic": "Dual panel comparison when point 1,001 lands. Left absorbs smoothly; right jumps by 40 units in terracotta.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B05Scene"
+      },
+      "actual_duration_s": 11.11,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "3 mechanism",
+      "narration_text": "Why did the two worlds split? The Central Limit Theorem requires two conditions: independence and finite variance. In the Gaussian world, extreme events become exponentially rare, so past points easily dilute new ones.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "CLT condition card: Finite Variance sigma^2 < infinity and exponential tail decay e^(-x^2/2)"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Gaussian Mechanism: Finite Variance",
+          "mechanic": "Condition checklist showing Finite Variance verified. Exponential tail curve dropping steeply to zero.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B06Scene"
+      },
+      "actual_duration_s": 12.8,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "3 mechanism",
+      "narration_text": "In a heavy-tailed world, variance is infinite. Outliers are not rare exceptions that get diluted; they are heavy enough to overpower the entire historical sample, resetting the running average at any moment.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Cauchy condition card: Variance undefined/infinite, thick power-law tail, single point dominating sum"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Heavy-Tailed Mechanism: Infinite Variance",
+          "mechanic": "Condition checklist showing Variance = Undefined / Infinite in terracotta. Heavy tail comparison.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B07Scene"
+      },
+      "actual_duration_s": 12.05,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "4 ANCHOR PAYOFF",
+      "narration_text": "Watch the two traces race side by side as sample size climbs to two thousand. The Gaussian trace settles into a razor-thin band. The Cauchy trace never settles — it wanders, lurches, and resets indefinitely.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "MANIM MOVE trace: Side-by-side animated running mean traces racing from N=1 to N=2000"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "ANCHOR PAYOFF: The Racing Traces",
+          "mechanic": "Side-by-side animated line traces from N=1 to 2000. Left settles to 0; right lurches and wanders continuously.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B08Scene"
+      },
+      "actual_duration_s": 12.69,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B08.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "4 ANCHOR PAYOFF",
+      "narration_text": "This is not a mathematical curiosity. If your AI model's loss distribution is heavy-tailed — where most errors cost pennies but one in a thousand wipes a database — an average loss benchmark measures a number that does not exist.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "AI model loss distribution card: 999 penny errors vs 1 database wipe, average loss stamped as ILLUSION"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Deployment Reality: Average Loss Illusion",
+          "mechanic": "Table comparing 999 benign query errors vs 1 catastrophic outage. Average loss marked with terracotta stamp.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B09Scene"
+      },
+      "actual_duration_s": 13.29,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "one flag",
+      "narration_text": "One flag: physical measurements like height, weight, and sensor noise do have finite variance and settle cleanly. But systems involving catastrophic software failure, latency spikes, or real-world harm almost always live in the heavy tails.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ONE FLAG: Physical systems (finite variance, CLT holds) vs Consequence systems (heavy tails, CLT fails)"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ONE FLAG: Physical vs Consequence Systems",
+          "mechanic": "Split card: Top: Physical sensors -> Finite variance -> CLT holds. Bottom: Consequence & agent systems -> Heavy tails -> CLT fails.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B10Scene"
+      },
+      "actual_duration_s": 13.93,
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "5 DIRECTION A",
+      "narration_text": "So a running average that looks stable over your historical dataset does not prove the process has finite variance. A heavy-tailed system can look placid for thousands of steps right before the next jump.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Direction A: STABLE HISTORICAL MEAN ≠ CONVERGED PROCESS with placid trace before jump"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Direction A: Stable Past != Converged Process",
+          "mechanic": "Card with bold crossed-out equality: STABLE PAST != FINITE VARIANCE. Trace showing long calm followed by jump.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B11Scene"
+      },
+      "actual_duration_s": 11.82,
+      "audio_file": "mp3/beat-B11.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B11.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "5 DIRECTION B",
+      "narration_text": "And yet recognizing heavy tails does not mean you are helpless. It tells you to abandon average loss and switch to tail-aware tools: medians, worst-case stress testing, and adversarial audits.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Direction B: Arrow from Average Loss to Tail-Aware Toolkit (medians, max-loss bounds, stress testing)"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Direction B: The Tail-Aware Toolkit",
+          "mechanic": "Transition card: Average Loss abandoned -> Tail-Aware Toolkit: Medians, Max-Loss Bounds, Adversarial Stress Testing.",
+          "colors": [
+            "#FAF9F5",
+            "#3D3929",
+            "#D97757"
+          ]
+        },
+        "manim": "B12Scene"
+      },
+      "actual_duration_s": 11.5,
+      "audio_file": "mp3/beat-B12.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B12.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "When variance is infinite, the sample mean never converges — so evaluating a system on average loss measures a quantity that does not exist.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "When variance is infinite, the sample mean never converges — so evaluating a system on average loss measures a quantity that does not exist.",
+            "attribution": "",
+            "sparkLine": "Finite variance is not optional."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 8.53,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. Take the evaluation metrics for your current AI deployment. Identify whether the loss of being wrong has a hard ceiling or if extreme tail events are possible. If extreme costs exist, replace your aggregate mean with a median and a ninety-ninth percentile worst-case audit. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "HEAVY TAILS & AVERAGE LOSS EVALUATION",
+            "segment": "Your Turn",
+            "command": "Take the evaluation metrics for your current AI deployment. Identify whether the loss of being wrong has a hard ceiling or if extreme tail events are possible. If extreme costs exist, replace your aggregate mean with a median and a ninety-ninth percentile worst-case audit.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.2,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:02:02"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "The average that never settles. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Computational Skepticism for AI from @HumanitariansAI.",
+            "handle": "@HumanitariansAI",
+            "title": "The average that never settles",
+            "subline": "Liam, in for Bear."
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.65,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:02:02"
+      }
+    }
+  ]
+}

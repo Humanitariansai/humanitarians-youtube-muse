@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "title": "Why Partial JSON Can Be a Valid Object Before the Closing Brace Arrives",
+    "slug": "claude-basics--anthropic-sdk-typescript-partial-json-valid-object-before",
+    "topic": "CLAUDE BASICS · STREAMING TOOL INPUTS",
+    "purpose": "Answer one real question in the Plain register: why does a jsonSnapshot mid-stream already parse as a valid object with no closing brace yet? Lands the carry-out that a valid snapshot means the shape is safe to read, not that the values inside are finished.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/youtube/claude-basics/anthropic-sdk-typescript-partial-json-valid-object-before/beat_sheet.json",
+    "register": "Plain",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B04 (four-chunk {\"q\": \"solar case, paid off by splitting each snapshot into shape-safe vs. value-still-growing)",
+    "build": {
+      "at": "2026-08-28T00:30:30",
+      "cut": "master",
+      "filled": 8,
+      "of": 8,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone assumes a half-finished JSON string must be broken until the brace arrives. It isn't — the SDK hands back a usable object after every chunk. So how does a partial string already parse as one?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'This half-finished string must be broken, right?', hesitates on 'broken', corrects to 'usable', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "This half-finished string\nmust be broken, right?\nSo how does it already\nparse as a full object?",
+            "face": "serif",
+            "fontSize": 84,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "broken",
+            "replacementWords": "usable",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-partial-json-valid-object"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('broken' -> 'usable') is visible on a late frame.",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T00:30:30"
+      },
+      "actual_duration_s": 12.01,
+      "audio_file": "mp3/beat-B00.mp3"
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / wrong guess",
+      "narration_text": "When Claude streams a tool call, JSON.parse demands a complete document — feed it a half-finished string and it throws. So the natural guess is that a streaming snapshot behaves the same way: broken, or empty, until the brace lands. Read it early, and you'd expect an error, not an object.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A half-finished string splitting into a THROWS path (standard parser) and a question-marked path (streaming snapshot)"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Two paths, one unresolved",
+          "mechanic": "A card labelled 'HALF-FINISHED STRING' on cream, feeding two arrows. Top arrow to a card labelled 'JSON.parse' which throws (crossed with terracotta X, captioned 'THROWS'). Bottom arrow to a card labelled '.on(inputJson)' with a large question mark, captioned 'streaming snapshot — ?'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B01Scene"
+      },
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T00:30:30"
+      },
+      "actual_duration_s": 15.32,
+      "audio_file": "mp3/beat-B01.mp3"
+    },
+    {
+      "beat_id": "B02",
+      "act": "setup - ANCHOR PLANTED",
+      "narration_text": "Here's the concrete case. A search tool streams the argument `{\"q\": \"solar` across four chunks. `.on('inputJson')` fires with `jsonSnapshot` equal to `{}`, then `{\"q\":\"\"}`, then `{\"q\":\"sol\"}`, then `{\"q\":\"solar\"}` — four snapshots, and every single one already a complete, parseable object.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 17,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR - four snapshots ticking across a timeline, each stamped VALID"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR - four snapshots, each already valid",
+          "mechanic": "THE ANCHOR. A horizontal timeline with four tick marks. At each tick, a small card appears in sequence: '{}', then '{\"q\":\"\"}', then '{\"q\":\"sol\"}', then '{\"q\":\"solar\"}' (monospace, terracotta border). Each card gets a terracotta VALID stamp the instant it appears. Header reads 'search_database streams {\"q\": \"solar'. THIS FOUR-CARD TIMELINE COMPOSITION RETURNS AT B04.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B02Scene"
+      },
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T00:30:30"
+      },
+      "actual_duration_s": 15.32,
+      "audio_file": "mp3/beat-B02.mp3"
+    },
+    {
+      "beat_id": "B03",
+      "act": "3 mechanism",
+      "narration_text": "Here's why. The parser keeps a stack of every object and array it has opened. The instant a chunk ends, it closes each open structure with a zero-value default — an empty string, an empty object — and hands back whatever that produces. Nothing waits for the real closing brace; the parser supplies its own.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A token stream feeding a stack; the stack sealing shut into a complete tree at each cut point"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The stack seals itself shut",
+          "mechanic": "Left: a token stream ('{', '\"q\"', ':', '\"sol') feeding into a vertical stack of open-structure markers ('{ open', 'string open'). Right: at a cut point (dashed terracotta line), the stack markers each sprout a closing counterpart ('}' , '\"') labelled 'zero-value default', producing a complete tree diagram, captioned 'no real closing brace here'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B03Scene"
+      },
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T00:30:30"
+      },
+      "actual_duration_s": 16.6,
+      "audio_file": "mp3/beat-B03.mp3"
+    },
+    {
+      "beat_id": "B04",
+      "act": "4 ANCHOR PAYOFF - both directions",
+      "narration_text": "So back to the search call: `{}` isn't an empty query — it's a query string that hasn't started arriving yet. And `{\"q\":\"sol\"}` isn't the final query either — three more characters are still on the wire. A valid snapshot tells you the shape is safe to read; it doesn't tell you the value inside has stopped changing.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 17,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS - the same four snapshots, now each split into shape: safe and value: still growing"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS - shape-safe vs. value-still-growing",
+          "mechanic": "THE B02 TIMELINE COMPOSITION RETURNS: the same four snapshot cards ('{}', '{\"q\":\"\"}', '{\"q\":\"sol\"}', '{\"q\":\"solar\"}') now each split by a horizontal divider into two labels: top 'SHAPE: SAFE' (ink), bottom 'VALUE: STILL GROWING' (terracotta) — except the final card, whose bottom label reads 'VALUE: DONE' in ink (no accent — it is not the thing still changing).",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B04Scene"
+      },
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T00:30:30"
+      },
+      "actual_duration_s": 15.81,
+      "audio_file": "mp3/beat-B04.mp3"
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "The parser closes every open structure for you — so a valid snapshot tells you the shape is safe to read, not that the values inside it are finished.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "The parser closes every open structure for you — so a valid snapshot tells you the shape is safe to read, not that the values inside it are finished.",
+            "attribution": "",
+            "sparkLine": "Shape-safe vs. value-finished."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T00:30:30"
+      },
+      "actual_duration_s": 8.62,
+      "audio_file": "mp3/beat-BCRY.mp3"
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. I'm streaming a tool call with the Anthropic TypeScript SDK and I see partial JSON arriving via the inputJson event. Walk me through why each chunk's jsonSnapshot is already a valid JS object before the closing brace arrives, and show me how to read a field from it safely mid-stream without waiting for the tool_use_delta done event. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE BASICS · STREAMING TOOL INPUTS",
+            "segment": "Your Turn",
+            "command": "I'm streaming a tool call with the Anthropic TypeScript SDK and I see partial JSON arriving via the inputJson event. Walk me through why each chunk's jsonSnapshot is already a valid JS object before the closing brace arrives, and show me how to read a field from it safely mid-stream without waiting for the tool_use_delta done event.",
+            "runningText": "paste your streaming tool-call handler…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T00:30:30"
+      },
+      "actual_duration_s": 21.48,
+      "audio_file": "mp3/beat-BHTF.mp3"
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Why partial JSON can be a valid object before the closing brace arrives. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 7,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Why partial JSON can be a valid object before the closing brace arrives. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T00:30:30"
+      },
+      "actual_duration_s": 6.42,
+      "audio_file": "mp3/beat-BOUT.mp3"
+    }
+  ]
+}

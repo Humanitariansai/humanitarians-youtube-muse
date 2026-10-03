@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "title": "Claude, Claim Chart.",
+    "slug": "claude-for-legal--claude-liam-claim-chart",
+    "topic": "CLAIM CHART · LEGAL AI SKILLS",
+    "purpose": "Answer what a finished claim chart actually proves: is a chart with every cell filled in the strong version of it? Lands the carry-out that the chart's job is a pin cite for what's supported and a flag, element by element, for what's missing.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-claim-chart/beat_sheet.json",
+    "source_note": "Unlike sibling redos in this family (amendment-history, ai-inventory), the source sheet's narration carried REAL facts, not unfilled placeholders: claim-chart builds/reviews an element chart (patent claim chart or civil element chart), every cell pin-cited, gap detection as the priority output. See QUESTION.md.",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED (reconstructed from real source facts) - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (one claim, two elements: 'a locking mechanism' cited to the manual, page twelve; 'a temperature sensor' gapped -- no citation found)",
+    "build": {
+      "at": "2026-08-29T13:29:44",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone building a claim chart assumes a filled cell means proof. It doesn't -- the real value is which cells can't be filled. The real question: where does the evidence actually run out, element by element?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'Can Claude prove my case with a claim chart?', hesitates on 'prove', corrects to 'map', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Can Claude prove\nmy case with\na claim chart?",
+            "face": "serif",
+            "fontSize": 60,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "prove",
+            "replacementWords": "map",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-claim-chart"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('prove' -> 'map') is visible on a late frame.",
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 11.07,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T13:29:44"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / 2 wrong guess, falsified",
+      "narration_text": "A legal claim breaks into separate elements, and each one needs its own proof. Build the chart, and the easy move is to treat a full grid as a strong case -- every box has an entry, so every element must be covered. But a filled cell only shows a citation was found. It says nothing about whether that citation actually proves the element.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A chart grid filling in, cell by cell, each one glowing 'covered' as it fills"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "A full grid reads as a strong case",
+          "mechanic": "A claim chart grid: rows are elements, one column. Cells fill left to right, each landing with a soft 'COVERED' stamp. The whole grid fills, looking complete. A caption fades in beneath: 'a filled cell only shows a citation was found.'",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CLCB01Scene"
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 17.98,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T13:29:44"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "A claim chart works element by element: for every element, it finds the passage that could support it and pin-cites the exact page and line. Watch two elements from the same claim: 'a locking mechanism' turns up a citation straight to the product manual, page twelve. 'A temperature sensor' turns up nothing in the same manual -- no citation exists to put in that cell.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR -- two element rows on one chart: one cell fills with a pin cite, the other stays empty, flagged"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR -- one cited, one gapped",
+          "mechanic": "Two rows of one chart: 'A LOCKING MECHANISM' fills with 'MANUAL, P.12' pin-cited beneath it. 'A TEMPERATURE SENSOR' stays empty, then a terracotta 'GAP' tag drops in beneath it. THIS EXACT TWO-ROW CHART RETURNS, RESOLVED, AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CLCB02Scene"
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 19.8,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T13:29:44"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "So on this chart, the locking-mechanism cell reads 'supported -- manual, page twelve,' and the temperature-sensor cell reads 'no citation found' -- a gap, flagged on purpose. A filled cell doesn't decide the case: a citation can be weak, or cover only part of the element. And a gap doesn't decide it either -- it isn't proof the element fails, only proof no evidence has turned up yet. Either way, the chart shows exactly where to look next.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS -- the two rows resolve, then split into 'filled != proven' and 'gap != failed'"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS -- filled != proven, gap != failed",
+          "mechanic": "THE B02 TWO-ROW CHART RETURNS, identical placement, both cells now settled: locking-mechanism cell reads 'SUPPORTED -- MANUAL, P.12', temperature-sensor cell reads 'NO CITATION FOUND' under its GAP tag. It then splits into two cards: left reads 'a citation can be weak or partial' beneath 'FILLED != PROVEN'; right reads 'no evidence found YET' beneath 'GAP != FAILED', connected only by a dashed line labelled 'shows where to look next'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CLCB03Scene"
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 22.04,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T13:29:44"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "The point of a claim chart isn't a full grid -- it's a pin cite for what's supported, and a flag, element by element, for what's missing.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "The point of a claim chart isn't a full grid -- it's a pin cite for what's supported, and a flag, element by element, for what's missing.",
+            "attribution": "",
+            "sparkLine": "A pin cite for what's there. A flag for what isn't."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "actual_duration_s": 7.53,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T13:29:44"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt -- read it with me. Paste in the claim language, element by element, along with the accused product's documentation. Then ask: for each element, find the exact passage that supports it, cite it, and flag any element with no citation as a gap -- don't guess to fill it in. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAIM CHART · LEGAL AI SKILLS",
+            "segment": "Your Turn",
+            "command": "Paste in the claim language, element by element, along with the accused product's documentation. For each element, find the exact passage that supports it, cite it, and flag any element with no citation as a gap -- don't guess to fill it in.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 16.58,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T13:29:44"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude, Claim Chart. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude, Claim Chart. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 2.88,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T13:29:44"
+      }
+    }
+  ]
+}

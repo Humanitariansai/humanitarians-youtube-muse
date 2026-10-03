@@ -1,0 +1,10 @@
+{
+ "question": "Why wrapping the same text in XML changes the answer Claude gives",
+ "slug": "claude-basics--anthropic-retrieval-demo-wrapping-same-text-xml-changes",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/anthropic-retrieval-demo-wrapping-same-text-xml-changes/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/anthropic-retrieval-demo-wrapping-same-text-xml-changes",
+ "family": "claude-basics",
+ "mode": "redo"
+}

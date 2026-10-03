@@ -1,0 +1,440 @@
+{
+  "metadata": {
+    "title": "Madison Weekly — Aug 28.",
+    "slug": "madison-weekly-aug-28",
+    "topic": "MADISON · LOON UPDATE",
+    "register": "Teardown",
+    "audience": "Claude",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Komal)",
+    "creator": "Komal",
+    "voice": "am_onyx",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "style_preset": "claude",
+    "ground": "#FAF9F5",
+    "greeting": "Hallo, Liam",
+    "greeting_note": "German hello — Loon/Madison weekly.",
+    "folderLabel": "Komal",
+    "in_for_bear": false,
+    "in_for": "Komal",
+    "keep_review_labels": false,
+    "output_height": 2160,
+    "aspect_ratio": "16:9",
+    "master_note": "4K + 9:16 short. No beat chips. Liam in for Komal. Team clips pass-through.",
+    "playlist": "Fellows Research",
+    "book": "loon-book",
+    "description_blurb": "Loon project update for Madison: Sai on ground-truth-first foundations, Swara on CVAT annotation and the Lovable researcher prototype.",
+    "note": "Hybrid weekly: Liam bookends + illustrated bridges + two team VIDEO beats (own audio). Claims from transcripts only.",
+    "tags": [
+      "Madison",
+      "Loon",
+      "CVAT",
+      "ground truth",
+      "Komal",
+      "weekly"
+    ],
+    "source": "pantry/sai-ground-truth.mp4 + pantry/swara-weekly-update.mp4 — transcripts 2026-08-28",
+    "build": {
+      "at": "2026-08-28T22:24:14",
+      "cut": "master",
+      "filled": 9,
+      "of": 9,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "COLD OPEN",
+      "narration_text": "Hallo — this is Liam, in for Komal. Loon project update for Madison. This week the team moved from foundations into real annotation work — ground truth first, then the lab shipping C V A T labels and a researcher prototype. Two clips, one recap.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer; Hallo, Liam"
+          },
+          {
+            "at": 0.55,
+            "event": "RESULT: ground truth · CVAT · prototype"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hallo, Liam",
+            "topic": "MADISON · LOON UPDATE",
+            "segment": "Madison Weekly — Aug 28.",
+            "command": "Summarize this week's Loon team updates for Madison: Sai on ground-truth-first foundations, Swara on CVAT annotation and the researcher prototype.",
+            "runningText": "reading team updates…",
+            "output": [
+              "Sai: repos, architecture doc, first hand-drawn boxes",
+              "Swara: CVAT labels + Lovable upload-analyze-review-save",
+              "Honest state: no trained model yet — by design"
+            ],
+            "folderLabel": "Komal",
+            "modelLabel": "Fable 5",
+            "effortLabel": "High"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 14.38,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T22:24:14"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "BLUF",
+      "narration_text": "Here is the week in one breath. Sai locked the order: repositories first, then the architecture document, then hand-drawn labels — ground truth before model code. Swara moved into C V A T annotation and a Lovable prototype with upload, analyze, review, and save. No trained model yet — that is the plan, not a delay.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "Line 1"
+          },
+          {
+            "at": 0.4,
+            "event": "Line 2"
+          },
+          {
+            "at": 0.65,
+            "event": "Line 3"
+          }
+        ],
+        "remotion": {
+          "pattern": "MwWeeklyBluf",
+          "props": {
+            "sparkLine": "Week in one breath.",
+            "line1": "Ground truth before model code — repos, doc, first boxes.",
+            "line2": "C V A T annotation + Lovable researcher prototype.",
+            "line3": "No trained model yet — by design, not delay."
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 17.71,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T22:24:14"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "BRIDGE — SAI",
+      "narration_text": "First — Sai on why ground truth comes first. Nothing in a detector runs until somebody has told it what the thing looks like. Three repositories, one architecture document, and the first boxes drawn by hand.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "Bridge card"
+          },
+          {
+            "at": 0.5,
+            "event": "Bullets land"
+          }
+        ],
+        "remotion": {
+          "pattern": "MwWeeklyBridge",
+          "props": {
+            "sparkLine": "Clip one.",
+            "speaker": "Sai",
+            "role": "Foundations",
+            "headline": "Ground truth before model code.",
+            "bullets": [
+              "Three repos initialized",
+              "Architecture doc from current research",
+              "First loon boxes drawn by hand"
+            ]
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 12.18,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T22:24:14"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "CLIP — SAI",
+      "narration_text": "",
+      "shot": {
+        "type": "VIDEO",
+        "source": "own",
+        "motion": "hold",
+        "treatment": "none",
+        "show": [
+          {
+            "at": "start",
+            "event": "Sai's ground-truth-first update plays"
+          },
+          {
+            "at": "end",
+            "event": "clip ends unedited"
+          }
+        ]
+      },
+      "estimated_duration_s": 121,
+      "actual_duration_s": 121.333,
+      "audio_file": "mp3/beat-B03.mp3",
+      "engine": "none",
+      "voice": "own",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B03.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T22:24:14"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "BRIDGE — SUARA",
+      "narration_text": "Next — Swara on what shipped in the lab this week. From planning into dataset and annotation: C V A T labels for consistency, and a researcher prototype that hides the machine learning behind a simple workflow.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "Bridge card"
+          },
+          {
+            "at": 0.5,
+            "event": "Bullets land"
+          }
+        ],
+        "remotion": {
+          "pattern": "MwWeeklyBridge",
+          "props": {
+            "sparkLine": "Clip two.",
+            "speaker": "Swara Joshi",
+            "role": "Lab update",
+            "headline": "From planning into annotation.",
+            "bullets": [
+              "CVAT: consistent bounding-box rules",
+              "Lovable: upload · analyze · review · save",
+              "Human verification before export"
+            ]
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 11.99,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T22:24:14"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "CLIP — SUARA",
+      "narration_text": "",
+      "shot": {
+        "type": "VIDEO",
+        "source": "own",
+        "motion": "hold",
+        "treatment": "none",
+        "show": [
+          {
+            "at": "start",
+            "event": "Swara's weekly update plays"
+          },
+          {
+            "at": "end",
+            "event": "clip ends unedited"
+          }
+        ]
+      },
+      "estimated_duration_s": 128,
+      "actual_duration_s": 128.04,
+      "audio_file": "mp3/beat-B05.mp3",
+      "engine": "none",
+      "voice": "own",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T22:24:14"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "VERDICT",
+      "narration_text": "Let's recap for Madison. Sai: three repos, architecture document, first annotations — the labeling standard is still cheap to change at ten percent in. Swara: C V A T consistency rules and a Lovable prototype with human verification. Honest state: no trained model yet; more loon-specific drone imagery still needed. Next week: keep annotating, refine the box rules, align the prototype with the real computer-vision pipeline.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "lead_silence_s": 0.5,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "Artifact card"
+          },
+          {
+            "at": 0.2,
+            "event": "Lines stagger"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Madison Weekly — Aug 28. — one page",
+            "artifactHeading": "Loon team progress",
+            "artifactLines": [
+              "Sai: repos + architecture doc + first hand-drawn boxes — ground truth first.",
+              "Swara: CVAT annotation (consistency rules) + Lovable prototype (upload/analyze/review/save).",
+              "Honest state: no trained model yet; labeling standard still cheap to change.",
+              "Open question: how tightly should a box fit a partially visible loon?",
+              "Next: more annotation, refine rules, align prototype with CV pipeline."
+            ]
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 22.98,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T22:24:14"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "HANDOFF",
+      "narration_text": "Your turn. Paste this into Claude: for a wildlife detection project, write labeling rules another person could follow — what counts as one instance, what to do with a half-hidden bird, where the box edge goes on open water. Then score your last ten boxes against those rules.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Your turn."
+          },
+          {
+            "at": 0.7,
+            "event": "Invite"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "MADISON · LOON UPDATE",
+            "segment": "Madison Weekly — Aug 28.",
+            "command": "For a wildlife detection project, write labeling rules another person could follow: (1) what counts as one instance, (2) half-hidden subjects, (3) box edges on open water. Score my last 10 boxes against those rules.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "Komal",
+            "modelLabel": "Fable 5",
+            "effortLabel": "High"
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B07.mp3",
+      "actual_duration_s": 15.27,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T22:24:14"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "OUTRO",
+      "narration_text": "Madison Weekly — Aug 28. Liam, in for Komal.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "Title card"
+          },
+          {
+            "at": 0.5,
+            "event": "Handle Komal"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Madison Weekly — Aug 28.",
+            "handle": "Komal",
+            "subline": "Loon · Ground truth · CVAT"
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B08.mp3",
+      "actual_duration_s": 3.97,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T22:24:14"
+      }
+    }
+  ]
+}

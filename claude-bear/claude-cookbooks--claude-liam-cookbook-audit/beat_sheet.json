@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "title": "Claude, Cookbook Audit.",
+    "slug": "claude-cookbooks--claude-liam-cookbook-audit",
+    "topic": "COOKBOOK-AUDIT · ANTHROPIC SKILL",
+    "purpose": "Answer whether Claude auditing a cookbook notebook is general editorial taste or something more specific, using the cookbook-audit skill's own description as the concrete case. Lands the carry-out that a cookbook-audit skill is SKILL.md, a rubric Claude reads, applies, and checks the same way against whatever notebook you hand it.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-cookbooks/youtube/claude-liam-cookbook-audit/beat_sheet.json",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (hand the skill a notebook: same three steps run every time; then the same pipeline runs identically twice, and just as readily against an issue outside the rubric)",
+    "build": {
+      "at": "2026-08-29T06:02:26",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone wonders if Claude will judge their notebook by feel. But this skill runs a written rubric — it audits, it doesn't judge. So: how does that work?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'How do I get Claude to judge my notebook?', hesitates on 'judge', corrects to 'audit', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I get Claude\nto judge my notebook?",
+            "face": "serif",
+            "fontSize": 64,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "judge",
+            "replacementWords": "audit",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-cookbook-audit"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('judge' -> 'audit') is visible on a late frame.",
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 8.43,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T06:02:26"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / 2 wrong guess, falsified",
+      "narration_text": "A skill is a folder Claude reads before it works — not something it's trained on. This one is cookbook-audit: SKILL.md, style_guide.md, and validate_notebook.py holding a twelve-kilobyte instruction set, plain language, no hidden logic. Claude reads the file, then acts. The file is the program.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A folder opening to three files, SKILL.md highlighted; 'not trained on it' callout; 'the file is the program' closer"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "A skill is a folder",
+          "mechanic": "A folder icon opens into three file rows: SKILL.md (12k), style_guide.md (5k), and validate_notebook.py (17k) — SKILL.md recolors teal and grows slightly. A 'not trained on it' tag crosses out a brain glyph. Closing line: 'the file is the program'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CBAB01Scene"
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 17.11,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T06:02:26"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "The instructions sit in a Steps section: read SKILL.md, execute each step in order, return the result — linear, no branching unless a step says so. Watch the anchor. Hand the skill a notebook: it reads the rubric, checks the notebook against it, and returns a score. Same three steps, every time.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR — three linear pipeline phases, then a notebook arrowing through validate_notebook.py to a rubric-score output"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — a notebook, three steps",
+          "mechanic": "Three phase cards appear left to right and connect with arrows: 'read SKILL.md' / 'execute' / 'return result'. They fade back. THE ANCHOR. A card labelled 'notebook' arrows into a card labelled 'validate_notebook.py', which arrows into a card labelled 'rubric score'. Closing line beneath: 'same three steps, every time'. THIS EXACT SEQUENCE RETURNS AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CBAB02Scene"
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 15.7,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T06:02:26"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "Same notebook, same score, every run — hand cookbook-audit the identical notebook twice and it returns the identical rubric score both times. That's the payoff of a file being the program. But the reverse holds too: hand it a notebook with something outside the stated rubric, and it still runs the same steps, checking only what SKILL.md names. validate_notebook.py is the check: right structure, right rubric items, right scope, all caught the same way.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS — the same pipeline firing identically twice, then split: identical notebook twice = identical score; issue outside rubric = same steps still run, both checked by validate_notebook.py"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS — same input, same output; then the limit",
+          "mechanic": "THE B02 PIPELINE RETURNS, identical, running twice in a row — two matching 'rubric score' cards appear side by side, labelled 'same input, same output'. Then it splits: left card 'in-rubric notebook' → pipeline → clean score, labelled 'the payoff'; right card 'out-of-rubric issue' → the same pipeline → score returned anyway, labelled 'the limit'. Beneath both, a small 'validate_notebook.py' tag with a check and a cross — right structure, right rubric items, right scope. Closing line: 'only what SKILL.md names'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CBAB03Scene"
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 22.55,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T06:02:26"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "Auditing a cookbook notebook isn't Claude forming its own opinion of quality — it's SKILL.md, a rubric Claude reads, applies, and checks the same way against whatever notebook you hand it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "Auditing a cookbook notebook isn't Claude forming its own opinion of quality — it's SKILL.md, a rubric Claude reads, applies, and checks the same way against whatever notebook you hand it.",
+            "attribution": "",
+            "sparkLine": "Applies it. Then checks it."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "actual_duration_s": 10.9,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T06:02:26"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. I want to audit an Anthropic Cookbook notebook against a rubric. Read the cookbook-audit skill and walk me through what you will do before you do it. Watch for that walk-through — explaining first is what surfaces which rubric items SKILL.md actually checks, and where the scope stops. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "COOKBOOK-AUDIT · ANTHROPIC SKILL",
+            "segment": "Your Turn",
+            "command": "I want to audit an anthropic cookbook notebook based on a rubric. Use whenever a notebook review or audit is requested. Read the cookbook-audit skill and walk me through what you will do before you do it.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 17.34,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T06:02:26"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude, Cookbook Audit. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude, Cookbook Audit. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 3.14,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T06:02:26"
+      }
+    }
+  ]
+}

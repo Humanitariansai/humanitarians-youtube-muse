@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Brief Section Drafter.",
+ "slug": "claude-for-legal--claude-liam-brief-section-drafter",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-brief-section-drafter/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-brief-section-drafter",
+ "family": "claude-for-legal",
+ "mode": "redo"
+}

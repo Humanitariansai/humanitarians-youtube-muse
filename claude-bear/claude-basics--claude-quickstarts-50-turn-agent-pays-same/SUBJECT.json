@@ -1,0 +1,10 @@
+{
+ "question": "Why a 50-turn agent pays for the same screenshot 35 times unless it caches the pixels",
+ "slug": "claude-basics--claude-quickstarts-50-turn-agent-pays-same",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/claude-quickstarts-50-turn-agent-pays-same/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/claude-quickstarts-50-turn-agent-pays-same",
+ "family": "claude-basics",
+ "mode": "redo"
+}

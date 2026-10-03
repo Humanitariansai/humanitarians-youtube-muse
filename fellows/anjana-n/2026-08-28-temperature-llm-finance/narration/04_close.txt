@@ -1,0 +1,1 @@
+Temperature is one number. It controls whether your model gives you the same answer every time or a different answer every time. In finance, you want the first one. Creativity is for poets. Consistency is for predictions.

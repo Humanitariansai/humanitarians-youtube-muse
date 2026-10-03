@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "title": "Claude, Chronology.",
+    "slug": "claude-for-legal--claude-liam-chronology",
+    "topic": "CHRONOLOGY · LEGAL AI GOVERNANCE",
+    "purpose": "Answer what a case chronology actually is, once you have a stack of documents that each mention dates on their own: a plain sorted list, or something else. Lands the carry-out that a chronology is each event named once, no matter how many documents mention it, weighed by what the case is trying to prove.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-chronology/beat_sheet.json",
+    "source_note": "Unlike sibling redos in this family (amendment-history, aia-generation), this source sheet's narration is genuinely filled -- no unfilled '>' placeholders -- describing the chronology Anthropic skill (build/update a chronology from declared document sources and uploads: dated events extracted, de-duped, and tagged by significance per the matter theory). Its named source_skill file does not exist on this machine, so facts here are limited to what survived into the already-written narration/description text. Register re-registered Teardown -> Plain; B00 replaced with BrutalistHesitantWriter; outro re-skinned to OutroCTA/@HumanitariansAI; added anchor + both-directions per PHASE 1 structure (source had neither).",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (a late-payment event named in three source documents, collapsed to one entry; tagged high for one matter's theory, low for another's)",
+    "build": {
+      "at": "2026-08-29T12:58:52",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone building a case chronology assumes the job is just sorting every date the file mentions. It isn't -- the real question is which dates actually weigh on the case, once duplicates are gone.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'Just sort every date?', hesitates on 'sort', corrects to 'weigh', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Just sort\nevery date?",
+            "face": "serif",
+            "fontSize": 72,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "sort",
+            "replacementWords": "weigh",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-chronology"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('sort' -> 'weigh') is visible on a late frame.",
+      "actual_duration_s": 11.01,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T12:58:52"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / 2 wrong guess",
+      "narration_text": "A legal matter draws its facts from a stack of documents -- emails, invoices, deposition transcripts -- each one mentioning dates on its own. Ask what happened, and the easy move is to pull every date out and lay them in order. But two different documents often describe the exact same event, on the exact same day, in different words -- and a plain list of every mention counts it twice.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A sorted date list fed by three source chips; two cards land on the same day, worded differently, sitting side by side -- visibly duplicated"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "A plain list counts twice",
+          "mechanic": "Three source chips (EMAIL / INVOICE / DEPOSITION) each drop a dated card into a single sorted list running top to bottom. Two of the cards land at the same vertical position (same day), worded differently, and sit side by side in the list -- visibly duplicated. A caption fades in beneath: 'one event, counted twice.'",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CHRB01Scene"
+      },
+      "actual_duration_s": 19.54,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T12:58:52"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "Chronology building extracts every dated event from the declared sources, then collapses duplicates -- however many documents name the same event, it becomes one entry. Watch one event: a late payment. An email flags it. An invoice restates it. A deposition describes it again, in different words, same day.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR -- three source cards (EMAIL / INVOICE / DEPOSITION), same date stamped on each, collapsing into one card: LATE PAYMENT -- ONE ENTRY"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR -- three sources, one entry",
+          "mechanic": "Three cards labelled 'EMAIL', 'INVOICE', 'DEPOSITION', each stamped the same date, slide toward center and collapse into a single card reading 'LATE PAYMENT -- ONE ENTRY'. THIS EXACT COLLAPSE RETURNS, TAGGED, AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CHRB02Scene"
+      },
+      "actual_duration_s": 17.11,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T12:58:52"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "One entry, not three -- that part doesn't change. What does change is the tag on it: for a matter built on breach of contract, that payment is central, tagged high. For a different matter, built on a different theory, that same payment barely registers, tagged low. A low tag doesn't mean the event is wrong, or missing -- it means this matter's theory doesn't turn on it. And one entry instead of three doesn't mean only one document mentioned it -- it means every mention pointed at the same day.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS -- the collapsed card splits into two tagged copies: BREACH-OF-CONTRACT MATTER: HIGH (terracotta) and A DIFFERENT MATTER: LOW (dimmed)"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS -- same event, different tag",
+          "mechanic": "THE B02 THREE-CARD COLLAPSE RETURNS, identical placement, then splits into two tagged copies: left card 'BREACH-OF-CONTRACT MATTER' with 'LATE PAYMENT: HIGH' highlighted terracotta; right card 'A DIFFERENT MATTER' with 'LATE PAYMENT: LOW', dimmed. A caption underneath: 'same event, different tag.'",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CHRB03Scene"
+      },
+      "actual_duration_s": 25.37,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T12:58:52"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "A chronology isn't every date in order -- it's each event named once, no matter how many documents mention it, and weighed by what this case is trying to prove.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "A chronology isn't every date in order -- it's each event named once, no matter how many documents mention it, and weighed by what this case is trying to prove.",
+            "attribution": "",
+            "sparkLine": "Named once. Weighed by the case."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 8.75,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T12:58:52"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt -- read it with me. Paste in the documents your matter draws from -- emails, invoices, transcripts, whatever's been produced. Then ask: pull every dated event, collapse anything that's really the same event into one entry, and flag which ones actually matter to how this case is argued. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CHRONOLOGY · LEGAL AI GOVERNANCE",
+            "segment": "Your Turn",
+            "command": "Paste in the documents this matter draws from -- emails, invoices, transcripts, whatever's been produced. Pull every dated event, collapse anything that's really the same event into one entry, and flag which ones actually matter to how this case is argued.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 17.19,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T12:58:52"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude, Chronology. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude, Chronology. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.03,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T12:58:52"
+      }
+    }
+  ]
+}

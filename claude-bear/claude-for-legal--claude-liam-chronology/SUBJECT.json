@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Chronology.",
+ "slug": "claude-for-legal--claude-liam-chronology",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-chronology/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-chronology",
+ "family": "claude-for-legal",
+ "mode": "redo"
+}

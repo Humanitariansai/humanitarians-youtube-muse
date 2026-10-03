@@ -1,0 +1,30 @@
+Cage, Rules, Belts — MMA vs Boxing, and Who the World Champions Actually Are
+
+Who is the world champion of "MMA boxing"? Trick question — they're two different sports. This explainer is for people who follow neither, and it gets you there in three questions: what does the floor look like, what is a fighter allowed to do, and how many belts are on the line.
+
+MMA is fought in an eight-sided cage; boxing in a square ring with ropes. Boxing allows one thing, punches above the belt. MMA allows six, including kicks, takedowns and submissions. And MMA's top tier is a single organization with one champion per division, while boxing has four separate bodies each awarding their own world title — so one weight class can carry four champions at once.
+
+Every term is defined the first time it appears.
+
+Belt holders change every few months; the figures here were verified on 3 August 2026 and the video says so on screen. The structure is the part that lasts.
+
+Built with the Brutalist toolkit — Remotion, Kokoro local TTS, native 4K.
+Host: Param Madan.
+
+Chapters:
+0:00 The trick question
+0:20 What this video is
+0:39 The floor plan — cage or ring
+0:55 The rules — one weapon or six
+1:20 MMA — one organization, twelve divisions
+1:47 Boxing — four sanctioning bodies
+2:07 The proof — heavyweight's belts, split
+2:29 Undisputed — all four, one name
+2:46 Your three-question test
+3:06 Your turn
+3:26 Outro
+
+Your turn — paste this into Claude:
+Pick a weight class in boxing. List who holds each of the four major belts today, then explain what would have to happen for one fighter to unify them. Run it on any sport with more than one governing body.
+
+Series: Humanitarians AI

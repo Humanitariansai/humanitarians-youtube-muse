@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "title": "It's an Agent, Not a Command.",
+    "subtitle": "Agent Development · Claude Code",
+    "slug": "claude-code--claude-liam-agent-development",
+    "topic": "CLAUDE CODE · AGENT DEVELOPMENT",
+    "purpose": "Answer one real question in the Plain register: when you want a Claude Code plugin to handle a task on its own, is that a command or something else? Lands the carry-out that an agent is one file — a description with examples that decides when it runs, and a body that decides what it does.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-code/youtube/claude-liam-agent-development/beat_sheet.json",
+    "register": "Plain",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Code",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> BHTF (the Python security-review agent: planted, then built)",
+    "build": {
+      "at": "2026-08-29T00:32:17",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Extending a plugin, you reach for 'command' first. A command only runs when typed. What you want here keeps going on its own, through several steps. That's an agent — the file that builds it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13.3,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'I need a Claude Code command that runs this task for me. How do I add it?', hesitates on 'command', corrects to 'agent'",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "I need a Claude Code\ncommand for this.\nHow do I add it?",
+            "face": "serif",
+            "fontSize": 74,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "command",
+            "replacementWords": "agent",
+            "mistakeRate": 3,
+            "hesitateWithin": 2,
+            "hesitateBetween": 8,
+            "charMs": 42,
+            "jitter": 22,
+            "seed": "hai-agent-development"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('command' -> 'agent') is visible on a late frame.",
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 10.18,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T00:32:17"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "3 mechanism",
+      "narration_text": "An agent is one markdown file, in two parts. On top: YAML frontmatter — a name in lowercase with hyphens, a description that tells Claude when to fire the agent, a model (usually set to \"inherit\"), a color from a small set tied to the kind of work, and an optional list of tools. Leave tools out, and the agent gets every tool there is. Below the frontmatter, the rest of the file is markdown, written straight to the agent — \"you are,\" \"you do\" — and that text becomes its system prompt.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 32.1,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "ONE FILE, TWO PARTS",
+        "media": "manim/B01.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "ONE FILE, TWO PARTS",
+          "chips": [
+            "NAME",
+            "DESCRIPTION",
+            "MODEL",
+            "COLOR",
+            "TOOLS?"
+          ],
+          "arrows": false,
+          "accent": [
+            1
+          ],
+          "strike": [],
+          "caption": "the body below becomes the system prompt",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BPB01Scene"
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 24.41,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:32:17"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "4 ANCHOR PLANTED",
+      "narration_text": "The description field decides when the agent runs. Say you want one that reviews Python code for security issues. The pattern is fixed: \"Use this agent when,\" followed by two to four examples, each with four parts — the setup, the user's request, what the agent would say back, and a note on why it fits. Skip the examples, and Claude has nothing to match the trigger against.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24.3,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR — THE TRIGGER",
+        "media": "manim/B02.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — THE TRIGGER",
+          "chips": [
+            "USE THIS AGENT WHEN",
+            "2-4 EXAMPLES",
+            "TRIGGERS RELIABLY"
+          ],
+          "arrows": true,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "example: reviews Python code for security issues",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BPB02Scene"
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 18.71,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:32:17"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "5 both directions",
+      "narration_text": "The file format itself is precise: names are lowercase with hyphens, examples are required in a fixed shape, and the body follows a five-part structure — responsibilities, process, standards, output, edge cases. What the format doesn't decide for you: which model tier to pick, whether a task is really agent-shaped or just a command, and how one agent hands off to another. Those calls happen in the body text you write, not in the frontmatter.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 26.8,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "PRECISE HERE, OPEN THERE",
+        "media": "manim/B03.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "PRECISE HERE, OPEN THERE",
+          "chips": [
+            "NAME RULES",
+            "EXAMPLE FORMAT",
+            "PROMPT SECTIONS",
+            "MODEL CHOICE",
+            "AGENT VS COMMAND"
+          ],
+          "arrows": false,
+          "accent": [],
+          "strike": [
+            3,
+            4
+          ],
+          "caption": "spelled out on the left; your call on the right",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BPB03Scene"
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 22.49,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T00:32:17"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "A Claude Code agent is one file: a description with examples that decides when it runs, and a body that decides what it does once it's running.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9.6,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "A Claude Code agent is one file: a description with examples that decides when it runs, and a body that decides what it does once it's running.",
+            "attribution": "",
+            "sparkLine": "Description decides when. Body decides what."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "actual_duration_s": 8.58,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T00:32:17"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Open a Claude Code session and paste this: Create an agent for my plugin that reviews Python code for security vulnerabilities. Then check four things — does the description start with 'Use this agent when' and include at least two examples? Is the model set to inherit, rather than a specific model hardcoded in? Does the tools list include only what a reviewer actually needs — reading and searching code, say — instead of leaving tools out entirely? And does the body address the agent directly, in second person? Those four checks are your gate.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 34.6,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE CODE · AGENT DEVELOPMENT",
+            "segment": "It's an Agent, Not a Command.",
+            "command": "Create an agent for my plugin that reviews Python code for security vulnerabilities.",
+            "runningText": "check: description has examples? model=inherit? tools restricted? body in 2nd person?",
+            "folderLabel": "@HumanitariansAI",
+            "output": [
+              "Expected: description with 2+ example blocks (Context/user/assistant/why)",
+              "Expected: model: inherit, tools: minimal list (e.g. Read, Grep)",
+              "Red flag: no examples in description, or tools field omitted"
+            ]
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 27.71,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T00:32:17"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "It's an Agent, Not a Command. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 5,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "It's an Agent, Not a Command. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 3.58,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T00:32:17"
+      }
+    }
+  ]
+}

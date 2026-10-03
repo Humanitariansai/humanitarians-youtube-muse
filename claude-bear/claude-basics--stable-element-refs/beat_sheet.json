@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "title": "Stable Reference IDs Survive Viewport Chaos.",
+    "slug": "claude-basics--stable-element-refs",
+    "topic": "BROWSER AUTOMATION · COMPUTER USE",
+    "purpose": "Answer one real question in the Plain register: how do you keep a click landing on the right button when the browser window gets resized? Lands the carry-out that a pixel coordinate describes a moment in one viewport, a stable ref describes the button itself, and that's why the ref survives a resize and the coordinate doesn't.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/youtube/claude-basics/stable-element-refs/beat_sheet.json",
+    "register": "Plain",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B04 (Confirm Order button at 960,540 on a 1920x1080 window; resized to 1440x900 it moves to 720,405 but its ref, confirm_order_1, never changes)",
+    "build": {
+      "at": "2026-08-28T09:54:07",
+      "cut": "master",
+      "filled": 8,
+      "of": 8,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone assumes a button's pixel position is a stable way to find it. It isn't — resize the window and the pixel moves, even though the button hasn't. So how do you give Claude a handle that survives the resize?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'Pixel position is a stable way to find a button, right?', hesitates on 'stable', corrects to 'fragile', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Pixel position is a\nstable way to find\na button, right?",
+            "face": "serif",
+            "fontSize": 84,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "stable",
+            "replacementWords": "fragile",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-stable-element-refs"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('stable' -> 'fragile') is visible on a late frame.",
+      "actual_duration_s": 11.86,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:54:07"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / wrong guess",
+      "narration_text": "Browser automation that clicks by pixel coordinate ties a command to one spot in one viewport. Resize the window, and the page reflows — the button moves, the coordinate doesn't, and the click lands somewhere else. Every single time.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A browser frame resizing; the same raw pixel plotted after the resize misses the button, marked with a cross"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Same pixel, moved button",
+          "mechanic": "A browser-frame outline labelled '1920 × 1080' with a button rectangle and a terracotta dot marking a click coordinate. The frame narrows to '1440 × 900' — the button rectangle shifts left and up. The same dot, carried straight across at its old (x, y), now sits off the button, marked with a cross.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B01Scene"
+      },
+      "actual_duration_s": 12.93,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T09:54:07"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "setup - ANCHOR PLANTED",
+      "narration_text": "Here's the concrete case. A \"Confirm Order\" button sits at 960, 540 on a 1920 by 1080 window. Resize down to 1440 by 900, and that same button is now at 720, 405 — the old coordinate lands on empty page.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 17,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR - browser frame at 1920x1080 with the button at (960,540); resized to 1440x900, the button now at (720,405), old coordinate crossed out"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR - Confirm Order, before and after",
+          "mechanic": "THE ANCHOR. Left: browser frame labelled '1920 × 1080' with a 'Confirm Order' button rectangle, a terracotta dot at its center captioned '(960, 540)'. Right: the same frame resized, labelled '1440 × 900', the button rectangle now smaller and shifted, a new dot at its center captioned '(720, 405)'. The old coordinate '(960, 540)' reappears faintly on the right frame, off the button, with a cross through it. THIS EXACT PAIR OF FRAMES RETURNS AT B04.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "SERB02Scene"
+      },
+      "actual_duration_s": 17.98,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T09:54:07"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "3 mechanism",
+      "narration_text": "The fix runs before Claude ever looks at the page. A script walks every clickable element and stamps it with a stable reference id — \"confirm order one\" — baked into the page itself. Claude then clicks by that name, not by a pixel.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Code card: element.setAttribute assigns the ref; 'Claude targets: ref=confirm_order_1'"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Stamped before Claude looks",
+          "mechanic": "A code line builds in ink mono on cream: 'element.setAttribute(\"data-ref\", \"confirm_order_1\")'. Beneath it, a second line in terracotta: 'Claude targets: ref=\"confirm_order_1\"'. A small caption bottom-right: 'runs once, before the page is read'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B03Scene"
+      },
+      "actual_duration_s": 13.29,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T09:54:07"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "4 ANCHOR PAYOFF - both directions",
+      "narration_text": "Back to the button: after the resize its pixel moved to 720, 405, but its ref, confirm order one, never changed — it's attached to the element, not the spot. Claude clicks the ref and lands every time. But that only covers elements the script already saw; anything added to the page afterward needs its own pass to get a ref at all.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 21,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS - same browser frame pair; the ref label stays glued to the button through the resize; a dashed, struck-through element beside it captions 'added after load - no ref yet'"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS - ref stays, click lands",
+          "mechanic": "THE B02 FRAME PAIR RETURNS, identical. This time both the '(960, 540)' and '(720, 405)' dots carry a terracotta label 'ref=confirm_order_1' glued to the button in both frames. A check mark and 'YES' appear beside the resized frame. Off to the side, a third element rectangle appears with a dashed outline and a strike-through, captioned 'added after load — no ref yet' in ink — the caveat, not the main case.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "SERB04Scene"
+      },
+      "actual_duration_s": 18.6,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T09:54:07"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "A pixel coordinate describes a moment in one viewport; a stable ref describes the button itself — that's why the ref survives a resize and the coordinate doesn't.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "A pixel coordinate describes a moment in one viewport; a stable ref describes the button itself — that's why the ref survives a resize and the coordinate doesn't.",
+            "attribution": "",
+            "sparkLine": "A moment vs. the thing itself."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 9.41,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:54:07"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. Assign stable refs to every clickable element on this page so my automation survives a resize. See what naming scheme it picks, whether it handles iframes, whether it guards against duplicate ids. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 17,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "BROWSER AUTOMATION · COMPUTER USE",
+            "segment": "Your Turn",
+            "command": "Assign stable refs to every clickable element on this page so my automation survives a resize.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 14.95,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:54:07"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Stable Reference IDs Survive Viewport Chaos. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Stable Reference IDs Survive Viewport Chaos. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 4.84,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T09:54:07"
+      }
+    }
+  ]
+}

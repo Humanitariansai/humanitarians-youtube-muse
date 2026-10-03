@@ -1,0 +1,55 @@
+Your Weekly Video, Handled. — the complete Humanitarians AI fellow workflow
+
+Four video files are due every Friday. If you don't write code, that can sound
+impossible. It isn't. This is the whole pipeline, end to end: you talk to Claude
+in the desktop app, approve what it asks, watch the preview, and upload four
+files. Everything between those steps is automated.
+
+WHAT'S DUE EVERY FRIDAY
+Two videos — one on a STEM or AI topic you're interested in, one on your project
+progress. Each exported twice, 16:9 for YouTube and 9:16 for Shorts. Four files,
+all in 4K. You can swap in a topic you're passionate about, as long as at least
+one of your four files across any two-week stretch is a real research update.
+
+CHAPTERS
+00:00  Four files a week, no code required
+00:19  What's actually due every Friday
+00:51  One-time setup — you approve, you don't type
+01:13  Tell Claude your topic, get a beat sheet
+01:32  The voice is generated first, and it's the clock
+01:53  Watch the preview — the one step that stays yours
+02:15  Two formats from one master
+02:30  The docs go to GitHub
+02:52  Fork or branch? Claude picks the right one
+03:14  Upload the videos to Drive — the only manual step
+03:33  Who does what: seven automated, three yours
+03:55  Your turn
+04:03  Sign-off
+
+THE THREE LINKS YOU NEED
+Toolkit (Brutalist):
+https://github.com/nikbearbrown/brutalist.art
+
+Submit your code and documents here (under 25 MB, no video files):
+https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows
+
+Upload your finished 4K videos here:
+https://drive.google.com/drive/folders/1yf3ZJ9NfDJvdDAiuPiWEwKDjdkQMEh0g
+
+WHAT'S AUTOMATED
+Cloning and installing the toolkit · writing the beat sheet · generating and
+measuring the narration · rendering every visual · compiling the 4K master ·
+deriving the 9:16 Short · forking or branching, committing, and opening the
+pull request.
+
+WHAT STAYS YOURS
+Saying what the video is about · watching the preview and approving it ·
+uploading the four files to Drive.
+
+Not one of them requires a command line.
+
+Built with Brutalist — Kokoro TTS, Manim and Remotion, all running locally and
+free. Narration voice: Kokoro af_bella.
+
+Presented by Rohan V. for Humanitarians AI.
+#HumanitariansAI #AI #ClaudeAI #ResearchFellowship #NoCode

@@ -1,0 +1,520 @@
+{
+  "metadata": {
+    "title": "Archetype Engine.",
+    "slug": "claude-liam-jungian-archetypes-short",
+    "topic": "JUNG · ARCHETYPES · BRANDING",
+    "register": "Teardown",
+    "audience": "Claude",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Komal)",
+    "creator": "Komal",
+    "voice": "am_onyx",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "style_preset": "claude",
+    "ground": "#FAF9F5",
+    "greeting": "Hallo, Liam",
+    "greeting_note": "German hello — Jung (Swiss). charsum % 10 == 4.",
+    "folderLabel": "Komal",
+    "in_for_bear": false,
+    "in_for": "Komal",
+    "keep_review_labels": false,
+    "output_height": 1920,
+    "aspect_ratio": "9:16",
+    "master_note": "4K + 9:16 short. No beat chips. Liam in for Komal.",
+    "playlist": "Claude for Branding",
+    "book": "claude-for-branding",
+    "description_blurb": "Jungian archetypes — from Carl Jung's collective unconscious to Mark & Pearson's twelve-brand wheel — and how an AI archetype tool turns theory into consistent marketing.",
+    "note": "ILLUSTRATE LAW: UI B00/B07/B08/B09. B03 = library BrandArchetypeWheel. GATE P PASS.",
+    "tags": [
+      "Jung",
+      "archetypes",
+      "branding",
+      "marketing",
+      "Mark Pearson",
+      "Komal"
+    ],
+    "source": "Jung archetype theory; Mark & Pearson The Hero and the Outlaw (branding application)",
+    "build": {
+      "at": "2026-08-28T17:26:30",
+      "cut": "master",
+      "filled": 10,
+      "of": 10,
+      "slates": [],
+      "skin_warnings": [
+        "B00: palette=claude but the cold open is 'ClaudeComposerAsk916' — COLD OPEN LAW wants ClaudeComposerAsk",
+        "B09: palette=claude but the outro is 'ClaudeTitleOutro916' — OUTRO LAW wants ClaudeTitleOutro"
+      ]
+    },
+    "fit": "crop",
+    "kind": "short",
+    "reformat": "center-cut, focus-aware; pantry/<bid>-916.* is the human replacement slot; -916 overrides honored",
+    "derived_from": "claude-liam-jungian-archetypes",
+    "dropped_beats": [],
+    "playlist_short": "Shorts",
+    "total_estimated_duration_seconds": 142.19
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "COLD OPEN",
+      "narration_text": "Hallo — this is Liam, in for Komal. Brands keep asking for personality. Jung gave the theory — twelve archetypes gave the map — and A.I. is starting to turn that map into a daily marketing tool. Watch how.",
+      "narration": "Hallo — this is Liam, in for Komal. Brands keep asking for personality. Jung gave the theory — twelve archetypes gave the map — and A.I. is starting to turn that map into a daily marketing tool. Watch how.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer; Hallo, Liam"
+          },
+          {
+            "at": 0.2,
+            "event": "Ask types"
+          },
+          {
+            "at": 0.55,
+            "event": "RESULT: Jung · twelve archetypes · AI tool"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk916",
+          "props": {
+            "greeting": "Hallo, Liam",
+            "topic": "JUNG · ARCHETYPES · BRANDING",
+            "segment": "Archetype Engine.",
+            "command": "Explain Jungian archetypes — origins, marketing uses, and how an AI archetype tool simplifies branding decisions.",
+            "runningText": "reading archetype theory…",
+            "output": [
+              "Jung: shared story patterns in the psyche",
+              "Mark & Pearson: twelve brand archetypes",
+              "AI: classify, draft, flag off-brand copy"
+            ],
+            "folderLabel": "Komal",
+            "modelLabel": "Fable 5",
+            "effortLabel": "High"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 11.65,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T17:26:30"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "BLUF",
+      "narration_text": "Here is the whole idea in one breath. Jungian archetypes are recurring character patterns humans already understand. Marketers use them so a brand feels like one person, not a committee. An A.I. tool can make that personality show up in every headline, email, and campaign — not just a workshop slide.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "Line 1: shared patterns"
+          },
+          {
+            "at": 0.4,
+            "event": "Line 2: brand consistency"
+          },
+          {
+            "at": 0.65,
+            "event": "Line 3: AI daily use"
+          }
+        ],
+        "remotion": {
+          "pattern": "JungBluf916",
+          "props": {
+            "sparkLine": "A personality shortcut."
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 16.7,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T17:26:30"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "ORIGINS",
+      "narration_text": "Carl Jung called them archetypes — characters living in what he named the collective unconscious. Not invented by one ad agency. Shared. The Hero, the Sage, the Caregiver — you recognize them before anyone defines them.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "Jung card"
+          },
+          {
+            "at": 0.4,
+            "event": "Symbol pool"
+          },
+          {
+            "at": 0.7,
+            "event": "Pattern chips"
+          }
+        ],
+        "remotion": {
+          "pattern": "JungOrigin916",
+          "props": {
+            "sparkLine": "Shared patterns."
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 12.69,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T17:26:30"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "TWELVE",
+      "narration_text": "Branding borrowed the wheel. Mark and Pearson mapped twelve archetypes for business — Innocent, Sage, Explorer, Hero, Outlaw, Magician, Everyman, Lover, Jester, Caregiver, Creator, Ruler. Pick a primary. Name a shadow. Every downstream choice — copy tone, visual palette, feature emphasis — follows from that character.",
+      "tts_normalized_text": "Branding borrowed the wheel. Mark and Pearson mapped twelve archetypes for business — Innocent, Sage, Explorer, Hero, Outlaw, Magician, Everyman, Lover, Jester, Caregiver, Creator, Ruler. Pick a primary. Name a shadow. Every downstream choice — copy tone, visual palette, feature emphasis — follows from that character.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "Wheel builds"
+          },
+          {
+            "at": 0.4,
+            "event": "Sage primary lights"
+          },
+          {
+            "at": 0.65,
+            "event": "Forcing functions branch"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrandArchetypeWheel916",
+          "props": {
+            "primaryArchetype": "Sage",
+            "shadowArchetype": "Magician",
+            "forcingFunctions": [
+              "Copy tone: teach, don't hype",
+              "Visual: calm palette, evidence first",
+              "Features: depth over flash"
+            ]
+          },
+          "rendered": {
+            "out": "media/B03.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 17.05,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B03.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T17:26:30"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "MARKETING",
+      "narration_text": "Why marketers care: an archetype is a shortcut to consistency. Tone of voice — a Sage does not joke like a Jester. Positioning — a Hero challenges; a Caregiver protects. Every touchpoint reads as the same character — ads, website, support, social — because the archetype is the operating system underneath.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "Tone row"
+          },
+          {
+            "at": 0.4,
+            "event": "Positioning row"
+          },
+          {
+            "at": 0.65,
+            "event": "Consistency row"
+          }
+        ],
+        "remotion": {
+          "pattern": "JungMarketing916",
+          "props": {
+            "sparkLine": "Brand as character."
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 17.37,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T17:26:30"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "AI TOOL",
+      "narration_text": "Without a tool, archetypes die in a workshop deck. With an A.I. archetype engine, the theory becomes daily practice: classify which character the brand is playing, draft copy that stays in character, and flag lines that drift off-archetype before they ship.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 17,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "Without card"
+          },
+          {
+            "at": 0.45,
+            "event": "Arrow"
+          },
+          {
+            "at": 0.6,
+            "event": "With AI outputs"
+          }
+        ],
+        "remotion": {
+          "pattern": "JungAiTool916",
+          "props": {
+            "sparkLine": "Theory → daily use."
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 14.49,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T17:26:30"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "THE TELL",
+      "narration_text": "Design tell. A gimmick runs a personality quiz and forgets it. A mechanism picks an archetype, writes forcing functions, and lets A.I. enforce them. If the archetype does not change what you ship, it is decoration.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "Gimmick card"
+          },
+          {
+            "at": 0.4,
+            "event": "Mechanism card"
+          },
+          {
+            "at": 0.8,
+            "event": "Judgment line"
+          }
+        ],
+        "remotion": {
+          "pattern": "JungTell916",
+          "props": {
+            "sparkLine": "Dial, not gimmick."
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 12.67,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T17:26:30"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "VERDICT",
+      "narration_text": "Let's recap with Claude. Jung named the shared patterns. Mark and Pearson turned them into a twelve-archetype brand wheel. Marketing uses them for tone, positioning, and consistency. An A.I. archetype tool classifies, drafts, and flags — so the character survives contact with a real campaign calendar. Design judgment: archetype as operating system, not a quiz.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "lead_silence_s": 0.5,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "Artifact card"
+          },
+          {
+            "at": 0.2,
+            "event": "Lines stagger"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact916",
+          "props": {
+            "artifactTitle": "Archetype Engine. — one page",
+            "artifactHeading": "Personality with receipts",
+            "artifactLines": [
+              "Origins: Jung — archetypes in the collective unconscious (shared character patterns).",
+              "Branding map: Mark & Pearson — 12 archetypes (Hero, Sage, Caregiver, …).",
+              "Marketing use: tone of voice, positioning, cross-channel consistency.",
+              "AI simplification: classify brand archetype · draft on-character copy · flag drift.",
+              "Rule: if it doesn't change what ships, it's decoration."
+            ]
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B07.mp3",
+      "actual_duration_s": 19.9,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T17:26:30"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "HANDOFF",
+      "narration_text": "Your turn. Paste this into Claude with a brand you actually know. Name its primary and shadow archetype using Mark and Pearson's twelve. List three forcing functions — copy tone, visual rules, feature emphasis — then score five real headlines: on-archetype or drift. Run it before your next campaign brief.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Your turn."
+          },
+          {
+            "at": 0.25,
+            "event": "Prompt types"
+          },
+          {
+            "at": 0.7,
+            "event": "Invite"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk916",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "JUNG · ARCHETYPES · BRANDING",
+            "segment": "Archetype Engine.",
+            "command": "For a brand I know, using Mark & Pearson's 12 archetypes: (1) name primary + shadow archetype with evidence from their marketing, (2) write three forcing functions (copy tone, visual, features), (3) score five real headlines on-archetype vs drift.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "Komal",
+            "modelLabel": "Fable 5",
+            "effortLabel": "High"
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B08.mp3",
+      "actual_duration_s": 16.62,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T17:26:30"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "OUTRO",
+      "narration_text": "Archetype Engine. Liam, in for Komal.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "shot": {
+        "type": "REMOTION",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "Title card"
+          },
+          {
+            "at": 0.5,
+            "event": "Handle Komal"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro916",
+          "props": {
+            "title": "Archetype Engine.",
+            "handle": "Komal",
+            "subline": "Jung · Branding · AI"
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B09.mp3",
+      "actual_duration_s": 3.05,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T17:26:30"
+      }
+    }
+  ]
+}

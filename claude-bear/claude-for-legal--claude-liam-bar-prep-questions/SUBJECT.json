@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Bar Prep Questions.",
+ "slug": "claude-for-legal--claude-liam-bar-prep-questions",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-bar-prep-questions/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-bar-prep-questions",
+ "family": "claude-for-legal",
+ "mode": "redo"
+}

@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Closing",
+ "slug": "books--claude-liam-sales",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-sales/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-sales",
+ "family": "books",
+ "mode": "redo"
+}

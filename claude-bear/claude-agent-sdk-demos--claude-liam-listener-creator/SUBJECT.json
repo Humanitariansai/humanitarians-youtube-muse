@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Listener Creator.",
+ "slug": "claude-agent-sdk-demos--claude-liam-listener-creator",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-agent-sdk-demos/youtube/claude-liam-listener-creator/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-agent-sdk-demos/youtube/claude-liam-listener-creator",
+ "family": "claude-agent-sdk-demos",
+ "mode": "redo"
+}

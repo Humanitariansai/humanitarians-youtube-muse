@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Client Letter.",
+ "slug": "claude-for-legal--claude-liam-client-letter",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-client-letter/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-client-letter",
+ "family": "claude-for-legal",
+ "mode": "redo"
+}

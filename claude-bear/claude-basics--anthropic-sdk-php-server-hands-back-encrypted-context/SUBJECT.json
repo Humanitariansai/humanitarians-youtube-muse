@@ -1,0 +1,10 @@
+{
+ "question": "Why the server hands back an encrypted context you're only going to echo",
+ "slug": "claude-basics--anthropic-sdk-php-server-hands-back-encrypted-context",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/anthropic-sdk-php-server-hands-back-encrypted-context/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/anthropic-sdk-php-server-hands-back-encrypted-context",
+ "family": "claude-basics",
+ "mode": "redo"
+}

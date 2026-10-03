@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "title": "Claude, Applying Brand Guidelines.",
+    "slug": "claude-cookbooks--claude-liam-applying-brand-guidelines",
+    "topic": "APPLYING-BRAND-GUIDELINES · ANTHROPIC SKILL",
+    "purpose": "Answer whether Claude branding a document is general design taste or something more specific, using the applying-brand-guidelines skill's own description as the concrete case. Lands the carry-out that a brand-guidelines skill is SKILL.md, a spec Claude reads, applies, and validates the same way against whatever document you hand it.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-cookbooks/youtube/claude-liam-applying-brand-guidelines/beat_sheet.json",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Across the Curriculum",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (hand the skill a slide deck: same three steps run every time; then the same pipeline runs identically twice, and just as readily against a document outside the scope)",
+    "build": {
+      "at": "2026-08-29T05:44:24",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone wonders how you'd get Claude to match your brand. But matching a vibe isn't it — this skill applies a written spec. So: how does that work?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'How do I get Claude to match our brand?', hesitates on 'match', corrects to 'apply', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I get Claude\nto match our brand?",
+            "face": "serif",
+            "fontSize": 64,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "match",
+            "replacementWords": "apply",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-applying-brand-guidelines"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('match' -> 'apply') is visible on a late frame.",
+      "actual_duration_s": 7.57,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T05:44:24"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / 2 wrong guess, falsified",
+      "narration_text": "A skill is a folder Claude reads before it works — not something it's trained on. This one is applying-brand-guidelines: apply_brand.py, validate_brand.py, REFERENCE.md, and a four-kilobyte SKILL.md holding the full instruction set, plain language, no hidden logic. Claude reads the file, then acts. The file is the program.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A folder opening to four files, SKILL.md highlighted; 'not trained on it' callout; 'the file is the program' closer"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "A skill is a folder",
+          "mechanic": "A folder icon opens into four file rows: apply_brand.py (14k), validate_brand.py (10k), REFERENCE.md (3k), and SKILL.md (4k) — SKILL.md recolors teal and grows slightly. A 'not trained on it' tag crosses out a brain glyph. Closing line: 'the file is the program'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "ABGB01Scene"
+      },
+      "actual_duration_s": 18.62,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T05:44:24"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "The instructions sit in a Steps section: read SKILL.md, execute each step in order, return the result — linear, no branching unless a step says so. Watch the anchor. Hand the skill a slide deck: it reads the deck, applies your colors and fonts, and hands back a branded deck. Same three steps, every time.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR — three linear pipeline phases, then a slide deck arrowing through apply_brand.py to a branded-deck output"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — a slide deck, three steps",
+          "mechanic": "Three phase cards appear left to right and connect with arrows: 'read SKILL.md' / 'execute' / 'return result'. They fade back. THE ANCHOR. A card labelled 'slide deck' arrows into a card labelled 'apply_brand.py', which arrows into a card labelled 'branded deck'. Closing line beneath: 'same three steps, every time'. THIS EXACT SEQUENCE RETURNS AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "ABGB02Scene"
+      },
+      "actual_duration_s": 16.23,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T05:44:24"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "Same input, same output, every run — hand it the identical deck twice and apply_brand.py returns the identical branding both times. That's the payoff of a file being the program. But the reverse holds too: hand it a document outside the stated scope — external communications only — and it still runs the same steps, against material the SKILL.md never specified. validate_brand.py is the check: wrong colors, wrong fonts, wrong scope, all caught the same way.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS — the same pipeline firing identically twice, then split: identical deck twice = identical branding; document outside scope = same steps still run, both checked by validate_brand.py"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS — same input, same output; then the limit",
+          "mechanic": "THE B02 PIPELINE RETURNS, identical, running twice in a row — two matching 'branded deck' cards appear side by side, labelled 'same input, same output'. Then it splits: left card 'in-scope document' → pipeline → clean branding, labelled 'the payoff'; right card 'out-of-scope document' → the same pipeline → branding applied anyway, labelled 'the limit'. Beneath both, a small 'validate_brand.py' tag with a check and a cross — wrong colors, wrong fonts, wrong scope. Closing line: 'only what SKILL.md names'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "ABGB03Scene"
+      },
+      "actual_duration_s": 23.38,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T05:44:24"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "Applying brand guidelines isn't Claude developing its own sense of style — it's SKILL.md, a spec Claude reads, applies, and validates the same way against whatever document you hand it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "Applying brand guidelines isn't Claude developing its own sense of style — it's SKILL.md, a spec Claude reads, applies, and validates the same way against whatever document you hand it.",
+            "attribution": "",
+            "sparkLine": "Applies it. Then checks it."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 11.33,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T05:44:24"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. I want to apply brand guidelines to my team's documents. Read the applying-brand-guidelines skill and walk me through what you will do before you do it. Watch for that walk-through — explaining first is what surfaces which steps SKILL.md actually specifies, and where the scope stops. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "APPLYING-BRAND-GUIDELINES · ANTHROPIC SKILL",
+            "segment": "Your Turn",
+            "command": "I want to apply brand guidelines to my team's documents. Read the applying-brand-guidelines skill and walk me through what you will do before you do it.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 17.62,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T05:44:24"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude, Applying Brand Guidelines. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude, Applying Brand Guidelines. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.78,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T05:44:24"
+      }
+    }
+  ]
+}

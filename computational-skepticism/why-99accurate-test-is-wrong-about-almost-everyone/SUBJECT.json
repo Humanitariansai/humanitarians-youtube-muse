@@ -1,0 +1,21 @@
+{
+  "candidate": "Candidate 01",
+  "candidate_num": 1,
+  "title": "Why a 99%-accurate test is wrong about almost everyone it flags",
+  "question": "Why a 99%-accurate test is wrong about almost everyone it flags",
+  "slug": "why-99accurate-test-is-wrong-about-almost-everyone",
+  "channel": "@HumanitariansAI",
+  "skill": "course-skepticism",
+  "course": "computational-skepticism-for-ai",
+  "video_ideas_path": "computational-skepticism-for-ai/vids/video-ideas.md",
+  "source_chapter": "computational-skepticism-for-ai/chapters/02-probability-uncertainty-and-the-confidence-illusion.md",
+  "score": "9/10",
+  "production_mode": "Doodle",
+  "hook": "A test that is 99% accurate comes back positive \u2014 and the patient almost certainly does not have the disease.",
+  "core_idea": "When the condition is rare, the huge healthy population manufactures more false positives than the tiny sick population can manufacture true ones \u2014 the base rate outweighs the accuracy.",
+  "visual_object": "a 10,000-person dot grid (1 red true positive, ~100 amber false positives)",
+  "manim_move": "accumulate",
+  "prerequisites": "percentages",
+  "exclusions": "no Bayes formula derivation, no sensitivity-vs-specificity precision aside, no calibration",
+  "mode": "spec"
+}

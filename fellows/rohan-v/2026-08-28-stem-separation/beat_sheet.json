@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "title": "Stem Separation: Estimation, Not Extraction",
+    "slug": "stem-separation-explainer",
+    "topic": "HUMANITARIANS AI · AUDIO CONCEPTS",
+    "register": "Pragmatist",
+    "audience": "Humanitarians AI",
+    "brand": "claude",
+    "engine": "kokoro",
+    "voice_kokoro": "af_bella",
+    "palette": "claude",
+    "style_preset": "claude",
+    "ground": "#FAF9F5",
+    "aspect_ratio": "16:9",
+    "presenter": "Rohan V.",
+    "channel": "@HumanitariansAI",
+    "note": "Audio-concept explainer: stem separation. Pragmatist register, non-technical viewer. Through-line: the model estimates, it does not recover. Seven beats: three purpose-built waveform scenes (B01/B02/B04), two library ClaudeWindow (B03/B05), one ClaudeComposerAsk opener (B00), one ClaudeTitleOutro (B06). Both 16:9 and 9:16 use all beats.",
+    "build": {
+      "at": "2026-08-28T23:54:22",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "ASK",
+      "narration_text": "Hi, I'm Rohan, for Humanitarians AI. A pop song is not one sound — it's thirty separate recordings collapsed into a single file. Stem separation is what happens when you ask a model to pull those parts back out. By the end of this video you'll understand what the model actually does, when the result is usable, and when it's lying to you.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "type-on",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hi, Rohan",
+            "topic": "HUMANITARIANS AI · AUDIO CONCEPTS",
+            "segment": "Stem Separation",
+            "command": "A song is one file. A stem separator pulls parts back out. What is the model actually doing — and when should I trust what comes out?",
+            "runningText": "separating signals…",
+            "folderLabel": "@HumanitariansAI",
+            "modelLabel": "Claude",
+            "output": [
+              "one flat file in — the original tracks are gone",
+              "the model estimates, it does not recover",
+              "bleed and artifacts are normal — calibrate your trust"
+            ]
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "estimated_duration_s": 21,
+      "actual_duration_s": 21.5,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:54:22"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "BLUF",
+      "narration_text": "Look at what a recording session produces. Vocals, drums, bass, keys — each track exists as a separate waveform. The mastering step sums them together into one flat stereo file. That combined waveform is everything the model receives. The original tracks are not on disk. There is no record of them in the mix.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "StemSepMixCollapse",
+          "props": {
+            "sparkLine": "Every instrument summed. The individual contributions are gone."
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "estimated_duration_s": 20,
+      "actual_duration_s": 20.63,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:54:22"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "FRAMEWORK",
+      "narration_text": "When you run separation, three outputs come back — and each one looks like an audio file. But look carefully at what these actually are. The model applied learned statistical masks to the mixed signal and estimated what was probably there. Each output is the model's best guess at one component. The waveforms look confident. They are probabilities.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "StemSepStemOutput",
+          "props": {
+            "sparkLine": "The outputs look confident. They are probabilities."
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "estimated_duration_s": 24,
+      "actual_duration_s": 21.5,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B02.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:54:22"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "MECHANICS",
+      "narration_text": "Here is the clearest mental model: think of baking a cake. Once the eggs, flour, and sugar are combined, you cannot un-mix them. A recording mix is the same. The signals are added together and the individual contributions are gone. The model does not reverse this process. It estimates what was probably there, based on what cakes usually look like before they are baked.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "ClaudeWindow",
+          "props": {
+            "view": "artifact",
+            "artifactTitle": "Why unbaking is impossible",
+            "artifactHeading": "Estimation, not extraction",
+            "artifactLines": [
+              "Mixing is additive: signal A + signal B = signal C.",
+              "Signal C contains no record of A or B separately.",
+              "The model learned statistical patterns from multitrack sessions.",
+              "It predicts what A and B probably were — it does not compute them."
+            ],
+            "sparkLine": "You cannot unbake the cake. The model knows what cakes tend to taste like."
+          },
+          "rendered": {
+            "out": "media/B03.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "estimated_duration_s": 22,
+      "actual_duration_s": 22.42,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B03.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:54:22"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "LIMIT",
+      "narration_text": "That estimation cost shows up in the waveform. Here is what a vocal stem looks like when the model could not fully separate it. The faint second trace underneath is drum bleed — a ghost of another source leaking through. You will hear it as a rhythmic pulse under the vocal. Leftovers and metallic smear follow the same logic. These are not failures. They are the expected cost of estimation.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "StemSepBleedViz",
+          "props": {
+            "sparkLine": "A ghost of another source — the expected cost of estimation."
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "estimated_duration_s": 22,
+      "actual_duration_s": 22.95,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:54:22"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "APPLY",
+      "narration_text": "So when is a separated stem good enough to use? Three things to check. One: is the bleed below the noise floor? Two: are pitch and timing intact? Three: is there metallic smear on the transients? If all three pass, the stem is usable. If any fail, the model is not giving you the vocal — it is giving you a confident hallucination of it, decorated with the things it could not separate.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "illustrate",
+        "remotion": {
+          "pattern": "ClaudeWindow",
+          "props": {
+            "view": "artifact",
+            "artifactTitle": "The trust test",
+            "artifactHeading": "Good enough vs. lying to you",
+            "artifactLines": [
+              "Pass: bleed below noise floor, pitch and timing intact, no metallic smear",
+              "Fail: pitched artifacts on consonants, rhythm ghost above −10 dB, smearing on attack",
+              "When it fails, the model sounds confident anyway."
+            ],
+            "sparkLine": "It is not giving you the vocal. It is giving you its best guess at the vocal."
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "estimated_duration_s": 23,
+      "actual_duration_s": 22.76,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B05.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:54:22"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "OUTRO",
+      "narration_text": "Stem separation: estimation, not extraction. The model is useful, and its limits are predictable. I'm Rohan V., for Humanitarians AI.",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Stem Separation: Estimation, Not Extraction",
+            "handle": "@HumanitariansAI",
+            "subline": "Rohan V."
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "estimated_duration_s": 10,
+      "actual_duration_s": 10.45,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T23:54:22"
+      }
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "title": "Two Resolutions, One Click — The macOS Coordinate Roundtrip.",
+    "slug": "claude-basics--macos-computer-use-coordinate-roundtrip",
+    "topic": "COMPUTER USE · macOS · COORDINATE SCALING",
+    "purpose": "Answer one real question in the Plain register: Claude's click coordinates come back in the space of a resized screenshot — how do you get that click to land on your Mac's real, native display? Lands the carry-out that Claude's click lives in the resized copy, and the original-over-sent ratio is what maps it back.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/youtube/claude-basics/macos-computer-use-coordinate-roundtrip/beat_sheet.json",
+    "register": "Plain",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B04 (native screen 1920x1080, button at 960,540; resized to 1456x819 the button reads 728,409; inverted back it lands at 960,540 exactly)",
+    "build": {
+      "at": "2026-08-28T08:29:44",
+      "cut": "master",
+      "filled": 8,
+      "of": 8,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone assumes their Retina screenshot reaches Claude pixel for pixel. It doesn't — the API resizes it first, into a different coordinate space. So how do you get Claude's click back onto your real screen?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'My Retina screenshot reaches Claude exactly, right?', hesitates on 'exactly', corrects to 'resized', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "My Retina\nscreenshot reaches\nClaude exactly,\nright?",
+            "face": "serif",
+            "fontSize": 84,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "exactly",
+            "replacementWords": "resized",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-macos-coordinate-roundtrip"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('exactly' -> 'resized') is visible on a late frame.",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T08:29:44"
+      },
+      "actual_duration_s": 11.84,
+      "audio_file": "mp3/beat-B00.mp3"
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / wrong guess",
+      "narration_text": "Your Mac's Retina display captures screenshots well above Claude's vision budget: every image gets tiled into 28 by 28 patches, capped at 1568 pixels on the long edge and 1568 tiles total. The natural guess is that the coordinate Claude reports back already matches your screen's real pixels. Click there without resizing first, and the server resizes it anyway — in a space you never saw.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A large native-screenshot rectangle far exceeding a capped tile grid; the same raw coordinate carried straight across into the grid and missing"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Over budget, resized either way",
+          "mechanic": "Left: a large outlined rectangle labelled 'NATIVE RETINA SCREENSHOT' on cream, visibly oversized. Right: a smaller tile-grid rectangle labelled '≤1568px long edge, ≤1568 tiles'. An arrow carries a raw (x,y) dot straight across unscaled; on the tile grid the dot lands off a target ring, marked with a cross.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B01Scene"
+      },
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T08:29:44"
+      },
+      "actual_duration_s": 23.27,
+      "audio_file": "mp3/beat-B01.mp3"
+    },
+    {
+      "beat_id": "B02",
+      "act": "setup - ANCHOR PLANTED",
+      "narration_text": "Here's the concrete case. Your screen is 1920 by 1080, and the button sits at 960, 540. Before Claude ever sees the screenshot, the reference implementation's target underscore image underscore size resizes it to 1456 by 819. On that resized image, the very same button now sits at 728, 409 — a different number, for the same pixel.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 19,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR - native rect 1920x1080 with a dot at (960,540); resized rect 1456x819 with the same button now plotted at (728,409)"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR - one button, two numbers",
+          "mechanic": "THE ANCHOR. Left rectangle labelled '1920 × 1080 — native' with a terracotta dot dead center, captioned '(960, 540)'. Right rectangle labelled '1456 × 819 — sent to Claude' (visibly smaller, same aspect). An arrow from left to right carries the SAME physical button; on the right rectangle it's captioned '(728, 409)'. THIS EXACT PAIR OF RECTANGLES RETURNS AT B04.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B02Scene"
+      },
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T08:29:44"
+      },
+      "actual_duration_s": 24.15,
+      "audio_file": "mp3/beat-B02.mp3"
+    },
+    {
+      "beat_id": "B03",
+      "act": "3 mechanism",
+      "narration_text": "target underscore image underscore size runs a binary search: the largest width and height that keep the long edge under 1568 pixels and the tile count under 1568, while preserving the aspect ratio. You call it yourself, before you ever send the screenshot, and you record what it returns — 1456 by 819. Those sent dimensions are the denominator of every inverse you'll ever compute.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 19,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Algorithm card: binary search over (w,h) under the long-edge and tile-count caps, resolving to (1456, 819); a note to record sent_w, sent_h"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The forward call",
+          "mechanic": "Two lines build in ink mono on cream: 'target_image_size(1920, 1080)' then an arrow down to '→ (1456, 819)'. Beneath, a smaller line in terracotta: 'record sent_w, sent_h — the denominator of the inverse'. A small caption bottom-right: 'image.py — binary search, long-edge ≤1568, tiles ≤1568'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B03_MacosCoordinateRoundtrip"
+      },
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T08:29:44"
+      },
+      "actual_duration_s": 25.39,
+      "audio_file": "mp3/beat-B03.mp3"
+    },
+    {
+      "beat_id": "B04",
+      "act": "4 ANCHOR PAYOFF - both directions",
+      "narration_text": "Now invert it. Real equals model coordinate times original over sent. 728 times 1920 over 1456 is 960. 409 times 1080 over 819 is 540 — the click lands exactly on the button. That inverse only works because you recorded genuine sent dimensions from your own resize. Skip that step, or let a screenshot that was already inside budget pass through unresized, and there's nothing to invert — target underscore image underscore size just hands the input straight back.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS - same two rectangles; the (728,409) dot carried back by the ratio lands exactly on the (960,540) button; a third already-in-budget rectangle passes through unchanged, struck through"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS - inverted, and it lands",
+          "mechanic": "THE B02 RECTANGLE PAIR RETURNS, identical. This time the (728, 409) dot on the small rectangle is carried back across with the ratio applied, landing exactly on the button at '(960, 540)' inside the 1920×1080 rectangle, marked with a check. Off to the side, a third rectangle already within the tile budget passes straight through with a dashed 'unchanged' arrow, captioned 'nothing to invert' in ink — the caveat, not the main case.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B04Scene"
+      },
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T08:29:44"
+      },
+      "actual_duration_s": 32.17,
+      "audio_file": "mp3/beat-B04.mp3"
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "On macOS, Claude's click lands in the resized copy of your screenshot, not your native display — record the size you sent, then multiply back by original over sent to hit the real pixel.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "Claude's click lands in the resized copy of your screenshot, not your native display — record the size you sent, then multiply back by original over sent to hit the real pixel.",
+            "attribution": "",
+            "sparkLine": "Resized space vs. native display."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T08:29:44"
+      },
+      "actual_duration_s": 11.22,
+      "audio_file": "mp3/beat-BCRY.mp3"
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. On macOS my screenshot gets resized to 1456 by 819 before Claude sees it — write the inverse transform so the click hits the native display. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "COMPUTER USE · macOS · COORDINATE SCALING",
+            "segment": "Your Turn",
+            "command": "On macOS my screenshot gets resized to 1456x819 before Claude sees it — write the inverse transform so the click hits the native display.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T08:29:44"
+      },
+      "actual_duration_s": 14.17,
+      "audio_file": "mp3/beat-BHTF.mp3"
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Two Resolutions, One Click — The macOS Coordinate Roundtrip. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Two Resolutions, One Click — The macOS Coordinate Roundtrip. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T08:29:44"
+      },
+      "actual_duration_s": 5.55,
+      "audio_file": "mp3/beat-BOUT.mp3"
+    }
+  ]
+}

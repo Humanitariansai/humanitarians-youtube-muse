@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "title": "Claude, Amendment History.",
+    "slug": "claude-for-legal--claude-liam-amendment-history",
+    "topic": "AMENDMENT HISTORY · LEGAL AI GOVERNANCE",
+    "purpose": "Answer what actually governs a contract that's been amended more than once: the original document, or something else. Lands the carry-out that the contract in force today is the original with each clause replaced by its most recent edit -- check clause by clause, not document by document.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-amendment-history/beat_sheet.json",
+    "source_note": "Source sheet's narration carried unfilled '>' template placeholders at every skill-specific fact, and its named source_skill file does not exist on this machine -- see QUESTION.md. This redo reconstructs a generic, defensible amendment-tracking account from the title/family rather than lifting facts that were never written.",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED (reconstructed) - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (the lease's notice-period clause: 30 days original, 60 first amendment, 45 second amendment -- 45 is what's in force)",
+    "build": {
+      "at": "2026-08-29T08:28:11",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone reads a contract and assumes the original signed document still governs. It doesn't -- every amendment since has changed what's actually in force. The real question: what does the contract say, now?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'What does the original contract say?', hesitates on 'original', corrects to 'current', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "What does\nthe original\ncontract say?",
+            "face": "serif",
+            "fontSize": 64,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "original",
+            "replacementWords": "current",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-amendment-history"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('original' -> 'current') is visible on a late frame.",
+      "actual_duration_s": 11.09,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T08:28:11"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / 2 wrong guess, falsified",
+      "narration_text": "A contract gets signed, then amended twice over the next two years -- a notice period changed once, a renewal date changed again. Ask what it says today, and the easy move is to pull up the original signed document. But the original only ever says what it said on day one. It has no way of knowing anything came after it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "An original-contract card stamped 'DAY ONE'; two amendment chips slide past it, dim and disconnected, never touching it"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The original only knows day one",
+          "mechanic": "A card labelled 'ORIGINAL CONTRACT' with a 'DAY ONE' stamp, fully lit. Two dim, unlit chips labelled 'amendment 1' and 'amendment 2' slide in from the side and pass underneath the original card without touching it. A caption fades in beneath: 'it can't know what came after.'",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "AMHB01Scene"
+      },
+      "actual_duration_s": 17.49,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T08:28:11"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "Amendment history walks that chain in order, and for any one clause, only the most recent edit counts -- not the sum of every edit, just the last one. Watch one clause: a lease's notice period. The original contract set it at thirty days. The first amendment stretched it to sixty. The second amendment cut it back to forty-five.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR -- three cards in a row overwriting the same NOTICE field: 30 -> 60 -> 45"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR -- only the last edit counts",
+          "mechanic": "Three cards left to right: 'ORIGINAL' showing 'NOTICE: 30 DAYS', 'AMENDMENT 1' showing 'NOTICE: 60 DAYS', 'AMENDMENT 2' showing 'NOTICE: 45 DAYS'. Each card in turn dims the one before it as it lands. THIS EXACT THREE-CARD CHAIN RETURNS, RESOLVED, AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "AMHB02Scene"
+      },
+      "actual_duration_s": 17.43,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T08:28:11"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "So today, notice is forty-five days -- not thirty, not sixty, whichever edit landed last, and only for that one clause. A clause no amendment ever touched isn't missing from this picture -- the original wording is still what's in force. And an amendment existing somewhere in the file doesn't mean it touched the clause you're asking about. You still have to follow that clause's own chain, not just the contract's.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS -- the 45 card locks in and highlights; then splits into 'untouched clause -> original still governs' and 'amendment exists != this clause changed'"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS -- last edit wins, and only for that clause",
+          "mechanic": "THE B02 THREE-CARD CHAIN RETURNS, identical placement, and collapses into one card reading 'NOTICE: 45 DAYS', highlighted terracotta -- '30' and '60' visibly crossed and dimmed beside it. It then splits into two cards: left reads 'payment clause: no amendment ever touched it' with a steady, unedited card labelled 'original still governs'; right reads 'amendment 2 exists' beside a separate, unrelated clause card connected only by a dashed line labelled 'check its own chain'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "AMHB03Scene"
+      },
+      "actual_duration_s": 20.12,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T08:28:11"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "The contract in force today isn't the original, and it isn't the amendments -- it's the original with each clause replaced by its most recent edit. Check clause by clause, not document by document.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "The contract in force today isn't the original, and it isn't the amendments -- it's the original with each clause replaced by its most recent edit. Check clause by clause, not document by document.",
+            "attribution": "",
+            "sparkLine": "Clause by clause, not document by document."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 11.37,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T08:28:11"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt -- read it with me. Paste in a contract along with every amendment to it. Then ask: go through this clause by clause. For each one, tell me whether an amendment changed it, and if so, give me only the most recent version -- not the original. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "AMENDMENT HISTORY · LEGAL AI GOVERNANCE",
+            "segment": "Your Turn",
+            "command": "Paste in a contract along with every amendment to it. Go through this clause by clause. For each one, tell me whether an amendment changed it, and if so, give me only the most recent version -- not the original.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 14.68,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T08:28:11"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude, Amendment History. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude, Amendment History. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.43,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T08:28:11"
+      }
+    }
+  ]
+}

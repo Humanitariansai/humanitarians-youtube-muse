@@ -1,0 +1,210 @@
+{
+  "video": "claude-hai-gravitational-wave-detection",
+  "metadata": {
+    "title": "Knowing the Noise by Name.",
+    "slug": "claude-hai-gravitational-wave-detection",
+    "topic": "Irreducibly Human",
+    "brand": "claude-hai",
+    "audience": "HAI",
+    "persona": "HAI",
+    "folderLabel": "@HumanitariansAI",
+    "register": "Pragmatist",
+    "engine": "kokoro",
+    "voice_kokoro": "af_bella",
+    "palette": "claude",
+    "style_preset": "claude",
+    "ground": "#F2F0E9",
+    "typography": {
+      "serif": "EB Garamond",
+      "ui": "system sans",
+      "mono": "SF Mono"
+    },
+    "aspect_ratio": "16:9",
+    "fit": "crop",
+    "clock": "narration (Kokoro af_bella) \u2014 per-beat mp3 durations are MEASURED, never estimated",
+    "greeting": "Hej, HAI",
+    "greeting_note": "hello lexicon: Swedish (Hej) \u2014 one of the short forms the HAI persona's word budget allows. Wagwan is Bear's only; not applicable to this channel.",
+    "playlist": "AI in Astronomy & Space Science",
+    "purpose": "Rebuild of the 20-beat vox-editorial reel at claude-for-astronomy/gravitational-wave-detection/ as an ai-explainer reel on the claude-hai channel. Same subject (LIGO's Gravity Spy glitch classifier; GW170817's near miss as the cold-open stakes), re-authored to the ai-explainer spine (Claude composer cold open -> presenter -> BLUF -> body -> verdict -> YOUR TURN -> title restate) and rewritten from the Vox-editorial voice into the Pragmatist register: method, when to use it, and where it fails. Facts carried from the source reel's FACTCHECK.md (verified 2026-08-08, primary sources cited per claim) \u2014 see FACTCHECK.md and SOURCES.md here.",
+    "color_semantics": "Claude fidelity palette. Terracotta #D97757 is the ONE accent and marks exactly one focal event per beat: the glitch, the counter's target, the misread, the unnamed class. Ink #3D3929 carries everything else. No second hue is introduced for 'signal vs noise' \u2014 the accent moves, the meaning does not.",
+    "note": "ILLUSTRATE LAW: the Claude UI appears at B00 (cold open, with RESULT lines), B11 (verdict artifact), B12 (handoff), B13 (title outro). Every other beat illustrates its concept as a reel-local Manim scene (scenes.py) in the Claude fidelity palette. No LaTeX/MathTex anywhere \u2014 this machine has no dvisvgm, and nothing in the reel needs typeset math. metadata.channel_title is deliberately omitted: compile.py's bottom-centre overlay sits below the title-safe inset and trips GATE V edge-bleed; the channel is carried by the composer folder chip, a per-scene wordmark bug, and the full-size handle on the outro (see BUILD-LOG.md).",
+    "tags": [
+      "LIGO",
+      "gravitational waves",
+      "Gravity Spy",
+      "glitch classification",
+      "convolutional neural network",
+      "citizen science",
+      "human in the loop",
+      "GW170817",
+      "Humanitarians AI"
+    ],
+    "build": {
+      "at": "2026-08-10T19:59:00",
+      "cut": "master",
+      "filled": 14,
+      "of": 14,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 14,
+  "beats_open": 0,
+  "beats": [
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "media/B00.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B00.mp4",
+      "label": "A detector sensitive enough to feel a passing gravitational wave is also sensitive enough to invent "
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "manim/B01.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B01.mp4",
+      "label": "I am Om Mali, and this is Humanitarians AI. Today's method comes out of gravitational wave astronomy"
+    },
+    {
+      "beat_id": "B02",
+      "status": "filled",
+      "on_disk": "manim/B02.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B02.mp4",
+      "label": "Here is the whole idea in one breath. A gravitational wave detector produces far more noise than sig"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "manim/B03.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B03.mp4",
+      "label": "August seventeenth, 2017. LIGO records a real neutron star merger. One point one seconds before it, "
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "manim/B04.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B04.mp4",
+      "label": "That was not a rare accident. In LIGO's first observing run, fifty one and a half days, the detector"
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "manim/B05.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B05.mp4",
+      "label": "And some of the noise is actively deceptive. A blip is about ten milliseconds long and spread across"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "manim/B06.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B06.mp4",
+      "label": "So here is the method, and it has four parts. Every glitch becomes a spectrogram, shown at four time"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "manim/B07.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B07.mp4",
+      "label": "Run one blip through it. Four windows at once, so the fine structure and the context are both visibl"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "manim/B08.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B08.mp4",
+      "label": "The numbers. On held out test data the first classifier reached about ninety seven percent average a"
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "manim/B09.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B09.mp4",
+      "label": "Now the part that decides whether you should use this. A trained classifier can only name a shape it"
+    },
+    {
+      "beat_id": "B10",
+      "status": "filled",
+      "on_disk": "manim/B10.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B10.mp4",
+      "label": "Be precise about scope. This classifier does not detect gravitational waves. Matched filtering does "
+    },
+    {
+      "beat_id": "B11",
+      "status": "filled",
+      "on_disk": "media/B11.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B11.mp4",
+      "label": "Let's recap with Claude. The problem is trust, not detection. The method is a picture of every glitc"
+    },
+    {
+      "beat_id": "B12",
+      "status": "filled",
+      "on_disk": "media/B12.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B12.mp4",
+      "label": "Your turn. Paste this one. I have a labelled dataset where two classes look nearly identical and one"
+    },
+    {
+      "beat_id": "B13",
+      "status": "filled",
+      "on_disk": "media/B13.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B13.mp4",
+      "label": "Knowing the noise by name. Humanitarians AI. I am Om Mali."
+    }
+  ]
+}

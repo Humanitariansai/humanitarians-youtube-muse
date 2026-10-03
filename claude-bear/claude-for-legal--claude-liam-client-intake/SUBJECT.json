@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Client Intake.",
+ "slug": "claude-for-legal--claude-liam-client-intake",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-client-intake/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-client-intake",
+ "family": "claude-for-legal",
+ "mode": "redo"
+}

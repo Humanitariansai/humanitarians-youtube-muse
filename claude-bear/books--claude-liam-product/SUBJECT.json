@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Shipping",
+ "slug": "books--claude-liam-product",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-product/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-product",
+ "family": "books",
+ "mode": "redo"
+}

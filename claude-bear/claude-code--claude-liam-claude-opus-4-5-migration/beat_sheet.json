@@ -1,0 +1,594 @@
+{
+  "metadata": {
+    "title": "Migrating to Opus 4.5",
+    "subtitle": "The Model Migration Skill",
+    "slug": "claude-code--claude-liam-claude-opus-4-5-migration",
+    "topic": "CLAUDE CODE · MODEL MIGRATION",
+    "purpose": "Answer one real question in the Plain register: does migrating to Opus 4.5 also fix anything that behaves differently on the new model, or does it only touch the model string? Lands the carry-out that migration touches a string, a header, and one parameter — never the prompt — unless you ask.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-code/youtube/claude-liam-claude-opus-4-5-migration/beat_sheet.json",
+    "register": "Plain",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Code",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "NB04 -> NB08 (the same model-call line, before migration and after)",
+    "one_flag": "N/A - direct mechanism description throughout (see SCRIPT.md register audit)",
+    "build": {
+      "at": "2026-08-29T01:04:56",
+      "cut": "master",
+      "filled": 14,
+      "of": 14,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone asked how to upgrade their code to Opus 4.5. Not upgrade — migrate: the string changes, but nothing about how Claude behaves gets touched unless you ask. So — how do you migrate to Opus 4.5?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'How do I upgrade my code to Opus 4.5?', hesitates on 'upgrade', corrects to 'migrate', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I\nupgrade my code\nto Opus 4.5?",
+            "face": "serif",
+            "fontSize": 78,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "upgrade",
+            "replacementWords": "migrate",
+            "mistakeRate": 6,
+            "hesitateWithin": 2,
+            "hesitateBetween": 14,
+            "charMs": 48,
+            "jitter": 26,
+            "seed": "hai-opus45-migration"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('upgrade' -> 'migrate') lands on screen.",
+      "actual_duration_s": 12.1,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "NB01",
+      "act": "1 stakes",
+      "narration_text": "Say your code calls Claude on Sonnet 4.0, Sonnet 4.5, or Opus 4.1, and it's time to move it to Opus 4.5.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Three source models, one destination"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "TIME TO MOVE MODELS",
+          "mechanic": "Chip row: SONNET 4.0, SONNET 4.5, OPUS 4.1, arrows into OPUS 4.5 (accented).",
+          "chips": [
+            "SONNET 4.0",
+            "SONNET 4.5",
+            "OPUS 4.1",
+            "OPUS 4.5"
+          ],
+          "arrows": true,
+          "accent": [
+            3
+          ],
+          "caption": "three models, one destination",
+          "colors": [
+            "#2F2A26",
+            "#E4572E",
+            "#F3EBDD"
+          ]
+        },
+        "manim": "BDNB01Scene"
+      },
+      "actual_duration_s": 8.43,
+      "audio_file": "mp3/beat-NB01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "NB02",
+      "act": "2 wrong guess",
+      "narration_text": "The natural guess: migrating swaps the model string and quietly smooths over anything that behaves differently on the new one.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The wrong guess: migration also fixes behavior"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE NATURAL GUESS",
+          "mechanic": "Chip row: NEW MODEL STRING, arrow to SMOOTHED-OVER BEHAVIOR (accented) — sell the guess as reasonable.",
+          "chips": [
+            "NEW MODEL STRING",
+            "SMOOTHED-OVER BEHAVIOR"
+          ],
+          "arrows": true,
+          "accent": [
+            1
+          ],
+          "caption": "migrate sounds like it means both",
+          "colors": [
+            "#2F2A26",
+            "#E4572E",
+            "#F3EBDD"
+          ]
+        },
+        "manim": "BDNB02Scene"
+      },
+      "actual_duration_s": 7.4,
+      "audio_file": "mp3/beat-NB02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "NB03",
+      "act": "2 BREAK IT",
+      "narration_text": "It doesn't. The skill touches exactly four things — a model string, a beta header, one parameter, and a summary — and not one word of your prompts.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The closed list that breaks the guess"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "FOUR THINGS, NOTHING ELSE",
+          "mechanic": "Chip row, no arrows: MODEL STRING, BETA HEADER, EFFORT PARAM, A SUMMARY — a closed, concrete list.",
+          "chips": [
+            "MODEL STRING",
+            "BETA HEADER",
+            "EFFORT PARAM",
+            "A SUMMARY"
+          ],
+          "arrows": false,
+          "caption": "zero prompt words, by design",
+          "colors": [
+            "#2F2A26",
+            "#E4572E",
+            "#F3EBDD"
+          ]
+        },
+        "manim": "BDNB03Scene"
+      },
+      "actual_duration_s": 8.34,
+      "audio_file": "mp3/beat-NB03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "NB04",
+      "act": "3 mechanism / ANCHOR PLANTED",
+      "narration_text": "Take the line that calls the model. Right now it names Sonnet 4.5, and it's carrying a header for a beta context window.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR — the model-call line, before migration"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — one call, before",
+          "mechanic": "A monospace code card: model = \"claude-sonnet-4-5-20250929\" plus a beta-header line. THIS EXACT CARD FRAME RETURNS AT NB08.",
+          "code_lines": [
+            "model = \"claude-sonnet-4-5-20250929\"",
+            "extra_headers = {\"anthropic-beta\": \"context-1m-2025-08-07\"}"
+          ],
+          "caption": "one call, in your code today",
+          "colors": [
+            "#2F2A26",
+            "#E4572E",
+            "#F3EBDD"
+          ]
+        },
+        "manim": "BDNB04Scene"
+      },
+      "actual_duration_s": 7.47,
+      "audio_file": "mp3/beat-NB04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "NB05",
+      "act": "3 mechanism",
+      "narration_text": "The skill searches your whole codebase for calls like it first, then updates every one it finds — using the right string for whichever platform you're on: Anthropic's own API, AWS Bedrock, Google Vertex AI, or Azure AI Foundry.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Four platforms, four strings"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "SEARCH, THEN UPDATE EVERY PLATFORM",
+          "mechanic": "Chip row: ANTHROPIC API, AWS BEDROCK, GOOGLE VERTEX, AZURE AI FOUNDRY.",
+          "chips": [
+            "ANTHROPIC API",
+            "AWS BEDROCK",
+            "GOOGLE VERTEX",
+            "AZURE AI FOUNDRY"
+          ],
+          "arrows": false,
+          "caption": "same model, four different strings",
+          "colors": [
+            "#2F2A26",
+            "#E4572E",
+            "#F3EBDD"
+          ]
+        },
+        "manim": "BDNB05Scene"
+      },
+      "actual_duration_s": 13.82,
+      "audio_file": "mp3/beat-NB05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "NB06",
+      "act": "3 mechanism",
+      "narration_text": "Along the way it drops that beta header if the new model doesn't support it yet, and sets an effort parameter to high.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Two small edits that ride along"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "TWO EDITS THAT RIDE ALONG",
+          "mechanic": "Chip row: REMOVE BETA HEADER, arrow to SET EFFORT: HIGH.",
+          "chips": [
+            "REMOVE BETA HEADER",
+            "SET EFFORT: HIGH"
+          ],
+          "arrows": true,
+          "caption": "two small edits, every time",
+          "colors": [
+            "#2F2A26",
+            "#E4572E",
+            "#F3EBDD"
+          ]
+        },
+        "manim": "BDNB06Scene"
+      },
+      "actual_duration_s": 6.7,
+      "audio_file": "mp3/beat-NB06.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "NB07",
+      "act": "3 mechanism",
+      "narration_text": "One model never moves in this pass: Haiku. Sonnet and Opus calls migrate; Haiku calls stay exactly as they are.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Haiku, deliberately untouched"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "ONE MODEL STAYS PUT",
+          "mechanic": "Chip row: SONNET → MIGRATES, OPUS → MIGRATES, HAIKU → UNTOUCHED (accented, the exception).",
+          "chips": [
+            "SONNET → MIGRATES",
+            "OPUS → MIGRATES",
+            "HAIKU → UNTOUCHED"
+          ],
+          "arrows": false,
+          "accent": [
+            2
+          ],
+          "caption": "on purpose, not an oversight",
+          "colors": [
+            "#2F2A26",
+            "#E4572E",
+            "#F3EBDD"
+          ]
+        },
+        "manim": "BDNB07Scene"
+      },
+      "actual_duration_s": 7.51,
+      "audio_file": "mp3/beat-NB07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "NB08",
+      "act": "4 ANCHOR PAYOFF",
+      "narration_text": "Back to that same line: it now names Opus 4.5, the beta header is gone, and effort is set to high — one call, four small edits, nothing else touched.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS — the same call, migrated"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — the same call, after",
+          "mechanic": "THE NB04 CARD FRAME RETURNS, identical layout: model = \"claude-opus-4-5-20251101\", beta header line replaced by a comment, effort = \"high\" added.",
+          "code_lines": [
+            "model = \"claude-opus-4-5-20251101\"",
+            "# beta header removed — 1M context not yet supported",
+            "effort = \"high\""
+          ],
+          "caption": "same call, migrated — nothing else touched",
+          "colors": [
+            "#2F2A26",
+            "#E4572E",
+            "#F3EBDD"
+          ]
+        },
+        "manim": "BDNB08Scene"
+      },
+      "actual_duration_s": 9.26,
+      "audio_file": "mp3/beat-NB08.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB08.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "NB09",
+      "act": "5 DIRECTION A",
+      "narration_text": "If your code only ever called Sonnet or Opus, that's the whole job: it searches, swaps, and tells you exactly what it changed.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The clean case"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE CLEAN CASE",
+          "mechanic": "Chip row: SEARCH, SWAP, SUMMARIZE.",
+          "chips": [
+            "SEARCH",
+            "SWAP",
+            "SUMMARIZE"
+          ],
+          "arrows": true,
+          "caption": "clean case: done in one pass",
+          "colors": [
+            "#2F2A26",
+            "#E4572E",
+            "#F3EBDD"
+          ]
+        },
+        "manim": "BDNB09Scene"
+      },
+      "actual_duration_s": 7.4,
+      "audio_file": "mp3/beat-NB09.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "NB10",
+      "act": "5 DIRECTION B",
+      "narration_text": "But if Opus 4.5 actually behaves differently once it's running — say it starts firing tools too eagerly — the skill won't touch your prompt for that on its own. Report the specific behavior, and only then does it make a targeted adjustment.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The opt-in case"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "OPT-IN, NEVER BY DEFAULT",
+          "mechanic": "Chip row: BEHAVIOR CHANGES, arrow to YOU REPORT IT, arrow to THEN IT ADJUSTS (accented).",
+          "chips": [
+            "BEHAVIOR CHANGES",
+            "YOU REPORT IT",
+            "THEN IT ADJUSTS"
+          ],
+          "arrows": true,
+          "accent": [
+            2
+          ],
+          "caption": "opt-in, never by default",
+          "colors": [
+            "#2F2A26",
+            "#E4572E",
+            "#F3EBDD"
+          ]
+        },
+        "manim": "BDNB10Scene"
+      },
+      "actual_duration_s": 13.48,
+      "audio_file": "mp3/beat-NB10.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "Migrating to Opus 4.5 only touches the model string, a header, and one parameter — it never changes your prompts unless you ask it to.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "Migrating to Opus 4.5 only touches the model string, a header, and one parameter — it never changes your prompts unless you ask it to.",
+            "attribution": "",
+            "sparkLine": "Migrate the string. Never the prompt."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 8.6,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Open Claude Code in a project that calls a Claude Sonnet or Opus model, and paste this: Search this codebase for Claude model strings and migrate them to Opus 4.5 — Anthropic API, AWS Bedrock, Google Vertex AI, or Azure AI Foundry, whichever you use. Remove any one-million-token-context beta header you find, add an effort parameter, and summarize every change. Watch two things: does it leave every Haiku string untouched, and does it change so much as one word of your prompts without asking first?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 30,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE CODE · MODEL MIGRATION",
+            "segment": "Migrating to Opus 4.5",
+            "command": "Search this codebase for Claude model strings and migrate them to Opus 4.5 — Anthropic API, AWS Bedrock, Google Vertex AI, or Azure AI Foundry, whichever you use. Remove any one-million-token-context beta header you find, add an effort parameter, and summarize every change.",
+            "runningText": "paste this into Claude Code…",
+            "folderLabel": "@HumanitariansAI",
+            "output": []
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 29.14,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:04:56"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Migrating to Opus 4.5. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Migrating to Opus 4.5. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.78,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:04:56"
+      }
+    }
+  ]
+}

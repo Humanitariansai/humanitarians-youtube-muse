@@ -1,0 +1,10 @@
+{
+ "question": "Persisting Progress Across Context Windows.",
+ "slug": "claude-basics--feature-list-checkpoint-persistence",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/feature-list-checkpoint-persistence/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/feature-list-checkpoint-persistence",
+ "family": "claude-basics",
+ "mode": "redo"
+}

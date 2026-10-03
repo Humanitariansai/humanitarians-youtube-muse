@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "title": "It Talks to Claude, Not You.",
+    "subtitle": "Command Development · Claude Code",
+    "slug": "claude-code--claude-liam-command-development",
+    "topic": "CLAUDE CODE · COMMAND DEVELOPMENT",
+    "purpose": "Answer one real question in the Plain register: when you write a Claude Code slash command, who is its body actually talking to? Lands the carry-out that a command's body is instructions Claude reads, never a message to the person running it.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-code/youtube/claude-liam-command-development/beat_sheet.json",
+    "register": "Plain",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Code",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> BHTF (the correct/incorrect review-command example: planted, then built)",
+    "build": {
+      "at": "2026-08-29T01:35:22",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Writing a command, you picture its body speaking to the user. It doesn't — it speaks to Claude. The body is instructions Claude executes, not a message for the user. Here's how command files work.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13.0,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'I want a slash command whose body talks to the user. How do I write it?', hesitates on 'user', corrects to 'Claude'",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "I want a slash command\nwhose body talks to\nthe user.\nHow do I write it?",
+            "face": "serif",
+            "fontSize": 74,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "user",
+            "replacementWords": "Claude",
+            "mistakeRate": 3,
+            "hesitateWithin": 2,
+            "hesitateBetween": 8,
+            "charMs": 42,
+            "jitter": 22,
+            "seed": "hai-command-development"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('user' -> 'Claude') is visible on a late frame.",
+      "actual_duration_s": 10.88,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:35:22"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "3 mechanism",
+      "narration_text": "A command is one markdown file, with an optional settings block on top. Three places it can live: project commands, visible only inside that one project; personal commands, in your own home folder, visible across every project on your machine; and plugin commands, bundled inside a plugin and available the moment it's installed. The settings block can carry five fields: a description for the help menu, a list of tools the command is allowed to use, which model runs it, a hint describing its expected arguments, and a switch that turns off automatic triggering.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 35.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "ONE FILE, THREE HOMES",
+        "media": "manim/B01.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "ONE FILE, THREE HOMES",
+          "chips": [
+            "DESCRIPTION",
+            "ALLOWED-TOOLS",
+            "MODEL",
+            "ARGUMENT-HINT",
+            "DISABLE-INVOKE"
+          ],
+          "arrows": false,
+          "accent": [
+            0
+          ],
+          "strike": [],
+          "caption": "lives at the top of the file — project, personal, or plugin",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BPB01Scene"
+      },
+      "actual_duration_s": 29.29,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:35:22"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "4 ANCHOR PLANTED",
+      "narration_text": "Here's the anchor. A command's body is read by Claude, not shown to the person who typed it. Correct: \"review this code for security issues and list each one with a line number.\" That's a direction Claude can act on. Incorrect: \"this command will review your code and give you a report.\" That sentence describes what happens to the user — Claude has nothing to actually do with it. Every command body should read like the first one: a direction, never a description of an outcome.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 33.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR — WHO IT'S FOR",
+        "media": "manim/B02.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — WHO IT'S FOR",
+          "chips": [
+            "THE COMMAND BODY",
+            "READ BY CLAUDE",
+            "NOT SHOWN TO YOU"
+          ],
+          "arrows": true,
+          "accent": [
+            1
+          ],
+          "strike": [],
+          "caption": "correct: 'review this code for security issues' — a direction, not a description",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BPB02Scene"
+      },
+      "actual_duration_s": 21.65,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:35:22"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "5 both directions",
+      "narration_text": "Some of this is spelled out completely. The three locations, the five fields, and the argument syntax — a single dollar sign and number for a positional value, an at-sign for a file, an exclamation mark and backticks to run a shell command inline — all fully specified. Some of it isn't: the exact syntax for that inline shell command lives in a separate reference page, not in the skill itself, and there's no built-in way to check whether a command file is well-formed before you run it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 32.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "PRECISE HERE, LEFT ELSEWHERE",
+        "media": "manim/B03.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "PRECISE HERE, LEFT ELSEWHERE",
+          "chips": [
+            "LOCATIONS",
+            "FRONTMATTER FIELDS",
+            "ARGUMENTS",
+            "BASH SYNTAX DETAIL",
+            "VALIDATION TOOL"
+          ],
+          "arrows": false,
+          "accent": [],
+          "strike": [
+            3,
+            4
+          ],
+          "caption": "spelled out here; look elsewhere for the rest",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BPB03Scene"
+      },
+      "actual_duration_s": 25.64,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T01:35:22"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "A Claude Code command is a markdown file: frontmatter tells Claude when and how to run it, and the body is instructions Claude reads — never a message meant for the person running it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9.5,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "A Claude Code command is a markdown file: frontmatter tells Claude when and how to run it, and the body is instructions Claude reads — never a message meant for the person running it.",
+            "attribution": "",
+            "sparkLine": "Instructions for Claude, not a message to you."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 10.2,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:35:22"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Open a Claude Code session and paste this: create a slash command for my plugin that reviews a pull request and posts a summary. Then check four things — does the body read like a direction to Claude, not a description of what you'll see happen? Does allowed-tools name specific commands, like git or gh, rather than every tool? Is there an argument-hint, so autocomplete shows what the command expects? And does any shell command run inline, with an exclamation mark and backticks, instead of being left as a placeholder you'd fill in by hand? Those four checks are your gate.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 35.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE CODE · COMMAND DEVELOPMENT",
+            "segment": "It Talks to Claude, Not You.",
+            "command": "Create a slash command for my plugin that reviews a pull request and posts a summary.",
+            "runningText": "check: body instructs Claude? allowed-tools scoped? argument-hint set? bash inline?",
+            "folderLabel": "@HumanitariansAI",
+            "output": [
+              "Expected: body opens with a direction Claude can act on, not a description",
+              "Expected: allowed-tools scoped e.g. Bash(gh:*), Bash(git:*) — not Bash(*)",
+              "Red flag: body describes an outcome to the user; allowed-tools is Bash(*)"
+            ]
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 29.29,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:35:22"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "It Talks to Claude, Not You. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 5,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "It Talks to Claude, Not You. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.52,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T01:35:22"
+      }
+    }
+  ]
+}

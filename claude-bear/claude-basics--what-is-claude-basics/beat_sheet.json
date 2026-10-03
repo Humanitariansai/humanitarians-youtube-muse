@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "title": "What Is the Claude Basics Playlist.",
+    "slug": "claude-basics--what-is-claude-basics",
+    "topic": "CLAUDE BASICS · WHAT CHANGES RESULTS IN WEEK ONE",
+    "purpose": "Redo (Plain register) of the locked claude-basics/what-is-claude-basics source: answers what actually changes your results with Claude in the first week. Lands the carry-out that a blank chat and an empty project behave the same — Claude only sharpens once you feed it the documents you'd otherwise keep re-explaining.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/what-is-claude-basics/beat_sheet.json",
+    "register": "Plain",
+    "brand": "hai-simple",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "in_for_bear": true,
+    "clock": "narration",
+    "anchor_pair": "S04 -> S05 (must be the SAME composition — three documents)",
+    "one_flag": "none — see SOURCES.md",
+    "mirror_pair": "S06 / S07 — mirrored construction (both directions)",
+    "gate_c": "SIGNED — CARRY-OUT.md",
+    "gate_h": "N/A — hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "skin_warning": "OutroSeries/OutroCTA render on hardcoded VOX tokens (flat white/near-black/crimson), not the humanitarians cream/ink/teal/crimson used in S01-S07 — no color props exist on these components (checked tokens/vox.ts). Used per hai-simple SKILL.md's explicit instruction anyway; logged as a known library gap, not routed around with an unauthorized new component.",
+    "build": {
+      "at": "2026-08-28T10:33:17",
+      "cut": "master",
+      "filled": 12,
+      "of": 12,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "You wonder if Claude just isn't smart enough for your work. It's not that — it's not fed enough. Here's what actually changes your results in the first week.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types the naive framing, hesitates on 'smart', corrects to 'fed', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Is Claude just\nnot smart\nenough for my work?",
+            "face": "serif",
+            "fontSize": 84,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "smart",
+            "replacementWords": "fed",
+            "mistakeRate": 8,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 28,
+            "seed": "hai-claude-basics-week-one"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. Replaces source's Teardown computational-skepticism cold open. Liam speaks the naive framing, notes the correction, then reads the final corrected question over the typing animation.",
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 8.34
+    },
+    {
+      "beat_id": "S01",
+      "act": "1 stakes",
+      "narration_text": "Two people use Claude for a week. One's answers stay generic no matter what they ask. The other's get sharper by day three — same exact model.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Two people, same model, diverging output"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Same model, different results",
+          "mechanic": "Two simple person-dot icons on the left, both feeding into one identical 'MODEL' box in the centre. Two output lines diverge on the right: one flat labelled 'still generic' (crimson), one climbing labelled 'sharper by day 3' (teal).",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#1F4E5F",
+            "#E4572E"
+          ]
+        },
+        "manim": "S01Scene"
+      },
+      "audio_file": "mp3/beat-S01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/S01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 8.43
+    },
+    {
+      "beat_id": "S02",
+      "act": "2 wrong guess",
+      "narration_text": "The obvious read: the first person just isn't asking good questions — or needs a smarter model. Reasonable guess. It's also wrong.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "NOT SMART ENOUGH? -> SMARTER MODEL, sold as reasonable"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The obvious guess",
+          "mechanic": "Large 'NOT SMART ENOUGH?' in bold INK. Below, an arrow to a bigger box labelled 'SMARTER MODEL'. Sell this as reasonable — no crimson break yet, this is the wrong guess, not the falsification.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "S02Scene"
+      },
+      "audio_file": "mp3/beat-S02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/S02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 7.55
+    },
+    {
+      "beat_id": "S03",
+      "act": "2 BREAK IT",
+      "narration_text": "Even the sharpest model can't know what you never told it. By default, every new chat starts blank — no files, no history, no memory of last week.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "SMARTER MODEL struck through; repeated BLANK CHAT boxes across weeks"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "No index of you to miss",
+          "mechanic": "'SMARTER MODEL' from S02 reappears, struck through in crimson. Beneath it, three identical 'BLANK CHAT' boxes labelled Week 1 / Week 2 / Week 3 in a row, all the same. Crimson strike is the beat's only accent.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "S03Scene"
+      },
+      "audio_file": "mp3/beat-S03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/S03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 8.83
+    },
+    {
+      "beat_id": "S04",
+      "act": "3 mechanism + 4 ANCHOR PLANTED",
+      "narration_text": "The second person works in a project instead: real documents already loaded, a thread that keeps its history. Picture the three documents you keep re-explaining at work — that's the one to hold onto.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR — three stacked documents beside a PROJECT frame with a history thread"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — three documents",
+          "mechanic": "THE ANCHOR. Three small rectangle 'document' icons stacked on the left in INK. A teal-outlined 'PROJECT' frame on the right with a thin curling line inside it labelled 'history'. Label beneath the documents: 'the three you keep re-explaining'. THIS EXACT THREE-DOCUMENT COMPOSITION RETURNS AT S05.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "S04Scene"
+      },
+      "audio_file": "mp3/beat-S04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/S04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 11.43
+    },
+    {
+      "beat_id": "S05",
+      "act": "4 ANCHOR PAYOFF",
+      "narration_text": "So tonight: take those three documents — the ones you re-explain most — and put them in one project. That's the whole move. Feed it what it needs, and the output stops being generic.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS — same three documents, sliding into the project frame"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS — load them tonight",
+          "mechanic": "THE S04 COMPOSITION RETURNS, identical — three stacked documents, teal PROJECT frame. Now the three documents animate sliding INTO the frame. Label beneath: 'tonight: load these three.' Teal accent on the frame border as the documents land inside it.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "S05Scene"
+      },
+      "audio_file": "mp3/beat-S05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/S05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 9.62
+    },
+    {
+      "beat_id": "S06",
+      "act": "5 DIRECTION A",
+      "narration_text": "When the project is genuinely loaded — the real documents, the actual history — the model stops defaulting to generic and starts answering like it knows your work.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "LOADED PROJECT, teal check, specific output"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Loaded — specific",
+          "mechanic": "A PROJECT frame filled with three document icons and a teal checkmark. An arrow labelled 'genuinely loaded' points to an output box reading 'SPECIFIC' in teal bold. Teal is the beat's accent.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "S06Scene"
+      },
+      "audio_file": "mp3/beat-S06.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/S06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 9.09
+    },
+    {
+      "beat_id": "S07",
+      "act": "5 DIRECTION B",
+      "narration_text": "An empty project doesn't count. One you create but never load behaves exactly like a blank chat — the label changed, the context didn't. Extra files you never open don't help either.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Mirrors S06: EMPTY PROJECT, crimson X, still generic; dimmed unopened files"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Empty — still generic",
+          "mechanic": "Mirroring S06's layout: a PROJECT frame with a crimson X where the documents should be. An arrow labelled 'label changed, context didn't' points to an output box reading 'GENERIC' struck through in crimson-adjacent INK. A few dimmed, unopened file icons sit beside the frame, greyed out. Crimson X is the beat's accent.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "S07Scene"
+      },
+      "audio_file": "mp3/beat-S07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/S07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 10.82
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "A blank chat and an empty project behave the same way. Claude only sharpens once you feed it the documents you'd otherwise keep re-explaining.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "A blank chat and an empty project behave the same way. Claude only sharpens once you feed it the documents you'd otherwise keep re-explaining.",
+            "attribution": "",
+            "sparkLine": "Feed it, don't just ask it."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 8.34
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. Here are the documents I keep re-explaining at work. Read them, then tell me what a new teammate still wouldn't understand — and what I should add to this project so I never have to explain it again. Paste that into a Claude project with your real files attached. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 29,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE BASICS · @HumanitariansAI",
+            "segment": "Your Turn",
+            "command": "Here are the documents I keep re-explaining at work. Read them, then tell me what a new teammate still wouldn't understand — and what I should add to this project so I never have to explain it again.",
+            "runningText": "paste this into a Claude project with your real files attached…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 16.04
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro series",
+      "narration_text": "What actually changes your results with Claude in the first week? That's Claude Basics. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "tail_silence_s": 0.5,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroSeries",
+          "props": {
+            "eyebrow": "CLAUDE BASICS · @HumanitariansAI",
+            "line": "What actually changes your results with Claude, week one."
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 6.19
+    },
+    {
+      "beat_id": "BCTA",
+      "act": "outro cta",
+      "narration_text": "Subscribe to Humanitarians AI for more Claude basics, every week.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "More Claude Basics, every week.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BCTA.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BCTA.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCTA.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T10:33:17"
+      },
+      "actual_duration_s": 4.63
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+ "metadata": {
+  "title": "Agent Battle: When Prompt Engineering Becomes a Sport.",
+  "slug": "claude-liam-cwc-workshop-agent-battle-minecraft",
+  "topic": "BUILD WITH CLAUDE · ANTHROPIC",
+  "register": "Pragmatist",
+  "audience": "Claude",
+  "brand": "claude-liam",
+  "persona": "Kore (in for Humanitarians AI)",
+  "voice": "af_kore",
+  "engine": "kokoro",
+  "voice_kokoro": "af_kore",
+  "palette": "claude",
+  "style_preset": "claude",
+  "ground": "#FAF9F5",
+  "greeting": "Hola, Kore",
+  "folderLabel": "@HumanitariansAI",
+  "in_for_bear": true,
+  "playlist": "Claude research",
+  "build": {
+   "at": "2026-07-17T00:21:22",
+   "cut": "review",
+   "filled": 7,
+   "of": 7,
+   "slates": [],
+   "skin_warnings": [
+    "B06: palette=claude but the outro is 'LogoOutro' — OUTRO LAW wants ClaudeTitleOutro"
+   ]
+  },
+  "channel": "hai"
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Humanitarians.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Privet, Humanitarians",
+      "topic": "HUMANITARIANS AI · Agent Battle: When Prompt Engineering Becomes a Sport.",
+      "segment": "Humanitarians AI",
+      "command": "This is Humanitarians.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "YTV01",
+   "act": "VERDICT",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "lead_silence_s": 0.5,
+   "narration_text": "Let's recap with Claude. Agents connect outbound to an event server that tracks each one's diamond count on a live leaderboard. Each agent has four levers: model, system prompt, skills, and MCP tools. The score is diamonds mined, with fewest tokens used as the tiebreaker. That tiebreaker makes token efficiency a first-class competitive goal, not just good practice.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Prompt engineering as a sport",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "Agents connect outbound to an event server that tracks each one's diamond count on a live leaderboard.",
+       "Each agent has four levers: model, system prompt, skills, and MCP tools.",
+       "The score is diamonds mined, with fewest tokens used as the tiebreaker.",
+       "That tiebreaker makes token efficiency a first-class competitive goal, not just good practice."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "estimated_duration_s": 22
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Here is why Agent Battle: When Prompt Engineering Becomes a Sport. belongs in your working knowledge. The systems, policies, and tools shaped by it affect decisions at your level — whether or not you understand the mechanism. Knowing the underlying logic gives you the frame; missing it means reasoning from output with no access to the inputs.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Prompt engineering as a sport",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "Agents connect outbound to an event server that tracks each one's diamond count on a live leaderboard.",
+       "Each agent has four levers: model, system prompt, skills, and MCP tools.",
+       "The score is diamonds mined, with fewest tokens used as the tiebreaker.",
+       "That tiebreaker makes token efficiency a first-class competitive goal, not just good practice."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B00",
+   "act": "cold open",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "Making token efficiency the tiebreaker turns prompt engineering into an actual sport, and I want to build a competitive agent for this. Given the four levers — model, system prompt, skills, and MCP tools — with diamonds-mined scoring and fewest-tokens as the tiebreaker, can you (1) draft a tight system prompt that wouldn't lose on the tiebreaker; (2) name three skills as callable Python functions my agent would need to mine diamonds; (3) explain how I'd decide when a bigger model is worth its extra token cost?",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 13.1,
+   "actual_duration_s": 11.52,
+   "audio_file": "mp3/beat-B00.mp3",
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · BUILD WITH CLAUDE · ANTHROPIC",
+      "segment": "Agent Battle: When Prompt Engineering Becomes a Sport.",
+      "command": "Making token efficiency the tiebreaker turns prompt engineering into an actual sport, and I want to build a competitive agent for this. Given the four levers — model, system prompt, skills, and MCP tools — with diamonds-mined scoring and fewest-tokens as the tiebreaker, can you (1) draft a tight system prompt that wouldn't lose on the tiebreaker; (2) name three skills as callable Python functions my agent would need to mine diamonds; (3) explain how I'd decide when a bigger model is worth its extra token cost?",
+      "runningText": "reading the workshop…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B00.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B00.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:21:22"
+   }
+  },
+  {
+   "beat_id": "B01",
+   "act": "the game setup",
+   "scene": "B01_GameSetup",
+   "narration_text": "Setup is deliberately simple. Your agent connects outbound to the event server — no tunnels, no ports, just an API key. The server tracks every agent's diamond count on a live leaderboard. All agents run simultaneously in the same world. Resource conflicts are real. The game is adversarial.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 18.5,
+   "actual_duration_s": 16.79,
+   "audio_file": "mp3/beat-B01.mp3",
+   "shot": {
+    "type": "GRAPHIC",
+    "graphic": {
+     "engine": "manim",
+     "manim": "B01_GameSetup",
+     "production_viz": "Network diagram: agent -> event server. Leaderboard on right. Multiple agents shown as competing nodes."
+    }
+   },
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B01.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-17T00:21:22"
+   }
+  },
+  {
+   "beat_id": "B02",
+   "act": "the four knobs",
+   "scene": "B02_FourKnobs",
+   "narration_text": "Your agent has four configuration levers. Model: which Claude variant to run. System prompt: the agent's strategy, persona, and decision-making framework. Skills: callable Python functions — your agent's action vocabulary. MCP tools: additional capabilities from external servers. The competition score is a direct readout of how well you've tuned these four.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 20.8,
+   "actual_duration_s": 19.71,
+   "audio_file": "mp3/beat-B02.mp3",
+   "shot": {
+    "type": "GRAPHIC",
+    "graphic": {
+     "engine": "manim",
+     "manim": "B02_FourKnobs",
+     "production_viz": "Four labeled boxes: Model / System Prompt / Skills / MCP Tools. Arrows to score bar."
+    }
+   },
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B02.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-17T00:21:22"
+   }
+  },
+  {
+   "beat_id": "B03",
+   "act": "token efficiency as tiebreaker",
+   "scene": "B03_TokenEfficiency",
+   "narration_text": "The scoring mechanic is diamonds mined. The tiebreaker is fewest tokens used. This makes token efficiency a first-class competitive goal — not just good practice. A bloated system prompt that mines the same diamonds as a tight one loses on the tiebreaker. Prompt engineering is now measurable, comparable, and ranked.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 19.2,
+   "actual_duration_s": 17.75,
+   "audio_file": "mp3/beat-B03.mp3",
+   "shot": {
+    "type": "GRAPHIC",
+    "graphic": {
+     "engine": "manim",
+     "manim": "B03_TokenEfficiency",
+     "production_viz": "Scoreboard: diamonds (primary) + tokens (tiebreaker). Two agents same diamonds — fewer tokens wins."
+    }
+   },
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B03.mp4",
+    "filled_by": "manim",
+    "at": "2026-07-17T00:21:22"
+   }
+  },
+  {
+   "beat_id": "B04",
+   "act": "handoff",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "Ask Claude: 'Write a system prompt for a Minecraft diamond-mining agent — maximize diamond yield while minimizing token usage per action.' That's the actual competition constraint. What strategy does Claude devise when token efficiency is a hard requirement? Run it. Kore, in for Humanitarians AI.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 19.6,
+   "actual_duration_s": 15.89,
+   "audio_file": "mp3/beat-B04.mp3",
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · BUILD WITH CLAUDE · ANTHROPIC",
+      "segment": "Agent Battle: When Prompt Engineering Becomes a Sport.",
+      "command": "Write a system prompt for a Minecraft diamond-mining agent — maximize diamond yield while minimizing token usage per action.",
+      "runningText": "paste this into Claude…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B04.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B04.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:21:22"
+   }
+  },
+  {
+   "beat_id": "B05",
+   "act": "outro",
+   "scene": "ClaudeTitleOutro",
+   "narration_text": "Agent Battle: When Prompt Engineering Becomes a Sport.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "estimated_duration_s": 5.0,
+   "actual_duration_s": 4.84,
+   "audio_file": "mp3/beat-B05.mp3",
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Agent Battle: When Prompt Engineering Becomes a Sport.",
+      "handle": "@HumanitariansAI",
+      "subline": "Kore, in for Humanitarians AI."
+     },
+     "rendered": {
+      "out": "media/B05.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B05.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:21:22"
+   }
+  },
+  {
+   "beat_id": "B06",
+   "act": "outro",
+   "narration_text": "Agent Battle: When Prompt Engineering Becomes a Sport.. From Humanitarians AI.",
+   "reuse_audio": "mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 9.44,
+   "new_visual_element": "bear-brown logo sting — kineticGrid",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Agent Battle: When Prompt Engineering Becomes a Sport.",
+      "handle": "@HumanitariansAI",
+      "subline": "youtube.com/@HumanitariansAI"
+     },
+     "picked": {
+      "brand": "bear-brown",
+      "animation": "kineticGrid",
+      "svg": "bear-brown-logo-2.svg",
+      "mp3": "bear-brown-2.mp3",
+      "locked": true
+     },
+     "rendered": {
+      "out": "media/B06.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B06.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:21:22"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  }
+ ]
+}

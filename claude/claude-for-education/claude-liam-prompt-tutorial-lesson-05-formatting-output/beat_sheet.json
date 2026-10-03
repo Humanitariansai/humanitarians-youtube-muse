@@ -1,0 +1,357 @@
+{
+ "metadata": {
+  "slug": "claude-liam-prompt-tutorial-lesson-05-formatting-output",
+  "title": "Output Formatting: The Prefill Technique and When to Control Format",
+  "channel": "hai",
+  "persona": "Kore",
+  "brand": "claude-liam",
+  "audience": "Claude",
+  "engine": "kokoro",
+  "voice": "af_kore",
+  "voice_kokoro": "af_kore",
+  "palette": "claude",
+  "register": "Pragmatist",
+  "format": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "source": "Anthropic Prompt Engineering Interactive Tutorial — Lesson 05: Formatting Output",
+  "topic": "PROMPT ENGINEERING · ANTHROPIC",
+  "build": {
+   "at": "2026-07-17T00:55:54",
+   "cut": "review",
+   "filled": 7,
+   "of": 7,
+   "slates": [],
+   "skin_warnings": [
+    "B06: palette=claude but the outro is 'LogoOutro' — OUTRO LAW wants ClaudeTitleOutro"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Humanitarians.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Talofa, Humanitarians",
+      "topic": "HUMANITARIANS AI · Output Formatting: The Prefill Technique and When to Control Format",
+      "segment": "Humanitarians AI",
+      "command": "This is Humanitarians.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "YTV01",
+   "act": "VERDICT",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "lead_silence_s": 0.5,
+   "narration_text": "Let's recap with Claude. Prefilling puts a partial assistant message at the start, so the model continues the seeded format instead of starting fresh. A prefill is a structural constraint, not a request; context already in the sequence cannot be ignored. Match format to the consumer: JSON for code, markdown for rendered UI, prose for human reading, numbered lists for strict order. Avoid under-specifying, over-specifying structure that adds nothing, and using markdown where it will never render.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Prefill and matching format to consumer",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "Prefilling puts a partial assistant message at the start, so the model continues the seeded format instead of starting fresh.",
+       "A prefill is a structural constraint, not a request; context already in the sequence cannot be ignored.",
+       "Match format to the consumer: JSON for code, markdown for rendered UI, prose for human reading, numbered lists for strict order.",
+       "Avoid under-specifying, over-specifying structure that adds nothing, and using markdown where it will never render."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "estimated_duration_s": 22
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Here is why Output Formatting: The Prefill Technique and When to Control Format belongs in your working knowledge. The systems, policies, and tools shaped by it affect decisions at your level — whether or not you understand the mechanism. Knowing the underlying logic gives you the frame; missing it means reasoning from output with no access to the inputs.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Prefill and matching format to consumer",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "Prefilling puts a partial assistant message at the start, so the model continues the seeded format instead of starting fresh.",
+       "A prefill is a structural constraint, not a request; context already in the sequence cannot be ignored.",
+       "Match format to the consumer: JSON for code, markdown for rendered UI, prose for human reading, numbered lists for strict order.",
+       "Avoid under-specifying, over-specifying structure that adds nothing, and using markdown where it will never render."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B00",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "I want to actually feel the difference between prefilling and requesting JSON. I'm going to take one extraction task and run it two ways: once by politely asking for JSON in the instructions, and once by prefilling the assistant turn with an open brace so the model continues the sequence. Can you help me (1) design a single task where the two approaches would diverge, (2) predict which format pitfall each version is most likely to hit, and (3) explain why a seeded open brace is harder to ignore than a written request?",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · PROMPT ENGINEERING · ANTHROPIC",
+      "segment": "Output Formatting: The Prefill Technique and When to Control Format",
+      "command": "I want to actually feel the difference between prefilling and requesting JSON. I'm going to take one extraction task and run it two ways: once by politely asking for JSON in the instructions, and once by prefilling the assistant turn with an open brace so the model continues the sequence. Can you help me (1) design a single task where the two approaches would diverge, (2) predict which format pitfall each version is most likely to hit, and (3) explain why a seeded open brace is harder to ignore than a written request?",
+      "runningText": "reading the tutorial…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B00.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "greeting": "Ahoj, Kore",
+    "topic": "PROMPT ENGINEERING · ANTHROPIC",
+    "segment": "Output Formatting: The Prefill Technique and When to Control Format",
+    "command": "Output format is not cosmetic. It determines what you can do with the response downstream. There is a one-line technique that locks it: the prefill.",
+    "runningText": "reading the tutorial…",
+    "folderLabel": "@HumanitariansAI",
+    "modelLabel": "Fable 5",
+    "effortLabel": "High"
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 16.96,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B00.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:55:54"
+   }
+  },
+  {
+   "beat_id": "B01",
+   "scene": "B01_PrefillTechnique",
+   "narration_text": "The prefill technique puts a partial assistant message at the start of the API call. If you want JSON output, you start Claude's response for it: open brace. Because the model is completing a sequence, not starting fresh, it continues in the format you seeded. The prefill is not a request — it is a structural constraint. The difference: you can ignore a request. You cannot ignore context already in the sequence.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B01_PrefillTechnique",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 20.61,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B01.mp4",
+    "filled_by": "manim:B01_PrefillTechnique",
+    "at": "2026-07-17T00:55:54"
+   }
+  },
+  {
+   "beat_id": "B02",
+   "scene": "B02_FormatDecisionMatrix",
+   "narration_text": "When to control format. Use JSON when the output will be parsed by code. Use markdown when the output will be rendered in a UI. Use plain prose when the output will be read by a human without rendering. Use a numbered list when the output is a sequence with strict order. The wrong format creates friction downstream. Match the format to the consumer.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B02_FormatDecisionMatrix",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B02.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 18.3,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B02.mp4",
+    "filled_by": "manim:B02_FormatDecisionMatrix",
+    "at": "2026-07-17T00:55:54"
+   }
+  },
+  {
+   "beat_id": "B03",
+   "scene": "B03_FormatPitfalls",
+   "narration_text": "Three common format pitfalls. First: under-specifying format and being surprised by prose when you needed JSON. Second: over-specifying format on tasks where structure adds no value — a simple factual answer does not need bullet points. Third: using markdown in a context where it won't be rendered — the asterisks and hashes appear as raw characters. Format is invisible when it's right. Visible when it's wrong.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B03_FormatPitfalls",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B03.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 21.78,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B03.mp4",
+    "filled_by": "manim:B03_FormatPitfalls",
+    "at": "2026-07-17T00:55:54"
+   }
+  },
+  {
+   "beat_id": "B04",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "Your turn. Ask Claude to extract five key facts from a document as JSON. Start Claude's response with an open brace. Then try the same request without the prefill. Compare: how often does the prefill version produce valid JSON without preamble? How often does the non-prefill version add prose before the JSON? The prefill removes the ambiguity about where the format starts. Kore, in for Humanitarians AI.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · PROMPT ENGINEERING · ANTHROPIC",
+      "segment": "Output Formatting: The Prefill Technique and When to Control Format",
+      "command": "Ask Claude to extract five key facts as JSON. Prefill with '{'. Compare to the same request without the prefill. Measure how often each produces clean JSON without preamble.",
+      "runningText": "paste this into Claude…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B04.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "greeting": "Your turn.",
+    "topic": "PROMPT ENGINEERING · ANTHROPIC",
+    "segment": "Output Formatting: The Prefill Technique and When to Control Format",
+    "command": "Ask Claude to extract five key facts as JSON. Prefill with '{'. Compare to the same request without the prefill. Measure how often each produces clean JSON without preamble.",
+    "runningText": "paste this into Claude…",
+    "folderLabel": "@HumanitariansAI",
+    "modelLabel": "Fable 5",
+    "effortLabel": "High"
+   },
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 20.86,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B04.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:55:54"
+   }
+  },
+  {
+   "beat_id": "B05",
+   "scene": "ClaudeTitleOutro",
+   "narration_text": "Output Formatting: The Prefill Technique and When to Control Format",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Output Formatting: The Prefill Technique and When to Control Format",
+      "handle": "@HumanitariansAI",
+      "subline": "Kore, in for Humanitarians AI."
+     },
+     "rendered": {
+      "out": "media/B05.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "title": "Output Formatting: The Prefill Technique and When to Control Format",
+    "handle": "@HumanitariansAI",
+    "subline": "Kore, in for Humanitarians AI."
+   },
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 4.61,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B05.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:55:54"
+   }
+  },
+  {
+   "beat_id": "B06",
+   "act": "outro",
+   "narration_text": "Output Formatting: The Prefill Technique and When to Control Format. From Humanitarians AI.",
+   "reuse_audio": "mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 13.68,
+   "new_visual_element": "bear-brown logo sting — springEntrance",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Output Formatting: The Prefill Technique and When to Control Format",
+      "handle": "@HumanitariansAI",
+      "subline": "youtube.com/@HumanitariansAI"
+     },
+     "picked": {
+      "brand": "bear-brown",
+      "animation": "springEntrance",
+      "svg": "bear-brown-logo-1.svg",
+      "mp3": "bear-brown-1.mp3",
+      "locked": true
+     },
+     "rendered": {
+      "out": "media/B06.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B06.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:55:54"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  }
+ ]
+}

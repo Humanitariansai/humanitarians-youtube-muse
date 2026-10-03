@@ -1,0 +1,1238 @@
+{
+  "metadata": {
+    "title": "Claude, Counsel",
+    "slug": "books--claude-liam-legal-finance",
+    "topic": "CLAUDE BASICS · LEGAL AND FINANCE PLUGINS",
+    "purpose": "Answer one real question in the Plain register: can Claude screen your legal and financial work for you? Lands the carry-out that legal and finance both screen the first pass, and neither one is the lawyer or the CFO.",
+    "skill": "hai-simple",
+    "register": "Plain",
+    "brand": "hai-fellows",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "in_for_bear": true,
+    "clock": "narration",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "anchor_pair": "B01 -> B24 (must be the SAME pair of folders)",
+    "one_flag": "N/A — every claim in this reel is a confirmed, present-tense description of what each plugin does, not an inference",
+    "mirror_pair": "Act III (Not a Lawyer) / Act V (Not a CFO) — the same four-hard-limits shape, mirrored for each plugin",
+    "gate_c": "SIGNED — CARRY-OUT.md",
+    "gate_h": "N/A — hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "redo_of": "anthropics/books/claude-cowork-plugins/youtube/claude-liam-legal-finance/beat_sheet.json (Teardown, 37 beats)",
+    "build": {
+      "at": "2026-08-28T16:00:35",
+      "cut": "master",
+      "filled": 35,
+      "of": 35,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone wondered: can Claude screen your legal and financial work? Not quite — it flags the risk in a contract and models the scenario in your numbers, before you commit. Here's what each plugin actually does.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types the naive framing, hesitates on 'DO', corrects to 'screen', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Can Claude DO\nyour legal and\nfinancial work?",
+            "face": "serif",
+            "fontSize": 80,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "DO",
+            "replacementWords": "screen",
+            "mistakeRate": 8,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 50,
+            "jitter": 28,
+            "seed": "hai-legal-finance"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md. Writer types the newcomer's wrong-guess word 'DO' (implying Claude does the legal/financial work itself), hesitates, corrects to 'screen' -> lands the real question. The wrong guess is picked up directly by Act III (\"Not a Lawyer\") and Act V (\"Not a CFO\"). Narration is 35 words + lead_silence_s 0.8, giving the typing a >=9s window (TIMING LAW; the 2026-08-27 pilot's 8-word narration produced a 2.86s open that never showed its own correction).",
+      "actual_duration_s": 11.14,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "C01",
+      "act": "ACT I",
+      "narration_text": "First, what these two plugins have in common.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 4,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The Shared Pattern"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Shared Pattern",
+          "mechanic": "Act-header card: The Shared Pattern",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "C01Scene"
+      },
+      "actual_duration_s": 3.11,
+      "audio_file": "mp3/beat-C01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/C01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "ACT I — 1 stakes (ANCHOR PLANTED)",
+      "narration_text": "Most independent operators sign contracts without reading them closely, and track their finances without ever analyzing them. Not because they're careless — because they're busy, and both of these feel like specialist work.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR PLANTED — two folders, unopened"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR PLANTED — two folders, unopened",
+          "mechanic": "A figure carries two folders labeled Contracts and Finances, neither opened. THIS EXACT PAIR OF FOLDERS RETURNS, opened and labeled, at B24.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B01Scene"
+      },
+      "actual_duration_s": 12.22,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "ACT I — the gap",
+      "narration_text": "So the NDA gets signed unread. The vendor terms get accepted because pushing back feels awkward. The receipts pile up in a folder nobody analyzes. This is the gap both plugins are built for.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The unread stack"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The unread stack",
+          "mechanic": "A stack of papers gets signed in a hurry; receipts pile up beside it, untouched.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B02Scene"
+      },
+      "actual_duration_s": 11.26,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "ACT I — 3 mechanism",
+      "narration_text": "And they share one shape. Neither plugin makes you a professional. Each one gives you a structured first pass — it screens the risk, or accelerates the analysis — and tells you when to bring in a human.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Screen and accelerate"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Screen and accelerate",
+          "mechanic": "Two chips resolve in turn: Screen the risk · Accelerate the analysis.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B03Scene"
+      },
+      "actual_duration_s": 10.43,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "ACT I — 3 mechanism",
+      "narration_text": "Structured first-pass coverage. It won't catch everything a specialist would — but it catches what you'd otherwise miss entirely, because the honest alternative wasn't a careful review. The alternative was no review at all.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Better than no review"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Better than no review",
+          "mechanic": "Items rain down; a net catches the ones that matter while a few slip past — beside it, an empty net catches nothing.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B04Scene"
+      },
+      "actual_duration_s": 12.52,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "C02",
+      "act": "ACT II",
+      "narration_text": "First, the one that reads your contracts.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 4,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The Legal Plugin"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Legal Plugin",
+          "mechanic": "Act-header card: The Legal Plugin",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "C02Scene"
+      },
+      "actual_duration_s": 2.75,
+      "audio_file": "mp3/beat-C02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/C02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "ACT II — worked example",
+      "narration_text": "The legal plugin is a screening tool. It reads a document against established risk frameworks and flags what deserves your attention — the one clause on the page that could cost you later.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A screening tool"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "A screening tool",
+          "mechanic": "A contract page; one clause gets a crimson highlight ring.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B05Scene"
+      },
+      "actual_duration_s": 10.37,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "ACT II — worked example",
+      "narration_text": "In practice, you upload a contract and ask plainly: review this agreement and flag any issues — what should I worry about? No legal vocabulary required. Claude reads the whole thing and answers.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Just ask plainly"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Just ask plainly",
+          "mechanic": "A stylized prompt bar fills with 'Review this agreement and flag any issues — what should I worry about?' and a send arrow fires.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B06Scene"
+      },
+      "actual_duration_s": 11.03,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "ACT II — worked example",
+      "narration_text": "What comes back is a risk summary with color-coded flags. Green for standard terms, yellow for items worth a second look, red for real concerns. Each flag explained — what the clause says, why it's flagged, and what you might do about it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Green, yellow, red"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Green, yellow, red",
+          "mechanic": "Flags sort into three columns by color — green, yellow, red — tallies settling, illustrative not fixed.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B07Scene"
+      },
+      "actual_duration_s": 12.95,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "ACT II — worked example",
+      "narration_text": "The screening covers the routine documents a solo operator actually faces: contract review, NDA triage, vendor-agreement analysis, compliance checks — and for yellow or red items, suggested redline language if you decide to negotiate.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "What it screens"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "What it screens",
+          "mechanic": "Five chips resolve in turn: Contract review · NDA triage · Vendor terms · Compliance checks · Redline language.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B08Scene"
+      },
+      "actual_duration_s": 14.06,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B08.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "ACT II — payoff",
+      "narration_text": "And it changes the economics of review. Thorough reading drops from hours to minutes — which is the whole point. It makes contract review a default step, not the exception you skip when you're signing in a hurry.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Review as default"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Review as default",
+          "mechanic": "A long 'hours' bar collapses past a threshold into a short 'minutes' bar.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B09Scene"
+      },
+      "actual_duration_s": 11.24,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "C03",
+      "act": "ACT III",
+      "narration_text": "Now the line you can't cross.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 4,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Not a Lawyer"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Not a Lawyer",
+          "mechanic": "Act-header card: Not a Lawyer",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "C03Scene"
+      },
+      "actual_duration_s": 2.37,
+      "audio_file": "mp3/beat-C03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/C03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "ACT III — the limits",
+      "narration_text": "Because here's what it does not do. It doesn't give legal advice. It doesn't weigh a clause against the strategy of your business. It doesn't replace qualified counsel for significant matters. And it doesn't guarantee its read is legally sound.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Four hard limits"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Four hard limits",
+          "mechanic": "Four caution chips resolve in turn: No legal advice · No strategic weighing · No counsel for big deals · No legal guarantee.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B10Scene"
+      },
+      "actual_duration_s": 12.8,
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "ACT III — worked example",
+      "narration_text": "It's the difference between a screen that catches the obvious problem sitting on the page…",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 7,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The screen catches"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The screen catches",
+          "mechanic": "A contract under a magnifier, one clause flagged; slow push toward the flag.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B11Scene"
+      },
+      "actual_duration_s": 5.06,
+      "audio_file": "mp3/beat-B11.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B11.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "ACT III — worked example",
+      "narration_text": "…and outside counsel who tells you whether to sign. For routine work — the NDA, the SaaS terms, the freelancer agreement you reuse — screening beats no review at all. For high-stakes deals, call a lawyer. The plugin helps you know which one you're in.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Counsel makes the call"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Counsel makes the call",
+          "mechanic": "Continuous move to a second desk — a professional marking up the contract; same room grammar as B11.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B12Scene"
+      },
+      "actual_duration_s": 13.63,
+      "audio_file": "mp3/beat-B12.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B12.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B13",
+      "act": "ACT III — payoff",
+      "narration_text": "That's the real skill it hands you: triage. Routine and low-stakes, the screen is enough. Complex, or high-stakes, and a red flag is your signal to escalate — to a person, before you sign.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Know which you're in"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Know which you're in",
+          "mechanic": "One contract enters a fork: routine flows down to the screen; high-stakes routes up to a human.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B13Scene"
+      },
+      "actual_duration_s": 10.2,
+      "audio_file": "mp3/beat-B13.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B13.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "C04",
+      "act": "ACT IV",
+      "narration_text": "Now the one that reads your numbers.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 4,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The Finance Plugin"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The Finance Plugin",
+          "mechanic": "Act-header card: The Finance Plugin",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "C04Scene"
+      },
+      "actual_duration_s": 2.47,
+      "audio_file": "mp3/beat-C04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/C04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B14",
+      "act": "ACT IV — worked example",
+      "narration_text": "The finance plugin brings financial analysis into Claude. Its real value isn't the deep dive — it's turning analysis into something you actually do, instead of something you keep meaning to do.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Actually do it"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Actually do it",
+          "mechanic": "A solo operator at night over a laptop and printed statements; slow push-in.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B14Scene"
+      },
+      "actual_duration_s": 11.14,
+      "audio_file": "mp3/beat-B14.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B14.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B15",
+      "act": "ACT IV — worked example",
+      "narration_text": "You point Claude at your data and ask the questions you've been putting off. Here's six months of revenue and expenses — what's my burn rate, and how long is my runway at this pace?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Aim at your data"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Aim at your data",
+          "mechanic": "The prompt bar fills with 'Here's 6 months of revenue and expenses. What's my burn rate and runway?' and fires.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B15Scene"
+      },
+      "actual_duration_s": 9.66,
+      "audio_file": "mp3/beat-B15.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B15.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B16",
+      "act": "ACT IV — worked example",
+      "narration_text": "From there it does the kind of analysis a fractional CFO would: budget and variance tracking, revenue forecasting, expense trends, simple modeling, and clean reports — for you, or for a lender or investor.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "What it analyzes"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "What it analyzes",
+          "mechanic": "Five chips resolve in turn: Budget & variance · Forecasting · Expense trends · Modeling · Reports.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B16Scene"
+      },
+      "actual_duration_s": 11.97,
+      "audio_file": "mp3/beat-B16.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B16.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B17",
+      "act": "ACT IV — worked example",
+      "narration_text": "The health check first: your monthly burn rate, and your runway — how many months the cash lasts at the current pace. The number you keep avoiding, made plain in seconds.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Burn and runway"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Burn and runway",
+          "mechanic": "A cash bar drains month by month toward zero; the runway length reads out as it empties.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B17Scene"
+      },
+      "actual_duration_s": 9.07,
+      "audio_file": "mp3/beat-B17.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B17.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B18",
+      "act": "ACT IV — payoff",
+      "narration_text": "Then the part that earns its keep: scenario modeling. Raise prices by, say, fifteen percent — where's the break-even? Hire a contractor who helps you land more clients — how long until the hire pays for itself? Claude models best, likely, and worst case, shows the math, and you adjust the assumptions and rerun.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Best, likely, worst"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Best, likely, worst",
+          "mechanic": "Three payback curves — best, likely, worst — climb toward a break-even line at different speeds.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B18Scene"
+      },
+      "actual_duration_s": 16.09,
+      "audio_file": "mp3/beat-B18.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B18.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "C05",
+      "act": "ACT V",
+      "narration_text": "And the line on this side.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 4,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Not a CFO"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Not a CFO",
+          "mechanic": "Act-header card: Not a CFO",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "C05Scene"
+      },
+      "actual_duration_s": 2.03,
+      "audio_file": "mp3/beat-C05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/C05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B19",
+      "act": "ACT V — the limits",
+      "narration_text": "The limits, just as plainly. It won't file your taxes. It won't give you accounting advice. It won't replace a bookkeeper for complex records. And it won't guarantee its numbers are accurate for a regulator.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Four hard limits"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Four hard limits",
+          "mechanic": "Four caution chips resolve in turn: Won't file taxes · No accounting advice · No bookkeeping · No regulatory guarantee.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B19Scene"
+      },
+      "actual_duration_s": 11.35,
+      "audio_file": "mp3/beat-B19.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B19.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B20",
+      "act": "ACT V — worked example",
+      "narration_text": "It builds the model — but it can't tell you the assumptions fit your industry, or that the figure will hold up to the taxman. The math is fast; the judgment is yours.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The judgment is yours"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The judgment is yours",
+          "mechanic": "A person pauses over a hiring decision and a spreadsheet; a crimson ring draws on around the person.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B20Scene"
+      },
+      "actual_duration_s": 9.17,
+      "audio_file": "mp3/beat-B20.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B20.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B21",
+      "act": "ACT V — payoff",
+      "narration_text": "So the finance plugin gives you the analysis a CFO would produce — but the consequential call stays with a human, and for real stakes, a real accountant signs off. An accelerator, not a CFO.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "The call stays human"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "The call stays human",
+          "mechanic": "A finished model flows toward a decision point where a human — not the plugin — makes the call.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B21Scene"
+      },
+      "actual_duration_s": 11.41,
+      "audio_file": "mp3/beat-B21.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B21.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "C06",
+      "act": "ACT VI",
+      "narration_text": "Last — how to actually get the value.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 4,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Make It Routine"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Make It Routine",
+          "mechanic": "Act-header card: Make It Routine",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "C06Scene"
+      },
+      "actual_duration_s": 2.69,
+      "audio_file": "mp3/beat-C06.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/C06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B22",
+      "act": "ACT VI — 5 direction A (the habits)",
+      "narration_text": "Three habits make both worth it. Run them routinely, not occasionally — the value is in the habit. Treat every red flag as a signal to escalate. And keep your documents organized, so Claude can actually find them.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Three habits"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Three habits",
+          "mechanic": "Three panels light in turn: Routine, not occasional · Escalate the red flags · Organized documents.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B22Scene"
+      },
+      "actual_duration_s": 12.01,
+      "audio_file": "mp3/beat-B22.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B22.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B23",
+      "act": "ACT VI — 5 direction A (why routine wins)",
+      "narration_text": "Because the value isn't the one-off deep dive — it's catching problems early. A bad clause, a financial trend that doesn't add up: the cost of fixing it climbs the longer it hides. Monthly reviews and automatic screening catch it while it's still cheap.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 17,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "Early is cheapest"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Early is cheapest",
+          "mechanic": "A cost curve rises steeply over time; an early catch sits low on the curve, a late catch far up it.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B23Scene"
+      },
+      "actual_duration_s": 13.59,
+      "audio_file": "mp3/beat-B23.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B23.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "B24",
+      "act": "ACT VI — ANCHOR PAYOFF",
+      "narration_text": "And the simplest lever of all: a folder of contracts, a folder of financial records, consistently kept. The more easily Claude can find them, the more useful both plugins become.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS — folders, labeled and open"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS — folders, labeled and open",
+          "mechanic": "THE SAME TWO FOLDERS FROM B01 return, now open and neatly labeled — Contracts, Finances — on a tidy desk.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "B24Scene"
+      },
+      "actual_duration_s": 10.41,
+      "audio_file": "mp3/beat-B24.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B24.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "Legal and finance both screen the first pass — neither one is the lawyer or the CFO.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE CARRY-OUT — one sentence, alone"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE CARRY-OUT — one sentence, alone",
+          "mechanic": "The carry-out sentence, alone on screen, serif, large. Nothing else in frame.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "BCRYScene"
+      },
+      "lead_silence_s": 0.6,
+      "actual_duration_s": 5.46,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/BCRY.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. I run a one-person business. I'm about to sign a vendor contract and set next quarter's budget. Act as my first-pass screen, not my lawyer or my CFO: tell me what to paste in so the legal plugin can flag the concerning clauses, show me the three scenarios the finance plugin should model before I commit to a new hire, and for each, name the exact moment I should stop and call a real lawyer or accountant.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 30,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · COWORK PLUGINS",
+            "segment": "Your Turn",
+            "command": "I run a one-person business. I'm about to sign a vendor contract and set next quarter's budget. Act as my first-pass screen, not my lawyer or my CFO: (1) tell me exactly what to paste in so the legal plugin can flag the concerning clauses, (2) show me the three scenarios the finance plugin should model before I commit to a new hire, and (3) for each, name the exact moment I should stop and call a real lawyer or accountant.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 22.36,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro series",
+      "narration_text": "Claude, Counsel.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 4,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroSeries",
+          "props": {
+            "eyebrow": "CLAUDE BASICS · HUMANITARIANS AI",
+            "line": "Claude, Counsel."
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 1.39,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T16:00:35"
+      }
+    },
+    {
+      "beat_id": "BCTA",
+      "act": "outro cta",
+      "narration_text": "…Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 4,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "…Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BCTA.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 2.09,
+      "audio_file": "mp3/beat-BCTA.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCTA.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T16:00:35"
+      }
+    }
+  ]
+}

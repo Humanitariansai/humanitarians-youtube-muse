@@ -1,0 +1,44 @@
+# Likhith R.
+
+**Role:** AI Software Engineer  
+**Project:** Brutalist  
+**GitHub:** [@LIKHITHREDDY](https://github.com/LIKHITHREDDY)
+
+Humanitarians AI fellow. Weekly explainers made with Brutalist.
+
+- **Voice:** Kokoro `am_onyx` — my narrator for every episode (AI voice, not a recording of me)
+- **Channel chip:** `@HumanitariansAI`
+- **Builder:** `ai-explainer` on the `claude-hai` brand (Plain register)
+
+Rebuild with [brutalist.art](https://github.com/nikbearbrown/brutalist.art). Renders go to Google Drive; each work folder's README links its own.
+
+## What's in this folder
+
+- [weekly-hours/](weekly-hours/README.md) — weekly hours records
+- [renewal-requests/](renewal-requests/2026-09-28-renewal-request.md) — renewal request
+
+## Week of 2026-09-26
+
+Two STEM explainers, both 16:9 (3840×2160) and native 9:16 (2160×3840). Drive: [Brutalist_Likhith](https://drive.google.com/drive/folders/1GmmCuQ6xLISTKUgaon16XUTJCUEZGIiy?usp=sharing) (`landscape/`, `vertical/`).
+
+- [System One Models and Jev](./2026-09-26-system-one-models-and-jev/) — typed, structured decisions instead of generated text (`SystemOneJev_LikhithR.mp4`)
+- [Spec-Driven Development](./2026-09-26-spec-driven-development/) — why a spec, not the prompt history, keeps AI-assisted code maintainable (`SpecDrivenDevelopment_LikhithR.mp4`)
+
+## Week of 2026-09-17
+
+Two STEM explainers, both 16:9 (3840×2160) and native 9:16 (2160×3840).
+
+- [How KV Caching Speeds Up LLMs](./2026-09-17-how-kv-caching-speeds-up-llms/) — why text streams fast after the first word, and why long contexts cost memory (`KVCaching_LikhithR.mp4`)
+- [Mixture of Experts](./2026-09-18-mixture-of-experts/) — how a router lets huge models run only a few experts per token (`MixtureOfExperts_LikhithR.mp4`)
+
+## Week of 2026-09-10
+
+Two STEM explainers, both 16:9 (3840×2160) and native 9:16 (2160×3840).
+
+- [Why MCP Exists](./2026-09-10-why-mcp-exists/) — MCP as a common language for agents on top of APIs (`MCPProtocol_LikhithR.mp4`)
+- [RAG Pipelines, End to End](./2026-09-11-rag-pipelines-end-to-end/) — embed, store, retrieve, augment, generate (`RagPipelines_LikhithR.mp4`)
+
+## Frictional log
+
+Every work subfolder here carries its own `FRICTIONAL.md` — a dated record of the process behind that specific piece of work, kept beside the evidence it describes: what was tried and expected, where it resisted and what was done next, what Claude or another person
+contributed and what was accepted, changed or rejected, and what is now understood or still open. Append as you go; never rewrite an earlier entry. It is not graded and not a performance review. See <https://www.humanitarians.ai/fellows> for what an entry contains.

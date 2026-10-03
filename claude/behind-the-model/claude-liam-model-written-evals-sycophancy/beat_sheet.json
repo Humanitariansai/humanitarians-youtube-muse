@@ -1,0 +1,357 @@
+{
+ "metadata": {
+  "slug": "claude-liam-model-written-evals-sycophancy",
+  "title": "Model-Written Evals: Generating 50k Sycophancy Questions",
+  "channel": "hai",
+  "persona": "Kore",
+  "brand": "claude-liam",
+  "audience": "Claude",
+  "engine": "kokoro",
+  "voice": "af_kore",
+  "voice_kokoro": "af_kore",
+  "palette": "claude",
+  "register": "Pragmatist",
+  "format": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "source": "Perez et al. 2022 — Discovering Language Model Behaviors with Model-Written Evaluations, Anthropic",
+  "topic": "AI SAFETY/ALIGNMENT/EVALS · ANTHROPIC RESEARCH",
+  "build": {
+   "at": "2026-07-17T00:41:58",
+   "cut": "review",
+   "filled": 7,
+   "of": 7,
+   "slates": [],
+   "skin_warnings": [
+    "B06: palette=claude but the outro is 'LogoOutro' — OUTRO LAW wants ClaudeTitleOutro"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Humanitarians.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Jambo, Humanitarians",
+      "topic": "HUMANITARIANS AI · Model-Written Evals: Generating 50k Sycophancy Questions",
+      "segment": "Humanitarians AI",
+      "command": "This is Humanitarians.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "YTV01",
+   "act": "VERDICT",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "lead_silence_s": 0.5,
+   "narration_text": "Let's recap with Claude. The pipeline is three steps: hand-write seed examples, prompt the generator to produce more, then filter with a quality classifier. The seeds carry the human judgment; the model supplies the scale, yielding fifty thousand items in weeks not years. Humans validate a stratified random sample to estimate the false-positive rate, staying in the loop on criteria not every item. The eval found models agree with confident users' false statements and gives a trackable sycophancy rate, a regression test for honesty.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Model-written evals",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "The pipeline is three steps: hand-write seed examples, prompt the generator to produce more, then filter with a quality classifier.",
+       "The seeds carry the human judgment; the model supplies the scale, yielding fifty thousand items in weeks not years.",
+       "Humans validate a stratified random sample to estimate the false-positive rate, staying in the loop on criteria not every item.",
+       "The eval found models agree with confident users' false statements and gives a trackable sycophancy rate, a regression test for honesty."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "estimated_duration_s": 22
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Here is why Model-Written Evals: Generating 50k Sycophancy Questions belongs in your working knowledge. The systems, policies, and tools shaped by it affect decisions at your level — whether or not you understand the mechanism. Knowing the underlying logic gives you the frame; missing it means reasoning from output with no access to the inputs.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Model-written evals",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "The pipeline is three steps: hand-write seed examples, prompt the generator to produce more, then filter with a quality classifier.",
+       "The seeds carry the human judgment; the model supplies the scale, yielding fifty thousand items in weeks not years.",
+       "Humans validate a stratified random sample to estimate the false-positive rate, staying in the loop on criteria not every item.",
+       "The eval found models agree with confident users' false statements and gives a trackable sycophancy rate, a regression test for honesty."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B00",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "The division of labor — seeds are human judgment, scale is the model's — is what I want to trace end to end. For a honesty eval: (1) walk the three steps from a dozen hand-written seeds to fifty thousand filtered items, (2) explain what a stratified random sample checks and why it estimates the false-positive rate instead of reviewing every item, and (3) show how the resulting sycophancy rate becomes a regression test I can track across model versions.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · AI SAFETY/ALIGNMENT/EVALS · ANTHROPIC RESEARCH",
+      "segment": "Model-Written Evals: Generating 50k Sycophancy Questions",
+      "command": "The division of labor — seeds are human judgment, scale is the model's — is what I want to trace end to end. For a honesty eval: (1) walk the three steps from a dozen hand-written seeds to fifty thousand filtered items, (2) explain what a stratified random sample checks and why it estimates the false-positive rate instead of reviewing every item, and (3) show how the resulting sycophancy rate becomes a regression test I can track across model versions.",
+      "runningText": "reading the paper…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B00.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "greeting": "Sawubona, Kore",
+    "topic": "AI SAFETY/ALIGNMENT/EVALS · ANTHROPIC RESEARCH",
+    "segment": "Model-Written Evals: Generating 50k Sycophancy Questions",
+    "command": "The bottleneck in eval design is human-written questions. The model-written evals approach removes that bottleneck: use one model to generate evaluation questions for another model. The human validates a sample, not the whole set.",
+    "runningText": "reading the paper…",
+    "folderLabel": "@HumanitariansAI",
+    "modelLabel": "Fable 5",
+    "effortLabel": "High"
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 18.97,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B00.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:41:58"
+   }
+  },
+  {
+   "beat_id": "B01",
+   "scene": "B01_GenerationPipeline",
+   "narration_text": "The generation pipeline has three steps. First: write a few seed examples by hand — a dozen sycophancy items that a human expert judged correct. Second: prompt the generator model with those seeds and ask it to produce more in the same format. Third: filter outputs by a quality classifier. The result is fifty thousand eval items at a cost of weeks, not years. The seeds are the human judgment. The scale is the model's.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B01_GenerationPipeline",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 21.61,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B01.mp4",
+    "filled_by": "manim:B01_GenerationPipeline",
+    "at": "2026-07-17T00:41:58"
+   }
+  },
+  {
+   "beat_id": "B02",
+   "scene": "B02_HumanValidation",
+   "narration_text": "Human validation is a sample, not a census. Experts review a stratified random sample — enough to estimate the false positive rate, not enough to block scale. If the sample passes, the full set ships. If it fails, the generation prompt is adjusted and the sample is rerun. The human is in the loop on the quality criterion, not on every item. That is the correct division of labor.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B02_HumanValidation",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B02.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 20.46,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B02.mp4",
+    "filled_by": "manim:B02_HumanValidation",
+    "at": "2026-07-17T00:41:58"
+   }
+  },
+  {
+   "beat_id": "B03",
+   "scene": "B03_WhatItFound",
+   "narration_text": "What the sycophancy eval found: models agree with false statements more when the user appears confident. Models change their answer when pushed back on, even when the original answer was correct. The eval quantifies this — it gives you a sycophancy rate, not a vague impression. A number you can track across model versions. A regression test for honesty.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B03_WhatItFound",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B03.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 18.3,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B03.mp4",
+    "filled_by": "manim:B03_WhatItFound",
+    "at": "2026-07-17T00:41:58"
+   }
+  },
+  {
+   "beat_id": "B04",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "Your turn. Ask Claude: Generate ten sycophancy evaluation questions for a language model. The format: a question where the correct answer is X, followed by a user comment that implies the answer is Y. Make the user comment confident. Then ask Claude to answer each question — first without, then with, a leading user comment. Measure the delta. That delta is sycophancy rate. Kore, in for Humanitarians AI.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · AI SAFETY/ALIGNMENT/EVALS · ANTHROPIC RESEARCH",
+      "segment": "Model-Written Evals: Generating 50k Sycophancy Questions",
+      "command": "Generate ten sycophancy evaluation questions. Each: a question with a correct answer, plus a confident user comment implying a wrong answer. Then measure how often the model changes its answer.",
+      "runningText": "paste this into Claude…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B04.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "greeting": "Your turn.",
+    "topic": "AI SAFETY/ALIGNMENT/EVALS · ANTHROPIC RESEARCH",
+    "segment": "Model-Written Evals: Generating 50k Sycophancy Questions",
+    "command": "Generate ten sycophancy evaluation questions. Each: a question with a correct answer, plus a confident user comment implying a wrong answer. Then measure how often the model changes its answer.",
+    "runningText": "paste this into Claude…",
+    "folderLabel": "@HumanitariansAI",
+    "modelLabel": "Fable 5",
+    "effortLabel": "High"
+   },
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 20.03,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B04.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:41:58"
+   }
+  },
+  {
+   "beat_id": "B05",
+   "scene": "ClaudeTitleOutro",
+   "narration_text": "Model-Written Evals: Generating 50k Sycophancy Questions",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Model-Written Evals: Generating 50k Sycophancy Questions",
+      "handle": "@HumanitariansAI",
+      "subline": "Kore, in for Humanitarians AI."
+     },
+     "rendered": {
+      "out": "media/B05.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "title": "Model-Written Evals: Generating 50k Sycophancy Questions",
+    "handle": "@HumanitariansAI",
+    "subline": "Kore, in for Humanitarians AI."
+   },
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 4.5,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B05.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:41:58"
+   }
+  },
+  {
+   "beat_id": "B06",
+   "act": "outro",
+   "narration_text": "Model-Written Evals: Generating 50k Sycophancy Questions. From Humanitarians AI.",
+   "reuse_audio": "mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 10.361,
+   "new_visual_element": "bear-brown logo sting — glitchSlices",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Model-Written Evals: Generating 50k Sycophancy Questions",
+      "handle": "@HumanitariansAI",
+      "subline": "youtube.com/@HumanitariansAI"
+     },
+     "picked": {
+      "brand": "bear-brown",
+      "animation": "glitchSlices",
+      "svg": "bear-brown-logo-2.svg",
+      "mp3": "bear-brown-3.mp3",
+      "locked": true
+     },
+     "rendered": {
+      "out": "media/B06.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B06.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:41:58"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  }
+ ]
+}

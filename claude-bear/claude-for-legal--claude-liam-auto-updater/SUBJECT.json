@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Auto Updater.",
+ "slug": "claude-for-legal--claude-liam-auto-updater",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-auto-updater/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-auto-updater",
+ "family": "claude-for-legal",
+ "mode": "redo"
+}

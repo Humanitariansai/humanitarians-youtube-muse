@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Cookbook Audit.",
+ "slug": "claude-cookbooks--claude-liam-cookbook-audit",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-cookbooks/youtube/claude-liam-cookbook-audit/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-cookbooks/youtube/claude-liam-cookbook-audit",
+ "family": "claude-cookbooks",
+ "mode": "redo"
+}

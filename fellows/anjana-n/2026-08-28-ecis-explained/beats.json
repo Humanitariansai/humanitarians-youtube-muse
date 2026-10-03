@@ -1,0 +1,81 @@
+{
+  "project": "ecis-ep4",
+  "skill": "ai-explainer",
+  "voice": "am_onyx",
+  "narrator": "Anjana",
+  "series": "ECIS",
+  "episode": 4,
+  "total_target_seconds": 63,
+  "bookends": {
+    "intro": "claude-branded",
+    "outro": "claude-branded + ECIS Episode 4 title card"
+  },
+  "beats": [
+    {
+      "id": 1,
+      "label": "recap",
+      "narration_file": "narration/01_recap.txt",
+      "visual_brief": "visuals/01_recap.md",
+      "audio_file": "audio/01_recap.wav",
+      "target_seconds": 5,
+      "actual_seconds": null,
+      "visual_type": "remotion",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "label": "speaker",
+      "narration_file": "narration/02_speaker.txt",
+      "visual_brief": "visuals/02_speaker.md",
+      "audio_file": "audio/02_speaker.wav",
+      "target_seconds": 15,
+      "actual_seconds": null,
+      "visual_type": "remotion",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "label": "quality",
+      "narration_file": "narration/03_quality.txt",
+      "visual_brief": "visuals/03_quality.md",
+      "audio_file": "audio/03_quality.wav",
+      "target_seconds": 12,
+      "actual_seconds": null,
+      "visual_type": "remotion",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "label": "temporal",
+      "narration_file": "narration/04_temporal.txt",
+      "visual_brief": "visuals/04_temporal.md",
+      "audio_file": "audio/04_temporal.wav",
+      "target_seconds": 12,
+      "actual_seconds": null,
+      "visual_type": "remotion",
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "label": "together",
+      "narration_file": "narration/05_together.txt",
+      "visual_brief": "visuals/05_together.md",
+      "audio_file": "audio/05_together.wav",
+      "target_seconds": 8,
+      "actual_seconds": null,
+      "visual_type": "remotion",
+      "status": "pending"
+    },
+    {
+      "id": 6,
+      "label": "close",
+      "narration_file": "narration/06_close.txt",
+      "visual_brief": "visuals/06_close.md",
+      "audio_file": "audio/06_close.wav",
+      "target_seconds": 5,
+      "actual_seconds": null,
+      "visual_type": "remotion",
+      "status": "pending"
+    }
+  ]
+}

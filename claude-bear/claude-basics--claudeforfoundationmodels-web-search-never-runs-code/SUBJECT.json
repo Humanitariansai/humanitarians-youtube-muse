@@ -1,0 +1,10 @@
+{
+ "question": "Why web search never runs your code but your own tool always does \u2014 with identical syntax",
+ "slug": "claude-basics--claudeforfoundationmodels-web-search-never-runs-code",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/claudeforfoundationmodels-web-search-never-runs-code/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/claudeforfoundationmodels-web-search-never-runs-code",
+ "family": "claude-basics",
+ "mode": "redo"
+}

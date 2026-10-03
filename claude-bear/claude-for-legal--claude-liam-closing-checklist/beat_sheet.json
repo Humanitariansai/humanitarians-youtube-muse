@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "title": "Claude, Closing Checklist.",
+    "slug": "claude-for-legal--claude-liam-closing-checklist",
+    "topic": "CLOSING-CHECKLIST · ANTHROPIC SKILL",
+    "purpose": "Answer whether Claude applies its own legal judgment to build a closing checklist, or follows a written instruction file, using the closing-checklist skill's own folder/SKILL.md/Steps structure as the concrete case. Lands the carry-out that the skill runs the steps written in its SKILL.md, the same way every time -- not legal judgment, and nothing the file doesn't say.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-for-legal/youtube/claude-liam-closing-checklist/beat_sheet.json",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (a step not written in the SKILL.md's Steps section stays a dashed, unconnected card; asking for it doesn't make it run)",
+    "build": {
+      "at": "2026-08-29T16:09:34",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone assumes Claude just knows how to build a legal closing checklist, straight from its own judgment. It doesn't — it reads one written file, step by step. So does Claude just read how to build it?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'Does Claude just know how to build a closing checklist?', hesitates on 'know', corrects to 'read', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Does Claude just know\nhow to build a\nclosing checklist?",
+            "face": "serif",
+            "fontSize": 64,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "know",
+            "replacementWords": "read",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-closing-checklist"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('know' -> 'read') is visible on a late frame.",
+      "actual_duration_s": 10.67,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T16:09:34"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / anatomy",
+      "narration_text": "A skill is a folder Claude reads before it works. This one is closing-checklist, and it holds a single file: SKILL.md — the whole instruction set, in plain language, no hidden logic. Claude reads the file, then acts. The file is the program.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 17,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A folder icon labelled closing-checklist/, one file card SKILL.md inside it"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "A skill is a folder",
+          "mechanic": "A folder icon labelled 'closing-checklist/' draws in on cream. Inside it, a single file card, 'SKILL.md', fades in with a small accent border -- one file total. The folder and file hold still while a caption lands beneath: 'the file is the program.'",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CCKB01Scene"
+      },
+      "actual_duration_s": 13.87,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T16:09:34"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "The pipeline lives in the file's Steps section. Claude reads each step in order, and runs it — linear, no branching unless a step says so. If a step is written there, it runs. If it isn't, it doesn't exist.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR -- three step cards lighting up in order inside a Steps box; a dashed unconnected card sitting apart, outside it"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR -- linear, and only what's written",
+          "mechanic": "A box labelled 'SKILL.md -> Steps' holds three cards -- Step 1, Step 2, Step 3 -- connected left to right by arrows. Each lights up in turn as a read-head passes over it, left to right, strictly in order. THE ANCHOR. Off to the side, outside the box, a fourth card draws in dashed and gray, labelled only '?', unconnected to the arrow chain. It never lights up. A caption lands beneath: 'linear. no branching unless a step says so.' THIS EXACT DASHED CARD RETURNS AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CCKB02Scene"
+      },
+      "actual_duration_s": 11.29,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T16:09:34"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "Ask for a step that's written in the file, and it runs the same way every time — reliable, because it's spec, not judgment. Ask for something the file never mentions, and nothing fills the gap: that step just isn't part of the run.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS -- the three step cards run again in the same order; the dashed card gets an 'ask' arrow and stays dark"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS -- same steps, and the gap that stays a gap",
+          "mechanic": "THE B02 SEQUENCE RETURNS: the same three-card Steps box, the read-head passing over Step 1, 2, 3 in the same order, each lighting teal -- labelled 'same input -> same output'. Beside it, the same dashed '?' card from B02 reappears. An arrow labelled 'ask' points into it. The card does not light; it stays dashed and gray. A line of small italic text appears beneath it: 'not written here. doesn't run.' A final caption at the bottom reads 'spec, not judgment.'",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "CCKB03Scene"
+      },
+      "actual_duration_s": 12.76,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T16:09:34"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "closing-checklist runs the steps written in its SKILL.md, the same way every time — not legal judgment, and nothing the file doesn't say.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "closing-checklist runs the steps written in its SKILL.md, the same way every time — not legal judgment, and nothing the file doesn't say.",
+            "attribution": "",
+            "sparkLine": "Spec, not judgment."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 8.62,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T16:09:34"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. I'm closing a transaction and want to use the closing-checklist skill. Read the SKILL.md and walk me through each step you'll run, in order, before you run any of them. That order matters — it's the whole spec, laid out before a single step executes. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 23,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLOSING-CHECKLIST · ANTHROPIC SKILL",
+            "segment": "Your Turn",
+            "command": "I'm closing a transaction and want to use the closing-checklist skill. Read the SKILL.md and walk me through each step you'll run, in order, before you run any of them.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 15.7,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T16:09:34"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude, Closing Checklist. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude, Closing Checklist. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.46,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T16:09:34"
+      }
+    }
+  ]
+}

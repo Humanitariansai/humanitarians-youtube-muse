@@ -1,0 +1,1002 @@
+{
+  "metadata": {
+    "title": "Claude, In Order",
+    "subtitle": "The Productivity Plugin",
+    "slug": "books--claude-liam-productivity",
+    "topic": "CLAUDE · COWORK PLUGINS",
+    "purpose": "Answer one real question in the Plain register: what does the productivity plugin actually do, and is it just another to-do app? Lands the carry-out that it doesn't specialize in a domain, it specializes in you, working out of the box and getting sharper the more it knows how you work.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/books/claude-cowork-plugins/youtube/claude-liam-productivity/beat_sheet.json",
+    "register": "Plain",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "NB03 -> NB19 (five moves planted, resolved when those same five moves run as the operating system underneath everything else)",
+    "one_flag": "N/A - direct mechanism description throughout (see SCRIPT.md Register audit)",
+    "build": {
+      "at": "2026-08-28T18:42:20",
+      "cut": "master",
+      "filled": 23,
+      "of": 23,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "People assume the productivity plugin just tracks your tasks for you. It doesn't — it runs your whole day: tasks, meetings, email and notes together. So what does it actually do?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'The productivity plugin tracks your tasks for you.', hesitates on 'tracks', corrects to 'runs', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "The productivity plugin\ntracks your tasks\nfor you.\nWhat does it actually do?",
+            "face": "serif",
+            "fontSize": 68,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "tracks",
+            "replacementWords": "runs",
+            "mistakeRate": 5,
+            "hesitateWithin": 2,
+            "hesitateBetween": 12,
+            "charMs": 46,
+            "jitter": 26,
+            "seed": "hai-productivity-plugin"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('tracks' -> 'runs') lands on screen.",
+      "actual_duration_s": 9.58,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB01",
+      "act": "1 stakes",
+      "narration_text": "Every other plugin in the collection picks a domain — sales, legal, finance. It points outward, deep into one field. The productivity plugin points inward, at the day you actually work through. Same engine, opposite aim: it picks you.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16.96,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "IT PICKS YOU",
+        "media": "manim/NB01.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "IT PICKS YOU",
+          "chips": [
+            "A DOMAIN",
+            "YOUR DAY"
+          ],
+          "arrows": false,
+          "accent": [
+            1
+          ],
+          "strike": [],
+          "caption": "same engine, opposite aim",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB01Scene"
+      },
+      "actual_duration_s": 12.82,
+      "audio_file": "mp3/beat-NB01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB02",
+      "act": "1 stakes",
+      "narration_text": "It doesn't make Claude an expert in something. It makes Claude fluent in you — how your day is structured, what you owe people, what's on fire right now. That's why most people install it first.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15.65,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "FLUENT IN YOU",
+        "media": "manim/NB02.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "FLUENT IN YOU",
+          "chips": [
+            "EXPERT IN A FIELD",
+            "FLUENT IN YOU"
+          ],
+          "arrows": false,
+          "accent": [
+            1
+          ],
+          "strike": [
+            0
+          ],
+          "caption": "why people install it first",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB02Scene"
+      },
+      "actual_duration_s": 10.13,
+      "audio_file": "mp3/beat-NB02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB03",
+      "act": "4 anchor planted",
+      "narration_text": "Five moves, mostly: track tasks, prep for meetings, triage email, stay aware of your schedule, synthesize your notes. Not five apps — five things Claude can now do inside the conversation you're already having.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14.78,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "FIVE MOVES, NOT FIVE APPS",
+        "media": "manim/NB03.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "FIVE MOVES, NOT FIVE APPS",
+          "chips": [
+            "TASKS",
+            "MEETINGS",
+            "EMAIL",
+            "SCHEDULE",
+            "NOTES"
+          ],
+          "arrows": false,
+          "accent": [],
+          "strike": [],
+          "caption": "one conversation, five moves",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB03Scene"
+      },
+      "actual_duration_s": 12.07,
+      "audio_file": "mp3/beat-NB03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB04",
+      "act": "3 mechanism",
+      "narration_text": "Task management is the base. Tell Claude what you need to do in plain language and it structures it. Tell it what's urgent and it sequences your day. No forms, no fields — you talk, it organizes.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16.09,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "YOU TALK, IT ORGANIZES",
+        "media": "manim/NB04.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "YOU TALK, IT ORGANIZES",
+          "chips": [
+            "PLAIN LANGUAGE",
+            "STRUCTURED TASKS"
+          ],
+          "arrows": true,
+          "accent": [],
+          "strike": [],
+          "caption": "no forms, no fields",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB04Scene"
+      },
+      "actual_duration_s": 10.94,
+      "audio_file": "mp3/beat-NB04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB05",
+      "act": "3 mechanism",
+      "narration_text": "Note synthesis is the quiet one. Information scattered across conversations, documents, and meetings gets pulled into one coherent summary — the stuff you'd normally lose between tabs.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11.74,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "SCATTERED BECOMES SUMMARY",
+        "media": "manim/NB05.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "SCATTERED BECOMES SUMMARY",
+          "chips": [
+            "SCATTERED NOTES",
+            "ONE SUMMARY"
+          ],
+          "arrows": true,
+          "accent": [
+            1
+          ],
+          "strike": [],
+          "caption": "the stuff you'd lose between tabs",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB05Scene"
+      },
+      "actual_duration_s": 10.9,
+      "audio_file": "mp3/beat-NB05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB06",
+      "act": "2 wrong-guess",
+      "narration_text": "One caution up front: this isn't a new to-do app, and it doesn't replace your calendar. It's connective tissue — it makes Claude better at helping you work the tools you already have.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14.35,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "NOT A TO-DO APP",
+        "media": "manim/NB06.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "NOT A TO-DO APP",
+          "chips": [
+            "A NEW TO-DO APP",
+            "CONNECTIVE TISSUE"
+          ],
+          "arrows": false,
+          "accent": [
+            1
+          ],
+          "strike": [
+            0
+          ],
+          "caption": "works the tools you already have",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB06Scene"
+      },
+      "actual_duration_s": 9.56,
+      "audio_file": "mp3/beat-NB06.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB07",
+      "act": "3 mechanism",
+      "narration_text": "The productivity plugin works the second you install it. No accounts to link, no connectors to authorize. That's rare in this collection, and it's why it's a safe first install.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13.04,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "ZERO SETUP",
+        "media": "manim/NB07.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "ZERO SETUP",
+          "chips": [
+            "INSTALL",
+            "LIVE · NO ACCOUNTS"
+          ],
+          "arrows": true,
+          "accent": [],
+          "strike": [],
+          "caption": "a safe first install",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB07Scene"
+      },
+      "actual_duration_s": 9.79,
+      "audio_file": "mp3/beat-NB07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB08",
+      "act": "5 both-directions",
+      "narration_text": "One optional add-on: your calendar. Without it, the plugin is still useful — it just can't see your time. Connect one, the standard three steps, and Claude crosses a line: now it knows what's committed, what's free, and where your focus blocks can go.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 19.13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "STILL USEFUL, SHARPER CONNECTED",
+        "media": "manim/NB08.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "STILL USEFUL, SHARPER CONNECTED",
+          "chips": [
+            "NO CALENDAR",
+            "SHARPER"
+          ],
+          "arrows": false,
+          "accent": [
+            1
+          ],
+          "strike": [],
+          "caption": "connect it, cross a line",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB08Scene"
+      },
+      "actual_duration_s": 13.12,
+      "audio_file": "mp3/beat-NB08.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB08.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB09",
+      "act": "3 mechanism",
+      "narration_text": "Picture the first move of the day: before the tabs, before the noise, you just ask what your day looks like. What's my day look like? I have a client call at ten and a proposal due Friday — what should I prioritize? Plain speech, real constraints.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20.43,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "JUST ASK YOUR DAY",
+        "media": "manim/NB09.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "JUST ASK YOUR DAY",
+          "chips": [
+            "WHAT'S MY DAY?",
+            "CALL AT 10, PROPOSAL FRIDAY",
+            "WHAT'S THE PRIORITY?"
+          ],
+          "arrows": true,
+          "accent": [],
+          "strike": [],
+          "caption": "plain speech, real constraints",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB09Scene"
+      },
+      "actual_duration_s": 12.69,
+      "audio_file": "mp3/beat-NB09.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB10",
+      "act": "3 mechanism",
+      "narration_text": "If your calendar's connected, Claude fuses three streams — your schedule, the priorities you just named, and tasks left over from earlier conversations — into one actionable plan. Not a to-do list. A plan for the day, sequenced.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16.52,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THREE STREAMS, ONE PLAN",
+        "media": "manim/NB10.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THREE STREAMS, ONE PLAN",
+          "chips": [
+            "SCHEDULE",
+            "PRIORITIES",
+            "LEFTOVER TASKS",
+            "ONE PLAN"
+          ],
+          "arrows": true,
+          "accent": [
+            3
+          ],
+          "strike": [],
+          "caption": "sequenced, not just listed",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB10Scene"
+      },
+      "actual_duration_s": 12.52,
+      "audio_file": "mp3/beat-NB10.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB11",
+      "act": "3 mechanism",
+      "narration_text": "Second workflow: before a meeting that matters, you ask Claude to prepare you. It pulls context from your files, past conversations, and general knowledge into a briefing — you walk in already knowing who they are, what they want, and what to raise.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18.7,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "PREP BEFORE THE ROOM",
+        "media": "manim/NB11.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "PREP BEFORE THE ROOM",
+          "chips": [
+            "FILES + PAST CHATS",
+            "ONE BRIEFING",
+            "WALK IN READY"
+          ],
+          "arrows": true,
+          "accent": [],
+          "strike": [],
+          "caption": "who they are, what to raise",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB11Scene"
+      },
+      "actual_duration_s": 12.67,
+      "audio_file": "mp3/beat-NB11.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB11.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB12",
+      "act": "3 mechanism",
+      "narration_text": "Third: the inbox. Point it at a wall of unread mail and it sorts by urgency — what needs a reply today, what can wait, what to archive — and drafts the easy ones for you to approve. Careful processing collapses into quick review.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 19.13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "SORT, DRAFT, REVIEW",
+        "media": "manim/NB12.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "SORT, DRAFT, REVIEW",
+          "chips": [
+            "UNREAD MAIL",
+            "TODAY · LATER · ARCHIVE",
+            "DRAFTS TO APPROVE"
+          ],
+          "arrows": true,
+          "accent": [],
+          "strike": [],
+          "caption": "quick review, not careful reading",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB12Scene"
+      },
+      "actual_duration_s": 13.14,
+      "audio_file": "mp3/beat-NB12.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB12.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB13",
+      "act": "3 mechanism",
+      "narration_text": "And the small one that saves you daily: capture without breaking flow. Something comes up mid-task — you say, add a follow-up with Sarah, due Thursday. It's logged, and you never left what you were doing.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15.65,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "CAPTURE, DON'T SWITCH",
+        "media": "manim/NB13.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "CAPTURE, DON'T SWITCH",
+          "chips": [
+            "MID-TASK NOTE",
+            "LOGGED"
+          ],
+          "arrows": true,
+          "accent": [],
+          "strike": [],
+          "caption": "you never left what you were doing",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB13Scene"
+      },
+      "actual_duration_s": 10.82,
+      "audio_file": "mp3/beat-NB13.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB13.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB14",
+      "act": "3 mechanism",
+      "narration_text": "Tell Claude how you already work and it adapts — it doesn't impose a method. Say you prioritize with an urgency-versus-importance matrix, and that's how it lays your options out: your rule, not its default.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15.22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "YOUR METHOD, ADOPTED",
+        "media": "manim/NB14.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "YOUR METHOD, ADOPTED",
+          "chips": [
+            "YOUR RULE",
+            "ITS DEFAULT"
+          ],
+          "arrows": false,
+          "accent": [
+            0
+          ],
+          "strike": [
+            1
+          ],
+          "caption": "urgency vs. importance, your call",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB14Scene"
+      },
+      "actual_duration_s": 11.48,
+      "audio_file": "mp3/beat-NB14.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB14.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB15",
+      "act": "3 mechanism",
+      "narration_text": "And it compounds. The more Claude knows about your recurring commitments, ongoing projects, and working patterns, the more useful it gets. You don't front-load any of it — it accrues one conversation at a time.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15.22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "IT COMPOUNDS",
+        "media": "manim/NB15.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "IT COMPOUNDS",
+          "chips": [
+            "SESSION 1",
+            "SESSION 2",
+            "MORE CONTEXT"
+          ],
+          "arrows": true,
+          "accent": [],
+          "strike": [],
+          "caption": "accrues, one chat at a time",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB15Scene"
+      },
+      "actual_duration_s": 11.24,
+      "audio_file": "mp3/beat-NB15.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB15.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB16",
+      "act": "3 mechanism",
+      "narration_text": "The shortcut for that is global instructions — persistent context that applies to every session: your role, your typical week, how you like information presented. Set it once; Claude remembers.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13.04,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "SET ONCE, REMEMBERED",
+        "media": "manim/NB16.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "SET ONCE, REMEMBERED",
+          "chips": [
+            "GLOBAL INSTRUCTIONS",
+            "EVERY SESSION"
+          ],
+          "arrows": true,
+          "accent": [
+            1
+          ],
+          "strike": [],
+          "caption": "set once; Claude remembers",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB16Scene"
+      },
+      "actual_duration_s": 10.84,
+      "audio_file": "mp3/beat-NB16.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB16.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB17",
+      "act": "3 mechanism",
+      "narration_text": "Think in layers. Your domain plugins — sales, legal, whatever you run — sit on top. Productivity sits underneath all of them, holding the day together while they do the specialist work.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13.91,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "UNDERNEATH IT ALL",
+        "media": "manim/NB17.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "UNDERNEATH IT ALL",
+          "chips": [
+            "PRODUCTIVITY — BASE",
+            "A DOMAIN PLUGIN",
+            "ANOTHER DOMAIN PLUGIN"
+          ],
+          "arrows": false,
+          "accent": [
+            0
+          ],
+          "strike": [],
+          "caption": "holding the day together",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB17Scene"
+      },
+      "actual_duration_s": 10.18,
+      "audio_file": "mp3/beat-NB17.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB17.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB18",
+      "act": "3 mechanism",
+      "narration_text": "You swap specialists in and out as the work changes, but the base holds, session after session, carrying your tasks and context forward. In practice it feels less like an app and more like a desk that's already tidy when you sit down.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18.7,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE BASE HOLDS",
+        "media": "manim/NB18.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE BASE HOLDS",
+          "chips": [
+            "SWAP SPECIALISTS",
+            "BASE HOLDS"
+          ],
+          "arrows": true,
+          "accent": [
+            1
+          ],
+          "strike": [],
+          "caption": "a tidy desk, session after session",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB18Scene"
+      },
+      "actual_duration_s": 12.95,
+      "audio_file": "mp3/beat-NB18.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB18.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "NB19",
+      "act": "4 anchor payoff",
+      "narration_text": "Add it up and you get the pitch in the title. One generalist under a few specialists, doing the same five moves from the top of this reel — task tracking, meeting prep, email triage, schedule awareness, note synthesis — now running underneath everything else. That's the operating system.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 21.3,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "YOUR OPERATING SYSTEM",
+        "media": "manim/NB19.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "YOUR OPERATING SYSTEM",
+          "chips": [
+            "FIVE MOVES",
+            "THE BASE HOLDS",
+            "OPERATING SYSTEM"
+          ],
+          "arrows": true,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "the pitch in the title",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB19Scene"
+      },
+      "actual_duration_s": 15.19,
+      "audio_file": "mp3/beat-NB19.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB19.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "The productivity plugin doesn't specialize in a domain — it specializes in you, working the moment you install it and getting sharper the more it knows how you work. That's why it's the layer most people never turn off.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "The productivity plugin doesn't specialize in a domain — it specializes in you, working the moment you install it and getting sharper the more it knows how you work. That's why it's the layer most people never turn off.",
+            "attribution": "",
+            "sparkLine": "The layer you never turn off."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 11.75,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Paste this into Claude: I just installed the productivity plugin and I want it to run my day. Ask me what I spend most of my time on and where my time leaks. Ask how I already prioritize. Then draft me a morning-briefing routine and a Friday weekly-review routine around my real schedule — and tell me the one thing to put in global instructions so you remember it every session.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 30,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · COWORK PLUGINS",
+            "segment": "Claude, In Order",
+            "command": "I just installed the productivity plugin and I want it to run my day. (1) Ask me what I spend most of my time on and where my time leaks. (2) Ask how I already prioritize — deadlines, an urgency-importance matrix, whatever I use. (3) Then draft me a morning-briefing routine and a Friday weekly-review routine built around my real schedule, and tell me the one thing to put in global instructions so you remember it every session.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI",
+            "output": []
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.58,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T18:42:20"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude, In Order — the productivity plugin. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude, In Order — the productivity plugin. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 4.1,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T18:42:20"
+      }
+    }
+  ]
+}

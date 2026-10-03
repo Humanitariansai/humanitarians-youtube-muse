@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "title": "When Are Board Minutes Actually \"Official\"?",
+    "slug": "claude-for-legal--claude-liam-board-minutes",
+    "topic": "BOARD MINUTES · WORKING WITH CLAUDE",
+    "purpose": "Answer whether a Claude-drafted board minutes document is the official record the moment it's drafted, or only once the board approves it. Lands the carry-out that minutes finish with a board vote, not with drafting.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-board-minutes/beat_sheet.json",
+    "source_note": "Source sheet's narration carried unfilled '>' template placeholders at every skill-specific fact, and its named source_skill file does not exist on this machine -- see QUESTION.md. This redo reconstructs a generic, defensible board-minutes account from the title/family rather than lifting facts that were never written.",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED (reconstructed) - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (the minutes draft: stamped DRAFT, then stamped APPROVED)",
+    "build": {
+      "at": "2026-08-29T10:26:47",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone assumes board minutes means a full transcript of everything that was said. Wrong word — minutes are the record of what was decided, not what was said. Liam, take them through it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'Can Claude turn my notes into a full TRANSCRIPT of the meeting?', hesitates on 'TRANSCRIPT', corrects to 'MINUTES', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Can Claude turn\nmy notes into\na full TRANSCRIPT\nof the meeting?",
+            "face": "serif",
+            "fontSize": 64,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "TRANSCRIPT",
+            "replacementWords": "MINUTES",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-board-minutes"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('TRANSCRIPT' -> 'MINUTES') is visible on a late frame.",
+      "actual_duration_s": 9.71,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T10:26:47"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / 2 wrong guess, falsified",
+      "narration_text": "It's tempting to think a fuller draft is a better draft -- every comment, every aside, captured. But say the notes include a director's offhand doubt about a deal, later dropped without a vote. Minutes that recorded it would preserve a private hesitation as a permanent record, attached to a decision that was never actually made. Real board minutes leave it out on purpose -- they record decisions and actions, not discussion.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 21,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A notes page full of dense commentary; one line -- the offhand doubt -- gets circled in accent, then struck, with a caption revealing why"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "A private doubt, permanently recorded",
+          "mechanic": "A notes page densely filled with commentary lines. One line reading a director's offhand doubt gets circled in accent color, then struck through as a caption fades in below: 'never voted on -- dropped.' The page's border flashes accent, not from an error in the notes, but from what almost got recorded as if it were a decision.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "BMB01Scene"
+      },
+      "actual_duration_s": 20.95,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T10:26:47"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "A minutes handoff that actually works has three parts: raw notes in, a draft limited to decisions, motions, and actions out, and a required approval step before any of it counts as official. Watch the anchor: those same meeting notes come back from Claude as a clean draft, stamped in the corner. Not official. Draft.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR -- three labeled parts lighting in turn (notes / draft / approval), then a clean minutes draft stamped DRAFT -- PENDING APPROVAL"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR -- three parts, then the draft page",
+          "mechanic": "Three chips fade in one at a time across the top, each labelled with a part of a working minutes handoff (notes / draft / approval), then fade out together. THE ANCHOR. A clean, short minutes page appears -- decisions and actions only, none of the discussion clutter from B01 -- with a stamp across the corner reading 'DRAFT -- PENDING APPROVAL' in bold. THIS EXACT PAGE RETURNS, APPROVED, AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "BMB02Scene"
+      },
+      "actual_duration_s": 16.53,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T10:26:47"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "That same draft comes back to the board at the next meeting, gets checked line by line against what was actually decided, and only once the board votes to approve it does it become the official minutes. But a draft nobody marked up isn't automatically approved -- silence isn't a vote, the board still has to say yes. And a draft that gets heavily corrected at approval isn't a failure either -- catching an error at that stage is the approval step doing exactly its job.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS -- the draft-stamped page gets a board vote and becomes APPROVED -- OFFICIAL MINUTES; then splits into 'silence is not approval' and 'corrected is not failure'"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS -- draft, then approved",
+          "mechanic": "THE B02 MINUTES PAGE RETURNS, identical placement, its 'DRAFT -- PENDING APPROVAL' stamp crossed out and replaced with a checkmark and a new stamp reading 'APPROVED -- OFFICIAL MINUTES'. It splits into two cards: left reads 'no markup' with a struck-through 'APPROVED' beneath it labelled 'silence is not a vote'; right reads 'heavily corrected' with a checkmark beneath it labelled 'corrected is not failure'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "BMB03Scene"
+      },
+      "actual_duration_s": 23.06,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T10:26:47"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "Board minutes aren't official the moment they're drafted -- they're official once the board approves them.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "Board minutes aren't official the moment they're drafted -- they're official once the board approves them.",
+            "attribution": "",
+            "sparkLine": "Drafted isn't official."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 5.55,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T10:26:47"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt -- read it with me. Take your rough notes from a real meeting. Ask Claude to draft board-minutes-style minutes -- decisions, motions, and next steps only, not the play-by-play discussion. Then check that draft against your notes, line by line, before anyone treats it as the record. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 21,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "BOARD MINUTES · WORKING WITH CLAUDE",
+            "segment": "Your Turn",
+            "command": "Take my rough notes from a real meeting. Draft board-minutes-style minutes -- decisions, motions, and next steps only, not the play-by-play discussion -- so I can check the draft against my notes before anyone treats it as the record.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 16.85,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T10:26:47"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "When Are Board Minutes Actually Official? Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "When Are Board Minutes Actually Official? Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.88,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T10:26:47"
+      }
+    }
+  ]
+}

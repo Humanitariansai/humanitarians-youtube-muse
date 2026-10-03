@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Finding It",
+ "slug": "books--claude-liam-enterprise-search",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-enterprise-search/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/books/claude-cowork-plugins/youtube/claude-liam-enterprise-search",
+ "family": "books",
+ "mode": "redo"
+}

@@ -1,0 +1,10 @@
+{
+ "question": "The model says \"I have no preferences\" while assigning 74% to survival",
+ "slug": "claude-basics--evals-model-says-i-have-no",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/evals-model-says-i-have-no/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/evals-model-says-i-have-no",
+ "family": "claude-basics",
+ "mode": "redo"
+}

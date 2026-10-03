@@ -1,0 +1,1 @@
+Three multipliers now flow into every signal. Reader confidence, scaled by speaker authority, scaled by chunk quality. Trend context rides alongside. The triangulator does not just ask what the readers found. It asks who said it, how clean the source was, and whether it fits the pattern.

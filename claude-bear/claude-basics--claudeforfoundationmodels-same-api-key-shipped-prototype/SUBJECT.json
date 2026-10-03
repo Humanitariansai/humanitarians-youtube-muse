@@ -1,0 +1,10 @@
+{
+ "question": "Why the same API key that shipped your prototype becomes a critical bug in production",
+ "slug": "claude-basics--claudeforfoundationmodels-same-api-key-shipped-prototype",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/claudeforfoundationmodels-same-api-key-shipped-prototype/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/claudeforfoundationmodels-same-api-key-shipped-prototype",
+ "family": "claude-basics",
+ "mode": "redo"
+}

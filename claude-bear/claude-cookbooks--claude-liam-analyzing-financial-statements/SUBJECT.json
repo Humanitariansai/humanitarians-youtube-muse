@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Analyzing Financial Statements.",
+ "slug": "claude-cookbooks--claude-liam-analyzing-financial-statements",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-cookbooks/youtube/claude-liam-analyzing-financial-statements/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-cookbooks/youtube/claude-liam-analyzing-financial-statements",
+ "family": "claude-cookbooks",
+ "mode": "redo"
+}

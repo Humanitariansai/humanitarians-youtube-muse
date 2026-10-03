@@ -1,0 +1,882 @@
+{
+  "metadata": {
+    "title": "Claude, On Call",
+    "subtitle": "The Support Plugin",
+    "slug": "books--claude-liam-support",
+    "topic": "CLAUDE · COWORK PLUGINS",
+    "purpose": "Answer one real question in the Plain register: does the support plugin answer customers on its own, or just add a queue to double-check? Lands the carry-out that Claude drafts every reply, and you decide what sends.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/books/claude-cowork-plugins/youtube/claude-liam-support/beat_sheet.json",
+    "register": "Plain",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Extending Claude — Skills, Plugins & Connectors",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "NB05 -> NB13 (the angry three-failed-payments customer, planted as the case that breaks autopilot, paid off as the actual drafted-and-reviewed reply)",
+    "one_flag": "N/A - direct mechanism description throughout (see SCRIPT.md One-flag audit)",
+    "build": {
+      "at": "2026-08-28T20:59:54",
+      "cut": "master",
+      "filled": 20,
+      "of": 20,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone asked if Claude can just answer their support tickets, fully on its own. Not quite — it drafts them. So here's the real question: can Claude just draft my support tickets?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'Can Claude just answer my support tickets?', hesitates on 'answer', corrects to 'draft', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Can Claude\njust answer my\nsupport tickets?",
+            "face": "serif",
+            "fontSize": 78,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "answer",
+            "replacementWords": "draft",
+            "mistakeRate": 6,
+            "hesitateWithin": 2,
+            "hesitateBetween": 14,
+            "charMs": 48,
+            "jitter": 26,
+            "seed": "hai-support"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('answer' -> 'draft') lands on screen.",
+      "actual_duration_s": 9.96,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB01",
+      "act": "1 stakes",
+      "narration_text": "If you have customers, you have support — and it doesn't wait. A queue that fills overnight, questions that don't clock out. Left alone, it eats your day in fragments.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE QUEUE ARRIVES ANYTIME",
+        "media": "manim/NB01.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE QUEUE ARRIVES ANYTIME",
+          "chips": [
+            "OVERNIGHT QUEUE",
+            "NO WAITING",
+            "EATS YOUR DAY"
+          ],
+          "arrows": true,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "if you have customers, you have support",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB01Scene"
+      },
+      "actual_duration_s": 8.75,
+      "audio_file": "mp3/beat-NB01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB02",
+      "act": "1 stakes",
+      "narration_text": "The support plugin turns that burden into a process. For a solo operator, it's the difference between reacting all day and running a system that handles the queue for you.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "BURDEN, OR PROCESS",
+        "media": "manim/NB02.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "BURDEN, OR PROCESS",
+          "chips": [
+            "REACTIVE SCATTER",
+            "ORDERED PROCESS"
+          ],
+          "arrows": true,
+          "accent": [
+            1
+          ],
+          "strike": [],
+          "caption": "the whole difference, for a solo operator",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB02Scene"
+      },
+      "actual_duration_s": 9.64,
+      "audio_file": "mp3/beat-NB02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB03",
+      "act": "1 stakes",
+      "narration_text": "For a small team, it does something else: one consistent voice. Instead of five people answering five different ways, every reply carries the same tone and the same facts.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "FIVE VOICES, ONE",
+        "media": "manim/NB03.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "FIVE VOICES, ONE",
+          "chips": [
+            "FIVE STYLES",
+            "ONE VOICE"
+          ],
+          "arrows": true,
+          "accent": [
+            1
+          ],
+          "strike": [],
+          "caption": "every reply, same tone and facts",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB03Scene"
+      },
+      "actual_duration_s": 10.24,
+      "audio_file": "mp3/beat-NB03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB04",
+      "act": "2 wrong guess",
+      "narration_text": "So the natural read is that it's fully automatic: it reads the ticket, writes the reply, and sends it — support on autopilot, no human in the loop.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "SO IT JUST ANSWERS THEM?",
+        "media": "manim/NB04.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "SO IT JUST ANSWERS THEM?",
+          "chips": [
+            "READS THE TICKET",
+            "WRITES THE REPLY",
+            "SENDS IT"
+          ],
+          "arrows": true,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "the natural guess: fully automatic",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB04Scene"
+      },
+      "actual_duration_s": 8.38,
+      "audio_file": "mp3/beat-NB04.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB04.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB05",
+      "act": "2 wrong guess payoff",
+      "narration_text": "Here's a case: a customer's payment has failed three times, they've been with you two years, and they're angry. Send that on autopilot and you risk getting the tone wrong on the one account that can't afford it. So it doesn't send. It drafts, and waits for you.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 17,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE CUSTOMER WHO BREAKS THAT",
+        "media": "manim/NB05.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE CUSTOMER WHO BREAKS THAT",
+          "chips": [
+            "3 FAILED PAYMENTS",
+            "TWO-YEAR CUSTOMER",
+            "ANGRY"
+          ],
+          "arrows": false,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "autosend here would be wrong — so it doesn't",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB05Scene"
+      },
+      "actual_duration_s": 13.25,
+      "audio_file": "mp3/beat-NB05.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB05.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB06",
+      "act": "3 mechanism",
+      "narration_text": "Under the hood, it does four concrete jobs: triage the queue, draft the replies, build a knowledge base, and read sentiment. Not magic — four jobs it does well.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 11,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "FOUR JOBS, ONE PLUGIN",
+        "media": "manim/NB06.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "FOUR JOBS, ONE PLUGIN",
+          "chips": [
+            "TRIAGE",
+            "DRAFT",
+            "KNOWLEDGE BASE",
+            "SENTIMENT"
+          ],
+          "arrows": true,
+          "accent": [],
+          "strike": [],
+          "caption": "not magic — four jobs, done well",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB06Scene"
+      },
+      "actual_duration_s": 9.26,
+      "audio_file": "mp3/beat-NB06.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB06.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB07",
+      "act": "3 mechanism",
+      "narration_text": "Triage first. As requests land, it sorts them: what needs you now, what can wait, and what's a known issue with a standard answer. The queue stops being a wall and becomes a sorted list.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "SORT THE WALL",
+        "media": "manim/NB07.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "SORT THE WALL",
+          "chips": [
+            "NOW",
+            "LATER",
+            "KNOWN ANSWER"
+          ],
+          "arrows": true,
+          "accent": [],
+          "strike": [],
+          "caption": "the wall becomes a sorted list",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB07Scene"
+      },
+      "actual_duration_s": 10.28,
+      "audio_file": "mp3/beat-NB07.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB07.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB08",
+      "act": "3 mechanism",
+      "narration_text": "Then drafting. It generates replies that fit the moment — pulling from your configured tone, your knowledge base, and the specific request in front of it. A first draft, not a form letter.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "DRAFT, ON-BRAND",
+        "media": "manim/NB08.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "DRAFT, ON-BRAND",
+          "chips": [
+            "YOUR TONE",
+            "KNOWLEDGE BASE",
+            "THIS REQUEST",
+            "A DRAFT"
+          ],
+          "arrows": true,
+          "accent": [
+            3
+          ],
+          "strike": [],
+          "caption": "a first draft, not a form letter",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB08Scene"
+      },
+      "actual_duration_s": 10.11,
+      "audio_file": "mp3/beat-NB08.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB08.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB09",
+      "act": "3 mechanism",
+      "narration_text": "Third, sentiment. Not every request is equal — it flags the frustrated and the at-risk, the customer who needs a human now. It points your attention at the messages that actually need it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "FIND THE ONES WHO MATTER",
+        "media": "manim/NB09.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "FIND THE ONES WHO MATTER",
+          "chips": [
+            "CALM",
+            "CALM",
+            "AT-RISK"
+          ],
+          "arrows": false,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "points your attention where it's needed",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB09Scene"
+      },
+      "actual_duration_s": 10.6,
+      "audio_file": "mp3/beat-NB09.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB09.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB10",
+      "act": "3 mechanism",
+      "narration_text": "And it doesn't start from nothing: it reads your existing support inbox for context, and mines the questions you've already answered to draft a structured FAQ. Your scattered experience becomes a help center.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "REAL CONVERSATIONS, NOT BLANK",
+        "media": "manim/NB10.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "REAL CONVERSATIONS, NOT BLANK",
+          "chips": [
+            "YOUR INBOX",
+            "PAST ANSWERS",
+            "FAQ"
+          ],
+          "arrows": true,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "your scattered experience, structured",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB10Scene"
+      },
+      "actual_duration_s": 11.71,
+      "audio_file": "mp3/beat-NB10.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB10.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB11",
+      "act": "3 mechanism",
+      "narration_text": "One setup step makes it yours: you set the tone — warm, efficient, or both — and escalation triggers, the words and situations that skip the standard answer and route straight to you. You decide what always reaches a human.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "SET THE TONE, SET THE TRIPWIRES",
+        "media": "manim/NB11.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "SET THE TONE, SET THE TRIPWIRES",
+          "chips": [
+            "WARM / EFFICIENT",
+            "ESCALATION WORDS",
+            "YOU"
+          ],
+          "arrows": true,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "you decide what always reaches a human",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB11Scene"
+      },
+      "actual_duration_s": 12.86,
+      "audio_file": "mp3/beat-NB11.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB11.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB12",
+      "act": "3 mechanism",
+      "narration_text": "In practice: hand it the overnight queue and ask what's urgent, what's routine, and what you can answer in a line. The payoff is time — a morning that might otherwise stretch into two fragmented hours compresses into thirty focused minutes.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THIRTY FOCUSED MINUTES",
+        "media": "manim/NB12.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THIRTY FOCUSED MINUTES",
+          "chips": [
+            "OVERNIGHT QUEUE",
+            "URGENT · ROUTINE · QUICK",
+            "~30 MIN"
+          ],
+          "arrows": true,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "not two fragmented hours",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB12Scene"
+      },
+      "actual_duration_s": 13.03,
+      "audio_file": "mp3/beat-NB12.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB12.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB13",
+      "act": "4 ANCHOR PAYOFF",
+      "narration_text": "Back to that angry customer. Claude drafts in your tone — acknowledges the frustration, explains the issue, proposes a fix. You read it, add a personal line only you would know to add, and send. The plugin caught the tone; you caught the context.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE PLUGIN CAUGHT THE TONE",
+        "media": "manim/NB13.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE PLUGIN CAUGHT THE TONE",
+          "chips": [
+            "DRAFT IN YOUR TONE",
+            "ADD A HUMAN LINE",
+            "SENT"
+          ],
+          "arrows": true,
+          "accent": [
+            1
+          ],
+          "strike": [],
+          "caption": "it caught the tone; you caught the context",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB13Scene"
+      },
+      "actual_duration_s": 13.1,
+      "audio_file": "mp3/beat-NB13.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB13.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB14",
+      "act": "3 mechanism",
+      "narration_text": "And every FAQ entry pays forward: Claude finds the questions you keep answering, ranks the top ten, and drafts each one. Publish it, and that's one question you never field again — volume that quietly falls instead of climbing.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 15,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "ANSWER ONCE, REUSE FOREVER",
+        "media": "manim/NB14.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "ANSWER ONCE, REUSE FOREVER",
+          "chips": [
+            "SUPPORT HISTORY",
+            "TOP TEN QUESTIONS",
+            "PUBLISHED FAQ"
+          ],
+          "arrows": true,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "one you never field again",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB14Scene"
+      },
+      "actual_duration_s": 13.08,
+      "audio_file": "mp3/beat-NB14.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB14.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB15",
+      "act": "5 DIRECTION A",
+      "narration_text": "For a live reply to an actual customer, the rule never relaxes: draft, review, then send. That's where your judgment catches what the plugin can't see — the exception, the fragile account, the case autopilot would get wrong.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "REVIEW, EVERY TIME",
+        "media": "manim/NB15.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "REVIEW, EVERY TIME",
+          "chips": [
+            "LIVE REPLY",
+            "YOUR REVIEW",
+            "SEND"
+          ],
+          "arrows": true,
+          "accent": [],
+          "strike": [],
+          "caption": "the judgment call never goes away",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB15Scene"
+      },
+      "actual_duration_s": 12.57,
+      "audio_file": "mp3/beat-NB15.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB15.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "NB16",
+      "act": "5 DIRECTION B",
+      "narration_text": "But for the FAQ, the rule flips: you review an answer once, publish it, and it serves every future customer who asks that question without you touching it again. Same drafts, a different rule once they go public.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "PUBLISH ONCE, RUNS ALONE",
+        "media": "manim/NB16.mp4"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "PUBLISH ONCE, RUNS ALONE",
+          "chips": [
+            "FAQ ENTRY",
+            "REVIEWED ONCE",
+            "SERVES UNSUPERVISED"
+          ],
+          "arrows": true,
+          "accent": [
+            2
+          ],
+          "strike": [],
+          "caption": "same drafts, a different rule once public",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E"
+          ]
+        },
+        "manim": "BDNB16Scene"
+      },
+      "actual_duration_s": 11.75,
+      "audio_file": "mp3/beat-NB16.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/NB16.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "Claude drafts every reply — you're still the one who decides what actually gets sent.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "Claude drafts every reply — you're still the one who decides what actually gets sent.",
+            "attribution": "",
+            "sparkLine": "Draft. You decide."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 5.12,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Paste this into Claude: I run support for a small business and want to set up the support plugin. First, ask me the five questions my customers ask most, the tone my replies should carry, and the situations that must always reach me personally. Then draft FAQ answers for those five, a reusable reply template in my tone, and a short list of escalation triggers I should configure.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 30,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · COWORK PLUGINS",
+            "segment": "Claude, On Call",
+            "command": "I run support for a small business and want to set up the support plugin. First, ask me the five questions my customers ask most, the tone my replies should carry, and the situations that must always reach me personally. Then draft FAQ answers for those five, a reusable reply template in my tone, and a short list of escalation triggers I should configure.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI",
+            "output": []
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 20.78,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T20:59:54"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude, On Call — the support plugin. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude, On Call — the support plugin. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.95,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T20:59:54"
+      }
+    }
+  ]
+}

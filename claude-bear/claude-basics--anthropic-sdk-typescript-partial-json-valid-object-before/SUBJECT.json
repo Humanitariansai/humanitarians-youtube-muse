@@ -1,0 +1,10 @@
+{
+ "question": "Why partial JSON can be a valid object before the closing brace arrives",
+ "slug": "claude-basics--anthropic-sdk-typescript-partial-json-valid-object-before",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/anthropic-sdk-typescript-partial-json-valid-object-before/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/anthropic-sdk-typescript-partial-json-valid-object-before",
+ "family": "claude-basics",
+ "mode": "redo"
+}

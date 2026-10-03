@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "title": "Claude Code, Skill Development.",
+    "slug": "claude-code--claude-liam-skill-development",
+    "topic": "SKILLS · CLAUDE CODE PLUGINS",
+    "purpose": "Answer whether getting Claude to reliably repeat a task your way is a thing you ask for in conversation or a thing you build and hand it, using the skill-development skill's own pdf-editor worked example as the concrete case. Lands the carry-out that a skill is a file whose description does the finding, and the rest only loads once that description matches.",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "anthropics/claude-code/youtube/claude-liam-skill-development/beat_sheet.json",
+    "register": "Plain",
+    "brand": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "humanitarians",
+    "style_preset": "humanitarians",
+    "ground": "#F3EBDD",
+    "folderLabel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "playlist": "Claude Code",
+    "in_for_bear": true,
+    "clock": "narration",
+    "gate_c": "SIGNED - CARRY-OUT.md",
+    "gate_h": "N/A - hai-simple (BrutalistHesitantWriter, no puppet host)",
+    "anchor_pair": "B02 -> B03 (the pdf-editor skill: fires reliably when the description names the trigger phrase, goes silent when it's vague; stays lean when the script is referenced, breaks progressive disclosure when it's pasted inline)",
+    "build": {
+      "at": "2026-08-29T04:22:18",
+      "cut": "master",
+      "filled": 7,
+      "of": 7,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "Someone asks Claude to just remember their PDF workflow. But conversations end and reminders fade. The real fix is a skill — a packaged capability Claude can find on its own. What's inside one?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 14,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "Writer types 'How do I add a reminder so Claude always follows my PDF workflow?', hesitates on 'reminder', corrects to 'skill', lands the real question",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I add a reminder\nso Claude always follows\nmy PDF workflow?",
+            "face": "serif",
+            "fontSize": 64,
+            "lineSpacing": 1.3,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "reminder",
+            "replacementWords": "skill",
+            "mistakeRate": 6,
+            "hesitateWithin": 3,
+            "hesitateBetween": 22,
+            "charMs": 55,
+            "jitter": 26,
+            "seed": "hai-skill-development"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "note": "B00 is Remotion (BrutalistHesitantWriter) per hai-simple SKILL.md WRITER LAW. TIMING LAW: 20-35 word narration + lead_silence_s 0.8 to give the typing a >=9s window; verify media/B00.mp4 >= 8s and that the correction ('reminder' -> 'skill') is visible on a late frame.",
+      "actual_duration_s": 11.52,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T04:22:18"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "1 stakes / 2 wrong guess, falsified",
+      "narration_text": "A reminder lives inside this conversation — once it scrolls away or a session ends, it's gone. A skill lives in a file Claude reads before you even ask. Its name and description sit in front of every conversation, always visible; the rest — the instructions, and any scripts, references, or output files — loads only once Claude decides the skill applies.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "A reminder bubble scattering as conversation text scrolls past; a SKILL.md file staying fixed; three tiers lighting in turn — name+description, body, resources"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "Always visible, loaded as needed",
+          "mechanic": "Left: a speech-bubble labelled 'reminder' fades and scatters as lines of conversation scroll upward past it. Right: a file icon labelled 'SKILL.md' stays fixed and solid while the same conversation scrolls behind it, unaffected. Both groups shrink and move up; beneath, three tiers reveal in sequence — a small chip 'name + description' (labelled 'always in context'), a medium chip 'body' (labelled 'loads on trigger'), a third chip 'scripts / references / assets' (labelled 'loads as needed').",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "SKDB01Scene"
+      },
+      "actual_duration_s": 19.5,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T04:22:18"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "3 mechanism / 4 ANCHOR PLANTED",
+      "narration_text": "Picture a skill called pdf-editor, for rotating PDFs and converting pages to images. Its description has to name the trigger directly — used when the user asks to rotate a PDF or convert PDF pages — because that's the only sentence Claude sees before it decides. The instructions inside are written as direct steps, not advice, and the actual rotation code lives in its own script file, referenced by name.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR — pdf-editor's SKILL.md card: description naming the trigger phrase, body as numbered steps, scripts/rotate_pdf.py lighting up beside it"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR — pdf-editor, built to be found",
+          "mechanic": "Two cards fade in side by side: 'vague' (a summary line, greyed) and 'specific' (a trigger-phrase line, terracotta underline). Both fade away completely. THE ANCHOR. A card labelled 'pdf-editor' appears center: top line 'used when the user asks to rotate a PDF or convert PDF pages' (terracotta), middle a short numbered list (imperative steps), bottom a small file chip 'scripts/rotate_pdf.py' that lights teal and connects to the card with a thin line. THIS EXACT CARD RETURNS AT B03.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "SKDB02Scene"
+      },
+      "actual_duration_s": 22.42,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T04:22:18"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "4 ANCHOR PAYOFF / 5 both directions",
+      "narration_text": "Get the description right and pdf-editor fires exactly when someone asks to rotate a PDF — every time, because Claude is matching a specific phrase, not guessing. But swap that for a vague line like use this skill for PDF tasks, and it won't fire reliably at all. And paste the rotation script directly into the body instead of its own file, and the whole skill loads in full on every single trigger — the lean file you wrote becomes the thing progressive disclosure was built to avoid.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "new_visual_element": "THE ANCHOR RETURNS — pdf-editor firing three times reliably, then the description card going vague and dark, then the script folded into the body and the file swelling heavy"
+      },
+      "graphic": {
+        "production_viz": {
+          "label": "THE ANCHOR RETURNS — found, then lost two ways",
+          "mechanic": "THE B02 CARD RETURNS, identical, and fires three times in a row — each marked teal 'matched'. Then the card's top line degrades to 'use this skill for PDF tasks' in grey; the whole card dims and a label fades in beneath: 'never fires' — no strike, no error, just dark. Separately, the scripts/rotate_pdf.py chip is dragged inside the card body; the card visibly swells taller and heavier, labelled 'loads in full, every time'.",
+          "colors": [
+            "#F3EBDD",
+            "#2F2A26",
+            "#E4572E",
+            "#1F4E5F"
+          ]
+        },
+        "manim": "SKDB03Scene"
+      },
+      "actual_duration_s": 26.45,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-08-29T04:22:18"
+      }
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 CARRY-OUT",
+      "narration_text": "A skill isn't something you ask Claude to remember — it's a file whose description has to do the finding, and everything inside it only loads once that description matches.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "new_visual_element": "The carry-out sentence, alone",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "A skill isn't something you ask Claude to remember — it's a file whose description has to do the finding, and everything inside it only loads once that description matches.",
+            "attribution": "",
+            "sparkLine": "Found, or silent."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 9.69,
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T04:22:18"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. Create a skill for my plugin called pdf-editor that handles rotating PDFs and converting pages to images. Watch three things when Claude answers: does the description read in third person with a specific trigger phrase — this skill should be used when the user asks to rotate a PDF or convert pages — instead of something vague like use this for PDF tasks? Is the body written as direct steps, not advice? And does the actual rotation code live in its own script file, referenced by name, instead of pasted into the body? Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 32,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "SKILLS · CLAUDE CODE PLUGINS",
+            "segment": "Your Turn",
+            "command": "Create a skill for my plugin called pdf-editor that handles rotating PDFs and converting pages to images.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 31.1,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T04:22:18"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "narration_text": "Claude Code, Skill Development. Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Claude Code, Skill Development. Liam, in for Bear.",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 3.63,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-29T04:22:18"
+      }
+    }
+  ]
+}

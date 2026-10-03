@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--
+  "Same Number, Two Ways" — self-narrating Brutalist explainer for the SEC Filings Financial Metrics Agent.
+  Matched to the Humanitarians AI house format (MCP_Rishika / Mycroft_Rishika).
+  AUTOMATED AUDIO: click Play (or press P) → the deck speaks each slide (Web Speech API) and auto-advances.
+  Screen-record it (capture system audio) to produce the finished ~5-minute video.
+  Keys: P play/pause · →/← manual step · f fullscreen · s presenter · o overview
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Do You Know an AI Is Right?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F4EFE6; --ink:#2A2016; --red:#C0392B; --muted:#8A7E6E;
+    --border:#D8CFC0; --panel:#FBF8F2; --green:#3F7A46;
+    --serif:'EB Garamond',Georgia,serif;
+    --sans:'Inter',-apple-system,'Helvetica Neue',sans-serif;
+    --mono:'JetBrains Mono','Courier New',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{background:#14110D;font-family:var(--sans);overflow:hidden}
+  #deck{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+  .slide{
+    position:absolute;width:min(100vw,177.78vh);height:min(56.25vw,100vh);
+    background:var(--cream);color:var(--ink);padding:4.6% 6%;
+    display:none;flex-direction:column;gap:2vh;container-type:inline-size;
+  }
+  .slide.current{display:flex}
+  .eyebrow{font-family:var(--mono);text-transform:uppercase;letter-spacing:.14em;
+           font-size:clamp(9px,1.15cqi,13px);color:var(--muted)}
+  .headline{font-family:var(--serif);font-weight:400;font-size:clamp(24px,5cqi,54px);line-height:1.08}
+  .accent{color:var(--red)}
+  .body{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+        gap:2.6cqi;min-height:0}
+  .foot{display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);
+        text-transform:uppercase;letter-spacing:.1em;font-size:clamp(8px,1cqi,12px);
+        color:var(--muted);border-top:1px solid var(--border);padding-top:1.3cqi}
+
+  /* cold open */
+  .promptbox{width:84%;border:1px solid var(--border);background:var(--panel);border-radius:12px;padding:2.8cqi 3cqi}
+  .promptbox .q{font-family:var(--sans);font-weight:600;font-size:clamp(14px,2.5cqi,27px);color:var(--ink)}
+  .prow{display:flex;justify-content:flex-end;align-items:center;gap:1.6cqi;margin-top:2cqi}
+  .ptag{font-family:var(--mono);font-size:clamp(9px,1.2cqi,13px);color:var(--muted)}
+  .send{min-width:24px;min-height:24px;width:2.8cqi;height:2.8cqi;display:flex;align-items:center;
+        justify-content:center;background:var(--red);color:#fff;border-radius:7px;font-size:1.7cqi}
+  .tracing{width:84%;font-family:var(--mono);font-size:clamp(10px,1.5cqi,16px);color:var(--muted);line-height:1.75}
+  .tracing .thandle{margin-bottom:.5cqi}
+  .star{color:var(--red)}
+  .subtitle{font-family:var(--mono);letter-spacing:.06em;font-size:clamp(10px,1.4cqi,15px);color:var(--muted)}
+
+  /* problem */
+  .figcard{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:3cqi 5cqi;text-align:center}
+  .figbig{font-family:var(--mono);font-size:clamp(20px,3.6cqi,40px);color:var(--ink)}
+  .figtag{font-family:var(--mono);font-size:clamp(10px,1.5cqi,16px);color:var(--green);margin-top:1.2cqi}
+  .subnote{font-family:var(--sans);font-size:clamp(12px,1.8cqi,19px);color:var(--muted);text-align:center}
+
+  /* mechanism */
+  .mech{display:grid;grid-template-columns:1fr 1fr;gap:3cqi;width:98%}
+  .mcard{border:1px solid var(--border);background:var(--panel);border-radius:8px;padding:2.6cqi}
+  .mlabel{font-family:var(--mono);text-transform:uppercase;letter-spacing:.07em;font-size:clamp(9px,1.2cqi,13px);color:var(--muted)}
+  .mbody{font-family:var(--sans);font-size:clamp(13px,2cqi,21px);color:var(--ink);margin:1.1cqi 0}
+  .mtag{font-family:var(--mono);font-size:clamp(10px,1.45cqi,16px);color:var(--ink)}
+  .provbar{width:98%;text-align:center;border:1px dashed var(--border);border-radius:6px;padding:1.5cqi;
+           font-family:var(--mono);font-size:clamp(10px,1.45cqi,16px);color:var(--muted)}
+
+  /* we tested it */
+  .sbs{display:grid;grid-template-columns:1fr 1fr;gap:3cqi;width:98%}
+  .panel{border:1px solid var(--border);background:var(--panel);border-radius:8px;padding:2.6cqi;
+         display:flex;flex-direction:column;gap:1cqi}
+  .panel.win{border-color:var(--red)}
+  .plabel{font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em;font-size:clamp(9px,1.2cqi,13px);color:var(--muted)}
+  .pline{font-family:var(--mono);font-size:clamp(11px,1.65cqi,18px);color:var(--ink)}
+  .pline.muted{color:var(--muted)}
+  .verdict{font-family:var(--serif);font-size:clamp(18px,3.4cqi,36px);margin-top:.4cqi}
+  .verdict.pass{color:var(--green)}
+  .verdict.caught{color:var(--red)}
+  .receipt{width:98%;text-align:center;font-family:var(--mono);font-size:clamp(8px,1.15cqi,13px);
+           color:var(--muted);word-break:break-word;margin-top:.4cqi}
+
+  /* limit */
+  .limitnote{font-family:var(--mono);font-size:clamp(12px,1.9cqi,21px);color:var(--ink);text-align:center;line-height:1.5}
+  .limitsub{font-family:var(--sans);font-size:clamp(12px,1.7cqi,18px);color:var(--muted);text-align:center}
+
+  /* takeaway */
+  .checklist{list-style:none;counter-reset:c;width:90%;display:flex;flex-direction:column;gap:1.5cqi}
+  .checklist li{counter-increment:c;font-family:var(--sans);font-size:clamp(13px,2.05cqi,23px);
+                color:var(--ink);padding-left:5cqi;position:relative;line-height:1.3}
+  .checklist li::before{content:counter(c);position:absolute;left:0;top:-.2cqi;font-family:var(--mono);
+    color:var(--red);font-size:clamp(11px,1.6cqi,17px);border:1px solid var(--border);border-radius:50%;
+    width:3.2cqi;height:3.2cqi;min-width:26px;min-height:26px;display:flex;align-items:center;justify-content:center}
+  .closing{font-family:var(--serif);font-size:clamp(14px,2.3cqi,27px);color:var(--ink);text-align:center;margin-top:.5cqi}
+
+  /* progressive reveal of the "tracing the reasoning" lines */
+  @media (prefers-reduced-motion: no-preference){
+    .slide.current .tracing > div{animation:rise .5s ease both}
+    .slide.current .tracing > div:nth-child(1){animation-delay:.15s}
+    .slide.current .tracing > div:nth-child(2){animation-delay:.9s}
+    .slide.current .tracing > div:nth-child(3){animation-delay:1.7s}
+    .slide.current .tracing > div:nth-child(4){animation-delay:2.5s}
+  }
+  @keyframes rise{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+
+  /* chrome */
+  #bar{position:fixed;left:0;bottom:0;height:3px;background:var(--red);width:0;z-index:30;transition:width .2s}
+  #counter{position:fixed;right:14px;bottom:11px;font-family:var(--mono);font-size:12px;color:#8A7E6E;z-index:30}
+  #play{position:fixed;inset:0;z-index:60;display:flex;flex-direction:column;align-items:center;justify-content:center;
+        background:rgba(20,17,13,.55);cursor:pointer;color:var(--cream)}
+  #play .pbtn{width:88px;height:88px;border-radius:50%;background:var(--red);color:#fff;display:flex;
+              align-items:center;justify-content:center;font-size:34px;padding-left:6px}
+  #play .phint{margin-top:18px;font-family:var(--mono);font-size:13px;letter-spacing:.08em;color:#E9E1D4}
+  body.playing #play{display:none}
+  #help{position:fixed;inset:0;background:rgba(0,0,0,.82);color:#fff;display:none;align-items:center;justify-content:center;z-index:70}
+  #help div{font-family:var(--mono);font-size:15px;line-height:2}
+  .notes{display:none;font-family:var(--sans);font-size:clamp(12px,1.6cqi,16px);line-height:1.5;
+         color:var(--muted);border-top:1px solid var(--border);padding-top:1.4cqi}
+  body.presenter #deck{justify-content:flex-start;padding:3vh 2vw}
+  body.presenter .slide{position:static;display:none;width:64vw;height:auto;aspect-ratio:16/9}
+  body.presenter .slide.current{display:flex}
+  body.presenter .notes{display:block}
+  body.presenter #next{display:block}
+  #next{display:none;position:fixed;right:2vw;top:3vh;width:30vw;z-index:20}
+  #next .mini{border:1px solid var(--border);background:var(--cream);aspect-ratio:16/9;padding:3%;overflow:hidden}
+  #timer{position:fixed;right:2vw;bottom:3vh;font-family:var(--mono);font-size:26px;color:#8A7E6E;z-index:30}
+  body.overview #deck{position:static;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding:24px;height:100%;overflow:auto;align-content:start}
+  body.overview .slide{position:static;display:flex;width:100%;height:auto;aspect-ratio:16/9;padding:4%;cursor:pointer;outline:2px solid transparent}
+  body.overview .slide.current{outline:2px solid var(--red)}
+  body.overview .headline{font-size:14px}
+  body.overview .notes{display:none}
+  body.render #play,body.render #bar,body.render #counter,body.render #next,body.render #timer,body.render #help{display:none!important}
+  body.render .slide{animation:none!important}
+  body.render .slide.current .tracing>div{animation:none!important;opacity:1!important}
+  /* 9:16 vertical (Shorts) layout */
+  body.ar916 .slide{width:min(100vw,56.25vh);height:min(177.78vw,100vh);padding:9% 7%;gap:2.2vh}
+  body.ar916 .mech,body.ar916 .sbs{grid-template-columns:1fr;width:100%}
+  body.ar916 .headline{font-size:clamp(22px,6.6cqi,64px)}
+  body.ar916 .promptbox,body.ar916 .tracing,body.ar916 .provbar,body.ar916 .receipt,body.ar916 .checklist{width:100%}
+  body.ar916 .body{gap:3.4cqi}
+  body.ar916 .receipt{font-size:clamp(8px,2cqi,13px)}
+  @media (prefers-reduced-motion: reduce){#bar{transition:none}}
+</style>
+</head>
+<body>
+<main id="deck">
+<section class="slide"><div class="eyebrow">AI ACCOUNTABILITY</div><h1 class="headline">How Do You Know an AI Is Right?</h1><div class="body"><div class="subtitle">Evaluation vs. vibes &nbsp;&nbsp; <span class="star">✳</span> Hola, Ash</div><div class="promptbox"><div class="q">The demo looked great. Is it actually correct?</div><div class="prow"><span class="ptag">measure · don’t guess</span><span class="send">↑</span></div></div><div class="tracing"><div class="thandle">@Ash &nbsp; <span class="star">✳</span> tracing the reasoning…</div><div>A good demo is not evidence.</div><div>You need something to compare against.</div><div>Write the answer key first.</div><div>Then score the model against it.</div></div></div><div class="foot"><span>AI & STEM · Humanitarians AI</span><span>01</span></div><aside class="notes">Every AI demo looks impressive. That is exactly the problem. Looking good and being right are different things, and telling them apart is called evaluation. Here's the core move. You cannot know a model is right by admiring its output. You need something to compare it against, an answer key, and crucially, you have to write that key before you see the model's answer. Otherwise you'll just rationalize whatever it gave you.</aside></section>
+<section class="slide"><div class="eyebrow">THE PROBLEM</div><h1 class="headline">Grading by vibes rewards <span class='accent'>confidence</span>, not correctness.</h1><div class="body"><div class="figcard"><div style="font-family:var(--mono);font-size:clamp(12px,2cqi,21px);line-height:2;color:var(--ink)">“sounds thorough” ✓<br>“cites real-looking sources” ✓</div><div class="figtag" style="color:var(--red)">→ still wrong, and you approved it</div></div></div><div class="foot"><span>Fluent ≠ correct</span><span>02</span></div><aside class="notes">Here's why vibes fail. When you judge an answer by reading it, you reward the things that are easy to fake. Fluency, confidence, official sounding citations. None of those are correctness. A model that has learned to sound thorough will pass your gut check while being wrong, and you'll approve it, because it pattern matches to good. Confidence is cheap to manufacture. Correctness is not.</aside></section>
+<section class="slide"><div class="eyebrow">THE MECHANISM</div><h1 class="headline">Write the key <span class='accent'>first</span>. Let something independent grade.</h1><div class="body"><div class="mech"><div class="mcard"><div class="mlabel">Ground truth, written first</div><div class="mbody">before any model output exists</div><div class="mtag">can't be contaminated</div></div><div class="mcard"><div class="mlabel">Independent scoring</div><div class="mbody">the grader isn't the thing being graded</div><div class="mtag accent">no shared blind spot</div></div></div><div class="provbar">Nobody grades their own work</div></div><div class="foot"><span>Separate the roles</span><span>03</span></div><aside class="notes">So here's the mechanism. First, write the answer key, the ground truth, before the model runs, so it can't be contaminated by what the model happens to say. Second, let something independent do the grading. The thing being tested cannot also be its own judge, or it will share its own blind spots. If a model checks its own work, it grades against its own assumptions and passes. An independent key, written first, catches the errors the model can't see in itself.</aside></section>
+<section class="slide"><div class="eyebrow">THE LIMIT</div><h1 class="headline">A metric you can <span class='accent'>game</span> is a metric you will game.</h1><div class="body"><div class="limitnote">optimize to the test set → looks great, generalizes badly</div><div class="limitsub">the answer key must be honest, held out, and hard.</div></div><div class="foot"><span>Good numbers on a bad test mean nothing</span><span>04</span></div><aside class="notes">One important limit. An evaluation is only as good as its answer key. If the key is easy, or if you keep tuning the model against the same test until it passes, you get a great looking score that means nothing in the real world. The test set has to be honest. Held out, representative, and hard enough to actually distinguish right from wrong. A number you optimized directly against is not evidence. It's a mirror.</aside></section>
+<section class="slide"><div class="eyebrow">THE TAKEAWAY</div><h1 class="headline">Trust the <span class='accent'>score</span>, not the show.</h1><div class="body"><ol class="checklist"><li>Is there an answer key — written before the output?</li><li>Is the grader independent of the thing graded?</li><li>Could the model have gamed the test?</li><li>Would the result hold on data it’s never seen?</li></ol><div class="closing">A demo is a show. An evaluation is evidence.</div></div><div class="foot"><span>Evidence before applause</span><span>05</span></div><aside class="notes">So the takeaway. Before you trust an AI system, look past the demo and ask for the evaluation. Is there an answer key, written before the model's output? Is the grader independent of the model? Could the test have been gamed? And would the result survive on data the model has never seen? A convincing demo is a show. A real evaluation is evidence. Ask for the evidence.</aside></section>
+</main>
+
+<div id="play"><div class="pbtn">▶</div><div class="phint">click to play — narrated, auto-advancing</div></div>
+<div id="next"><div class="mini"></div></div>
+<div id="bar"></div>
+<div id="counter"></div>
+<div id="timer" hidden>00:00</div>
+<div id="help"><div>
+  P&nbsp; play / pause &nbsp;·&nbsp; → / ← &nbsp; step &nbsp;·&nbsp; f &nbsp; fullscreen &nbsp;·&nbsp; s &nbsp; presenter &nbsp;·&nbsp; o &nbsp; overview
+</div></div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  let i = 0, autoAdvance = false, playing = false, advanced = false, fallbackT = null, breathT = null;
+  const counter = document.getElementById('counter');
+  const prog = document.getElementById('bar');
+  const nextMini = document.querySelector('#next .mini');
+  const playOverlay = document.getElementById('play');
+
+  function show(n){
+    i = Math.max(0, Math.min(slides.length-1, n));
+    slides.forEach((s,k)=>s.classList.toggle('current', k===i));
+    counter.textContent = (i+1)+' / '+slides.length;
+    prog.style.width = ((i+1)/slides.length*100)+'%';
+    history.replaceState(null,'','#'+(i+1));
+    if(document.body.classList.contains('presenter'))
+      nextMini.innerHTML = slides[i+1] ? slides[i+1].innerHTML : '<em style="color:#8A7E6E">— end —</em>';
+  }
+  const go = d => { pausePlay(); show(i+d); };
+
+  // ---- automated narration (Web Speech API), sentence-by-sentence for clean audio ----
+  const synth = window.speechSynthesis || null;
+  let voice = null;
+  function pickVoice(){
+    if(!synth) return;
+    const vs = synth.getVoices() || [];
+    const prefer = ['Samantha','Google US English','Microsoft Aria Online (Natural) - English (United States)',
+                    'Microsoft Jenny Online (Natural) - English (United States)','Alex','Karen','Serena','Daniel'];
+    for(const name of prefer){ const v = vs.find(x=>x.name===name); if(v){ voice = v; return; } }
+    voice = vs.find(v=>/en[-_]US/i.test(v.lang)) || vs.find(v=>/^en/i.test(v.lang)) || vs[0] || null;
+  }
+  if(synth){ pickVoice(); try{ synth.onvoiceschanged = pickVoice; }catch(e){} }
+
+  const RATE = 0.9;   // slower = clearer; nudge down (e.g. 0.85) for a longer, calmer read
+  function notesOf(k){ const el = slides[k].querySelector('.notes'); return el ? el.textContent.replace(/\s+/g,' ').trim() : ''; }
+  function wordsOf(k){ return Math.max(1, notesOf(k).split(/\s+/).length); }
+  function sentences(t){ return (t.match(/[^.!?]+[.!?]*/g) || [t]).map(s=>s.trim()).filter(Boolean); }
+
+  function playSlide(){
+    advanced = false;
+    clearTimeout(fallbackT); clearTimeout(breathT);
+    const parts = sentences(notesOf(i));
+    const breath = (i === 3) ? 4500 : 2800;   // ~2.8s breath between slides; hold the money slide longer
+    let idx = 0;
+    function goNext(){
+      if(advanced) return; advanced = true;
+      clearTimeout(fallbackT); clearTimeout(breathT);
+      if(!autoAdvance) return;
+      if(i < slides.length - 1){ show(i+1); playSlide(); } else { endPlay(); }
+    }
+    function afterSlide(){ clearTimeout(fallbackT); breathT = setTimeout(goNext, breath); }
+    function speakNext(){
+      if(!autoAdvance) return;
+      if(idx >= parts.length){ afterSlide(); return; }
+      const u = new SpeechSynthesisUtterance(parts[idx++]);
+      if(voice) u.voice = voice;
+      u.rate = RATE; u.pitch = 1.0;
+      u.onend = speakNext; u.onerror = speakNext;   // short per-sentence utterances → no keep-alive glitch
+      try{ synth.speak(u); }catch(e){ speakNext(); }
+    }
+    const est = (wordsOf(i) / 2.3) * 1000 + breath;   // ~138 wpm fallback estimate
+    if(synth){ try{ synth.cancel(); }catch(e){} speakNext(); fallbackT = setTimeout(goNext, est + 8000); }
+    else { fallbackT = setTimeout(goNext, est); }     // no TTS → silent auto-advance on visuals
+  }
+  function startFrom(n){
+    autoAdvance = true; playing = true;
+    document.body.classList.add('playing');
+    show(n); playSlide();
+  }
+  function pausePlay(){
+    autoAdvance = false; playing = false; advanced = true;
+    document.body.classList.remove('playing');
+    clearTimeout(fallbackT); clearTimeout(breathT);
+    if(synth){ try{ synth.cancel(); }catch(e){} }
+  }
+  function endPlay(){
+    pausePlay();
+    playOverlay.querySelector('.phint').textContent = 'replay';
+    playOverlay.style.display = 'flex';
+  }
+  function togglePlay(){ if(playing){ pausePlay(); } else { startFrom(i); } }
+
+  playOverlay.addEventListener('click', ()=> startFrom(0));
+
+  document.addEventListener('keydown', e=>{
+    if(e.key==='p' || e.key==='P'){ e.preventDefault(); togglePlay(); }
+    else if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){ e.preventDefault(); go(1); }
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'){ e.preventDefault(); go(-1); }
+    else if(e.key==='Home'){ pausePlay(); show(0); } else if(e.key==='End'){ pausePlay(); show(slides.length-1); }
+    else if(e.key==='f'){ if(!document.fullscreenElement)document.documentElement.requestFullscreen?.(); else document.exitFullscreen?.(); }
+    else if(e.key==='s'){ document.body.classList.toggle('presenter'); const tm=document.getElementById('timer'); tm.hidden=!document.body.classList.contains('presenter'); show(i); }
+    else if(e.key==='o'){ document.body.classList.toggle('overview'); }
+    else if(e.key==='?'){ const h=document.getElementById('help'); h.style.display = h.style.display==='flex'?'none':'flex'; }
+    else if(e.key==='Escape'){ document.getElementById('help').style.display='none'; document.body.classList.remove('overview'); }
+  });
+  document.getElementById('deck').addEventListener('click', e=>{
+    if(document.body.classList.contains('overview')){ const s=e.target.closest('.slide'); if(s){ show(slides.indexOf(s)); document.body.classList.remove('overview'); } }
+  });
+  (function(){ const p = new URLSearchParams(location.search);
+    if(p.get('ar') === '916') document.body.classList.add('ar916');
+    if(p.has('render')){ document.body.classList.add('render'); show((parseInt(p.get('render'))||1)-1); }
+    else { show(0); } })();
+</script>
+</body>
+</html>

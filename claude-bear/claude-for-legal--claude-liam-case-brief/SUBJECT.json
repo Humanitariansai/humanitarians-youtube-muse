@@ -1,0 +1,10 @@
+{
+ "question": "Claude, Case Brief.",
+ "slug": "claude-for-legal--claude-liam-case-brief",
+ "channel": "@HumanitariansAI",
+ "skill": "hai-simple",
+ "source_sheet": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-case-brief/beat_sheet.json",
+ "source_dir": "/Users/nik/Documents/books/anthropics/claude-for-legal/youtube/claude-liam-case-brief",
+ "family": "claude-for-legal",
+ "mode": "redo"
+}

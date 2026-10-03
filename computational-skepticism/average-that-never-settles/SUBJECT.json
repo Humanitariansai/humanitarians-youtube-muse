@@ -1,0 +1,21 @@
+{
+  "candidate": "Candidate 02",
+  "candidate_num": 2,
+  "title": "The average that never settles",
+  "question": "The average that never settles",
+  "slug": "average-that-never-settles",
+  "channel": "@HumanitariansAI",
+  "skill": "course-skepticism",
+  "course": "computational-skepticism-for-ai",
+  "video_ideas_path": "computational-skepticism-for-ai/vids/video-ideas.md",
+  "source_chapter": "computational-skepticism-for-ai/chapters/02-probability-uncertainty-and-the-confidence-illusion.md",
+  "score": "9/10",
+  "production_mode": "Manim visualization",
+  "hook": "You have averaged a thousand data points \u2014 and the very next point moves your average as if you had barely started.",
+  "core_idea": "The Central Limit Theorem requires finite variance; in heavy-tailed (Cauchy-like) worlds the running mean never converges, so average-loss evaluation measures a quantity that does not exist.",
+  "visual_object": "two running-mean traces racing side by side \u2014 Gaussian settling, Cauchy lurching",
+  "manim_move": "trace",
+  "prerequisites": "sample mean, passing familiarity with the bell curve",
+  "exclusions": "no stable-distribution theory, no power-law taxonomy, no tail-index estimation",
+  "mode": "spec"
+}

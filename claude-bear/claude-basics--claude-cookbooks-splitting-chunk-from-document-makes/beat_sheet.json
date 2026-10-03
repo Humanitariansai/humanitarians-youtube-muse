@@ -1,0 +1,529 @@
+{
+  "metadata": {
+    "title": "Why splitting a chunk from its document makes it retrieve for the wrong question",
+    "slug": "claude-basics--claude-cookbooks-splitting-chunk-from-document-makes",
+    "topic": "Context restored before embedding",
+    "purpose": "Redo of the claude-basics reel in the hai-simple form: a hesitant-writer cold open, Plain register, Liam narrating, Humanitarians AI outro. Same facts and argument as the source — a chunk cut from its document loses the context that resolves ambiguous token matches; prepending a short document-level summary before embedding restores it.",
+    "category": "claude-basics",
+    "family": "claude-basics",
+    "channel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "folderLabel": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/claude-cookbooks-splitting-chunk-from-document-makes/beat_sheet.json",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "voice": "am_onyx",
+    "persona": "Liam (in for Bear)",
+    "register": "Plain",
+    "palette": "humanitarians",
+    "style_preset": "claude",
+    "ground": "#FAF9F5",
+    "aspect_ratio": "16:9",
+    "clock": "narration (Kokoro am_onyx) — master clock; conform each beat to measured audio",
+    "prerequisites": "RAG basics, embeddings, BM25",
+    "exclusions": "chunking strategies, embedding-model comparisons, full-pipeline benchmarking",
+    "anchor_pair": "S01 -> S05 (the medical-paper chunk, same case)",
+    "one_flag": "",
+    "design_version": "v1",
+    "build": {
+      "at": "2026-08-28T02:08:37",
+      "cut": "master",
+      "filled": 12,
+      "of": 12,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "You might think a chunk retrieves badly because it got shrunk too small. It isn't size — it's this: why does splitting a chunk from its document make it retrieve for the wrong question?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Why does shrinking a chunk\nmake it retrieve\nfor the wrong question?",
+            "face": "serif",
+            "fontSize": 80,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "shrinking",
+            "replacementWords": "splitting",
+            "seed": "claude-cookbooks-splitting-chunk-hai-simple"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 9.92
+    },
+    {
+      "beat_id": "S01",
+      "act": "1 stakes / anchor planted",
+      "narration_text": "A medical paper is split into twenty chunks for search. Chunk seven reads: \"This treatment reduced mortality by twelve percent\" — with no disease named anywhere in it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "A MEDICAL PAPER, SPLIT",
+            "items": [
+              {
+                "label": "A medical paper is split into twenty chunks",
+                "sub": "A medical paper is split into twenty chunks for search.",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "Chunk 7: \"reduced mortality by 12%\" —",
+                "sub": "Chunk seven reads: \"This treatment reduced mortality by twelve percent\" — with no disease named anywhere in it.",
+                "icon": "BOX",
+                "cueFrame": 40
+              }
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/S01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S01.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 9.69
+    },
+    {
+      "beat_id": "S02",
+      "act": "2 wrong guess",
+      "narration_text": "The natural assumption is that search matches on words, so a chunk about \"mortality\" should surface for any mortality question, right disease or not.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "THE NATURAL ASSUMPTION",
+            "items": [
+              {
+                "label": "Search matches on words —",
+                "sub": "The natural assumption is that search matches on words,",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "so \"mortality\" finds any mortality question",
+                "sub": "so a chunk about \"mortality\" should surface for any mortality question, right disease or not.",
+                "icon": "BOX",
+                "cueFrame": 36
+              }
+            ]
+          },
+          "rendered": {
+            "out": "media/S02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S02.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S02.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 8.6
+    },
+    {
+      "beat_id": "S03",
+      "act": "2 break it",
+      "narration_text": "A word-matching search hands that chunk to a \"diabetes mortality\" query on the word match alone — it has nothing to do with diabetes, but nothing in the chunk says so.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "HANDED TO THE WRONG QUERY",
+            "items": [
+              {
+                "label": "Hands the chunk to \"diabetes mortality\" —",
+                "sub": "A word-matching search hands that chunk to a \"diabetes mortality\" query on the word match alone —",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "nothing in the chunk says otherwise",
+                "sub": "it has nothing to do with diabetes, but nothing in the chunk says so.",
+                "icon": "BOX",
+                "cueFrame": 44
+              }
+            ]
+          },
+          "rendered": {
+            "out": "media/S03.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S03.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S03.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 9.71
+    },
+    {
+      "beat_id": "S04",
+      "act": "3 mechanism",
+      "narration_text": "The fix: generate a short summary of the whole document, and prepend it to the chunk before embedding. The vector then carries the chunk's own words plus its place in the document, so an ambiguous phrase resolves against real context.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 17,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "PREPEND CONTEXT BEFORE EMBEDDING",
+            "items": [
+              {
+                "label": "Summarize the document, prepend it to the chunk",
+                "sub": "The fix: generate a short summary of the whole document, and prepend it to the chunk before embedding.",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "The vector now carries content plus place",
+                "sub": "The vector then carries the chunk's own words plus its place in the document, so an ambiguous phrase resolves against real context.",
+                "icon": "BOX",
+                "cueFrame": 48
+              }
+            ]
+          },
+          "rendered": {
+            "out": "media/S04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S04.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 13.38
+    },
+    {
+      "beat_id": "S05",
+      "act": "4 anchor payoff",
+      "narration_text": "Prepend \"Context: hypertension study in elderly patients\" to chunk seven, and it stops matching diabetes queries. Across ten test queries, precision on that chunk moved from thirty-three percent to ninety.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "THE ANCHOR, RESOLVED",
+            "items": [
+              {
+                "label": "\"Context: hypertension study\" — stops matching diabetes",
+                "sub": "Prepend \"Context: hypertension study in elderly patients\" to chunk seven, and it stops matching diabetes queries.",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "Precision: 33% -> 90%",
+                "sub": "Across ten test queries, precision on that chunk moved from thirty-three percent to ninety.",
+                "icon": "BOX",
+                "cueFrame": 40
+              }
+            ]
+          },
+          "rendered": {
+            "out": "media/S05.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S05.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S05.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 12.44
+    },
+    {
+      "beat_id": "S06",
+      "act": "5 both directions (a)",
+      "narration_text": "That gain only shows up if the chunk was ambiguous to begin with — a chunk that already names its subject gets nothing from the extra context.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "ONLY WHEN THE CHUNK WAS AMBIGUOUS",
+            "items": [
+              {
+                "label": "The gain needs an ambiguous chunk",
+                "sub": "That gain only shows up if the chunk was ambiguous to begin with —",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "a chunk that already names its subject gains nothing",
+                "sub": "a chunk that already names its subject gets nothing from the extra context.",
+                "icon": "BOX",
+                "cueFrame": 36
+              }
+            ]
+          },
+          "rendered": {
+            "out": "media/S06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S06.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 8.32
+    },
+    {
+      "beat_id": "S07",
+      "act": "5 both directions (b)",
+      "narration_text": "And it doesn't fix a document summarized badly, or a search built on a broken chunking strategy in the first place — this repairs one specific failure, not retrieval in general.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "ONE FAILURE, NOT ALL OF RETRIEVAL",
+            "items": [
+              {
+                "label": "Doesn't fix a bad summary or broken chunking",
+                "sub": "And it doesn't fix a document summarized badly, or a search built on a broken chunking strategy in the first place —",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "this repairs one specific failure",
+                "sub": "this repairs one specific failure, not retrieval in general.",
+                "icon": "BOX",
+                "cueFrame": 48
+              }
+            ]
+          },
+          "rendered": {
+            "out": "media/S07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S07.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 10.43
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 carry-out",
+      "narration_text": "A chunk answers the question inside it. Prepending its document's context is what lets it also answer the right question.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "A chunk answers the question inside it. Prepending its document's context is what lets it also answer the right question.",
+            "attribution": "",
+            "sparkLine": "Content, plus place."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 7.38
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. I have a research paper being split into chunks for RAG. A chunk says \"This treatment reduced mortality by twelve percent\" with no disease name in context. Show me how to prepend a context header to each chunk before embedding, what fields belong in that header, and how I'd verify the fix is actually preventing false matches on unrelated queries.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 26,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE BASICS · @HumanitariansAI",
+            "segment": "Why splitting a chunk from its document makes it retrieve for the wrong question",
+            "command": "I have a research paper being split into chunks for RAG. A chunk says 'This treatment reduced mortality by 12%' with no disease name in context. Show me how to prepend a context header to each chunk before embedding, what fields should be in that header, and how I'd verify the fix is actually preventing false matches on unrelated queries.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 20.74
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro series",
+      "narration_text": "Why splitting a chunk from its document makes it retrieve for the wrong question. This is Claude Basics, from Humanitarians AI.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "OutroSeries",
+          "props": {
+            "eyebrow": "CLAUDE BASICS",
+            "line": "From Humanitarians AI."
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 7.77
+    },
+    {
+      "beat_id": "BOUTCTA",
+      "act": "outro cta",
+      "narration_text": "Find more at humanitarians.ai. …Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Find more at humanitarians.ai",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUTCTA.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUTCTA.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUTCTA.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T02:08:37"
+      },
+      "actual_duration_s": 4.2
+    }
+  ]
+}

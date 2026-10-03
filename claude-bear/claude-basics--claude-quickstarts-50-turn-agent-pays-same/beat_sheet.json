@@ -1,0 +1,535 @@
+{
+  "metadata": {
+    "title": "Why a 50-turn agent pays for the same screenshot 35 times unless it caches the pixels",
+    "slug": "claude-basics--claude-quickstarts-50-turn-agent-pays-same",
+    "topic": "Prompt caching for unchanged screens",
+    "purpose": "Redo of the claude-basics reel in the hai-simple form: a hesitant-writer cold open, Plain register, Liam narrating, Humanitarians AI outro. Same facts and argument as the source — hash the screenshot and mark it cache_control={\"type\":\"ephemeral\"} on first send; later identical turns return a cache hit instead of reprocessing.",
+    "category": "claude-basics",
+    "family": "claude-basics",
+    "channel": "@HumanitariansAI",
+    "channel_title": "@HumanitariansAI",
+    "folderLabel": "@HumanitariansAI",
+    "playlist": "Claude Basics",
+    "skill": "hai-simple",
+    "mode": "redo",
+    "source_sheet": "/Users/nik/Documents/books/anthropics/youtube/claude-basics/claude-quickstarts-50-turn-agent-pays-same/beat_sheet.json",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "voice": "am_onyx",
+    "persona": "Liam (in for Bear)",
+    "register": "Plain",
+    "palette": "humanitarians",
+    "style_preset": "claude",
+    "ground": "#FAF9F5",
+    "aspect_ratio": "16:9",
+    "clock": "narration (Kokoro am_onyx) — master clock; conform each beat to measured audio",
+    "prerequisites": "tokens, LLM API calls, caching semantics",
+    "exclusions": "full caching protocol, cache eviction policies",
+    "anchor_pair": "S01 -> S05 (the 50-turn / 5-state task, same numbers)",
+    "one_flag": "",
+    "design_version": "v1",
+    "build": {
+      "at": "2026-08-28T04:12:10",
+      "cut": "master",
+      "filled": 12,
+      "of": 12,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "hesitant writer cold open",
+      "narration_text": "You might think this is a bandwidth problem — sending the same image over the wire again. It isn't. It's tokens: why does a 50-turn agent pay to reprocess the same screenshot over and over?",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 12,
+      "lead_silence_s": 0.8,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Why does a 50-turn\nagent waste bandwidth\nresending the same\nscreenshot?",
+            "face": "serif",
+            "fontSize": 76,
+            "align": "center",
+            "ink": "#2F2A26",
+            "accent": "#E4572E",
+            "bg": "#F3EBDD",
+            "triggerWords": "bandwidth",
+            "replacementWords": "tokens",
+            "seed": "claude-quickstarts-50-turn-agent-hai-simple"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 10.79
+    },
+    {
+      "beat_id": "S01",
+      "act": "1 stakes / anchor planted",
+      "narration_text": "A 50-turn form-filling task only ever shows 5 unique desktop states. Naive math: 50 screenshots at 2,000 tokens each is 100,000 image tokens for a task with 5 actual pictures.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "A 50-TURN TASK, 5 STATES",
+            "items": [
+              {
+                "label": "A 50-turn task shows only 5 unique desktop states",
+                "sub": "A 50-turn form-filling task only ever shows 5 unique desktop states.",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "Naive: 50 × 2,000 = 100,000 tokens",
+                "sub": "Naive math: 50 screenshots at 2,000 tokens each is 100,000 image tokens for a task with 5 actual pictures.",
+                "icon": "BOX",
+                "cueFrame": 40
+              }
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/S01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S01.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 14.59
+    },
+    {
+      "beat_id": "S02",
+      "act": "2 wrong guess",
+      "narration_text": "The natural assumption is that the model already saw a screenshot once, so showing it again should be nearly free — it's already in the conversation.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "THE NATURAL ASSUMPTION",
+            "items": [
+              {
+                "label": "The model already saw it once —",
+                "sub": "The natural assumption is that the model already saw a screenshot once,",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "so showing it again should be nearly free",
+                "sub": "so showing it again should be nearly free — it's already in the conversation.",
+                "icon": "BOX",
+                "cueFrame": 36
+              }
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/S02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S02.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S02.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 8.15
+    },
+    {
+      "beat_id": "S03",
+      "act": "2 break it",
+      "narration_text": "But an API call has no memory between requests. Every turn resends the entire conversation so far, images included, and the model reprocesses all of it from scratch, every single time.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "NO MEMORY BETWEEN CALLS",
+            "items": [
+              {
+                "label": "An API call has no memory between requests",
+                "sub": "But an API call has no memory between requests.",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "Every turn resends everything, reprocessed from scratch",
+                "sub": "Every turn resends the entire conversation so far, images included, and the model reprocesses all of it from scratch, every single time.",
+                "icon": "BOX",
+                "cueFrame": 44
+              }
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/S03.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S03.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S03.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 12.03
+    },
+    {
+      "beat_id": "S04",
+      "act": "3 mechanism",
+      "narration_text": "The fix: hash the screenshot, and mark it as cached the first time it's sent, using the API's ephemeral cache setting. The next turn that sends the identical hash hits the cache instead of paying to reprocess it.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "HASH IT, MARK IT CACHED",
+            "items": [
+              {
+                "label": "Hash the screenshot, mark it cache_control: ephemeral",
+                "sub": "The fix: hash the screenshot, and mark it `cache_control={\"type\":\"ephemeral\"}` the first time it's sent.",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "The next identical hash hits the cache",
+                "sub": "The next turn that sends the identical hash hits the cache instead of paying to reprocess it.",
+                "icon": "BOX",
+                "cueFrame": 44
+              }
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/S04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S04.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 12.07
+    },
+    {
+      "beat_id": "S05",
+      "act": "4 anchor payoff",
+      "narration_text": "Back to the 50-turn task: only 5 states ever get tokenized in full, 2,000 tokens each — 10,000 total. The other 45 turns are cache hits. 10,000 instead of 100,000.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "THE ANCHOR, RESOLVED",
+            "items": [
+              {
+                "label": "5 states tokenized in full: 10,000 total",
+                "sub": "Back to the 50-turn task: only 5 states ever get tokenized in full, 2,000 tokens each — 10,000 total.",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "10,000 instead of 100,000",
+                "sub": "The other 45 turns are cache hits. 10,000 instead of 100,000.",
+                "icon": "BOX",
+                "cueFrame": 44
+              }
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/S05.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S05.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S05.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 15.55
+    },
+    {
+      "beat_id": "S06",
+      "act": "5 both directions (a)",
+      "narration_text": "This helps exactly when a screen repeats byte-for-byte — an idle dialog, an unchanged form. A cursor that moved, or a field mid-type, is a different image and a different hash — full price again.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "ONLY WHEN THE SCREEN REPEATS EXACTLY",
+            "items": [
+              {
+                "label": "Helps when a screen repeats byte-for-byte",
+                "sub": "This helps exactly when a screen repeats byte-for-byte — an idle dialog, an unchanged form.",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "A moved cursor is a different hash — full price",
+                "sub": "A cursor that moved, or a field mid-type, is a different image and a different hash — full price again.",
+                "icon": "BOX",
+                "cueFrame": 44
+              }
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/S06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S06.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 11.33
+    },
+    {
+      "beat_id": "S07",
+      "act": "5 both directions (b)",
+      "narration_text": "And it doesn't help a task that's genuinely novel every turn — a real navigation to a new page is a new state, tokenized like anything else. Caching can't invent savings where the screen actually changed.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 13,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormBCard",
+          "props": {
+            "title": "NOT WHEN THE SCREEN ACTUALLY CHANGES",
+            "items": [
+              {
+                "label": "Doesn't help a task that's novel every turn",
+                "sub": "And it doesn't help a task that's genuinely novel every turn — a real navigation to a new page is a new state, tokenized like anything else.",
+                "icon": "BOX",
+                "cueFrame": 0
+              },
+              {
+                "label": "Caching can't invent savings where the screen changed",
+                "sub": "Caching can't invent savings where the screen actually changed.",
+                "icon": "BOX",
+                "cueFrame": 48
+              }
+            ],
+            "dark": false
+          },
+          "rendered": {
+            "out": "media/S07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-S07.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/S07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 12.03
+    },
+    {
+      "beat_id": "BCRY",
+      "act": "6 carry-out",
+      "narration_text": "An unchanged screenshot isn't free just because the model already saw it — every turn resends everything from scratch. Marking it cached is what makes a repeat actually free.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 9,
+      "lead_silence_s": 0.6,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "WantQuote",
+          "props": {
+            "quote": "An unchanged screenshot isn't free just because the model already saw it — every turn resends everything from scratch. Marking it cached is what makes a repeat actually free.",
+            "attribution": "",
+            "sparkLine": "Cache the pixels, not the memory."
+          },
+          "rendered": {
+            "out": "media/BCRY.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BCRY.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BCRY.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 10.2
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn handoff",
+      "narration_text": "Your turn. Here's the prompt — read it with me. I'm building a 50-turn computer-use agent that revisits the same 5 desktop states repeatedly. Show me exactly where to place cache_control on the screenshot messages so each unique state is only billed once, and write the code that detects a repeated state and routes to the cached version instead of sending the raw image again.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 26,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE BASICS · @HumanitariansAI",
+            "segment": "Why a 50-turn agent pays for the same screenshot 35 times unless it caches the pixels",
+            "command": "I'm building a 50-turn computer-use agent that revisits the same 5 desktop states repeatedly. Show me exactly where to place `cache_control` on the screenshot messages so each unique state is only billed once, and write the code that detects a repeated state and routes to the cached version instead of sending the raw image again.",
+            "runningText": "paste this into Claude…",
+            "folderLabel": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 19.84
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro series",
+      "narration_text": "Why a 50-turn agent pays for the same screenshot 35 times unless it caches the pixels. This is Claude Basics, from Humanitarians AI.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 8,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "OutroSeries",
+          "props": {
+            "eyebrow": "CLAUDE BASICS",
+            "line": "From Humanitarians AI."
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 9.34
+    },
+    {
+      "beat_id": "BOUTCTA",
+      "act": "outro cta",
+      "narration_text": "Find more at humanitarians.ai. …Liam, in for Bear.",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "estimated_duration_s": 6,
+      "tail_silence_s": 1.0,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "OutroCTA",
+          "props": {
+            "line": "Find more at humanitarians.ai",
+            "handle": "@HumanitariansAI"
+          },
+          "rendered": {
+            "out": "media/BOUTCTA.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUTCTA.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUTCTA.mp4",
+        "filled_by": "media",
+        "at": "2026-08-28T04:12:10"
+      },
+      "actual_duration_s": 4.2
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+Stem Separation: Estimation, Not Extraction — Humanitarians AI
+
+A stem separator doesn't recover your original tracks. It never had them. It
+receives one flat mixed file and produces its best guess at what the
+contributions probably were. This is the difference between estimation and
+extraction — and it changes how you should use the output.
+
+WHAT YOU WILL KNOW AFTER WATCHING
+What the model actually receives (one mixed file; the originals are gone).
+Why separation is estimation, not reversal — and why that's structural, not
+fixable with a better model. What bleed, leftovers, and metallic smear are and
+why they happen. Three things to check before trusting a stem.
+
+CHAPTERS
+00:00  Thirty recordings, one file — what the model is asked to do
+00:22  The recording session — tracks, then the mix
+00:42  What comes out — probability outputs, not recovered tracks
+01:04  Why unbaking is impossible — the mixing analogy
+01:26  The estimation cost — bleed made visible in the waveform
+01:49  The trust test — good enough vs. lying to you
+02:12  Sign-off
+
+Built with Brutalist — Kokoro TTS and Remotion, running locally and free.
+Narration voice: Kokoro af_bella.
+
+Presented by Rohan V. for Humanitarians AI.
+#HumanitariansAI #AI #AudioAI #StemSeparation #MusicTech

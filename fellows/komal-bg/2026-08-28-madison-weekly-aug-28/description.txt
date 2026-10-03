@@ -1,0 +1,7 @@
+Madison Weekly — Aug 28.
+
+Loon project update for Madison: Sai on ground-truth-first foundations, Swara on CVAT annotation and the Lovable researcher prototype. No trained model yet — by design.
+
+This is Liam, in for Komal.
+
+#Madison #Loon #CVAT #WeeklyReport #GroundTruth #ClaudeAI

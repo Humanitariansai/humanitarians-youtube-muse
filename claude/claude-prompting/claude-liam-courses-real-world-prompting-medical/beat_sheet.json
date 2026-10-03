@@ -1,0 +1,357 @@
+{
+ "metadata": {
+  "slug": "claude-liam-courses-real-world-prompting-medical",
+  "title": "Medical Prompting: Role, Uncertainty, Escalation, Disclaimer",
+  "channel": "hai",
+  "persona": "Kore",
+  "brand": "claude-liam",
+  "audience": "Claude",
+  "engine": "kokoro",
+  "voice": "af_kore",
+  "voice_kokoro": "af_kore",
+  "palette": "claude",
+  "register": "Pragmatist",
+  "format": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "source": "Anthropic Courses — Real-World Prompting: Medical Applications",
+  "topic": "PROMPT ENGINEERING · ANTHROPIC",
+  "build": {
+   "at": "2026-07-17T00:31:41",
+   "cut": "review",
+   "filled": 7,
+   "of": 7,
+   "slates": [],
+   "skin_warnings": [
+    "B06: palette=claude but the outro is 'LogoOutro' — OUTRO LAW wants ClaudeTitleOutro"
+   ]
+  }
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "GREETING",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "This is Humanitarians.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Hallo, Humanitarians",
+      "topic": "HUMANITARIANS AI · Medical Prompting: Role, Uncertainty, Escalation, Disclaimer",
+      "segment": "Humanitarians AI",
+      "command": "This is Humanitarians.",
+      "runningText": "opening..."
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "YTV01",
+   "act": "VERDICT",
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "lead_silence_s": 0.5,
+   "narration_text": "Let's recap with Claude. Role is calibration: it sets the clinical register and anchors how much assumed knowledge the answer includes. Uncertainty language like 'this may indicate' prevents the response from projecting false confidence. The escalation instruction tells Claude when to stop and refer instead of resolving everything in-context. Put role, uncertainty language, escalation trigger, and disclaimer in the system prompt so they apply every turn.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Four medical-prompt guardrails",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "Role is calibration: it sets the clinical register and anchors how much assumed knowledge the answer includes.",
+       "Uncertainty language like 'this may indicate' prevents the response from projecting false confidence.",
+       "The escalation instruction tells Claude when to stop and refer instead of resolving everything in-context.",
+       "Put role, uncertainty language, escalation trigger, and disclaimer in the system prompt so they apply every turn."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "estimated_duration_s": 22
+  },
+  {
+   "beat_id": "B01B",
+   "act": "Why This Matters",
+   "tangent": true,
+   "engine": "kokoro",
+   "voice": "af_kore",
+   "narration_text": "Here is why Medical Prompting: Role, Uncertainty, Escalation, Disclaimer belongs in your working knowledge. The systems, policies, and tools shaped by it affect decisions at your level — whether or not you understand the mechanism. Knowing the underlying logic gives you the frame; missing it means reasoning from output with no access to the inputs.",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "provenance": "proven-core/ClaudeVerdictArtifact",
+     "version": "1",
+     "props": {
+      "artifactTitle": "Four medical-prompt guardrails",
+      "artifactHeading": "What the body demonstrated",
+      "artifactLines": [
+       "Role is calibration: it sets the clinical register and anchors how much assumed knowledge the answer includes.",
+       "Uncertainty language like 'this may indicate' prevents the response from projecting false confidence.",
+       "The escalation instruction tells Claude when to stop and refer instead of resolving everything in-context.",
+       "Put role, uncertainty language, escalation trigger, and disclaimer in the system prompt so they apply every turn."
+      ]
+     },
+     "rendered": {
+      "out": "media/YTV01.mp4",
+      "at": ""
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B00",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "The claim that role is calibration, not decoration, is what I want to see in action. Take a prompt about chest pain: (1) show the same clinical fact framed once for an emergency physician and once for a patient, so I can see the register and assumed-knowledge shift, (2) write the escalation trigger as an explicit if-these-flags-then-refer instruction, and (3) explain why all four guardrails go in the system prompt instead of the user message.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · PROMPT ENGINEERING · ANTHROPIC",
+      "segment": "Medical Prompting: Role, Uncertainty, Escalation, Disclaimer",
+      "command": "The claim that role is calibration, not decoration, is what I want to see in action. Take a prompt about chest pain: (1) show the same clinical fact framed once for an emergency physician and once for a patient, so I can see the register and assumed-knowledge shift, (2) write the escalation trigger as an explicit if-these-flags-then-refer instruction, and (3) explain why all four guardrails go in the system prompt instead of the user message.",
+      "runningText": "reading the course…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B00.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "greeting": "Hej, Kore",
+    "topic": "PROMPT ENGINEERING · ANTHROPIC",
+    "segment": "Medical Prompting: Role, Uncertainty, Escalation, Disclaimer",
+    "command": "Medical prompting is not harder than general prompting. It's just more consequential. Four guardrails cover almost every failure mode: role, uncertainty language, escalation instruction, and a standing disclaimer.",
+    "runningText": "reading the course…",
+    "folderLabel": "@HumanitariansAI",
+    "modelLabel": "Fable 5",
+    "effortLabel": "High"
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "actual_duration_s": 15.87,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B00.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:31:41"
+   }
+  },
+  {
+   "beat_id": "B01",
+   "scene": "B01_RoleCalibration",
+   "narration_text": "Role is calibration, not decoration. Telling Claude to act as an experienced emergency medicine physician does two things: it sets the register — clinical, not generic — and it anchors the level of assumed knowledge. A physician response explains less; a patient response explains more. Same fact, different framing. Role is the frame selector.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B01_RoleCalibration",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B01.mp3",
+   "actual_duration_s": 19.01,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B01.mp4",
+    "filled_by": "manim:B01_RoleCalibration",
+    "at": "2026-07-17T00:31:41"
+   }
+  },
+  {
+   "beat_id": "B02",
+   "scene": "B02_UncertaintyEscalation",
+   "narration_text": "Uncertainty language and escalation are two separate instructions that solve two separate problems. Uncertainty language — phrases like 'this may indicate' or 'evidence is mixed' — prevents false confidence. Escalation instruction tells Claude when to stop and refer: if the symptom set includes these flags, say: see a clinician today. Without escalation, the model tries to resolve everything in-context. Sometimes the correct answer is: this is out of scope.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B02_UncertaintyEscalation",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B02.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B02.mp3",
+   "actual_duration_s": 23.13,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B02.mp4",
+    "filled_by": "manim:B02_UncertaintyEscalation",
+    "at": "2026-07-17T00:31:41"
+   }
+  },
+  {
+   "beat_id": "B03",
+   "scene": "B03_FourGuardrails",
+   "narration_text": "Put all four guardrails into the system prompt, not the user message. Role, uncertainty language, escalation trigger, disclaimer — baked in once, applied every turn. The disclaimer is the simplest: 'This is not medical advice. Always consult a qualified clinician.' It doesn't prevent use. It sets scope. Four instructions. Every medical prompt. No exceptions.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "manim": {
+     "scene_class": "B03_FourGuardrails",
+     "src": "scenes.py",
+     "rendered": {
+      "out": "manim/B03.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B03.mp3",
+   "actual_duration_s": 19.22,
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B03.mp4",
+    "filled_by": "manim:B03_FourGuardrails",
+    "at": "2026-07-17T00:31:41"
+   }
+  },
+  {
+   "beat_id": "B04",
+   "scene": "ClaudeComposerAsk",
+   "narration_text": "Your turn. Ask Claude: Write a system prompt for a medical triage assistant. Include role, uncertainty hedges, an escalation rule for red-flag symptoms, and a standing disclaimer. Then strip one of the four guardrails and ask the same clinical question. Watch what changes. The missing guardrail is always visible in the output — you just have to know to look for it. Kore, in for Humanitarians AI.",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HUMANITARIANS AI · PROMPT ENGINEERING · ANTHROPIC",
+      "segment": "Medical Prompting: Role, Uncertainty, Escalation, Disclaimer",
+      "command": "Write a system prompt for a medical triage assistant — role, uncertainty hedges, escalation rule, standing disclaimer.",
+      "runningText": "paste this into Claude…",
+      "folderLabel": "@HumanitariansAI",
+      "modelLabel": "Fable 5",
+      "effortLabel": "High"
+     },
+     "rendered": {
+      "out": "media/B04.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "greeting": "Your turn.",
+    "topic": "PROMPT ENGINEERING · ANTHROPIC",
+    "segment": "Medical Prompting: Role, Uncertainty, Escalation, Disclaimer",
+    "command": "Write a system prompt for a medical triage assistant — role, uncertainty hedges, escalation rule, standing disclaimer.",
+    "runningText": "paste this into Claude…",
+    "folderLabel": "@HumanitariansAI",
+    "modelLabel": "Fable 5",
+    "effortLabel": "High"
+   },
+   "audio_file": "mp3/beat-B04.mp3",
+   "actual_duration_s": 19.54,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B04.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:31:41"
+   }
+  },
+  {
+   "beat_id": "B05",
+   "scene": "ClaudeTitleOutro",
+   "narration_text": "Medical Prompting: Role, Uncertainty, Escalation, Disclaimer",
+   "voice": "af_kore",
+   "engine": "kokoro",
+   "shot": {
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Medical Prompting: Role, Uncertainty, Escalation, Disclaimer",
+      "handle": "@HumanitariansAI",
+      "subline": "Kore, in for Humanitarians AI."
+     },
+     "rendered": {
+      "out": "media/B05.mp4",
+      "at": ""
+     }
+    }
+   },
+   "props": {
+    "title": "Medical Prompting: Role, Uncertainty, Escalation, Disclaimer",
+    "handle": "@HumanitariansAI",
+    "subline": "Kore, in for Humanitarians AI."
+   },
+   "audio_file": "mp3/beat-B05.mp3",
+   "actual_duration_s": 4.12,
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B05.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:31:41"
+   }
+  },
+  {
+   "beat_id": "B06",
+   "act": "outro",
+   "narration_text": "Medical Prompting: Role, Uncertainty, Escalation, Disclaimer. From Humanitarians AI.",
+   "reuse_audio": "mp3/beat-B06.mp3",
+   "audio_file": "mp3/beat-B06.mp3",
+   "actual_duration_s": 13.68,
+   "new_visual_element": "bear-brown logo sting — drawOn",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Medical Prompting: Role, Uncertainty, Escalation, Disclaimer",
+      "handle": "@HumanitariansAI",
+      "subline": "youtube.com/@HumanitariansAI"
+     },
+     "picked": {
+      "brand": "bear-brown",
+      "animation": "drawOn",
+      "svg": "bear-brown-logo-1.svg",
+      "mp3": "bear-brown-1.mp3",
+      "locked": true
+     },
+     "rendered": {
+      "out": "media/B06.mp4",
+      "at": ""
+     }
+    }
+   },
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B06.mp4",
+    "filled_by": "media",
+    "at": "2026-07-17T00:31:41"
+   },
+   "engine": "kokoro",
+   "voice": "af_kore"
+  }
+ ]
+}
