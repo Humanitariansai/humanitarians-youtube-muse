@@ -1,0 +1,25 @@
+# FACTCHECK.md — "Claude, Not Your Answer."
+
+Checked 2026-10-03 against primary announcements and contemporary reporting.
+Verdicts: PASS / CORRECTED / QUALIFY / EXEMPT. Dated or version-sensitive
+claims are flagged so a future re-voice knows what to re-check.
+
+| # | Beat | Claim | Verdict | Source | Fix |
+|---|---|---|---|---|---|
+| 1 | B01 | April 2023: Samsung engineers, given permission to use ChatGPT (ban lifted Mar 11), leaked internal data 3 times in ~20 days: (a) semiconductor-database source code pasted to find a bug fix; (b) confidential equipment/defect code; (c) meeting records uploaded to generate minutes. | PASS | The Register 2023-04-06 (three incidents incl. source code of "semiconductor database download program", defective-equipment code, meeting records; ban lifted Mar 11); Android Authority; Gizmodo; Korean-media via Metaverse Post | None. Narration says "about three weeks" — accurate. |
+| 2 | B01 | Samsung banned the tools and warned of disciplinary action. | PASS | The Investor (May 2023): memo banning generative AI tools on company PCs "temporarily from May 1", staff asked to refrain on personal devices, "disciplinary action up to and including termination". | None. Note: the ban was later partially relaxed for select divisions under new guidelines (2024–2026) — out of scope for the film, recorded here. |
+| 3 | B02 | On personal Claude plans (Free, Pro, Max) your chats can be used to train the model and be kept up to five years. | PASS | Anthropic consumer-terms update, Aug 28 2025 (anthropic.com/news/updates-to-our-consumer-terms); Anthropic privacy centre — model training; data retention. Contemporary guides confirm 5-year retention for opted-in users, de-identified. | None. |
+| 4 | B02 | Since September 2025, that training is on by default (opt-out). | PASS | Users given until Sept 28, 2025 to choose; the consent prompt defaulted to data sharing enabled (pre-checked toggle). Multiple 2026 guides: "changed September 2025", "on unless you opt out". | None. |
+| 5 | B03 | Claude: Settings → Privacy → turn off the training toggle; do it before the next conversation. | PASS (path) / QUALIFY (label) | Path Settings → Privacy confirmed by all 2026 guides. Exact label has varied: "Help improve Claude", "Improve Claude for everyone", "You can help improve Claude", "Help improve our AI models". | Voiced generically as "the training toggle"; no exact label on screen. Re-check the label before any re-voice. |
+| 6 | B04 | ChatGPT: Settings → Data controls → turn off "Improve the model for everyone". | PASS | Stable across all guides (geekfence, serpforge, meetcyber, felloai, choice360). | None. |
+| 7 | B04 | Grok: on X, Settings → Privacy and safety → uncheck training (Grok & Third-Party Collaborators). | PASS | meetcyber / smithstephen: Settings and privacy → Privacy and safety → Grok & Third-Party Collaborators → uncheck training box. One guide notes an additional in-chat toggle. | Narration says "uncheck training" — accurate at this granularity. |
+| 8 | B04 | Gemini: on Google's My Activity page, turn off Gemini Apps activity. | PASS | felloai / serpforge / meetcyber: myactivity.google.com or Gemini app Settings & Help → Activity → Turn off. | None. "My Activity page" avoids voicing the URL. |
+| 9 | B05 | The toggle only works going forward; it cannot pull back anything already used in a training run. | PASS | Anthropic: setting applies to new and resumed chats; old untouched chats not pulled in; "doesn't unlearn" once incorporated (hyprnote/anarlog guides). Same "going forward" caveat reported for ChatGPT. | None. |
+| 10 | B06 | A lawyer could frame a paste as: (1) NDA breach — the AI company is an outside party; (2) data-protection-law violation, jurisdiction-dependent; (3) breach of company IT policy. | QUALIFY | The three framings are the source film's analysis (its "not a lawyer" source), not tested legal claims. | Voiced with explicit "I am not a lawyer" and as "could frame" — analysis, not advice. Do not harden into legal claims in future cuts. |
+| 11 | B07 | Clean-room rule: client names, internal financials, source code, meeting recordings never go into a personal AI account; anonymize with placeholders first. | EXEMPT | Advice, not a factual claim. Consistent with every enterprise-AI guidance source found. | None. |
+| 12 | B08 | Work/enterprise plans do not train on your data at all. | PASS | Anthropic: Commercial Terms customers (Claude for Work, Team, Enterprise, Gov, Education, API incl. Bedrock/Vertex) explicitly excluded from the 2025 consumer change; no training on commercial data. Same pattern at OpenAI/Google. | None. |
+
+Notes for future re-voices:
+- The Sept 2025 Anthropic change and its Sept 28, 2025 deadline are historical facts; keep the date.
+- Toggle paths and labels are the fastest-decaying claims — re-verify before any re-render.
+- No claim is made about any specific pasted document being regurgitated by a model; the film argues exposure and retention, not a demonstrated leak-to-third-party.
