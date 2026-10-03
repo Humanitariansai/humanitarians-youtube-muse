@@ -1,0 +1,158 @@
+#!/usr/bin/env python3
+"""make_sheet.py — "Claude making a film about Muse" (general-audience redo).
+
+Builds beat_sheet.json: 21 beats, five acts. Run: python3 make_sheet.py
+Beat durations: speech at ~150 wpm plus small pauses; body ~ 18-24s per beat.
+Deep-explainer shape: a read, a critique, a resolution.
+"""
+import json
+
+BS = {
+    "title": "Claude making a film about Muse",
+    "film": "claude-on-muse-for-everyone",
+    "series": "Humanitarians AI — Muse films (general-audience redos)",
+    "beats": [
+        {
+            "id": "BIDEA", "scene": "M01", "dur_s": 20, "act": "hook",
+            "voice": "Muse",
+            "line": "Hallo. This is Liam, in for Bear. This film isn't what Meta tells you about Muse — it's what Bear and Claude think. Claude's the AI assistant Bear worked with on this. Their read: what it does, what it costs, and twelve security concerns. In plain words.",
+            "screen": "Writer types 'what Meta tells you', strikes it, types 'what Bear and Claude think'."
+        },
+        {
+            "id": "BDEFS", "scene": "M02", "dur_s": 24, "act": "hook",
+            "voice": "Muse",
+            "line": "Four terms. Agent: a program that works for you on its own. Connector: a plug-in linking the agent to a service, like your email. Allow-list: a list of the only things permitted — everything else is blocked. Prompt injection: hidden instructions in content that steer the agent.",
+            "screen": "Four terms appear: agent / connector / allow-list / prompt injection."
+        },
+        {
+            "id": "B01", "scene": "M03", "dur_s": 20, "act": "1",
+            "voice": "Muse",
+            "line": "First, what it is. Muse is a consumer AI agent — built for everyone, as Meta puts it. Unlike a chatbot that just answers, it acts: you give it a goal, it makes a plan, it takes steps — checking with you before anything consequential.",
+            "screen": "Goal chip → plan blocks → steps; approval gate before the big step."
+        },
+        {
+            "id": "B02", "scene": "M04", "dur_s": 18, "act": "1",
+            "voice": "Muse",
+            "line": "It launched in the US on September 8th, 2026. Fast start: their document reports over two and a half million downloads in about two weeks. In Nik's experience it's less capable than the biggest names — but its strength isn't brains, it's endurance.",
+            "screen": "Calendar flips to Sept 8 2026; counter spins to 2.5M ('document reports')."
+        },
+        {
+            "id": "B03", "scene": "M05", "dur_s": 20, "act": "2",
+            "voice": "Muse",
+            "line": "How it works: every user gets their own computer in Meta's cloud — a browser, files, a terminal — that stays with them between chats. Same basic architecture as the other agent products; they differ in who they're for.",
+            "screen": "One user mark → one cloud computer (browser + files + terminal inside)."
+        },
+        {
+            "id": "B04", "scene": "M06", "dur_s": 18, "act": "2",
+            "voice": "Muse",
+            "line": "What it does: errands. Travel, restaurants, appointments, shopping and checkout, forms, tickets — Ticketmaster was a launch partner, their document reports. Bear and Claude's read: its strength is endurance, not intelligence.",
+            "screen": "Errand icons pop in a row: plane, fork, ticket, cart, form."
+        },
+        {
+            "id": "B05", "scene": "M07", "dur_s": 20, "act": "2",
+            "voice": "Muse",
+            "line": "It connects to services through connectors — commerce first: Shopify, OpenTable, Ticketmaster, Instacart, Expedia, Stripe. Plus productivity: Gmail, Slack, GitHub, and more. Amazon, CNBC reported, blocked it. Custom connectors are unreviewed.",
+            "screen": "Plug board: commerce plugs light up; Amazon plug greyed, 'blocked'."
+        },
+        {
+            "id": "B06", "scene": "M08", "dur_s": 20, "act": "3",
+            "voice": "Muse",
+            "line": "What it costs. Their document reports three tiers: Free at zero dollars, Power at twenty a month, Maximum at a hundred. Same features — you pay for volume. And a card is required even for the free tier.",
+            "screen": "Three price cards: Free $0 / Power $20 / Maximum $100 ('document reports')."
+        },
+        {
+            "id": "B07", "scene": "M09", "dur_s": 21, "act": "3",
+            "voice": "Muse",
+            "line": "But subscriptions aren't the real bet. Meta says it takes a small merchant-paid cut of transactions. And the strategic goal, in their read: own the intent layer, the spot where you say what you want, with Meta in the middle. One skepticism they keep: one analysis estimates only eleven of forty-seven monthly payments can be automated — so fees may not carry it. Ads may come.",
+            "screen": "Merchant → small cut → Meta; intent-layer seat; '11 of 47' gauge."
+        },
+        {
+            "id": "B08", "scene": "M10", "dur_s": 20, "act": "4",
+            "voice": "Muse",
+            "line": "Now the security concerns — twelve of them, from Bear and Claude's critique. First: full disk access. On the Mac, Muse can see your whole disk — not just one folder you picked. Meta's promise that it only looks at files you ask about is a promise, not a wall.",
+            "screen": "Disk circle: every folder lights up — 'whole disk, not one folder'."
+        },
+        {
+            "id": "B09", "scene": "M11", "dur_s": 22, "act": "4",
+            "voice": "Muse",
+            "line": "Second, and this is the big one: it's a deny-list, not an allow-list. Picture two bouncers. One has a banned list — everyone else walks in. The other has a guest list — only named people enter. Muse uses the banned list. Forgotten folders, new folders, external drives — all exposed.",
+            "screen": "Two bouncers: banned-list door (crowd streams in) vs guest-list door (only named enter)."
+        },
+        {
+            "id": "B10", "scene": "M12", "dur_s": 20, "act": "4",
+            "voice": "Muse",
+            "line": "Third: researchers found real holes. Malwarebytes reported a zero-day that could turn it into a backdoor — though it needs local code execution first. Another researcher exported the whole runtime, about six point eight gigabytes, including SSH keys. Researchers' reports — not established disasters.",
+            "screen": "Shield with two cracks; 'researchers report' labels with qualifiers."
+        },
+        {
+            "id": "B11", "scene": "M13", "dur_s": 18, "act": "4",
+            "voice": "Muse",
+            "line": "Fourth: your data. Training on your data is on by default — you can opt out. Every file it reads is processed in Meta's cloud. The separation from Meta's ad systems is a policy claim; there's no independent audit. That's their critique.",
+            "screen": "Files flow up into a cloud; 'training: on by default' toggle."
+        },
+        {
+            "id": "B12", "scene": "M14", "dur_s": 20, "act": "4",
+            "voice": "Muse",
+            "line": "Fifth: prompt injection. Web pages and documents can carry hidden instructions that steer the agent — and the failure is adversarial, not random. Picture a product page quietly telling your agent to email your contacts. The agent reads the hidden text like an order.",
+            "screen": "Webpage: visible text + faded hidden text; hidden text glows red as the agent reads it."
+        },
+        {
+            "id": "B13", "scene": "M15", "dur_s": 20, "act": "4",
+            "voice": "Muse",
+            "line": "Sixth: the human weak points. Approvals only work if you actually read them — tired people tap approve on reflex. And the cute mascot? Their read: a friendly character reads as safe before it's earned it, and 'superintelligence' branding overpromises for an errand agent.",
+            "screen": "Stack of approval dialogs, tired finger taps approve; mascot face gets a skeptical tilt."
+        },
+        {
+            "id": "B14", "scene": "M16", "dur_s": 18, "act": "5",
+            "voice": "Muse",
+            "line": "So how did Bear resolve it for himself? He removed the Mac app entirely — signed out, deleted it, verified it was gone — and uses the web only, at muse.ai. Not on his phone either.",
+            "screen": "Mac app icon → trash; 'verified gone' check; browser remains; phone crossed out."
+        },
+        {
+            "id": "B15", "scene": "M17", "dur_s": 20, "act": "5",
+            "voice": "Muse",
+            "line": "For film work, his rule: Muse only touches public sandbox repos, through a dedicated bot account. No pasted tokens. Changes go through pull requests with reviews. His main Mac and his servers never touch Muse at all.",
+            "screen": "Sandbox: bot plug → public repos only; PR gate with reviewers."
+        },
+        {
+            "id": "B16", "scene": "M18", "dur_s": 20, "act": "5",
+            "voice": "Muse",
+            "line": "His general rules, in plain words: assume someone will get in, so limit the damage — put caps outside the agent, like a card limit, not just instructions. A human decides anything irreversible. And guard the short list — email, money, passwords — with real walls, not promises.",
+            "screen": "Three rule cards: caps outside the agent; human decides irreversible; guard email · money · passwords."
+        },
+        {
+            "id": "BVDT", "scene": "M19", "dur_s": 25, "act": "recap",
+            "voice": "Muse",
+            "line": "So: act one, a consumer agent that acts — big launch, built for endurance. Act two, its own cloud computer, errands through connectors. Act three, subscriptions now, fees and the intent layer later. Act four: full disk, deny-list, researcher findings, cloud data, hidden instructions, tired approvers. Act five, Bear's answer: web only, sandbox only, caps outside the agent.",
+            "screen": "Five recap lines, one per act."
+        },
+        {
+            "id": "BHTF", "scene": "M19", "dur_s": 20, "act": "do_today",
+            "voice": "Muse",
+            "line": "Your turn. Look at the AI apps on your own devices and list what disk access each one holds. Then write down: is it an allow-list or a deny-list? Two checks: you found every AI app, and you can say which list model each uses.",
+            "screen": "Do-today card: list your AI apps' disk access; allow-list or deny-list?"
+        },
+        {
+            "id": "BOUT", "scene": "M19", "dur_s": 14, "act": "outro",
+            "voice": "Muse",
+            "line": "Muse, in for Bear. Thanks for watching.",
+            "screen": "Title card: 'Claude making a film about Muse' + @NikBearBrown."
+        }
+    ]
+}
+
+if __name__ == "__main__":
+    for b in BS["beats"]:
+        assert b["scene"].startswith("M") and b["id"] not in ("",), b
+    assert len(BS["beats"]) == 21, len(BS["beats"])
+    assert 13 <= len(BS["beats"]) <= 22, "beat count outside 13-22 band"
+    acts = [b["id"] for b in BS["beats"] if b["act"] in ("1", "2", "3", "4", "5")]
+    assert len(acts) == 16, len(acts)
+    recap = next(b for b in BS["beats"] if b["id"] == "BVDT")
+    assert recap["line"].lower().count("act ") >= 5, "recap must cover each act"
+    total = sum(b["dur_s"] for b in BS["beats"])
+    assert 270 <= total <= 420, f"total {total}s outside 4.5-7 min band"
+    print(f"beats={len(BS['beats'])} body={len(acts)} total={total}s (~{total//60}m{total%60:02d}s)")
+    with open("beat_sheet.json", "w") as f:
+        json.dump(BS, f, indent=2)
+    print("beat_sheet.json written")
