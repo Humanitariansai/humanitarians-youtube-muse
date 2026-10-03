@@ -1,0 +1,89 @@
+<!--
+  Purpose vs. purpose-washing: the behavioral test
+  Book: Branding and AI
+  Chapter: 15-brand-ethics-purpose-and-sustainability
+  Figure: 01
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/15-brand-ethics-purpose-and-sustainability-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-15-01">
+  <title id="fig-title-15-01">Purpose vs. purpose-washing: the behavioral test</title>
+  <desc>Two panels contrast real purpose (Patagonia: costly commitments that change core decisions) with purpose-washing (a fast-fashion Conscious Collection: concern signaled without cost). Four rows compare whether it costs something, whether it changes core decisions, how it performs under scrutiny, and regulatory risk.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="15-brand-ethics-purpose-and-sustainability" figure-number="01"
+      figure-title="Purpose vs. purpose-washing: the behavioral test"
+      figure-slug="purpose-vs-purpose-washing"
+      figure-type="comparison panels" priority="Critical"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/15-brand-ethics-purpose-and-sustainability-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The behavioral test for purpose</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Is it a commitment you maintain when maintaining it costs something? The test is behavioral, not linguistic.</text>
+
+  <!-- row-label column header area -->
+  <rect x="32" y="78" width="180" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <!-- panel headers -->
+  <rect x="212" y="78" width="228" height="34" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="326" y="100" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Real purpose</text>
+  <rect x="440" y="78" width="228" height="34" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="554" y="100" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Purpose-washing</text>
+
+  <!-- subheaders (examples) -->
+  <text x="326" y="128" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Patagonia, "Don't Buy This Jacket"</text>
+  <text x="554" y="128" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">fast-fashion "Conscious Collection"</text>
+
+  <!-- dividing hairline between panels -->
+  <line x1="440" y1="78" x2="440" y2="392" stroke="#121212" stroke-width="1"/>
+
+  <!-- 4 comparison rows, 64px each, starting y=140 -->
+  <!-- r1 -->
+  <rect x="32" y="140" width="180" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Does it cost</text>
+  <text x="42" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">something?</text>
+  <rect x="212" y="140" width="228" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Yes — repair program, used-gear</text>
+  <text x="224" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">resale, profits to environment</text>
+  <rect x="440" y="140" width="228" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="452" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">No — 1% of volume, the core</text>
+  <text x="452" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">overproduction model untouched</text>
+
+  <!-- r2 -->
+  <rect x="32" y="200" width="180" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Changes core</text>
+  <text x="42" y="242" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">decisions?</text>
+  <rect x="212" y="200" width="228" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Yes — tells customers to buy</text>
+  <text x="224" y="242" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">less, against its own revenue</text>
+  <rect x="440" y="200" width="228" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="452" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">No — a sub-line bolted onto an</text>
+  <text x="452" y="242" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">unchanged catalog</text>
+
+  <!-- r3 -->
+  <rect x="32" y="260" width="180" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Under public</text>
+  <text x="42" y="302" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">scrutiny</text>
+  <rect x="212" y="260" width="228" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Holds — behavior matches the</text>
+  <text x="224" y="302" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">claim; loyalty compounds</text>
+  <rect x="440" y="260" width="228" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="452" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Collapses — the gap reads as</text>
+  <text x="452" y="302" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">hypocrisy; trust erodes fast</text>
+
+  <!-- r4 -->
+  <rect x="32" y="320" width="180" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Regulatory</text>
+  <text x="42" y="362" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">risk (2026)</text>
+  <rect x="212" y="320" width="228" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Low — claims are specific and</text>
+  <text x="224" y="362" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">substantiated by real practice</text>
+  <rect x="440" y="320" width="228" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="452" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">High — generic green claims now</text>
+  <text x="452" y="362" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">a legal exposure under EU ECGT</text>
+
+  <text x="32" y="410" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Only claim the values you can demonstrate. Silence is not a failure of brand integrity;</text>
+  <text x="32" y="426" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">an unsubstantiated claim is.</text>
+</svg>

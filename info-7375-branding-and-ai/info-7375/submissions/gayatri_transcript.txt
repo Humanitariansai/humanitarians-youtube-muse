@@ -1,0 +1,65 @@
+[0.0s-5.4s] Hello everyone, I'm Gayatri and it's a sector-free brief.
+[5.4s-11.7s] So sector brief is basically your industry's news and which is read and ranked by AI
+[11.7s-15.3s] and it lands straight in your inbox in under a minute.
+[15.3s-18.6s] Okay, so here's the problem I'm solving.
+[18.6s-23.1s] If you are an analyst or team lead or honestly just someone who is supposed to know what's
+[23.1s-28.7s] happening in your industry, you're spending like 2-3 hours a day just reading news,
+[28.7s-34.3s] CNBC, TechCrunch, TripLogs, press releases, it's cat or everywhere and nobody
+[34.3s-40.8s] read just one source and it's not just fragmented, there is no prioritization either, right?
+[40.8s-46.5s] I've heard a lot about a competitor raising a funding round looks exactly the same as some
+[46.5s-51.8s] random puppies and in an actual human sits down and reads through it and here's a thing.
+[51.8s-52.8s] This doesn't scale.
+[52.8s-56.6s] If your team covers five sectors that's five times the reading.
+[56.6s-63.6s] So most teams just accept blind spots instead and add it up and that's 10 to 15 hours
+[63.6s-64.6s] a week.
+[64.6s-72.4s] Basically, a third of the work we just spent scanning instead of actually acting on anything.
+[72.4s-75.4s] So what sector brief does is pretty simple honestly.
+[75.4s-81.0s] You'll pick this sector's you care about, AI reads the news for you and one can report
+[81.1s-83.0s] shows up in your inbox.
+[83.0s-88.2s] You go from opening a dozen new sites to opening one email, it's basically four steps.
+[88.2s-93.8s] You select your sectors, you enter your email, no account, no setup, the air reads and
+[93.8s-99.7s] grants everything for relevance and urgency and the report gets delivered.
+[99.7s-104.9s] Group by sector in about 45 seconds, no dashboard to check, no food to scroll, it just
+[104.9s-106.8s] comes to you.
+[106.8s-112.9s] The magic here, in one sentence, we use AI to read every article with the way a shop
+[112.9s-117.6s] analyst would, except it does it in seconds and at unlimited scale.
+[117.6s-122.7s] So without sector brief, you've got one person reading everything manually, making judgment
+[122.7s-129.2s] calls under time pressure and coverage just caps out at like one or two sectors per person.
+[129.2s-134.4s] We sector brief, AI reads everything automatically, scores it consistently for sentiment
+[134.4s-137.6s] and urgency and this is the part actually love.
+[137.6s-144.0s] Ten sectors takes the same 45 seconds as one sector that's really why this wasn't possible
+[144.0s-152.3s] before doing this by hand just never scales past one or two sectors per person.
+[152.3s-158.1s] For the business model, it's freemium, free tier gets you one sector and a daily report,
+[158.1s-165.7s] pro is $9 dollars a month per user, unlimited sectors, priority delivery and team is $129
+[165.7s-166.7s] a month.
+[166.7s-171.1s] So a whole team shares coverage instead of every one duplicating the same sector research
+[171.1s-182.1s] and just to put a number on it, if 500 teams lands on the team tier, that's around $594,000
+[183.1s-186.5s] and the AI cost per input is basically near zero right now.
+[186.5s-191.1s] So the margins are actually really strong from the one.
+[191.1s-196.7s] For go to market, my first 10 customers are market research analyst and competitive intelligent
+[196.7s-202.9s] teams, admit size companies, they already feel this pain every single day and they already
+[202.9s-208.2s] have budget for tools like this, 3 channels basically direct outreach on LinkedIn to those
+[208.2s-213.9s] specific job titles showing of where analyst already hang out, CI forums, market research,
+[213.9s-219.0s] Slack and Discord groups and then content like a quick calculator, how much is your team
+[219.0s-224.5s] besting on manual reading that converts straight into the free tier.
+[224.5s-229.1s] So who else is solving this, Google alerts, multi sector but zero analysis, it just
+[229.1s-230.1s] links.
+[230.1s-235.2s] Fiddly and the aggregators, they organize news, but they don't actually analyze it and then
+[235.2s-241.0s] hiring an analyst that's human judgment, but it's so expensive, I did caps out at like
+[241.0s-246.4s] one or two sectors, sector brief is really the only one that gives you unlimited sectors,
+[246.4s-252.4s] AI driven analysis and zero setup, all three at once, everyone else make you pick two out
+[252.4s-253.4s] of three.
+[253.4s-259.0s] Well, this actually stands right now, it's life, fully working today, not a projective,
+[259.0s-260.0s] not a mockup.
+[260.3s-265.8s] On next 30 days, I'm expanding new source coverage, with 30 to 60 days drive billing
+[265.8s-271.5s] goes in and the paid tier actually launched and 60 to 90 days a shared team dashboards
+[271.5s-280.5s] so teams stock and duplicating coverage, okay, so I want to actually just show you this
+[280.5s-283.2s] instead of talking about it.
+[290.0s-299.6s] So, this is a real life product, I'm going to pick, let's say technology, general business,
+[299.6s-313.4s] healthcare, retail, finance and then I'll quickly add my hidden address and then hit,
+[313.6s-324.1s] you know, let's wait for it to process and that's it, that's the report on its way,
+[324.1s-333.6s] grouped by sector, scored for urgency, landing in about 45 seconds in your email.
+[343.4s-354.6s] So, what I actually need to think, feedback on how to convert that free tier into paying
+[354.6s-360.7s] pro and team customers and honestly, introductions, warm paths to market research or competitive
+[360.7s-366.9s] intelligence teams, who would be good pilot customers, next day on my end is launching that
+[366.9s-371.0s] paid tier within 60 days and landing 10 pilot customers.

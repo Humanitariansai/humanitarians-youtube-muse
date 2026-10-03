@@ -1,0 +1,97 @@
+<!--
+  Brand tracking metrics reference
+  Book: Branding and AI
+  Chapter: 13-measuring-brand-equity-and-impact
+  Figure: 02
+  Type: matrix / reference table
+  Generated: 2026-06-18
+  Source: pantry/13-measuring-brand-equity-and-impact-cajal.md
+-->
+<svg viewBox="0 0 740 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-13-02">
+  <title id="fig-title-13-02">Brand tracking metrics reference</title>
+  <desc>A reference table of the five standard brand tracking metrics in three pairs: unaided awareness, aided awareness, consideration, preference, and association strength or sentiment. Each row gives what it measures, the survey question that captures it, and an interpretation caution.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="13-measuring-brand-equity-and-impact" figure-number="02"
+      figure-title="Brand tracking metrics reference"
+      figure-slug="brand-tracking-metrics-reference"
+      figure-type="matrix / reference table" priority="Important"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/13-measuring-brand-equity-and-impact-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="740" height="480" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Brand tracking metrics: the longitudinal panel</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Keller's CBBE pyramid with a time axis attached — the value is the trend line, not any single result.</text>
+
+  <!-- column header band -->
+  <rect x="32" y="72" width="676" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42"  y="93" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Metric</text>
+  <text x="186" y="93" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">What it measures</text>
+  <text x="350" y="93" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Survey question</text>
+  <text x="540" y="93" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Interpretation caution</text>
+
+  <!-- column separators -->
+  <line x1="178" y1="72" x2="178" y2="406" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="342" y1="72" x2="342" y2="406" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="532" y1="72" x2="532" y2="406" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- row 1: unaided awareness -->
+  <rect x="32" y="106" width="676" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42"  y="128" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Unaided awareness</text>
+  <text x="42"  y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">salience, top-of-mind</text>
+  <text x="186" y="131" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">does the audience name you</text>
+  <text x="186" y="145" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">unprompted in the category</text>
+  <text x="350" y="131" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"What brands in this</text>
+  <text x="350" y="145" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">category can you name?"</text>
+  <text x="540" y="131" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">the more demanding,</text>
+  <text x="540" y="145" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">more meaningful measure</text>
+
+  <!-- row 2: aided awareness -->
+  <rect x="32" y="166" width="676" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42"  y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Aided awareness</text>
+  <text x="42"  y="206" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">recognition</text>
+  <text x="186" y="191" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">whether they recognize</text>
+  <text x="186" y="205" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">you when prompted</text>
+  <text x="350" y="191" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"Have you heard</text>
+  <text x="350" y="205" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">of [your brand]?"</text>
+  <text x="540" y="191" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">ceiling problem —</text>
+  <text x="540" y="205" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">most say yes</text>
+
+  <!-- row 3: consideration -->
+  <rect x="32" y="226" width="676" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42"  y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Consideration</text>
+  <text x="42"  y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">openness</text>
+  <text x="186" y="251" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">willingness to try —</text>
+  <text x="186" y="265" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">the lower bar</text>
+  <text x="350" y="251" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"Would you try</text>
+  <text x="350" y="265" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">this brand?"</text>
+  <text x="540" y="251" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">high here, low preference</text>
+  <text x="540" y="265" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">= evaluation is failing</text>
+
+  <!-- row 4: preference -->
+  <rect x="32" y="286" width="676" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42"  y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Preference</text>
+  <text x="42"  y="326" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">competitive standing</text>
+  <text x="186" y="311" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">choice over alternatives —</text>
+  <text x="186" y="325" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">the higher bar</text>
+  <text x="350" y="311" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"Given a choice, would</text>
+  <text x="350" y="325" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">you choose this brand?"</text>
+  <text x="540" y="311" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">the real competitive</text>
+  <text x="540" y="325" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">position signal</text>
+
+  <!-- row 5: association / sentiment -->
+  <rect x="32" y="346" width="676" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42"  y="368" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Association &amp;</text>
+  <text x="42"  y="383" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">sentiment</text>
+  <text x="42"  y="399" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">what the brand means</text>
+  <text x="186" y="371" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">which attributes attach,</text>
+  <text x="186" y="385" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">and how positively</text>
+  <text x="350" y="371" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">"What comes to mind,</text>
+  <text x="350" y="385" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">and is it positive?"</text>
+  <text x="540" y="371" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">shows whether equity</text>
+  <text x="540" y="385" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">climbs the pyramid</text>
+
+  <text x="32" y="428" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Cadence: quarterly for mature brands; monthly during active repositioning;</text>
+  <text x="32" y="444" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">equity moves too slowly to read below six months.</text>
+</svg>

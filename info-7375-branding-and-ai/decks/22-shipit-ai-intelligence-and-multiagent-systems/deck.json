@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "title": "Appendix S3 — AI Intelligence and Multi-Agent Systems",
+    "short": "BRANDING · CH22",
+    "course": "Branding and AI · Chapter 22",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/22-shipit-ai-intelligence-and-multiagent-systems.md"
+  },
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "title",
+      "kicker": "Branding and AI · Chapter 22 · Appendix S3",
+      "title": "AI Intelligence and Multi-Agent Systems",
+      "subtitle": "The hardest design decision is not which model to use — it is where the AI decides and where it does not.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02",
+      "section": "the cold open",
+      "title": "Why did AutoGPT cost $80 and deliver nothing?",
+      "lead": "And why does Cursor work reliably enough that professional developers trust it with production code?",
+      "bullets": [
+        "Both use large language models. Both help with technical work. Both were built by smart people who understood the technology.",
+        "**The difference is not the model. It is the architecture** — specifically, where in the workflow the AI makes decisions and where a deterministic system makes them instead.",
+        "AutoGPT handed decision-making to the AI. Cursor keeps it with the developer. That single choice determines reliability, cost, debuggability, and what the user experiences when things go wrong.",
+        "In the last appendix you built a pipeline that does exactly what you told it, every time. That predictability is valuable. It is also a ceiling."
+      ]
+    },
+    {
+      "id": "S03",
+      "section": "the vocabulary",
+      "title": "\"Adding AI to a workflow\" is not one thing",
+      "lead": "At least four distinct patterns, each with a different risk profile, maintenance cost, and user experience. Treating them as interchangeable is the most common mistake in student projects.",
+      "bullets": [
+        "**Single LLM call.** Prompt in, response out. No memory, no tools, no loop. The most predictable pattern and the most constrained. Use it when the task fits one prompt and the output validates deterministically.",
+        "**Chained calls.** Output of one call feeds the next. The sequence is deterministic — n8n decides the order — but each step adds non-determinism, and errors at step 2 propagate to steps 3 and 4.",
+        "**Tool-using agent (ReAct).** The LLM reasons, calls a tool, observes, reasons again. The loop is controlled by the model, not by a graph. More flexible; much harder to predict, debug and cost-bound.",
+        "**Multi-agent system.** Specialised agents coordinating through an orchestrator. Buys specialisation and modularity at the cost of upfront design work."
+      ]
+    },
+    {
+      "id": "S04",
+      "section": "the spectrum",
+      "title": "Pattern 4 has its own internal spectrum",
+      "lead": "Madison lives firmly in the orchestrated quadrant. Its users see neither the agents nor the orchestrator — by design.",
+      "why": "chapter: 'Pattern 4 has its own internal spectrum worth naming' and names three kinds with the frameworks inside each — AutoGPT/BabyAGI, AutoGen, CrewAI Flows/LangGraph — with Madison placed in orchestrated",
+      "archetype": "sunburst",
+      "duration": 8.5,
+      "data": {
+        "center": "MULTI-AGENT",
+        "centerShort": "MULTI-AGENT",
+        "groups": [
+          {
+            "label": "Autonomous",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "AutoGPT"
+              },
+              {
+                "label": "BabyAGI"
+              },
+              {
+                "label": "agents set their own next step"
+              }
+            ]
+          },
+          {
+            "label": "Conversational",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "AutoGen"
+              },
+              {
+                "label": "agents talk until they converge"
+              }
+            ]
+          },
+          {
+            "label": "Orchestrated",
+            "tone": "accent",
+            "children": [
+              {
+                "label": "CrewAI Flows"
+              },
+              {
+                "label": "LangGraph"
+              },
+              {
+                "label": "Madison"
+              },
+              {
+                "label": "a graph decides who runs"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "section": "the brand decision",
+      "title": "Same LLM. Same task. Wildly different brand experiences.",
+      "lead": "Two products built on identical underlying capability — the same model, the same data, the same general task.",
+      "why": "chapter sets an explicit shared origin — 'Consider two products built on identical underlying capability' — and separates them at the architecture choice into transparency and competence",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "same model · same data · same task",
+        "splitLabel": "where does the AI decide?",
+        "tracks": [
+          {
+            "label": "A · autonomous",
+            "outcome": "brand: transparency",
+            "tone": "accent",
+            "path": "up",
+            "notes": [
+              "the user watches the reasoning trace",
+              "works: collaborative and alive",
+              "fails: visibly, in front of them"
+            ]
+          },
+          {
+            "label": "B · orchestrated",
+            "outcome": "brand: competence",
+            "tone": "ink",
+            "path": "down",
+            "notes": [
+              "a structured brief, a status bar, a report",
+              "works: professional and frictionless",
+              "fails: opaquely, with no path to why"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "section": "the shadow",
+      "title": "Does your architecture express your archetype — or its shadow?",
+      "lead": "The architectural choice and the archetype choice are not independent. Neither Architecture A nor B is universally correct; the mismatch is what kills you.",
+      "bullets": [
+        "**Sage** promises authoritative output; its shadow is dogmatism. Favour Architecture B with explicit \"I cannot verify\" guards. Watch for: wrong answers delivered with high confidence.",
+        "**Creator** amplifies originality; its shadow is perfectionism. Architecture A can genuinely suit a creative professional directing the exploration. Watch for: a visible process more interesting than the output.",
+        "**Explorer** is organised around discovery; its shadow is aimlessness. **AutoGPT was, implicitly, an Explorer brand with an unmanaged shadow.**",
+        "Cursor *augments* — tight loop, small failure surface. Devin *automates* — loose loop, and a bad approach may be discovered after real work is built on it. Augmenting tools need feedback loops; automating tools need validation at every step."
+      ]
+    },
+    {
+      "id": "S07",
+      "section": "failure mode one",
+      "title": "Errors compound geometrically",
+      "lead": "An autonomous agent's step N is conditioned on step N−1. Most autonomous agents check whether a step *completed*, not whether it *was correct*.",
+      "why": "chapter states the rates directly: '10% error rate at each step … after ten steps 0.9¹⁰ ≈ 35%. After twenty steps, about 12%. An agent that takes forty steps … approximately a 1.5% chance of producing a fully correct result'",
+      "archetype": "attrition",
+      "duration": 7.5,
+      "data": {
+        "total": 1000,
+        "startLabel": "1,000 chains · 10% error per step",
+        "stages": [
+          {
+            "label": "after 10 steps · 35%",
+            "survival": 0.35
+          },
+          {
+            "label": "after 20 steps · 12%",
+            "survival": 0.343
+          },
+          {
+            "label": "after 40 steps · 1.5%",
+            "survival": 0.125
+          },
+          {
+            "label": "your agent's step count",
+            "pending": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "section": "the other two",
+      "title": "Cost runaway and trust collapse",
+      "lead": "This is not a failure of the underlying model. It is a failure of the architecture.",
+      "bullets": [
+        "**Cost runaway.** An agent without a hard step ceiling can make arbitrarily many calls in pursuit of a goal it cannot reach — or cannot recognise as reached. The **$80** sessions delivering nothing are the canonical example.",
+        "Three controls early frameworks did not install by default: **a maximum step count**, **a per-execution cost ceiling**, **a circuit breaker** when the same tool is called with the same inputs more than N times. Not sophisticated engineering. Basic hygiene.",
+        "**Trust collapse on visible failure.** A user who watches an agent loop and produce nothing has not merely had a technical failure — they have watched the brand fail in real time, with their money on the meter.",
+        "The 2023 wave did not just hurt AutoGPT. **The failure distributed across every product that used the word \"autonomous.\"**"
+      ]
+    },
+    {
+      "id": "S09",
+      "section": "the other bill",
+      "title": "Orchestration is not free either",
+      "lead": "The orchestrated quadrant trades those failure modes for different ones. There is no architecture that wins on every dimension.",
+      "bullets": [
+        "**Rigidity.** The system can only do what the orchestrator was told it can do. A request that fits no pre-defined flow is an edge case it handles badly.",
+        "**Hidden failures.** The user sees only that the report is wrong, not which agent produced the bad intermediate. You have to maintain log visibility into the intermediate steps yourself.",
+        "**Specification cost.** Every agent must be named, role-defined, goal-specified, tooled and guarded. This is the price of predictability — and it is also the thing that makes the system improvable.",
+        "The disciplined engineer chooses where on the spectrum the product should sit and designs each failure mode **on purpose**."
+      ]
+    },
+    {
+      "id": "S10",
+      "section": "the commitment in code",
+      "title": "`allow_delegation=False` is the architecture, written as a parameter",
+      "lead": "Eight lines of CrewAI. The orchestration layer — not the agent — decides what happens next.",
+      "why": "chapter: 'This agent cannot hand off to other agents … AutoGPT agents could spawn sub-agents, set new goals, redirect their own work. Madison agents cannot.' — an explicit permission boundary with named refused crossings",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": {
+          "label": "WHAT A MADISON AGENT MAY DO"
+        },
+        "inside": [
+          {
+            "label": "find and summarise competitor info"
+          },
+          {
+            "label": "return structured JSON"
+          },
+          {
+            "label": "set a field null when it cannot verify"
+          },
+          {
+            "label": "explain its own limitations"
+          }
+        ],
+        "attempts": [
+          {
+            "label": "hand off to another agent",
+            "blocked": true,
+            "from": "left"
+          },
+          {
+            "label": "spawn a sub-agent",
+            "blocked": true,
+            "from": "top"
+          },
+          {
+            "label": "set itself a new goal",
+            "blocked": true,
+            "from": "right"
+          },
+          {
+            "label": "your own agent",
+            "blocked": null,
+            "from": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "section": "the specification",
+      "title": "An agent spec is the contract between the designer and the LLM",
+      "lead": "It answers four questions: who is this agent, what is it trying to accomplish and under what constraints, what are its instincts when resolving ambiguity, and what tools can it use?",
+      "bullets": [
+        "**The role activates training-data associations.** \"Competitive Intelligence Analyst\" primes sourcing claims, noting uncertainty, producing structured comparisons. This is one of the few cases where naming something correctly changes how it performs.",
+        "**The goal carries a discipline, not just a task.** \"If you cannot verify a data point, set it null and explain limitations\" is an anti-hallucination instruction written into the spec rather than hoped for.",
+        "**The backstory is the tie-breaker the goal could not anticipate.** \"Never rounds up\" tells the model that between a complete-looking answer and an honest one, honesty wins.",
+        "**The tools are the boundary** between what this agent does and what a different agent does. An agent without a clear role wanders."
+      ]
+    },
+    {
+      "id": "S12",
+      "section": "anti-hallucination",
+      "title": "Three patterns, from weakest to strongest",
+      "lead": "LLMs hallucinate under uncertainty — confident-sounding text in response to prompts that cannot be reliably answered. No specification eliminates this. The job is to surface it in a form downstream steps can handle.",
+      "why": "chapter states the set and its direction literally: 'Three patterns, from weakest to strongest' — and names Pattern 2 as the right starting point for most projects",
+      "archetype": "ladder",
+      "duration": 7.0,
+      "data": {
+        "lowLabel": "the model is allowed to be silent",
+        "highLabel": "every claim carries its own status",
+        "rungs": [
+          {
+            "label": "Permission to abstain",
+            "note": "\"say I cannot verify this rather than guessing\""
+          },
+          {
+            "label": "Structured null fields",
+            "note": "JSON schema; unfillable fields null plus a note — start here"
+          },
+          {
+            "label": "Confidence labeling",
+            "note": "verified · inferred · unverifiable, per claim"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "section": "the build",
+      "title": "Write the decision down before you write the code",
+      "lead": "A student who has written down their architectural choice has something to evaluate against when the system behaves unexpectedly. A student who drifted into an architecture has nothing.",
+      "why": "chapter: 'With the decision made, the build sequence is six tasks' — six ordered tasks, each a thing the reader must clear, and no verdict the chapter can supply for them",
+      "archetype": "gatePipeline",
+      "duration": 9.0,
+      "data": {
+        "input": {
+          "label": "the architecture decision, written down"
+        },
+        "gates": [
+          {
+            "label": "Pick the simpler pattern",
+            "rule": "add complexity only when you hit its ceiling",
+            "pass": null
+          },
+          {
+            "label": "Write each spec",
+            "rule": "anti-hallucination guard inside the goal",
+            "pass": null
+          },
+          {
+            "label": "Wire it into n8n",
+            "rule": "pass only the context this step needs",
+            "pass": null
+          },
+          {
+            "label": "Validate the output",
+            "rule": "minimum: JSON with null fields",
+            "pass": null
+          },
+          {
+            "label": "Set the ceilings",
+            "rule": "step count and cost, as hard stops",
+            "pass": null
+          },
+          {
+            "label": "Stress-test",
+            "rule": "an input that triggers YOUR failure mode",
+            "pass": null
+          }
+        ],
+        "output": {
+          "label": "an AI layer you can debug",
+          "pending": true
+        }
+      }
+    },
+    {
+      "id": "S14",
+      "section": "the shape to copy",
+      "title": "The AI node is never floating in isolation",
+      "lead": "Two patterns from the reference workflow: the AI call is surrounded by deterministic neighbours, and it passes no free text downstream — only a defined output format, carrying only the context that step needs.",
+      "why": "chapter: 'the AI calls are surrounded by data-handling steps … When structure validation fails, the workflow routes to an error handler, not to the next processing step. The error is surfaced, not propagated.'",
+      "archetype": "graph",
+      "duration": 8.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          {
+            "id": "fetch",
+            "label": "Fetch",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "ai",
+            "label": "the AI step",
+            "tone": "accent",
+            "layer": 1
+          },
+          {
+            "id": "fmt",
+            "label": "Format",
+            "tone": "ink",
+            "layer": 2
+          },
+          {
+            "id": "val",
+            "label": "Validate",
+            "tone": "ink",
+            "layer": 3
+          },
+          {
+            "id": "write",
+            "label": "Write",
+            "tone": "good",
+            "layer": 4
+          },
+          {
+            "id": "err",
+            "label": "error handler",
+            "tone": "warn",
+            "layer": 4
+          }
+        ],
+        "edges": [
+          {
+            "from": "fetch",
+            "to": "ai"
+          },
+          {
+            "from": "ai",
+            "to": "fmt"
+          },
+          {
+            "from": "fmt",
+            "to": "val"
+          },
+          {
+            "from": "val",
+            "to": "write",
+            "label": "valid"
+          },
+          {
+            "from": "val",
+            "to": "err",
+            "label": "invalid"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "section": "the expiration date",
+      "title": "I should be honest about this appendix's shelf life",
+      "lead": "The failure modes described here are accurate as of this writing. The autonomous quadrant is also improving.",
+      "bullets": [
+        "Modern frameworks include better memory, better goal-tracking, better self-correction. Per-step error rates are coming down. Cost-runaway is increasingly handled by default in the tooling.",
+        "By 2027 or 2028 these failure modes may be substantially mitigated. If they are, the architecture recommendation changes with them — and I will change it.",
+        "**The deeper principle is more durable.** The boundary between where the AI decides and where the human does encodes a theory of what the user should trust, what the product is accountable for, and what kind of failure the brand is willing to absorb.",
+        "The specific trade-offs shift. The need to make the choice deliberately does not."
+      ]
+    },
+    {
+      "id": "S16",
+      "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Draw the line yourself: where the AI decides, and where you do.",
+      "lead": "Write the architecture statement before you build. Specify each agent — role, goal with a guard, backstory with a tie-breaker, bounded tools. Set the step and cost ceilings as hard stops. Then design the input that triggers your own failure mode, run it, and watch. If you cannot say which agent produced a claim, you have crossed the line."
+    }
+  ]
+}

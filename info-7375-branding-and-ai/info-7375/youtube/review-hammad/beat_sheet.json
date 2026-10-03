@@ -1,0 +1,505 @@
+{
+  "metadata": {
+    "slug": "review-hammad",
+    "title": "INFO 7375 — Project Review: Hammad",
+    "topic": "INFO 7375 · PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 470,
+    "build": {
+      "at": "2026-08-16T23:58:53",
+      "cut": "master",
+      "filled": 10,
+      "of": 14,
+      "slates": [
+        "B02",
+        "B03",
+        "B05",
+        "B06"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Hey Claude — I just read Hammad's final brand portfolio for INFO 7375. This is a personal brand submission — Path A — not a startup. Hammad is positioning for GRC roles by combining 11 years of live IT operations with a graduate Information Systems degree, and proving it with a working AI pipeline called SentinelGRC Ops. What does the work tell us?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · PROJECT REVIEW",
+            "segment": "Hammad",
+            "command": "I just read Hammad's final brand portfolio. Path A personal brand — GRC professional with 11 years IT ops, MSIS degree, and a live AI pipeline called SentinelGRC Ops. What does the work tell us?",
+            "runningText": "reviewing the submission...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 21.31,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:58:53"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "SETUP",
+      "role_note": "The brief — Path A personal brand, what was required.",
+      "narration_text": "Path A required a complete personal brand system — UVP, five pillars, target audience, visual identity, storytelling, live website, and a working tool. Hammad submitted all of these. 17 slides, a live portfolio site, a deployed Hugging Face demo, a Substack newsletter, and a visual resume — which we'll discuss in narration only, not on screen.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Path A — All Elements Present",
+            "body": "UVP, five pillars, visual identity, storytelling, live website, deployed Hugging Face demo, Substack newsletter — all submitted. 17 slides with documented UVP iteration from draft to final.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.11,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:58:53"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 1 — The UVP iteration is documented and the final version is defensible.",
+      "narration_text": "The UVP evolution slide shows five iterations, from a generic first pass to the final version. The final reads: I help security-conscious organizations bridge the gap between IT operations and GRC, bringing 11 years of hands-on infrastructure experience and a graduate background in Information Systems to build compliance programs that hold up beyond the audit. The phrase bridge the gap is the real differentiator — and the slide explains why.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B02.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.4
+          ]
+        }
+      },
+      "actual_duration_s": 25.05,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:58:53",
+        "needs": "YOU → drop a historical image at media/B02.png (or .mp4)",
+        "suggested": "find: The UVP evolution slide shows five iterations, from a generic first pass to the final version. The final reads: I help security-conscious organizations bridge t"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 2 — The competitive benchmark is the most rigorous persona-level analysis in the cohort.",
+      "narration_text": "Slide five benchmarks five GRC candidates across seven dimensions. That's not a generic competitive landscape — that's a direct peer comparison. The analysis shows that Hammad is the only candidate combining IT ops depth, graduate GRC training, AI automation, multi-source ingestion, and cross-framework mapping. The benchmarking is honest about the field and specific about the gap.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 20.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B03.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 21.65,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:58:53",
+        "needs": "YOU → drop a historical image at media/B03.png (or .mp4)",
+        "suggested": "find: Slide five benchmarks five GRC candidates across seven dimensions. That's not a generic competitive landscape — that's a direct peer comparison. The analysis sh"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "WHAT WORKS",
+      "role_note": "Manim — the sweet spot that no portfolio in the field occupies.",
+      "narration_text": "The positioning matrix plots GRC framework depth against IT operations depth. Every peer candidate falls short on at least one axis. Hammad maps to the high-high quadrant — graduate GRC plus 11 years of live ops. That's the claimed sweet spot. The matrix makes the claim visual and verifiable against the data on the previous slide.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 17.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Positioning matrix",
+            "body": "GRC framework depth vs. IT ops depth. Hammad maps to the high-high quadrant. Every peer candidate falls short on at least one axis.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.01,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:58:53"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "BRAND SYSTEM",
+      "role_note": "Visual identity — logo, palette, typography.",
+      "narration_text": "The visual system is Deep Navy, Slate Teal, Muted Gold, and Warm Cream. Georgia for headings, Arial for body. The HR monogram is clean and professional. The Warm Cream background is a deliberate departure from the all-navy conventions of the GRC field — it reads as confident rather than institutional. That's a smart brand decision for a personal brand.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B05.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 19.46,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:58:53",
+        "needs": "YOU → drop a historical image at media/B05.png (or .mp4)",
+        "suggested": "find: The visual system is Deep Navy, Slate Teal, Muted Gold, and Warm Cream. Georgia for headings, Arial for body. The HR monogram is clean and professional. The War"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "BRAND SYSTEM",
+      "role_note": "Brand voice — LinkedIn and Substack presence.",
+      "narration_text": "Two LinkedIn posts are live and documented. The first is a career pivot origin story. The second announces SentinelGRC Ops with the line: not a class project, a working answer to a real compliance problem. That's exactly the brand voice — operational honesty, not career-marketing language. The Substack newsletter, The GRC Signal, is 539 words published on July 31st. Both channels are live.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B06.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 22.7,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:58:53",
+        "needs": "YOU → drop a historical image at media/B06.png (or .mp4)",
+        "suggested": "find: Two LinkedIn posts are live and documented. The first is a career pivot origin story. The second announces SentinelGRC Ops with the line: not a class project, a"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "TOOL/BUILD",
+      "role_note": "SentinelGRC Ops — the live AI pipeline.",
+      "narration_text": "SentinelGRC Ops ingests live CISA advisories 30 at a time, maps each finding to ISO 27001, SOC 2, and GDPR using a Groq LLM, then writes Jira tickets and Slack notifications routed by data sensitivity. 467 records processed, 99.6 percent pass rate, under 600 milliseconds total, zero cost per demo run. That's a real pipeline — not a proof of concept in the loose sense, but a working, deployable system.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 21.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "SentinelGRC Ops pipeline",
+            "body": "30 CISA advisories ingested → Groq LLM maps to ISO 27001/SOC 2/GDPR → Jira tickets + Slack notifications routed by data sensitivity. 467 records, 99.6% pass rate.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 27.88,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:58:53"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "TOOL/BUILD",
+      "role_note": "ROI claim — the analyst time savings math.",
+      "narration_text": "The ROI slide estimates 450 to 675 dollars per month in saved analyst labor — for a tool that costs seven cents per month at team scale. That math is grounded: the pipeline replaces two to three hours per week of manual CVE-to-control mapping at an average analyst rate. That's the right way to frame tool value for a GRC buyer — not features, but time recovered.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "ROI Framing",
+            "body": "$450–675/month saved vs. $0.07/month to run. Two to three hours of analyst labor replaced. This is buyer language — time recovered, not feature lists.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 21.5,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:58:53"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 1 — The five pillars are strong on paper, hard to evidence in the deck.",
+      "narration_text": "Five pillars: operational honesty, rigor without rigidity, continuity of trust, lifelong learning under pressure, cross-cultural competence. These are well-chosen. But only the first and fourth have direct evidence in the submission — the pipeline for operational honesty, the MSIS pivot for learning under pressure. Pillars three and five need one concrete example each to move from aspiration to argument.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 20.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Pillars Need Evidence",
+            "body": "Operational honesty (pipeline) and learning under pressure (MSIS pivot) have evidence. Continuity of trust and cross-cultural competence need one concrete example each — or they stay aspirational.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 21.35,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:58:53"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 2 — The visual resume is narrated here, not shown.",
+      "narration_text": "A visual resume was submitted alongside the deck. We're discussing it in narration rather than showing it — privacy protocol for student submissions. From the text content: the resume documents the same GRC-plus-ops positioning as the deck, with a clean HR monogram header. The gap is that the visual system from the portfolio site doesn't appear to carry through consistently to the resume layout. Brand consistency across every surface is the standard.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 21.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Visual Resume — Narrated Only",
+            "body": "The visual resume is reviewed in narration per privacy protocol. Key check: does the resume carry the same visual system as the portfolio site? Brand consistency across every surface — site, deck, resume — is the standard.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B10.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 22.72,
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B10.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:58:53"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT",
+      "role_note": "ClaudeVerdictArtifact — final verdict.",
+      "narration_text": "One of the most complete Path A submissions in the cohort. The UVP is specific and argued, the competitive benchmark is rigorous, the tool is real, and the brand voice is consistent. The gaps are in evidencing two of the five pillars and in confirming visual system consistency across the resume. Both are small fixes relative to what's here.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "SentinelGRC Ops — Hammad",
+            "artifactHeading": "Complete, rigorous, and honest — the most fully argued personal brand in the cohort.",
+            "artifactLines": [
+              "UVP iteration documented and the final version is defensible on first read",
+              "Peer benchmarking is specific — seven dimensions across five actual candidates",
+              "SentinelGRC Ops is a real deployable pipeline, not a demo",
+              "—",
+              "Pillars three (continuity of trust) and five (cross-cultural competence) need concrete examples",
+              "Confirm visual system carries from portfolio site through to the visual resume layout",
+              "ROI claim would be stronger with one real analyst's estimate of current time spent"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.77,
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": "",
+        "filled_by": ""
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Your Turn — ClaudeComposerAsk.",
+      "narration_text": "Your turn. Pick one of the two underevidenced pillars — continuity of trust or cross-cultural competence — and write a 150-word story from your own experience that proves it. Not an assertion, a scene: what happened, what you did, what that demonstrated. Then check: does that same story appear anywhere on the portfolio site or in the Substack? If not, it should. Bring it into your next session.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375",
+            "segment": "Hammad",
+            "command": "Pick one underevidenced pillar — continuity of trust OR cross-cultural competence — and write a 150-word story from real experience that proves it. A scene, not an assertion. Then check: does this story exist anywhere on your portfolio site or Substack?",
+            "runningText": "your move...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.35,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:58:53"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "ClaudeTitleOutro — title re-read.",
+      "narration_text": "",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 5.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "INFO 7375 — Project Review: Hammad",
+            "handle": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 5.0,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:58:53"
+      }
+    }
+  ]
+}

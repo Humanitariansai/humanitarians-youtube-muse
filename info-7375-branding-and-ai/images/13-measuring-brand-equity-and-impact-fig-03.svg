@@ -1,0 +1,101 @@
+<!--
+  The NPS calculation and its four limits
+  Book: Branding and AI
+  Chapter: 13-measuring-brand-equity-and-impact
+  Figure: 03
+  Type: annotated diagram
+  Generated: 2026-06-18
+  Source: pantry/13-measuring-brand-equity-and-impact-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-13-03">
+  <title id="fig-title-13-03">The NPS calculation and its four documented limits</title>
+  <desc>Net Promoter Score compresses a zero to ten recommend-likelihood scale into detractors (0 to 6), passives (7 to 8), and promoters (9 to 10), then subtracts percent promoters minus percent detractors. Four callouts flag its limits: single-item, cultural calibration, information compression, and correlation.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="13-measuring-brand-equity-and-impact" figure-number="03"
+      figure-title="The NPS calculation and its four limits"
+      figure-slug="nps-calculation-and-limits"
+      figure-type="annotated diagram" priority="Important"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/13-measuring-brand-equity-and-impact-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Net Promoter Score: one number, four documented limits</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"How likely are you to recommend [brand] to a friend or colleague?" on a 0–10 scale.</text>
+
+  <!-- the 0-10 scale: eleven cells from x=70 to x=630, each 50 wide -->
+  <!-- detractors 0-6 -->
+  <rect x="70"  y="84" width="350" height="44" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <!-- passives 7-8 -->
+  <rect x="420" y="84" width="100" height="44" fill="#ADADAD" stroke="#121212" stroke-width="1"/>
+  <!-- promoters 9-10 -->
+  <rect x="520" y="84" width="100" height="44" fill="#787878" stroke="#121212" stroke-width="1"/>
+
+  <!-- internal cell ticks -->
+  <line x1="120" y1="84" x2="120" y2="128" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="170" y1="84" x2="170" y2="128" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="220" y1="84" x2="220" y2="128" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="270" y1="84" x2="270" y2="128" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="320" y1="84" x2="320" y2="128" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="370" y1="84" x2="370" y2="128" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="470" y1="84" x2="470" y2="128" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="570" y1="84" x2="570" y2="128" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- scale numerals -->
+  <text x="95"  y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0</text>
+  <text x="145" y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">1</text>
+  <text x="195" y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">2</text>
+  <text x="245" y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">3</text>
+  <text x="295" y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">4</text>
+  <text x="345" y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">5</text>
+  <text x="395" y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">6</text>
+  <text x="445" y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#FFFFFF">7</text>
+  <text x="495" y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#FFFFFF">8</text>
+  <text x="545" y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#FFFFFF">9</text>
+  <text x="595" y="113" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#FFFFFF">10</text>
+
+  <!-- zone labels -->
+  <text x="245" y="146" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Detractors (0–6)</text>
+  <text x="470" y="146" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Passives (7–8)</text>
+  <text x="570" y="146" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Promoters (9–10)</text>
+
+  <!-- formula -->
+  <text x="350" y="180" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13" fill="#121212">NPS  =  %promoters − %detractors    (range −100 to +100)</text>
+
+  <!-- divider -->
+  <line x1="32" y1="200" x2="668" y2="200" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="32" y="222" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="13" fill="#121212">Four documented limits</text>
+
+  <!-- four callout boxes 2x2 -->
+  <!-- single-item -->
+  <rect x="32" y="234" width="306" height="86" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="256" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Single-item problem</text>
+  <text x="44" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Captures willingness to recommend,</text>
+  <text x="44" y="292" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">never why. The follow-up question is</text>
+  <text x="44" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">where the actionable signal lives.</text>
+
+  <!-- cultural calibration -->
+  <rect x="362" y="234" width="306" height="86" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="374" y="256" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Cultural calibration</text>
+  <text x="374" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Scoring norms vary by country. An</text>
+  <text x="374" y="292" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">NPS of 30 in Japan and 30 in the US</text>
+  <text x="374" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">are not equivalent signals.</text>
+
+  <!-- information compression -->
+  <rect x="32" y="330" width="306" height="86" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="352" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Information compression</text>
+  <text x="44" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Three categories discard the scale:</text>
+  <text x="44" y="388" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">a 6 is treated like a 0; the 8/9 gap</text>
+  <text x="44" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">becomes a category boundary.</text>
+
+  <!-- correlation -->
+  <rect x="362" y="330" width="306" height="86" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="374" y="352" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Correlation problem</text>
+  <text x="374" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">A lagging measure of sentiment, not</text>
+  <text x="374" y="388" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">a leading growth forecast. The</text>
+  <text x="374" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">replication literature undermines it.</text>
+
+  <text x="32" y="440" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Track NPS as one lagging signal among several; compare it to itself over time,</text>
+  <text x="32" y="456" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">not to other industries' benchmarks.</text>
+</svg>

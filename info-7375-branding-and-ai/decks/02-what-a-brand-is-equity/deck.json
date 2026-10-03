@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "title": "What a Brand Is: Equity & Assets",
+    "short": "BRANDING · CH02",
+    "course": "Branding and AI · Chapter 02",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/02-what-a-brand-is-equity.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 02",
+      "title": "What a Brand Is: Equity & Assets",
+      "subtitle": "A logo is the cheapest part of a brand. The expensive part lives in someone else's head.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the quiet number",
+      "title": "Kraft paid about £11.5 billion for Cadbury",
+      "lead": "Most of the reporting focused on the drama — the hostile bid, the factory promises, the political backlash. There is a quieter number buried in that 2010 deal.",
+      "why": "the chapter states one magnitude and refuses the rest — 'A large fraction of that price was for something that doesn't exist anywhere you can point to. Not factories. Not cocoa contracts. Not machinery.' It never puts a figure on the goodwill",
+      "archetype": "scaleAxis",
+      "duration": 7.0,
+      "data": {
+        "axis": { "min": 0, "max": 12, "unit": "£ billion, the acquisition price", "log": false },
+        "items": [
+          { "label": "the Kraft–Cadbury price", "value": 11.5, "hot": true },
+          { "label": "factories, cocoa contracts, machinery", "value": 0, "pending": true },
+          { "label": "goodwill — the word Cadbury", "value": 0, "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S03", "section": "the behavioral test",
+      "title": "Two chemically identical bottles",
+      "lead": "The most direct way I know to see whether a brand is real: take acetaminophen, put one in a branded bottle and one in a generic, price them differently, and watch.",
+      "why": "the chapter runs a shared-origin experiment that separates at a named moment — identical chemistry, one label difference, and 'a measurable fraction of buyers pay more for the branded one. Every time. Across categories.'",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "chemically identical product",
+        "splitLabel": "one of them carries a name",
+        "tracks": [
+          {
+            "label": "the branded bottle", "outcome": "a price premium", "tone": "accent", "path": "up",
+            "notes": ["reduces the buyer's risk", "carries a bundle of associations", "signals what the experience will be"]
+          },
+          {
+            "label": "the generic bottle", "outcome": "the reference price", "tone": "ink", "path": "down",
+            "notes": ["same chemistry", "no network to activate", "nothing to be forgiven for"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S04", "section": "asset, not decoration",
+      "title": "An asset is something that produces future value",
+      "lead": "The delta in what buyers are willing to pay is brand equity made visible. It exists as surely as a machine that produces widgets, and it produces cash flows just as reliably.",
+      "bullets": [
+        "**Price premium** — they pay more for the same thing.",
+        "**Retention** — they come back without being re-acquired.",
+        "**Forgiveness** — they give you the benefit of the doubt when something goes wrong.",
+        "None of that happens from a logo. It happens because of accumulated expectations living in specific people's minds. *Everything else is instrumental to that.*"
+      ]
+    },
+    {
+      "id": "S05", "section": "how the asset is built",
+      "title": "Awareness is the floor, not the goal",
+      "lead": "Keller's pyramid is worth understanding not as a taxonomy but as a *theory of accumulation*. Most of this book is, in one form or another, about this climb.",
+      "why": "the chapter reads the pyramid as an ordered climb — 'Salience is necessary. It is also, crucially, not sufficient… Resonance is rare. It cannot be bought directly. It is the output of doing every level below it well'",
+      "archetype": "ladder",
+      "duration": 7.5,
+      "data": {
+        "lowLabel": "does it come to mind?",
+        "highLabel": "they evangelize",
+        "rungs": [
+          { "label": "Salience", "note": "does the brand surface at the moment of decision?" },
+          { "label": "Performance · Imagery", "note": "what it does · what it means socially" },
+          { "label": "Judgments · Feelings", "note": "built slowly, degraded quickly" },
+          { "label": "Resonance", "note": "customers seek you out, and recruit others" }
+        ]
+      }
+    },
+    {
+      "id": "S06", "section": "the middle of the pyramid",
+      "title": "Commodity on one side, fraud on the other",
+      "lead": "Every brand on the planet is trying to buy salience through advertising, and most of them stall there.",
+      "bullets": [
+        "You need **both** sides of the second level: performance without imagery is a **commodity**; imagery without performance is a **fraud**.",
+        "The third level is where brand work starts to feel qualitatively different — explicit evaluations (*is this quality? do I trust this company?*) and the emotional responses the brand reliably triggers.",
+        "These are built slowly and degraded quickly. **A product recall wipes out years of quality judgment in a news cycle.**",
+        "Resonance is where the compounding asset actually lives — the tattoo, the installed base, the community."
+      ]
+    },
+    {
+      "id": "S07", "section": "the four levers",
+      "title": "Keller gives you the shape. Aaker gives you the levers.",
+      "lead": "Aaker decomposes equity into four dimensions you can actually pull on.",
+      "bullets": [
+        "**Awareness** — the salience layer, quantified. Unaided recall beats aided recognition; top-of-mind is the most valuable kind, because it governs habitual purchase.",
+        "**Perceived quality** — regularly diverges from objective quality. It is a *brand* effect, not a product effect. The perceived quality of a wine tracks its price label more than its chemistry.",
+        "**Associations** — the richest and most defensible dimension. The brand name is the activation trigger; **the network is the asset.** Fractured brands have contradictory nodes that cancel.",
+        "**Loyalty** — behavioral *and* attitudinal. A customer locked in by switching costs is not loyal; they leave the moment the cost drops."
+      ]
+    },
+    {
+      "id": "S08", "section": "the diagnostic move",
+      "title": "Find the weakest dimension. Intervene there.",
+      "lead": "Map your brand on all four dimensions. Intervening on a strong dimension produces little; intervening on the weak one produces the most lift.",
+      "bullets": [
+        "This is not a market failure — it is how quality signals actually work when information is costly. **The brand is doing real work: reducing the buyer's estimation cost.**",
+        "When I talk later about positioning, what I mean at the cognitive level is building a particular association network in your target customers' minds — *before a competitor builds an incompatible one.*",
+        "Aaker's model stops at loyalty. **Brand evangelism** — when loyal customers actively recruit others — goes beyond this framework, and lands in **Chapter 12** as the output of a successful launch."
+      ]
+    },
+    {
+      "id": "S09", "section": "three words people confuse",
+      "title": "Identity is what you project. Image is what lands.",
+      "lead": "These get used interchangeably in most business conversation. They are not interchangeable, and the confusion produces actual strategic errors.",
+      "bullets": [
+        "**Brand identity** — the intended meaning, the strategy made visible. The ad, the spokesperson, the packaging, the price point. *The sender's side.*",
+        "**Brand image** — the associations actually perceived by the receiver. It is empirically measurable: ask enough customers and you have it.",
+        "**Brand equity** — the *value* generated when the image is favorable and the gap between identity and image is small. Not a message. Not a perception. **The downstream consequence of managing that gap.**"
+      ]
+    },
+    {
+      "id": "S10", "section": "the gap",
+      "title": "The gap is where equity leaks",
+      "lead": "Brand work, when it is working, is the management of the distance between identity and image. Two named leaks, and one you have to go find.",
+      "why": "the chapter names a membrane and two specific crossings that fail — 'When a company says \"premium\" and customers experience \"overpriced,\" that's a gap — equity is leaking. When a company projects \"innovative\" and customers encode \"unreliable,\" that's a gap with a different leak.'",
+      "archetype": "containment",
+      "duration": 8.0,
+      "data": {
+        "boundary": { "label": "WHAT ACTUALLY LANDS · THE IMAGE" },
+        "inside": [
+          { "label": "associations already encoded" },
+          { "label": "a competitor's network" },
+          { "label": "what the last recall taught them" }
+        ],
+        "attempts": [
+          { "label": "you say premium", "blocked": true, "from": "left" },
+          { "label": "you say innovative", "blocked": true, "from": "right" },
+          { "label": "a coherent network", "blocked": false, "from": "bottom" },
+          { "label": "your own gap", "blocked": null, "from": "top" }
+        ]
+      }
+    },
+    {
+      "id": "S11", "section": "the identity-side tool",
+      "title": "Kapferer's prism forces you to say it out loud",
+      "lead": "A useful diagnostic on the identity side: six facets mapped as a hexagon, so nothing stays vague.",
+      "bullets": [
+        "Sender side — **physique**, **personality**, **culture**.",
+        "Receiver side — **self-image**, **reflection**, **relationship**.",
+        "The image-side counterpart is qualitative research. The equity measurement is what comes next.",
+        "The point of the prism is not the hexagon. It is that a facet you cannot articulate is a facet you are not managing."
+      ]
+    },
+    {
+      "id": "S12", "section": "putting a number on it",
+      "title": "Three firms, three anchors, one arbitration standard",
+      "lead": "The valuations differ substantially across methods for the same brand. That is not a bug to be embarrassed about — **brand valuation is a model, not a measurement.** The chapter itself tags these methods for re-verification, so this grid grades only what it states.",
+      "why": "the chapter compares Interbrand, Kantar BrandZ and Brand Finance on what each anchors its method in, notes ISO 10668 as the standard 'all three firms reference', and carries an explicit [verify] tag on the methodology specifics",
+      "archetype": "matrixGrid",
+      "duration": 8.5,
+      "data": {
+        "rows": [
+          { "label": "financial forecast" },
+          { "label": "consumer research" },
+          { "label": "royalty relief" },
+          { "label": "ISO 10668" }
+        ],
+        "cols": [
+          { "label": "Interbrand" },
+          { "label": "Kantar BrandZ" },
+          { "label": "Brand Finance" }
+        ],
+        "cells": [
+          ["hit", "pending", "pending"],
+          ["pending", "hit", "pending"],
+          ["pending", "pending", "hit"],
+          ["hit", "hit", "hit"]
+        ]
+      }
+    },
+    {
+      "id": "S13", "section": "the audit",
+      "title": "Machine gathers. Human judges.",
+      "lead": "The equity audit has two layers that should not be collapsed. The failure mode is letting the output of the first layer do the work of the second.",
+      "why": "the chapter sorts the audit into exactly two named buckets and says so as its takeaway — 'the pattern that repeats across every AI-assisted brand task: machine gathers, human judges'",
+      "archetype": "tallySplit",
+      "duration": 8.0,
+      "data": {
+        "left": { "label": "Machine gathers", "pending": true },
+        "right": { "label": "Human judges", "pending": true },
+        "items": [
+          { "label": "what associations exist", "side": "left" },
+          { "label": "what sentiment attaches", "side": "left" },
+          { "label": "how it registers vs competitors", "side": "left" },
+          { "label": "clustering raw associations", "side": "left" },
+          { "label": "which Keller level it occupies", "side": "right" },
+          { "label": "which Aaker lever is weakest", "side": "right" },
+          { "label": "what the identity–image gap is", "side": "right" },
+          { "label": "load-bearing or noise", "side": "right" },
+          { "label": "your brand's equity verdict", "side": "pending" }
+        ],
+        "note": "Sentiment is not equity. A brand can be positive at salience and have no resonance — and Harley-Davidson's owners complain about quality and still tattoo the logo on their arms."
+      }
+    },
+    {
+      "id": "S14", "section": "grade your own audit",
+      "title": "Pass · Fail · Cannot-determine — with evidence",
+      "lead": "Five criteria on the audit you produce. Every verdict is yours, and none of them exists until you run it.",
+      "why": "the chapter's validation exercise lists five ordered criteria and instructs 'Rate each criterion Pass / Fail / Cannot-determine with evidence' — the verdicts depend entirely on the reader's own run",
+      "archetype": "gatePipeline",
+      "duration": 8.0,
+      "data": {
+        "input": { "label": "your equity audit" },
+        "gates": [
+          { "label": "Correctness", "rule": "each signal maps to the right Keller level", "pass": null },
+          { "label": "Completeness", "rule": "all four Aaker dimensions covered", "pass": null },
+          { "label": "Scope", "rule": "signal only — no fabricated valuation", "pass": null },
+          { "label": "Brand-specific", "rule": "associations, not product features restated", "pass": null },
+          { "label": "Failure-mode", "rule": "no sentiment score passed off as a verdict", "pass": null }
+        ],
+        "output": { "label": "an equity read you can defend", "pending": true }
+      }
+    },
+    {
+      "id": "S15", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Cite no valuation figure unless you can source it.",
+      "lead": "Run the baseline on your own brand: awareness signals, associations clustered into themes, a sentiment read, a competitor contrast. Tag every claim you cannot tie to a source [UNVERIFIED] — and leave the equity level blank. That column is yours. You now know what your equity *is*; next comes who it is *for*, because equity is built in specific minds, not in general."
+    }
+  ]
+}

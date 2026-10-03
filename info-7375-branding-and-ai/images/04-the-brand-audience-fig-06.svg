@@ -1,0 +1,68 @@
+<!--
+  Persona claim status: Confirmed / Needs Evidence / Inferred
+  Book: Branding and AI
+  Chapter: 04-the-brand-audience
+  Figure: 06
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/04-the-brand-audience-cajal.md
+-->
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04-06">
+  <title id="fig-title-04-06">Persona claim status</title>
+  <desc>Three columns — Confirmed, Needs Evidence, Inferred — each with a definition and a worked example claim from the Jordan and Alex personas. A persona where most claims are Needs Evidence is a hypothesis, not a research artifact.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="04-the-brand-audience"
+      figure-number="06" figure-title="Persona claim status" figure-slug="persona-claim-status"
+      figure-type="comparison panels" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/04-the-brand-audience-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="400" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Auditing a persona: every non-trivial claim earns a status tag</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">What separates a research artifact from a plausible invention is verifiability.</text>
+
+  <!-- Column 1 Confirmed -->
+  <rect x="32" y="86" width="200" height="230" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="32" y="86" width="200" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Confirmed</text>
+  <text x="44" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">I have evidence I could</text>
+  <text x="44" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">show someone.</text>
+  <line x1="44" y1="184" x2="220" y2="184" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="208" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">EXAMPLE — JORDAN</text>
+  <text x="44" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Anxiety about losing</text>
+  <text x="44" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">technical respect.</text>
+  <text x="44" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Three forum threads use</text>
+  <text x="44" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">almost the exact phrase.</text>
+
+  <!-- Column 2 Needs Evidence RED -->
+  <rect x="250" y="86" width="200" height="230" fill="#F5F5F5" stroke="#C8102E" stroke-width="2"/>
+  <rect x="250" y="86" width="200" height="36" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="262" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#C8102E">Needs evidence</text>
+  <text x="262" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">I believe this but have</text>
+  <text x="262" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">not verified it.</text>
+  <line x1="262" y1="184" x2="438" y2="184" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="262" y="208" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">EXAMPLE — JORDAN</text>
+  <text x="262" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Prefers asynchronous</text>
+  <text x="262" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">learning.</text>
+  <text x="262" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Plausible — but I have</text>
+  <text x="262" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">not asked.</text>
+
+  <!-- Column 3 Inferred -->
+  <rect x="468" y="86" width="200" height="230" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="468" y="86" width="200" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="480" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Inferred</text>
+  <text x="480" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Derived from something</text>
+  <text x="480" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">I did confirm.</text>
+  <line x1="480" y1="184" x2="656" y2="184" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="480" y="208" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">EXAMPLE — ALEX</text>
+  <text x="480" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Uses Slack as primary</text>
+  <text x="480" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">info channel.</text>
+  <text x="480" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">New managers tend to be</text>
+  <text x="480" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">heavy Slack users.</text>
+
+  <!-- footer rule -->
+  <rect x="32" y="332" width="636" height="34" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="354" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">A persona where most claims are "needs evidence" is a hypothesis, not a research artifact.</text>
+
+  <text x="32" y="392" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 4, PERSONAS AS RESEARCH, NOT FICTION</text>
+</svg>

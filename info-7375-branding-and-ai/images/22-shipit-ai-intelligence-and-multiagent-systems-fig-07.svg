@@ -1,0 +1,76 @@
+<!--
+  Anatomy of the competitor_analyst agent
+  Book: Branding and AI
+  Chapter: 22-shipit-ai-intelligence-and-multiagent-systems
+  Figure: 07
+  Type: annotated example
+  Generated: 2026-06-18
+  Source: pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-22-07">
+  <title id="fig-title-22-07">Anatomy of the competitor_analyst agent</title>
+  <desc>An annotated CrewAI agent specification. Leader lines connect the role, goal, backstory, and allow_delegation parameters to callouts explaining what each does and which failure mode it prevents.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="22-shipit-ai-intelligence-and-multiagent-systems"
+      figure-number="07" figure-title="Anatomy of the competitor_analyst agent" figure-slug="competitor-analyst-anatomy"
+      figure-type="annotated example" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Eight lines, three commitments — a Madison agent specification</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The naming is not cosmetic — each line is the contract between designer and LLM.</text>
+
+  <!-- code block -->
+  <rect x="32" y="72" width="340" height="232" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="94" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">Agent(</text>
+  <text x="56" y="112" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">role="Competitive Intelligence</text>
+  <text x="56" y="126" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">     Analyst",</text>
+  <text x="56" y="150" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">goal="Find &amp; summarize competitor</text>
+  <text x="56" y="164" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">  info cautiously. Return JSON.</text>
+  <text x="56" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">  If you cannot verify a point,</text>
+  <text x="56" y="192" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">  set it null &amp; explain limits.",</text>
+  <text x="56" y="216" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">backstory="Expert in competitive</text>
+  <text x="56" y="230" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">  intelligence. Prefers evidence</text>
+  <text x="56" y="244" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">  &amp; transparency over guessing.",</text>
+  <text x="56" y="268" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">tools=self._tools([...]),</text>
+  <text x="56" y="282" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">allow_delegation=False,</text>
+  <text x="44" y="298" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">)</text>
+
+  <!-- leader lines + callouts -->
+  <!-- role -> callout 1 -->
+  <line x1="372" y1="112" x2="412" y2="100" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="416" y="96" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">role</text>
+  <text x="416" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Activates training-data</text>
+  <text x="416" y="123" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">associations — primes</text>
+  <text x="416" y="136" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">analyst behaviour.</text>
+
+  <!-- goal -> callout 2 -->
+  <line x1="372" y1="178" x2="412" y2="168" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="416" y="164" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">goal</text>
+  <text x="416" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Contains a discipline, not</text>
+  <text x="416" y="191" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">just a task. "Set it null"</text>
+  <text x="416" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">is an anti-hallucination</text>
+  <text x="416" y="217" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">guard applied before output.</text>
+
+  <!-- backstory -> callout 3 -->
+  <line x1="372" y1="230" x2="412" y2="242" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="416" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">backstory</text>
+  <text x="416" y="258" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Personality and brand</text>
+  <text x="416" y="271" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">commitment at once — the</text>
+  <text x="416" y="284" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">tie-breaker for edge cases.</text>
+
+  <!-- allow_delegation -> callout 4 -->
+  <line x1="372" y1="282" x2="412" y2="304" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="416" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">allow_delegation=False</text>
+  <text x="416" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">The orchestration commitment</text>
+  <text x="416" y="333" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">in code. The agent cannot</text>
+  <text x="416" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">spawn sub-agents or redirect</text>
+  <text x="416" y="359" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">its own work. AutoGPT could.</text>
+
+  <!-- closing note -->
+  <rect x="32" y="324" width="340" height="64" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">When this fails, it fails locally.</text>
+  <text x="44" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">One agent, one tool call, one input — a</text>
+  <text x="44" y="377" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">specific thing to fix, not a 40-step trace.</text>
+</svg>

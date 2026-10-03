@@ -1,0 +1,73 @@
+<!--
+  Three compounding channels
+  Book: Branding and AI
+  Chapter: 18-portfolio-as-product
+  Figure: 02
+  Type: systems diagram
+  Generated: 2026-06-18
+  Source: pantry/18-portfolio-as-product-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-18-02">
+  <title id="fig-title-18-02">Three compounding channels</title>
+  <desc>A central portfolio fans out to three channels: direct hiring (short, visible), indirect reference (long, invisible chain — the high-compounding path), and template effects (branching, autonomous forks carrying your name). Channel 2 is where compounding lives.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="18-portfolio-as-product" figure-number="02"
+      figure-title="Three compounding channels"
+      figure-slug="three-compounding-channels"
+      figure-type="systems diagram" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/18-portfolio-as-product-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three compounding channels</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Most graduates design for the first and leave the other two on the table with no extra investment.</text>
+
+  <defs>
+    <marker id="arrow-18-02" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+    <marker id="arrow-18-02r" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#C8102E"/>
+    </marker>
+  </defs>
+
+  <!-- central portfolio node -->
+  <rect x="40" y="180" width="120" height="72" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="100" y="210" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Portfolio</text>
+  <text x="100" y="228" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">built once</text>
+
+  <!-- Channel 1: short solid -->
+  <line x1="160" y1="200" x2="430" y2="120" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-18-02)"/>
+  <rect x="440" y="92" width="220" height="58" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="452" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Channel 1 · Direct hiring</text>
+  <text x="452" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">recruiter finds it, pulls résumé,</text>
+  <text x="452" y="143" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">advances you. Visible, predictable.</text>
+
+  <!-- Channel 2: long dashed RED (the focal compounding path) -->
+  <path d="M160 216 C 280 216, 330 218, 430 218" fill="none" stroke="#C8102E" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow-18-02r)"/>
+  <rect x="440" y="190" width="220" height="58" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="452" y="212" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#C8102E">Channel 2 · Indirect reference</text>
+  <text x="452" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">share, bookmark, "I heard about you</text>
+  <text x="452" y="241" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">from…" — where the compounding lives.</text>
+
+  <!-- Channel 3: branching autonomous -->
+  <line x1="160" y1="232" x2="430" y2="312" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-18-02)"/>
+  <rect x="440" y="288" width="220" height="58" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="452" y="310" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Channel 3 · Template effects</text>
+  <text x="452" y="326" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">forks, footer credits, "inspired by" —</text>
+  <text x="452" y="339" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">at scale, on autopilot.</text>
+
+  <!-- channel 3 derivative branches -->
+  <line x1="490" y1="346" x2="470" y2="378" stroke="#ADADAD" stroke-width="1" marker-end="url(#arrow-18-02)"/>
+  <line x1="540" y1="346" x2="540" y2="378" stroke="#ADADAD" stroke-width="1" marker-end="url(#arrow-18-02)"/>
+  <line x1="590" y1="346" x2="610" y2="378" stroke="#ADADAD" stroke-width="1" marker-end="url(#arrow-18-02)"/>
+  <text x="540" y="396" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">derivatives carry your name — Chiang's 6,000+ forks</text>
+
+  <text x="32" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Optimize</text>
+  <text x="32" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Channel 2</text>
+  <text x="32" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">first: make</text>
+  <text x="32" y="342" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">it worth</text>
+  <text x="32" y="356" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">referencing.</text>
+</svg>

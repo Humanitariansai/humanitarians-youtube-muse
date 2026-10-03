@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "title": "Professional Presence and Launch",
+    "short": "BRANDING · CH19",
+    "course": "Branding and AI · Chapter 19",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/19-professional-presence-and-launch.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 19",
+      "title": "Professional Presence and Launch",
+      "subtitle": "The final deliverable is not your portfolio. It is you.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the case",
+      "title": "Air mattresses, branded cereal, and ten plain slides",
+      "lead": "In early 2009, three founders walked into Y Combinator with a ten-slide deck and a working prototype. None of this was a strong opening.",
+      "bullets": [
+        "Plain typography, simple bar charts, no design flourishes.",
+        "Y Combinator invested **$20,000**. Sequoia followed. The deck raised **$600,000** total.",
+        "That deck is now one of the most studied artifacts in startup pitch literature — **not because of how it looked, but because of what it did.**",
+        "This chapter is about building that kind of coherence into everything you ship."
+      ]
+    },
+    {
+      "id": "S03", "section": "why it worked",
+      "title": "Ten slides, one argument",
+      "lead": "Most pitches make ten different arguments. Each slide is a separate plea. This one made a single argument across ten slides.",
+      "why": "chapter states the deck as a dependency chain — 'Problem implied solution. Solution implied market. Market implied business model. Business model implied team. Each slide leaned on the previous one.'",
+      "archetype": "graph",
+      "duration": 8.5,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          { "id": "prob", "label": "problem", "tone": "accent", "layer": 0 },
+          { "id": "sol", "label": "solution", "tone": "ink", "layer": 1 },
+          { "id": "mkt", "label": "market", "tone": "ink", "layer": 2 },
+          { "id": "biz", "label": "business model", "tone": "ink", "layer": 3 },
+          { "id": "team", "label": "team", "tone": "good", "layer": 4 }
+        ],
+        "edges": [
+          { "from": "prob", "to": "sol", "label": "implies" },
+          { "from": "sol", "to": "mkt", "label": "implies" },
+          { "from": "mkt", "to": "biz", "label": "implies" },
+          { "from": "biz", "to": "team", "label": "implies" }
+        ]
+      }
+    },
+    {
+      "id": "S04", "section": "the coherence principle",
+      "title": "Three properties, none of them visual",
+      "lead": "The Airbnb deck worked because of three things that had nothing to do with its design quality.",
+      "bullets": [
+        "**Every slide answered the same question.** The audience left with one thing in their heads because there was only one thing to hold.",
+        "**Specific numbers did load-bearing work.** The difference between \"strong early user interest\" and **\"87 bookings in the first six weeks\"** is the difference between a claim and evidence.",
+        "**The team slide carried weight.** Named founders, relevant history. In a seed-stage company with no revenue, the team slide *is* the pitch.",
+        "Specificity signals that founders have done the work. Vagueness signals that they have not."
+      ]
+    },
+    {
+      "id": "S05", "section": "not pitch properties",
+      "title": "These are presentation properties. Every surface. Every time.",
+      "lead": "They apply to your LinkedIn headline, your résumé bullets, your portfolio case studies, and the email you send the morning after an interview. Nobody can fill this grid but you.",
+      "why": "chapter extends the three properties across four named surfaces — 'They apply to your LinkedIn headline, your resume bullets, your portfolio case studies, and the email you send the morning after an interview' — and states no verdict for any of them",
+      "archetype": "matrixGrid",
+      "duration": 9.0,
+      "data": {
+        "rows": [
+          { "label": "One argument" },
+          { "label": "Specific numbers" },
+          { "label": "Named and specific" }
+        ],
+        "cols": [
+          { "label": "The deck" },
+          { "label": "LinkedIn" },
+          { "label": "Résumé" },
+          { "label": "Follow-up" }
+        ],
+        "cells": [
+          ["pending", "pending", "pending", "pending"],
+          ["pending", "pending", "pending", "pending"],
+          ["pending", "pending", "pending", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S06", "section": "negative space",
+      "title": "Notice what the deck does not have",
+      "lead": "No slide about technical architecture. No slide about the company's values. No TAM-SAM-SOM breakdown. No feature roadmap.",
+      "bullets": [
+        "It is a ten-slide **argument**, not a comprehensive briefing document.",
+        "**Comprehensive briefing documents do not raise money. Arguments do.**",
+        "The deck did acknowledge competition — Couchsurfing, hostels, Craigslist. Acknowledging alternatives signals confidence; pretending they do not exist signals insecurity.",
+        "When you build your final presentation, follow the same discipline."
+      ]
+    },
+    {
+      "id": "S07", "section": "the résumé",
+      "title": "The artifact that travels without you",
+      "lead": "It moves through ATS systems, HR inboxes and hiring-manager forwards. It must survive the automated filter and then earn attention from the human reader. Those are two different requirements.",
+      "why": "chapter names a sequence the résumé must clear in order — 'It must survive the automated filter and then earn attention from the human reader' — and no verdict belongs to the chapter; each one is the reader's own submission",
+      "archetype": "gatePipeline",
+      "duration": 8.5,
+      "data": {
+        "input": { "label": "your résumé" },
+        "gates": [
+          { "label": "ATS parse", "rule": "software reads it before any human does", "pass": null },
+          { "label": "The skim", "rule": "outcomes, not responsibilities", "pass": null },
+          { "label": "The human reader", "rule": "craft legible in the first five seconds", "pass": null },
+          { "label": "Cross-artifact match", "rule": "same person as the portfolio and LinkedIn", "pass": null }
+        ],
+        "output": { "label": "the interview", "pending": true }
+      }
+    },
+    {
+      "id": "S08", "section": "version one",
+      "title": "The ATS version follows one rule: make it easy for software to read",
+      "lead": "Applicant Tracking Systems extract text, score it against keyword criteria, and decide whether you advance. They are notoriously bad at parsing unusual layouts.",
+      "why": "chapter draws the parser's boundary and names exactly what fails to cross it — 'two-column formats, tables, graphics, unusual fonts, text embedded in images… nothing critical in headers or footers; some parsers skip them entirely'",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT THE PARSER CAN READ" },
+        "inside": [
+          { "label": "single column" },
+          { "label": "standard section headers" },
+          { "label": "standard fonts" },
+          { "label": "the field's own vocabulary" }
+        ],
+        "attempts": [
+          { "label": "two-column layout", "blocked": true, "from": "left" },
+          { "label": "tables", "blocked": true, "from": "top" },
+          { "label": "text inside images", "blocked": true, "from": "right" },
+          { "label": "header / footer text", "blocked": true, "from": "top" },
+          { "label": "PDF and .docx", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S09", "section": "the discipline most students violate",
+      "title": "Show outcomes, not responsibilities",
+      "lead": "If you do not have the number, write `[verify with X]` rather than inventing a figure. A missing number is honest; a wrong number is disqualifying.",
+      "why": "chapter puts the same work in two bullet forms — '\"Worked with the team on data engineering tasks\" is a responsibility statement' against the measured version with 870 articles per day and a 90% deduplication rate",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "the same work you actually did",
+        "splitLabel": "how you wrote the bullet",
+        "tracks": [
+          {
+            "label": "Outcome · \"870 articles per day, 90% dedup\"", "outcome": "evidence", "tone": "good", "path": "up",
+            "notes": ["a number", "a quality metric", "a business impact"]
+          },
+          {
+            "label": "Responsibility · \"worked with the team on data engineering tasks\"", "outcome": "a claim", "tone": "warn", "path": "down",
+            "notes": ["no scale", "no result", "nothing a reviewer can picture"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S10", "section": "version two",
+      "title": "Same content. Different format. One identity.",
+      "lead": "Once the filter is cleared — or when you are sending directly to a human — the designer version is the one that signals who you are.",
+      "bullets": [
+        "Use the visual system you already built: your palette, your type pair, your layout register. A reviewer who has seen the portfolio should recognise the same person.",
+        "PDF only. Legible at **100%** zoom on a standard laptop screen. No more than **two pages**, ideally one.",
+        "Same job titles, same companies, same dates, same bullets. **The difference is format, not content.**",
+        "The archetype should be readable in the format choices before the reader has read a word. A Sage's is precise and dense. A Creator's uses white space. A Rebel's breaks one rule, visibly."
+      ]
+    },
+    {
+      "id": "S11", "section": "social",
+      "title": "Social media is a coherence surface, not a follower game",
+      "lead": "Most graduates either over-invest — chasing counts, posting without a thesis — or under-invest, treating LinkedIn as a checkbox. Both are mistakes.",
+      "bullets": [
+        "**Headline.** The most-read text in your entire professional presence. *\"AI Engineer at Acme Corp\"* tells a reader where you work. A positioning sentence tells them what you are **for**.",
+        "**About.** **2,000** characters of brand real estate. Most people use it to repeat the experience section. Use it to answer why the work matters and who it is for.",
+        "**Featured.** Pin three things: portfolio URL, tool URL, best published piece.",
+        "Comments that add a specific thought, a data point or a counterargument build presence. \"Great post!\" is noise."
+      ]
+    },
+    {
+      "id": "S12", "section": "the stack",
+      "title": "The same person, at increasing depth",
+      "lead": "Not four versions of you in different tones for different audiences. One person, read further down.",
+      "why": "chapter orders the surfaces by read-depth — 'A reader who encounters you on LinkedIn, then your portfolio, then your GitHub, then your writing, should find the same person at increasing depth' — with the figure naming social as shallowest and portfolio as deepest",
+      "archetype": "ladder",
+      "duration": 7.5,
+      "data": {
+        "lowLabel": "first encounter",
+        "highLabel": "full depth",
+        "rungs": [
+          { "label": "Headline", "note": "search results, connection requests, message previews" },
+          { "label": "About section", "note": "why the work matters, and who it is for" },
+          { "label": "GitHub", "note": "pinned repos, each with a README that explains the decisions" },
+          { "label": "Published writing", "note": "the archive becomes discoverable and citable" },
+          { "label": "Portfolio", "note": "the deep read — same headshot, same bio, same voice" }
+        ]
+      }
+    },
+    {
+      "id": "S13", "section": "platform fit",
+      "title": "Not every platform is your platform",
+      "lead": "GitHub is not optional. The rest is archetype-dependent, and the opportunity cost is real.",
+      "bullets": [
+        "**GitHub.** A viewer who sees seventeen unfinished repositories with no documentation reads a different archetype than one who sees four complete ones, each with a well-written README.",
+        "**Twitter/X.** Sage and Hero can use it productively for technical commentary. Caregiver and Innocent often find it culturally hostile — the opportunity cost of investing there is high.",
+        "**Blog or Substack.** Recommended for Sage especially. The compounding is not follower count; it is that the archive becomes a body of work that is discoverable and citable."
+      ]
+    },
+    {
+      "id": "S14", "section": "the final presentation",
+      "title": "10 / 20 / 30, and the number everyone underestimates",
+      "lead": "Ten slides. Twenty minutes. Thirty-point font minimum. The third one is the one that does the work.",
+      "bullets": [
+        "Kawasaki's argument: a presenter who uses smaller font has too much content per slide and is **reading** the slides rather than presenting them.",
+        "Forcing 30-point font forces editing. **Editing is what good presentations need.**",
+        "If you cannot fit the content at 30-point font, the content is too dense for slides — move it to your speaking script.",
+        "Each slide: one big idea, one big number, or one big visual. Nothing else."
+      ]
+    },
+    {
+      "id": "S15", "section": "the ten slides",
+      "title": "The structure, adapted from Kawasaki and the Airbnb pattern",
+      "lead": "Each slide leans on the one before it, the same way the Airbnb deck did.",
+      "bullets": [
+        "**1 Title · 2 Problem · 3 Solution.** Open in a specific moment — one person, one morning, one pain. Then what you built, in user-facing terms.",
+        "**4 How it works · 5 Demo.** One labeled diagram at a level the room can follow. The deployed URL is real — show it, or show screenshots of actual use.",
+        "**6 Brand position · 7 Validation.** Archetype, audience, voice, and what the tool refuses to do. Then any users, any metrics, any feedback — specific numbers, small ones included.",
+        "**8 Roadmap · 9 You as the team · 10 The ask.** Not a feature list but an argument. Then your archetype and methodology. Then exactly what you want the room to do."
+      ]
+    },
+    {
+      "id": "S16", "section": "the two that persuade",
+      "title": "The slides most students skip are the ones doing the persuasion",
+      "lead": "Slide 6 and Slide 9. Every other technical build in the room has slides 1 through 5.",
+      "bullets": [
+        "**Brand position** is the slide that distinguishes your presentation from every other build. Most students skip it or fold it into the solution slide. Put it in, explicitly.",
+        "**You as the team** is the most important slide in the deck for a hiring or partnership audience. Done well, it does most of the persuasion work.",
+        "The ask closes it. *\"I am looking for a machine-learning engineering role at a startup building user-facing AI products. If that describes you or someone you know, I would like fifteen minutes.\"*",
+        "Vague asks produce vague responses. Specific asks produce yes or no — both of which are useful."
+      ]
+    },
+    {
+      "id": "S17", "section": "delivery",
+      "title": "Open in scene, not in introduction",
+      "lead": "The first sixty seconds are when the audience decides whether to pay attention. \"Hi, I am [name] and today I will be presenting…\" wastes them.",
+      "bullets": [
+        "*\"It is 7:45 on a Tuesday morning. A marketing manager opens her laptop. Checking what happened in her competitor landscape overnight takes forty-five minutes of tab-switching across six dashboards. My tool does that in ninety seconds. Here is how.\"*",
+        "The difference is not talent. It is whether the presenter opened in scene or opened in introduction.",
+        "Practise the full run-through at least twice. **Record the second practice and watch it.** You will find at least one place where you are reading from the slide rather than presenting.",
+        "Close with the ask, delivered directly. Do not trail off. The ask is the last impression."
+      ]
+    },
+    {
+      "id": "S18", "section": "building for after",
+      "title": "Write the post-course plan before the presentation, not after",
+      "lead": "The course ends. The work continues. The compound interest of the next two years will dwarf the return of the course itself — but only if you install the habits while the momentum is live.",
+      "why": "chapter registers a commitment ahead of the evidence — 'Write the post-course plan before the final presentation, not after… Calendar them as appointments' — while conceding the return itself is unproven",
+      "archetype": "lockTimeline",
+      "duration": 8.0,
+      "data": {
+        "commit": { "at": 0.12, "label": "the plan, written before the launch" },
+        "marks": [
+          { "at": 0.36, "label": "portfolio refreshed quarterly" },
+          { "at": 0.56, "label": "published on the cadence you committed to" },
+          { "at": 0.76, "label": "relationships engaged, monthly" }
+        ],
+        "resolve": { "at": 0.92, "label": "the compounding", "pending": true },
+        "axisLabel": "the two years after the course"
+      }
+    },
+    {
+      "id": "S19", "section": "the compounding claim",
+      "title": "Cadence beats quality at the margin",
+      "lead": "Same total number of pieces. Dramatically different trajectories. The variable is spacing, not brilliance.",
+      "why": "chapter's own chart is a divergence from a shared origin — 'same total number of pieces, dramatically different compounding trajectories', consistent monthly publishing against a burst-and-abandon pattern",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "the same total number of pieces",
+        "splitLabel": "how they were spaced",
+        "tracks": [
+          {
+            "label": "Consistent · one well-argued piece a month", "outcome": "a body of work", "tone": "good", "path": "up",
+            "notes": ["discoverable, citable, searchable", "month thirty-six gets found in month forty", "the archive does the work"]
+          },
+          {
+            "label": "Burst, then abandon", "outcome": "a flatline", "tone": "warn", "path": "down",
+            "notes": ["spikes, then nothing", "no archive to find", "reads as: this person stopped building"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S20", "section": "the assembled engineer",
+      "title": "The four verbs have now run their full course",
+      "lead": "The final presentation is not a school deliverable. It is the first Ship of the rest of your career.",
+      "why": "chapter closes the loop it opened in Chapter 1 — 'Ideate happened in Chapter 4… Build happened in Chapters 5, 6, and 7… Brand happened in Chapters 8, 9, and 10… Ship happened in Chapter 11 and in this chapter' — with a return arrow to the start",
+      "archetype": "graph",
+      "duration": 8.0,
+      "data": {
+        "layout": "ring",
+        "nodes": [
+          { "id": "ideate", "label": "Ideate", "tone": "ink" },
+          { "id": "build", "label": "Build", "tone": "ink" },
+          { "id": "brand", "label": "Brand", "tone": "ink" },
+          { "id": "ship", "label": "Ship", "tone": "accent" }
+        ],
+        "edges": [
+          { "from": "ideate", "to": "build", "label": "Career PRD" },
+          { "from": "build", "to": "brand", "label": "pipeline · AI layer · interface" },
+          { "from": "brand", "to": "ship", "label": "strategy · identity · story" },
+          { "from": "ship", "to": "ideate", "label": "and again" }
+        ]
+      }
+    },
+    {
+      "id": "S21", "section": "the limits",
+      "title": "What this chapter cannot tell you",
+      "lead": "The case — that archetype-coherent presentations produce better outcomes than incoherent ones of equivalent technical merit — is grounded in pattern observation, not a controlled study.",
+      "bullets": [
+        "**What would change my mind:** evidence from a study holding technical quality constant that showed no significant effect of coherence on outcome. That study does not exist. The gap is real.",
+        "**Still puzzling:** some technically polished pitches read as performative — the mechanics are right but the speaker is not there. Others are visibly imperfect and land powerfully.",
+        "I suspect it has to do with the difference between *performing* coherence and *having* it. The audience, somehow, can tell.",
+        "Craft matters. It is not the whole story."
+      ]
+    },
+    {
+      "id": "S22", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "There is no next chapter. The next exercise is real.",
+      "lead": "Build the ten slides. Rewrite every responsibility bullet as an outcome, and put `[verify with X]` where you do not have the number yet. Run the coherence grid across all four surfaces and fill in the cells this deck left grey. Then send the launch post, go to the interviews, and iterate."
+    }
+  ]
+}

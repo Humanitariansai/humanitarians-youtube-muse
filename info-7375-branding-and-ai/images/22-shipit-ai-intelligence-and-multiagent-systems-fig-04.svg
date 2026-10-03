@@ -1,0 +1,101 @@
+<!--
+  Archetype-to-architecture mapping
+  Book: Branding and AI
+  Chapter: 22-shipit-ai-intelligence-and-multiagent-systems
+  Figure: 04
+  Type: comparison matrix
+  Generated: 2026-06-18
+  Source: pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-22-04">
+  <title id="fig-title-22-04">Archetype-to-architecture mapping</title>
+  <desc>A mapping table for five brand archetypes — Sage, Creator, Explorer, Hero, Caregiver — each with a recommended architecture tendency, the archetype's shadow expressed as an AI failure mode, and what to watch for in production.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="22-shipit-ai-intelligence-and-multiagent-systems"
+      figure-number="04" figure-title="Archetype-to-architecture mapping" figure-slug="archetype-architecture-mapping"
+      figure-type="comparison matrix" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Does your architecture express your archetype, or its shadow?</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The architectural choice and the archetype choice are not independent.</text>
+
+  <!-- header -->
+  <rect x="32" y="72" width="110" height="36" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="72" width="160" height="36" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="302" y="72" width="180" height="36" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="482" y="72" width="186" height="36" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="94" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Archetype</text>
+  <text x="150" y="94" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Architecture tendency</text>
+  <text x="310" y="94" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Shadow as AI failure mode</text>
+  <text x="490" y="94" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Watch for in production</text>
+
+  <!-- rows -->
+  <!-- Sage -->
+  <rect x="32" y="108" width="110" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="108" width="160" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="302" y="108" width="180" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="482" y="108" width="186" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Sage</text>
+  <text x="150" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Architecture B, with</text>
+  <text x="150" y="143" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">explicit "cannot verify"</text>
+  <text x="150" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">guards</text>
+  <text x="310" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Dogmatism — overconfident,</text>
+  <text x="310" y="143" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">will not admit ignorance</text>
+  <text x="490" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Wrong answers delivered</text>
+  <text x="490" y="143" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">with high confidence</text>
+
+  <!-- Creator -->
+  <rect x="32" y="166" width="110" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="166" width="160" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="302" y="166" width="180" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="482" y="166" width="186" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Creator</text>
+  <text x="150" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Architecture A if user is</text>
+  <text x="150" y="203" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">a creative professional</text>
+  <text x="310" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Perfectionism — invested in</text>
+  <text x="310" y="203" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">process over the user</text>
+  <text x="490" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Visible process more</text>
+  <text x="490" y="203" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">interesting than output</text>
+
+  <!-- Explorer -->
+  <rect x="32" y="224" width="110" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="224" width="160" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="302" y="224" width="180" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="482" y="224" width="186" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Explorer</text>
+  <text x="150" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Architecture A — but</text>
+  <text x="150" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">high-risk; needs hard</text>
+  <text x="150" y="274" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">ceilings</text>
+  <text x="310" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Aimlessness — no</text>
+  <text x="310" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">destination, no result</text>
+  <text x="490" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Explores forever,</text>
+  <text x="490" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">delivers nothing (AutoGPT)</text>
+
+  <!-- Hero -->
+  <rect x="32" y="282" width="110" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="282" width="160" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="302" y="282" width="180" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="482" y="282" width="186" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Hero</text>
+  <text x="150" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Architecture B — reliable,</text>
+  <text x="150" y="319" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">decisive delivery</text>
+  <text x="310" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Overreach — promises more</text>
+  <text x="310" y="319" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">than it can deliver reliably</text>
+  <text x="490" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Bold claims that the</text>
+  <text x="490" y="319" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">system cannot back up</text>
+
+  <!-- Caregiver -->
+  <rect x="32" y="340" width="110" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="340" width="160" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="302" y="340" width="180" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="482" y="340" width="186" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Caregiver</text>
+  <text x="150" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Architecture B — safe,</text>
+  <text x="150" y="377" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">predictable, human-gated</text>
+  <text x="310" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Smothering — does too much</text>
+  <text x="310" y="377" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">for the user, removes agency</text>
+  <text x="490" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Acts on the user's</text>
+  <text x="490" y="377" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">behalf without consent</text>
+</svg>

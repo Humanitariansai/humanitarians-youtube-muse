@@ -1,0 +1,174 @@
+{
+  "video": "review-xinchen",
+  "metadata": {
+    "slug": "review-xinchen",
+    "title": "INFO 7375 \u2014 Project Review: Xinchen",
+    "topic": "INFO 7375 \u00b7 PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 420,
+    "build": {
+      "at": "2026-08-17T00:20:46",
+      "cut": "master",
+      "filled": 10,
+      "of": 13,
+      "slates": [
+        "B02",
+        "B03",
+        "B04"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 13,
+  "beats_open": 3,
+  "beats": [
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "media/B00.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B00.mp4",
+      "label": "Hey Claude \u2014 I just read Xinchen's final brand portfolio for INFO 7375. Path A personal brand \u2014 an e"
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "media/B01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B01.mp4",
+      "label": "Path A required a complete personal brand system \u2014 UVP, pillars, target audience, visual identity, s"
+    },
+    {
+      "beat_id": "B02",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: Turning Complexity into Clarity is a tagline that does real work. It applies to all four pillars \u2014 strategy, technology, data, and UX \u2014 without being generic. T",
+      "slot": "media/B02.png (or .mp4)",
+      "label": "Turning Complexity into Clarity is a tagline that does real work. It applies to all four pillars \u2014 s"
+    },
+    {
+      "beat_id": "B03",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The logo exists in two documented configurations: horizontal lockup for professional and digital brand applications, and a stacked variation for compact vertica",
+      "slot": "media/B03.png (or .mp4)",
+      "label": "The logo exists in two documented configurations: horizontal lockup for professional and digital bra"
+    },
+    {
+      "beat_id": "B04",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: Three case studies: campaign strategy and performance optimization, UK livestream commerce market entry, and user growth and retention analysis. These are selec",
+      "slot": "media/B04.png (or .mp4)",
+      "label": "Three case studies: campaign strategy and performance optimization, UK livestream commerce market en"
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "media/B05.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B05.mp4",
+      "label": "The palette is deep navy and coral-orange \u2014 navy for authority and depth, coral for the clarity mome"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "media/B06.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B06.mp4",
+      "label": "The visual identity slide shows the logo system but doesn't list the palette hex values, typeface na"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "media/B07.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B07.mp4",
+      "label": "The positioning is Strategy, Technology, Data, UX \u2014 turning complexity into clarity. That's four ser"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "media/B08.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B08.mp4",
+      "label": "The three case studies are listed as selected work \u2014 campaign strategy, UK livestream commerce, user"
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "media/B09.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B09.mp4",
+      "label": "The submission doesn't include an origin story, a storytelling framework, or a personal narrative. T"
+    },
+    {
+      "beat_id": "BVDT",
+      "status": "filled",
+      "on_disk": "media/BVDT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BVDT.mp4",
+      "label": "Coherent mark, consistent visual system, real case studies, live site. The submission is complete an"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. Pick the UK livestream commerce case study and write it as a full case study: the client "
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": ""
+    }
+  ]
+}

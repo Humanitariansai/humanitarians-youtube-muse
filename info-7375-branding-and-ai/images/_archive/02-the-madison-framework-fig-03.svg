@@ -1,0 +1,45 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-2-3 desc-2-3">
+<title id="title-2-3">One ReAct loop in the Intelligence Agent</title>
+<desc id="desc-2-3">A single Thought-Action-Observation cycle for Madison's Intelligence Agent, with the three steps labelled and an arrow showing the observation feeding back into the next thought. The student should see why observation feeds back into reasoning, making this an agent rather than a script.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">One ReAct loop in the Intelligence Agent</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Reason, act, observe — then the observation feeds back into the next reasoning step.</text>
+
+<!-- THOUGHT box (red, primary) -->
+<rect x="80" y="110" width="200" height="74" fill="#C8102E" stroke="#2a1a0e" stroke-width="1"/>
+<text x="180" y="136" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="11" letter-spacing="0.06em" fill="#FFFFFF">THOUGHT</text>
+<text x="180" y="156" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#FFFFFF">Reason about state:</text>
+<text x="180" y="170" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#FFFFFF">"Time to pull today's news."</text>
+
+<!-- ACTION box -->
+<rect x="420" y="110" width="200" height="74" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="520" y="136" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="11" letter-spacing="0.06em" fill="#2a1a0e">ACTION</text>
+<text x="520" y="156" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">Call a tool:</text>
+<text x="520" y="170" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">pull RSS, News API, subreddits.</text>
+
+<!-- OBSERVATION box -->
+<rect x="420" y="244" width="200" height="74" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="520" y="270" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="11" letter-spacing="0.06em" fill="#2a1a0e">OBSERVATION</text>
+<text x="520" y="290" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">Tool returns a result:</text>
+<text x="520" y="304" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">"870 articles received."</text>
+
+<!-- THOUGHT' (next) -->
+<rect x="80" y="244" width="200" height="74" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="180" y="270" text-anchor="middle" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="11" letter-spacing="0.06em" fill="#2a1a0e">THOUGHT</text>
+<text x="180" y="290" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">Update reasoning:</text>
+<text x="180" y="304" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">"Deduplicate before scoring."</text>
+
+<!-- arrows -->
+<path d="M 280 147 L 416 147" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M 520 184 L 520 240" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M 420 281 L 284 281" stroke="#C8102E" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M 180 244 L 180 188" stroke="#2a1a0e" stroke-width="1.5" stroke-dasharray="3 3" fill="none" marker-end="url(#arrow)"/>
+
+<text x="352" y="142" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">reason → act</text>
+<text x="300" y="276" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#C8102E">observation feeds back</text>
+<text x="196" y="216" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">loop continues</text>
+
+<line x1="48" y1="382" x2="652" y2="382" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="400" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 2.3</text>
+</svg>

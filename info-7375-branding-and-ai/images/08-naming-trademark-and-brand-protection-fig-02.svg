@@ -1,0 +1,65 @@
+<!--
+  The Abercrombie strength spectrum
+  Book: Branding and AI
+  Chapter: 08-naming-trademark-and-brand-protection
+  Figure: 02
+  Type: conceptual map
+  Generated: 2026-06-18
+  Source: pantry/08-naming-trademark-and-brand-protection-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-08-02">
+  <title id="fig-title-08-02">The Abercrombie strength spectrum</title>
+  <desc>Horizontal scale from generic to fanciful with five stops: generic, descriptive, suggestive, arbitrary, fanciful. Protectability rises left to right while initial legibility falls. Generic is never protectable; protection without secondary meaning begins at suggestive.</desc>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The Abercrombie spectrum: what makes a name clear is what makes it weak to protect</text>
+
+  <!-- upper band: protectability rising -->
+  <text x="60" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Legal protectability</text>
+  <line x1="60" y1="98" x2="640" y2="98" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <polygon points="640 98, 630 94, 630 102" fill="#787878"/>
+  <text x="60" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">weakest</text>
+  <text x="600" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="end">strongest</text>
+
+  <!-- spectrum axis -->
+  <line x1="60" y1="200" x2="640" y2="200" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- five stops -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">
+    <line x1="105" y1="192" x2="105" y2="208" stroke="#121212" stroke-width="1.5"/>
+    <text x="105" y="184">Generic</text>
+    <text x="105" y="228" font-size="11" fill="#545454">"Software"</text>
+
+    <line x1="235" y1="192" x2="235" y2="208" stroke="#121212" stroke-width="1.5"/>
+    <text x="235" y="184">Descriptive</text>
+    <text x="235" y="228" font-size="11" fill="#545454">"Cold and Creamy"</text>
+
+    <line x1="350" y1="192" x2="350" y2="208" stroke="#121212" stroke-width="1.5"/>
+    <text x="350" y="184">Suggestive</text>
+    <text x="350" y="228" font-size="11" fill="#545454">"Netflix"</text>
+
+    <line x1="475" y1="192" x2="475" y2="208" stroke="#121212" stroke-width="1.5"/>
+    <text x="475" y="184">Arbitrary</text>
+    <text x="475" y="228" font-size="11" fill="#545454">"Apple"</text>
+
+    <line x1="595" y1="192" x2="595" y2="208" stroke="#121212" stroke-width="1.5"/>
+    <text x="595" y="184">Fanciful</text>
+    <text x="595" y="228" font-size="11" fill="#545454">"Kodak"</text>
+  </g>
+
+  <!-- protection thresholds -->
+  <text x="105" y="260" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">never protectable</text>
+  <text x="235" y="260" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">weak — needs</text>
+  <text x="235" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">secondary meaning</text>
+  <text x="360" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">protectable without secondary meaning →</text>
+
+  <!-- lower band: legibility falling -->
+  <text x="60" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Initial legibility (clarity to a new customer)</text>
+  <line x1="60" y1="328" x2="640" y2="328" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <polygon points="60 328, 70 324, 70 332" fill="#787878"/>
+  <text x="60" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">highest</text>
+  <text x="600" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="end">lowest</text>
+
+  <text x="32" y="394" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">You trade legibility for exclusivity: the more immediately the name explains itself,</text>
+  <text x="32" y="410" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the less exclusively it can be yours.</text>
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: ABERCROMBIE &amp; FITCH CO. V. HUNTING WORLD (2D CIR. 1976)</text>
+</svg>

@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "slug": "ogilvy-denis",
+    "title": "An Ogilvy Lens on Madison — Denis",
+    "topic": "INFO 7375 · OGILVY LENS",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Teardown",
+    "style": "ogilvy",
+    "source_pitch": "branding-and-ai/info-7375/submissions/Denis_MadisonPitch.mp4",
+    "ogilvy_note": "Food for thought — not a grade. Ogilvy is one lens among several, running alongside the course rubric. The maker decides.",
+    "total_estimated_duration_seconds": 194,
+    "build": {
+      "at": "2026-08-01T13:58:41",
+      "cut": "master",
+      "filled": 10,
+      "of": 10,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Denis's Madison pitch. AI job-market intelligence for the DC metro area — three AI agents that argue about your resume so you don't have to guess whether you're competitive for a job before you apply. The live demo is running on GitHub today. What would David Ogilvy ask about it?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · OGILVY LENS",
+            "segment": "Madison — Denis",
+            "command": "I just watched Denis's Madison pitch — AI job-market intelligence for the DC metro area. Three AI agents argue about your resume: a harsh hiring manager AI finds every reason to reject you, an advocate AI makes the strongest case for you, a judge AI delivers one honest verdict. Live demo running on GitHub today. What do David Ogilvy's principles say about how this pitch frames the work? Not a score. Just the questions a great ad man would ask.",
+            "runningText": "reading the pitch...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 16.28,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T13:58:41"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "RECONSTRUCT — Slide 1: The DC Specificity",
+      "role_note": "Show Slide 1, rebuild. Geographic specificity is Ogilvy-approved — but is it a strength or a cap?",
+      "narration_text": "Slide 1 — the tagline. Madison. AI job-market intelligence for the DC metro area. Geographic specificity in advertising is Ogilvy-approved — it signals to the right reader and filters out everyone else. But Ogilvy would also ask: is DC metro the beginning of the answer or the whole answer? A niche this specific means a claim this specific. What does the DC analyst get that the Boston analyst can't?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B01_DCSpecificity",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 21.59,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim:B01_DCSpecificity",
+        "at": "2026-08-01T13:58:41"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "LENS 1 — Two Costs, One Story",
+      "role_note": "Show Slide 2 (problem), rebuild. Hours wasted + confidence lost — Ogilvy: which one carries the story?",
+      "narration_text": "Slide 2 — the problem. You can't tell if you're actually competitive for a job — until it's too late. Two costs follow: hours wasted applying to jobs you'll never land, and confidence — not applying to jobs you were qualified for. Those are two different people in one slide. Ogilvy would ask which one carries the story. The hours person is frustrated. The confidence person is the one who never found out. That second one is the headline.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B02_TwoCosts",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 21.16,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim:B02_TwoCosts",
+        "at": "2026-08-01T13:58:41"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "LENS 2 — AI Arguing Your Resume",
+      "role_note": "Show Slide 4 (the magic), rebuild. 'AI arguing about your resume' is the most specific mechanism in the pitch.",
+      "narration_text": "Slide 4 — the magic. We use AI to argue about your resume — so you don't have to guess. Three roles: a harsh hiring manager AI finds every reason to reject you, an advocate AI makes the strongest case for you, a judge AI delivers one honest verdict. Ogilvy: name your mechanism. This one is named. It is specific, it is memorable, and it is different from every other AI resume tool. The question is where it sits in the pitch.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B03_AIArguing",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 22.06,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim:B03_AIArguing",
+        "at": "2026-08-01T13:58:41"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "LENS 3 — Multi-Agent Judgment, Not Keywords",
+      "role_note": "Show Slide 6 (competition), rebuild. 'Real multi-agent judgment, not keywords' is the five-word distinction.",
+      "narration_text": "Slide 6 — competition. Them: keyword-matching ATS scanners. Us: real multi-agent judgment, not keywords. That is five words and the whole competitive claim. It names the category, names the mechanism, and names the distinction in one breath. Ogilvy: specifics in a competitive claim always outperform generalities. This one earns its place. The question is whether this line lives here, on Slide 6, or whether it belongs somewhere earlier.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B04_MultiAgentJudgment",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 22.76,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim:B04_MultiAgentJudgment",
+        "at": "2026-08-01T13:58:41"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "LENS 4 — Free Is the Most Powerful Word",
+      "role_note": "No slide needed. Free tier + live demo running = the unstated strongest ask.",
+      "narration_text": "There is a free tier. Basic job-match score, no cost, run it now. And the live demo is on GitHub — anyone watching this could test their own resume against a real DC metro job posting today. Ogilvy was explicit: free is the most powerful word in advertising. The ask slide asks for funding and data access. Both useful. But the most direct ask in this pitch is the one not stated: go run your resume through Madison right now. Why is that not the last line?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B05_FreeAndLive",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 24.62,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim:B05_FreeAndLive",
+        "at": "2026-08-01T13:58:41"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "LENS 5 — Help Us Close the Loop",
+      "role_note": "Show Slide 9 (ask), rebuild. 'Close the loop' implies a loop is already open — Ogilvy: what loop?",
+      "narration_text": "Slide 9 — the ask. Help us close the loop. Funding to expand the data pipeline. Access to DC-metro postings. Feedback from real hiring managers. Specific and right-sized. But Ogilvy: every close is a promise. Close the loop implies a loop that is already open. The product is live. The free tier works. The question worth sitting with: what exactly is the open loop — and does the person watching this know they're holding the other end of it?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B06_CloseTheLoop",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 21.65,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim:B06_CloseTheLoop",
+        "at": "2026-08-01T13:58:41"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT ARTIFACT — The Lens Set",
+      "role_note": "Not a verdict: four questions for the next draft.",
+      "narration_text": "Not a verdict — a lens set. Four questions for the next draft. One: DC metro specificity — is it a niche or a cap? Two: hours wasted versus confidence lost — which person carries the story? Three: AI arguing your resume is named and specific — where does that line belong? Four: live demo, free tier — why not end with 'go run your resume through Madison today'? These are Ogilvy's questions. The pitch decides which ones matter.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "CARD",
+        "source": "remotion",
+        "motion": "hold",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Four Ogilvy questions for the next draft",
+            "artifactHeading": "The lens set — not the verdict",
+            "artifactLines": [
+              "DC metro specificity — a niche or a cap?",
+              "Hours wasted vs. confidence lost — which carries the story?",
+              "'AI arguing your resume' — where does that line belong?",
+              "Live demo, free tier — why not end: 'run it today'?"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "actual_duration_s": 21.38,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T13:58:41"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Scaffolded prompt for Denis to run on his own next draft.",
+      "narration_text": "Your turn. Take your deck into Claude and try this: here are four Ogilvy questions about my pitch. For each one — which specific slide is most in play, and what is one alternative frame to consider? Not a correction, just another angle. The goal is not to score the pitch. Ogilvy is one lens. The course rubric is another.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375 · OGILVY LENS",
+            "segment": "Run this on your next draft",
+            "command": "Here are four Ogilvy questions about my pitch. For each one: (1) which slide is most directly in play, and (2) give me one alternative frame to consider — not a correction, just another angle. Goal: not to score the pitch. One more lens.",
+            "runningText": "thinking...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 16.7,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T13:58:41"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "OUTRO-LOCK — ClaudeTitleOutro.",
+      "narration_text": "An Ogilvy Lens on Madison — Denis. I'm Liam, in for Bear.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 6,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "An Ogilvy Lens on Madison — Denis",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 4.27,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T13:58:41"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:04,427
+Mingalaba. This is Liam, in for Bear, with a short film for INFO seventy-three
+
+2
+00:00:04,447 --> 00:00:08,557
+seventy-five, Branding and AI. You might think a polished portfolio proves what you
+
+3
+00:00:08,577 --> 00:00:12,687
+can do. It only proves something if it cost you something to make.
+
+4
+00:00:12,757 --> 00:00:17,319
+Three terms. A signal: something you show that stands in for what others can't see.
+
+5
+00:00:17,339 --> 00:00:21,900
+A costly signal: one that's hard to fake cheaply, so it tells people apart. And
+
+6
+00:00:21,920 --> 00:00:25,871
+pooling: when everyone can produce the signal, so it stops telling anyone apart.
+
+7
+00:00:25,941 --> 00:00:31,034
+In 1973, the economist Michael Spence asked a simple question. An employer wants
+
+8
+00:00:31,054 --> 00:00:36,540
+productive people, but you can't see productivity until after the hire. So how does
+
+9
+00:00:36,560 --> 00:00:37,327
+anyone choose?
+
+10
+00:00:37,397 --> 00:00:42,150
+They look at signals: things you can show that stand in for what they can't see.
+
+11
+00:00:42,170 --> 00:00:43,642
+Spence's example was a degree.
+
+12
+00:00:43,712 --> 00:00:48,334
+A degree works as a signal because it's costly, and costlier for some people than
+
+13
+00:00:48,354 --> 00:00:52,047
+for others. It's hard to fake cheaply, so it tells people apart.
+
+14
+00:00:52,117 --> 00:00:56,442
+When the cost holds, the signal separates people. Spence called that a separating
+
+15
+00:00:56,462 --> 00:01:01,121
+equilibrium. The work later shared a Nobel prize, for markets where one side knows
+
+16
+00:01:01,141 --> 00:01:02,458
+more than the other.
+
+17
+00:01:02,528 --> 00:01:07,985
+Now AI has made some of those signals nearly free. A working demo app. A clean cover
+
+18
+00:01:08,005 --> 00:01:12,496
+letter. A polished essay, a logo, a slide deck. In one experiment, programmers with
+
+19
+00:01:12,516 --> 00:01:17,007
+an AI assistant built a small web server in less than half the time.
+
+20
+00:01:17,077 --> 00:01:21,384
+When everyone can produce the signal, it stops sorting. Spence called that pooling.
+
+21
+00:01:21,404 --> 00:01:25,711
+Everyone looks the same on paper, and the employer is back to guessing.
+
+22
+00:01:25,781 --> 00:01:29,503
+So what didn't get cheap? Judgment: choosing what's worth making. Ideation: finding
+
+23
+00:01:29,523 --> 00:01:33,557
+a problem real people actually have. Creative taste. And the effort of putting
+
+24
+00:01:33,577 --> 00:01:38,235
+something in front of real users and changing it because of what they said. Those
+
+25
+00:01:38,255 --> 00:01:40,730
+still cost you something, so they still signal.
+
+26
+00:01:40,800 --> 00:01:45,385
+So show the expensive part. The problem you chose, and why. The versions you threw
+
+27
+00:01:45,405 --> 00:01:50,297
+away. What real users told you, and what you changed. The artifact is cheap now. The
+
+28
+00:01:50,317 --> 00:01:51,525
+reasons behind it aren't.
+
+29
+00:01:51,595 --> 00:01:55,547
+Your turn. Pick one project you'd show an employer, and paste this into Claude:
+
+30
+00:01:55,567 --> 00:01:59,803
+Here's a project in my portfolio: describe it. Act as a skeptical hiring manager who
+
+31
+00:01:59,823 --> 00:02:04,343
+knows AI can produce code and text cheaply. Tell me which parts of this project an
+
+32
+00:02:04,363 --> 00:02:08,599
+AI could have made in an afternoon, and which parts show judgment an AI couldn't
+
+33
+00:02:08,619 --> 00:02:13,138
+supply. Then suggest three things I could add so the costly part is visible to a
+
+34
+00:02:13,158 --> 00:02:16,827
+stranger. Then check two things yourself. Is each costly part something you actually
+
+35
+00:02:16,847 --> 00:02:19,664
+did? And could a stranger see it without asking you?
+
+36
+00:02:19,734 --> 00:02:24,205
+Cheap to Make, Cheap to Signal. At Nik Bear Brown.

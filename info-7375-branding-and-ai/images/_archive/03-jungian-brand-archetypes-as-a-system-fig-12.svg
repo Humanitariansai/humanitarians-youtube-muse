@@ -1,0 +1,50 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-3-12 desc-3-12">
+<title id="title-3-12">The recognition asset is built by accumulation of consistent touchpoints</title>
+<desc id="desc-3-12">Two brands side by side. Brand A has consistent touchpoints (tweet, product page, packaging, error message, PR statement, founder photo) all coded the same red, accumulating into a clear customer model shown as a sharp silhouette. Brand B has mismatched touchpoints in different grays, accumulating into a blurred, fragmented model. One inconsistent touchpoint does not break recognition; twenty prevent it from forming.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<text x="48" y="44" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">The recognition asset is built by accumulation</text>
+<text x="48" y="64" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">One inconsistent touchpoint does not break it. Twenty prevent the customer model from forming at all.</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+
+<!-- Brand A -->
+<text x="48" y="98" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#2a1a0e">Brand A &#8212; consistent archetype</text>
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#FFFFFF" text-anchor="middle">
+<rect x="48" y="112" width="78" height="34" fill="#C8102E"/><text x="87" y="133">tweet</text>
+<rect x="134" y="112" width="78" height="34" fill="#C8102E"/><text x="173" y="133">product page</text>
+<rect x="220" y="112" width="78" height="34" fill="#C8102E"/><text x="259" y="133">packaging</text>
+<rect x="48" y="154" width="78" height="34" fill="#C8102E"/><text x="87" y="175">error msg</text>
+<rect x="134" y="154" width="78" height="34" fill="#C8102E"/><text x="173" y="175">PR statement</text>
+<rect x="220" y="154" width="78" height="34" fill="#C8102E"/><text x="259" y="175">founder photo</text>
+</g>
+<path d="M 173 192 L 173 222" stroke="#2a1a0e" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<text x="173" y="212" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">customer model</text>
+<!-- clear silhouette -->
+<rect x="118" y="228" width="110" height="120" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<path d="M 173 244 a 14 14 0 1 0 0.1 0 z M 152 332 q 21 -42 42 0 z" fill="#C8102E"/>
+<text x="173" y="370" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">sharp, recognizable</text>
+
+<!-- Brand B -->
+<text x="404" y="98" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#2a1a0e">Brand B &#8212; inconsistent archetype</text>
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#FFFFFF" text-anchor="middle">
+<rect x="404" y="112" width="78" height="34" fill="#545454"/><text x="443" y="133">tweet</text>
+<rect x="490" y="112" width="78" height="34" fill="#ADADAD"/><text x="529" y="133" fill="#2a1a0e">product page</text>
+<rect x="576" y="112" width="78" height="34" fill="#787878"/><text x="615" y="133">packaging</text>
+<rect x="404" y="154" width="78" height="34" fill="#ADADAD"/><text x="443" y="175" fill="#2a1a0e">error msg</text>
+<rect x="490" y="154" width="78" height="34" fill="#545454"/><text x="529" y="175">PR statement</text>
+<rect x="576" y="154" width="78" height="34" fill="#787878"/><text x="615" y="175">founder photo</text>
+</g>
+<path d="M 529 192 L 529 222" stroke="#2a1a0e" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<text x="529" y="212" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">customer model</text>
+<!-- fragmented blurred silhouette -->
+<rect x="474" y="228" width="110" height="120" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<g opacity="0.5">
+<path d="M 529 244 a 14 14 0 1 0 0.1 0 z" fill="#787878"/>
+<path d="M 508 332 q 21 -42 42 0 z" fill="#ADADAD"/>
+</g>
+<line x1="490" y1="270" x2="572" y2="312" stroke="#ADADAD" stroke-width="1" stroke-dasharray="2 3"/>
+<line x1="572" y1="262" x2="492" y2="318" stroke="#787878" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="529" y="370" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">blurred, never placed</text>
+
+<line x1="48" y1="392" x2="652" y2="392" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="410" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 3.12</text>
+</svg>

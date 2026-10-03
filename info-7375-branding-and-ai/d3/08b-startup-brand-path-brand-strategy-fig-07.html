@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Company A vs Company B over twelve months</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; } .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-size:13px; max-width:240px; } .title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); } .rowlabel { font-size:11px; font-weight:700; fill:var(--color-ink); } .cell { font-size:9.5px; } @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const rows=[
+ {label:"Product decisions",a:"Focused: declines off-brand requests",b:"Builds whatever is loudest"},
+ {label:"Customer understanding",a:"Knows what it is buying",b:"Confused; product may pivot"},
+ {label:"Team clarity",a:"No-list resolves priorities fast",b:"Two days/week in debate"},
+ {label:"Brand legibility",a:"Recognizable identity",b:"Collection of features"}
+];
+const titleText="Company A vs Company B over twelve months";
+const descText="Same product, same quarter. Company A has an explicit no-list and converges to a clear brand; Company B has none and fragments.";
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+  d3.select('#chart').selectAll('*').remove();
+  const container=document.getElementById('chart');
+  const totalWidth=Math.max(container.clientWidth-48,660);
+  const totalHeight=560;
+  const labelW=180; const colGap=14;
+  const colW=(totalWidth-labelW-colGap)/2;
+  const aX=labelW, bX=labelW+colW+colGap;
+  const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+  svg.append('title').attr('id','chart-title').text(titleText);
+  svg.append('desc').attr('id','chart-desc').text(descText);
+  svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+  svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText);
+  svg.append('text').attr('x',aX+colW/2).attr('y',84).attr('text-anchor','middle').attr('font-size',12).attr('font-weight',700).attr('fill','var(--color-red)').text('Company A — explicit no-list');
+  svg.append('text').attr('x',bX+colW/2).attr('y',84).attr('text-anchor','middle').attr('font-size',12).attr('font-weight',700).attr('fill','var(--color-secondary)').text('Company B — no no-list');
+  let y=100;
+  rows.forEach((r,i)=>{
+    svg.append('text').attr('x',24).attr('y',y+24).attr('class','rowlabel').text(r.label);
+    const ga=svg.append('g').attr('opacity',0);
+    ga.append('rect').attr('x',aX).attr('y',y).attr('width',colW).attr('height',38).attr('fill','var(--color-fill)').attr('stroke','var(--color-red)').attr('stroke-width',1.25).attr('tabindex',0).attr('aria-label','Company A — '+r.label+': '+r.a)
+      .on('mouseover',(e)=>showTooltip(e,'<strong>Company A — '+r.label+'</strong><br>'+r.a)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    ga.append('text').attr('x',aX+colW/2).attr('y',y+23).attr('text-anchor','middle').attr('class','cell').attr('fill','var(--color-ink)').text(r.a);
+    ga.transition().delay(i*120).duration(320).attr('opacity',1);
+    const gb=svg.append('g').attr('opacity',0);
+    gb.append('rect').attr('x',bX).attr('y',y).attr('width',colW).attr('height',38).attr('fill','var(--color-white)').attr('stroke','var(--color-border)').attr('tabindex',0).attr('aria-label','Company B — '+r.label+': '+r.b)
+      .on('mouseover',(e)=>showTooltip(e,'<strong>Company B — '+r.label+'</strong><br>'+r.b)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    gb.append('text').attr('x',bX+colW/2).attr('y',y+23).attr('text-anchor','middle').attr('class','cell').attr('fill','var(--color-secondary)').text(r.b);
+    gb.transition().delay(i*120).duration(320).attr('opacity',1);
+    y+=46;
+  });
+  // end shapes
+  y+=20;
+  svg.append('text').attr('x',aX+colW/2).attr('y',y).attr('text-anchor','middle').attr('class','subtitle').text('After 12 months — a clear shape');
+  svg.append('rect').attr('x',aX+colW/2-55).attr('y',y+12).attr('width',110).attr('height',70).attr('fill','var(--color-red)');
+  svg.append('text').attr('x',bX+colW/2).attr('y',y).attr('text-anchor','middle').attr('class','subtitle').text('After 12 months — a blurred shape');
+  const bcx=bX+colW/2;
+  svg.append('rect').attr('x',bcx-60).attr('y',y+14).attr('width',32).attr('height',38).attr('fill','#ADADAD');
+  svg.append('rect').attr('x',bcx-22).attr('y',y+22).attr('width',36).attr('height',54).attr('fill','#787878');
+  svg.append('rect').attr('x',bcx+20).attr('y',y+18).attr('width',28).attr('height',48).attr('fill','var(--color-border)');
+  svg.append('rect').attr('x',bcx-6).attr('y',y+34).attr('width',42).attr('height',26).attr('fill','var(--color-secondary)').attr('opacity',0.6);
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

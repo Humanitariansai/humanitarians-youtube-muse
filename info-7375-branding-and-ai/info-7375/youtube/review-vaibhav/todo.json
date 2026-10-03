@@ -1,0 +1,174 @@
+{
+  "video": "review-vaibhav",
+  "metadata": {
+    "slug": "review-vaibhav",
+    "title": "INFO 7375 \u2014 Project Review: Vaibhav",
+    "topic": "INFO 7375 \u00b7 PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 450,
+    "build": {
+      "at": "2026-08-17T00:13:01",
+      "cut": "master",
+      "filled": 10,
+      "of": 13,
+      "slates": [
+        "B02",
+        "B04",
+        "B05"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 13,
+  "beats_open": 3,
+  "beats": [
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "media/B00.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B00.mp4",
+      "label": "Hey Claude \u2014 I just read Vaibhav's final brand portfolio for INFO 7375. Path A personal brand. The a"
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "media/B01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B01.mp4",
+      "label": "Path A required a complete personal brand system \u2014 UVP, pillars, target audience, visual identity, s"
+    },
+    {
+      "beat_id": "B02",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The numbers on slide five are the submission's strongest move. 3.9 million NPM downloads on Random Word, 63,000 weekly downloads on Nightwatch Reporter, 500,000",
+      "slot": "media/B02.png (or .mp4)",
+      "label": "The numbers on slide five are the submission's strongest move. 3.9 million NPM downloads on Random W"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "media/B03.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B03.mp4",
+      "label": "The 4-Signal Framework classifies mentions into Signal \u2014 act now, reproducible bug \u2014 Silence \u2014 ignor"
+    },
+    {
+      "beat_id": "B04",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The brand voice is the same across LinkedIn, Substack, and GitHub. Same period. Same restraint. Same measured-not-claimed register. The LinkedIn post calls out ",
+      "slot": "media/B04.png (or .mp4)",
+      "label": "The brand voice is the same across LinkedIn, Substack, and GitHub. Same period. Same restraint. Same"
+    },
+    {
+      "beat_id": "B05",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: Ink for dark surfaces and text, Paper for backgrounds, Vermillion as the signal color reserved for the classified SIGNAL tier, Stone for muted text. Fraunces di",
+      "slot": "media/B05.png (or .mp4)",
+      "label": "Ink for dark surfaces and text, Paper for backgrounds, Vermillion as the signal color reserved for t"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "media/B06.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B06.mp4",
+      "label": "The deck shows how each channel has a different job: the website announces a positioning claim, Link"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "media/B07.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B07.mp4",
+      "label": "Olembic is described as a prototype, running on a local machine, with the bandit reweighting working"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "media/B08.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B08.mp4",
+      "label": "The audience is three concentric rings: hiring managers at developer-tools companies, engineering re"
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "media/B09.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B09.mp4",
+      "label": "Five values: measured, shipped, depth, open, honest. These are well-chosen and consistent with the v"
+    },
+    {
+      "beat_id": "BVDT",
+      "status": "filled",
+      "on_disk": "media/BVDT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BVDT.mp4",
+      "label": "The strongest personal brand in the cohort for developer-tools positioning. Verifiable public number"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. The 4-Signal Framework has four categories \u2014 Signal, Silence, Surface, Subscribe. Take th"
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": ""
+    }
+  ]
+}

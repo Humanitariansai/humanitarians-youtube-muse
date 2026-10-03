@@ -1,0 +1,97 @@
+<!--
+  Archetype to palette and type direction
+  Book: Branding and AI
+  Chapter: 09-visual-identity-systems
+  Figure: 07
+  Type: comparison panels (four rows)
+  Generated: 2026-06-18
+  Source: pantry/09-visual-identity-systems-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-09-07">
+  <title id="fig-title-09-07">Archetype to palette and type direction</title>
+  <desc>A four-row matrix mapping each archetype — Sage, Hero, Caregiver, Magician — to a primary color direction, accent character, neutral system, and display and body typeface examples. Color directions are described in words rather than shown as hues.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Archetype as constraint: palette and type direction follow from it</text>
+
+  <!-- table grid -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <!-- header row -->
+    <rect x="40" y="60" width="110" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="150" y="60" width="135" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="285" y="60" width="120" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="405" y="60" width="135" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="540" y="60" width="120" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="52" y="84" fill="#545454" font-weight="700">Archetype</text>
+    <text x="162" y="78" fill="#545454" font-weight="700">Primary</text>
+    <text x="162" y="92" fill="#545454" font-weight="700">direction</text>
+    <text x="297" y="78" fill="#545454" font-weight="700">Accent +</text>
+    <text x="297" y="92" fill="#545454" font-weight="700">neutrals</text>
+    <text x="417" y="84" fill="#545454" font-weight="700">Display face</text>
+    <text x="552" y="84" fill="#545454" font-weight="700">Body face</text>
+
+    <!-- Sage row -->
+    <rect x="40" y="100" width="110" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="150" y="100" width="135" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="285" y="100" width="120" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="405" y="100" width="135" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="540" y="100" width="120" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="52" y="138" fill="#121212" font-weight="700">Sage</text>
+    <text x="162" y="128" fill="#121212">near-neutral,</text>
+    <text x="162" y="144" fill="#121212">low-saturation</text>
+    <text x="297" y="128" fill="#121212">sparse accent;</text>
+    <text x="297" y="144" fill="#121212">neutrals do work</text>
+    <text x="417" y="128" fill="#121212">Source Serif 4</text>
+    <text x="417" y="144" fill="#545454">classical serif</text>
+    <text x="552" y="128" fill="#121212">Inter</text>
+    <text x="552" y="144" fill="#545454">humanist sans</text>
+
+    <!-- Hero row -->
+    <rect x="40" y="170" width="110" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="150" y="170" width="135" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="285" y="170" width="120" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="405" y="170" width="135" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="540" y="170" width="120" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="52" y="208" fill="#121212" font-weight="700">Hero</text>
+    <text x="162" y="198" fill="#121212">saturated</text>
+    <text x="162" y="214" fill="#121212">primary</text>
+    <text x="297" y="198" fill="#121212">accent amplifies;</text>
+    <text x="297" y="214" fill="#121212">minimal neutrals</text>
+    <text x="417" y="198" fill="#121212">DM Sans (heavy)</text>
+    <text x="417" y="214" fill="#545454">geometric sans</text>
+    <text x="552" y="198" fill="#121212">DM Sans</text>
+    <text x="552" y="214" fill="#545454">same family</text>
+
+    <!-- Caregiver row -->
+    <rect x="40" y="240" width="110" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="150" y="240" width="135" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="285" y="240" width="120" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="405" y="240" width="135" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="540" y="240" width="120" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="52" y="278" fill="#121212" font-weight="700">Caregiver</text>
+    <text x="162" y="268" fill="#121212">warm mid-range</text>
+    <text x="162" y="284" fill="#121212">(terracotta, sage)</text>
+    <text x="297" y="268" fill="#121212">warm grays;</text>
+    <text x="297" y="284" fill="#121212">nothing clinical</text>
+    <text x="417" y="268" fill="#121212">Nunito</text>
+    <text x="417" y="284" fill="#545454">rounded sans</text>
+    <text x="552" y="278" fill="#121212">Lato</text>
+
+    <!-- Magician row -->
+    <rect x="40" y="310" width="110" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="150" y="310" width="135" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="285" y="310" width="120" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="405" y="310" width="135" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="540" y="310" width="120" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="52" y="348" fill="#121212" font-weight="700">Magician</text>
+    <text x="162" y="338" fill="#121212">jewel tones,</text>
+    <text x="162" y="354" fill="#121212">chromatic depth</text>
+    <text x="297" y="338" fill="#121212">gradients imply</text>
+    <text x="297" y="354" fill="#121212">transformation</text>
+    <text x="417" y="338" fill="#121212">Playfair Display</text>
+    <text x="417" y="354" fill="#545454">dramatic display</text>
+    <text x="552" y="348" fill="#121212">Source Sans 3</text>
+  </g>
+
+  <text x="32" y="424" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Color directions are word-described, not shown as hues —</text>
+  <text x="32" y="440" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">palette construction starts from the archetype, not personal preference.</text>
+</svg>

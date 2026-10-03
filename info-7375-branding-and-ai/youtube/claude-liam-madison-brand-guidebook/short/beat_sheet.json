@@ -1,0 +1,774 @@
+{
+ "metadata": {
+  "slug": "claude-liam-madison-brand-guidebook-short",
+  "title": "The Brand Guidebook You Edit by Asking.",
+  "channel": "claude-liam",
+  "channel_title": "@NikBearBrown",
+  "topic": "BRANDING · TEMPLATE WALKTHROUGH",
+  "voice": "am_onyx",
+  "voice_kokoro": "am_onyx",
+  "engine": "kokoro",
+  "palette": "claude",
+  "brand": "claude",
+  "fps": 30,
+  "clock": "narration",
+  "genre": "deep-explainer",
+  "note": "Deep explainer: walk all 32 pages of the Madison Brand Guidebook template and show the Claude adaptation workflow (the Bear Brown adaptation is the worked demo). Vox stills are the template's own page exports (Tier 1, own material — File > Export > PNG from brand-guidebook-000-nbb.idml, no rights sidecars needed). YOUR TURN reads the prompt published at madison.humanitarians.ai/brand-guidebook — keep in sync with app/brand-guidebook/page.tsx. Kokoro am_onyx (free). GATE P before audio. Never publishes. | 2026-08-11: 12 bespoke Mbg* scenes + GuidebookPage vector page recreations replace ALL pantry stills (zero stills in film); pantry/ and SHOPPING.md are obsolete.",
+  "source_docs": [
+   "books/branding-and-ai/guidebook/brand-guidebook-000-nbb.idml",
+   "books/branding-and-ai/guidebook/README-EDIT-WITH-CLAUDE.md",
+   "books/bearbrown_co/CLAUDE.md"
+  ],
+  "build": {
+   "at": "2026-08-11T12:42:28",
+   "cut": "master",
+   "filled": 40,
+   "of": 40,
+   "slates": [],
+   "skin_warnings": []
+  },
+  "aspect_ratio": "9:16",
+  "fit": "crop",
+  "kind": "short",
+  "reformat": "center-cut, focus-aware; pantry/<bid>-916.* is the human replacement slot; -916 overrides honored",
+  "derived_from": "claude-liam-madison-brand-guidebook",
+  "dropped_beats": [
+   "BHTF",
+   "B37",
+   "B18",
+   "B12",
+   "B33",
+   "B03",
+   "B34",
+   "B17",
+   "B11",
+   "B04",
+   "B02",
+   "B15",
+   "B08",
+   "B13",
+   "B19",
+   "B20",
+   "B36",
+   "B31",
+   "B05",
+   "B32"
+  ],
+  "playlist_short": "Shorts",
+  "total_estimated_duration_seconds": 184.14
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "ASK",
+   "narration_text": "Jambo. This is Liam, in for Bear. Today: a brand guidebook you never design from scratch. The Madison Brand Guidebook — thirty-two InDesign pages, every surface a brand needs, already laid out. I asked Claude to adapt it for my brand without me ever learning InDesign. It said yes. Here's the whole thing, page by page — and the one prompt that makes it yours.",
+   "estimated_duration_s": 22,
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk916",
+     "props": {
+      "command": "Take this Madison Brand Guidebook .indt file and help me adapt it for my brand — I've never opened InDesign.",
+      "topic": "BRANDING · TEMPLATE WALKTHROUGH",
+      "segment": "The Brand Guidebook You Edit by Asking.",
+      "greeting": "Jambo, Liam",
+      "runningText": "reading the template's IDML…",
+      "folderLabel": "@NikBearBrown"
+     },
+     "rendered": {
+      "out": "media/B00.mp4",
+      "at": ""
+     }
+    }
+   },
+   "actual_duration_s": 18.43,
+   "audio_file": "mp3/beat-B00.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B00.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B01",
+   "act": "I — What You Downloaded",
+   "narration_text": "Act one. What you actually downloaded — and why it's three files, not one.",
+   "estimated_duration_s": 5,
+   "new_visual_element": "Act card: What You Downloaded",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "remotion": {
+     "pattern": "ClaudeSegmentCard916",
+     "props": {
+      "title": "What You Downloaded",
+      "actLabel": "ACT I"
+     },
+     "rendered": {
+      "out": "media/B01.mp4",
+      "at": ""
+     }
+    }
+   },
+   "actual_duration_s": 4.48,
+   "audio_file": "mp3/beat-B01.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B01.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B06",
+   "act": "I — What You Downloaded",
+   "narration_text": "And here's the license: delete pages. The template overshoots on purpose — it shows everything you might design for, so cutting what you don't need is the first act of branding.",
+   "estimated_duration_s": 11,
+   "new_visual_element": "Grid tiles graying out / dropping — 'deleting is customizing'",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "MbgDeletePages",
+     "props": {},
+     "rendered": {
+      "out": "media/B06.mp4",
+      "at": ""
+     }
+    }
+   },
+   "graphic": {
+    "production_viz": {
+     "label": "DELETE IS A FEATURE",
+     "mechanic": "The 32-tile grid from B05 reprised; a handful of tiles gray and drop away; remaining tiles tighten up. Terracotta underline on 'yours'.",
+     "note": "built as bespoke Remotion scene MbgDeletePages (2026-08-11)"
+    }
+   },
+   "actual_duration_s": 10.09,
+   "audio_file": "mp3/beat-B06.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B06.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B07",
+   "act": "II — The Logo System",
+   "narration_text": "Act two. The logo system.",
+   "estimated_duration_s": 4,
+   "new_visual_element": "Act card: The Logo System",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "remotion": {
+     "pattern": "ClaudeSegmentCard916",
+     "props": {
+      "title": "The Logo System",
+      "actLabel": "ACT II"
+     },
+     "rendered": {
+      "out": "media/B07.mp4",
+      "at": ""
+     }
+    }
+   },
+   "actual_duration_s": 2.26,
+   "audio_file": "mp3/beat-B07.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B07.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B09",
+   "act": "II — The Logo System",
+   "narration_text": "The logo page, up close. An elements key: the mark, the tagline slot, the spacing around both. This page exists to teach whoever inherits your brand how not to wreck it.",
+   "estimated_duration_s": 12,
+   "new_visual_element": "VOX run R1a: logo page detail (p7, elements key)",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "GuidebookPage",
+     "props": {
+      "variant": "logo",
+      "camFrom": {
+       "x": 0.7,
+       "y": 0.45,
+       "scale": 1.6
+      },
+      "camTo": {
+       "x": 0.72,
+       "y": 0.47,
+       "scale": 1.9
+      },
+      "kicker": "PAGE 07 · BRAND LOGO"
+     },
+     "rendered": {
+      "out": "media/B09.mp4",
+      "at": ""
+     }
+    },
+    "note": "was pantry STILL — converted to vector page recreation (NO pantry stills, Bear 2026-08-11)"
+   },
+   "actual_duration_s": 9.83,
+   "audio_file": "mp3/beat-B09.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B09.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B10",
+   "act": "II — The Logo System",
+   "narration_text": "Pull back, and it's the whole argument on one page: the mark in context, at size, with clear space measured. A logo isn't an image. It's an image plus rules.",
+   "estimated_duration_s": 11,
+   "new_visual_element": "VOX run R1b: logo page full (zoom out from R1a)",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "GuidebookPage",
+     "props": {
+      "variant": "logo",
+      "camFrom": {
+       "x": 0.72,
+       "y": 0.47,
+       "scale": 1.9
+      },
+      "camTo": {
+       "x": 0.5,
+       "y": 0.5,
+       "scale": 1.05
+      },
+      "kicker": "PAGE 07 · BRAND LOGO"
+     },
+     "rendered": {
+      "out": "media/B10.mp4",
+      "at": ""
+     }
+    },
+    "note": "was pantry STILL — converted to vector page recreation (NO pantry stills, Bear 2026-08-11)"
+   },
+   "actual_duration_s": 9.17,
+   "audio_file": "mp3/beat-B10.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B10.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B14",
+   "act": "III — Color & Type",
+   "narration_text": "Act three. Color and type.",
+   "estimated_duration_s": 4,
+   "new_visual_element": "Act card: Color & Type",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "remotion": {
+     "pattern": "ClaudeSegmentCard916",
+     "props": {
+      "title": "Color & Type",
+      "actLabel": "ACT III"
+     },
+     "rendered": {
+      "out": "media/B14.mp4",
+      "at": ""
+     }
+    }
+   },
+   "actual_duration_s": 2.22,
+   "audio_file": "mp3/beat-B14.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B14.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B16",
+   "act": "III — Color & Type",
+   "narration_text": "Each color ships with its tints — forty, sixty, eighty, one hundred percent. That ladder is what turns one brown into a palette instead of a paint chip.",
+   "estimated_duration_s": 11,
+   "new_visual_element": "Tint ladder animation: 40/60/80/100 bars per color",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own"
+   },
+   "graphic": {
+    "engine": "manim",
+    "production_viz": {
+     "label": "TINTS 40 / 60 / 80 / 100",
+     "mechanic": "Four bars per swatch grow in sequence with percentage labels counting up; #8B3A0F family.",
+     "colors": [
+      "#8B3A0F",
+      "#1a0a00",
+      "#F0E6D0",
+      "#3D3929"
+     ]
+    }
+   },
+   "actual_duration_s": 8.85,
+   "audio_file": "mp3/beat-B16.mp3",
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B16.mp4",
+    "filled_by": "manim",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B21",
+   "act": "III — Color & Type",
+   "narration_text": "And then the scale: three sizes, three weights, specimen after specimen. Boring on purpose. Consistency is what typography is for.",
+   "estimated_duration_s": 10,
+   "new_visual_element": "VOX still: triple typeface page (p18)",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "GuidebookPage",
+     "props": {
+      "variant": "tripletype",
+      "camFrom": {
+       "x": 0.5,
+       "y": 0.35,
+       "scale": 1.0
+      },
+      "camTo": {
+       "x": 0.5,
+       "y": 0.65,
+       "scale": 1.0
+      },
+      "kicker": "PAGE 18 · TRIPLE TYPEFACE"
+     },
+     "rendered": {
+      "out": "media/B21.mp4",
+      "at": ""
+     }
+    },
+    "note": "was pantry STILL — converted to vector page recreation (NO pantry stills, Bear 2026-08-11)"
+   },
+   "actual_duration_s": 8.15,
+   "audio_file": "mp3/beat-B21.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B21.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B22",
+   "act": "IV — Online & Stationery",
+   "narration_text": "Act four. Online, and stationery.",
+   "estimated_duration_s": 4,
+   "new_visual_element": "Act card: Online & Stationery",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "remotion": {
+     "pattern": "ClaudeSegmentCard916",
+     "props": {
+      "title": "Online & Stationery",
+      "actLabel": "ACT IV"
+     },
+     "rendered": {
+      "out": "media/B22.mp4",
+      "at": ""
+     }
+    }
+   },
+   "actual_duration_s": 2.82,
+   "audio_file": "mp3/beat-B22.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B22.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B23",
+   "act": "IV — Online & Stationery",
+   "narration_text": "The online section: post styles and a media kit. This is where brands actually live now — and the guidebook treats a social post as a designed surface, not an afterthought.",
+   "estimated_duration_s": 12,
+   "new_visual_element": "VOX still: online post page (p20)",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "GuidebookPage",
+     "props": {
+      "variant": "online",
+      "camFrom": {
+       "x": 0.5,
+       "y": 0.45,
+       "scale": 1.05
+      },
+      "camTo": {
+       "x": 0.5,
+       "y": 0.5,
+       "scale": 1.0
+      },
+      "kicker": "PAGE 20 · ONLINE"
+     },
+     "rendered": {
+      "out": "media/B23.mp4",
+      "at": ""
+     }
+    },
+    "note": "was pantry STILL — converted to vector page recreation (NO pantry stills, Bear 2026-08-11)"
+   },
+   "actual_duration_s": 10.03,
+   "audio_file": "mp3/beat-B23.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B23.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B24",
+   "act": "IV — Online & Stationery",
+   "narration_text": "One mark, re-cropped: avatar, banner, story. This is where the monogram earns its keep — the full signature dies at sixty-four pixels. The BB doesn't.",
+   "estimated_duration_s": 11,
+   "new_visual_element": "Social crops: monogram in avatar circle / banner / story tiles",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "MbgSocialCrops",
+     "props": {},
+     "rendered": {
+      "out": "media/B24.mp4",
+      "at": ""
+     }
+    }
+   },
+   "graphic": {
+    "production_viz": {
+     "label": "ONE MARK, EVERY CROP",
+     "mechanic": "The BB monogram drops into an avatar circle, a wide banner, a tall story tile in sequence; the signature attempts the avatar and blurs out, monogram replaces it.",
+     "note": "built as bespoke Remotion scene MbgSocialCrops (2026-08-11)"
+    }
+   },
+   "actual_duration_s": 9.32,
+   "audio_file": "mp3/beat-B24.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B24.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B25",
+   "act": "IV — Online & Stationery",
+   "narration_text": "Stationery, up close: the business card. Monogram seated in the corner, brown ground, cream type. Nothing on it that the color and logo sections didn't already decide.",
+   "estimated_duration_s": 12,
+   "new_visual_element": "VOX run R2a: stationery page detail — business card (p25)",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "GuidebookPage",
+     "props": {
+      "variant": "stationery",
+      "camFrom": {
+       "x": 0.25,
+       "y": 0.65,
+       "scale": 1.35
+      },
+      "camTo": {
+       "x": 0.28,
+       "y": 0.65,
+       "scale": 1.4
+      },
+      "kicker": "PAGE 25 · STATIONERY",
+      "annotate": {
+       "x": 255,
+       "y": 470,
+       "r": 130
+      }
+     },
+     "rendered": {
+      "out": "media/B25.mp4",
+      "at": ""
+     }
+    },
+    "note": "was pantry STILL — converted to vector page recreation (NO pantry stills, Bear 2026-08-11)"
+   },
+   "actual_duration_s": 10.03,
+   "audio_file": "mp3/beat-B25.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B25.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B26",
+   "act": "IV — Online & Stationery",
+   "narration_text": "Pull back: card, letterhead, envelope. One system, one mark, one brown. This is the moment a brand stops being a website and starts being an object on someone's desk.",
+   "estimated_duration_s": 12,
+   "new_visual_element": "VOX run R2b: full stationery spread (zoom out from R2a)",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "GuidebookPage",
+     "props": {
+      "variant": "stationery",
+      "camFrom": {
+       "x": 0.28,
+       "y": 0.55,
+       "scale": 2.0
+      },
+      "camTo": {
+       "x": 0.5,
+       "y": 0.5,
+       "scale": 1.05
+      },
+      "kicker": "PAGE 25 · STATIONERY"
+     },
+     "rendered": {
+      "out": "media/B26.mp4",
+      "at": ""
+     }
+    },
+    "note": "was pantry STILL — converted to vector page recreation (NO pantry stills, Bear 2026-08-11)"
+   },
+   "actual_duration_s": 9.81,
+   "audio_file": "mp3/beat-B26.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B26.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B27",
+   "act": "IV — Online & Stationery",
+   "narration_text": "And those mockups are live InDesign frames, not screenshots. Swap the mark once and every surface updates. That's the difference between a template and a picture of one.",
+   "estimated_duration_s": 11,
+   "new_visual_element": "Live-frames concept: one logo swap propagates across card/letterhead/envelope",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "MbgLiveFrames",
+     "props": {},
+     "rendered": {
+      "out": "media/B27.mp4",
+      "at": ""
+     }
+    }
+   },
+   "graphic": {
+    "production_viz": {
+     "label": "LIVE FRAMES",
+     "mechanic": "Three stationery outlines; a mark chip drags onto the first and the same mark blinks onto all three; terracotta connector lines flash the propagation.",
+     "note": "built as bespoke Remotion scene MbgLiveFrames (2026-08-11)"
+    }
+   },
+   "actual_duration_s": 9.43,
+   "audio_file": "mp3/beat-B27.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B27.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B28",
+   "act": "IV — Online & Stationery",
+   "narration_text": "Count it: three surfaces. One mark. One brown. Zero new decisions. Many surfaces, few decisions — that ratio is the entire argument for owning a guidebook.",
+   "estimated_duration_s": 11,
+   "new_visual_element": "Isotype count: surfaces vs decisions",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own"
+   },
+   "graphic": {
+    "engine": "manim",
+    "production_viz": {
+     "label": "3 SURFACES · 1 MARK · 1 BROWN",
+     "mechanic": "Isotype rows: three surface icons, one mark glyph, one swatch; a 'new decisions' row counts to zero with a satisfying null tick."
+    }
+   },
+   "actual_duration_s": 9.6,
+   "audio_file": "mp3/beat-B28.mp3",
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B28.mp4",
+    "filled_by": "manim",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B29",
+   "act": "IV — Online & Stationery",
+   "narration_text": "There's even a working note left in the file: spacing can be reduced, based on design type. A guidebook that admits its rules bend is a guidebook people actually follow.",
+   "estimated_duration_s": 11,
+   "new_visual_element": "The template's own margin note, enlarged and underlined",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "MbgRulesBend",
+     "props": {},
+     "rendered": {
+      "out": "media/B29.mp4",
+      "at": ""
+     }
+    }
+   },
+   "graphic": {
+    "production_viz": {
+     "label": "RULES THAT BEND",
+     "mechanic": "The note 'space can be reduced based on design type' set in serif, terracotta underline draws on; a margin gap visibly narrows beside it.",
+     "note": "built as bespoke Remotion scene MbgRulesBend (2026-08-11)"
+    }
+   },
+   "actual_duration_s": 9.83,
+   "audio_file": "mp3/beat-B29.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B29.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B30",
+   "act": "V — Adapt It With Claude",
+   "narration_text": "Act five. Adapt it — with Claude.",
+   "estimated_duration_s": 4,
+   "new_visual_element": "Act card: Adapt It With Claude",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "remotion": {
+     "pattern": "ClaudeSegmentCard916",
+     "props": {
+      "title": "Adapt It With Claude",
+      "actLabel": "ACT V"
+     },
+     "rendered": {
+      "out": "media/B30.mp4",
+      "at": ""
+     }
+    }
+   },
+   "actual_duration_s": 2.65,
+   "audio_file": "mp3/beat-B30.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B30.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B35",
+   "act": "V — Adapt It With Claude",
+   "narration_text": "And the prompt is public. Name, website, email, title, address, accent color — six brackets, one paste. It lives on the download page, right under the three files.",
+   "estimated_duration_s": 11,
+   "new_visual_element": "Code beat: the adapt-it prompt scrolling, brackets highlighted",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "remotion": {
+     "pattern": "MbgSixBrackets",
+     "props": {},
+     "rendered": {
+      "out": "media/B35.mp4",
+      "at": ""
+     }
+    }
+   },
+   "graphic": {
+    "production_viz": {
+     "label": "SIX BRACKETS",
+     "mechanic": "Onda code-block: the published prompt scrolls; the six [YOUR …] brackets highlight in terracotta one by one, keyed to the spoken list.",
+     "note": "built as bespoke Remotion scene MbgSixBrackets (2026-08-11)"
+    }
+   },
+   "actual_duration_s": 9.64,
+   "audio_file": "mp3/beat-B35.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B35.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   }
+  },
+  {
+   "beat_id": "B39",
+   "act": "CLOSE",
+   "narration_text": "That's the short version. The full video also covers The cover. Thirty-two pages, sixteen…, THE THREE FILES and The contents page is the… — watch The Brand Guidebook You Edit by Asking. for the whole story. The link is right below.",
+   "estimated_duration_s": 7,
+   "tail_silence_s": 1.0,
+   "new_visual_element": "Title re-read outro",
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro916",
+     "props": {
+      "title": "The Brand Guidebook You Edit by Asking.",
+      "slug": "claude-liam-madison-brand-guidebook",
+      "handle": "@NikBearBrown"
+     },
+     "rendered": {
+      "out": "media/B39.mp4",
+      "at": ""
+     }
+    }
+   },
+   "actual_duration_s": 0,
+   "audio_file": "mp3/beat-B39.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B39.mp4",
+    "filled_by": "media",
+    "at": "2026-08-11T12:42:28"
+   },
+   "short_outro_rewritten": true
+  },
+  {
+   "beat_id": "END",
+   "narration_text": "",
+   "actual_duration_s": 4.5,
+   "audio_file": "mp3/beat-END.mp3",
+   "shot": {
+    "type": "CARD",
+    "source": "own",
+    "motion": "hold",
+    "treatment": "none"
+   },
+   "card": {
+    "handle": "@nikbearbrown",
+    "next": "Your turn. Download the guidebook at madison dot humanitarians dot A I, slash brand dash guidebook. Then hand Claude the I-D-M-L with the prompt on that page: your name, your website, your email, your title, your address, your accent color — and the rules that keep the file valid: same-length replacements, re-map the whole color family, re-zip with the mimetype first. Six brackets. Claude does the rest.",
+    "silent": true
+   }
+  }
+ ]
+}

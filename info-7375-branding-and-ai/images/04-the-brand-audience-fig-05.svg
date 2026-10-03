@@ -1,0 +1,76 @@
+<!--
+  The cultural lens — three brands
+  Book: Branding and AI
+  Chapter: 04-the-brand-audience
+  Figure: 05
+  Type: comparison table
+  Generated: 2026-06-18
+  Source: pantry/04-the-brand-audience-cajal.md
+-->
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04-05">
+  <title id="fig-title-04-05">The cultural lens across three brands</title>
+  <desc>Nike, Dove, and Patagonia compared on functional product, cultural tension addressed, and positioning shift from "we do X" to "we do X for people who feel Y."</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="04-the-brand-audience"
+      figure-number="05" figure-title="The cultural lens across three brands" figure-slug="cultural-lens-three-brands"
+      figure-type="comparison table" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/04-the-brand-audience-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="400" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The cultural lens: the tension is the unserved segment</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The strongest brands resolve a cultural tension, not just a functional need (Holt).</text>
+
+  <!-- column headers -->
+  <rect x="180" y="80" width="166" height="36" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="346" y="80" width="166" height="36" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="512" y="80" width="156" height="36" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="263" y="103" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Nike</text>
+  <text x="429" y="103" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Dove</text>
+  <text x="590" y="103" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Patagonia</text>
+
+  <!-- row labels -->
+  <text x="32" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Functional</text>
+  <text x="32" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">product</text>
+  <text x="32" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Cultural</text>
+  <text x="32" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">tension</text>
+  <text x="32" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Positioning</text>
+  <text x="32" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">shift</text>
+
+  <!-- grid lines -->
+  <line x1="32" y1="180" x2="668" y2="180" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="32" y1="272" x2="668" y2="272" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="180" y1="116" x2="180" y2="360" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="346" y1="116" x2="346" y2="360" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="512" y1="116" x2="512" y2="360" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="32" y1="360" x2="668" y2="360" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- Nike -->
+  <text x="190" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Running shoes</text>
+  <text x="190" y="208" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Is effort still</text>
+  <text x="190" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">meaningful in an era</text>
+  <text x="190" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">of downsizing?</text>
+  <text x="190" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"Just Do It" —</text>
+  <text x="190" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">effort still matters,</text>
+  <text x="190" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">here is the uniform.</text>
+
+  <!-- Dove -->
+  <text x="356" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Soap, lotion</text>
+  <text x="356" y="208" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Anxiety around</text>
+  <text x="356" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">unrealistic beauty</text>
+  <text x="356" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">standards.</text>
+  <text x="356" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"Real Beauty" —</text>
+  <text x="356" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">takes a position no</text>
+  <text x="356" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">rival had taken.</text>
+
+  <!-- Patagonia -->
+  <text x="522" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Outdoor apparel</text>
+  <text x="522" y="208" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Guilt over</text>
+  <text x="522" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">consumption harming</text>
+  <text x="522" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">the wild we love.</text>
+  <text x="522" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"Don't Buy This</text>
+  <text x="522" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Jacket" — for people</text>
+  <text x="522" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">who feel that guilt.</text>
+
+  <text x="32" y="390" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: HOLT, HOW BRANDS BECOME ICONS · CH. 4</text>
+</svg>

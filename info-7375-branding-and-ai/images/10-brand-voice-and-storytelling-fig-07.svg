@@ -1,0 +1,66 @@
+<!--
+  The six case-study elements as a narrative arc
+  Book: Branding and AI
+  Chapter: 10-brand-voice-and-storytelling
+  Figure: 07
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/10-brand-voice-and-storytelling-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-10-07">
+  <title id="fig-title-10-07">The six case-study elements as a narrative arc</title>
+  <desc>A customer-as-hero case study's six elements arranged as a rising-and-resolving arc: customer, problem, what they tried before, approach, transformation at the peak, and meta-lesson resolving — with the customer the protagonist throughout.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="10-brand-voice-and-storytelling" figure-number="07"
+      figure-title="The six case study elements as a narrative arc"
+      figure-slug="six-case-study-elements-arc"
+      figure-type="process flowchart" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/10-brand-voice-and-storytelling-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The six case-study elements as a narrative arc</text>
+  <text x="32" y="58" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Customer is the protagonist throughout; the brand enters only as guide.</text>
+
+  <!-- Arc curve -->
+  <path d="M 60 330 Q 350 60 640 330" fill="none" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- Stage markers along the arc -->
+  <!-- 1 Customer (60,330) -->
+  <circle cx="70" cy="320" r="5" fill="#121212"/>
+  <text x="70" y="356" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">1 Customer</text>
+  <text x="70" y="372" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">protagonist set</text>
+
+  <!-- 2 Problem -->
+  <circle cx="180" cy="222" r="5" fill="#121212"/>
+  <text x="180" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">2 Problem</text>
+  <text x="180" y="190" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">stakes set</text>
+
+  <!-- 3 What they tried -->
+  <circle cx="270" cy="158" r="5" fill="#121212"/>
+  <text x="270" y="142" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">3 Tried before</text>
+  <text x="270" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">the gap</text>
+
+  <!-- 4 Approach -->
+  <circle cx="430" cy="158" r="5" fill="#121212"/>
+  <text x="430" y="142" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">4 Approach</text>
+  <text x="430" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">brand as guide</text>
+
+  <!-- 5 Transformation — PEAK, RED -->
+  <circle cx="350" cy="92" r="7" fill="#C8102E"/>
+  <text x="350" y="80" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#C8102E">5 Transformation</text>
+  <text x="350" y="64" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">the visible, specific change — the peak</text>
+
+  <!-- 6 Meta-lesson -->
+  <circle cx="630" cy="320" r="5" fill="#121212"/>
+  <text x="630" y="356" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">6 Meta-lesson</text>
+  <text x="630" y="372" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">resolution</text>
+
+  <!-- Flank labels -->
+  <text x="120" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" transform="rotate(-42 120 300)">stakes rise</text>
+  <text x="560" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" transform="rotate(42 560 300)">resolution</text>
+
+  <text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A specific, visible transformation is what separates a story from a product description.</text>
+</svg>

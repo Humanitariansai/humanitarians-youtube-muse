@@ -1,0 +1,191 @@
+=== Slide 1 ===
+threadline
+Turning consumer frustration into product opportunities
+For adaptive fashion brand teams, Threadline is the market intelligence tool that turns consumer complaints into ranked product opportunities — unlike product companies who sell garments, or AI tools that only monitor sentiment.
+2,618
+signals
+20
+opportunities
+4
+conditions
+weekly
+refresh
+Raksha Krishna Moorthy   •   INFO 7375 Branding & AI   •   Northeastern University
+threadline-lovat.vercel.app
+
+=== Slide 2 ===
+BRAND STRATEGY
+One-sentence value, five pillars
+Threadline turns consumer frustration from condition-specific communities into product opportunities — so brands can enter the adaptive fashion market knowing what to build before they spend a dollar on research.
+1
+Promise
+Every opportunity built from verified signals, not assumptions.
+2
+Personality
+Precise, evidence-driven, fast, human-centered.
+3
+Story
+Built from a real gap noticed firsthand in healthcare work.
+4
+Differentiation
+An intelligence tool, not a product company.
+5
+Experience
+Confident, defensible decisions — not guesswork.
+threadline
+2
+
+=== Slide 3 ===
+BRAND STRATEGY
+Who we serve
+SK
+PERSONA 1 — THE ESTABLISHED BRAND
+Sana Kapoor
+Senior Product Manager, adaptive apparel division
+PAIN
+Two product launches missed last year — the real customer complaint surfaced only after shipping, with no research budget to catch it earlier.
+WANTS
+A specific, evidence-backed product decision she can defend in her next roadmap meeting — before the budget is spent.
+DW
+PERSONA 2 — THE NEWCOMER
+Devon Whitfield
+Marketing lead, entering adaptive fashion for the first time
+PAIN
+No internal data or condition-specific expertise, and a leadership ask to build a business case with almost no budget.
+WANTS
+Fast, credible evidence that a real product gap exists — before asking for a larger budget to enter the category.
+threadline
+3
+
+=== Slide 4 ===
+BRAND STRATEGY
+Why threadline is different
+A
+vs. adaptive fashion product companies
+Tommy Hilfiger Adaptive   •   Silverts   •   Reboundwear
+They sell finished garments, built on internal assumptions, for one end consumer. Threadline sells the intelligence that tells any brand, including them, what to build next, grounded in verified community signals.
+B
+vs. other AI market intelligence tools
+Brandwatch (sentiment monitoring)   •   Quantilope (automated surveys)
+Monitoring tools track what people are saying. Survey tools automate a study once a team already knows what to ask. Neither tells a brand what to build. Threadline scans condition-specific signal directly and outputs a ranked, evidence-backed product opportunity, already scored.
+threadline
+4
+
+=== Slide 5 ===
+VISUAL IDENTITY
+Logo, color, and typography
+threadline
+combination mark — primary logo
+TL
+monogram —
+favicon / app icon
+Navy
+1A1A2E
+Deep teal
+0D7377
+Medium teal
+14BDAC
+Slate
+5C6B73
+Amber (CTA only)
+D9A441
+Aa Bb Cc
+IBM Plex Sans — headings & body
+0123456789
+IBM Plex Mono — data points only
+60% deep or light teal, 30% navy, 10% amber reserved for calls-to-action only.
+threadline
+5
+
+=== Slide 6 ===
+VISUAL IDENTITY
+The identity carries across every surface
+Live website
+Navy background, teal accents, IBM Plex type — landing page and live product share one system.
+LinkedIn
+RM
+Raksha K Moorthy
+Product Manager · Northeastern University
+Most adaptive fashion brands are still designing for a customer who only exists in a slide deck from six months ago.
+#INFO7375   #BrandingAndAI   #AdaptiveFashion
+Live post, A10
+Product interface
+Condition selector, ranked opportunity cards, and scores use the identical color and type system live.
+threadline
+6
+
+=== Slide 7 ===
+BRAND STORYTELLING
+Framework: the quest
+One decision, two outcomes — presented in full, live.
+1
+Goal
+Sana needs a defensible product decision for the next roadmap lock, with no research budget.
+2
+Obstacle
+Two past product misses. The real complaint only surfaced after launch, every time.
+3
+Journey
+She filters Threadline to her conditions and finds a specific, scored opportunity, not a guess.
+4
+Resolution
+She brings evidence into the room. Nobody asks how she knows. The answer is on the slide.
+Connects to our brand values: Promise and Experience — evidence over assumption, confidence over guesswork.
+threadline
+7
+
+=== Slide 8 ===
+LIVE DEMO
+Scattered signal, ranked opportunity
+The same visual language from our brand system — now explaining how the pipeline works.
+Signal resolution
+scattered signal
+one ranked opportunity
+Ranked by evidence
+1
+2
+3
+4
+5
+Thousands of scattered consumer posts get resolved into one ranked, evidence-backed opportunity — the same mechanism shown in our own visual identity system.
+threadline
+8
+
+=== Slide 9 ===
+LIVE DEMO
+Making the value proposition tangible
+1
+Select condition
+Post-mastectomy, ostomy, rheumatoid arthritis, or post-surgical recovery.
+2
+View ranked opportunities
+Product opportunities sorted by signal strength, refreshed weekly.
+3
+Read the evidence
+Each card shows a score, a confidence tag, and the real consumer complaint behind it.
+Methodology:  scrape  →  clean  →  extract  →  embed  →  synthesize  —  refreshed automatically every week.
+Front-closure wireless post-mastectomy bra
+72
+Patients can't reach behind their back post-surgery; existing closures are painful.
+post mastectomy
+high confidence
+How it becomes a business
+Free pilot
+First look, no cost
+$500–$1K
+per insight
+$1,500+/mo
+subscription
+threadline-app-szob.onrender.com
+threadline
+9
+
+=== Slide 10 ===
+Thank you.
+Turning consumer frustration into product opportunities.
+threadline-lovat.vercel.app
+•
+threadline-app-szob.onrender.com
+•
+github.com/rakshakmoorthy/threadline-app
+Raksha Krishna Moorthy   •   INFO 7375 Branding & AI   •   Northeastern University

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Compounding output over 36 months</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Cadence dominates quality at the margin over two-year timescales.</text>
+<line x1="80" y1="320" x2="620" y2="320" stroke="#1a1714" stroke-width="1"/>
+<line x1="80" y1="320" x2="80" y2="100" stroke="#1a1714" stroke-width="1"/>
+<line x1="80.0" y1="320" x2="80.0" y2="324" stroke="#4a4540" stroke-width="0.75"/>
+<text x="80.0" y="338" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">m0</text>
+<line x1="170.0" y1="320" x2="170.0" y2="324" stroke="#4a4540" stroke-width="0.75"/>
+<text x="170.0" y="338" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">m6</text>
+<line x1="260.0" y1="320" x2="260.0" y2="324" stroke="#4a4540" stroke-width="0.75"/>
+<text x="260.0" y="338" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">m12</text>
+<line x1="350.0" y1="320" x2="350.0" y2="324" stroke="#4a4540" stroke-width="0.75"/>
+<text x="350.0" y="338" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">m18</text>
+<line x1="440.0" y1="320" x2="440.0" y2="324" stroke="#4a4540" stroke-width="0.75"/>
+<text x="440.0" y="338" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">m24</text>
+<line x1="530.0" y1="320" x2="530.0" y2="324" stroke="#4a4540" stroke-width="0.75"/>
+<text x="530.0" y="338" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">m30</text>
+<line x1="620.0" y1="320" x2="620.0" y2="324" stroke="#4a4540" stroke-width="0.75"/>
+<text x="620.0" y="338" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">m36</text>
+<line x1="76" y1="320.0" x2="80" y2="320.0" stroke="#4a4540" stroke-width="0.75"/>
+<text x="70" y="324.0" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="end">0</text>
+<line x1="76" y1="265.0" x2="80" y2="265.0" stroke="#4a4540" stroke-width="0.75"/>
+<text x="70" y="269.0" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="end">10</text>
+<line x1="76" y1="210.0" x2="80" y2="210.0" stroke="#4a4540" stroke-width="0.75"/>
+<text x="70" y="214.0" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="end">20</text>
+<line x1="76" y1="155.0" x2="80" y2="155.0" stroke="#4a4540" stroke-width="0.75"/>
+<text x="70" y="159.0" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="end">30</text>
+<line x1="76" y1="100.0" x2="80" y2="100.0" stroke="#4a4540" stroke-width="0.75"/>
+<text x="70" y="104.0" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="end">40</text>
+<text x="350.0" y="358" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Months post-course</text>
+<text x="36" y="210.0" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle" transform="rotate(-90 36 210.0)">Cumulative output</text>
+<polyline points="80.0,320.0 95.0,314.5 110.0,309.0 125.0,303.5 140.0,298.0 155.0,292.5 170.0,287.0 185.0,281.5 200.0,276.0 215.0,270.5 230.0,265.0 245.0,259.5 260.0,254.0 275.0,248.5 290.0,243.0 305.0,237.5 320.0,232.0 335.0,226.5 350.0,221.0 365.0,215.5 380.0,210.0 395.0,204.5 410.0,199.0 425.0,193.5 440.0,188.0 455.0,182.5 470.0,177.0 485.0,171.5 500.0,166.0 515.0,160.5 530.0,155.0 545.0,149.5 560.0,144.0 575.0,138.5 590.0,133.0 605.0,127.5 620.0,122.0" fill="none" stroke="#1a1714" stroke-width="2"/>
+<polyline points="80.0,320.0 95.0,298.0 110.0,276.0 125.0,259.5 140.0,254.0 155.0,251.25 200.0,248.5 260.0,245.75 440.0,243.0 620.0,243.0" fill="none" stroke="#8a8480" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="628.0" y="126.0" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">consistent monthly cadence</text>
+<text x="628.0" y="140.0" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">≈3× the burst total at month 36</text>
+<text x="628.0" y="247.0" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#4a4540">burst then silence</text>
+<text x="350.0" y="384" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Three pieces in month one matter less than one piece every month for thirty-six.</text>
+</svg>

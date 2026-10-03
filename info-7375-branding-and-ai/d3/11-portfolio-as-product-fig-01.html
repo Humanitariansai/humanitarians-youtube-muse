@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The three compounding channels of a portfolio</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; } .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-size:13px; max-width:240px; } .title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); } .ch-title { font-size:11px; font-weight:700; } .ch-body { font-size:9.5px; fill:var(--color-secondary); } @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const channels=[
+ {n:"Channel 1 — Direct hiring",body:["Short, predictable, visible.","Recruiter finds, screens, advances."],y:112,primary:false,dy:-62},
+ {n:"Channel 2 — Indirect reference",body:["Long, invisible, delayed,","high-compounding. Worth referencing."],y:190,primary:true,dy:0},
+ {n:"Channel 3 — Template effects",body:["Branching, autonomous, scales with","craft. Forks and clones carry your","name forward."],y:268,primary:false,dy:66}
+];
+const titleText="The three compounding channels of a portfolio";
+const descText="Three channels radiate from a portfolio built once. Channels 2 and 3 keep compounding long after Channel 1 is exhausted.";
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+  d3.select('#chart').selectAll('*').remove();
+  const container=document.getElementById('chart');
+  const totalWidth=Math.max(container.clientWidth-48,640);
+  const totalHeight=400;
+  const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+  svg.append('title').attr('id','chart-title').text(titleText);
+  svg.append('desc').attr('id','chart-desc').text(descText);
+  // arrow markers
+  const defs=svg.append('defs');
+  defs.append('marker').attr('id','ar-r').attr('markerWidth',10).attr('markerHeight',10).attr('refX',7).attr('refY',5).attr('orient','auto').attr('markerUnits','userSpaceOnUse').append('path').attr('d','M0,1 L9,5 L0,9 Z').attr('fill','var(--color-red)');
+  defs.append('marker').attr('id','ar-n').attr('markerWidth',10).attr('markerHeight',10).attr('refX',7).attr('refY',5).attr('orient','auto').attr('markerUnits','userSpaceOnUse').append('path').attr('d','M0,1 L9,5 L0,9 Z').attr('fill','var(--color-secondary)');
+  svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+  svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText);
+  // central portfolio
+  const px=40, py=190, pw=120, ph=64;
+  svg.append('rect').attr('x',px).attr('y',py-ph/2).attr('width',pw).attr('height',ph).attr('fill','var(--color-fill)').attr('stroke','var(--color-ink)').attr('stroke-width',1.5).attr('tabindex',0).attr('aria-label','Portfolio — built once')
+    .on('mouseover',(e)=>showTooltip(e,'<strong>Portfolio</strong><br>Built once; the source of all three channels.')).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+  svg.append('text').attr('x',px+pw/2).attr('y',py-4).attr('text-anchor','middle').attr('class','ch-title').attr('fill','var(--color-ink)').text('Portfolio');
+  svg.append('text').attr('x',px+pw/2).attr('y',py+14).attr('text-anchor','middle').attr('class','ch-body').text('built once');
+  const cardX=Math.min(px+pw+150,totalWidth-330);
+  const fromX=px+pw;
+  channels.forEach((c,i)=>{
+    const g=svg.append('g').attr('opacity',0);
+    const stroke=c.primary?'var(--color-red)':'var(--color-secondary)';
+    const sw=c.primary?2.5:1.5;
+    const targetY=py+c.dy;
+    const lineEl=g.append('line').attr('x1',fromX).attr('y1',py).attr('x2',cardX-6).attr('y2',targetY).attr('stroke',stroke).attr('stroke-width',sw).attr('marker-end',c.primary?'url(#ar-r)':'url(#ar-n)');
+    if(c.primary) lineEl.attr('stroke-dasharray','6 4');
+    if(i===2){ // branch
+      g.append('line').attr('x1',cardX-6).attr('y1',targetY).attr('x2',cardX-30).attr('y2',targetY-14).attr('stroke',stroke).attr('stroke-width',1).attr('marker-end','url(#ar-n)');
+      g.append('line').attr('x1',cardX-6).attr('y1',targetY).attr('x2',cardX-30).attr('y2',targetY+14).attr('stroke',stroke).attr('stroke-width',1).attr('marker-end','url(#ar-n)');
+    }
+    g.append('rect').attr('x',cardX).attr('y',c.y).attr('width',316).attr('height',c.body.length>2?58:52).attr('fill',c.primary?'var(--color-fill)':'var(--color-white)').attr('stroke',c.primary?'var(--color-red)':'var(--color-ink)').attr('stroke-width',c.primary?1.5:1).attr('tabindex',0).attr('aria-label',c.n+': '+c.body.join(' '))
+      .on('mouseover',(e)=>showTooltip(e,'<strong>'+c.n+'</strong><br>'+c.body.join(' '))).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    g.append('text').attr('x',cardX+12).attr('y',c.y+18).attr('class','ch-title').attr('fill',c.primary?'var(--color-red)':'var(--color-ink)').text(c.n);
+    c.body.forEach((ln,j)=>g.append('text').attr('x',cardX+12).attr('y',c.y+34+j*13).attr('class','ch-body').text(ln));
+    g.transition().delay(i*180).duration(320).attr('opacity',1);
+  });
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

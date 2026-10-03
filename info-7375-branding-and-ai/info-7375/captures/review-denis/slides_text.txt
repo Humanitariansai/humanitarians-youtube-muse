@@ -1,0 +1,390 @@
+=== Slide 1 ===
+INFO 7375 — BRANDING & AI  ·  COMPLETE BRAND SYSTEM
+Same market intelligence your employer already has.
+An adversarial multi-agent AI platform that cross-examines your resume against real DC-metro job postings — and hands you the exact fix, not just a score.
+Denis Bykov
+INFO 7375 — Branding & AI  •  Northeastern University
+August 14, 2026  ·  Path B — Madison AI Tool Startup Brand
+inquisitive-lily-b52fee.netlify.app
+Live brand website  ·  Live tool demo: huggingface.co/spaces/denisbykov/madison-job-intel
+1 / 19
+
+=== Slide 2 ===
+BRAND STRATEGY
+Job Seekers Have More Tools Than Ever.
+Still No Verdict.
+$
+32–200+
+Applications the average job seeker sends before landing one offer (2026)
+!
+2–3%
+Applicant-to-interview conversion rate industry-wide, down from 8.4% in 2023
+$
+$39.99/mo
+Cost of LinkedIn Premium Career — still returns zero fit verdict
+%
+115% more
+interviews for tailored resumes vs. generic ones — tailoring is the lever that works
+#
+0.1–2%
+Success rate of a cold, untailored application with no gap analysis behind it
+"Job seekers can see thousands of postings… but can't tell which ones they're actually competitive for."
+Sources: HiringThing 2026 Job Application Report · MeetAssist 2026 funnel analysis · LinkedIn pricing verified Aug 2026
+2 / 19
+BRAND STRATEGY
+
+=== Slide 3 ===
+BRAND STRATEGY
+You Don't Get a Score.
+You Get Cross-Examined.
+Upload a resume + target role. Two AI agents debate your fit live. A third delivers the verdict.
+AGENT A
+Harsh Hiring Manager
+Stress-tests every claim on the resume. Flags real skill and clearance gaps — no flattery.
+AGENT B
+Candidate Advocate
+Argues your case. Surfaces transferable strengths Agent A missed.
+SYNTHESIS JUDGE
+The Verdict
+Reconciles both arguments into one fit score, a confidence rating, and a 3-step action plan.
+Actual shipped brand visual — Assignment 8
+3 / 19
+BRAND STRATEGY
+
+=== Slide 4 ===
+BRAND STRATEGY
+Five Pillars. One Verdict Engine.
+01
+HONESTY
+No AI flattery. An adversarial agent stress-tests every claim.
+02
+EVIDENCE
+Every verdict backed by live BLS, NewsAPI, and posting data.
+03
+SPEED
+A full diagnostic in seconds — not weeks of silent applications.
+04
+ACTION
+Leaves you with a 3-step plan, not just a percentage.
+05
+ACCESS
+The market intelligence your employer already has — now yours.
+These aren't values on a slide. They're the rules the Synthesis Judge runs on.
+4 / 19
+BRAND STRATEGY
+
+=== Slide 5 ===
+BRAND STRATEGY
+Who We Serve: The DC-Metro Job Seeker
+Primary ICP:  Early-to-mid career tech & data candidates in DC / Northern Virginia applying to cleared and cloud-infrastructure roles
+PERSONA
+Priya — The Career-Pivoting Analyst
+Self-taught data/BI candidate, Junior Data Analyst roles, DC metro
+Pain:
+Applies to dozens of analyst postings with zero signal on why she isn't converting — or which certification actually matters.
+Wants:
+One clear verdict: is she competitive for this role, and what closes the gap fastest.
+PERSONA
+Marcus — The Cleared IT Specialist
+Security-cleared cloud/IT specialist eyeing Leidos, Booz Allen, SAIC
+Pain:
+Watches cleared roles command a premium he can't quantify against his own resume.
+Wants:
+Evidence he clears the bar for TS/SCI cloud roles — before he burns a referral.
+Key verticals: Federal contracting  ·  Cloud infrastructure  ·  Data analytics  ·  Cybersecurity
+5 / 19
+BRAND STRATEGY
+
+=== Slide 6 ===
+BRAND STRATEGY
+We're Not Another AI Resume Reviewer.
+We're the Verdict Layer.
+Factor
+Generic AI Chat
+LinkedIn Premium Career
+Madison
+Feedback style
+Single model, agreeable
+Profile visibility stats
+2-agent debate + judge
+Labor-market grounding
+Static training data
+Aggregate platform data
+Live BLS + NewsAPI + postings
+DC-metro / clearance fit
+None
+None
+Built-in (TS/SCI, cloud vs. NOC)
+Confidence / fit score
+—
+—
+✓  Fit score + 3-step plan
+Access model
+Free–$20/mo
+$39.99/mo
+Free capstone deployment
+Positioning:  The only tool fusing adversarial AI debate with live regional labor data — built for the DC-metro cleared & tech corridor.
+6 / 19
+BRAND STRATEGY
+
+=== Slide 7 ===
+VISUAL IDENTITY SHOWCASE
+Visual Identity System
+LOGO
+Primary — Dark Background
+Variation — Light Background
+Naming finalists eliminated in trademark/domain clearance: JobSignal · CareerScope · LumenPath · Nexara
+COLOR PALETTE  —  WCAG-AUDITED
+Ink Navy
+#0B1220
+Warm White
+#F5F5F0
+Signal Green
+#00D9A3
+Deep Teal
+#0F4C5C
+Data Amber
+#F5A623
+Slate Gray
+#4A5568
+Every pairing WebAIM-tested — see next slide for verified contrast ratios.
+7 / 19
+VISUAL IDENTITY SHOWCASE
+
+=== Slide 8 ===
+VISUAL IDENTITY SHOWCASE
+Type System & Verified Accessibility
+TYPOGRAPHY
+Calibri
+PRIMARY — Headlines & Interface
+Aa Bb Cc  01234567
+Courier New
+SECONDARY — Data, Metrics & Scores
+68%   14-node   $12.98/yr   11.4s
+H1 32pt Bold  ·  H2 22pt Bold  ·  Body 14pt  ·  Data 13pt Mono
+WEBAIM CONTRAST RESULTS — ASSIGNMENT 8
+Warm White on Ink Navy
+17.11:1
+Signal Green on Ink Navy
+10.21:1
+Data Amber on Ink Navy
+9.23:1
+Warm White on Deep Teal
+8.69:1
+Slate Gray on Warm White
+6.88:1
+7 of 7 pairings pass WCAG AA. 6 of 7 pass AAA — the one exception (Slate Gray captions) still clears AA comfortably and is used only for borders and fine print, never body copy.
+8 / 19
+VISUAL IDENTITY SHOWCASE
+
+=== Slide 9 ===
+VISUAL IDENTITY SHOWCASE
+The Brand Lives Inside the Tool
+PRODUCT UI — VERDICT CARD
+madison — product interface concept
+Junior Data Analyst — DC Metro
+Verdict ready  ·  Fit Score 8/10
+CompTIA A+
+GAP
+AWS Cloud Practitioner
+GAP
+Cross-functional exp.
+STRENGTH
+Recommendation: apply now — lead with cross-functional project experience.
+Actual shipped brand visual — Assignment 8
+Same navy. Same signal colors. Same verdict logic — the brand is the interface.
+9 / 19
+VISUAL IDENTITY SHOWCASE
+
+=== Slide 10 ===
+VISUAL IDENTITY SHOWCASE
+Brand Voice In the Wild
+PRIMARY
+LinkedIn
+B2B network, real testers
+SECONDARY
+Substack
+Long-form origin story
+TERTIARY
+Weekly Newsletter
+Recurring market signal
+in  LinkedIn Post
+Most career advice is far too polite.
+It tells you you're a great fit right up until the automated rejection lands. That's why we built Madison — a multi-agent tool that puts your resume through a simulated hiring debate before you apply.
+#AI  #CareerStrategy  #TechHiring
+lnkd.in/ekBqaMSD  ·  verified, published
+S  Substack Article
+Why We Built an Adversarial AI Debate Engine to Fix the DC Tech Job Search
+Long-form editorial walking through the debate architecture and the data pipeline behind it — live on Substack.
+denisbb.substack.com
+10 / 19
+VISUAL IDENTITY SHOWCASE
+
+=== Slide 11 ===
+BRAND STORYTELLING
+Origin Story — The Application That Went Nowhere
+FRAMEWORK — HERO'S JOURNEY
+1
+THE CHALLENGE
+DC tech listings felt like a void — qualified candidates rejected by filters before a human ever saw the resume.
+2
+THE REALIZATION
+Candidates didn't need more encouragement. They needed to know what a real hiring committee argues about behind closed doors.
+3
+THE TRANSFORMATION
+We built an n8n pipeline on live BLS data, then ran every resume through an adversarial hiring debate instead of a single polite AI check.
+4
+THE BUILD
+Madison turns passive job searching into an active simulation — surfacing the exact skill and credential gaps standing between a candidate and an interview.
+Story → Values:  Honesty  ·  Evidence  ·  Speed  ·  Action  ·  Access
+11 / 19
+BRAND STORYTELLING
+
+=== Slide 12 ===
+BRAND STORYTELLING
+Who We're Solving This For
+Every verdict needs a candidate. Ours are DC-metro job seekers applying into silence.
+The problem:  turning invisible skill gaps into a concrete action plan — before the application goes out, not after the rejection comes in.
+PRIYA
+Before Madison:
+✗  Applies to 12 analyst postings, hears back from zero
+✗  Can't tell which certification actually matters
+With Madison:
+✓  Runs the Junior Data Analyst debate — lands an 8/10 fit score
+✓  Told point-blank: CompTIA A+ and AWS Cloud Practitioner close the gap fastest
+MARCUS
+Before Madison:
+✗  Sees Leidos, Booz Allen, SAIC price cleared roles above the median
+✗  No way to benchmark his resume against the market shift in real time
+With Madison:
+✓  Confirms cloud infrastructure roles are outpacing NOC postings 2:1 at AWS Herndon, Microsoft Ashburn, Google Reston
+✓  Gets a clearance-corridor verdict instead of a generic "good fit!"
+12 / 19
+BRAND STORYTELLING
+
+=== Slide 13 ===
+MADISON AI TOOL DEMO
+Built, Deployed, and Tested — Not Just Designed
+14
+Node n8n data pipeline
+(BLS + NewsAPI + Kaggle)
+62
+Records verified at 100%
+data quality, 3 sources
+3
+Independent AI agents on
+live Claude API calls
+11.4s
+Average time from upload
+to full market briefing
+3
+Real users tested live
+(Sri, Arjun, Chase)
+LIVE ON HUGGING FACE SPACES
+denisbykov/madison-job-intel
+LIVE WEBSITE
+inquisitive-lily-b52fee.netlify.app
+CODE
+github.com/drippydenis/Madison
+User testing conducted live via Zoom, recorded and transcribed with Otter.ai — findings shipped into the next iteration.
+13 / 19
+MADISON AI TOOL DEMO
+
+=== Slide 14 ===
+PITCH DECK · SLIDE 1 OF 3
+DC-metro job seekers are applying into silence.
+They're paying $39.99/mo for tools that still can't tell them why.
+32–200+
+applications per offer
+2–3%
+interview conversion rate
+0.1–2%
+success rate, untailored
+14 / 19
+MADISON AI TOOL DEMO
+
+=== Slide 15 ===
+PITCH DECK · SLIDE 2 OF 3
+Madison cross-examines your resume the way a real hiring committee would.
+Then it hands you the verdict.
+Adversarial Debate
+Two agents argue your fit — harsh critic vs. advocate.
+Live Labor Data
+Grounded in BLS, NewsAPI, and real postings — not static training data.
+Verdict + 3-Step Plan
+A fit score, a confidence rating, and exactly what to fix next.
+15 / 19
+MADISON AI TOOL DEMO
+
+=== Slide 16 ===
+PITCH DECK · SLIDE 3 OF 3
+Shipped in one semester. Built for what's next.
+TRACTION
+✓  62 records verified at 100% data quality
+✓  3 real users tested live via Zoom + Otter.ai
+✓  Deployed publicly on Hugging Face Spaces
+✓  Live website — inquisitive-lily-b52fee.netlify.app
+✓  Published Substack article + LinkedIn post
+WHAT'S NEXT
+→  Point getmadison.app at the live site; grow beyond the capstone build
+→  Resume auto-rewrite generated straight from the verdict
+→  Grow the Weekly Signal newsletter subscriber base
+→  Expand past DC metro into adjacent cleared-role markets
+16 / 19
+MADISON AI TOOL DEMO
+
+=== Slide 17 ===
+MADISON AI TOOL DEMO
+How to Use Madison
+Tool documentation — feature overview
+01
+UPLOAD
+Drop in a resume and a target role or job posting.
+02
+DEBATE
+Agent A and Agent B argue your fit live, grounded in BLS + NewsAPI + posting data.
+03
+VERDICT
+Get a fit score, a confidence rating, and a 3-step action plan.
+FEATURE OVERVIEW
+•  Multi-source labor data — BLS, NewsAPI, and Kaggle job postings, fused in a 14-node n8n pipeline
+•  Adversarial two-agent debate + synthesis judge, powered by live Claude API calls
+•  DC-metro and clearance-corridor tuned — TS/SCI premiums, cloud vs. NOC trend tracking
+•  Weekly Signal newsletter — recurring market briefings delivered on a schedule
+•  Gradio interface, deployed and publicly testable on Hugging Face Spaces
+17 / 19
+MADISON AI TOOL DEMO
+
+=== Slide 18 ===
+LIVE DEMO
+Watch the Verdict Land in Real Time
+→  huggingface.co/spaces/denisbykov/madison-job-intel
+01
+UPLOAD
+Resume + target role
+02
+DEBATE
+Two agents argue live on Claude
+03
+VERDICT
+Fit score + 3-step plan
+Methodology:  Live Claude API calls across two adversarial agents plus a synthesis judge, grounded in a 14-node n8n pipeline pulling BLS, NewsAPI, and Kaggle data.
+18 / 19
+MADISON AI TOOL DEMO
+
+=== Slide 19 ===
+Thank you.
+Same market intelligence your employer already has.
+WEBSITE (LIVE)
+inquisitive-lily-
+b52fee.netlify.app
+LIVE DEMO
+hf.co/spaces/denisbykov/
+madison-job-intel
+LINKEDIN
+/in/denis-bykov-
+202a72222
+SUBSTACK
+denisbb.substack.com
+Denis Bykov  ·  INFO 7375 Branding & AI  ·  Northeastern University  ·  August 2026
+19 / 19

@@ -1,0 +1,503 @@
+{
+  "metadata": {
+    "slug": "review-duc",
+    "title": "INFO 7375 — Project Review: Duc",
+    "topic": "INFO 7375 · PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 460,
+    "build": {
+      "at": "2026-08-16T23:44:09",
+      "cut": "master",
+      "filled": 9,
+      "of": 14,
+      "slates": [
+        "B02",
+        "B03",
+        "B04",
+        "B06",
+        "B10"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Hey Claude — I just read Duc's final brand portfolio for INFO 7375. SignalBrief: a tool that cross-checks what developers discuss on Hacker News, what practitioners explain on DEV, and what teams attempt to adopt on GitHub — then outputs one source-linked, inspectable product decision. What does the work tell us?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · PROJECT REVIEW",
+            "segment": "Duc",
+            "command": "I just read Duc's final brand portfolio. SignalBrief — cross-checks Hacker News, DEV, and GitHub to output one source-linked product decision. What does the work tell us?",
+            "runningText": "reviewing the submission...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.79,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:44:09"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "SETUP",
+      "role_note": "The brief — what was submitted and its form.",
+      "narration_text": "Path B required a complete brand system for an AI tool startup. Duc submitted 12 image-based slides — no extractable text, every slide a designed artifact. Live website and working demo both linked. The submission is visually sophisticated and the system runs. Both matter.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 15.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "The Brief vs. The Delivery",
+            "body": "All five Path B elements present. Deck is image-native — each slide a designed artifact. Live website and demo both linked. The pipeline ran 180 records in 24.25 seconds.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 16.43,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:44:09"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 1 — The problem framing is sharp and honest.",
+      "narration_text": "The problem slide says it directly: the loudest artifact wins. Three hours every week scanning developer feeds, and the final roadmap choice can still be driven by one memorable post. That's a real product manager problem, stated without padding. The insight that confidence arrives before the evidence agrees is the entire design brief for SignalBrief.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B02.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.4
+          ]
+        }
+      },
+      "actual_duration_s": 19.31,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:44:09",
+        "needs": "YOU → drop a historical image at media/B02.png (or .mp4)",
+        "suggested": "find: The problem slide says it directly: the loudest artifact wins. Three hours every week scanning developer feeds, and the final roadmap choice can still be driven"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 2 — The visual identity is the strongest in the cohort.",
+      "narration_text": "The visual system earns real attention. Night for structure, Paper for reading, Verify teal for confirmed evidence, Review amber for uncertainty, Menlo labels for inspectable state. Every color is a data state, not a brand choice. Avenir Next for plain-language decisions, Menlo for source attribution. The identity has a product job and it does it.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B03.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 19.18,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:44:09",
+        "needs": "YOU → drop a historical image at media/B03.png (or .mp4)",
+        "suggested": "find: The visual system earns real attention. Night for structure, Paper for reading, Verify teal for confirmed evidence, Review amber for uncertainty, Menlo labels f"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 3 — The six-stage pipeline with a human gate is the right architecture.",
+      "narration_text": "The pipeline has six stages: collect, normalize, enrich with AI, parse and gate outputs, apply deterministic rank, then human review. Stage six is explicitly a human gate — no recommendation executes automatically. That's not a feature, it's a design philosophy: AI ranks, human decides. The brand slogan and the architecture say the same thing.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B04.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 19.8,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:44:09",
+        "needs": "YOU → drop a historical image at media/B04.png (or .mp4)",
+        "suggested": "find: The pipeline has six stages: collect, normalize, enrich with AI, parse and gate outputs, apply deterministic rank, then human review. Stage six is explicitly a "
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "BRAND SYSTEM",
+      "role_note": "Manim — the six-pipeline-stage architecture diagram.",
+      "narration_text": "Public APIs through one normalized schema, AI-enriched in stable 12-record batches, malformed outputs labeled rather than silently trusted, deterministic ranking when the model times out, then human review. The fallback design is the tell — this is a system built for production reliability, not just a demo.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 17.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Six-stage pipeline",
+            "body": "Collect → normalize → AI-enrich → parse + gate → deterministic rank → human review. Stage six is the explicit human gate.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.24,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:44:09"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "BRAND SYSTEM",
+      "role_note": "Brand presence — four platform-native examples with one consistent voice.",
+      "narration_text": "The social content slide shows four platform-native examples: a proof teaser, a case study, product proof, and a point-of-view note. Each adapts the format, none changes the voice. The voice is consistent: source-linked, specific, verified over loud. That channel discipline is exactly right for a B2B developer tool.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 17.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B06.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 17.62,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:44:09",
+        "needs": "YOU → drop a historical image at media/B06.png (or .mp4)",
+        "suggested": "find: The social content slide shows four platform-native examples: a proof teaser, a case study, product proof, and a point-of-view note. Each adapts the format, non"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 1 — The prototype evidence is thin for the positioning claim.",
+      "narration_text": "The final slide reports 180 raw records, 12 AI-enriched in 24.25 seconds, 3 ranked signals. That's a real run, and speed was described as the least interesting result — which is exactly right. But the submission doesn't show a Monday build decision actually changed by the tool. One before-and-after case would close that gap.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Prototype Evidence Gap",
+            "body": "180 records, 3 ranked signals — a real run. But the brand claims to change build decisions. One before-and-after case with a real decision would make that claim verifiable.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.09,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:44:09"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 2 — Revenue model is present but not grounded.",
+      "narration_text": "Fifty founder plans at 49 dollars plus ten team plans at 199 dollars targets 53,280 ARR from 60 customers. The math is clean. But there's no user research or customer discovery cited behind those price points. The midterm feedback closure note is mentioned — that's good. What did the feedback actually say about pricing?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 17.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Revenue Model Without Discovery",
+            "body": "$49 and $199 price points appear without user research. What did midterm feedback say about pricing? One data point from actual testing would anchor those numbers.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 20.25,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:44:09"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 3 — The GitHub source treatment needs more explanation.",
+      "narration_text": "The three-source architecture — Hacker News for discussion, DEV for practitioner writing, GitHub for attempted adoption — is the core insight. GitHub as a signal for what teams actually try to adopt is genuinely clever. But the submission doesn't explain how GitHub signals are collected or weighted differently from the other two. That methodology gap matters.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Source weighting gap",
+            "body": "Hacker News = discussion. DEV = practitioner writing. GitHub = attempted adoption. GitHub weighting methodology is the missing piece.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.52,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:44:09"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "TOOL/BUILD",
+      "role_note": "The live demo — challenge the ranking.",
+      "narration_text": "The demo shows a transparent audit run: remove a source, watch the recommendation weaken because one independent believer no longer corroborates it. That's the brand in action. The point is not to make the AI look smart. The point is to make the evidence easier to challenge. The demo teaches the user what the product believes.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B10.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 17.19,
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:44:09",
+        "needs": "YOU → drop a historical image at media/B10.png (or .mp4)",
+        "suggested": "find: The demo shows a transparent audit run: remove a source, watch the recommendation weaken because one independent believer no longer corroborates it. That's the "
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT",
+      "role_note": "ClaudeVerdictArtifact — final verdict.",
+      "narration_text": "The strongest visual identity in the cohort, a pipeline architecture that reflects the brand philosophy, and a demo that teaches the user what the product believes. The gaps are in user evidence and source methodology — both addressable with one round of user interviews.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 14.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "SignalBrief — Duc",
+            "artifactHeading": "Strongest visual system in the cohort — brand philosophy and pipeline architecture say the same thing.",
+            "artifactLines": [
+              "Color system assigns data states, not brand choices — every token has a product job",
+              "Six-stage pipeline with explicit human gate reflects the brand slogan in code",
+              "Demo teaches the user to challenge the AI — not to trust it",
+              "—",
+              "One before-and-after decision case would verify the build-decision claim",
+              "GitHub source collection and weighting methodology needs explanation",
+              "Price points ($49/$199) need one discovery data point to move from aspirational to grounded"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 15.25,
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": "",
+        "filled_by": ""
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Your Turn — ClaudeComposerAsk.",
+      "narration_text": "Your turn. SignalBrief's core claim is that removing one source changes the recommendation. Write a one-page case study of a real product decision — yours or a public one — where the evidence from one source pointed one way and a second source contradicted it. Show how SignalBrief's cross-check architecture would have surfaced that conflict. Bring it into your next session.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 21.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375",
+            "segment": "Duc",
+            "command": "Write a one-page case study of a real product decision where one source said yes and another said no. Show exactly how SignalBrief's three-source cross-check would have surfaced that conflict before the sprint committed.",
+            "runningText": "your move...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.48,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:44:09"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "ClaudeTitleOutro — title re-read.",
+      "narration_text": "",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 5.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "INFO 7375 — Project Review: Duc",
+            "handle": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 5.0,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:44:09"
+      }
+    }
+  ]
+}

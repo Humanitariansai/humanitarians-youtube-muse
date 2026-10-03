@@ -1,0 +1,45 @@
+<!--
+  AI+1: the division of labor
+  Book: Branding and AI
+  Chapter: 00-introduction
+  Figure: 03
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/00-introduction-cajal.md
+-->
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-00-03">
+  <title id="fig-title-00-03">AI+1: the division of labor</title>
+  <desc>Comparison of what AI drafts versus the accountable judgments the human plus-one owns, with a draft-to-judgment handoff.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="360" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">AI+1: the agent drafts, the +1 decides</text>
+
+  <!-- left panel: AI drafts -->
+  <rect x="40" y="64" width="280" height="240" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">AI drafts</text>
+  <text x="56" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">fast, tireless, pattern-rich</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">
+    <text x="56" y="148">— Reformatting and assembling</text>
+    <text x="56" y="180">— Drafting structure and copy</text>
+    <text x="56" y="212">— Pattern-spotting across artifacts</text>
+    <text x="56" y="244">— Surfacing the thinnest evidence</text>
+  </g>
+
+  <!-- right panel: You decide / +1 -->
+  <rect x="380" y="64" width="280" height="240" fill="#FFFFFF" stroke="#121212" stroke-width="1.25"/>
+  <text x="396" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">You decide — the +1</text>
+  <text x="396" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">calibrated, accountable judgment</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">
+    <text x="396" y="148">— Commit an archetype</text>
+    <text x="396" y="180">— Approve a voice</text>
+    <text x="396" y="212">— Sign off a position</text>
+    <text x="396" y="244">— Clear a claim against evidence</text>
+  </g>
+
+  <!-- handoff arrow -->
+  <line x1="322" y1="184" x2="378" y2="184" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <text x="40" y="336" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Anything the agent generates — a persona, a metric, a citation — is a draft that needs an evidence check.</text>
+</svg>

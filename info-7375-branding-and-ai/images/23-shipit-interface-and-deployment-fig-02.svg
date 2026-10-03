@@ -1,0 +1,80 @@
+<!--
+  Three faces of misalignment
+  Book: Branding and AI
+  Chapter: 23-shipit-interface-and-deployment
+  Figure: 02
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/23-shipit-interface-and-deployment-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-23-02">
+  <title id="fig-title-23-02">Three faces of misalignment</title>
+  <desc>Three structural ways an interface contradicts its brand — confidence, capability, tone — each with definition, how engineers cause it, what users experience, and the fix.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="23-shipit-interface-and-deployment"
+      figure-number="02" figure-title="Three faces of misalignment"
+      figure-slug="three-faces-of-misalignment" figure-type="comparison panels"
+      priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/23-shipit-interface-and-deployment-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three ways an interface quietly contradicts its brand</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each has a different cause and a different fix.</text>
+
+  <!-- Panel 1 confidence — RED focal point (most common for engineers) -->
+  <rect x="32" y="84" width="200" height="296" fill="#F5F5F5" stroke="#C8102E" stroke-width="2"/>
+  <rect x="32" y="84" width="200" height="40" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="44" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">MOST COMMON</text>
+  <text x="44" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#C8102E">Confidence</text>
+  <text x="44" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DEFINITION</text>
+  <text x="44" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Output looks more</text>
+  <text x="44" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">certain than the</text>
+  <text x="44" y="198" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">system is.</text>
+  <text x="44" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">ENGINEERS CAUSE</text>
+  <text x="44" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">They built it; the</text>
+  <text x="44" y="260" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">output looks fine</text>
+  <text x="44" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">to them in the demo.</text>
+  <text x="44" y="304" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">FIX</text>
+  <text x="44" y="322" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Confidence scores,</text>
+  <text x="44" y="338" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">"verify with source"</text>
+  <text x="44" y="354" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">footers, hedges.</text>
+
+  <!-- Panel 2 capability -->
+  <rect x="250" y="84" width="200" height="296" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="250" y="84" width="200" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="262" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Capability</text>
+  <text x="262" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DEFINITION</text>
+  <text x="262" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Interface implies</text>
+  <text x="262" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">abilities the tool</text>
+  <text x="262" y="198" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">cannot reliably do.</text>
+  <text x="262" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">ENGINEERS CAUSE</text>
+  <text x="262" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">A chat box implies</text>
+  <text x="262" y="260" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">general competence;</text>
+  <text x="262" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">scope is narrow.</text>
+  <text x="262" y="304" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">FIX</text>
+  <text x="262" y="322" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Narrow the claim —</text>
+  <text x="262" y="338" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">"PDFs up to 20pp",</text>
+  <text x="262" y="354" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">not "any document".</text>
+
+  <!-- Panel 3 tone -->
+  <rect x="468" y="84" width="200" height="296" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="468" y="84" width="200" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="480" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Tone</text>
+  <text x="480" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DEFINITION</text>
+  <text x="480" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Interface speaks in</text>
+  <text x="480" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">a voice the system</text>
+  <text x="480" y="198" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">cannot maintain.</text>
+  <text x="480" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">ENGINEERS CAUSE</text>
+  <text x="480" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Warm chatbot copy</text>
+  <text x="480" y="260" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">over clipped,</text>
+  <text x="480" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">templated output.</text>
+  <text x="480" y="304" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">FIX</text>
+  <text x="480" y="322" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Read the real</text>
+  <text x="480" y="338" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">outputs; match copy</text>
+  <text x="480" y="354" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">to their register.</text>
+
+  <text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Confidence misalignment is highlighted because it is the failure</text>
+  <text x="32" y="422" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">engineers building AI interfaces commit most.</text>
+  <text x="32" y="430" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 23, THREE FACES OF MISALIGNMENT</text>
+</svg>

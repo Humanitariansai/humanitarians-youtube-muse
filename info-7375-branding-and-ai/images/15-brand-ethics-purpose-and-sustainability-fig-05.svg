@@ -1,0 +1,57 @@
+<!--
+  CSR, ESG, B Corp: signals that invite scrutiny
+  Book: Branding and AI
+  Chapter: 15-brand-ethics-purpose-and-sustainability
+  Figure: 05
+  Type: comparison / classification
+  Generated: 2026-06-18
+  Source: pantry/15-brand-ethics-purpose-and-sustainability-cajal.md
+-->
+<svg viewBox="0 0 700 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-15-05">
+  <title id="fig-title-15-05">CSR, ESG, and B Corp: signals that invite scrutiny</title>
+  <desc>Three instruments for making purpose legible, ordered by increasing third-party rigor: CSR (voluntary, not verified), ESG reporting (standardized disclosure, frameworks not harmonized), and B Corp (third-party verification by B Lab). Each shows what it signals and its named limit. None is proof of purpose.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="15-brand-ethics-purpose-and-sustainability" figure-number="05"
+      figure-title="CSR, ESG, B Corp: signals that invite scrutiny"
+      figure-slug="csr-esg-bcorp-signals"
+      figure-type="comparison / classification" priority="Supplementary"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/15-brand-ethics-purpose-and-sustainability-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="432" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three signals that invite scrutiny — none is proof</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Ordered by increasing third-party rigor. Use them as documentation for the</text>
+  <text x="32" y="70" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">claim–proof map, not as substitutes for it.</text>
+
+  <!-- rigor arrow on the left -->
+  <text x="48" y="100" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" transform="rotate(-90 48 220)">increasing third-party verification rigor →</text>
+
+  <!-- CSR band (lowest rigor) -->
+  <rect x="72" y="84" width="596" height="84" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="72" y="84" width="8" height="84" fill="#ADADAD"/>
+  <text x="92" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">CSR — Corporate Social Responsibility</text>
+  <text x="92" y="128" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Signals: voluntary programs beyond compliance — giving, volunteering, supplier standards.</text>
+  <text x="92" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Limit: not third-party verified; may be disconnected from the core business — a tobacco</text>
+  <text x="92" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">company with an excellent CSR program is still a tobacco company.</text>
+
+  <!-- ESG band (middle rigor) -->
+  <rect x="72" y="176" width="596" height="84" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="72" y="176" width="8" height="84" fill="#787878"/>
+  <text x="92" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">ESG reporting — Environmental, Social, Governance</text>
+  <text x="92" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Signals: standardized disclosure metrics that let investors compare on quantified dimensions.</text>
+  <text x="92" y="240" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Limit: frameworks (GRI, SASB, TCFD, SEC) overlap and diverge; reporting metrics is not the</text>
+  <text x="92" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">same as performing well on them.</text>
+
+  <!-- B Corp band (highest rigor) -->
+  <rect x="72" y="268" width="596" height="84" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <rect x="72" y="268" width="8" height="84" fill="#121212"/>
+  <text x="92" y="292" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">B Corp certification — third-party verified by B Lab</text>
+  <text x="92" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Signals: meets standards of social/environmental performance, with periodic recertification.</text>
+  <text x="92" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Limit: a floor, not a ceiling; some B Corps sit in high-externality sectors; standards are set</text>
+  <text x="92" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">by B Lab, not a regulator.</text>
+
+  <text x="32" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">All three are worth scrutinizing; all are better than no signal;</text>
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">none resolves the question of purpose on its own.</text>
+</svg>

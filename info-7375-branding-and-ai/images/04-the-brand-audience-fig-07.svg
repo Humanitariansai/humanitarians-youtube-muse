@@ -1,0 +1,81 @@
+<!--
+  Two-persona scaffold from the worked example
+  Book: Branding and AI
+  Chapter: 04-the-brand-audience
+  Figure: 07
+  Type: annotated table
+  Generated: 2026-06-18
+  Source: pantry/04-the-brand-audience-cajal.md
+-->
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04-07">
+  <title id="fig-title-04-07">Two-persona scaffold</title>
+  <desc>A copyable persona template filled with Jordan and Alex: persona, job-to-be-done, cultural tension, verifiable behavior, evidence status.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="04-the-brand-audience"
+      figure-number="07" figure-title="Two-persona scaffold" figure-slug="two-persona-scaffold"
+      figure-type="annotated table" priority="Supplementary" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/04-the-brand-audience-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="360" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">A persona scaffold you can copy — filled from the worked example</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Brand around helping engineers navigate the move into management.</text>
+
+  <!-- header row -->
+  <rect x="32" y="80" width="110" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="80" width="150" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="292" y="80" width="150" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="442" y="80" width="130" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="572" y="80" width="96" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Persona</text>
+  <text x="152" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Job to be done</text>
+  <text x="302" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Cultural tension</text>
+  <text x="452" y="100" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Verifiable</text>
+  <text x="452" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">behavior</text>
+  <text x="582" y="100" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Evidence</text>
+  <text x="582" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">status</text>
+
+  <!-- Jordan row -->
+  <rect x="32" y="120" width="110" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="120" width="150" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="292" y="120" width="150" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="442" y="120" width="130" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="572" y="120" width="96" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Jordan</text>
+  <text x="42" y="164" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">staff eng,</text>
+  <text x="42" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">5 yrs in</text>
+  <text x="152" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Decide on the move</text>
+  <text x="152" y="160" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">without paying the</text>
+  <text x="152" y="174" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">full cost of failure.</text>
+  <text x="302" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"Management is</text>
+  <text x="302" y="160" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">going to the dark</text>
+  <text x="302" y="174" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">side."</text>
+  <text x="452" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Posts in forums</text>
+  <text x="452" y="160" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">about losing</text>
+  <text x="452" y="174" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">technical respect.</text>
+  <text x="582" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Confirmed</text>
+  <text x="582" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">3 threads</text>
+
+  <!-- Alex row -->
+  <rect x="32" y="220" width="110" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="220" width="150" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="292" y="220" width="150" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="442" y="220" width="130" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="572" y="220" width="96" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Alex</text>
+  <text x="42" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">new mgr,</text>
+  <text x="42" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">6 mo in</text>
+  <text x="152" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Stop quietly</text>
+  <text x="152" y="260" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">panicking; find</text>
+  <text x="152" y="274" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">honest footing.</text>
+  <text x="302" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"I should already</text>
+  <text x="302" y="260" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">know how to do</text>
+  <text x="302" y="274" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">this."</text>
+  <text x="452" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Uses Slack as</text>
+  <text x="452" y="260" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">primary info</text>
+  <text x="452" y="274" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">channel.</text>
+  <text x="582" y="250" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Inferred</text>
+  <text x="582" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">verify next</text>
+
+  <text x="32" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 4, WORKED EXAMPLE — DEFINE YOUR AUDIENCE</text>
+</svg>

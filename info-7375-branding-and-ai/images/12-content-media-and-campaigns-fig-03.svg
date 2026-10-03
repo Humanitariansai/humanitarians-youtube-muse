@@ -1,0 +1,74 @@
+<!--
+  IMC: one voice vs. fragmentation
+  Book: Branding and AI
+  Chapter: 12-content-media-and-campaigns
+  Figure: 03
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/12-content-media-and-campaigns-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-12-03">
+  <title id="fig-title-12-03">Integrated marketing communications versus fragmentation</title>
+  <desc>Left, IMC coherence: one message radiating to four channel-adapted expressions. Right, fragmentation: four channels each saying a different thing — four unrelated publishing programs that happen to share a logo.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="12-content-media-and-campaigns" figure-number="03"
+      figure-title="IMC: one voice across channels vs. fragmentation"
+      figure-slug="imc-one-voice-vs-fragmentation"
+      figure-type="comparison panels" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/12-content-media-and-campaigns-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Integrated Marketing Communications: one synchronized voice vs. fragmentation</text>
+
+  <line x1="350" y1="64" x2="350" y2="388" stroke="#D4D4D4" stroke-width="1"/>
+
+  <defs>
+    <marker id="arrow-12-03" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- LEFT: IMC coherent -->
+  <text x="56" y="90" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Integrated</text>
+  <text x="56" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">one claim, adapted per channel</text>
+
+  <!-- central message node RED -->
+  <rect x="118" y="200" width="120" height="48" fill="#121212" stroke="#121212" stroke-width="1"/>
+  <text x="178" y="222" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">one message</text>
+  <text x="178" y="238" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">archetype + voice</text>
+
+  <!-- spokes to four channels -->
+  <line x1="178" y1="198" x2="100" y2="150" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-03)"/>
+  <line x1="200" y1="198" x2="270" y2="150" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-03)"/>
+  <line x1="158" y1="250" x2="100" y2="312" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-03)"/>
+  <line x1="200" y1="250" x2="270" y2="312" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-03)"/>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">
+    <rect x="56" y="126" width="74" height="24" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="93" y="142" text-anchor="middle">paid</text>
+    <rect x="246" y="126" width="74" height="24" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="283" y="142" text-anchor="middle">earned</text>
+    <rect x="56" y="314" width="74" height="24" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="93" y="330" text-anchor="middle">shared</text>
+    <rect x="246" y="314" width="74" height="24" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="283" y="330" text-anchor="middle">owned</text>
+  </g>
+  <text x="56" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Same claim holds everywhere.</text>
+
+  <!-- RIGHT: fragmented -->
+  <text x="378" y="90" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Fragmented</text>
+  <text x="378" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">four channels, four messages</text>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">
+    <rect x="394" y="138" width="120" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="402" y="158">paid: "fast &amp; cheap"</text><text x="402" y="174" fill="#545454">message A</text>
+    <rect x="540" y="138" width="120" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="548" y="158">earned: "enterprise"</text><text x="548" y="174" fill="#545454">message B</text>
+    <rect x="394" y="270" width="120" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="402" y="290">shared: "fun brand"</text><text x="402" y="306" fill="#545454">message C</text>
+    <rect x="540" y="270" width="120" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="548" y="290">owned: "technical"</text><text x="548" y="306" fill="#545454">message D</text>
+  </g>
+  <!-- broken connectors -->
+  <line x1="454" y1="182" x2="454" y2="268" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <line x1="600" y1="182" x2="600" y2="268" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="378" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Unrelated programs sharing a logo.</text>
+</svg>

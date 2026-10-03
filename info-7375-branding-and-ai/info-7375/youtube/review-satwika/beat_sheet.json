@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "slug": "review-satwika",
+    "title": "INFO 7375 — Project Review: Satwika",
+    "topic": "INFO 7375 · PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 450,
+    "build": {
+      "at": "2026-08-16T23:29:59",
+      "cut": "master",
+      "filled": 11,
+      "of": 14,
+      "slates": [
+        "B02",
+        "B03",
+        "B05"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Hey Claude — I just read Satwika's final brand portfolio for INFO 7375. Behavrix: a human risk intelligence platform that models employee behavioral archetypes mapped to MITRE ATT&CK, generating a vendor risk report in 90 seconds for two dollars. What does the work tell us?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 15.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · PROJECT REVIEW",
+            "segment": "Satwika",
+            "command": "I just read Satwika's final brand portfolio. Behavrix — human risk intelligence for security analysts, MITRE-mapped behavioral archetypes, 90-second reports. What does the work tell us?",
+            "runningText": "reviewing the submission...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.03,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:29:59"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "SETUP",
+      "role_note": "The brief — what was required and what was submitted.",
+      "narration_text": "Path B required a complete brand system for an AI tool startup. Satwika submitted 14 slides covering strategy, competitive analysis, visual identity, storytelling, and a live Streamlit tool. The origin story ties directly to a real co-op experience in cybersecurity — which is the right foundation.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "The Brief vs. The Delivery",
+            "body": "All five Path B elements present. Origin story tied to real cybersecurity co-op. Live Streamlit tool publicly accessible. 14 slides, tight structure.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.39,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:29:59"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 1 — The competitive position is specific and defensible.",
+      "narration_text": "The competitive table compares Behavrix against KnowBe4, Prevalent, and Drata across six dimensions. The cost line is the most powerful: two dollars per report versus enterprise pricing. The structural impossibility of enterprise GRC vendors matching that price is a genuine unfair advantage claim, not just marketing language.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B02.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 19.33,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:29:59",
+        "needs": "YOU → drop a historical image at media/B02.png (or .mp4)",
+        "suggested": "find: The competitive table compares Behavrix against KnowBe4, Prevalent, and Drata across six dimensions. The cost line is the most powerful: two dollars per report "
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 2 — MITRE ATT&CK mapping is real product work.",
+      "narration_text": "Mapping the four behavioral archetypes — the Clicker, the Password Recycler, the Shadow IT User, the Over-Trusted Insider — directly to MITRE ATT&CK technique IDs is the strongest technical move in the submission. It turns a behavioral model into something a security analyst can cite in a report. That's a design decision that shows domain knowledge.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 20.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B03.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 20.2,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:29:59",
+        "needs": "YOU → drop a historical image at media/B03.png (or .mp4)",
+        "suggested": "find: Mapping the four behavioral archetypes — the Clicker, the Password Recycler, the Shadow IT User, the Over-Trusted Insider — directly to MITRE ATT&CK technique I"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "WHAT WORKS",
+      "role_note": "Manim — the four archetype-to-MITRE mapping.",
+      "narration_text": "Four archetypes, four MITRE codes: T1566 for phishing clickers, T1078 for credential recyclers, T1072 for shadow IT, T1134 for over-trusted insiders. Each archetype has a name, a pattern, and a framework reference. This is exactly the specificity a security analyst needs to defend a finding to a board.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "MITRE archetype map",
+            "body": "Four archetypes mapped to MITRE codes: T1566 Clicker, T1078 Password Recycler, T1072 Shadow IT, T1134 Over-Trusted Insider.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 21.99,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:29:59"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "BRAND SYSTEM",
+      "role_note": "Visual identity — palette and typography decisions.",
+      "narration_text": "The visual system uses Deep Navy, Teal, Blue, Frost, Soft Teal, and Amber — with Amber reserved for medium risk only. That functional color assignment is correct for a risk product. IBM Plex Sans for headings, Roboto for body, IBM Plex Mono for MITRE codes. No shields, no padlocks. That's a deliberate and right call.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B05.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 18.77,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:29:59",
+        "needs": "YOU → drop a historical image at media/B05.png (or .mp4)",
+        "suggested": "find: The visual system uses Deep Navy, Teal, Blue, Frost, Soft Teal, and Amber — with Amber reserved for medium risk only. That functional color assignment is correc"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "BRAND SYSTEM",
+      "role_note": "Brand voice and content — LinkedIn and Substack presence.",
+      "narration_text": "The LinkedIn post is stat-first and short — built for scroll. The Substack article provides long-form credibility. Both are live and public. That channel differentiation is the right choice: LinkedIn for awareness, Substack for depth. The two together reinforce the brand's transparency pillar.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Channel Differentiation",
+            "body": "LinkedIn stat-first for scroll, Substack long-form for depth. Both live. Both reinforce transparency — which is Behavrix's first brand pillar.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 16.26,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:29:59"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 1 — The 270-record dataset needs more transparent methodology.",
+      "narration_text": "The tool analyzes 270 records to generate a human risk score. That's stated as a fact but never explained. Where did the 270 records come from? How were the archetype classifications derived? For a product selling on transparency and data-attributed scoring, the data source is a gap that a CISO will ask about immediately.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Transparency Gap in the Data",
+            "body": "270 records, but no methodology for how archetypes were derived. A CISO will ask. The brand's first pillar is transparency — the data source needs to be owned.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.99,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:29:59"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 2 — The pitch slide asks for 150K seed on slide 14 — too fast.",
+      "narration_text": "The final slide asks for 150,000 seed funding with 15 percent equity and an advisory board seat. For a student capstone, that's fine as a pitch exercise. But the financial projections — 10 paying customers in 90 days, 25K MRR in 12 months — aren't grounded in any customer discovery evidence. The pitch would be stronger without the investment ask or with one real customer conversation cited.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 20.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Pitch Slide vs. Evidence",
+            "body": "Investment ask and MRR projections appear without supporting customer discovery. Either cite one real conversation or remove the ask — unsupported projections undercut the credibility the brand builds everywhere else.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 23.87,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:29:59"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Manim — 3 user test sessions vs. the enterprise CISO claim.",
+      "narration_text": "Three real user test sessions are cited. One of the personas is a CISO who reports to the board. The gap is scope: three tests, enterprise-level claims. The user testing section should either stay at proof-of-concept framing or expand — a quote from a real security practitioner, even a single one, would transform the credibility of this submission.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "3 user tests vs. enterprise claim",
+            "body": "Three user test sessions cited. One persona is a CISO reporting to a board. Gap: three tests support proof-of-concept framing, not enterprise validation.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.86,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:29:59"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "TOOL/BUILD",
+      "role_note": "Live tool — what the Streamlit app delivers.",
+      "narration_text": "The live Streamlit tool takes an organization type from ten options, analyzes 270 records in approximately 90 seconds, and outputs a human risk score with behavioral personas and MITRE mapping. The cost is two-tenths of a cent per run. That's the right demo — fast, cheap, specific, and the result is something you can show a CISO.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "What the Tool Actually Does",
+            "body": "Select org type, 90 seconds, $0.002 per run. Output: risk score, four behavioral personas, MITRE codes, board-ready language. The demo is the brand promise fulfilled.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B10.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.54,
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B10.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:29:59"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT",
+      "role_note": "ClaudeVerdictArtifact — final verdict.",
+      "narration_text": "Strong competitive positioning, real domain knowledge, MITRE mapping that holds up to scrutiny. The tool delivers on the brand promise. The gaps are in data transparency, user testing scope, and a pitch slide that overreaches the evidence. Fix those and the submission is genuinely compelling.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 14.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Behavrix — Satwika",
+            "artifactHeading": "Real domain knowledge and defensible competitive position — the tool fulfills the brand promise.",
+            "artifactLines": [
+              "MITRE ATT&CK mapping turns behavioral model into citable security evidence",
+              "Structural price advantage ($0.002) is a genuine unfair advantage, not marketing",
+              "Functional color assignment — Amber reserved for risk — shows design judgment",
+              "—",
+              "270-record dataset needs methodology: source, derivation, and classification process",
+              "Investment ask ($150K seed) needs customer discovery evidence to be credible",
+              "User testing (3 sessions) should be scoped as proof-of-concept, not enterprise validation"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 16.17,
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": "",
+        "filled_by": ""
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Your Turn — ClaudeComposerAsk.",
+      "narration_text": "Your turn. Behavrix's brand first pillar is transparency — every score shows its reasoning. Write a one-page methodology note that explains where the 270 records came from, how the four archetypes were defined, and what the score actually measures. Make it something a CISO could read and trust. Bring it into your next session.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375",
+            "segment": "Satwika",
+            "command": "Write a one-page methodology note for Behavrix: where did the 270 records come from, how were the four archetypes defined, and what does the human risk score actually measure? Make it CISO-readable.",
+            "runningText": "your move...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 17.88,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:29:59"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "ClaudeTitleOutro — title re-read.",
+      "narration_text": "",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 5.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "INFO 7375 — Project Review: Satwika",
+            "handle": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 5.0,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:29:59"
+      }
+    }
+  ]
+}

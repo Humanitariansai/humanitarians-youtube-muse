@@ -1,0 +1,161 @@
+{
+  "video": "review-gayatri",
+  "metadata": {
+    "slug": "review-gayatri",
+    "title": "INFO 7375 \u2014 Project Review: Gayatri",
+    "topic": "INFO 7375 \u00b7 PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 380,
+    "build": {
+      "at": "2026-08-16T23:51:34",
+      "cut": "master",
+      "filled": 11,
+      "of": 12,
+      "slates": [
+        "B02"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 12,
+  "beats_open": 1,
+  "beats": [
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "media/B00.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B00.mp4",
+      "label": "Hey Claude \u2014 I just read Gayatri's final brand portfolio for INFO 7375. No deck submitted \u2014 just two"
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "media/B01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B01.mp4",
+      "label": "The submission is a link to a portfolio site and a link to a deployed Streamlit app. No presentation"
+    },
+    {
+      "beat_id": "B02",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The portfolio site opens with a specific claim: I help engineering teams ship full-stack systems and AI-powered applications. Not a stack list. A job to be done",
+      "slot": "media/B02.png (or .mp4)",
+      "label": "The portfolio site opens with a specific claim: I help engineering teams ship full-stack systems and"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "media/B03.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B03.mp4",
+      "label": "The experience section gives real numbers: 500-plus compliance staff using systems she built, query "
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "media/B04.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B04.mp4",
+      "label": "SectorBrief collects business news via RSS, classifies sentiment and sector using Groq LLMs, and rou"
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "media/B05.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B05.mp4",
+      "label": "The portfolio site has a visual identity \u2014 Space Grotesk as the primary typeface, a navy theme color"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "media/B06.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B06.mp4",
+      "label": "The portfolio positions Gayatri as a full-stack engineer who ships production AI tools. SectorBrief "
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "media/B07.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B07.mp4",
+      "label": "SectorBrief's Streamlit URL was returning redirect loops at capture time \u2014 the app may be live but a"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "media/B08.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B08.mp4",
+      "label": "The about section of the portfolio is the closest thing to a brand story: Infosys, then Northeastern"
+    },
+    {
+      "beat_id": "BVDT",
+      "status": "filled",
+      "on_disk": "media/BVDT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BVDT.mp4",
+      "label": "Strong foundation \u2014 real experience, verifiable outcomes, working tool, earned personal brand. The s"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. The about section of the portfolio has an arc: Infosys, Northeastern, Massachusetts, depl"
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": ""
+    }
+  ]
+}

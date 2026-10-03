@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stripe's brand strategy as a completed one-page document</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; } .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-size:13px; max-width:260px; } .title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); } .sec-title { font-size:10.5px; font-weight:700; } .sec-body { font-size:9.5px; fill:var(--color-secondary); } @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const sections=[
+ {t:"Mission",body:["Increase the GDP of the internet."],col:0,h:42},
+ {t:"Vision",body:["Any business, anywhere, transacts","like a Fortune 500."],col:1,h:42},
+ {t:"Values",body:["Docs as product · developer","experience over enterprise process","· deliberate expansion"],col:0,h:52},
+ {t:"UVP",body:["Cleanest payment API, integrable","in seven lines, docs that need no","sales call."],col:1,h:52},
+ {t:"Archetype — Sage",body:["Truth through understanding.","Shadow: dogmatism."],col:0,h:44,primary:true},
+ {t:"Voice",body:["Precise, intellectually serious,","understated."],col:1,h:44},
+ {t:"Positioning",body:["Against internal-build and","abandonment, not against PayPal","or Adyen by name."],col:0,h:48},
+ {t:"Negative space",body:["No early enterprise sales · no","non-technical marketing · no","proliferation · no bashing"],col:1,h:48}
+];
+const titleText="Stripe's brand strategy as a completed one-page document";
+const descText="The worked model — every section traceable to the Sage archetype. Inferred from public artifacts; Stripe never published it.";
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+  d3.select('#chart').selectAll('*').remove();
+  const container=document.getElementById('chart');
+  const totalWidth=Math.max(container.clientWidth-48,640);
+  const totalHeight=500; const padX=24; const colGap=10;
+  const colW=(totalWidth-padX*2-colGap)/2;
+  const x0=padX, x1=padX+colW+colGap;
+  const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+  svg.append('title').attr('id','chart-title').text(titleText);
+  svg.append('desc').attr('id','chart-desc').text(descText);
+  svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+  svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText);
+  // name/tagline
+  svg.append('rect').attr('x',x0).attr('y',68).attr('width',totalWidth-padX*2).attr('height',36).attr('fill','var(--color-fill)').attr('stroke','var(--color-red)').attr('stroke-width',1.5);
+  svg.append('text').attr('x',x0+12).attr('y',84).attr('class','sec-title').attr('fill','var(--color-red)').text('Stripe');
+  svg.append('text').attr('x',x0+12).attr('y',98).attr('class','sec-body').text('Tagline: payments infrastructure for the internet · .com owned');
+  let yL=112, yR=112;
+  sections.forEach((s,i)=>{
+    const x=s.col===0?x0:x1;
+    let y=s.col===0?yL:yR;
+    const stroke=s.primary?'var(--color-red)':'var(--color-ink)';
+    const sw=s.primary?1.25:1; const fill=s.primary?'var(--color-fill)':'var(--color-white)';
+    const g=svg.append('g').attr('opacity',0);
+    g.append('rect').attr('x',x).attr('y',y).attr('width',colW).attr('height',s.h).attr('fill',fill).attr('stroke',stroke).attr('stroke-width',sw).attr('tabindex',0).attr('aria-label',s.t+': '+s.body.join(' '))
+      .on('mouseover',(e)=>showTooltip(e,'<strong>'+s.t+'</strong><br>'+s.body.join(' '))).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    g.append('text').attr('x',x+12).attr('y',y+17).attr('class','sec-title').attr('fill',s.primary?'var(--color-red)':'var(--color-ink)').text(s.t);
+    s.body.forEach((ln,j)=>g.append('text').attr('x',x+12).attr('y',y+33+j*12).attr('class','sec-body').text(ln));
+    g.transition().delay(i*90).duration(320).attr('opacity',1);
+    if(s.col===0) yL=y+s.h+8; else yR=y+s.h+8;
+  });
+  const yc=Math.max(yL,yR);
+  svg.append('rect').attr('x',x0).attr('y',yc).attr('width',totalWidth-padX*2).attr('height',30).attr('fill','var(--color-white)').attr('stroke','var(--color-border)');
+  svg.append('text').attr('x',totalWidth/2).attr('y',yc+19).attr('text-anchor','middle').attr('font-size',10).attr('font-style','italic').attr('fill','var(--color-secondary)').text('This document was inferred from public artifacts — Stripe never published it.');
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

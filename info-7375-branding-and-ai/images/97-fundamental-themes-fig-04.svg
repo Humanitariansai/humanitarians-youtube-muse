@@ -1,0 +1,59 @@
+<!--
+  The division of labor
+  Book: Branding and AI
+  Chapter: 97-fundamental-themes
+  Figure: 04
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/97-fundamental-themes-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-97-04">
+  <title id="fig-title-97-04">The division of labor</title>
+  <desc>Two panels split at the phase gate. AI does Tier 1 tasks — structure, retrieval, complexity adjustment, calibrated feedback, drafting, estimation. Humans do Tier 4 to 7 work — plausibility audit, problem formulation, causal identification, defending a position, institutional judgment, accountability.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="97-fundamental-themes"
+      figure-number="04" figure-title="The division of labor" figure-slug="division-of-labor"
+      figure-type="comparison panels" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/97-fundamental-themes-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The division of labor — partition, not hierarchy</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The dividing rule is the phase gate. Neither side replaces the other.</text>
+
+  <!-- LEFT panel: AI / Tier 1 -->
+  <rect x="32" y="74" width="300" height="316" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="48" y="98" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">AI does AI things  &#183;  Tier 1</text>
+  <line x1="48" y1="108" x2="316" y2="108" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Generate structure</text>
+  <text x="48" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Retrieve information</text>
+  <text x="48" y="180" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Adjust complexity levels</text>
+  <text x="48" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Produce calibrated feedback</text>
+  <text x="48" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Create practice problems</text>
+  <text x="48" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Draft routine communications</text>
+  <text x="48" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Flag errors in well-defined domains</text>
+  <text x="48" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Execute estimation once</text>
+  <text x="60" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">identification is set</text>
+  <text x="48" y="340" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Format and organize content</text>
+  <text x="48" y="376" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-style="italic" fill="#545454">Superhuman at pattern, retrieval, structure.</text>
+
+  <!-- PHASE GATE divider -->
+  <line x1="350" y1="74" x2="350" y2="390" stroke="#121212" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="350" y="68" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">phase gate</text>
+
+  <!-- RIGHT panel: Humans / Tier 4-7 -->
+  <rect x="368" y="74" width="300" height="316" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="384" y="98" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Humans do human things  &#183;  Tiers 4&#8211;7</text>
+  <line x1="384" y1="108" x2="652" y2="108" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="384" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Audit AI output for plausibility (T4)</text>
+  <text x="384" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Formulate the right problem (T4)</text>
+  <text x="384" y="180" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; The causal identification layer (T5)</text>
+  <text x="384" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Confounding &amp; counterfactuals (T5)</text>
+  <text x="384" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Hold and defend a position (T6)</text>
+  <text x="384" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Exercise institutional judgment (T6)</text>
+  <text x="384" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Know what question is worth</text>
+  <text x="396" y="292" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">asking (T7)</text>
+  <text x="384" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">&#8226; Be accountable for consequential</text>
+  <text x="396" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">decisions (T7)</text>
+  <text x="384" y="376" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-style="italic" fill="#545454">The work that produces the capability AI relies on.</text>
+</svg>

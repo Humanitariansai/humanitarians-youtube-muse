@@ -1,0 +1,56 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-09-1 desc-09-1">
+<title id="title-09-1">Sage vs Hero home-page wireframes</title>
+<desc id="desc-09-1">Two low-fidelity home-page wireframes side by side. Left: a Sage archetype home page leading with a positioning sentence and name, three text-forward project cards, a writing section, and a bio strip. Right: a Hero archetype home page leading with a large project image, a metrics strip, short copy, and a bold call-to-action. The same five-page architecture produces different archetypally-aligned experiences.</desc>
+<rect width="700" height="480" fill="#FFFFFF"/>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#2a1a0e">Sage vs Hero home-page wireframes</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Same page architecture, archetype-driven structural rhythm. Section order encodes priority.</text>
+
+<!-- SAGE panel -->
+<text x="190" y="88" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#C8102E">Sage — lead with the thinking</text>
+<rect x="60" y="98" width="260" height="320" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+<!-- above fold: positioning text -->
+<rect x="76" y="114" width="228" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="88" y="134" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9.5" fill="#2a1a0e">Name + positioning sentence</text>
+<text x="88" y="150" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8.5" fill="#545454">prose-forward hero, primary CTA</text>
+<line x1="88" y1="160" x2="180" y2="160" stroke="#C8102E" stroke-width="2"/>
+<!-- three text cards -->
+<text x="76" y="186" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">Selected work — 3 text-forward cards</text>
+<rect x="76" y="192" width="228" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="76" y="218" width="228" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="76" y="244" width="228" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<!-- writing -->
+<text x="76" y="288" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">Writing — one featured piece</text>
+<rect x="76" y="294" width="228" height="42" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<!-- bio strip -->
+<text x="76" y="360" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">Bio strip → About</text>
+<rect x="76" y="366" width="228" height="22" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<!-- footer -->
+<rect x="76" y="394" width="228" height="16" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="88" y="406" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#545454">Footer — contact + links</text>
+
+<!-- HERO panel -->
+<text x="510" y="88" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#2a1a0e">Hero — lead with the work</text>
+<rect x="380" y="98" width="260" height="320" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+<!-- big image hero -->
+<rect x="396" y="114" width="228" height="74" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+<text x="510" y="154" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9.5" fill="#545454">Large project image / video loop</text>
+<!-- metrics strip -->
+<text x="396" y="206" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">Metrics strip — bold numbers</text>
+<rect x="396" y="212" width="72" height="30" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="474" y="212" width="72" height="30" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="552" y="212" width="72" height="30" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<!-- short copy -->
+<text x="396" y="266" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">Short, punchy section copy</text>
+<rect x="396" y="272" width="228" height="30" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<!-- bold CTA -->
+<rect x="396" y="318" width="120" height="26" fill="#C8102E"/>
+<text x="456" y="335" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#FFFFFF">Bold CTA</text>
+<!-- bio + footer -->
+<rect x="396" y="356" width="228" height="20" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="408" y="369" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#545454">Bio</text>
+<rect x="396" y="382" width="228" height="16" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="408" y="394" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#545454">Footer</text>
+
+<line x1="48" y1="442" x2="652" y2="442" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="460" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 9.1</text>
+</svg>

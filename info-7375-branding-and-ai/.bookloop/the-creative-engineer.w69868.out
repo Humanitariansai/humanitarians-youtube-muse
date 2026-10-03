@@ -1,0 +1,8 @@
+Done. Deliverable is at `branding-and-ai/youtube/the-creative-engineer/the-creative-engineer.mp4`:
+
+- **6:41 runtime**, 28/28 beats VIDEO (zero slates in the master).
+- **Audio present, non-silent** (mean −23.7 dB, well above the −40 dB floor).
+- **mp4 mtime is newer than beat_sheet.json** (12:52 > 12:30).
+- **narration_lint.py against "Branding and AI": clean** (0 hard / 0 soft) — STANDALONE-IDEA LAW satisfied. The film teaches the idea ("when a signal's cost collapses, it stops sorting") without naming the book, the chapter, the course, the author, or any assignment.
+- Title: **When the Signal Stops Sorting** — three acts (Signals and What Breaks Them · What the Tool Did Not Touch · Being Legible on Purpose), bookended by the standard Claude cold open, hesitant-writer BLUF, verdict, YOUR TURN, and title outro.
+- One fix during the build: `BrutalistHesitantWriter` needed `seed` as a string, not a number — swapped `731` → `"731"` and re-rendered B01. Logged in BUILD-LOG.md.

@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "Brand Management, Governance & Rebranding",
+    "short": "BRANDING · CH14",
+    "course": "Branding and AI · Chapter 14",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/14-brand-management-governance-and-rebranding.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 14",
+      "title": "Brand Management, Governance & Rebranding",
+      "subtitle": "A brand book on a shelf is not governance. Governance is what happens at 4 p.m. on a Friday when someone needs a slide.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "how it actually breaks",
+      "title": "Nobody decides to destroy a brand",
+      "lead": "There is no meeting where someone says *let's stop being consistent*. Here is how a brand falls apart slowly.",
+      "bullets": [
+        "A teammate grabs a slightly-off blue because the correct one is buried in a folder nobody can find.",
+        "A new hire writes in a voice a half-step too formal, because nobody corrected the first email they sent.",
+        "A vendor uses last year's logo, because the new one was never shared with the right people.",
+        "None of these are negligence. They are the natural result of a system that treats **brand creation as the hard work and brand maintenance as an afterthought.**"
+      ]
+    },
+    {
+      "id": "S03", "section": "why the brand book fails",
+      "title": "Produced with care, then mostly not used",
+      "lead": "The standard artifact of governance is a beautifully designed PDF encoding colors, typefaces, logo rules, voice principles. The reasons it fails are predictable.",
+      "bullets": [
+        "It is not available at the moment of decision.",
+        "It is not searchable in the way someone needs when they are building a slide at 4 PM and want to know whether **this** shade of teal is in-system.",
+        "It does not show wrong usage alongside right usage.",
+        "It does not contain the actual assets — only representations of them."
+      ]
+    },
+    {
+      "id": "S04", "section": "living guidelines",
+      "title": "Not a document. A system with three layers.",
+      "lead": "Alina Wheeler frames this as stewardship: the guidelines are one part of the system, effective only when paired with the practices and roles that keep them in force.",
+      "why": "chapter enumerates the layers in order and escalating leverage — \"the first is the Digital Asset Management (DAM) system… the second layer is the design system… the third layer is the decision record\"",
+      "archetype": "ladder",
+      "duration": 7.5,
+      "data": {
+        "lowLabel": "the assets exist somewhere",
+        "highLabel": "the same argument never happens twice",
+        "rungs": [
+          { "label": "DAM", "note": "one source of truth — findable in under a minute or it will not be used" },
+          { "label": "Design system", "note": "components, templates, patterns: on-system is the path of least resistance" },
+          { "label": "Decision record", "note": "resolved edge cases — an answer exists before the question repeats" }
+        ]
+      }
+    },
+    {
+      "id": "S05", "section": "the common failure",
+      "title": "Everyone buys the first layer and calls the rest optional",
+      "lead": "Investing heavily in the DAM and treating the design system and decision record as refinements is the standard mistake — and it is why so many organizations have an asset library and no consistency.",
+      "bullets": [
+        "The **design system** is what makes consistency scale past the point where any individual can review every artifact.",
+        "The **decision record** is what prevents the same governance conversation from happening twelve times.",
+        "Express the rules as *examples* — right and wrong — not as principles.",
+        "Principles require interpretation at the moment of decision, which is exactly when nobody has time to interpret."
+      ]
+    },
+    {
+      "id": "S06", "section": "the arithmetic",
+      "title": "The mechanism has to change as the hands multiply",
+      "lead": "This is the arithmetic of brand consistency, and it is not optional. What holds a brand together at one scale simply does not exist at the next.",
+      "why": "chapter states it as an arithmetic across three scales: \"when one person is making all the brand decisions, consistency is a matter of their own coherence… when ten people… consistency requires a shared system… when a hundred people… consistency requires automated checks\"",
+      "archetype": "scaleAxis",
+      "duration": 7.0,
+      "data": {
+        "axis": { "min": 1, "max": 100, "unit": "hands making brand decisions", "log": true },
+        "items": [
+          { "label": "one person · their own coherence", "value": 1 },
+          { "label": "ten people · a shared system", "value": 10 },
+          { "label": "a hundred+ · automated checks", "value": 100, "hot": true }
+        ]
+      }
+    },
+    {
+      "id": "S07", "section": "stewardship",
+      "title": "At scale the steward stops reviewing and starts designing",
+      "lead": "Stewardship means someone owns the brand: a role whose job is to keep the system holding together, and to update the system when the world changes enough to require it.",
+      "bullets": [
+        "The steward's job is **not** to approve every slide. That does not scale.",
+        "It is to design the system so the people making slides can stay on-brand without needing approval.",
+        "Same logic as good software architecture: make the common case easy and the wrong case require effort.",
+        "This is where AI earns a genuine role — pattern recognition across volumes of material. **The output is a flags list, not a decisions list.**"
+      ]
+    },
+    {
+      "id": "S08", "section": "drift vs variation",
+      "title": "The outputs look identical. The meaning is entirely different.",
+      "lead": "A healthy brand system flexes — a billboard is not a help page is not a push notification. Drift is what happens when variation *breaks* the system rather than expressing it.",
+      "why": "chapter states the discipline exactly: \"flag all variation — everything that departs from the documented system — and then decide, case by case, which is intentional and which is drift\", and names two things the AI audit cannot supply: authorization and pattern",
+      "archetype": "tallySplit",
+      "duration": 8.0,
+      "data": {
+        "left": { "label": "Intentional variation", "pending": true },
+        "right": { "label": "Drift", "pending": true },
+        "items": [
+          { "label": "the off-system teal", "side": "pending" },
+          { "label": "the too-formal email", "side": "pending" },
+          { "label": "last year's logo", "side": "pending" },
+          { "label": "a seasonal palette call", "side": "pending" },
+          { "label": "the same departure, repeated", "side": "pending" },
+          { "label": "a visual language sliding younger", "side": "pending" }
+        ],
+        "note": "The audit produces the complete list of departures. It cannot tell you which column any of them belongs in — that takes knowing who authorized it, and whether it repeats."
+      }
+    },
+    {
+      "id": "S09", "section": "the pattern is the message",
+      "title": "Sometimes the drift is telling you the system is wrong",
+      "lead": "The response to a pattern is not automatically enforcement. A single departure might be intentional; the same departure across many assets over months is a signal that something has shifted.",
+      "bullets": [
+        "A brand whose visual language has been drifting younger for two years — because designers keep making that choice independently — may be telling you what the system should formally become.",
+        "The steward reads the list looking for **one-off decisions** (which may be fine) and **patterns** (which require a response).",
+        "Enforce, correct, or update. All three are legitimate outcomes.",
+        "What is not legitimate is a flag that goes unread into a decision."
+      ]
+    },
+    {
+      "id": "S10", "section": "refresh or rebrand",
+      "title": "Evolution, or revolution",
+      "lead": "Change is legitimate. Brands need to evolve. The question is not *whether* to change but what kind, how much, and whether it is driven by the right reasons.",
+      "bullets": [
+        "**Refresh** is evolution: update the palette, modernize the mark without abandoning its recognition cues, sharpen the voice. The core identity holds — the brand you had is still legible in the brand you have.",
+        "**Rebrand** is revolution: new name, new visual identity, new positioning. The previous brand is not legible in the new one, and often that is the point.",
+        "Legitimate triggers exist at every point: a merger resolving two identities into one, a genuine repositioning, an identity the company has outgrown, damage that must be left behind.",
+        "All four are real. All four are rarer than the rebrands actually commissioned."
+      ]
+    },
+    {
+      "id": "S11", "section": "the expensive trigger",
+      "title": "The new executive who wants a mark of their own",
+      "lead": "A leader arrives, feels the existing brand does not reflect their vision, and commissions a rebrand. The work that follows is technically competent and may even be attractive. What it rarely is, is *necessary*.",
+      "bullets": [
+        "The cost is the equity abandoned in the transition. Customers had built a recognition model around the old brand; the new one asks them to rebuild it from scratch, and some fraction will not bother.",
+        "Tropicana in 2009: a refresh that erased the recognition cues without replacing them.",
+        "Gap in 2010: a refresh that moved the brand to a different part of the archetype spectrum.",
+        "New Coke in 1985: a rebrand of the product itself, driven by competitive anxiety rather than genuine repositioning need."
+      ]
+    },
+    {
+      "id": "S12", "section": "the migration risk",
+      "title": "Equity is not a property of your brand. It is a property of their heads.",
+      "lead": "It lives in the recognition patterns customers built through repeated exposure to consistent touchpoints. When the brand changes, those patterns no longer match — and the degree of stranding depends entirely on how much of the old pattern survives in the new.",
+      "why": "chapter contrasts the same starting equity under two changes: a refresh \"gives customers enough continuity to update their model without rebuilding it\", a rebrand that changes everything simultaneously \"gives customers nothing to anchor to\"",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "the recognition model your customers already built",
+        "splitLabel": "how much of the old pattern survives?",
+        "tracks": [
+          {
+            "label": "Refresh · the palette moves, the structure holds", "outcome": "they update the model", "tone": "good", "path": "up",
+            "notes": ["logo structure preserved", "typeface category preserved", "the voice still sounds like you"]
+          },
+          {
+            "label": "Rebrand · name, identity, voice, position at once", "outcome": "they start from scratch", "tone": "warn", "path": "down",
+            "notes": ["nothing left to anchor to", "some fraction will not bother", "the equity is stranded"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S13", "section": "carrying it across",
+      "title": "Change the expression, preserve the recognized core, bring the audience with you",
+      "lead": "Simple to state, difficult to apply. Migration management is the set of practices that carry equity across instead of abandoning it.",
+      "bullets": [
+        "A transition period where old and new marks appear together — the endorsed model, *\"formerly X\"* or *\"X, now Y\"* — long enough for customers to update before the old mark disappears.",
+        "Clear communication to existing customers about what is changing and **what is staying the same**.",
+        "Deliberate preservation of the cues carrying the most equity — often smaller and less obvious than the logo: the specific shade of a color, the rhythm of the copy, the way you address the customer.",
+        "The hard part is knowing *which* elements carry the equity. That is the equity audit from the earlier chapters, run as a pre-change diagnostic rather than a post-mortem."
+      ]
+    },
+    {
+      "id": "S14", "section": "the AI+1 line",
+      "title": "The model flags. You decide. That division is not a formality.",
+      "lead": "At the scale where manual review is no longer feasible, a model can audit assets for off-system colors, flag copy that drifts from the documented voice, identify deprecated logos. Those are pattern-recognition tasks across volume — exactly where models are useful.",
+      "why": "chapter draws the line explicitly — \"the output is a flags list, not a decisions list. The steward reads the flags and decides what they mean\" — and the exercises name the crossing: a model classifying a departure as drift, overriding a deliberate decision unreviewed",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT THE AUDIT MAY DO" },
+        "inside": [
+          { "label": "flags off-system colors" },
+          { "label": "flags voice that drifts" },
+          { "label": "spots deprecated logos" },
+          { "label": "runs across dozens of assets" }
+        ],
+        "attempts": [
+          { "label": "call a flag drift", "blocked": true, "from": "left" },
+          { "label": "override a design call", "blocked": true, "from": "right" },
+          { "label": "decide the rule changes", "blocked": true, "from": "top" },
+          { "label": "hand over the flags list", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S15", "section": "the workflow",
+      "title": "Every flag gets routed by a person, to one of three places",
+      "lead": "The consistency audit is not about finding and punishing deviation. It is about getting a clear picture of where the brand is coherent and where it has drifted, so decisions get made deliberately rather than through accumulated small corrections.",
+      "why": "chapter specifies the routing: the audit produces flags, the steward reviews each one and sends it to \"(1) intentional variation, document and close; (2) drift, correct against system; (3) pattern of drift, update the system\"",
+      "archetype": "graph",
+      "duration": 7.5,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          { "id": "audit", "label": "the AI audit", "tone": "ink", "layer": 0 },
+          { "id": "flags", "label": "a flags list", "tone": "ink", "layer": 1 },
+          { "id": "stew", "label": "the steward", "tone": "accent", "layer": 2 },
+          { "id": "doc", "label": "document + close", "tone": "ink", "layer": 3 },
+          { "id": "fix", "label": "correct against system", "tone": "ink", "layer": 3 },
+          { "id": "upd", "label": "update the system", "tone": "good", "layer": 3 }
+        ],
+        "edges": [
+          { "from": "audit", "to": "flags", "label": "runs across dozens of assets" },
+          { "from": "flags", "to": "stew", "label": "not one flag closes itself" },
+          { "from": "stew", "to": "doc", "label": "intentional variation" },
+          { "from": "stew", "to": "fix", "label": "drift" },
+          { "from": "stew", "to": "upd", "label": "a pattern of drift" }
+        ]
+      }
+    },
+    {
+      "id": "S16", "section": "the wayback machine",
+      "title": "Ostrom: a commons is held by living institutions, not a rulebook",
+      "lead": "Elinor Ostrom spent decades studying how communities govern shared resources — fisheries, forests, irrigation systems — without either privatizing them or handing them to a central authority.",
+      "bullets": [
+        "*Governing the Commons* (1990): durable shared resources survive on rules the users themselves can monitor, graduated responses to small violations, cheap ways to resolve disputes, and **rules that get revised as conditions change**.",
+        "A brand is a commons. Many hands touch it. No single PDF can police it.",
+        "Living guidelines, a steward who reads flags rather than approving slides, a decision record that lets the rules evolve — that is Ostrom's argument in brand clothes.",
+        "Her most relevant finding for the steward: the most resilient systems are the ones whose own users can adjust the rules **when drift turns out to be the system trying to become something new**."
+      ]
+    },
+    {
+      "id": "S17", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Make the on-system path the easy one. Then read every flag yourself.",
+      "lead": "Ask the diagnostic question first: at the moment a teammate needs to make an on-brand decision, can they find what they need in under a minute? If not, you do not have guidelines — you have documentation. Then run the audit, route every flag, and if the picture is deep incoherence rather than local drift, write the memo and force the decision into the open. Governance surfaces those decisions. It does not make them alone."
+    }
+  ]
+}

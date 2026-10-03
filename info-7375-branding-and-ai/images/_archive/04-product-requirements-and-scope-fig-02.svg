@@ -1,0 +1,48 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-4-2 desc-4-2">
+<title id="title-4-2">Scope discipline compounds; accepted feature requests degrade coherence</title>
+<desc id="desc-4-2">Two timelines side by side. The left shows a product that maintains scope discipline — occasional sharp refusals, a coherence index rising over time, brand identity strengthening. The right shows a product that accepts feature requests from individual customers — coherence index degrading, original user base churning, the product becoming "another Jira." The student should see the long-term consequence of each decision pattern.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">Scope discipline compounds — and so does its absence</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Coherence index over time under two decision patterns. The vertical axis is coherence; the horizontal axis is time.</text>
+
+<!-- LEFT plot: discipline -->
+<text x="56" y="92" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">Scope discipline held</text>
+<rect x="56" y="104" width="268" height="200" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<line x1="80" y1="120" x2="80" y2="288" stroke="#2a1a0e" stroke-width="1"/>
+<line x1="80" y1="288" x2="312" y2="288" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="76" y="118" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">high</text>
+<text x="308" y="302" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">time</text>
+<!-- rising coherence line, red -->
+<path d="M 80 264 L 130 246 L 180 212 L 230 178 L 300 142" stroke="#C8102E" stroke-width="2" fill="none"/>
+<!-- "sharp no" markers (ochre ticks) -->
+<line x1="130" y1="242" x2="130" y2="250" stroke="#C8860E" stroke-width="2"/>
+<line x1="230" y1="174" x2="230" y2="182" stroke="#C8860E" stroke-width="2"/>
+<text x="128" y="236" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#C8860E">no</text>
+<text x="228" y="168" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#C8860E">no</text>
+<text x="300" y="132" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">identity strengthens</text>
+
+<!-- RIGHT plot: drift -->
+<text x="376" y="92" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">Feature requests accepted</text>
+<rect x="376" y="104" width="268" height="200" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<line x1="400" y1="120" x2="400" y2="288" stroke="#2a1a0e" stroke-width="1"/>
+<line x1="400" y1="288" x2="632" y2="288" stroke="#2a1a0e" stroke-width="1" marker-end="url(#arrow)"/>
+<text x="396" y="118" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">high</text>
+<text x="628" y="302" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">time</text>
+<!-- declining coherence line, ink -->
+<path d="M 400 150 L 450 168 L 500 200 L 550 236 L 620 270" stroke="#2a1a0e" stroke-width="2" fill="none"/>
+<!-- "yes" markers -->
+<line x1="450" y1="164" x2="450" y2="172" stroke="#545454" stroke-width="2"/>
+<line x1="500" y1="196" x2="500" y2="204" stroke="#545454" stroke-width="2"/>
+<line x1="550" y1="232" x2="550" y2="240" stroke="#545454" stroke-width="2"/>
+<text x="450" y="160" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#545454">yes</text>
+<text x="500" y="192" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#545454">yes</text>
+<text x="550" y="228" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#545454">yes</text>
+<text x="620" y="284" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">"another Jira"; users churn</text>
+
+<text x="56" y="340" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Each refusal preserves coherence, which becomes identity, which becomes the brand.</text>
+<text x="376" y="340" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Each "yes" spends coherence for cash; the original user base quietly leaves.</text>
+
+<line x1="48" y1="382" x2="652" y2="382" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="400" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 4.2</text>
+</svg>

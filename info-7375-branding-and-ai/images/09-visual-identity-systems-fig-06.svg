@@ -1,0 +1,61 @@
+<!--
+  Accessibility contrast audit (Sage palette)
+  Book: Branding and AI
+  Chapter: 09-visual-identity-systems
+  Figure: 06
+  Type: bar/quant chart
+  Generated: 2026-06-18
+  Source: pantry/09-visual-identity-systems-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-09-06">
+  <title id="fig-title-09-06">Accessibility contrast audit for a Sage palette</title>
+  <desc>Horizontal bars of contrast ratios for five text-on-background combinations against WCAG AA thresholds. Four pass; the caption-text combination at 2.9 to 1 fails AA normal and is highlighted as the one item to catch and fix.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Contrast audit: test every text-on-background pair against WCAG AA</text>
+
+  <!-- plot region -->
+  <rect x="220" y="64" width="400" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- x scale 0..18, gridlines at 4.5 and 3 reference -->
+  <!-- map ratio r to x: 220 + (r/18)*400 -->
+  <!-- AA large 3:1 -> x = 220 + 66.7 = 286.7 -->
+  <!-- AA normal 4.5:1 -> x = 220 + 100 = 320 -->
+  <line x1="287" y1="64" x2="287" y2="344" stroke="#787878" stroke-width="0.75" stroke-dasharray="5 4"/>
+  <text x="287" y="360" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454" text-anchor="middle">3:1</text>
+  <line x1="320" y1="64" x2="320" y2="344" stroke="#121212" stroke-width="0.75" stroke-dasharray="5 4"/>
+  <text x="320" y="376" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">AA normal 4.5:1</text>
+
+  <!-- bars: height 30, gap; centers -->
+  <g font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">
+    <!-- Body 17.4 -> width = (17.4/18)*400 = 386.7 -->
+    <rect x="220" y="84" width="387" height="30" fill="#787878"/>
+    <text x="613" y="103" text-anchor="start">17.4</text>
+    <!-- Secondary 4.6 -> 102 -->
+    <rect x="220" y="134" width="102" height="30" fill="#787878"/>
+    <text x="330" y="153">4.6</text>
+    <!-- Accent 8.9 -> 198 -->
+    <rect x="220" y="184" width="198" height="30" fill="#787878"/>
+    <text x="426" y="203">8.9</text>
+    <!-- White-on-accent 8.9 -> 198 -->
+    <rect x="220" y="234" width="198" height="30" fill="#787878"/>
+    <text x="426" y="253">8.9</text>
+    <!-- Caption 2.9 -> 64.4 (RED, fails) -->
+    <rect x="220" y="284" width="64" height="30" fill="#C8102E"/>
+    <text x="292" y="303" fill="#C8102E">2.9 ✗</text>
+  </g>
+
+  <!-- y labels -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="end">
+    <text x="210" y="103">Body on white</text>
+    <text x="210" y="153">Secondary on white</text>
+    <text x="210" y="203">Accent on white</text>
+    <text x="210" y="253">White on accent</text>
+    <text x="210" y="303" fill="#C8102E">Caption on white</text>
+  </g>
+
+  <text x="420" y="392" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">contrast ratio →</text>
+
+  <text x="32" y="412" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Caption text fails AA normal at 2.9:1. Fix: darken from #9CA3AF to #6B7280 → 4.6:1, a pass.</text>
+  <text x="32" y="432" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The palette's character does not change; the implementation becomes compliant.</text>
+  <text x="32" y="448" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">WCAG 2.2 AA is a legal requirement in many jurisdictions.</text>
+</svg>

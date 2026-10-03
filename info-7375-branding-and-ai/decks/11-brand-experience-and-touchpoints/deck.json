@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "title": "Brand Experience & Touchpoints",
+    "short": "BRANDING · CH11",
+    "course": "Branding and AI · Chapter 11",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/11-brand-experience-and-touchpoints.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 11",
+      "title": "Brand Experience & Touchpoints",
+      "subtitle": "For most customers, the experience is the brand. They never read your strategy deck.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the gap",
+      "title": "You know the strategy. They know the support chat.",
+      "lead": "The company wrote the positioning statement, chose the archetype, approved the visual identity system. Customers know none of that.",
+      "bullets": [
+        "What they know is the ad that appeared before a YouTube video they were trying to watch, the email that arrived at **6 AM** about a password reset, the support chat that made them wait **eleven minutes** and then closed the ticket without resolving anything.",
+        "From those contacts they infer who the brand is. **The inference is usually accurate.**",
+        "Strategy decides what the brand should mean. Experience decides whether it actually means that.",
+        "The gap between the two is where equity is won or lost — and it is almost always lost in the touchpoints nobody designed."
+      ]
+    },
+    {
+      "id": "S03", "section": "what depends on what",
+      "title": "A front-stage promise is only as good as the operation behind it",
+      "lead": "Shostack's service blueprint adds the layer the journey map omits: for every contact the customer has, there is a set of back-stage operations that must execute for the front stage to work. From that contact they infer who you are — and the inference is usually accurate.",
+      "why": "chapter states a dependency chain the reader must audit — 'A promise of fast resolution in the support chat is a front-stage brand claim. Whether there is actually a back-stage system that can resolve tickets fast is an operational fact. The gap between the two is where brand promises die.'",
+      "archetype": "graph",
+      "duration": 8.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          { "id": "arch", "label": "the archetype", "tone": "accent", "layer": 0 },
+          { "id": "pos", "label": "positioning", "tone": "ink", "layer": 0 },
+          { "id": "vis", "label": "visual identity", "tone": "ink", "layer": 0 },
+          { "id": "ops", "label": "", "pending": true, "layer": 1 },
+          { "id": "tp", "label": "the touchpoint", "tone": "ink", "layer": 1 },
+          { "id": "model", "label": "what the customer infers", "tone": "good", "layer": 2 }
+        ],
+        "edges": [
+          { "from": "arch", "to": "tp", "label": "sets the brand's job here" },
+          { "from": "pos", "to": "tp" },
+          { "from": "vis", "to": "tp" },
+          { "from": "ops", "to": "tp", "label": "back stage · can it deliver?", "pending": true },
+          { "from": "tp", "to": "model" }
+        ]
+      }
+    },
+    {
+      "id": "S04", "section": "the uncomfortable principle",
+      "title": "The support ticket is a brand problem",
+      "lead": "Take a company with a warm, human brand voice — empathetic tagline, rounded logo, friendly copy. Now route a customer through the phone tree, the hold music, the transfer to a second agent who cannot see what the first one did.",
+      "bullets": [
+        "Ask what that customer's model of the brand is afterwards. **It is not the tagline.**",
+        "A brilliant positioning statement that contradicts the support experience loses to the support experience. Every time. *People believe what happens to them, not what you claim.*",
+        "The onboarding email is a brand problem. The cancellation flow is a brand problem. The error message that appears at **2 AM** when someone is trying to submit something time-sensitive is a brand problem.",
+        "This is uncomfortable because it means brand work is not done when the strategy is written or the visual identity is locked. It is done — or undone — in every subsequent contact."
+      ]
+    },
+    {
+      "id": "S05", "section": "the experience economy",
+      "title": "The premium layer keeps moving up",
+      "lead": "Pine and Gilmore, 1999: value in a market follows a progression, and at each step the differentiated layer shifts. Coffee is the clearest case — the commodity is identical at every level. What changes is the experience staged around it.",
+      "why": "chapter names an explicitly ordered progression from weaker to stronger differentiation — 'value in a market follows a progression from commodities to goods to services to experiences, and at each step the premium layer shifts' — with the coffee example priced up each rung",
+      "archetype": "ladder",
+      "duration": 7.5,
+      "data": {
+        "lowLabel": "undifferentiated",
+        "highLabel": "the differentiator",
+        "rungs": [
+          { "label": "Commodity", "note": "the bean · a few cents" },
+          { "label": "Good", "note": "ground, in a can · a dollar or two" },
+          { "label": "Service", "note": "sit-down café · several dollars" },
+          { "label": "Experience", "note": "the third place, the ritual, the name on the cup" }
+        ]
+      }
+    },
+    {
+      "id": "S06", "section": "why now",
+      "title": "AI makes functional parity arrive faster",
+      "lead": "Pine and Gilmore's argument is that companies compete by *staging* experiences, the way a theatre stages a performance. The product is the prop; the experience is the show.",
+      "bullets": [
+        "The tool is not the product. **The experience of using the tool is the product** — the first run, the onboarding email, the moment something breaks and the error message is the only thing between the user and frustration.",
+        "As AI makes it cheaper and faster to build functional software, the features commoditise sooner.",
+        "What remains as differentiator is the experience: the voice, the feel, the sense that this particular brand understands something about the user that its competitors do not."
+      ]
+    },
+    {
+      "id": "S07", "section": "the journey map",
+      "title": "Seven stages, and a verdict you owe at each one",
+      "lead": "A customer does not arrive at your brand fully formed. The map's job is completeness — every stage from \"had no idea this existed\" to \"is telling someone else about it.\"",
+      "why": "chapter names ordered stages with a per-stage question and no rates — 'The standard stages are awareness, consideration, purchase, onboarding, use, renewal, and advocacy… Does the touchpoint deliver on the brand's job?' — a verdict only the reader's own map can return",
+      "archetype": "gatePipeline",
+      "duration": 9.0,
+      "data": {
+        "input": { "label": "no idea you exist" },
+        "gates": [
+          { "label": "Aware", "rule": "it exists", "pass": null },
+          { "label": "Consider", "rule": "does it fit", "pass": null },
+          { "label": "Purchase", "rule": "the decision", "pass": null },
+          { "label": "Onboard", "rule": "first run", "pass": null },
+          { "label": "Use", "rule": "over time", "pass": null },
+          { "label": "Renewal", "rule": "stay or go", "pass": null },
+          { "label": "Advocacy", "rule": "tells others", "pass": null }
+        ],
+        "output": { "label": "your map", "pending": true }
+      }
+    },
+    {
+      "id": "S08", "section": "what the map is for",
+      "title": "The value is not the map. It is the seam you can finally see.",
+      "lead": "It is the moment when you lay out every touchpoint and can see, for the first time, where the brand is strong, where it is absent, and where two adjacent touchpoints are communicating contradictory things.",
+      "bullets": [
+        "A warm, human-voiced marketing email followed by a cold, formal support confirmation is a seam.",
+        "**Customers feel seams before they can name them.**",
+        "For each stage the map asks four things: what is the touchpoint, what is the brand's job here, what is the customer's emotional state going in, and does the touchpoint deliver on that job.",
+        "The stages vary by product. Adapt them — do not apply them mechanically."
+      ]
+    },
+    {
+      "id": "S09", "section": "the honest question",
+      "title": "Which of your touchpoints were designed, and which just accumulated?",
+      "lead": "Most brands have a few touchpoints that received real design attention and many that did not. The counts are yours to run — I am not going to guess them for you.",
+      "why": "chapter sorts one set into two named buckets and names members of each — 'Most brands have a few touchpoints that received real design attention (the homepage, the marketing email) and many that did not (the onboarding confirmation, the password reset, the cancellation flow)' — but states no counts",
+      "archetype": "tallySplit",
+      "duration": 8.0,
+      "data": {
+        "left": { "label": "Actually designed", "pending": true },
+        "right": { "label": "Just accumulated", "pending": true },
+        "items": [
+          { "label": "homepage", "side": "left" },
+          { "label": "marketing email", "side": "left" },
+          { "label": "onboarding confirmation", "side": "right" },
+          { "label": "password reset", "side": "right" },
+          { "label": "cancellation flow", "side": "right" },
+          { "label": "support chat", "side": "pending" },
+          { "label": "billing confirmation", "side": "pending" },
+          { "label": "the 2 AM error message", "side": "pending" }
+        ],
+        "note": "The chapter names these. Only your own map can classify them."
+      }
+    },
+    {
+      "id": "S10", "section": "moments of truth",
+      "title": "Not every touchpoint carries equal weight",
+      "lead": "Procter & Gamble coined the vocabulary; Google added an earlier term. Some contacts are so formative that they set the customer's model of the brand for everything that follows.",
+      "bullets": [
+        "**ZMOT** — the pre-purchase research online, before the customer reaches the shelf. *(The chapter flags this one for verification: terminology evolves.)*",
+        "**FMOT** — the shelf moment: the **three to seven seconds** when a customer stands in front of a product and decides whether to pick it up.",
+        "**SMOT** — the use moment: whether the product delivers what the packaging promised.",
+        "For software the moments are different, the logic identical: the first run, the first support interaction, the renewal decision. These are where the customer's model is most malleable and most rapidly updated."
+      ]
+    },
+    {
+      "id": "S11", "section": "the allocation error",
+      "title": "Find them, then over-invest there",
+      "lead": "Under-investing at a moment of truth while over-investing at a low-stakes touchpoint is the common error — and it is easy to spot once the map exists.",
+      "bullets": [
+        "Most companies spend more on the acquisition ad — **which a customer sees once** — than on the onboarding experience, which sets the customer's model of the brand for everything that follows.",
+        "The map reveals where the moments are. The design work is to find them and put the budget there.",
+        "Any figure you want for *your* recommended-versus-typical spend is a number this chapter does not state. Go and measure it."
+      ]
+    },
+    {
+      "id": "S12", "section": "constants and variables",
+      "title": "Consistent is not uniform",
+      "lead": "A billboard and a help documentation page are not the same medium, cannot carry the same information, and have different reader expectations. Holding the brand across both does not mean making them identical.",
+      "bullets": [
+        "**Constants — never change across any channel:** the archetype's commitments, the tone of voice, the visual identity (logo, colour, type).",
+        "**Variables — should adapt:** length, formality, the degree of personality in the copy, the visual density, the channel's conventions.",
+        "An Innocent brand is sunny and simple on the billboard, sunny and simple with more specificity on the product page, and sunny and simple with warmth and human voice in the support chat.",
+        "**The execution adapts. The register does not.**"
+      ]
+    },
+    {
+      "id": "S13", "section": "the seam",
+      "title": "The customer does not distinguish. You did.",
+      "lead": "The failure mode is a brand that invested in being warm and human in its marketing and then turns cold and formal in its operational communications.",
+      "why": "chapter describes one entity splitting at a named internal decision — 'These touchpoints are treated as operational, not brand. But the customer does not distinguish. They receive the cold email from the same entity that ran the warm ad. The seam is the brand's real voice being revealed.'",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "the same entity",
+        "splitLabel": "\"brand\" or \"operational\"",
+        "tracks": [
+          {
+            "label": "Treated as brand work",
+            "outcome": "the warm ad", "tone": "good", "path": "up",
+            "notes": [
+              "the tagline, the campaign",
+              "designed, reviewed, signed off",
+              "what the company thinks it is"
+            ]
+          },
+          {
+            "label": "Treated as operations",
+            "outcome": "the cold email", "tone": "warn", "path": "down",
+            "notes": [
+              "support tickets, billing, resets",
+              "nobody called it brand work",
+              "the real voice, revealed"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "equity protection",
+      "title": "Omnichannel consistency is not an aesthetic aspiration",
+      "lead": "It is an equity protection strategy.",
+      "bullets": [
+        "Every time a customer's experience contradicts the brand's stated identity, the gap between **identity** and **image** widens.",
+        "As the gap widens, the equity built by the consistent touchpoints erodes.",
+        "Which is why the un-designed touchpoint is not a small problem. It is the leak."
+      ]
+    },
+    {
+      "id": "S15", "section": "the build",
+      "title": "The happy path is easy. The failure path is where the archetype holds — or does not.",
+      "lead": "An AI concierge is a high-leverage test of brand consistency because it operates across multiple stages and must hold the voice in conditions the marketing copy never imagined.",
+      "why": "chapter names four failure states and makes each one a verdict on the archetype — 'What does the concierge say when it cannot answer? When the user is frustrated? When it has failed and it knows it? … The failure path is where the archetype either holds or it does not.'",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHERE THE ARCHETYPE HOLDS" },
+        "inside": [
+          { "label": "the happy path" },
+          { "label": "the marketing copy" },
+          { "label": "the voice you signed" }
+        ],
+        "attempts": [
+          { "label": "empty state", "blocked": null, "from": "left" },
+          { "label": "frustrated user", "blocked": null, "from": "right" },
+          { "label": "cannot answer", "blocked": null, "from": "bottom" },
+          { "label": "error state", "blocked": null, "from": "top" }
+        ]
+      }
+    },
+    {
+      "id": "S16", "section": "the standard",
+      "title": "Designing the failure states is not optional. It is the design work.",
+      "lead": "Every one of those four crossings is dashed because only your build can resolve it.",
+      "bullets": [
+        "A **Sage** concierge that hits something it cannot answer responds with intellectual honesty — *\"I don't have a reliable answer to that, and here is where you can find one\"* — not deflection, not generic reassurance.",
+        "A **Caregiver** concierge meeting a frustrated user acknowledges the frustration genuinely before pivoting to resolution.",
+        "The tell that it failed: **if the microcopy could have been written by any brand in your category, the archetype did not constrain the output.**",
+        "The judgement an LLM cannot make for you is which moments actually matter, and whether the failure-state copy is genuinely on-brand."
+      ]
+    },
+    {
+      "id": "S17", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Go and find the touchpoints nobody designed.",
+      "lead": "Map every stage from awareness to advocacy. Mark the moments of truth and say why. Then write the four failure states before you write the happy path — and read them back against the archetype you committed to. That is where you find out whether you have a brand or a tagline."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# TYPECHECK.md — GATE T
+
+Reel: `ogilvy-nguyenduc`  |  Checked: 2026-07-31T19:19  |  Overall: PASS  |  Beats checked: 11  |  FAILs: 0
+
+Spec: `skills/make/kerning/reference/type-spec.md` §8.  Floor: 3.2% frame-height.  Contrast: 4.5:1 WCAG.  Kern threshold: 3.5× expected advance.  Wordy budget: 2 elements.
+
+| beat | lane | worst finding | status | fix |
+|------|------|---------------|--------|-----|
+| B00 | ? | min-size §8.1: no text-run blobs above noise threshold (smallest raw blob was noise/stroke… | PASS | — |
+| B01 | ? | min-size §8.1: no text-run blobs above noise threshold (smallest raw blob was noise/stroke… | PASS | — |
+| B02 | ? | min-size §8.1: no text-run blobs above noise threshold (smallest raw blob was noise/stroke… | PASS | — |
+| B03 | ? | min-size §8.1: no text-run blobs above noise threshold (smallest raw blob was noise/stroke… | PASS | — |
+| B04 | ? | min-size §8.1: no text-run blobs above noise threshold (smallest raw blob was noise/stroke… | PASS | — |
+| B05 | ? | min-size §8.1: no text-run blobs above noise threshold (smallest raw blob was noise/stroke… | PASS | — |
+| B06 | ? | min-size §8.1: no text-run blobs above noise threshold (smallest raw blob was noise/stroke… | PASS | — |
+| B07 | ? | min-size §8.1: no text-run blobs above noise threshold (smallest raw blob was noise/stroke… | PASS | — |
+| BVDT | ? | min-size §8.1: no text-run blobs above noise threshold (smallest raw blob was noise/stroke… | PASS | — |
+| BHTF | ? | min-size §8.1: no text-run blobs above noise threshold (smallest raw blob was noise/stroke… | PASS | — |
+| BOUT | ? | min-size §8.1: min text-run height 97px >= floor 35px | PASS | — |
+
+---
+
+## Failures requiring action before cut
+
+*None — GATE T PASS.*
+---
+
+## Check summary
+
+| Check | Beats checked | FAILs |
+|-------|---------------|-------|
+| no-wordy-card §8.5 | 0 | 0 |
+| min-size §8.1 | 11 | 0 |
+| overflow §8.2 | 11 | 0 |
+| contrast §8.3 | 11 | 0 |
+| contrast-local §8.3b | 11 | 0 |
+| kerning §8.4 | 7 | 0 |
+
+---
+
+*GATE T: any FAIL blocks `./art run` and `./art final`. Fix the flagged beats and re-run `scripts/type_check.py` until green.*

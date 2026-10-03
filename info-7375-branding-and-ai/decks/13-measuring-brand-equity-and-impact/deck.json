@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "title": "Measuring Brand Equity & Impact",
+    "short": "BRANDING · CH13",
+    "course": "Branding and AI · Chapter 13",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/13-measuring-brand-equity-and-impact.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 13",
+      "title": "Measuring Brand Equity & Impact",
+      "subtitle": "A number that moved is not a verdict. It is a question.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the measurement problem in miniature",
+      "title": "Spring 2017: four things moving in four directions",
+      "lead": "Pepsi's tracking scores in the weeks after the Kendall Jenner ad was pulled.",
+      "bullets": [
+        "Awareness went **up** — everyone knew about the ad. Favorability went **down**. Consideration among key demographics **fell**.",
+        "The instinct of every journalist covering the story was to find one number, declare it the verdict, and move on.",
+        "The number they picked was the NPS drop. It was real. It was also not the whole picture, not the cause of anything on its own, and not sufficient to understand what had happened.",
+        "A brand is a multidimensional asset. **Any single number extracted from that space answers one question and leaves the rest open.**"
+      ]
+    },
+    {
+      "id": "S03", "section": "two families",
+      "title": "The asset, and the outcomes the asset is supposed to generate",
+      "lead": "Brand measurement divides into two families that answer fundamentally different questions. The error that kills measurement programs is treating them as interchangeable.",
+      "bullets": [
+        "**Brand metrics** measure the asset: awareness, consideration, preference, association strength, sentiment, price premium. They move *slowly*.",
+        "**Performance metrics** measure the business outcome: conversion rate, CAC, ROAS, retention, revenue per customer, LTV. They move *fast* — days or weeks.",
+        "A well-run campaign rarely produces measurable brand equity movement in less than six months. That slowness is a **feature**: equity is durable precisely because it is hard to move quickly in either direction.",
+        "Measure both. Know which one you are reading at any given moment."
+      ]
+    },
+    {
+      "id": "S04", "section": "the trap",
+      "title": "One discount campaign. Both readings are true.",
+      "lead": "This is why interchangeable is fatal. The same campaign produces a healthy quarter and a corroding asset at the same time, on two different clocks.",
+      "why": "chapter runs one campaign through both families: \"a deep-discount campaign almost always lifts performance metrics in the short run… meanwhile, the discount is training existing customers to wait for sales, reducing price premium\"",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "one deep-discount campaign",
+        "splitLabel": "which family are you watching?",
+        "tracks": [
+          {
+            "label": "Performance metrics · fast clock", "outcome": "declared a success", "tone": "good", "path": "up",
+            "notes": ["conversions go up", "CAC goes down", "revenue for the period looks healthy"]
+          },
+          {
+            "label": "Brand metrics · slow clock", "outcome": "the premium is gone", "tone": "warn", "path": "down",
+            "notes": ["customers trained to wait for sales", "the brand now means cost, not value", "margin collapse you cannot explain"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S05", "section": "the patience gap",
+      "title": "The reverse failure is the one that kills good work",
+      "lead": "A documentary series, a long-form content strategy, a body of thought leadership — these may produce no measurable performance movement for a year.",
+      "bullets": [
+        "The performance metrics look flat. On a 0-to-24-month axis, that flat stretch is the whole visible story if performance is all you plot.",
+        "The brand metrics, *if anyone is tracking them*, show awareness climbing and consideration improving among exactly the right segments.",
+        "If you are only watching performance, you will cancel the campaign before it produces the outcomes it is building toward.",
+        "The interval between when brand investment begins and when performance finally responds is the **patience gap**. Budget for it or do not start."
+      ]
+    },
+    {
+      "id": "S06", "section": "brand tracking",
+      "title": "Three pairs, asked of the same people, at the same interval",
+      "lead": "A tracking study is a repeated survey. The value is not any single result — it is the trend line. A single data point tells you where you are. A trend line tells you where you are going.",
+      "why": "chapter states \"the standard metrics a tracking study watches are three pairs\" and names both members of each pair — aided/unaided awareness, consideration/preference, association strength/sentiment",
+      "archetype": "sunburst",
+      "duration": 8.5,
+      "data": {
+        "center": "THE TRACKING STUDY",
+        "centerShort": "TRACKING",
+        "groups": [
+          {
+            "label": "Do they know you?", "tone": "accent",
+            "children": [
+              { "label": "unaided · unprompted" },
+              { "label": "aided · has a ceiling" }
+            ]
+          },
+          {
+            "label": "Would they choose you?", "tone": "ink",
+            "children": [
+              { "label": "consideration · would try" },
+              { "label": "preference · would pick" }
+            ]
+          },
+          {
+            "label": "What do you mean?", "tone": "ink",
+            "children": [
+              { "label": "association strength" },
+              { "label": "sentiment" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S07", "section": "climbing or stuck",
+      "title": "Tracking tells you which layer of the pyramid you are stuck on",
+      "lead": "This connects straight back to CBBE from Chapter 2. Equity concentrated at the base and never converting to preference is a specific, diagnosable failure — and you only see it if you track the layers separately.",
+      "why": "chapter states the ordered layers directly: \"awareness is the base, associations are the second layer, attitude and sentiment are the third, and preference and loyalty are the top\"",
+      "archetype": "ladder",
+      "duration": 7.0,
+      "data": {
+        "lowLabel": "they know you exist",
+        "highLabel": "they choose you, and say so",
+        "rungs": [
+          { "label": "Awareness", "note": "the base — salience when the category is cued" },
+          { "label": "Associations", "note": "which attributes, and how strongly" },
+          { "label": "Attitude & sentiment", "note": "positive or negative about those associations" },
+          { "label": "Preference & loyalty", "note": "chosen over the alternatives" }
+        ]
+      }
+    },
+    {
+      "id": "S08", "section": "cadence",
+      "title": "Measure more often than the asset moves and you are measuring noise",
+      "lead": "Cadence is not a budget question. It is a signal-to-noise question, and getting it wrong manufactures conclusions.",
+      "bullets": [
+        "Mature brand: **quarterly** is the standard.",
+        "Brand in active repositioning — the Jaguar case from Chapter 10 — **monthly** through the transition is defensible.",
+        "Early-stage personal or startup brand: **bi-annual** may be right.",
+        "More frequent than that and you are measuring noise rather than signal, because equity moves too slowly to show real change in less than six months."
+      ]
+    },
+    {
+      "id": "S09", "section": "NPS",
+      "title": "\"The One Number You Need to Grow\"",
+      "lead": "Fred Reichheld, *Harvard Business Review*, 2003. One question, one number, easy to track, easy to report up. Within a decade it was the most widely used loyalty metric in corporate marketing.",
+      "bullets": [
+        "The original claim: NPS is a **leading indicator of revenue growth** — companies with higher NPS grow faster.",
+        "Then the replications started coming in.",
+        "Keiningham et al., *Journal of Marketing*, 2007: a broader dataset, and **no evidence** that NPS outperforms other satisfaction and loyalty metrics as a growth predictor.",
+        "The metric is not wrong. It measures something real. It does not measure the one thing it was claimed to measure uniquely."
+      ]
+    },
+    {
+      "id": "S10", "section": "what the number does to the scale",
+      "title": "A 0 and a 6 are the same customer here",
+      "lead": "\"How likely are you to recommend this to a friend or colleague?\" — 0 to 10, collapsed into three buckets, then subtracted. Promoters minus detractors, expressed between −100 and +100.",
+      "why": "chapter states the instrument exactly — 9–10 promoters, 7–8 passives, 0–6 detractors — and names the compression problem: \"a customer who scores 6 is treated identically to one who scores 0\"",
+      "archetype": "scaleAxis",
+      "duration": 7.5,
+      "data": {
+        "axis": { "min": 0, "max": 10, "unit": "recommend-likelihood score", "log": false },
+        "band": { "from": 0, "to": 6, "label": "one bucket · all of this" },
+        "items": [
+          { "label": "detractors · 0–6", "value": 0, "value2": 6 },
+          { "label": "passives · 7–8", "value": 7, "value2": 8 },
+          { "label": "promoters · 9–10", "value": 9, "value2": 10, "hot": true }
+        ]
+      }
+    },
+    {
+      "id": "S11", "section": "the four limits",
+      "title": "Knowing where NPS misleads is a professional competency",
+      "lead": "It is used widely enough that treating its limitations as known risks is part of the job.",
+      "bullets": [
+        "**Single-item.** It captures willingness to recommend, not *why*. Two customers scoring 8 for opposite reasons look identical. The follow-up question is where the signal lives, and it is usually not analyzed.",
+        "**Cultural calibration.** Japanese consumers score lower across all satisfaction scales; American consumers score higher. An NPS of 30 in Japan and 30 in the United States are not equivalent signals.",
+        "**Compression.** Convenient for reporting, mathematically arbitrary. The 8-to-9 gap is a category boundary; the 9-to-10 gap is nothing.",
+        "**Correlation.** A rising score says more surveyed customers are *willing* to recommend. Not that they did, not that it produced customers, not that you caused it."
+      ]
+    },
+    {
+      "id": "S12", "section": "the attribution problem",
+      "title": "You run a campaign in October. Sales rise in November.",
+      "lead": "Did the campaign cause it? This is not a measurement failure. It is a structural feature of the environment brands operate in.",
+      "bullets": [
+        "Seasonality is up in October–November.",
+        "A competitor had a product recall in the same period.",
+        "The economy posted unexpectedly strong employment numbers. The largest distributor ran a promotion.",
+        "Any of these could explain November. **Your campaign is one candidate cause among many.**"
+      ]
+    },
+    {
+      "id": "S13", "section": "what the model cannot see",
+      "title": "Multi-touch attribution gives 100% of the credit to the part it can observe",
+      "lead": "Last-click, first-click, linear, time-decay, data-driven — they differ in how they split the credit, and they share one structural problem: they can only attribute credit to touchpoints that were tracked.",
+      "why": "chapter states that brand advertising on a billboard, a friend's recommendation and a review read three months before purchase \"typically\" never appear in the model, which \"attributes 100% of the credit within that portion\" it can see — while MMM works at the aggregate and can reach the unobserved",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT THE ATTRIBUTION MODEL CAN SEE" },
+        "inside": [
+          { "label": "the ad click" },
+          { "label": "the website visit" },
+          { "label": "the email open" },
+          { "label": "the last touch before conversion" }
+        ],
+        "attempts": [
+          { "label": "a billboard", "blocked": true, "from": "left" },
+          { "label": "a friend's word", "blocked": true, "from": "right" },
+          { "label": "a review read three months ago", "blocked": true, "from": "top" },
+          { "label": "MMM at the aggregate", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "the other trade",
+      "title": "MMM buys you the invisible touchpoints and sells you the granularity",
+      "lead": "Aggregate time-series — weekly sales against media spend, pricing, promotions, economic indicators, competitor activity — instead of individual journeys.",
+      "bullets": [
+        "Because it works at the aggregate level, MMM can hold the unobserved brand touchpoints that multi-touch attribution misses.",
+        "The trade is resolution: MMM tells you brand advertising contributed approximately **18% of sales over the period**. It cannot tell you which campaigns or which audiences.",
+        "Neither approach gives you clean causal identification. Both give you estimates with meaningful uncertainty.",
+        "AI dashboards are very good at reporting that numbers moved. They report the correlation fluently and leave the causal leap entirely to you. **The leap is where the judgment lives.**"
+      ]
+    },
+    {
+      "id": "S15", "section": "the only clean design",
+      "title": "You have to commit to the comparison before the evidence exists",
+      "lead": "A brand-lift study is an RCT wearing marketing clothes: split the audience, expose one side, withhold from the matched control, and compare brand metrics at the end. The difference is your best estimate of effect.",
+      "why": "chapter names this \"the cleanest design for measuring brand campaign effect\" — the split and the metrics are fixed before the campaign runs, and the lift itself is whatever your own study returns",
+      "archetype": "lockTimeline",
+      "duration": 7.5,
+      "data": {
+        "commit": { "at": 0.16, "label": "exposed / matched control split · metrics fixed" },
+        "marks": [
+          { "at": 0.44, "label": "campaign shown to the exposed group only" },
+          { "at": 0.70, "label": "measurement period closes" }
+        ],
+        "resolve": { "at": 0.88, "label": "lift = exposed − control", "pending": true },
+        "axisLabel": "the only design that earns a causal claim"
+      }
+    },
+    {
+      "id": "S16", "section": "the Farris test",
+      "title": "If this number changed tomorrow, would you do anything differently?",
+      "lead": "Paul Farris, *Marketing Metrics*. If the answer is no, the metric is vanity — it flatters the team without informing a decision.",
+      "bullets": [
+        "A post that reaches 100,000 people who scroll past it produces 100,000 impressions and zero brand impact. It looks impressive in a deck and changes nothing about what you do next.",
+        "The distinction is **not fixed by metric type**. Impressions against a defined target segment can be a value metric. Impressions in a deck justifying the spend is vanity.",
+        "The practical discipline: for each metric, complete the sentence *\"If this number rose by 20% next quarter, I would ___.\"*",
+        "If you cannot finish it with a specific action, cut the metric. You will have fewer metrics. The ones left will be worth tracking."
+      ]
+    },
+    {
+      "id": "S17", "section": "the filter running",
+      "title": "Twelve candidates in. Six survive.",
+      "lead": "The worked example: the brand around the technical education work from Chapter 4, tracking staff engineers being pushed toward management. Sage archetype. Decision support under uncertainty.",
+      "why": "chapter states \"the first cut at the list produces twelve candidates\" and \"the plan has six metrics\", naming four candidates that come off (raw followers, total subscribers, raw video views, total impressions) — the balance is never itemised, so those dots stay unsorted",
+      "archetype": "tallySplit",
+      "duration": 8.0,
+      "data": {
+        "left": { "label": "Vanity by the Farris test", "pending": true },
+        "right": { "label": "Survives · the plan", "count": 6 },
+        "items": [
+          { "label": "raw followers", "side": "left" },
+          { "label": "total subscribers", "side": "left" },
+          { "label": "raw video views", "side": "left" },
+          { "label": "total impressions", "side": "left" },
+          { "label": "unaided awareness", "side": "right" },
+          { "label": "newsletter → course", "side": "right" },
+          { "label": "inbound lead quality", "side": "right" },
+          { "label": "net revenue / customer", "side": "right" },
+          { "label": "referral rate", "side": "right" },
+          { "label": "association strength", "side": "right" },
+          { "label": "", "side": "pending" },
+          { "label": "", "side": "pending" }
+        ],
+        "note": "Six metrics survive and are named. Four of the cuts are named. The rest of the first cut is not itemised — so it stays unsorted."
+      }
+    },
+    {
+      "id": "S18", "section": "the honest plan",
+      "title": "Source, cadence, decision — and one column that stays empty",
+      "lead": "Each surviving metric has a source. Each has a cadence. Each has a decision it informs. Every baseline reads *not yet measured*, and that is the point of the whole chapter.",
+      "why": "chapter specifies source, cadence and the decision informed for all six metrics, then states \"the baselines are blank — every one of these will read 'not yet measured' until the first data point is collected\"",
+      "archetype": "matrixGrid",
+      "duration": 9.5,
+      "data": {
+        "rows": [
+          { "label": "Unaided awareness" },
+          { "label": "Newsletter → course" },
+          { "label": "Inbound lead quality" },
+          { "label": "Net revenue / customer" },
+          { "label": "Referral rate" },
+          { "label": "Association strength" }
+        ],
+        "cols": [
+          { "label": "Source" },
+          { "label": "Cadence" },
+          { "label": "Decision" },
+          { "label": "Baseline" }
+        ],
+        "cells": [
+          ["hit", "hit", "hit", "pending"],
+          ["hit", "hit", "hit", "pending"],
+          ["hit", "hit", "hit", "pending"],
+          ["hit", "hit", "hit", "pending"],
+          ["hit", "hit", "hit", "pending"],
+          ["hit", "hit", "hit", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S19", "section": "the one thing to refuse",
+      "title": "A fabricated baseline corrupts every comparison you will ever make",
+      "lead": "AI is genuinely useful at exactly one stage of this: drafting the structure. Propose the metric list, flag the vanity ones, format the table.",
+      "bullets": [
+        "What it cannot do is supply the baselines. **It will try.**",
+        "Ask it \"what's a typical unaided awareness baseline for a new educational brand?\" and it will produce a number, probably with a range and a source citation, plausible enough to be tempting.",
+        "Do not use it. The baseline is the number you *measure*, not the number a model estimated from training data about other brands.",
+        "The comparison you will be making in eighteen months is against your **actual** starting point, not a hypothetical one."
+      ]
+    },
+    {
+      "id": "S20", "section": "where I could be wrong",
+      "title": "What would change my mind, and what is still open",
+      "lead": "I treat the NPS replication crisis as settled. That is the current state of the peer-reviewed literature, not a law of nature.",
+      "bullets": [
+        "What would revise it: a well-designed meta-analysis, standardized methodology, representative across industries and countries, controlling for competitive structure and market maturity, showing consistent NPS-growth correlation beyond what other satisfaction metrics predict. **That study has not been done to my knowledge.**",
+        "Still puzzling: whether privacy regulation makes attribution better or worse over the next decade.",
+        "Optimistic view — cookie deprecation forces a return to MMM and brand-lift studies, both methodologically cleaner.",
+        "Pessimistic view — it opens a measurement gap that gets filled by AI models generating confident-sounding estimates with no empirical foundation. I cannot yet tell which way this goes."
+      ]
+    },
+    {
+      "id": "S21", "section": "the wayback machine",
+      "title": "Deming already gave you the discipline",
+      "lead": "He taught postwar manufacturers that quality comes from understanding variation, and that you learn by tracking the right measurements over time rather than reacting to single readings.",
+      "bullets": [
+        "**Common-cause variation** is the normal noise of a stable process. **Special-cause variation** is a real signal that something changed.",
+        "That distinction is precisely why a number that moved is not a verdict: most metric movement is noise, and the discipline is refusing to treat every wobble as caused by your work.",
+        "He was also scathing about managing on figures chosen because they flatter rather than because they inform a decision — the Farris test, forty years early.",
+        "The attribution problem is Deming's common-versus-special-cause question wearing a marketer's clothes."
+      ]
+    },
+    {
+      "id": "S22", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Build the plan. Leave the baselines blank.",
+      "lead": "Five to seven metrics. Brand or performance, labelled. A source, a cadence, and a decision each one would change. Run the Farris test before anything gets on the list — and when the dashboard moves, ask what else could have moved it before you take the credit."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+<!--
+  Cross-cultural testing checklist
+  Book: Branding and AI
+  Chapter: 17-global-and-cross-cultural-branding
+  Figure: 06
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/17-global-and-cross-cultural-branding-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-17-06">
+  <title id="fig-title-17-06">Cross-cultural testing checklist</title>
+  <desc>Six brand elements to test with embedded native speakers — name, tagline, colors, imagery, humor, numerical and symbolic associations — each with what to test for, who to involve, the red flag, and the verification standard.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="17-global-and-cross-cultural-branding" figure-number="06"
+      figure-title="Cross-cultural testing checklist"
+      figure-slug="cross-cultural-testing-checklist"
+      figure-type="matrix" priority="Supplementary"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/17-global-and-cross-cultural-branding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Cross-cultural testing checklist</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Test with embedded native speakers — not dictionaries, not multilingual colleagues outside the culture.</text>
+
+  <!-- headers -->
+  <text x="32" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Element</text>
+  <text x="150" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Test for</text>
+  <text x="320" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Who to involve</text>
+  <text x="470" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Red flag</text>
+  <line x1="32" y1="94" x2="668" y2="94" stroke="#121212" stroke-width="1"/>
+
+  <!-- Row 1 name -->
+  <text x="32" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Name</text>
+  <text x="150" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">hidden meaning, sound</text>
+  <text x="320" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">native speakers</text>
+  <text x="470" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">a laugh, a wince</text>
+  <line x1="32" y1="130" x2="668" y2="130" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 2 tagline -->
+  <text x="32" y="154" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Tagline</text>
+  <text x="150" y="154" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">feeling, not words</text>
+  <text x="320" y="154" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">local copywriter</text>
+  <text x="470" y="154" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"correct but flat"</text>
+  <line x1="32" y1="166" x2="668" y2="166" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 3 colors -->
+  <text x="32" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Colors</text>
+  <text x="150" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">mourning vs. celebration</text>
+  <text x="320" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">local audience</text>
+  <text x="470" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">wrong occasion read</text>
+  <line x1="32" y1="202" x2="668" y2="202" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 4 imagery -->
+  <text x="32" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Imagery</text>
+  <text x="150" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">gesture, dress, setting</text>
+  <text x="320" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">cultural reviewer</text>
+  <text x="470" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"that's not us"</text>
+  <line x1="32" y1="238" x2="668" y2="238" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 5 humor -->
+  <text x="32" y="262" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Humor</text>
+  <text x="150" y="262" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">shared assumptions</text>
+  <text x="320" y="262" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">local peer group</text>
+  <text x="470" y="262" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"it's just a sentence"</text>
+  <line x1="32" y1="274" x2="668" y2="274" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 6 numbers/symbols -->
+  <text x="32" y="298" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Numbers /</text>
+  <text x="32" y="313" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">symbols</text>
+  <text x="150" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">lucky / unlucky load</text>
+  <text x="320" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">local audience</text>
+  <text x="470" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">avoided number/sign</text>
+  <line x1="32" y1="322" x2="668" y2="322" stroke="#121212" stroke-width="1"/>
+
+  <!-- verification standard band -->
+  <rect x="32" y="336" width="636" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Verification standard:</text>
+  <text x="184" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">an actual member of the target market — not a model, not a dictionary.</text>
+  <text x="44" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Grammatical correctness is not cultural resonance.</text>
+
+  <text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Note: several famous blunder anecdotes (the Nova "no va," the Coors "Turn It Loose") are apocryphal or</text>
+  <text x="32" y="422" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">contested. The principle holds without them — do not repeat anecdotes you cannot source.</text>
+</svg>

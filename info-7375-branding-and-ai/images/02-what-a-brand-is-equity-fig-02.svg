@@ -1,0 +1,46 @@
+<!--
+  Keller's CBBE pyramid
+  Book: Branding and AI
+  Chapter: 02-what-a-brand-is-equity
+  Figure: 02
+  Type: hierarchy / pyramid
+  Generated: 2026-06-18
+  Source: pantry/02-what-a-brand-is-equity-cajal.md
+-->
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02-02">
+  <title id="fig-title-02-02">Keller's CBBE pyramid</title>
+  <desc>Four-level customer-based brand equity pyramid from salience at the base to resonance at the apex, annotating where purchased awareness stalls and where compound equity accumulates.</desc>
+  <rect x="0" y="0" width="720" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">How the asset is built: from salience to resonance</text>
+
+  <!-- truncated pyramid — flat top, straight sides -->
+  <!-- left edge: (240,80) → (120,352)  right edge: (400,80) → (520,352) -->
+
+  <!-- Tier 4 resonance (top, RED focal) y=80–148 -->
+  <polygon points="240,80 400,80 418,148 222,148" fill="#C8102E"/>
+  <text x="320" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Resonance</text>
+
+  <!-- Tier 3 judgments + feelings y=148–216 -->
+  <polygon points="222,148 418,148 436,216 204,216" fill="#545454"/>
+  <text x="320" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Judgments + Feelings</text>
+
+  <!-- Tier 2 performance + imagery y=216–284 -->
+  <polygon points="204,216 436,216 454,284 186,284" fill="#787878"/>
+  <text x="320" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Performance + Imagery</text>
+
+  <!-- Tier 1 salience y=284–352 -->
+  <polygon points="186,284 454,284 472,352 168,352" fill="#ADADAD"/>
+  <text x="320" y="322" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Salience</text>
+
+  <!-- annotations — short dashed tick, text to the right -->
+  <line x1="456" y1="318" x2="480" y2="318" stroke="#121212" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="484" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">purchased awareness</text>
+  <text x="484" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">stalls here</text>
+
+  <line x1="402" y1="114" x2="426" y2="114" stroke="#121212" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="430" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">compound equity</text>
+  <text x="430" y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">accumulates here</text>
+
+  <text x="120" y="382" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Awareness is the floor, not the goal.</text>
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: KELLER, STRATEGIC BRAND MANAGEMENT — CBBE PYRAMID</text>
+</svg>

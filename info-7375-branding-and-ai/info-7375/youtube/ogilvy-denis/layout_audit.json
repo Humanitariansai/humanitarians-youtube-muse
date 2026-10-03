@@ -1,0 +1,26 @@
+{
+  "scene": "scenes",
+  "snapshots": 18,
+  "errors": 0,
+  "warnings": 1,
+  "safe_area": [
+    6.3,
+    3.4
+  ],
+  "min_overlap": 0.12,
+  "findings": [
+    {
+      "type": "OFF_SAFE_AREA",
+      "severity": "WARN",
+      "text": "Slide9\u2014Helpusclosetheloop\u00b7Funding\u00b7DCdataaccess\u00b7Hiringfeedback",
+      "t": 0.87,
+      "snap": 0,
+      "box": [
+        -5.2,
+        -3.45,
+        5.2,
+        -3.09
+      ]
+    }
+  ]
+}

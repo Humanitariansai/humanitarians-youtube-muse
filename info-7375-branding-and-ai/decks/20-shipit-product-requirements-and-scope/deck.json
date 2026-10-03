@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "title": "Product Requirements and Scope",
+    "short": "BRANDING · CH20",
+    "course": "Branding and AI · Chapter 20",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/20-shipit-product-requirements-and-scope.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 20 · Appendix S1",
+      "title": "Product Requirements and Scope",
+      "subtitle": "The $100,000 no, and why the things you refuse to build define the product more than the things you build.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the failure",
+      "title": "Coherent the way a committee memo is coherent",
+      "lead": "Here is a thing that happens constantly in software teams. You start building without deciding in advance what you are building.",
+      "bullets": [
+        "The engineer annoyed by the lack of multi-user accounts says yes and builds it. The PM who uses Notion says Notion. The person who gave the last demo adds custom feeds because the prospect asked.",
+        "By the time v1 ships — *if* it ships — the product is a collection of in-the-moment decisions made under different assumptions by people solving different problems.",
+        "A PRD is not a form you fill out before you are allowed to write code. **It is the mechanism by which you force yourself to make decisions before writing code.**",
+        "The decisions are hard. The PRD is what makes you make them."
+      ]
+    },
+    {
+      "id": "S03", "section": "the core rule",
+      "title": "The PRD specifies the *what*, not the *how*",
+      "lead": "The product team decides what the product needs to do. The engineering team decides how to implement it. The boundary leaks in one direction, always.",
+      "why": "chapter draws the what/how line and names exactly the decisions that smuggle across it — '\"via SendGrid at 7 a.m. Eastern using a Handlebars template\" — this is how in what's clothing… The PRD should not specify the model, the temperature, or the prompt structure'",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT THE PRD MAY SPECIFY" },
+        "inside": [
+          { "label": "what the tool does" },
+          { "label": "for whom, how often" },
+          { "label": "the output the user gets" },
+          { "label": "the cost envelope" }
+        ],
+        "attempts": [
+          { "label": "SendGrid at 7 a.m.", "blocked": true, "from": "left" },
+          { "label": "GPT-4o-mini, temp 0.2", "blocked": true, "from": "left" },
+          { "label": "Handlebars template", "blocked": true, "from": "right" },
+          { "label": "the database schema", "blocked": true, "from": "right" },
+          { "label": "a daily email summary", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S04", "section": "anatomy",
+      "title": "One page. Four sections. Each answers one question.",
+      "lead": "Nothing advances until the section above it survives its own failure mode. Whether yours clears is not something this deck can tell you.",
+      "why": "chapter states 'The one-page PRD has four sections. Each answers one question' and then walks each in order with its characteristic failure mode — Problem, Gap, Tool, MVP Boundary",
+      "archetype": "gatePipeline",
+      "duration": 8.5,
+      "data": {
+        "input": { "label": "a feature brainstorm" },
+        "gates": [
+          { "label": "Problem", "rule": "a user, a task, a frequency, a cost", "pass": null },
+          { "label": "Gap", "rule": "named products, named failures", "pass": null },
+          { "label": "Tool", "rule": "an engineer can build it, a user can judge it", "pass": null },
+          { "label": "MVP Boundary", "rule": "the out list, with the $100,000 no at its head", "pass": null }
+        ],
+        "output": { "label": "a one-page PRD", "pending": true }
+      }
+    },
+    {
+      "id": "S05", "section": "the gap",
+      "title": "The market is either cheap-and-dumb or expensive-and-complex",
+      "lead": "\"There are tools out there, but they're not quite right\" is not a gap analysis. A gap analysis names actual products and explains exactly what each one gets wrong for *your* user.",
+      "why": "chapter names four competitors and a specific failure mode for each — Google Alerts free but no deduplication or scoring, Feedly Pro $8/month with no analysis layer, Brand24 from $99/month but enterprise-scoped, Crayon at $1,500/month minimum",
+      "archetype": "matrixGrid",
+      "duration": 9.5,
+      "data": {
+        "rows": [
+          { "label": "Affordable for this user" },
+          { "label": "Has an analysis layer" },
+          { "label": "Fits the Sheets workflow" }
+        ],
+        "cols": [
+          { "label": "Google Alerts" },
+          { "label": "Feedly Pro" },
+          { "label": "Brand24" },
+          { "label": "Crayon" }
+        ],
+        "cells": [
+          ["hit", "hit", "miss", "miss"],
+          ["miss", "miss", "hit", "pending"],
+          ["miss", "pending", "miss", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S06", "section": "the mvp boundary",
+      "title": "Five in. Eight out. The out list is the document.",
+      "lead": "Every PRD has an \"in\" list — that is the natural output of a feature brainstorm. The out list is what takes discipline, because every item on it is a thing someone on the team wanted.",
+      "why": "chapter prints both columns in full and counts them — 'That out list has eight items. Each one is a thing a reasonable user would want and a reasonable engineer would want to build. Each one is a door that will not be opened in v1.'",
+      "archetype": "tallySplit",
+      "duration": 8.0,
+      "data": {
+        "left": { "label": "IN SCOPE FOR V1", "count": 5 },
+        "right": { "label": "OUT OF SCOPE FOR V1", "count": 8 },
+        "items": [
+          { "label": "up to 10 RSS feeds", "side": "left" },
+          { "label": "title deduplication", "side": "left" },
+          { "label": "sentiment scoring", "side": "left" },
+          { "label": "daily Google Sheet output", "side": "left" },
+          { "label": "email notification", "side": "left" },
+          { "label": "multi-user accounts", "side": "right" },
+          { "label": "social media monitoring", "side": "right" },
+          { "label": "custom dashboards", "side": "right" },
+          { "label": "Slack or Teams", "side": "right" },
+          { "label": "mobile app or extension", "side": "right" },
+          { "label": "real-time triggering", "side": "right" },
+          { "label": "third-party API access", "side": "right" },
+          { "label": "historical trend analysis", "side": "right" }
+        ],
+        "note": "Each one is a door that will not be opened in v1."
+      }
+    },
+    {
+      "id": "S07", "section": "what MVP means",
+      "title": "\"Minimum\" does not mean \"the least possible\"",
+      "lead": "It means the smallest thing that produces validated learning. Ries defined it precisely in 2011, and three words in that definition are doing serious work.",
+      "bullets": [
+        "**Version** — a real product, not a mock. A Figma prototype gets you feedback on colours and layout. It will not tell you whether a marketing manager actually reads the sheet on a Tuesday morning with their real data.",
+        "**Validated** — the learning came from what users *did*, not what they *said*. \"Would you use a tool that…\" gets a yes from nearly everyone. \"Did you open the Google Sheet three times last week?\" gets an honest answer from the usage data.",
+        "**Learning** — you must know which assumption you are testing *before* you build. If you do not know what you are testing, you cannot interpret the result.",
+        "A manager who stops opening the sheet after two weeks is telling you one of three things: the intelligence is not actionable, the format is wrong, or the cadence is wrong. You need to know which."
+      ]
+    },
+    {
+      "id": "S08", "section": "the loop",
+      "title": "Hypothesis, Build, Measure, Learn — and back",
+      "lead": "The PRD's problem statement is what lets you formulate the hypothesis. The loop only works if the hypothesis existed before the build.",
+      "why": "chapter prints the loop as four numbered steps that return to the start — 'If open rate drops after week one, the problem was not the filtering — it was the format or the cadence. Update the hypothesis and rebuild' — with the PRD marked as a living document",
+      "archetype": "graph",
+      "duration": 8.0,
+      "data": {
+        "layout": "ring",
+        "nodes": [
+          { "id": "hyp", "label": "Hypothesis", "tone": "accent" },
+          { "id": "build", "label": "Build", "tone": "ink" },
+          { "id": "meas", "label": "Measure", "tone": "ink" },
+          { "id": "learn", "label": "Learn", "tone": "good" }
+        ],
+        "edges": [
+          { "from": "hyp", "to": "build", "label": "the smallest tool that tests it" },
+          { "from": "build", "to": "meas", "label": "do they open it? do they pay?" },
+          { "from": "meas", "to": "learn", "label": "held, or did not" },
+          { "from": "learn", "to": "hyp", "label": "update and rebuild" }
+        ]
+      }
+    },
+    {
+      "id": "S09", "section": "why the boundary is the point",
+      "title": "A fat v1 buys you six months of learning nothing",
+      "lead": "The MVP boundary is what keeps the loop tight.",
+      "bullets": [
+        "A PRD that puts too much in v1 takes six months to ship. **You learn nothing for six months.**",
+        "The competitor who shipped a worse product four months ago has already run three learn cycles and is now on v4. You are still on v1.",
+        "The discipline is uncomfortable because it means shipping something clearly incomplete. You *know* it needs multi-user accounts. You *know* the dashboard should beat a Google Sheet.",
+        "Until you have validated that someone will pay for the core thing, none of the additions matter. **Ship the core thing. Validate. Then add the layer.**"
+      ]
+    },
+    {
+      "id": "S10", "section": "the case",
+      "title": "Linear does fewer things, by design",
+      "lead": "Launched in 2019, grew through word-of-mouth among engineers, and reached a reported $35 million ARR by 2023 with a famously lean team.",
+      "bullets": [
+        "Linear's team has repeatedly declined enterprise customization requests — including multi-workflow configurations worth significant annual contracts — because those customizations conflicted with the product philosophy.",
+        "*Opinionated software.* Teams that want to use Linear *their* way find the product resistant. Teams that adopt Linear's model find it exceptional.",
+        "*Simple and fast.* Every rejected customization is also a rejected source of UI complexity, backend branching logic and on-call incidents. **The no to the customer is simultaneously a yes to speed.**",
+        "Engineers recommend it to other engineers not because it has more features — it has fewer — but because the constraints produce a coherent experience."
+      ]
+    },
+    {
+      "id": "S11", "section": "the compounding",
+      "title": "Scope discipline compounds. So does its absence.",
+      "lead": "Each refusal preserves the coherence that made the product worth using. Over time the coherence becomes the identity, and the identity becomes the brand.",
+      "why": "chapter's own chart is two lines from a shared origin — 'scope discipline held' rising against 'feature requests accepted' falling, with the divergence labelled as the moment the gap becomes brand identity",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "the same product at v1",
+        "splitLabel": "the customization request",
+        "tracks": [
+          {
+            "label": "Refused · discipline held", "outcome": "coherence", "tone": "good", "path": "up",
+            "notes": ["fewer surfaces, so it ships more often", "the constraint becomes the identity", "users arrive who value exactly that"]
+          },
+          {
+            "label": "Accepted · coherence spent for cash", "outcome": "a committee memo", "tone": "warn", "path": "down",
+            "notes": ["feels rational in the moment", "complexity, branching logic, incidents", "the original users quietly move on"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S12", "section": "the $100,000 no",
+      "title": "Not \"I will not build things that are out of scope\"",
+      "lead": "Every product has out-of-scope things by default. That is not a discipline. The $100,000 no is the feature you would decline even if declining cost you something real.",
+      "bullets": [
+        "A real user will ask for it, with a real argument for why it belongs. They will have a budget. The implementation is not technically difficult.",
+        "For a sentiment pipeline aimed at small marketing teams, it might be **multi-user accounts** — because that changes the product from a personal intelligence tool into a team platform, and those are different products.",
+        "The day you build it, every subsequent decision — permissions, audit trails, team dashboards, admin interfaces — is a team-platform decision. **The product's point of view has changed.**",
+        "Write your $100,000 no *before* you write the rest of the PRD. Put it in the out-of-scope column, first. Then write the document around it."
+      ]
+    },
+    {
+      "id": "S13", "section": "the rewrite",
+      "title": "From a wish to a spec, one discard at a time",
+      "lead": "The worked example does not arrive at the problem statement. It fails its way there, twice, on the record.",
+      "why": "chapter's own figure calls this the PRD rewrite ladder — attempt 1 'a wish. It has no user, no frequency, no cost. Discard it'; attempt 2 'still too abstract… Discard it'; attempt 3 'Now we have something… It is testable.'",
+      "archetype": "ladder",
+      "duration": 7.5,
+      "data": {
+        "lowLabel": "a wish",
+        "highLabel": "a testable spec",
+        "rungs": [
+          { "label": "Attempt 1", "note": "\"Marketing professionals need better competitive intelligence.\" No user, no frequency, no cost." },
+          { "label": "Attempt 2", "note": "\"Small marketing teams lack good competitive intelligence tools.\" Not a person; an absence, not a pain." },
+          { "label": "Attempt 3", "note": "A named user, a Monday, two to three hours, a reason no existing tool fits their price point." }
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "what it is actually doing",
+      "title": "A contract with future-you",
+      "lead": "A record of the decisions you made when you were thinking clearly, preserved for the moment when you are thinking under pressure.",
+      "why": "chapter registers the commitment ahead of the evidence — 'The pressure will come. The contract is what keeps you from agreeing to things you will regret' — and never says whether yours holds",
+      "archetype": "lockTimeline",
+      "duration": 8.0,
+      "data": {
+        "commit": { "at": 0.10, "label": "the $100,000 no, written first" },
+        "marks": [
+          { "at": 0.34, "label": "a real user asks for it" },
+          { "at": 0.54, "label": "with a real argument" },
+          { "at": 0.72, "label": "and a real budget" }
+        ],
+        "resolve": { "at": 0.90, "label": "did the contract hold?", "pending": true },
+        "axisLabel": "every chapter after this one"
+      }
+    },
+    {
+      "id": "S15", "section": "the limits",
+      "title": "Where I would be wrong, and what I still cannot teach",
+      "lead": "The argument here is theoretical and industrial. The experimental evidence in student contexts is thin.",
+      "bullets": [
+        "**What would change my mind:** a controlled study comparing cohorts who wrote a PRD before building against cohorts who did not, measuring time-to-ship and retention at thirty days. If the no-PRD group ships faster *and* retains longer, this appendix should be removed. **I have not run the study.**",
+        "**Still puzzling:** the exact moment scope discipline tips from useful constraint into creative restriction.",
+        "Linear's discipline works because it is grounded in a coherent point of view. A student without one, practising the same discipline, ends up refusing features for no good reason — a sterile discipline rather than a productive one.",
+        "I teach the $100,000 no as a tool. What I have not figured out is how to teach the point of view that makes the no meaningful rather than merely rigid."
+      ]
+    },
+    {
+      "id": "S16", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Write the refusal first.",
+      "lead": "One page. Four sections. A problem statement you had to discard twice to get right. A gap analysis with named competitors and named failures. An out list at least as long as the in list, each item carrying the archetype reason it was refused — and your $100,000 no at its head. Then hold it when the argument and the budget arrive. Every grey slot on this deck is a verdict only your own PRD can settle."
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+ "metadata": {
+  "slug": "ogilvy-nguyenduc",
+  "title": "An Ogilvy Lens on SignalBrief — Duc Nguyen",
+  "topic": "INFO 7375 · OGILVY LENS",
+  "channel": "claude-liam",
+  "engine": "kokoro",
+  "voice_kokoro": "am_onyx",
+  "palette": "claude",
+  "register": "Teardown",
+  "style": "ogilvy",
+  "source_pitch": "branding-and-ai/info-7375/submissions/nguyenduc_318747_42354597_Nguyen_Duc_MadisonPitch.pdf",
+  "source_video": "branding-and-ai/info-7375/submissions/nguyenduc_318747_42354598_Nguyen_Duc_MadisonPitch.mp4",
+  "ogilvy_note": "Food for thought — not a grade. Ogilvy is one lens among several, running alongside the course rubric. The maker decides.",
+  "total_estimated_duration_seconds": 129,
+  "build": {
+   "at": "2026-07-31T19:19:20",
+   "cut": "master",
+   "filled": 11,
+   "of": 11,
+   "slates": [],
+   "skin_warnings": []
+  }
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "INTRO",
+   "role_note": "COLD OPEN — ClaudeComposerAsk. Liam asks the Ogilvy question.",
+   "narration_text": "Duc Nguyen's SignalBrief pitch. A weekly decision brief for AI infrastructure founders — 180 signals collected, ranked, source-linked, and ready. What would David Ogilvy ask about it?",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 10,
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "remotion",
+    "motion": "fade",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Hey Claude,",
+      "topic": "INFO 7375 · OGILVY LENS",
+      "segment": "SignalBrief — Duc Nguyen",
+      "command": "I just watched Duc's SignalBrief pitch — a weekly decision brief for AI founders, 180 signals already collected and ranked in 24 seconds. What do David Ogilvy's principles say about how the pitch frames the work? Not a score, not a verdict. Just the questions a great ad man would ask.",
+      "runningText": "reading the pitch…",
+      "output": [],
+      "folderLabel": "@NikBearBrown"
+     },
+     "rendered": {
+      "out": "media/B00.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-B00.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/B00.mp4",
+    "filled_by": "media",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 11.29
+  },
+  {
+   "beat_id": "B01",
+   "act": "RECONSTRUCT — The Problem",
+   "role_note": "Reconstruct the pitch's problem faithfully. Real numbers from the deck.",
+   "narration_text": "The problem Duc is solving is real and specific. AI infrastructure founders spend three hours every week scanning Hacker News, DEV, and GitHub. The loudest post keeps winning the roadmap. But attention does not equal importance — one viral thread can outrank a pattern that developer complaints and repository adoption have been building for weeks. Roadmaps drift. Features get built on noise instead of signal.",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 20,
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "manim",
+    "motion": "fade",
+    "manim": {
+     "scene_class": "B01_ReconstructProblem",
+     "file": "scenes.py"
+    }
+   },
+   "audio_file": "mp3/beat-B01.mp3",
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B01.mp4",
+    "filled_by": "manim:B01_ReconstructProblem",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 21.18
+  },
+  {
+   "beat_id": "B02",
+   "act": "RECONSTRUCT — The Solution",
+   "role_note": "Reconstruct the solution: signals in, decision brief out. Proof already done.",
+   "narration_text": "The solution: SignalBrief collects developer signals from Hacker News, DEV, and GitHub, ranks them by priority and confidence, explains why each matters, and recommends a next move. Not a feed — a decision brief. The proof is already there: the Madison assignment processed 180 public records in under 25 seconds and surfaced 3 high-priority signals. The claim: open it in ten minutes and know what to build next.",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 20,
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "manim",
+    "motion": "fade",
+    "manim": {
+     "scene_class": "B02_ReconstructSolution",
+     "file": "scenes.py"
+    }
+   },
+   "audio_file": "mp3/beat-B02.mp3",
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B02.mp4",
+    "filled_by": "manim:B02_ReconstructSolution",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 21.89
+  },
+  {
+   "beat_id": "B03",
+   "act": "LENS 1 — Story Appeal",
+   "role_note": "Ogilvy lens: the Hathaway eyepatch. The Madison proof is specific and earned — but there's no personal origin story in the pitch.",
+   "narration_text": "Ogilvy's Hathaway shirt man wore an eyepatch. One concrete specific that made every other detail stick. This pitch has a strong candidate: the Madison proof — 180 records, 24 seconds, 3 signals, already working. But the pitch opens with 'Hi, my name is Nick' and moves directly to the problem. There is no personal stake. Why did Duc build this? The question worth sitting with: is the Madison proof the eyepatch, or is the absent origin story the one thing that would make everything else unforgettable?",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 22,
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "manim",
+    "motion": "fade",
+    "manim": {
+     "scene_class": "B03_StoryAppeal",
+     "file": "scenes.py"
+    }
+   },
+   "audio_file": "mp3/beat-B03.mp3",
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B03.mp4",
+    "filled_by": "manim:B03_StoryAppeal",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 27.33
+  },
+  {
+   "beat_id": "B04",
+   "act": "LENS 2 — The Big Idea",
+   "role_note": "Ogilvy lens: two candidates for the big idea — the slide 1 title and the slide 7 line. Which one is the campaign?",
+   "narration_text": "Ogilvy wouldn't write a line until he could state the big idea in one sentence. This pitch contains two candidates. Slide one: source-linked decision brief for AI founders. Slide seven: Monitors send alerts. SignalBrief recommends action. Both earn their place in the deck. The question is which one is the campaign's big idea, and which one is supporting copy. Because if slide seven's line is the stronger claim, it might belong somewhere other than slide seven.",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 22,
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "manim",
+    "motion": "fade",
+    "manim": {
+     "scene_class": "B04_BigIdea",
+     "file": "scenes.py"
+    }
+   },
+   "audio_file": "mp3/beat-B04.mp3",
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B04.mp4",
+    "filled_by": "manim:B04_BigIdea",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 22.98
+  },
+  {
+   "beat_id": "B05",
+   "act": "LENS 3 — Benefits, not Features",
+   "role_note": "Ogilvy lens: slide 5 already uses benefit language. Does that framing lead consistently, or arrive at the end?",
+   "narration_text": "Ogilvy wanted specifics over superlatives — and this pitch earns its numbers. Three hours reduced to ten minutes. One better product decision saves hours of preventing a wrong feature bet. The deck's own slide five headline says it cleanly: sell judgment, not another dashboard. That is benefit language. The feature is the proof: 180 records, 24 seconds, AI-ranked. The benefit is the payoff: you know what to build before you commit. The observation: does that framing lead each slide, or does it arrive at the end after the features have already been listed?",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 22,
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "manim",
+    "motion": "fade",
+    "manim": {
+     "scene_class": "B05_BenefitChain",
+     "file": "scenes.py"
+    }
+   },
+   "audio_file": "mp3/beat-B05.mp3",
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B05.mp4",
+    "filled_by": "manim:B05_BenefitChain",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 28.71
+  },
+  {
+   "beat_id": "B06",
+   "act": "LENS 4 — The Headline Does the Work",
+   "role_note": "Ogilvy lens: slide 7 line outperforms slide 1 title. Where does the stronger line belong?",
+   "narration_text": "Ogilvy: five times as many people read the headline as the body copy. Slide one says: source-linked decision brief for AI founders. Slide seven says: Monitors send alerts. SignalBrief recommends action. Slide seven is doing something slide one isn't — it names the alternative, sharpens the contrast, and completes the value proposition in two short sentences. The observation isn't that slide one is wrong. It's worth asking: if slide seven's line already exists in the deck, what would happen if it moved to slide one?",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 22,
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "manim",
+    "motion": "fade",
+    "manim": {
+     "scene_class": "B06_HeadlineWork",
+     "file": "scenes.py"
+    }
+   },
+   "audio_file": "mp3/beat-B06.mp3",
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B06.mp4",
+    "filled_by": "manim:B06_HeadlineWork",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 28.65
+  },
+  {
+   "beat_id": "B07",
+   "act": "LENS 5 — The Close",
+   "role_note": "Ogilvy lens: clean single ask. The language question — does 'design partner' belong to the audience or to the founder?",
+   "narration_text": "The ask is admirably clean. Five design partners and access to founder communities. One ask — not three. Specific enough to act on. Ogilvy would appreciate that. The observation is about language: design partner is how a founder thinks about early collaborators. The question is whether every person in the room at a pitch competition recognizes themselves in that term. Would 'five founders willing to test this weekly' land differently than 'five design partners'? The 60-day roadmap communicates the stage clearly. The ask matches it.",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 20,
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "manim",
+    "motion": "fade",
+    "manim": {
+     "scene_class": "B07_TheClose",
+     "file": "scenes.py"
+    }
+   },
+   "audio_file": "mp3/beat-B07.mp3",
+   "build": {
+    "status": "MANIM",
+    "src": "manim/B07.mp4",
+    "filled_by": "manim:B07_TheClose",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 28.61
+  },
+  {
+   "beat_id": "BVDT",
+   "act": "VERDICT ARTIFACT — The Lens Set",
+   "role_note": "Not a verdict on the pitch: the reusable lens set to carry to the next draft.",
+   "narration_text": "Not a verdict — a lens set. Four questions to carry to the next draft. One: is the Madison proof the eyepatch, or is the missing personal origin story the thing that would make everything else memorable? Two: between the slide one subtitle and the slide seven line — which one is the real big idea? Three: does the deck's benefit language lead each slide, or arrive after the features? Four: does 'design partner' mean the same thing to the audience as it does to you? These are Ogilvy's questions. The pitch decides which ones matter.",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 25,
+   "shot": {
+    "type": "CARD",
+    "source": "remotion",
+    "motion": "hold",
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "props": {
+      "artifactTitle": "Four Ogilvy questions for the next draft",
+      "artifactHeading": "The lens set — not the verdict",
+      "artifactLines": [
+       "Is the Madison proof the eyepatch — or the missing origin story?",
+       "Slide one title vs. slide seven line — which is the real big idea?",
+       "Does the deck's benefit language lead each slide, or trail it?",
+       "Does 'design partner' mean the same thing to your audience?"
+      ]
+     },
+     "rendered": {
+      "out": "media/BVDT.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-BVDT.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/BVDT.mp4",
+    "filled_by": "media",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 26.5
+  },
+  {
+   "beat_id": "BHTF",
+   "act": "YOUR TURN",
+   "role_note": "Scaffolded prompt for the maker to run on their own next draft.",
+   "narration_text": "Your turn. Take your deck into Claude and try this: Here are four Ogilvy questions about my pitch. For each one, show me which slide or spoken line is most directly in play, then give me one alternative frame to consider — not a correction, just another angle. The goal is not to score the pitch. Ogilvy is one lens. The course rubric is another. This is what it looks like to hold two lenses at once.",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 18,
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "YOUR TURN · INFO 7375 · OGILVY LENS",
+      "segment": "Run this on your next draft",
+      "command": "Here are four Ogilvy questions about my pitch. For each one: (1) which slide or spoken line is most directly in play, and (2) give me one alternative frame to consider — not a correction, just another angle. Goal: not to score the pitch. One more lens.",
+      "runningText": "thinking…",
+      "output": [],
+      "folderLabel": "@NikBearBrown"
+     },
+     "rendered": {
+      "out": "media/BHTF.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-BHTF.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/BHTF.mp4",
+    "filled_by": "media",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 19.35
+  },
+  {
+   "beat_id": "BOUT",
+   "act": "OUTRO",
+   "role_note": "OUTRO-LOCK — ClaudeTitleOutro, title restate, @NikBearBrown, no subline.",
+   "narration_text": "An Ogilvy Lens on SignalBrief — Duc Nguyen. I'm Liam, in for Bear.",
+   "engine": "kokoro",
+   "voice": "am_onyx",
+   "estimated_duration_s": 6,
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "remotion",
+    "motion": "fade",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "An Ogilvy Lens on SignalBrief — Duc Nguyen",
+      "handle": "@NikBearBrown",
+      "subline": ""
+     },
+     "rendered": {
+      "out": "media/BOUT.mp4",
+      "at": ""
+     }
+    }
+   },
+   "audio_file": "mp3/beat-BOUT.mp3",
+   "build": {
+    "status": "VIDEO",
+    "src": "media/BOUT.mp4",
+    "filled_by": "media",
+    "at": "2026-07-31T19:19:20"
+   },
+   "actual_duration_s": 4.67
+  }
+ ]
+}

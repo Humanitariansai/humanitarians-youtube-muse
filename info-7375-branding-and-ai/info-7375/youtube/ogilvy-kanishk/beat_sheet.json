@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "slug": "ogilvy-kanishk",
+    "title": "An Ogilvy Lens on Accessibility Monitor — Kanishk",
+    "topic": "INFO 7375 · OGILVY LENS",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Teardown",
+    "style": "ogilvy",
+    "source_pitch": "branding-and-ai/info-7375/submissions/Kanishk_MadisonPitch.pdf",
+    "ogilvy_note": "Food for thought — not a grade. Ogilvy is one lens among several, running alongside the course rubric. The maker decides.",
+    "total_estimated_duration_seconds": 194,
+    "build": {
+      "at": "2026-08-01T15:23:02",
+      "cut": "master",
+      "filled": 10,
+      "of": 10,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Kanishk's Accessibility Monitor pitch. The smoke detector for your website's accessibility — it watches every deploy, not just the one audit you ran last quarter. The product is working. What would David Ogilvy ask about it?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · OGILVY LENS",
+            "segment": "Accessibility Monitor — Kanishk",
+            "command": "I just watched Kanishk's Accessibility Monitor pitch — the smoke detector for your website's accessibility. It watches every deploy and answers: did this release make accessibility better or worse than last time? The pipeline is already working. What do David Ogilvy's principles say about how this pitch frames the work? Not a score. Just the questions a great ad man would ask.",
+            "runningText": "reading the pitch...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 12.63,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:23:02"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "RECONSTRUCT — Slide 1: The Smoke Detector",
+      "role_note": "Show Slide 1, rebuild. 'Smoke detector' is a strong concrete analogy — earns its place. Ogilvy would push it further.",
+      "narration_text": "Slide 1 — the tagline. Accessibility Monitor: the smoke detector for your website's accessibility. That is a strong concrete analogy. Ogilvy loved physical metaphors over abstract category names. A smoke detector does not scan the room once — it stays on. This one promises the same. The question Ogilvy would ask: what burns down when it fails? The answer to that is the headline this slide is reaching for.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B01_TheSmokeMeter",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 21.33,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim:B01_TheSmokeMeter",
+        "at": "2026-08-01T15:23:02"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "LENS 1 — The Person Behind the Number",
+      "role_note": "Show Slide 2 (problem), rebuild. 96% / 4000 lawsuits / 1-in-4 — great stats, but Ogilvy wants the person.",
+      "narration_text": "Slide 2 — the problem. Ninety-six percent of websites fail WCAG. Four thousand accessibility lawsuits per year. One in four adults has a disability. Those are real numbers. Ogilvy would stop here and ask: where is the person? Statistics are the shape of a problem — the person is the problem. Who is the blind user who finds the broken alt-text three days after the deploy? That slide would land harder than this one.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B02_PersonBehindNumber",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 21.03,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim:B02_PersonBehindNumber",
+        "at": "2026-08-01T15:23:02"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "LENS 2 — The Buried Lead: A Working Pipeline",
+      "role_note": "Show Slide 9 (POC), rebuild. 'Not a slide-ware idea' is the most powerful fact — on Slide 9.",
+      "narration_text": "Slide 9 — proof of concept. And here is the line: a working, accountable pipeline — not a slide-ware idea. Ogilvy's second most powerful word, after free, is now. This pipeline runs. Anyone watching this could request access today. The question worth sitting with: the live product is on Slide 9. What if it opened the pitch?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B03_LivePipeline",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 17.81,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim:B03_LivePipeline",
+        "at": "2026-08-01T15:23:02"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "LENS 3 — The Headline on Slide 7",
+      "role_note": "Show Slide 7 (competition), rebuild. 'No one guards the diff' is the nine-word pitch — on Slide 7.",
+      "narration_text": "Slide 7 — competition. The headline is: everyone audits a moment in time. No one guards the diff for small teams. That is nine words. It names the mechanism — the diff — it names the gap, and it names the customer. Ogilvy: a specific competitive claim always outperforms a general one. This one earns its place. The question is whether it stays here on Slide 7 or whether it leads.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B04_TheHeadline",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 20.07,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim:B04_TheHeadline",
+        "at": "2026-08-01T15:23:02"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "LENS 4 — Free Is the Most Powerful Word",
+      "role_note": "No slide needed. Free tier + live product = the unstated strongest ask.",
+      "narration_text": "There is a free tier. Zero dollars, first accessibility scan, no setup required. Ogilvy was explicit: free is the most powerful word in advertising. The product is live. The free tier exists. The ask slide requests design partners and technical help — both useful. But the most direct ask in this pitch is the one not stated: go run your first diff today. Why is that not the last line?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B05_FreeIsTheMostPowerfulWord",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 20.05,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim:B05_FreeIsTheMostPowerfulWord",
+        "at": "2026-08-01T15:23:02"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "LENS 5 — The Close: The Last Line Is the Strongest",
+      "role_note": "Show Slide 10 (ask), rebuild. The closing quote is the strongest line in the pitch.",
+      "narration_text": "Slide 10 — the ask. Design partners, technical help, seed support. Standard and right-sized for an early-stage product. But then there is the closing line: accessibility burns down in the dark — no one smells the smoke until someone is harmed. Ogilvy: a close should end on something the audience carries out of the room. That line does it. The question is whether the ask lives up to it.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B06_TheClose",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 19.48,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim:B06_TheClose",
+        "at": "2026-08-01T15:23:02"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT ARTIFACT — The Lens Set",
+      "role_note": "Not a verdict: four questions for the next draft.",
+      "narration_text": "Not a verdict — a lens set. Four questions for the next draft. One: the smoke detector analogy is specific — what burns when it fails? Two: ninety-six percent is a statistic — who is the person? Three: 'no one guards the diff' is nine words and the whole pitch — why is it on Slide 7? Four: free tier, live product — why not end with 'run your first diff today'? These are Ogilvy's questions. The pitch decides which ones matter.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "CARD",
+        "source": "remotion",
+        "motion": "hold",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Four Ogilvy questions for the next draft",
+            "artifactHeading": "The lens set — not the verdict",
+            "artifactLines": [
+              "The smoke detector — what burns when the alarm fails?",
+              "96% fail WCAG — who is the person behind the number?",
+              "'No one guards the diff' — why isn't that Slide 1?",
+              "Free tier exists. Why not end: 'run your diff today'?"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "actual_duration_s": 20.86,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:23:02"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Scaffolded prompt for Kanishk to run on his own next draft.",
+      "narration_text": "Your turn. Take your deck into Claude and try this: here are four Ogilvy questions about my pitch. For each one — which specific slide is most in play, and what is one alternative frame to consider? Not a correction, just another angle. The goal is not to score the pitch. Ogilvy is one lens. The course rubric is another.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375 · OGILVY LENS",
+            "segment": "Run this on your next draft",
+            "command": "Here are four Ogilvy questions about my pitch. For each one: (1) which slide is most directly in play, and (2) give me one alternative frame to consider — not a correction, just another angle. Goal: not to score the pitch. One more lens.",
+            "runningText": "thinking...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 16.7,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:23:02"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "OUTRO-LOCK — ClaudeTitleOutro.",
+      "narration_text": "An Ogilvy Lens on Accessibility Monitor — Kanishk. I'm Liam, in for Bear.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 6,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "An Ogilvy Lens on Accessibility Monitor — Kanishk",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 5.01,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:23:02"
+      }
+    }
+  ]
+}

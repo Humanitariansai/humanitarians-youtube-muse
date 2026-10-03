@@ -1,0 +1,49 @@
+<!--
+  The four meanings of "agent"
+  Book: Branding and AI
+  Chapter: 03-the-ai-toolchain-cowork-codex-madison
+  Figure: 01
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/03-the-ai-toolchain-cowork-codex-madison-cajal.md
+-->
+<svg viewBox="0 0 760 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03-01">
+  <title id="fig-title-03-01">The four meanings of "agent"</title>
+  <desc>Four meanings of the word agent, each with an example product, architectural implication, and dominant failure mode.</desc>
+  <rect x="0" y="0" width="760" height="400" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">One word, four meanings — ask which one before you build</text>
+
+  <!-- headers -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">
+    <rect x="30" y="60" width="170" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="42" y="80">Meaning</text>
+    <rect x="200" y="60" width="160" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="212" y="80">Example</text>
+    <rect x="360" y="60" width="190" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="372" y="80">Architecture</text>
+    <rect x="550" y="60" width="180" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="562" y="80">Dominant failure</text>
+  </g>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <!-- 1 -->
+    <rect x="30" y="92" width="170" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="42" y="120" font-weight="700">1 · function + prompt</text><text x="42" y="140" fill="#545454">"summarize my email"</text>
+    <rect x="200" y="92" width="160" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="212" y="130" fill="#545454">email summarizer</text>
+    <rect x="360" y="92" width="190" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="372" y="130" fill="#545454">one API call, no loop</text>
+    <rect x="550" y="92" width="180" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="562" y="130" fill="#545454">wrong output, no recovery</text>
+
+    <!-- 2 -->
+    <rect x="30" y="160" width="170" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="42" y="188" font-weight="700">2 · LLM + tools + loop</text><text x="42" y="208" fill="#545454">ReAct</text>
+    <rect x="200" y="160" width="160" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="212" y="198" fill="#545454">tool-using assistant</text>
+    <rect x="360" y="160" width="190" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="372" y="198" fill="#545454">think–act–observe cycle</text>
+    <rect x="550" y="160" width="180" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="562" y="198" fill="#545454">reasoning / action errors</text>
+
+    <!-- 3 -->
+    <rect x="30" y="228" width="170" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="42" y="256" font-weight="700">3 · autonomous horizon</text><text x="42" y="276" fill="#545454">plans its own work</text>
+    <rect x="200" y="228" width="160" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="212" y="266" fill="#545454">Devin 2.0</text>
+    <rect x="360" y="228" width="190" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="372" y="266" fill="#545454">parallel sandboxes</text>
+    <rect x="550" y="228" width="180" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="562" y="258" fill="#545454">silent mid-task</text><text x="562" y="276" fill="#545454">corruption</text>
+
+    <!-- 4 -->
+    <rect x="30" y="296" width="170" height="68" fill="#FFFFFF" stroke="#121212" stroke-width="1.25"/><text x="42" y="324" font-weight="700">4 · role in a system</text><text x="42" y="344" fill="#545454">Madison's meaning</text>
+    <rect x="200" y="296" width="160" height="68" fill="#FFFFFF" stroke="#121212" stroke-width="1.25"/><text x="212" y="334" fill="#545454">Madison layer</text>
+    <rect x="360" y="296" width="190" height="68" fill="#FFFFFF" stroke="#121212" stroke-width="1.25"/><text x="372" y="334" fill="#545454">named, typed I/O</text>
+    <rect x="550" y="296" width="180" height="68" fill="#FFFFFF" stroke="#121212" stroke-width="1.25"/><text x="562" y="326" fill="#545454">fails loudly at a</text><text x="562" y="344" fill="#545454">known location</text>
+  </g>
+</svg>

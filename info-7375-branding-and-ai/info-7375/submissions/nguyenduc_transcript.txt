@@ -1,0 +1,132 @@
+[0.0s-1.5s] Hi, my name is Nick.
+[1.5s-4.6s] And the project is signal proof.
+[4.6s-7.1s] Signal proof is a weekly decision proof
+[7.1s-9.4s] for AI infrastructure founder.
+[9.4s-12.3s] The problem that I'm seeing is very simple.
+[12.3s-15.7s] Fouders need signal, but they are surrounded
+[15.7s-20.7s] by developer noise, hack-and-use GitHub dev
+[20.7s-22.3s] and so many things.
+[23.4s-27.6s] And also like vertical launch are really useful signal.
+[27.6s-30.4s] However, they just scatter like everywhere.
+[30.4s-35.0s] So yeah, that's why I created signal brief
+[35.0s-37.2s] to like turn that noise into a short.
+[39.9s-43.1s] Brief that help founder to design what to build,
+[43.1s-44.6s] monitor and ignore.
+[48.1s-52.7s] So yeah, the problem is the loudest pose always win
+[52.7s-56.8s] because why people who has like
+[56.8s-60.0s] real booming pose, founder and product team
+[60.0s-63.7s] spend like hour scanning developer communities
+[63.7s-68.7s] but attention does not always equal important, right?
+[69.1s-71.6s] And then one viral post might look urgent
+[72.7s-75.7s] why acquire the GitHub trend is repeated
+[76.6s-79.9s] developer complaint many actual matter more.
+[79.9s-83.1s] So as a founder, this create a waste of time
+[83.1s-85.8s] and a weaker product decision.
+[85.8s-90.3s] So my target is the user is an AI infrastructure founder
+[90.3s-94.4s] who need to know what developer adopting
+[94.4s-97.2s] complaining about or like asking before
+[97.2s-98.5s] committed notice.
+[101.1s-104.2s] So my solution is signal proof.
+[104.2s-106.9s] Instead of making founder manually read everything,
+[106.9s-110.5s] signal proof collect public developer signal
+[110.5s-114.2s] from sources like hack-and-use, dev and GitHub.
+[115.1s-118.8s] Then it ranked though signal based on priorities.
+[120.0s-122.8s] And then recommend action after that.
+[122.8s-127.8s] The output is not just a feat, it is a decision brief.
+[128.2s-131.6s] A founder can open it and quickly see what matter,
+[131.6s-135.6s] why is it matter and where the evidence come from.
+[135.6s-137.1s] And what to do next?
+[137.1s-140.2s] The goal is to reduce a three hour search
+[140.2s-142.8s] scanning until like just 10 minutes quickly.
+[145.0s-150.0s] And then the magic is cross-source signal intelligent
+[151.2s-154.3s] in a simple term signal proof use AI
+[154.3s-159.3s] to compare developer activity across multiple public sources.
+[159.4s-162.9s] And then explain which signal are actually useful
+[162.9s-164.8s] for product decision.
+[164.8s-169.8s] The important part is the proof they source link.
+[170.7s-173.0s] That mean the founder does not have to like
+[173.0s-174.2s] blindly trust the AI.
+[174.2s-176.5s] They can like click into that link
+[176.5s-178.2s] to the original post.
+[178.2s-181.7s] And then see what I was up.
+[181.7s-185.4s] So the products combine speed and evidence.
+[185.4s-186.6s] That is all.
+[190.1s-192.9s] So yeah, the business model is subscription based.
+[193.8s-197.8s] First plan is to solve it to like solo founder
+[197.8s-199.7s] at a $49 per month.
+[200.7s-204.7s] The team plan is about $199 per month
+[206.8s-209.2s] for a small product or engineering team.
+[210.2s-215.3s] There could be also higher need for like enterprise team
+[215.3s-218.0s] that need like a custom signal report.
+[218.0s-220.4s] And this worked because the product saved
+[220.4s-224.9s] for a bunch of time and improved roadmap.
+[224.9s-228.8s] If one better product decision save even a few hours
+[228.8s-230.8s] of preventing a wrong feature bet,
+[230.8s-235.0s] the subscription is easy to like just define at this price.
+[237.4s-241.0s] And my go-to-market strategy is narrow.
+[241.0s-243.8s] The first customer would be AI infrastructure founder,
+[243.8s-247.5s] developer tools startup and small product team.
+[247.5s-249.4s] I would start with five design partner.
+[251.9s-254.1s] And so these are like early user
+[254.1s-256.5s] who helped test the proof, give feedback
+[256.5s-258.6s] and prove whether the product is value enough
+[258.6s-260.1s] to pay for.
+[260.1s-262.8s] The first channel would be the founder,
+[262.8s-265.4s] community, Lincoln, Hacker News,
+[266.6s-270.3s] and hopefully warm introduction from classmate operator
+[271.3s-274.1s] or and startup networks.
+[274.1s-277.3s] The goal was to not mass-marketing at first,
+[277.3s-279.6s] but it is to prove to the founder
+[279.6s-282.7s] that actually use the proof every week.
+[283.7s-286.7s] There exists in two in this space,
+[286.7s-291.7s] like Fidley, Rant and E4, F5BOT.
+[294.8s-297.4s] But most of them just help you monitor information.
+[298.4s-300.9s] And we signal proof is different
+[300.9s-304.0s] because this is focus on decision.
+[304.0s-306.6s] It does not say, okay, here are the posts.
+[306.6s-308.9s] It says, here are the signal.
+[310.1s-311.5s] Here is why it's matter.
+[311.6s-315.9s] Here is the source and here is the recommendation action.
+[315.9s-318.1s] That is different from monitoring tool
+[318.1s-320.0s] and intelligent products.
+[320.0s-321.0s] We give insight.
+[323.3s-327.0s] And the current development stage
+[327.0s-329.6s] at the moment is prototype.
+[329.6s-332.2s] I already have the core workflow concept,
+[332.2s-335.2s] collecting public signal, clean data,
+[335.2s-339.4s] run AI analysts and produce like rank output for them.
+[339.4s-341.6s] And the next step is turn that workflow
+[341.6s-344.2s] into a simple product into phase
+[344.2s-348.0s] where a founder can read the proof, filter signal
+[348.0s-350.1s] and save decision.
+[350.1s-355.1s] The role map is first, finish the repeated weekly proof
+[355.7s-359.2s] and then second would be test with a design partner.
+[359.2s-362.4s] Third is add a simple dashboard
+[362.4s-365.3s] and select or like email notification.
+[365.3s-367.0s] So it's easier for them.
+[370.4s-373.3s] And yeah, for the proof of concept,
+[373.3s-378.3s] the workflow already collected 180 public.
+[380.9s-385.4s] Record as across like cancon news, dev and GitHub.
+[385.4s-390.4s] It successfully ran like a 12 record AI batch in 24 point.
+[394.7s-396.6s] And two, five seconds.
+[396.6s-397.8s] So that is very good.
+[397.8s-400.0s] The output produce rank signal,
+[400.0s-404.2s] with priorities, confidence and recommendation action.
+[404.2s-406.1s] What matter because it showed us
+[406.1s-407.7s] it's not just a vague idea.
+[407.7s-410.8s] The system can already collect real public data,
+[410.8s-413.6s] turn that into structure intelligent output
+[413.6s-417.7s] and then the product now need to like packaging user testing
+[417.7s-420.5s] and better front and experience that is the goal.
+[422.2s-424.5s] So yeah, my ass is very simple.
+[424.5s-427.1s] I am looking for five design partners.
+[428.2s-431.3s] Hopefully an access to a file to a community
+[431.3s-434.5s] where I can test this with real user.
+[434.5s-438.6s] And the immediate goal is to learn whether a founder
+[440.6s-441.4s] or
+[444.4s-448.1s] or like whether a founder would read this every week
+[448.1s-451.6s] and whether it help them make better role map decision.
+[451.6s-453.7s] If the pilot works then the next step
+[453.7s-457.6s] is building the pay version of signal script
+[458.6s-460.8s] as a subscription products.
+[460.8s-464.1s] So yeah, thank you so much.

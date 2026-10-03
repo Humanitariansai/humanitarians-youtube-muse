@@ -1,0 +1,140 @@
+{
+  "video": "ogilvy-denis",
+  "metadata": {
+    "slug": "ogilvy-denis",
+    "title": "An Ogilvy Lens on Madison \u2014 Denis",
+    "topic": "INFO 7375 \u00b7 OGILVY LENS",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Teardown",
+    "style": "ogilvy",
+    "source_pitch": "branding-and-ai/info-7375/submissions/Denis_MadisonPitch.mp4",
+    "ogilvy_note": "Food for thought \u2014 not a grade. Ogilvy is one lens among several, running alongside the course rubric. The maker decides.",
+    "total_estimated_duration_seconds": 194,
+    "build": {
+      "at": "2026-08-01T13:22:49",
+      "cut": "master",
+      "filled": 10,
+      "of": 10,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 10,
+  "beats_open": 0,
+  "beats": [
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "media/B00.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B00.mp4",
+      "label": "Denis's Madison pitch. AI job-market intelligence for the DC metro area \u2014 three AI agents that argue"
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "manim/B01.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B01.mp4",
+      "label": "Slide 1 \u2014 the tagline. Madison. AI job-market intelligence for the DC metro area. Geographic specifi"
+    },
+    {
+      "beat_id": "B02",
+      "status": "filled",
+      "on_disk": "manim/B02.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B02.mp4",
+      "label": "Slide 2 \u2014 the problem. You can't tell if you're actually competitive for a job \u2014 until it's too late"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "manim/B03.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B03.mp4",
+      "label": "Slide 4 \u2014 the magic. We use AI to argue about your resume \u2014 so you don't have to guess. Three roles:"
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "manim/B04.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B04.mp4",
+      "label": "Slide 6 \u2014 competition. Them: keyword-matching ATS scanners. Us: real multi-agent judgment, not keywo"
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "manim/B05.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B05.mp4",
+      "label": "There is a free tier. Basic job-match score, no cost, run it now. And the live demo is on GitHub \u2014 a"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "manim/B06.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B06.mp4",
+      "label": "Slide 9 \u2014 the ask. Help us close the loop. Funding to expand the data pipeline. Access to DC-metro p"
+    },
+    {
+      "beat_id": "BVDT",
+      "status": "filled",
+      "on_disk": "media/BVDT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BVDT.mp4",
+      "label": "Not a verdict \u2014 a lens set. Four questions for the next draft. One: DC metro specificity \u2014 is it a n"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. Take your deck into Claude and try this: here are four Ogilvy questions about my pitch. F"
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": "An Ogilvy Lens on Madison \u2014 Denis. I'm Liam, in for Bear."
+    }
+  ]
+}

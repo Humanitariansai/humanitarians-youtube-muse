@@ -1,0 +1,72 @@
+<!--
+  Three survival disciplines
+  Book: Branding and AI
+  Chapter: 21-shipit-pipelines-and-workflow-on-madison
+  Figure: 04
+  Type: structural schematic
+  Generated: 2026-06-18
+  Source: pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md
+-->
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-21-04">
+  <title id="fig-title-21-04">Three survival disciplines</title>
+  <desc>Document the contract, design a degraded mode, monitor the contract — three discipline cards, each with what it catches and how to implement it in n8n.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="21-shipit-pipelines-and-workflow-on-madison"
+      figure-number="04" figure-title="Three survival disciplines"
+      figure-slug="three-survival-disciplines" figure-type="structural schematic"
+      priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="400" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three disciplines for surviving a contract that changes</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The tooling is implementation. These three are the point.</text>
+
+  <!-- Card 1 -->
+  <rect x="32" y="86" width="200" height="220" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="32" y="86" width="200" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DISCIPLINE 1</text>
+  <text x="44" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Document the contract</text>
+  <text x="44" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">CATCHES</text>
+  <text x="44" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Unacknowledged</text>
+  <text x="44" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">dependencies. Forces</text>
+  <text x="44" y="202" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">"subject to change"</text>
+  <text x="44" y="218" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">into the design.</text>
+  <text x="44" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">IN n8n</text>
+  <text x="44" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">One sentence per node:</text>
+  <text x="44" y="288" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">gives, costs, limit, terms.</text>
+
+  <!-- Card 2 -->
+  <rect x="250" y="86" width="200" height="220" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="250" y="86" width="200" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="262" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DISCIPLINE 2</text>
+  <text x="262" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Design a degraded mode</text>
+  <text x="262" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">CATCHES</text>
+  <text x="262" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">The opaque crash.</text>
+  <text x="262" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Answers: what does</text>
+  <text x="262" y="202" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">the product do when</text>
+  <text x="262" y="218" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">this contract fails?</text>
+  <text x="262" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">IN n8n</text>
+  <text x="262" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Node error output to a</text>
+  <text x="262" y="288" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">fallback / log node.</text>
+
+  <!-- Card 3 -->
+  <rect x="468" y="86" width="200" height="220" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="468" y="86" width="200" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="480" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DISCIPLINE 3</text>
+  <text x="480" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Monitor the contract</text>
+  <text x="480" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">CATCHES</text>
+  <text x="480" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Silent drift — limits</text>
+  <text x="480" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">creep, prices shift,</text>
+  <text x="480" y="202" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">fields deprecate</text>
+  <text x="480" y="218" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">while nodes return 200.</text>
+  <text x="480" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">IN n8n</text>
+  <text x="480" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Wire status-page RSS;</text>
+  <text x="480" y="288" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">set billing alerts.</text>
+
+  <!-- Footer -->
+  <rect x="32" y="320" width="636" height="36" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="343" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Monitor the contracts, not just the execution — a workflow can pass while the agreement degrades.</text>
+
+  <text x="32" y="384" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 21, THREE SURVIVAL DISCIPLINES</text>
+</svg>

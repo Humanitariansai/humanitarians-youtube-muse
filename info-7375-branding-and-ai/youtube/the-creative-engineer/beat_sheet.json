@@ -1,0 +1,952 @@
+{
+  "metadata": {
+    "slug": "the-creative-engineer",
+    "title": "When the Signal Stops Sorting",
+    "topic": "SIGNALS, EVIDENCE, MARKETS",
+    "purpose": "Teach the standalone idea: when the cost of producing a signal collapses, the signal stops separating anyone from anyone else — and how to think about what's still costly to fake in a working career.",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration (Kokoro am_onyx) — the master clock",
+    "style_preset": "teardown",
+    "palette": "claude",
+    "register": "Teardown",
+    "aspect_ratio": "16:9",
+    "channel": "NikBearBrown",
+    "folderLabel": "@NikBearBrown",
+    "audience": "Practitioners under 40 who accumulated credentials before AI, now watching those credentials reprice.",
+    "seed": 731,
+    "chapter_number": 1,
+    "build": {
+      "at": "2026-09-04T22:00:12",
+      "cut": "master",
+      "filled": 28,
+      "of": 28,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "beat_type": "cold_open",
+      "narration_text": "Ola. This is Liam, in for Bear. Here is the question we are running today. When almost anyone can make the thing that used to prove you could make it, what still counts as evidence? That is a question about signals, and it decides who a market will pay.",
+      "estimated_duration_s": 20,
+      "shot": {
+        "scene_type": "ClaudeComposerAsk",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Ola, Liam",
+            "command": "When the cost of producing a proof-of-competence collapses, what happens to the credential? Trace the mechanism, then name what is still costly to fake in a working career.",
+            "topic": "SIGNALS, EVIDENCE, MARKETS",
+            "segment": "When the Signal Stops Sorting",
+            "runningText": "reading the mechanism…",
+            "output": [
+              "A signal is a proxy for something the buyer cannot see directly.",
+              "It works only while producing it stays costly.",
+              "Cheap tools collapse the cost — and the signal stops sorting.",
+              "The value moves to whatever the tool did not touch."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Claude",
+            "effortLabel": "High",
+            "placeholder": "Type / for skills"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 13.01,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "beat_type": "body",
+      "lead_silence_s": 0.8,
+      "narration_text": "For twenty years, one visible artifact told employers who could build. Now the tool made producing that artifact cheap. That did not just make the work easier. It made the proof cheap to fake, and a proof anyone can fake stops being proof at all.",
+      "estimated_duration_s": 15,
+      "shot": {
+        "scene_type": "BrutalistHesitantWriter",
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "AI just made building easier.\nThat's the wrong lesson.\nWhat changed is the evidence.",
+            "triggerWords": "just made building easier. That's the wrong lesson. What changed is the evidence",
+            "replacementWords": "made the proof of building cheap to fake",
+            "seed": "731",
+            "align": "center",
+            "fontSize": 82,
+            "lineSpacing": 1.25
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 13.23,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "beat_type": "segment",
+      "narration_text": "Act one. A signal is not the thing itself. It is a proxy for the thing, chosen because the thing itself is hard to see.",
+      "estimated_duration_s": 8,
+      "shot": {
+        "scene_type": "ClaudeSegmentCard",
+        "remotion": {
+          "pattern": "ClaudeSegmentCard",
+          "props": {
+            "actLabel": "Act I",
+            "title": "Signals and What Breaks Them"
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 7.19,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "beat_type": "body",
+      "narration_text": "An employer hires someone to be productive. They cannot measure productivity before hiring; by the time they can, the hire has already been made. So they reach for a proxy. A degree, a portfolio, a public artifact. Something that stands in for the thing they actually want.",
+      "estimated_duration_s": 15,
+      "shot": {
+        "scene_type": "BrandSignalMatrix",
+        "remotion": {
+          "pattern": "BrandSignalMatrix",
+          "props": {
+            "phase": "theory"
+          },
+          "rendered": {
+            "out": "media/B03.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 14.46,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B03.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "beat_type": "body",
+      "narration_text": "In nineteen seventy-three the economist Michael Spence gave this idea a mechanism. A signal carries information only when producing it is costly, and costly in a way that correlates with the underlying thing. Cheap-to-produce is not just weak evidence. It is no evidence.",
+      "estimated_duration_s": 15,
+      "shot": {
+        "scene_type": "BrandSignalMatrix",
+        "remotion": {
+          "pattern": "BrandSignalMatrix",
+          "props": {
+            "phase": "theory"
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 15.79,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "beat_type": "body",
+      "narration_text": "Spence named two states. In one, the signal separates. High and low candidates land on visibly different sides of it. In the other, the pool, everyone lands in the same place. The signal is still there. It just stops sorting.",
+      "estimated_duration_s": 13,
+      "shot": {
+        "scene_type": "BrandB01SignalCollapse",
+        "remotion": {
+          "pattern": "BrandB01SignalCollapse",
+          "props": {
+            "sparkLine": "Separating on the left. Pooling on the right."
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": "2026-09-04T19:50:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 12.63,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "remotion:BrandB01SignalCollapse",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "beat_type": "body",
+      "narration_text": "For a long stretch, one visible artifact was the separating signal for software: a working project in a public repository. To produce it you needed the language, the tools, the debugging patience, the weekends. That effort cost something a slower builder could not pay, and the signal did its job.",
+      "estimated_duration_s": 17,
+      "shot": {
+        "scene_type": "BrandB01SignalCollapse",
+        "remotion": {
+          "pattern": "BrandB01SignalCollapse",
+          "props": {
+            "sparkLine": "The signal sorted, because the cost sorted first."
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": "2026-09-04T19:50:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 16.19,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "remotion:BrandB01SignalCollapse",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "beat_type": "body",
+      "narration_text": "Then a study published in twenty twenty-three ran the numbers. Ninety-five professional developers, same task, half with an assistive tool, half without. The control side finished in one hundred sixty-one minutes. The assisted side finished in seventy-one. Fifty-six percent less time. That is not a productivity story. That is a cost-structure story.",
+      "estimated_duration_s": 18,
+      "shot": {
+        "scene_type": "BarChart",
+        "remotion": {
+          "pattern": "BarChart",
+          "props": {
+            "title": "Same task, minutes to finish",
+            "data": [
+              {
+                "label": "Without tool",
+                "value": 161
+              },
+              {
+                "label": "With tool",
+                "value": 71
+              }
+            ],
+            "accentIndex": 1,
+            "unit": "min"
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": "2026-09-04T20:39:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B07.mp3",
+      "actual_duration_s": 18.22,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "remotion:BarChart",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "beat_type": "body",
+      "narration_text": "By twenty twenty-four, eighty-two percent of a large developer survey reported using assistive tools for code. That is not a frontier group. That is the population. When the entire pool produces the signal cheaply, the signal stops telling the buyer anything.",
+      "estimated_duration_s": 14,
+      "shot": {
+        "scene_type": "BarChart",
+        "remotion": {
+          "pattern": "BarChart",
+          "props": {
+            "title": "Share using assistive tools for code",
+            "data": [
+              {
+                "label": "Rest of survey",
+                "value": 18
+              },
+              {
+                "label": "Using tools",
+                "value": 82
+              }
+            ],
+            "accentIndex": 1,
+            "unit": "%"
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": "2026-09-04T20:39:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B08.mp3",
+      "actual_duration_s": 14.66,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "remotion:BarChart",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "beat_type": "body",
+      "narration_text": "The visible artifact did not vanish. It pooled. A recruiter looking at the same repository can no longer tell whether it took six weekends of craft, or a Tuesday afternoon and a prompt. The proof and the fake are indistinguishable at a glance, and that is exactly what breaks a signal.",
+      "estimated_duration_s": 17,
+      "shot": {
+        "scene_type": "BrandB01SignalCollapse",
+        "remotion": {
+          "pattern": "BrandB01SignalCollapse",
+          "props": {
+            "sparkLine": "The proof and the fake look the same now."
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": "2026-09-04T19:50:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B09.mp3",
+      "actual_duration_s": 15.36,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "remotion:BrandB01SignalCollapse",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "beat_type": "segment",
+      "narration_text": "Act two. If the tool cheapened the proof, the question becomes: what did the tool not touch?",
+      "estimated_duration_s": 7,
+      "shot": {
+        "scene_type": "ClaudeSegmentCard",
+        "remotion": {
+          "pattern": "ClaudeSegmentCard",
+          "props": {
+            "actLabel": "Act II",
+            "title": "What the Tool Did Not Touch"
+          },
+          "rendered": {
+            "out": "media/B10.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B10.mp3",
+      "actual_duration_s": 5.16,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B10.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "beat_type": "body",
+      "narration_text": "There is a useful way to slice a working career into four moves. Ideate. Build. Brand. Ship. The tool has been living inside one of them. Look at each in turn, and the shape of the repricing becomes hard to unsee.",
+      "estimated_duration_s": 14,
+      "shot": {
+        "scene_type": "BrandVerbScorecard",
+        "remotion": {
+          "pattern": "BrandVerbScorecard",
+          "props": {
+            "projects": [
+              {
+                "name": "Sample project A",
+                "ideate": 1,
+                "build": 3,
+                "brand": 0,
+                "ship": 0
+              },
+              {
+                "name": "Sample project B",
+                "ideate": 1,
+                "build": 3,
+                "brand": 1,
+                "ship": 0
+              },
+              {
+                "name": "Sample project C",
+                "ideate": 2,
+                "build": 3,
+                "brand": 0,
+                "ship": 1
+              }
+            ],
+            "recommendation": "The gap you see under Build is the point. The tool lives there."
+          },
+          "rendered": {
+            "out": "media/B11.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B11.mp3",
+      "actual_duration_s": 11.86,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B11.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "beat_type": "body",
+      "narration_text": "Ideate is the decision about what is worth building. The tool does the second question well. It cannot answer the first. Talking to someone who has the problem, refusing to build the wrong thing, sitting with a bad first idea until a better one shows up. Human contact with reality. No prompt covers that.",
+      "estimated_duration_s": 17,
+      "shot": {
+        "scene_type": "BrandB01VerbGap",
+        "remotion": {
+          "pattern": "BrandB01VerbGap",
+          "props": {
+            "sparkLine": "Ideate is the bet on which problem is real."
+          },
+          "rendered": {
+            "out": "media/B12.mp4",
+            "at": "2026-09-04T19:34:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B12.mp3",
+      "actual_duration_s": 15.96,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B12.mp4",
+        "filled_by": "remotion:BrandB01VerbGap",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B13",
+      "beat_type": "body",
+      "narration_text": "Build is necessary and no longer sufficient. Real systems still need judgment: architecture that scales, a design that fails safely, an eye for the edge case a real user will find. The move is that showing you can build, through the visible artifact alone, is not the demonstration it used to be.",
+      "estimated_duration_s": 17,
+      "shot": {
+        "scene_type": "BrandB01VerbGap",
+        "remotion": {
+          "pattern": "BrandB01VerbGap",
+          "props": {
+            "sparkLine": "Necessary. Not sufficient."
+          },
+          "rendered": {
+            "out": "media/B13.mp4",
+            "at": "2026-09-04T19:34:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B13.mp3",
+      "actual_duration_s": 16.41,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B13.mp4",
+        "filled_by": "remotion:BrandB01VerbGap",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B14",
+      "beat_type": "body",
+      "narration_text": "Brand is where the technical mind resists. Here is the useful analogy. An interface without documentation is complete. It returns the right values. But if the person who needs it cannot tell what it is for, it is useless. Documentation is not decoration. It is the part that connects the tool to the world that could use it.",
+      "estimated_duration_s": 18,
+      "shot": {
+        "scene_type": "BrandB01AlignmentDrift",
+        "remotion": {
+          "pattern": "BrandB01AlignmentDrift",
+          "props": {
+            "sparkLine": "Brand is documentation for your work."
+          },
+          "rendered": {
+            "out": "media/B14.mp4",
+            "at": "2026-09-04T19:20:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B14.mp3",
+      "actual_duration_s": 17.22,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B14.mp4",
+        "filled_by": "remotion:BrandB01AlignmentDrift",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B15",
+      "beat_type": "body",
+      "narration_text": "Ship is a public address that a stranger can reach, and someone who is not you using the thing. Not a repository. Not a demo. Ship is the only step that tests every earlier one, because it exposes the assumptions to a person who has no reason to be kind.",
+      "estimated_duration_s": 16,
+      "shot": {
+        "scene_type": "BrandB01VerbGap",
+        "remotion": {
+          "pattern": "BrandB01VerbGap",
+          "props": {
+            "sparkLine": "Ship is the only test that actually tests."
+          },
+          "rendered": {
+            "out": "media/B15.mp4",
+            "at": "2026-09-04T19:34:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B15.mp3",
+      "actual_duration_s": 14.17,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B15.mp4",
+        "filled_by": "remotion:BrandB01VerbGap",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B16",
+      "beat_type": "segment",
+      "narration_text": "Act three. Being seen at all.",
+      "estimated_duration_s": 6,
+      "shot": {
+        "scene_type": "ClaudeSegmentCard",
+        "remotion": {
+          "pattern": "ClaudeSegmentCard",
+          "props": {
+            "actLabel": "Act III",
+            "title": "Being Legible on Purpose"
+          },
+          "rendered": {
+            "out": "media/B16.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B16.mp3",
+      "actual_duration_s": 2.33,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B16.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B17",
+      "beat_type": "body",
+      "narration_text": "Being good at something is one problem. Being recognizable for it is another, and the second one is what a market can actually respond to. Two people can do near-identical work and land in wildly different places, because one is legible to the audience they want, and the other is not.",
+      "estimated_duration_s": 17,
+      "shot": {
+        "scene_type": "BrandB01AlignmentDrift",
+        "remotion": {
+          "pattern": "BrandB01AlignmentDrift",
+          "props": {
+            "sparkLine": "Legibility, not talent, is the market variable."
+          },
+          "rendered": {
+            "out": "media/B17.mp4",
+            "at": "2026-09-04T19:20:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B17.mp3",
+      "actual_duration_s": 15.72,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B17.mp4",
+        "filled_by": "remotion:BrandB01AlignmentDrift",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B18",
+      "beat_type": "body",
+      "narration_text": "Consider two firms doing broadly similar frontier research. Their technical foundations rhyme. Their brands do not. One planted a flag on safety as the front door of its identity. The other planted a flag on capability. Same neighborhood of work, opposite market positions. Different audiences. Different customers. Different companies.",
+      "estimated_duration_s": 18,
+      "shot": {
+        "scene_type": "BrandB01AlignmentDrift",
+        "remotion": {
+          "pattern": "BrandB01AlignmentDrift",
+          "props": {
+            "sparkLine": "Same tech, opposite front doors."
+          },
+          "rendered": {
+            "out": "media/B18.mp4",
+            "at": "2026-09-04T19:20:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B18.mp3",
+      "actual_duration_s": 17.88,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B18.mp4",
+        "filled_by": "remotion:BrandB01AlignmentDrift",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B19",
+      "beat_type": "body",
+      "narration_text": "A useful map for the same choice at the level of a career is the twelve archetype wheel. It gives a vocabulary for the harder question: what role do you occupy for the audience you are trying to reach? Not what can you do. Who are you to them. Sage. Rebel. Creator. Explorer. Everyman.",
+      "estimated_duration_s": 18,
+      "shot": {
+        "scene_type": "BrandArchetypeWheel",
+        "remotion": {
+          "pattern": "BrandArchetypeWheel",
+          "props": {
+            "primaryArchetype": "Sage",
+            "shadowArchetype": "Rebel",
+            "forcingFunctions": [
+              "Voice: teaching, not selling",
+              "Evidence: worked examples, not opinions",
+              "Cadence: slow and finished, not fast and half"
+            ]
+          },
+          "rendered": {
+            "out": "media/B19.mp4",
+            "at": "2026-09-04T19:20:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B19.mp3",
+      "actual_duration_s": 15.04,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B19.mp4",
+        "filled_by": "remotion:BrandArchetypeWheel",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B20",
+      "beat_type": "body",
+      "narration_text": "The archetype is descriptive first, prescriptive second. You are not inventing a persona. You are naming the one already showing up in what you have already made. Read your public writing. Look at the projects you chose without being asked. Notice the negative space, the topics you never touch. The archetype is audible in the voice before it is legible in the content.",
+      "estimated_duration_s": 20,
+      "shot": {
+        "scene_type": "BrandArchetypeWheel",
+        "remotion": {
+          "pattern": "BrandArchetypeWheel",
+          "props": {
+            "primaryArchetype": "Explorer",
+            "shadowArchetype": "Creator",
+            "forcingFunctions": [
+              "Read your own bio out loud",
+              "Look at what you chose to build",
+              "Notice what you never post about"
+            ]
+          },
+          "rendered": {
+            "out": "media/B20.mp4",
+            "at": "2026-09-04T19:20:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B20.mp3",
+      "actual_duration_s": 17.9,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B20.mp4",
+        "filled_by": "remotion:BrandArchetypeWheel",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B21",
+      "beat_type": "body",
+      "narration_text": "A worked example. Engineer A has seventeen repositories, fourteen unfinished. The three complete are tight and unforgiving. Her bio says she likes doing things the right way. Her writing is critique of bad interfaces. She has never posted a tutorial. That is a Rebel showing up in evidence: attracted to what is wrong, competent through diagnosis, absent from teaching.",
+      "estimated_duration_s": 20,
+      "shot": {
+        "scene_type": "BrandArchetypeWheel",
+        "remotion": {
+          "pattern": "BrandArchetypeWheel",
+          "props": {
+            "primaryArchetype": "Outlaw",
+            "shadowArchetype": "Creator",
+            "forcingFunctions": [
+              "Attracted to what is broken",
+              "Competent through critique",
+              "Absent from teaching"
+            ]
+          },
+          "rendered": {
+            "out": "media/B21.mp4",
+            "at": "2026-09-04T19:20:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B21.mp3",
+      "actual_duration_s": 19.16,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B21.mp4",
+        "filled_by": "remotion:BrandArchetypeWheel",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B22",
+      "beat_type": "body",
+      "narration_text": "Engineer B has four repositories, all finished. Two read like tutorials. His bio talks about making complex systems accessible. He has answered two hundred questions on a public forum. That is an Everyman: motivated by belonging, meeting the questioner at their level rather than instructing from above. The shadow to watch for is universal approval at the cost of a sharp opinion.",
+      "estimated_duration_s": 21,
+      "shot": {
+        "scene_type": "BrandArchetypeWheel",
+        "remotion": {
+          "pattern": "BrandArchetypeWheel",
+          "props": {
+            "primaryArchetype": "Everyman",
+            "shadowArchetype": "Lover",
+            "forcingFunctions": [
+              "Motivated by belonging",
+              "Meets the questioner where they are",
+              "Watch for universal approval"
+            ]
+          },
+          "rendered": {
+            "out": "media/B22.mp4",
+            "at": "2026-09-04T19:20:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B22.mp3",
+      "actual_duration_s": 20.29,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B22.mp4",
+        "filled_by": "remotion:BrandArchetypeWheel",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B23",
+      "beat_type": "body",
+      "narration_text": "Zoom out and the three moves connect. The signal argument names why the market is repricing. The four verbs name where the value moved: to the ends of the pipeline the tool did not reach. The archetype names how a person or a firm becomes recognizable inside that shift. Three lenses, one argument.",
+      "estimated_duration_s": 18,
+      "shot": {
+        "scene_type": "BrandRepricingTable",
+        "remotion": {
+          "pattern": "BrandRepricingTable",
+          "props": {},
+          "rendered": {
+            "out": "media/B23.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B23.mp3",
+      "actual_duration_s": 15.81,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B23.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "B24",
+      "beat_type": "body",
+      "narration_text": "One caveat, plainly stated. The currently separating signals are the next to pool. That is what happens to signals under a moving tool. The map is a snapshot, not a destination. Treat it as a way of noticing, then keep watching what stays hard.",
+      "estimated_duration_s": 15,
+      "shot": {
+        "scene_type": "BrandB01SignalCollapse",
+        "remotion": {
+          "pattern": "BrandB01SignalCollapse",
+          "props": {
+            "sparkLine": "The map is a snapshot, not a destination."
+          },
+          "rendered": {
+            "out": "media/B24.mp4",
+            "at": "2026-09-04T19:50:00"
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-B24.mp3",
+      "actual_duration_s": 13.4,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B24.mp4",
+        "filled_by": "remotion:BrandB01SignalCollapse",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "beat_type": "verdict",
+      "narration_text": "The verdict, in four lines. A signal works only while producing it stays costly. Cheap tools collapse the cost. The value moves to whatever the tool did not touch. Being legible for it is the second half of getting paid for it.",
+      "estimated_duration_s": 14,
+      "shot": {
+        "scene_type": "ClaudeVerdictArtifact",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Verdict",
+            "artifactHeading": "When the Signal Stops Sorting",
+            "artifactLines": [
+              "A signal works only while producing it stays costly.",
+              "Cheap tools collapse the cost. The signal stops sorting.",
+              "The value moves to whatever the tool did not touch.",
+              "Being legible for it is the second half of getting paid for it."
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "actual_duration_s": 12.46,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "beat_type": "handoff",
+      "narration_text": "Your turn. Paste this into your Claude session, in your own words. Name the field you work in. List two or three signals that used to open doors for you: the credential, the artifact, the badge. Ask Claude to sort them into two columns. One column: signals a fluent user can now produce cheaply. Second column: signals that still cost something real. Then ask what you would have to make, ship, or say publicly in the next six months to add one item to the second column. Run it. See where the honest answer lands.",
+      "estimated_duration_s": 30,
+      "shot": {
+        "scene_type": "ClaudeComposerAsk",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "command": "Name my field and two or three credentials that used to open doors for me. Sort them: which ones can a fluent user now produce cheaply, which ones still cost something real? Then name one thing I could make, ship, or say publicly in the next six months to add an item to the still-costly column.",
+            "topic": "SIGNALS, EVIDENCE, MARKETS",
+            "segment": "When the Signal Stops Sorting",
+            "runningText": "paste this into Claude…",
+            "output": [],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Claude",
+            "effortLabel": "High",
+            "placeholder": "Type / for skills"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 24.98,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "beat_type": "outro",
+      "narration_text": "When the Signal Stops Sorting. Liam, in for Bear.",
+      "estimated_duration_s": 7,
+      "shot": {
+        "scene_type": "ClaudeTitleOutro",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "When the Signal Stops Sorting",
+            "slug": "the-creative-engineer"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 3.63,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-09-04T22:00:12"
+      }
+    }
+  ]
+}

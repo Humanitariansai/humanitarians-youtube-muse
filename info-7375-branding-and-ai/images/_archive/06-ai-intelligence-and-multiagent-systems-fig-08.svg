@@ -1,0 +1,35 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-6-8 desc-6-8">
+<title id="title-6-8">The autonomy/orchestration spectrum as a deliberate-design dial</title>
+<desc id="desc-6-8">A horizontal slider labeled "Autonomy/Orchestration Spectrum." The left end reads "Human/Deterministic decides" with examples rule-based pipeline and if/then logic; the right end reads "AI decides" with examples autonomous agent and self-directed goal pursuit. The center is the "Deliberate Design Zone." Neither end is wrong — the question is whether the choice was made on purpose or by drift.</desc>
+<rect width="700" height="300" fill="#FFFFFF"/>
+<text x="48" y="44" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">Autonomy/Orchestration Spectrum</text>
+<text x="48" y="64" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Neither end is wrong. The question is whether you chose on purpose or drifted into it.</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+
+<!-- track -->
+<line x1="96" y1="150" x2="604" y2="150" stroke="#D4D4D4" stroke-width="6" stroke-linecap="round"/>
+<!-- center deliberate design zone band (above the track) -->
+<rect x="284" y="100" width="132" height="24" fill="#F5F5F5" stroke="#C8102E" stroke-width="1"/>
+<text x="350" y="116" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#C8102E" font-weight="bold">Deliberate Design Zone</text>
+<text x="350" y="94" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">choose here, on purpose</text>
+<path d="M 350 124 L 350 136" stroke="#C8102E" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+
+<!-- handle on the track -->
+<circle cx="350" cy="150" r="9" fill="#C8102E"/>
+
+<!-- left end -->
+<line x1="96" y1="138" x2="96" y2="162" stroke="#2a1a0e" stroke-width="2"/>
+<text x="96" y="196" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">Human / Deterministic</text>
+<text x="96" y="212" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">decides</text>
+<text x="96" y="236" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">rule-based pipeline</text>
+<text x="96" y="252" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">if / then logic</text>
+
+<!-- right end -->
+<line x1="604" y1="138" x2="604" y2="162" stroke="#2a1a0e" stroke-width="2"/>
+<text x="604" y="196" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">AI decides</text>
+<text x="604" y="236" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">autonomous agent</text>
+<text x="604" y="252" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">self-directed goals</text>
+
+<line x1="48" y1="268" x2="652" y2="268" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="286" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 6.8</text>
+</svg>

@@ -1,0 +1,57 @@
+<!--
+  Moments of truth on the journey arc
+  Book: Branding and AI
+  Chapter: 11-brand-experience-and-touchpoints
+  Figure: 04
+  Type: timeline (arc with marked peaks)
+  Generated: 2026-06-18
+  Source: pantry/11-brand-experience-and-touchpoints-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-11-04">
+  <title id="fig-title-11-04">Moments of truth on the journey arc</title>
+  <desc>The journey with moments of truth marked as peaks: pre-purchase research before contact, shelf or checkout decision, and first use, plus first support interaction and renewal. Recommended design investment is compared with typical investment; onboarding is commonly under-invested.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Moments of truth carry disproportionate weight — invest where they are</text>
+
+  <!-- plot region -->
+  <rect x="60" y="64" width="580" height="240" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="60" y1="304" x2="640" y2="304" stroke="#121212" stroke-width="1"/>
+
+  <!-- the journey arc as a curve with peaks at the moments -->
+  <path d="M 60 290 L 130 130 L 200 250 L 290 110 L 380 240 L 470 160 L 560 220 L 640 200" fill="none" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- peak markers -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">
+    <circle cx="130" cy="130" r="4" fill="#121212"/>
+    <text x="130" y="100">pre-purchase</text>
+    <text x="130" y="112">research</text>
+    <text x="130" y="320" font-size="10" fill="#545454">research</text>
+    <circle cx="290" cy="110" r="4" fill="#121212"/>
+    <text x="290" y="80">shelf / checkout</text>
+    <text x="290" y="92">decision</text>
+    <text x="290" y="320" font-size="10" fill="#545454">first decision</text>
+    <circle cx="470" cy="160" r="4" fill="#121212"/>
+    <text x="470" y="144">first use</text>
+    <text x="470" y="320" font-size="10" fill="#545454">first use</text>
+  </g>
+
+  <text x="60" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">brand-shaping weight →</text>
+
+  <!-- investment comparison strip -->
+  <text x="60" y="344" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" font-weight="700">The allocation error</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <!-- acquisition ad: typical high -->
+    <text x="60" y="368" fill="#121212">Acquisition ad (seen once)</text>
+    <rect x="300" y="358" width="200" height="12" fill="#787878"/>
+    <text x="510" y="368" fill="#545454">typical: over-invested</text>
+    <!-- onboarding: typical low (the one red mark = the under-investment bar) -->
+    <text x="60" y="392" fill="#121212">Onboarding (sets the model)</text>
+    <rect x="300" y="382" width="60" height="12" fill="#C8102E"/>
+    <rect x="360" y="382" width="140" height="12" fill="none" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="510" y="392" fill="#545454">under-invested ← the gap</text>
+  </g>
+
+  <text x="32" y="420" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Find the moments of truth and over-invest there.</text>
+  <text x="32" y="436" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The onboarding experience shapes the brand model for everything that follows.</text>
+  <text x="32" y="452" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#8A8A8A" letter-spacing="0.06em">SOURCE: PROCTER &amp; GAMBLE (SHELF MOMENT, 2005); GOOGLE / LECINSKI (PRE-PURCHASE RESEARCH, 2011)</text>
+</svg>

@@ -1,0 +1,89 @@
+<!--
+  Hofstede's dimensions as a brand-message lens
+  Book: Branding and AI
+  Chapter: 17-global-and-cross-cultural-branding
+  Figure: 03
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/17-global-and-cross-cultural-branding-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-17-03">
+  <title id="fig-title-17-03">Hofstede's dimensions as a brand-message lens</title>
+  <desc>Six cultural dimensions used to ask better questions, not to script individuals. Each row shows the high-score tendency, low-score tendency, and brand-message implication, with a standing caveat: population tendency, not individual script.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="17-global-and-cross-cultural-branding" figure-number="03"
+      figure-title="Hofstede's dimensions as a brand-message lens"
+      figure-slug="hofstede-dimensions-brand-lens"
+      figure-type="matrix" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/17-global-and-cross-cultural-branding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Hofstede's dimensions as a brand-message lens</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A tool for asking better questions about a market — never a script for individuals in it.</text>
+
+  <!-- column headers -->
+  <text x="32" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Dimension</text>
+  <text x="200" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">High-score tendency</text>
+  <text x="386" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Low-score tendency</text>
+  <text x="540" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Message implication</text>
+  <line x1="32" y1="94" x2="668" y2="94" stroke="#121212" stroke-width="1"/>
+
+  <!-- Row 1 power distance -->
+  <text x="32" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Power distance</text>
+  <text x="200" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">defers to authority</text>
+  <text x="386" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">skeptical of it</text>
+  <text x="540" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">expert endorsement</text>
+  <line x1="32" y1="134" x2="668" y2="134" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 2 individualism (weighted) -->
+  <rect x="32" y="138" width="636" height="40" fill="#F5F5F5"/>
+  <text x="40" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Individualism /</text>
+  <text x="40" y="171" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">collectivism</text>
+  <text x="200" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">personal achievement,</text>
+  <text x="200" y="171" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">self-expression</text>
+  <text x="386" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">belonging, family,</text>
+  <text x="386" y="171" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">shared identity</text>
+  <text x="540" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">most message-</text>
+  <text x="540" y="171" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">relevant dimension</text>
+  <line x1="32" y1="178" x2="668" y2="178" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 3 uncertainty avoidance -->
+  <text x="32" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Uncertainty</text>
+  <text x="32" y="219" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">avoidance</text>
+  <text x="200" y="212" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">safety, reliability</text>
+  <text x="386" y="212" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">novelty, disruption</text>
+  <text x="540" y="212" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">risk vs. reassurance</text>
+  <line x1="32" y1="232" x2="668" y2="232" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 4 masculinity/femininity -->
+  <text x="32" y="258" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Masculinity /</text>
+  <text x="32" y="273" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">femininity</text>
+  <text x="200" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">assertion, success</text>
+  <text x="386" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">quality of life, care</text>
+  <text x="540" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">dominance vs. balance</text>
+  <line x1="32" y1="286" x2="668" y2="286" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 5 long-term -->
+  <text x="32" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Long-term</text>
+  <text x="32" y="327" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">orientation</text>
+  <text x="200" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">patience, tradition</text>
+  <text x="386" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">quick result, now</text>
+  <text x="540" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">time horizon framing</text>
+  <line x1="32" y1="340" x2="668" y2="340" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 6 indulgence -->
+  <text x="32" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Indulgence /</text>
+  <text x="32" y="381" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">restraint</text>
+  <text x="200" y="374" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">pleasure, enjoyment</text>
+  <text x="386" y="374" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">norms, moderation</text>
+  <text x="540" y="374" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">how pleasure is framed</text>
+  <line x1="32" y1="394" x2="668" y2="394" stroke="#121212" stroke-width="1"/>
+
+  <!-- caveat band -->
+  <rect x="32" y="408" width="636" height="44" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="44" y="430" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Caveat: population tendency, not individual script.</text>
+  <text x="44" y="446" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Scores describe a national culture's statistical center, not any one person. Use it to ask, not to answer.</text>
+</svg>

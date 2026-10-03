@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "title": "Brand Strategy & Positioning",
+    "short": "BRANDING · CH06",
+    "course": "Branding and AI · Chapter 06",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/06-brand-strategy-and-positioning.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 06",
+      "title": "Brand Strategy & Positioning",
+      "subtitle": "The brand is not what you build. It is what you consistently decline to build.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the test",
+      "title": "Ask what Stripe *declines* to do",
+      "lead": "Read their site, their docs, Collison's writing, the API changelog. Then ask: what is Stripe's brand?",
+      "bullets": [
+        "Most people answer by listing output — clean APIs, developer-first infrastructure, docs that ship as a product. All real. All the wrong answer.",
+        "What makes a brand legible across a dozen product lines is not what a company consistently *produces*. It is what it consistently **declines** to produce.",
+        "Pile the refusals on top of each other and you get a company that looks as if it always knew what it was — precisely because it kept declining the things that would have made it look like something else."
+      ]
+    },
+    {
+      "id": "S03", "section": "the distinction most people skip",
+      "title": "Marketing is downstream of brand",
+      "lead": "Two different questions, and only one of them comes first.",
+      "bullets": [
+        "**Marketing strategy** answers: *how do we reach our audience?* Channels, messages, funnels, ad spend.",
+        "**Brand strategy** answers: *who are we, for whom, and what will we never compromise?*",
+        "Without the constraint set, marketing decisions get made in isolation — the ad targets everyone, the message says nothing, the product ships a feature for every customer who asks.",
+        "The company loses shape as it grows."
+      ]
+    },
+    {
+      "id": "S04", "section": "the seven components · 1",
+      "title": "Mission, Vision, Values, UVP",
+      "lead": "Seven components, each doing a job the other six cannot.",
+      "bullets": [
+        "**Mission** — one sentence, specific and testable. *Increase the GDP of the internet* is testable. *Make payments easier* is not: easier than what, for whom, by how much?",
+        "**Vision** — the world if you succeed. Every business anywhere transacting online with the reliability and cost structure of a Fortune 500 company. Ambitious enough to motivate, specific enough to steer.",
+        "**Values** — the commitments you maintain *when maintaining them is costly*. A value that has never cost you anything is a preference waiting to be overridden by the first deadline.",
+        "**UVP** — one sentence a customer could falsify. Stripe's at launch: the cleanest payment API available, integrable in seven lines of code, with documentation that did not require a sales call."
+      ]
+    },
+    {
+      "id": "S05", "section": "the seven components · 2",
+      "title": "Archetype, Voice, Positioning",
+      "lead": "The three that decide how the whole thing sounds and where it stands.",
+      "bullets": [
+        "**Archetype** — the strategic anchor. It does not determine what you decide; it determines that your decisions **cohere**.",
+        "**Voice** — sentence rhythm, vocabulary, formats favored and rejected. Not aesthetic preference: voice encodes audience and archetype simultaneously.",
+        "**Positioning** — where you sit relative to the *actual* alternative the customer considers. For Stripe in 2010 that was not PayPal. It was writing your own payment integration, or not building the feature at all.",
+        "Positioning against the actual alternative produces a completely different strategy than positioning against a named competitor."
+      ]
+    },
+    {
+      "id": "S06", "section": "coherence",
+      "title": "Every adjacent pair has to answer to the next",
+      "lead": "Each component constrains the others. When they contradict, the brand is incoherent — and incoherent brands do not scale.",
+      "why": "chapter: \"Before you finalize, run the coherence check on every adjacent component pair\" — and names the pairs (Mission/UVP, Values/negative space, Archetype/voice, Positioning/UVP); fig-07 draws the seven components in a ring with the consistency question on each edge",
+      "archetype": "graph",
+      "duration": 9.0,
+      "data": {
+        "layout": "ring",
+        "nodes": [
+          { "id": "mis", "label": "Mission", "layer": 0 },
+          { "id": "vis", "label": "Vision", "layer": 0 },
+          { "id": "val", "label": "Values", "layer": 0 },
+          { "id": "uvp", "label": "UVP", "layer": 0 },
+          { "id": "arc", "label": "Archetype", "tone": "accent", "layer": 0 },
+          { "id": "voi", "label": "Voice", "layer": 0 },
+          { "id": "pos", "label": "Positioning", "layer": 0 }
+        ],
+        "edges": [
+          { "from": "mis", "to": "vis", "label": "defines its scope" },
+          { "from": "val", "to": "vis", "label": "what you won't do" },
+          { "from": "mis", "to": "uvp", "label": "does what the mission says?" },
+          { "from": "val", "to": "uvp" },
+          { "from": "arc", "to": "voi", "label": "sounds like this archetype?" },
+          { "from": "pos", "to": "arc", "label": "audience fits the role" },
+          { "from": "uvp", "to": "pos", "label": "beats the actual alternative?" }
+        ]
+      }
+    },
+    {
+      "id": "S07", "section": "why now and not later",
+      "title": "You decide before the pressure, or the pressure decides",
+      "lead": "Every startup makes brand decisions. Most make them reactively — and reactive decisions compound.",
+      "why": "chapter: \"The companies that navigate those moments well made the decisions *in advance*, when the reasoning was clear and the pressure was low\" — and names the moments; \"Someone reading your strategy in two years should be able to check whether you kept your commitments\"",
+      "archetype": "lockTimeline",
+      "duration": 8.5,
+      "data": {
+        "commit": { "at": 0.12, "label": "the one page, signed while pressure is low" },
+        "marks": [
+          { "at": 0.38, "label": "the first journalist asks" },
+          { "at": 0.58, "label": "the enterprise ask" },
+          { "at": 0.78, "label": "a competitor enters" }
+        ],
+        "resolve": { "at": 0.92, "label": "did the no-list hold?", "pending": true },
+        "axisLabel": "the strategy is written before the evidence arrives"
+      }
+    },
+    {
+      "id": "S08", "section": "the inversion test",
+      "title": "The pattern of refusals *is* the brand",
+      "lead": "Run the inversion on Stripe. Both columns are load-bearing — but only one of them is the part you can recognize.",
+      "why": "chapter runs an explicit sorting: \"Run the inversion test on Stripe. They declined enterprise sales processes... declined the broad small-business market... declined to compete with PayPal on consumer trust... declined rapid product proliferation... declined marketing-style content.\" fig-04 is literally built vs declined",
+      "archetype": "tallySplit",
+      "duration": 8.5,
+      "data": {
+        "left": { "label": "What they built", "pending": true },
+        "right": { "label": "What they declined", "pending": true },
+        "items": [
+          { "label": "seven-line integration", "side": "left" },
+          { "label": "documentation as product", "side": "left" },
+          { "label": "self-serve onboarding", "side": "left" },
+          { "label": "API uptime as trust", "side": "left" },
+          { "label": "enterprise sales motion", "side": "right" },
+          { "label": "broad small-business marketing", "side": "right" },
+          { "label": "the consumer-trust fight with PayPal", "side": "right" },
+          { "label": "rapid product proliferation", "side": "right" },
+          { "label": "competitor-bashing content", "side": "right" },
+          { "label": "we're-excited-to-announce posts", "side": "right" },
+          { "label": "your own build column", "side": "pending" },
+          { "label": "your own no-list", "side": "pending" }
+        ],
+        "note": "The chapter counts neither column. Any single refusal could be a one-time choice; the sustained pattern is the brand."
+      }
+    },
+    {
+      "id": "S09", "section": "negative space",
+      "title": "Four criteria, and most no-lists fail the first two",
+      "lead": "At least five entries. Each item has to survive all four tests — the chapter's own examples pass and fail in public.",
+      "why": "chapter names four criteria (Specific · Archetype-consistent · Costly · Testable over time) and applies them to named example items: the settings-panel item passes Specific, \"features that compromise simplicity\" is decorative, enterprise SSO against a six-figure contract is costly, \"a feature nobody asked for\" is not",
+      "archetype": "matrixGrid",
+      "duration": 9.0,
+      "data": {
+        "rows": [
+          { "label": "Specific" },
+          { "label": "Archetype-consistent" },
+          { "label": "Costly" },
+          { "label": "Testable in two years" }
+        ],
+        "cols": [
+          { "label": "settings panel · v1" },
+          { "label": "won't compromise simplicity" },
+          { "label": "no enterprise SSO" },
+          { "label": "feature nobody asked for" },
+          { "label": "your item" }
+        ],
+        "cells": [
+          ["hit", "miss", "hit", "pending", "pending"],
+          ["pending", "pending", "pending", "pending", "pending"],
+          ["pending", "pending", "hit", "miss", "pending"],
+          ["pending", "pending", "pending", "pending", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S10", "section": "the archetype, one level up",
+      "title": "Not your archetype. The one your audience needs.",
+      "lead": "In earlier chapters you named a personal archetype. Here the question changes shape.",
+      "bullets": [
+        "The question is not *what is my personal archetype?* It is: **what archetype does this product's audience need the company to be?**",
+        "A developer integrating payments needs a **Sage** — a company that knows the domain better than they do and shares it without condescension or sales pressure.",
+        "A first-time founder in a hostile regulatory environment needs a **Caregiver**. A challenger against an entrenched incumbent may need a **Rebel**.",
+        "Four questions to the audience: what do they *fear*, *want to achieve*, *distrust*, and *reward*? The reward structure points at the archetype."
+      ]
+    },
+    {
+      "id": "S11", "section": "the shadow",
+      "title": "Name the failure mode your strength produces",
+      "lead": "Every archetype has a shadow — the failure mode produced by taking its strength too far.",
+      "bullets": [
+        "The Sage's shadow is **dogmatism**: so committed to depth and rigor that the company goes rigid, iterates too slowly, or dismisses evidence that contradicts its model.",
+        "Stripe's API versioning policy — maintaining every version indefinitely rather than deprecating — is a rigor that is also a burden. **The shadow is the cost of the strength.**",
+        "Name your shadow in the document as a failure mode to *monitor*, not one you are already living in.",
+        "A Rebel founder can run a Caregiver company. The reverse — a Caregiver founder running a Rebel brand — is more common, and the brand drifts toward the founder's comfort rather than the audience's need."
+      ]
+    },
+    {
+      "id": "S12", "section": "naming",
+      "title": "Three tests, then the one the frameworks omit",
+      "lead": "A startup name is a load-bearing architectural decision. Changing it after market presence is expensive and disorienting.",
+      "why": "chapter: \"Three tests, applied before you commit\" — the bar test, the lawyer test, the domain test — \"Then add a fourth test that standard frameworks omit: archetype alignment... Eliminate candidates that fail archetype alignment regardless of their trademark status or domain availability.\" Every verdict depends on the reader's own name",
+      "archetype": "gatePipeline",
+      "duration": 8.5,
+      "data": {
+        "input": { "label": "a candidate name" },
+        "gates": [
+          { "label": "The bar test", "rule": "said once, in noise — spelled and recalled thirty seconds later", "pass": null },
+          { "label": "The lawyer test", "rule": "USPTO TESS, close phonetic variants, Class 42", "pass": null },
+          { "label": "The domain test", "rule": ".com available or acquirable at a price you can pay", "pass": null },
+          { "label": "Archetype alignment", "rule": "eliminates regardless of the other three", "pass": null }
+        ],
+        "output": { "label": "the name you commit to", "pending": true }
+      }
+    },
+    {
+      "id": "S13", "section": "names that fit",
+      "title": "A name that fights its archetype is fighting itself",
+      "lead": "*Stripe* fits the Sage: simple, precise, no emotional charge, no promise beyond what the product delivers. *BlazingFast* would start from a brand deficit with the audience it wants.",
+      "why": "chapter enumerates naming tendencies by archetype with named examples: \"Sage names... Stripe, Linear, Notion, Vercel, Supabase... Hero names... Salesforce, Crowdstrike, Cloudflare. Caregiver names... Calm, Headspace. Magician names... Palantir, Anthropic, OpenAI\" — a two-level taxonomy; fig-08 spans six archetypes, two of which the chapter gives no examples for",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "A NAME THAT FITS",
+        "centerShort": "NAME FIT",
+        "groups": [
+          {
+            "label": "Sage", "tone": "accent",
+            "children": [
+              { "label": "Stripe" }, { "label": "Linear" }, { "label": "Notion" },
+              { "label": "Vercel" }, { "label": "Supabase" }
+            ]
+          },
+          {
+            "label": "Hero", "tone": "ink",
+            "children": [{ "label": "Salesforce" }, { "label": "Crowdstrike" }, { "label": "Cloudflare" }]
+          },
+          {
+            "label": "Caregiver", "tone": "ink",
+            "children": [{ "label": "Calm" }, { "label": "Headspace" }]
+          },
+          {
+            "label": "Magician", "tone": "ink",
+            "children": [{ "label": "Palantir" }, { "label": "Anthropic" }, { "label": "OpenAI" }]
+          },
+          {
+            "label": "Rebel · Creator", "tone": "ink",
+            "children": [{ "label": "", "pending": true }, { "label": "", "pending": true }]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "the one page",
+      "title": "One page is a specification test, not a formatting preference",
+      "lead": "A brand strategy that runs to two pages has not been finished. It is still listing options rather than committing to positions.",
+      "why": "chapter: \"A brand strategy document that runs to two pages has not been finished... Every section must be compressed to its essential commitment, stripped of the explanatory prose that makes vagueness comfortable\" — an explicit boundary with named things that must not cross it",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "ONE PAGE" },
+        "inside": [
+          { "label": "mission · one sentence" },
+          { "label": "values · three to five" },
+          { "label": "voice · notes, not paragraphs" },
+          { "label": "negative space · five entries" }
+        ],
+        "attempts": [
+          { "label": "a second page", "blocked": true, "from": "left" },
+          { "label": "explanatory prose", "blocked": true, "from": "top" },
+          { "label": "options, not positions", "blocked": true, "from": "right" },
+          { "label": "the coherence check", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S15", "section": "the payoff",
+      "title": "Two identical products. One keeps a no-list.",
+      "lead": "A brand becomes legible when an audience can predict what a company will and will not do. Predictability is built by consistency. Consistency requires constraint.",
+      "why": "chapter's closing thought experiment is a literal divergence: \"Suppose two companies ship identical products in the same quarter. Company A has an explicit no-list maintained consistently. Company B has no no-list... A's customers know what they are buying. B's customers are confused... A's team knows what to build. B's team spends [time] in prioritization debates the no-list would have resolved\"",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "identical products, same quarter",
+        "splitLabel": "one of them keeps a no-list",
+        "tracks": [
+          {
+            "label": "Company A · maintains the list", "outcome": "a brand", "tone": "good", "path": "up",
+            "notes": ["customers know what they are buying", "the team knows what to build", "the debates were settled in advance"]
+          },
+          {
+            "label": "Company B · serves whoever asks", "outcome": "confusion", "tone": "warn", "path": "down",
+            "notes": ["every interaction might be the last", "builds what the loudest customer requests", "prioritization debates on repeat"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S16", "section": "what this deck will not tell you",
+      "title": "Every grey slot is a decision you still owe",
+      "lead": "Nothing on the preceding slides was filled in from a guess, and the chapter's own honesty note applies here too.",
+      "bullets": [
+        "Whether your name clears the bar, the lawyer, the domain, and the archetype — **TO RUN**. Whether your no-list items are costly and testable — **TO RUN**.",
+        "Stripe's success is over-determined. Payments in 2010 was structurally favorable to a developer-first entrant; brand discipline is not a complete causal explanation.",
+        "The defensible claim is narrower: brand discipline did not hurt, the mechanisms are internally coherent, and the compounding advantage of maintained coherence is visible in the case we can study.",
+        "The still-open question: at what stage does a strategy stop being a useful constraint and start preventing necessary adaptation?"
+      ]
+    },
+    {
+      "id": "S17", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Write the page. Then write the list of nos you will be held to.",
+      "lead": "Five items, each specific, archetype-consistent, costly, and checkable in two years. Show the list — and only the list — to someone who has not read your strategy, and ask them to name your archetype. If they guess right, it is working."
+    }
+  ]
+}

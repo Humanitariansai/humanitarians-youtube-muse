@@ -1,0 +1,75 @@
+<!--
+  Minimum viable interface — required vs. prohibited
+  Book: Branding and AI
+  Chapter: 23-shipit-interface-and-deployment
+  Figure: 05
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/23-shipit-interface-and-deployment-cajal.md
+-->
+<svg viewBox="0 0 700 454" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-23-05">
+  <title id="fig-title-23-05">Minimum viable interface — required vs. prohibited</title>
+  <desc>Three required interface components versus three prohibited ones, with the alignment audit as the gate between design and deploy.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="23-shipit-interface-and-deployment"
+      figure-number="05" figure-title="Minimum viable interface — required vs. prohibited"
+      figure-slug="minimum-viable-interface-required-prohibited" figure-type="comparison panels"
+      priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/23-shipit-interface-and-deployment-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Minimum viable interface — not minimum effort interface</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The smallest interface that accurately represents the tool: makes the right</text>
+  <text x="32" y="76" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">commitments, refuses the wrong ones.</text>
+
+  <!-- REQUIRED column -->
+  <rect x="32" y="80" width="306" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">REQUIRED</text>
+
+  <rect x="32" y="120" width="306" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="142" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Input affordance matches scope</text>
+  <text x="48" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">URL field if the system takes a URL —</text>
+  <text x="48" y="177" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">not a free-text prompt box.</text>
+
+  <rect x="32" y="190" width="306" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="212" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Visible processing state</text>
+  <text x="48" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A spinner or progress bar — a blank</text>
+  <text x="48" y="247" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">screen reads as "the tool is broken".</text>
+
+  <rect x="32" y="260" width="306" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="282" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Output represents confidence</text>
+  <text x="48" y="302" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Show the score; say "verify"; handle</text>
+  <text x="48" y="317" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"I don't know" gracefully.</text>
+
+  <!-- PROHIBITED column -->
+  <rect x="362" y="80" width="306" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="378" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">PROHIBITED</text>
+
+  <rect x="362" y="120" width="306" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="378" y="142" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Features the system can't support</text>
+  <text x="378" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Anything that looks good in the demo</text>
+  <text x="378" y="177" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">but fails on the first real user.</text>
+
+  <rect x="362" y="190" width="306" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="378" y="212" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Input types it can't handle</text>
+  <text x="378" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A free-text box over a system that</text>
+  <text x="378" y="247" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">only ingests one kind of resource.</text>
+
+  <rect x="362" y="260" width="306" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="378" y="282" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Capability claims it can't keep</text>
+  <text x="378" y="302" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"AI-powered", "any document" — copy</text>
+  <text x="378" y="317" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">that overstates what the system does.</text>
+
+  <!-- alignment audit gate — RED focal point -->
+  <defs><marker id="arrow2305" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#C8102E"/></marker></defs>
+  <rect x="32" y="344" width="500" height="58" fill="#F5F5F5" stroke="#C8102E" stroke-width="2"/>
+  <text x="282" y="362" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#C8102E">THE ALIGNMENT AUDIT — the gate between design and deploy</text>
+  <text x="282" y="380" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Every implicit promise checked against what the system can reliably keep,</text>
+  <text x="282" y="394" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">for the real population of users.</text>
+  <rect x="588" y="344" width="80" height="58" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="628" y="376" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">deploy</text>
+  <line x1="532" y1="366" x2="584" y2="366" stroke="#C8102E" stroke-width="1.5" fill="none" marker-end="url(#arrow2305)"/>
+
+  <text x="32" y="424" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 23, BUILDING THE INTERFACE</text>
+</svg>

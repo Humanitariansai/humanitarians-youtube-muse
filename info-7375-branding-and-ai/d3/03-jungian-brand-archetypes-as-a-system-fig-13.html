@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The three tests for committing to an archetype</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:260px; }
+.title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); }
+.panel-title { font-size:13px; font-weight:700; fill:var(--color-ink); } .q { font-size:11px; fill:var(--color-ink); } .fail { font-size:10px; fill:var(--color-secondary); }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const titleText="Run all three tests before you commit";
+const descText="The Authenticity Test: does it match how you behave when not performing? The Differentiation Test: does it set you apart in a crowded market? The Stress Test: does it survive ten-times growth and a stronger competitor?";
+const panels=[
+ {name:"Authenticity",icon:"mirror",q:["Does it match how","you behave when","not performing?"],fail:["Fails: a forced fit is","exhausting to hold."]},
+ {name:"Differentiation",icon:"compass",q:["Does it set you apart","in a crowded","market?"],fail:["Fails: another Sage","in a Sage market."]},
+ {name:"Stress",icon:"gauge",q:["Does it survive 10x","growth and a","stronger rival?"],fail:["Fails: breaks under","scale or competition."]}
+];
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,d){tooltip.html('<strong>'+d.name+' Test</strong><br>'+d.q.join(' ')).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function drawIcon(g,type,cx,cy){
+ if(type==='mirror'){ g.append('ellipse').attr('cx',cx).attr('cy',cy).attr('rx',18).attr('ry',24).attr('fill','var(--color-fill)').attr('stroke','var(--color-red)').attr('stroke-width',2); g.append('line').attr('x1',cx).attr('y1',cy+24).attr('x2',cx).attr('y2',cy+34).attr('stroke','var(--color-red)').attr('stroke-width',2); }
+ else if(type==='compass'){ g.append('circle').attr('cx',cx).attr('cy',cy).attr('r',22).attr('fill','var(--color-fill)').attr('stroke','var(--color-red)').attr('stroke-width',2); g.append('polygon').attr('points',(cx)+','+(cy-16)+' '+(cx+6)+','+cy+' '+cx+','+(cy+16)+' '+(cx-6)+','+cy).attr('fill','var(--color-red)'); }
+ else { g.append('path').attr('d','M '+(cx-22)+' '+cy+' A 22 22 0 0 1 '+(cx+22)+' '+cy).attr('fill','none').attr('stroke','var(--color-red)').attr('stroke-width',2); g.append('line').attr('x1',cx).attr('y1',cy).attr('x2',cx+15).attr('y2',cy-20).attr('stroke','var(--color-red)').attr('stroke-width',2); g.append('text').attr('x',cx).attr('y',cy+18).attr('text-anchor','middle').attr('font-size','11px').attr('fill','var(--color-secondary)').text('x10'); }
+}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,640);
+ const totalHeight=340;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text("An archetype that passes all three is the one to carry forward.");
+ const gap=18, left=24, top=78;
+ const pw=(totalWidth-left*2-gap*2)/3, ph=236;
+ const g=svg.selectAll('.panel').data(panels).join('g').attr('transform',(d,i)=>'translate('+(left+i*(pw+gap))+','+top+')')
+   .attr('tabindex',0).attr('aria-label',d=>d.name+' test: '+d.q.join(' '));
+ g.append('rect').attr('width',pw).attr('height',ph).attr('fill','var(--color-fill)').attr('stroke','var(--color-border)').attr('opacity',0).transition().duration(320).delay((d,i)=>i*60).attr('opacity',1);
+ g.each(function(d){ drawIcon(d3.select(this),d.icon,pw/2,52); });
+ g.append('text').attr('class','panel-title').attr('x',pw/2).attr('y',112).attr('text-anchor','middle').text(d=>d.name);
+ g.each(function(d){
+  const sel=d3.select(this);
+  d.q.forEach((line,i)=>sel.append('text').attr('class','q').attr('x',14).attr('y',140+i*17).text(line));
+  d.fail.forEach((line,i)=>sel.append('text').attr('class','fail').attr('x',14).attr('y',202+i*14).text(line));
+ });
+ g.append('rect').attr('width',pw).attr('height',ph).attr('fill','transparent')
+   .on('mouseover',(event,d)=>showTooltip(event,d)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

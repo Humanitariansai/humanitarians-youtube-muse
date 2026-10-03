@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autonomy/Orchestration Spectrum</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:260px; }
+.title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); }
+.end-title { font-size:11px; font-weight:700; fill:var(--color-ink); } .ex { font-size:10px; fill:var(--color-secondary); } .zone { font-size:10px; font-weight:700; fill:var(--color-red); }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const titleText="Autonomy/Orchestration Spectrum";
+const descText="A slider with the left end Human/Deterministic decides (rule-based pipeline, if/then logic) and the right end AI decides (autonomous agent, self-directed goals). The center is the Deliberate Design Zone. Neither end is wrong; the question is whether you chose on purpose.";
+const ends=[
+ {side:"left",title:["Human / Deterministic","decides"],ex:["rule-based pipeline","if / then logic"]},
+ {side:"right",title:["AI decides"],ex:["autonomous agent","self-directed goals"]}
+];
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,640);
+ const totalHeight=300;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text("Neither end is wrong. Choose on purpose, not by drift.");
+ const x0=72, x1=totalWidth-72, midY=150, mid=(x0+x1)/2;
+ // track
+ svg.append('line').attr('x1',x0).attr('x2',x1).attr('y1',midY).attr('y2',midY).attr('stroke','var(--color-border)').attr('stroke-width',6).attr('stroke-linecap','round').attr('aria-hidden','true');
+ // deliberate design zone
+ const zoneW=140;
+ const zone=svg.append('g').attr('tabindex',0).attr('aria-label','Deliberate Design Zone: choose here on purpose')
+   .on('mouseover',(event)=>showTooltip(event,'<strong>Deliberate Design Zone</strong><br>The point is to choose your position on purpose, not drift into it.')).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+ zone.append('rect').attr('x',mid-zoneW/2).attr('y',midY-50).attr('width',zoneW).attr('height',24).attr('fill','var(--color-fill)').attr('stroke','var(--color-red)');
+ zone.append('text').attr('class','zone').attr('x',mid).attr('y',midY-34).attr('text-anchor','middle').text("Deliberate Design Zone");
+ svg.append('text').attr('class','ex').attr('x',mid).attr('y',midY-58).attr('text-anchor','middle').attr('fill','var(--color-ink)').text("choose here, on purpose");
+ svg.append('line').attr('x1',mid).attr('y1',midY-26).attr('x2',mid).attr('y2',midY-12).attr('stroke','var(--color-red)').attr('stroke-width',1.2);
+ // handle
+ svg.append('circle').attr('cx',mid).attr('cy',midY).attr('r',0).attr('fill','var(--color-red)').transition().duration(320).attr('r',10);
+ // ends
+ ends.forEach(e=>{
+  const ex=e.side==='left'?x0:x1;
+  const g=svg.append('g').attr('tabindex',0).attr('aria-label',e.title.join(' ')+': '+e.ex.join(', '))
+    .on('mouseover',(event)=>showTooltip(event,'<strong>'+e.title.join(' ')+'</strong><br>'+e.ex.join('<br>'))).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+  g.append('line').attr('x1',ex).attr('x2',ex).attr('y1',midY-12).attr('y2',midY+12).attr('stroke','var(--color-ink)').attr('stroke-width',2);
+  e.title.forEach((t,i)=>g.append('text').attr('class','end-title').attr('x',ex).attr('y',midY+46+i*16).attr('text-anchor','middle').text(t));
+  e.ex.forEach((t,i)=>g.append('text').attr('class','ex').attr('x',ex).attr('y',midY+86+i*16).attr('text-anchor','middle').text(t));
+ });
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

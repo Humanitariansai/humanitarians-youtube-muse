@@ -1,0 +1,49 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-2-1 desc-2-1">
+<title id="title-2-1">Layered Madison architecture versus a single mega-agent</title>
+<desc id="desc-2-1">Five specialized agent layers (Intelligence, Content, Research, Experience, Performance) connect through a central orchestration node, with input/output flow between them, contrasted against one opaque mega-agent box. The layered design isolates failure and creates product surfaces; the mega-agent is a black box.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">Layered architecture versus a single mega-agent</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Named layers fail at known locations and create surfaces a customer can name; the mega-agent is opaque.</text>
+
+<!-- LEFT: layered design -->
+<text x="48" y="92" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#545454">LAYERED — five roles + orchestration</text>
+
+<!-- orchestration node, centered -->
+<rect x="178" y="200" width="120" height="48" fill="#C8102E" stroke="#2a1a0e" stroke-width="1"/>
+<text x="238" y="220" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#FFFFFF">Orchestration</text>
+<text x="238" y="235" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#FFFFFF">layer</text>
+
+<!-- five agent boxes around it -->
+<rect x="48" y="110" width="116" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="106" y="134" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">Intelligence</text>
+<rect x="48" y="168" width="116" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="106" y="192" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">Content</text>
+<rect x="48" y="226" width="116" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="106" y="250" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">Research</text>
+<rect x="48" y="284" width="116" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="106" y="308" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">Experience</text>
+<rect x="312" y="226" width="116" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="370" y="250" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">Performance</text>
+
+<!-- bidirectional connectors to orchestration -->
+<path d="M 164 130 L 196 200" stroke="#2a1a0e" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 164 188 L 178 210" stroke="#2a1a0e" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 164 246 L 178 232" stroke="#2a1a0e" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 164 304 L 196 248" stroke="#2a1a0e" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<path d="M 312 246 L 298 230" stroke="#2a1a0e" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+
+<!-- divider -->
+<line x1="468" y1="100" x2="468" y2="340" stroke="#D4D4D4" stroke-width="1"/>
+
+<!-- RIGHT: mega-agent -->
+<text x="496" y="92" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#545454">MEGA-AGENT — one box</text>
+<rect x="496" y="150" width="156" height="140" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+<text x="574" y="216" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" fill="#2a1a0e">Single model</text>
+<text x="574" y="234" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">(black box)</text>
+<text x="496" y="316" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">No surfaces. No fault location.</text>
+<text x="496" y="332" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Redundant context, blurred failure.</text>
+
+<line x1="48" y1="382" x2="652" y2="382" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="400" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 2.1</text>
+</svg>

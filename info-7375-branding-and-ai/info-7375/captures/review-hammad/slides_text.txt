@@ -1,0 +1,417 @@
+=== Slide 1 ===
+HR
+Hammad Rana
+Governance, Risk & Compliance  |  MSIS
+I help security-conscious organizations bridge the gap between IT operations and GRC — bringing 11 years of hands-on infrastructure experience and a graduate background in Information Systems to build compliance programs that hold up beyond the audit.
+Hammad Rana  ·  INFO 7375 — Branding & AI  ·  Northeastern University  ·  August 2026
+hammad-rana.vercel.app
+1 / 17
+
+=== Slide 2 ===
+HR
+HAMMAD RANA
+BRAND STRATEGY
+From generic to defensible: the UVP evolution
+ITERATION 1 — RAW FIRST PASS
+“I help companies with their cybersecurity and compliance needs using my IT and GRC experience.”
+Too broad, no differentiation — could describe anyone in the field.
+ITERATION 5 — FINAL (GUT-CHECK READY)
+“I help security-conscious organizations bridge the gap between IT operations and GRC — bringing 11 years of hands-on infrastructure experience and a graduate background in Information Systems to build compliance programs that hold up beyond the audit.”
+“Bridge the gap” is the real differentiator — most GRC candidates come from pure audit backgrounds, not live infrastructure.
+Hammad Rana
+2 / 17
+
+=== Slide 3 ===
+HR
+HAMMAD RANA
+BRAND STRATEGY
+Five brand pillars
+1
+Operational honesty
+Clear-eyed assessment of systems and risks over comfortable reassurance.
+2
+Rigor without rigidity
+Frameworks are tools, not religion — controls fit the organization.
+3
+Continuity of trust
+Reliability as a professional signature across every engagement.
+4
+Lifelong learning under pressure
+Pivoted from 11 years of IT ops into a graduate degree in Information Systems while building GRC pipelines.
+5
+Cross-cultural competence
+Security and risk look different depending on where you're standing.
+Hammad Rana
+3 / 17
+
+=== Slide 4 ===
+HR
+HAMMAD RANA
+BRAND STRATEGY
+Who I'm built for
+Every hiring manager is choosing between a candidate who talks about GRC and one who's shipped it.
+M
+The GRC Hiring Manager
+Mid-size org, 1–3 person GRC function
+BEFORE
+✕
+Candidates are auditors with no ops depth, or grads with only textbook knowledge
+✕
+Vendor-review backlog, 2 cycles behind
+✕
+“Can you use AI to scale this?” gets a vague answer
+WITH HAMMAD
+✓
+11 years of live infrastructure + graduate GRC training, in one candidate
+✓
+A working AI pipeline already deployed — SentinelGRC Ops
+✓
+Concrete automation for intake, control mapping, and ticket routing
+D
+The SOC / Security Team Lead
+Needs a bridge, not another pure analyst
+BEFORE
+✕
+Policies exist on paper but don't reflect how systems actually run
+✕
+Documentation looks good until a real auditor tests it
+✕
+AI-adoption talk with nothing shipped to show for it
+WITH HAMMAD
+✓
+Controls grounded in how the network actually behaves
+✓
+Audit-ready documentation across NIST, ISO 27001, SOC 2, HIPAA
+✓
+A live, working AI pipeline as proof — not a slide
+Hammad Rana
+4 / 17
+
+=== Slide 5 ===
+HR
+HAMMAD RANA
+BRAND STRATEGY
+Where I sit in the field
+Five GRC / SOC candidate portfolios, benchmarked against SentinelGRC Ops.
+Dimension
+Ledy Florez
+Suman Suresh
+Adharv KT
+Ayanloye O.
+Aswin Krishna
+Hammad (Sentinel)
+GRC framework depth
+High
+Medium
+Low
+Low
+Medium
+High
+IT ops foundation
+None
+Moderate
+Moderate
+Minimal
+Moderate
+11 years
+AI / automation
+None
+Research only
+None
+None
+None
+Core feature
+Multi-source ingestion
+None
+None
+None
+None
+None
+3 sources
+Audit-ready outputs
+Manual
+Manual
+Manual
+Manual
+Manual
+Automated
+Cross-framework mapping
+ISO only
+None
+None
+None
+None
+ISO/SOC2/NIST
+Hammad Rana
+5 / 17
+
+=== Slide 6 ===
+HR
+HAMMAD RANA
+BRAND STRATEGY
+The sweet spot no one else occupies
+GRC framework depth →
+IT operations depth →
+Ayanloye Olaitan
+Adharv KT
+Aswin Krishna
+Suman Suresh
+Ledy Florez
+Hammad — SentinelGRC
+No portfolio in the field combines graduate-level GRC depth with over a decade of live operational experience.
+Hammad Rana
+6 / 17
+
+=== Slide 7 ===
+HR
+HAMMAD RANA
+VISUAL IDENTITY
+The visual identity system
+LOGOTYPE
+HR
+Primary mark
+Hammad Rana
+Wordmark variation
+COLOR PALETTE
+Deep navy
+#1B2A4A
+Slate teal
+#3C6E71
+Muted gold
+#C9A24B
+Warm cream
+#F5F3EE
+TYPOGRAPHY
+Aa
+Georgia — headings
+Aa
+Arial — body copy
+Hammad Rana
+7 / 17
+
+=== Slide 8 ===
+HR
+HAMMAD RANA
+VISUAL IDENTITY
+The brand website — live
+hammad-rana.vercel.app
+Hammad Rana
+Governance, Risk & Compliance  |  Cybersecurity
+I help security-conscious organizations bridge the gap between IT operations and GRC — building compliance programs that hold up beyond the audit.
+View my work
+Get in touch
+SentinelGRC Ops
+Cloud Migration Risk Assessment
+HISN Digital
+Hammad Rana
+8 / 17
+
+=== Slide 9 ===
+HR
+HAMMAD RANA
+VISUAL IDENTITY
+Brand voice in the wild
+LINKEDIN — POST 1
+HR
+Hammad Rana
+GRC | MSIS
+New on The GRC Signal 📝
+
+For 11 years I was the person called when something broke. Invisible work, by design.
+
+Then I hit a ceiling — and realized the fix wasn't a new job title. It was going deeper into the same infrastructure, at a different layer: governance, risk, and compliance.
+
+Full story — link in bio.
+#GRC #MSIS #CareerPivot
+LINKEDIN — POST 2
+HR
+Hammad Rana
+GRC | MSIS
+Shipped: SentinelGRC Ops 🛡️
+
+An AI pipeline that maps live CISA security advisories directly to ISO 27001, SOC 2, and GDPR controls — the frameworks companies actually get audited against.
+
+467 records processed. 99.6% pass rate. Live on HuggingFace Spaces.
+
+Not a class project. A working answer to a real compliance problem.
+#GRC #AI #Compliance
+SUBSTACK — THE GRC SIGNAL
+THE GRC SIGNAL
+The Ceiling Wasn't the Problem —
+I Just Hadn't Found the Next Floor
+“If you've hit a ceiling in your own work, the fix usually isn't a new job. It's finding the layer beneath the one you've already mastered — and being loud enough that people notice.”
+539 words  ·  Published July 31, 2026
+hammadrana12.substack.com
+Hammad Rana
+9 / 17
+
+=== Slide 10 ===
+HR
+HAMMAD RANA
+BRAND STORYTELLING
+The Pivot
+Narrative framework: Voyage and Return
+1
+DEPARTURE
+Thrown into keeping 1,200+ endpoints and campus infrastructure running from day one in Kuwait.
+2
+THE ROUTINE
+A decade as the person organizations called when something broke — infrastructure, data, thousands of users.
+3
+THE RETURN
+Coming to Northeastern for his Master's wasn't a career change — it was the missing layer.
+4
+TRANSFORMED
+Now builds GRC programs that work, because he understands both sides of the wall.
+“Coming to Northeastern for my Master's wasn't a career change — it was the missing layer. Now I build GRC programs that work because I understand both sides of the wall.”
+Hammad Rana
+10 / 17
+
+=== Slide 11 ===
+HR
+HAMMAD RANA
+BRAND STORYTELLING
+The Comfort-Zone Lesson
+Narrative framework: Overcoming the Monster
+1
+THE MONSTER
+Not a bad boss or a system outage — his own comfort zone. Solid, invisible work, on repeat.
+2
+THE INVISIBLE YEARS
+Securing endpoints, running exam integrity for thousands of students — invisible because it worked.
+3
+THE REAL SHIFT
+Not technical — personal. Learning to speak up, share what he'd built, stop assuming good work speaks for itself.
+4
+NOW
+He writes. He publishes. He puts his name on projects like SentinelGRC Ops.
+“Working less and showing more beats the reverse.”
+Hammad Rana
+11 / 17
+
+=== Slide 12 ===
+HR
+HAMMAD RANA
+LIVE DEMO
+Watch 30 CISA advisories
+get mapped in under 600ms
+SentinelGRC Ops  ·  n8n + Groq AI (llama-3.1-8b-instant)  ·  live on HuggingFace Spaces
+huggingface.co/spaces/HammadRana1/sentinel-grc-ops
+01
+INGEST
+Pull the live CISA advisory feed, 30 records at a time
+02
+ANALYZE
+LLM maps each finding to ISO 27001 / SOC 2 / GDPR, with reasoning
+03
+ROUTE
+Write the Jira ticket and Slack notification, routed by data sensitivity
+Hammad Rana
+12 / 17
+
+=== Slide 13 ===
+HR
+HAMMAD RANA
+MADISON AI TOOL
+SentinelGRC Ops
+AI-powered GRC intelligence pipeline
+THE PROBLEM
+GRC analysts spend 2–3 hours a week manually mapping CVEs and vendor questionnaires to compliance controls — repetitive, expensive, and error-prone.
+THE SOLUTION
+An n8n pipeline that ingests live CISA advisories and vendor data, maps findings to ISO 27001 / SOC 2 / GDPR with an LLM, and writes audit-ready Jira tickets automatically.
+3
+data sources ingested
+99.6%
+pipeline pass rate
+<600ms
+processing time
+$0.00
+cost per demo run
+Hammad Rana
+13 / 17
+
+=== Slide 14 ===
+HR
+HAMMAD RANA
+MADISON AI TOOL
+How it works — a three-agent pipeline
+Coordinated by n8n. Every agent boundary is a typed JSON contract — malformed payloads fail loudly, never silently.
+01
+Intake intelligence
+Normalizes the vendor questionnaire into a single JSON envelope
+02
+Control mapping
+LLM maps each response to ISO 27001 / SOC 2 / GDPR, with a confidence score
+03
+Memo & ticket content
+Writes the Sheets register row and the routed Jira ticket payload
+04
+Performance analytics
+Phase 2 — reads the register and drives a weekly intake dashboard
+MVP scope (Week 3): agents 01–03, one n8n workflow, 6 nodes, 7–14 build hours.
+Hammad Rana
+14 / 17
+
+=== Slide 15 ===
+HR
+HAMMAD RANA
+MADISON AI TOOL
+Live demo — real CISA advisories, mapped
+10 advisories processed end-to-end · llama-3.1-8b-instant via Groq · <600ms total
+Siemens
+HIGH
+CVE-2026-1041
+CONTROL MAPPING
+ISO 27001 A.12.6.1 · SOC 2 CC7.1
+RECOMMENDED ACTION
+Apply V1.0 SP2 Update 3 patch immediately
+Palo Alto
+MEDIUM
+CVE-2026-0257
+CONTROL MAPPING
+ISO 27001 A.12.6.1 · GDPR Art. 32
+RECOMMENDED ACTION
+Patch PAN-OS authentication bypass
+Fourth Frontier
+CRITICAL
+CVE-2026-2203
+CONTROL MAPPING
+ISO 27001 A.12.6.2 · HIPAA §164.312
+RECOMMENDED ACTION
+Update mobile app to prevent unauthorized patient-data access
+Hammad Rana
+15 / 17
+
+=== Slide 16 ===
+HR
+HAMMAD RANA
+MADISON AI TOOL
+Why it matters
+WITHOUT SENTINELGRC OPS
+WITH SENTINELGRC OPS
+Manual review of CISA feed daily
+Automated — 30 advisories processed in under 600ms
+Manually mapping each CVE to controls
+AI maps controls automatically, with reasoning
+Remediation notes written by hand
+Specific action items generated per advisory
+2–3 hours of analyst time per week
+Under 1 minute, on demand or scheduled
+Estimated ROI: $450–675/month in saved analyst labor, for a tool that costs $0.07/month to run at team scale.
+Hammad Rana
+16 / 17
+
+=== Slide 17 ===
+HR
+Thank you.
+Let's talk GRC, security, or where the two meet.
+PORTFOLIO
+hammad-rana.vercel.app
+LINKEDIN
+/in/hammad-rana-a5b181177
+SUBSTACK
+hammadrana12.substack.com
+LIVE DEMO
+huggingface.co/spaces/HammadRana1/sentinel-grc-ops
+Hammad Rana  ·  INFO 7375 — Branding & AI  ·  Northeastern University  ·  August 2026
+17 / 17

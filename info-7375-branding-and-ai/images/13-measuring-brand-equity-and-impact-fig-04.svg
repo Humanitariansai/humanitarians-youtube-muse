@@ -1,0 +1,87 @@
+<!--
+  The attribution problem: observed vs. unobserved touchpoints
+  Book: Branding and AI
+  Chapter: 13-measuring-brand-equity-and-impact
+  Figure: 04
+  Type: annotated timeline
+  Generated: 2026-06-18
+  Source: pantry/13-measuring-brand-equity-and-impact-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-13-04">
+  <title id="fig-title-13-04">The attribution problem: observed vs. unobserved touchpoints</title>
+  <desc>A customer-journey timeline ending in a conversion. Observable touchpoints that attribution models can see — ad click, website visit, email open — sit on the line; unobservable touchpoints — billboard, friend's recommendation, a review read months earlier — sit below as ghosts. Multi-touch attribution assigns all credit within the observed portion only.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="13-measuring-brand-equity-and-impact" figure-number="04"
+      figure-title="The attribution problem: observed vs. unobserved touchpoints"
+      figure-slug="attribution-observed-unobserved"
+      figure-type="annotated timeline" priority="Critical"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/13-measuring-brand-equity-and-impact-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow-13-04" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">When a metric moves, did your work cause it?</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Attribution models can only credit what they can see —</text>
+  <text x="32" y="70" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">and most brand-building happens where they cannot.</text>
+
+  <!-- OBSERVED band label -->
+  <text x="32" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">OBSERVED — what attribution models can see</text>
+
+  <!-- journey line -->
+  <line x1="60" y1="140" x2="600" y2="140" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-13-04)"/>
+
+  <!-- observed touchpoints (solid ink nodes on the line) -->
+  <rect x="90"  y="128" width="12" height="24" fill="#121212"/>
+  <text x="96"  y="118" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">ad click</text>
+  <rect x="250" y="128" width="12" height="24" fill="#121212"/>
+  <text x="256" y="118" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">website visit</text>
+  <rect x="410" y="128" width="12" height="24" fill="#121212"/>
+  <text x="416" y="118" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">email open</text>
+
+  <!-- CONVERSION endpoint — RED focal mark (the one event the reader is tempted to over-attribute) -->
+  <rect x="530" y="118" width="130" height="44" fill="#C8102E" stroke="#121212" stroke-width="1"/>
+  <text x="595" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">CONVERSION</text>
+  <text x="595" y="154" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#FFFFFF">credit assigned here</text>
+
+  <!-- the credit-assignment brace over observed portion -->
+  <line x1="60"  y1="178" x2="534" y2="178" stroke="#545454" stroke-width="1"/>
+  <line x1="60"  y1="172" x2="60"  y2="184" stroke="#545454" stroke-width="1"/>
+  <line x1="534" y1="172" x2="534" y2="184" stroke="#545454" stroke-width="1"/>
+  <text x="297" y="196" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">multi-touch attribution assigns 100% of credit across only these tracked touchpoints</text>
+
+  <!-- divider -->
+  <line x1="32" y1="218" x2="668" y2="218" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- UNOBSERVED band label -->
+  <text x="32" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">UNOBSERVED — invisible to the attribution model</text>
+
+  <!-- unobserved touchpoints (dashed grey ghost nodes below) -->
+  <rect x="120" y="270" width="120" height="40" fill="#F5F5F5" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="180" y="288" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">billboard seen</text>
+  <text x="180" y="302" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">on a commute</text>
+
+  <rect x="290" y="270" width="120" height="40" fill="#F5F5F5" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="350" y="288" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">friend's</text>
+  <text x="350" y="302" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">recommendation</text>
+
+  <rect x="460" y="270" width="120" height="40" fill="#F5F5F5" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="520" y="288" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">review read</text>
+  <text x="520" y="302" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">months earlier</text>
+
+  <!-- the invisible-portion brace -->
+  <line x1="120" y1="326" x2="580" y2="326" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="120" y1="320" x2="120" y2="332" stroke="#ADADAD" stroke-width="1"/>
+  <line x1="580" y1="320" x2="580" y2="332" stroke="#ADADAD" stroke-width="1"/>
+  <text x="350" y="346" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">where the most significant brand-building lives — and gets zero credit</text>
+
+  <text x="32" y="392" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A number that moved is evidence something changed — not, by itself, evidence</text>
+  <text x="32" y="408" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">your work caused it. The causal leap is where the judgment lives.</text>
+  <text x="32" y="424" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">MMM works at the aggregate level to recover these touchpoints; a brand-lift study</text>
+  <text x="32" y="440" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">with a control group is cleaner still.</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-10-7 desc-10-7">
+<title id="title-10-7">The three storytelling frameworks as telescoping rings</title>
+<desc id="desc-10-7">A nested-layer diagram of the three frameworks as concentric rings: the outermost ring is Campbell, universal cross-cultural story architecture; the middle ring is Booker, the seven basic plot shapes; the innermost ring is Miller, the brand application of customer-as-hero and brand-as-guide. At the center, Archetype is shown as the filter that determines which of Booker's plots are available to a given brand. The frameworks telescope by level of specificity, they do not compete.</desc>
+<rect width="700" height="480" fill="#FFFFFF"/>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#2a1a0e">The three storytelling frameworks as telescoping rings</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Each ring operates at a different level of specificity — not competitors, levels of analysis.</text>
+
+<!-- concentric rings, center ~ (300, 270) -->
+<circle cx="300" cy="270" r="160" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+<circle cx="300" cy="270" r="116" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+<circle cx="300" cy="270" r="72" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+<circle cx="300" cy="270" r="30" fill="#C8102E"/>
+
+<!-- ring labels -->
+<text x="300" y="130" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">Campbell</text>
+<text x="300" y="146" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">universal architecture</text>
+
+<text x="300" y="174" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">Booker</text>
+<text x="300" y="190" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">seven basic plots</text>
+
+<text x="300" y="218" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">Miller</text>
+<text x="300" y="234" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">customer-as-hero</text>
+
+<text x="300" y="268" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#FFFFFF">Arche-</text>
+<text x="300" y="280" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#FFFFFF">type</text>
+
+<!-- right-side gloss callouts -->
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9.5" fill="#545454">
+<line x1="460" y1="138" x2="528" y2="138" stroke="#D4D4D4" stroke-width="1"/>
+<text x="534" y="130" font-weight="bold" fill="#2a1a0e" font-size="10.5">Campbell (1949)</text>
+<text x="534" y="146"><tspan x="534" dy="0">Deep architecture that recurs</tspan><tspan x="534" dy="12">across cultures.</tspan></text>
+
+<line x1="416" y1="210" x2="528" y2="210" stroke="#D4D4D4" stroke-width="1"/>
+<text x="534" y="202" font-weight="bold" fill="#2a1a0e" font-size="10.5">Booker (2004)</text>
+<text x="534" y="218"><tspan x="534" dy="0">The plot shapes available</tspan><tspan x="534" dy="12">and what each does.</tspan></text>
+
+<line x1="372" y1="282" x2="528" y2="282" stroke="#D4D4D4" stroke-width="1"/>
+<text x="534" y="274" font-weight="bold" fill="#2a1a0e" font-size="10.5">Miller (2017)</text>
+<text x="534" y="290"><tspan x="534" dy="0">Brand application: customer</tspan><tspan x="534" dy="12">is hero, brand is guide.</tspan></text>
+
+<line x1="330" y1="270" x2="528" y2="354" stroke="#C8102E" stroke-width="1"/>
+<text x="534" y="350" font-weight="bold" fill="#C8102E" font-size="10.5">Archetype — the filter</text>
+<text x="534" y="366"><tspan x="534" dy="0">Determines which of Booker's</tspan><tspan x="534" dy="12">plots a brand can credibly tell.</tspan></text>
+</g>
+
+<line x1="48" y1="442" x2="652" y2="442" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="460" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 10.7</text>
+</svg>

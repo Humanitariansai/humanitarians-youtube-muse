@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compounding error over agent steps</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:240px; }
+.title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); }
+.tick-label { font-family:'IBM Plex Mono','JetBrains Mono',monospace; font-size:10px; fill:var(--color-secondary); } .axis-title { font-size:11px; fill:var(--color-secondary); } .legend { font-size:10px; fill:var(--color-ink); }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const titleText="Compounding error over agent steps";
+const descText="Probability of an error-free result as step count rises, for a 10 percent per-step error rate (0.9 to the n) and a 5 percent rate (0.95 to the n). A 10 percent rate is near-certain failure by 40 steps.";
+const steps=d3.range(0,41);
+const series=[
+ {key:"10% per-step error",rate:0.10,color:"var(--color-red)",width:2.5,marks:[10,20,40]},
+ {key:"5% per-step error",rate:0.05,color:"var(--color-ink)",width:2,marks:[10,20,40]}
+];
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,640);
+ const totalHeight=420;
+ const margin={top:80,right:48,bottom:56,left:64};
+ const chartWidth=totalWidth-margin.left-margin.right;
+ const chartHeight=totalHeight-margin.top-margin.bottom;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text("Even modest per-step error rates make long autonomous chains near-certain to fail.");
+ const gChart=svg.append('g').attr('transform','translate('+margin.left+','+margin.top+')');
+ gChart.append('rect').attr('width',chartWidth).attr('height',chartHeight).attr('fill','var(--color-fill)').attr('stroke','var(--color-border)').attr('stroke-width',0.75);
+ const x=d3.scaleLinear().domain([0,40]).range([0,chartWidth]);
+ const y=d3.scaleLinear().domain([0,1]).range([chartHeight,0]);
+ // gridlines + axes
+ const yTicks=[0,0.25,0.5,0.75,1];
+ gChart.selectAll('.gl').data(yTicks).join('line').attr('x1',0).attr('x2',chartWidth).attr('y1',d=>y(d)).attr('y2',d=>y(d)).attr('stroke','var(--color-border)').attr('stroke-dasharray','2 4').attr('aria-hidden','true');
+ gChart.selectAll('.yl').data(yTicks).join('text').attr('class','tick-label').attr('x',-10).attr('y',d=>y(d)+3).attr('text-anchor','end').text(d=>d3.format('.0%')(d));
+ [0,10,20,30,40].forEach(t=>gChart.append('text').attr('class','tick-label').attr('x',x(t)).attr('y',chartHeight+18).attr('text-anchor','middle').text(t));
+ gChart.append('text').attr('class','axis-title').attr('x',chartWidth/2).attr('y',chartHeight+42).attr('text-anchor','middle').text("Number of agent steps");
+ const line=d3.line().x(d=>x(d.n)).y(d=>y(d.p));
+ series.forEach((s,si)=>{
+  const data=steps.map(n=>({n,p:Math.pow(1-s.rate,n)}));
+  const path=gChart.append('path').datum(data).attr('fill','none').attr('stroke',s.color).attr('stroke-width',s.width).attr('d',line)
+    .attr('tabindex',0).attr('aria-label',s.key);
+  const len=path.node().getTotalLength();
+  path.attr('stroke-dasharray',len+' '+len).attr('stroke-dashoffset',len).transition().duration(320).attr('stroke-dashoffset',0);
+  // annotated marks
+  s.marks.forEach(m=>{
+   const p=Math.pow(1-s.rate,m);
+   gChart.append('circle').attr('cx',x(m)).attr('cy',y(p)).attr('r',3.5).attr('fill',s.color)
+     .attr('tabindex',0).attr('aria-label',s.key+' at '+m+' steps: '+d3.format('.1%')(p))
+     .on('mouseover',(event)=>showTooltip(event,'<strong>'+s.key+'</strong><br>'+m+' steps: '+d3.format('.1%')(p)+' error-free')).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+   gChart.append('text').attr('class','tick-label').attr('x',x(m)+(m===40?-6:7)).attr('y',y(p)-6).attr('text-anchor',m===40?'end':'start').attr('fill',s.color).text(d3.format('.1%')(p));
+  });
+ });
+ // legend
+ series.forEach((s,i)=>{
+  gChart.append('line').attr('x1',chartWidth-150).attr('x2',chartWidth-126).attr('y1',20+i*18).attr('y2',20+i*18).attr('stroke',s.color).attr('stroke-width',s.width);
+  gChart.append('text').attr('class','legend').attr('x',chartWidth-120).attr('y',24+i*18).text(s.key);
+ });
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

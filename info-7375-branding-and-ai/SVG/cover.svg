@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2560" width="1600" height="2560" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <g id="background"><rect x="0" y="0" width="1600" height="2560" fill="#1B6B5A"/></g>
+  <g id="symbol-fragments" transform="rotate(-10, 800, 830)">
+    <polygon points="1165,742 1120,987 693,1019 495,941 328,703 583,544 860,488 1165,562" fill="#F5F0E8"/>
+    <polygon points="526,827 528,689 684,584 904,550 1017,678 1070,806 957,888 725,878" fill="#1B6B5A"/>
+    <polygon points="772,917 698,823 634,751 668,643 815,620 938,664 1048,765 961,823" fill="#F5F0E8"/>
+    <polygon points="734,829 660,792 671,718 734,646 863,653 913,701 916,760 852,841" fill="#1B6B5A"/>
+    <polygon points="663,752 710,701 787,672 844,755 793,812 718,825" fill="#F5C518"/>
+  </g>
+  <g id="title-letterforms">
+    <text x="120" y="1510" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#F5F0E8" textLength="1300" lengthAdjust="spacingAndGlyphs">BRANDING</text>
+    <text x="120" y="1768" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#F5C518" textLength="1300" lengthAdjust="spacingAndGlyphs">AND AI</text>
+  </g>
+</svg>

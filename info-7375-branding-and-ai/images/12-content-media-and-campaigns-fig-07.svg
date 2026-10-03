@@ -1,0 +1,52 @@
+<!--
+  The AI+1 split: volume vs. judgment
+  Book: Branding and AI
+  Chapter: 12-content-media-and-campaigns
+  Figure: 07
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/12-content-media-and-campaigns-cajal.md
+-->
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-12-07">
+  <title id="fig-title-12-07">The AI-plus-one split: volume versus judgment</title>
+  <desc>Madison drafts the brief structure and four content pieces with every factual claim auto-tagged for verification — volume and structure. The human supplies the plus-one: tone, accuracy, fairness, and whether the client would recognize their own story — truth and voice.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="12-content-media-and-campaigns" figure-number="07"
+      figure-title="The AI+1 split: volume vs. judgment"
+      figure-slug="ai-plus-one-volume-vs-judgment"
+      figure-type="comparison panels" priority="Supplementary"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/12-content-media-and-campaigns-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="400" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The AI+1 split: the AI produced the volume, the human produced the truth</text>
+
+  <line x1="350" y1="64" x2="350" y2="368" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- LEFT: AI -->
+  <rect x="32" y="64" width="290" height="304" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="56" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">AI: volume + structure</text>
+  <text x="56" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Madison as the drafting engine</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <rect x="56" y="126" width="242" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="68" y="148">the brief structure</text>
+    <rect x="56" y="170" width="242" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="68" y="192">long-form owned piece draft</text>
+    <rect x="56" y="214" width="242" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="68" y="236">LinkedIn thread + ad variant</text>
+    <rect x="56" y="258" width="242" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="68" y="280">newsletter pitch email</text>
+  </g>
+  <text x="56" y="318" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Every factual claim auto-tagged</text>
+  <text x="56" y="334" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">[VERIFY]</text>
+
+  <!-- RIGHT: Human +1 -->
+  <rect x="378" y="64" width="290" height="304" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="402" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Human +1: truth + voice</text>
+  <text x="402" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the judgment AI cannot produce</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <rect x="402" y="126" width="242" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/><text x="414" y="148">the tone is authentic</text>
+    <rect x="402" y="170" width="242" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/><text x="414" y="192">the technical claim is accurate</text>
+    <rect x="402" y="214" width="242" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/><text x="414" y="236">the comparison is fair</text>
+    <rect x="402" y="258" width="242" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/><text x="414" y="280">the client recognizes their story</text>
+  </g>
+  <text x="402" y="326" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Nothing ships until every tag is cleared.</text>
+</svg>

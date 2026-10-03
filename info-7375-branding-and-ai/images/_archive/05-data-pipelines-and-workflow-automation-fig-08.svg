@@ -1,0 +1,45 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="480" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">The n8n node editor — anatomy of a workflow surface</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Four things to recognize before you install: the node panel, a node, a connection, and the description field.</text>
+<rect x="56" y="80" width="588" height="320" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<rect x="72" y="96" width="120" height="288" fill="#fdfcfb" stroke="#8a8480" stroke-width="0.75"/>
+<text x="80" y="114" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">NODES</text>
+<text x="80" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">HTTP Request</text>
+<text x="80" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">Code</text>
+<text x="80" y="184" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">Schedule</text>
+<text x="80" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">OpenAI</text>
+<text x="80" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">Google Sheets</text>
+<text x="80" y="256" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">Webhook</text>
+<text x="80" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">If / Switch</text>
+<text x="80" y="304" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">Set</text>
+<rect x="248" y="188" width="116" height="56" fill="#fdfcfb" stroke="#1a1714" stroke-width="1"/>
+<text x="306" y="210" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">HTTP Request</text>
+<text x="306" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">GET RSS feed</text>
+<circle cx="248" cy="216" r="3" fill="#1a1714"/>
+<circle cx="364" cy="216" r="3" fill="#1a1714"/>
+<rect x="432" y="188" width="116" height="56" fill="#fdfcfb" stroke="#1a1714" stroke-width="1"/>
+<text x="490" y="210" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">Code</text>
+<text x="490" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Transform</text>
+<circle cx="432" cy="216" r="3" fill="#1a1714"/>
+<circle cx="548" cy="216" r="3" fill="#1a1714"/>
+<path d="M364 216 L432 216" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="248" y="280" width="300" height="100" fill="#fdfcfb" stroke="#8a8480" stroke-width="0.75"/>
+<text x="256" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">NODE DESCRIPTION</text>
+<text x="256" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">Hacker News RSS — no auth required.</text>
+<text x="256" y="334" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">No documented rate limit. Stable Atom</text>
+<text x="256" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">format since 2006. Risk: low.</text>
+<text x="78" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#1a1714">(1)</text>
+<text x="236" y="184" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#1a1714">(2)</text>
+<text x="398.0" y="210" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#1a1714" text-anchor="middle">(3)</text>
+<text x="236" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#1a1714">(4)</text>
+<text x="60" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">(1) Node panel — available node types</text>
+<text x="60" y="434" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">(2) Node on canvas — labeled input / output ports</text>
+<text x="60" y="448" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">(3) Connection — data flows here</text>
+<text x="60" y="462" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">(4) Description field — where contracts are documented</text>
+</svg>

@@ -1,0 +1,43 @@
+<!--
+  A brand is an asset: three behavioral signals
+  Book: Branding and AI
+  Chapter: 02-what-a-brand-is-equity
+  Figure: 01
+  Type: systems diagram
+  Generated: 2026-06-18
+  Source: pantry/02-what-a-brand-is-equity-cajal.md
+-->
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02-01">
+  <title id="fig-title-02-01">A brand is an asset: three behavioral signals</title>
+  <desc>Three mechanisms — price premium, retention, and forgiveness — feed a single brand asset that produces future cash flow.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="360" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Why a brand is an asset, not a decoration</text>
+
+  <!-- three mechanism cells -->
+  <rect x="40" y="72" width="280" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="98" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Price premium</text>
+  <text x="56" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">buyers pay more for the branded product</text>
+
+  <rect x="40" y="152" width="280" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Retention</text>
+  <text x="56" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">they return without being re-acquired</text>
+
+  <rect x="40" y="232" width="280" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="258" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Forgiveness</text>
+  <text x="56" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">benefit of the doubt when something breaks</text>
+
+  <!-- asset node -->
+  <rect x="460" y="138" width="220" height="92" fill="#FFFFFF" stroke="#121212" stroke-width="1.25"/>
+  <text x="570" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212" text-anchor="middle">Brand asset</text>
+  <text x="570" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">produces future cash flow</text>
+
+  <!-- arrows -->
+  <line x1="322" y1="104" x2="456" y2="160" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="322" y1="184" x2="456" y2="184" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="322" y1="264" x2="456" y2="208" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <text x="32" y="330" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">None of this comes from a logo — it comes from accumulated expectations living in specific minds.</text>
+</svg>

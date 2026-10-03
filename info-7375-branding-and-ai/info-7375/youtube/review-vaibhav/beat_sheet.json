@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "slug": "review-vaibhav",
+    "title": "INFO 7375 — Project Review: Vaibhav",
+    "topic": "INFO 7375 · PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 450,
+    "build": {
+      "at": "2026-08-17T00:13:01",
+      "cut": "master",
+      "filled": 10,
+      "of": 13,
+      "slates": [
+        "B02",
+        "B04",
+        "B05"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Hey Claude — I just read Vaibhav's final brand portfolio for INFO 7375. Path A personal brand. The argument: 3.9 million NPM downloads, 63,000 weekly downloads on Nightwatch, and a prototype called Olembic that turns 300 mentions into 5 ranked signals for open-source maintainers. What does the work tell us?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · PROJECT REVIEW",
+            "segment": "Vaibhav",
+            "command": "I just read Vaibhav's final brand portfolio. Path A personal brand — 3.9M NPM downloads, Olembic triage prototype. Shipping developer tools engineers actually adopt. What does the work tell us?",
+            "runningText": "reviewing the submission...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 20.89,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:13:01"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "SETUP",
+      "role_note": "The brief — Path A personal brand.",
+      "narration_text": "Path A required a complete personal brand system — UVP, pillars, target audience, visual identity, storytelling, and a working tool demonstration. Vaibhav submitted 15 slides covering all five. The brand positioning is a developer tools engineer with verifiable public numbers. The prototype is Olembic — a triage tool for open-source maintainers, running on a local machine at submission time.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Path A — All Elements Present",
+            "body": "Brand strategy, identity, storytelling, live website, and Olembic prototype — all five deliverables present. Numbers are verifiable: NPM download counts are public. Prototype is working on local machine.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 21.57,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:13:01"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 1 — The proof is public and verifiable.",
+      "narration_text": "The numbers on slide five are the submission's strongest move. 3.9 million NPM downloads on Random Word, 63,000 weekly downloads on Nightwatch Reporter, 500,000 users with zero downtime through a Kubernetes migration. These are verifiable without taking his word for it. No adjectives required — the slide says so explicitly, and that restraint is itself a brand signal.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B02.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.4
+          ]
+        }
+      },
+      "actual_duration_s": 23.7,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:13:01",
+        "needs": "YOU → drop a historical image at media/B02.png (or .mp4)",
+        "suggested": "find: The numbers on slide five are the submission's strongest move. 3.9 million NPM downloads on Random Word, 63,000 weekly downloads on Nightwatch Reporter, 500,000"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 2 — The four-signal framework is the right product concept.",
+      "narration_text": "The 4-Signal Framework classifies mentions into Signal — act now, reproducible bug — Silence — ignore, praise that predicts nothing — Surface — consider, repeated docs-gap question — and Subscribe — watch, adjacent tool that might shift ecosystem gravity. That's a real classification system with real criteria. It's prescriptive rather than descriptive, which is exactly the gap the brand claims to fill.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Olembic pipeline",
+            "body": "Business question → knowledge graph query → LLM synthesis → cited answer. The graph is the memory layer; the LLM is the reasoning layer.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B03.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 21.87,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B03.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:13:01"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 3 — The brand voice is distinctive and consistent.",
+      "narration_text": "The brand voice is the same across LinkedIn, Substack, and GitHub. Same period. Same restraint. Same measured-not-claimed register. The LinkedIn post calls out the category error directly: every monitoring tool optimizes for coverage, and coverage is the wrong problem. That's not promotional copy — that's a position. It's the hardest thing to get right in a personal brand.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B04.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 20.27,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:13:01",
+        "needs": "YOU → drop a historical image at media/B04.png (or .mp4)",
+        "suggested": "find: The brand voice is the same across LinkedIn, Substack, and GitHub. Same period. Same restraint. Same measured-not-claimed register. The LinkedIn post calls out "
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "BRAND SYSTEM",
+      "role_note": "Visual identity — Ink, Paper, Vermillion, the signal color.",
+      "narration_text": "Ink for dark surfaces and text, Paper for backgrounds, Vermillion as the signal color reserved for the classified SIGNAL tier, Stone for muted text. Fraunces display serif for ideas, Inter for work, JetBrains Mono for code. A serif for the idea, a sans for the work, monospace for the code — that rationale is stated in the deck and it's right.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 17.5,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B05.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 19.48,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-17T00:13:01",
+        "needs": "YOU → drop a historical image at media/B05.png (or .mp4)",
+        "suggested": "find: Ink for dark surfaces and text, Paper for backgrounds, Vermillion as the signal color reserved for the classified SIGNAL tier, Stone for muted text. Fraunces di"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "BRAND SYSTEM",
+      "role_note": "Three surfaces, same grammar — website, LinkedIn, Substack.",
+      "narration_text": "The deck shows how each channel has a different job: the website announces a positioning claim, LinkedIn announces a person, Substack announces a body of work. Same palette, same typefaces, same mark, different jobs. That channel architecture is sophisticated for a student brand system — it shows an understanding of distribution, not just design.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 17.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Channel Architecture",
+            "body": "Website: positioning claim. LinkedIn: person. Substack: body of work. Same system, three different jobs. That's distribution thinking embedded in the brand design.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.75,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:13:01"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 1 — The prototype is local, not deployed.",
+      "narration_text": "Olembic is described as a prototype, running on a local machine, with the bandit reweighting working. The deck includes a backup plan if the prototype breaks live — screenshots are ready in a backup tab. For a Path A submission, the tool requirement can be met by a compelling prototype. But a deployed demo URL would make the claim substantive in a way a local run cannot.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Prototype vs. Deployed",
+            "body": "Olembic runs locally. The backup plan for a live demo is screenshots. A deployed URL — even a Hugging Face space — would move the claim from 'I built this' to 'you can test this.' That gap matters for the brand promise.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.65,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:13:01"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 2 — The ICP is broad — three concentric rings, but the brand feels like it's for one.",
+      "narration_text": "The audience is three concentric rings: hiring managers at developer-tools companies, engineering recruiters, and startup CTOs. All three ask the same question — has this person shipped something people actually use? That's correct. But the Olembic product targets open-source maintainers, who aren't in the three rings. There's a useful tension there that the submission doesn't address.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Positioning matrix",
+            "body": "General AI tools vs. business intelligence tools. Olembic claims the high-accuracy, structured-reasoning quadrant that Perplexity and Notion AI do not occupy.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.73,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:13:01"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 3 — The five brand values need one sentence of evidence each.",
+      "narration_text": "Five values: measured, shipped, depth, open, honest. These are well-chosen and consistent with the voice. But the deck lists them without evidence. Measured: the log of which signals mattered is mentioned in the origin story but not linked to the value. Shipped: 3.9 million downloads is the evidence but it's never named as such. Map each value to one concrete proof point and the system closes.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Values Without Evidence Map",
+            "body": "Five values — Measured, Shipped, Depth, Open, Honest. Each has evidence in the deck but it's never explicitly linked. One proof point per value turns a list into an argument.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 20.44,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:13:01"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT",
+      "role_note": "ClaudeVerdictArtifact — final verdict.",
+      "narration_text": "The strongest personal brand in the cohort for developer-tools positioning. Verifiable public numbers, a distinctive and consistent voice, real product thinking in the signal framework, and a visual identity with a stated rationale. The gaps are in deployment, ICP tension, and making the values-evidence link explicit.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 15.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Olembic — Vaibhav",
+            "artifactHeading": "Strongest developer-tools personal brand in the cohort — verifiable proof, consistent voice, real product thinking.",
+            "artifactLines": [
+              "Public verifiable numbers — no adjectives required is itself the brand signal",
+              "4-Signal Framework is prescriptive with explicit criteria, not just a taxonomy",
+              "Channel architecture (website/LinkedIn/Substack) shows distribution thinking",
+              "—",
+              "Deploy Olembic to a public URL — local prototype can't be tested by the audience",
+              "Address the ICP tension: brand targets hiring managers, tool targets OSS maintainers",
+              "Map each of the five values to one named proof point from the submission"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.13,
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": "",
+        "filled_by": ""
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Your Turn — ClaudeComposerAsk.",
+      "narration_text": "Your turn. The 4-Signal Framework has four categories — Signal, Silence, Surface, Subscribe. Take the last week of GitHub notifications on Random Word and classify every notification into one of the four. Then count: what percentage fell into each category? That's the baseline your bandit algorithm needs to learn from. Bring the data into your next session.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 20.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375",
+            "segment": "Vaibhav",
+            "command": "Take last week's GitHub notifications on Random Word. Classify every notification into Signal / Silence / Surface / Subscribe. Count the distribution. That's the real baseline for Olembic's bandit algorithm. Bring the data.",
+            "runningText": "your move...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 18.86,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:13:01"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "ClaudeTitleOutro — title re-read.",
+      "narration_text": "",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 5.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "INFO 7375 — Project Review: Vaibhav",
+            "handle": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 5.0,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-17T00:13:01"
+      }
+    }
+  ]
+}

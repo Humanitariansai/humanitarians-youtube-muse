@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "title": "Visual Identity Systems",
+    "short": "BRANDING · CH09",
+    "course": "Branding and AI · Chapter 09",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/09-visual-identity-systems.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 09",
+      "title": "Visual Identity Systems",
+      "subtitle": "Design without strategy is the Pepsi document. Strategy without design is a Word doc with good intentions. The system is what happens when both are present.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the cold open",
+      "title": "Twenty-seven pages about having nothing to say",
+      "lead": "In 2008 Pepsi paid Arnell Group to tilt a swoosh a few degrees. What leaked was the rationale.",
+      "bullets": [
+        "The document invoked the Golden Ratio, the Mona Lisa, the Parthenon, the Vitruvian Man, the Theory of Relativity, and the gravitational pull of the Earth.",
+        "None of that authorized the logo. The logo authorized nothing.",
+        "The real diagnosis: **Pepsi's brand had not committed to anything specific enough for the visual to express.** When you have no commitment, you borrow authority."
+      ]
+    },
+    {
+      "id": "S03", "section": "three failures, one diagnosis",
+      "title": "Pepsi, Yahoo, Tropicana",
+      "lead": "Strategy-free rationale. Strategy-free process. Wrong archetypal foundation. Read them across the same four questions.",
+      "why": "chapter applies one diagnosis across three named cases — 'Three failure modes. Strategy-free rationale (Pepsi). Strategy-free process (Yahoo). Wrong archetypal foundation (Tropicana).' — and grades craft, commitment, expression and recovery differently for each",
+      "archetype": "matrixGrid",
+      "duration": 8.5,
+      "data": {
+        "rows": [
+          { "label": "Competent craft" },
+          { "label": "Had a prior archetype" },
+          { "label": "Visual expressed it" },
+          { "label": "Recovered the ground" }
+        ],
+        "cols": [
+          { "label": "Pepsi 2008" },
+          { "label": "Yahoo 2013" },
+          { "label": "Tropicana 2009" }
+        ],
+        "cells": [
+          ["pending", "pending", "hit"],
+          ["miss", "miss", "hit"],
+          ["miss", "miss", "miss"],
+          ["pending", "miss", "hit"]
+        ]
+      }
+    },
+    {
+      "id": "S04", "section": "what the cases cost",
+      "title": "The damage was legible in the numbers",
+      "lead": "These are the only figures this chapter states. Everything else in this deck that looks like a number is a slot you have to fill.",
+      "bullets": [
+        "Yahoo published a different logo concept every day for **30 days**, then sold to Verizon in 2017 for **less than $5 billion** — at its peak it had been valued at over **$100 billion**.",
+        "Tropicana's repackaging was technically accomplished and expressed the wrong archetype. Sales dropped **20% in two months**. The original packaging was restored.",
+        "Every one of the three was avoidable if the design had been required to answer to a prior strategic commitment."
+      ]
+    },
+    {
+      "id": "S05", "section": "the six components",
+      "title": "\"Visual identity\" is six things, and they are not independent",
+      "lead": "Most non-designers treat these as separate decisions. They are a system — each component is perceived in context with the others.",
+      "why": "chapter enumerates six components and names the sub-items inside each: 'Three structural forms: a wordmark, a symbol, and a lockup'; 'Primary, secondary, and neutral colors'; 'Grid, spacing, and hierarchy rules' — a genuine two-level taxonomy",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "READ AGAINST THE ARCHETYPE",
+        "centerShort": "VISUAL IDENTITY",
+        "groups": [
+          {
+            "label": "Logo", "tone": "ink",
+            "children": [{ "label": "wordmark" }, { "label": "symbol" }, { "label": "lockup" }]
+          },
+          {
+            "label": "Palette", "tone": "accent",
+            "children": [{ "label": "primary" }, { "label": "secondary" }, { "label": "neutral" }]
+          },
+          {
+            "label": "Type", "tone": "ink",
+            "children": [{ "label": "display" }, { "label": "body" }]
+          },
+          {
+            "label": "Imagery", "tone": "ink",
+            "children": [{ "label": "photos" }, { "label": "illustration" }, { "label": "icons" }]
+          },
+          {
+            "label": "Layout", "tone": "ink",
+            "children": [{ "label": "grid" }, { "label": "spacing" }, { "label": "hierarchy" }]
+          },
+          {
+            "label": "Motion", "tone": "ink",
+            "children": [{ "label": "appear" }, { "label": "transition" }, { "label": "behave" }]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06", "section": "the mechanism",
+      "title": "Users do not evaluate components. They form one impression.",
+      "lead": "Nobody looks at the logo, then separately at the typeface, then separately at the color. They perceive all of it at once.",
+      "bullets": [
+        "That impression either coheres or it conflicts. Users cannot always say what is wrong — they feel it as *the brand is trying to be two things at once*.",
+        "Archetypes are the mechanism that makes coherence achievable: components converge **not because each is designed to match the others, but because each is designed to match the same underlying orientation**.",
+        "A logo fine in isolation can clash with the wrong typography. A palette beautiful in print can fail accessibility on screen.",
+        "The palette is the highest-frequency signal — it appears in every pixel of every interface. Get it wrong and the mismatch is felt on every visit."
+      ]
+    },
+    {
+      "id": "S07", "section": "four archetypes",
+      "title": "Sage clarifies. Hero demonstrates. Caregiver embraces. Magician transforms.",
+      "lead": "Not arbitrary conventions — documented response patterns in how users form impressions.",
+      "bullets": [
+        "**Sage:** restrained, evidence-rich, serif-anchored, generous whitespace, high-contrast type. NYT. The Economist. Stripe's docs. *Sages do not decorate; they clarify.*",
+        "**Hero:** bold, saturated, dynamic, diagonal, motion-implying. Nike. Red Bull. *Heroes do not explain; they demonstrate.*",
+        "**Caregiver:** warm, approachable, soft-edged, earth tones or pastels. J&J. Headspace. *Caregivers do not challenge; they embrace.*",
+        "**Magician:** jewel tones, intentional gradients, unexpected combinations. Early Adobe. Spotify canvas. *The visual should feel like it is already in transition.*"
+      ]
+    },
+    {
+      "id": "S08", "section": "the brief",
+      "title": "Eight sections, each a constraint rather than a description",
+      "lead": "The creative brief is the only moment where strategy becomes a design requirement before any visual work begins. Without it, decisions are made by taste, made inconsistently, and the system does not cohere.",
+      "bullets": [
+        "Brand strategy summary · project scope · audience · tone words · references · anti-references · constraints · deliverables.",
+        "Audience must be named and specific. Not \"marketing professionals\" — *\"marketing managers at small B2B SaaS companies with no dedicated analytics team who will use the tool on Monday mornings.\"*",
+        "\"Stripe's documentation site — the way it uses whitespace to make dense technical content feel readable without dumbing it down\" is a reference. \"I like Stripe\" is not.",
+        "One to two pages, no padding. **A sentence that cannot be used to evaluate a design decision should be cut.**"
+      ]
+    },
+    {
+      "id": "S09", "section": "the anti-word rule",
+      "title": "Vague words are forbidden",
+      "lead": "Tone words are three to five adjectives that narrow the design space. Most of the words people reach for do not narrow anything.",
+      "why": "chapter draws an explicit permission boundary around the brief's vocabulary — 'The discipline here is that vague words are forbidden. Innovative, modern, clean, professional are anti-words — they describe nothing, constrain nothing, and could apply to any brand.'",
+      "archetype": "containment",
+      "duration": 8.0,
+      "data": {
+        "boundary": { "label": "TONE WORDS THAT CONSTRAIN" },
+        "inside": [
+          { "label": "restrained · patient" },
+          { "label": "decisive · kinetic" },
+          { "label": "warm · unhurried" },
+          { "label": "luminous · unexpected" }
+        ],
+        "attempts": [
+          { "label": "innovative", "blocked": true, "from": "left" },
+          { "label": "modern", "blocked": true, "from": "top" },
+          { "label": "clean", "blocked": true, "from": "right" },
+          { "label": "evidence-forward", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S10", "section": "colour",
+      "title": "The palette starts at the archetype, not at your preference",
+      "lead": "Colour is the highest-frequency brand signal. A wrong colour decision is encountered more often than any other wrong decision in the system.",
+      "bullets": [
+        "**Sage:** restrained, high-contrast, low-saturation. The neutral system does the heavy lifting; the accent is used sparingly.",
+        "**Hero:** saturated primaries, minimal neutrals — the brand lives in the saturated zone. **Caregiver:** earth tones, muted greens, warm grays. **Magician:** jewel tones, gradients, chromatic depth.",
+        "Minimum viable palette: **one primary, two accents, two neutrals** — near-black and near-white. A full palette adds one or two mid-neutrals.",
+        "For each colour commit a name *and* a hex. The name is for humans; the hex is for implementation. Document both."
+      ]
+    },
+    {
+      "id": "S11", "section": "accessibility",
+      "title": "The numbers are specific and non-negotiable",
+      "lead": "WCAG 2.2 AA: normal text below 18pt needs 4.5:1. Large text and graphical objects need 3:1. Here is the chapter's own Sage-palette audit, on one axis.",
+      "why": "chapter publishes a five-row contrast audit with real measured ratios (17.4, 8.9, 8.9, 4.6, 2.9 to 1) against two stated thresholds — magnitudes that belong on one shared axis, with one failure it names and fixes",
+      "archetype": "scaleAxis",
+      "duration": 8.0,
+      "data": {
+        "axis": { "min": 1, "max": 20, "unit": ":1 contrast", "log": false },
+        "band": { "from": 4.5, "to": 20, "label": "passes AA at normal text size" },
+        "items": [
+          { "label": "Body #1A1A2E", "value": 17.4 },
+          { "label": "Accent #0D5C63", "value": 8.9 },
+          { "label": "Secondary #6B7280", "value": 4.6 },
+          { "label": "Caption #9CA3AF", "value": 2.9, "hot": true },
+          { "label": "your own palette", "value": 1, "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S12", "section": "the fix, and the law",
+      "title": "Caption failed at 2.9:1. Darken it and it passes at 4.6:1.",
+      "lead": "The palette's character does not change. The implementation becomes compliant.",
+      "bullets": [
+        "Test *every* combination you intend to use. Document colour name, hex, background hex, ratio, pass/fail.",
+        "Small shifts in value bring a failing combination into compliance without changing what the palette feels like.",
+        "**WCAG 2.2 AA is a legal requirement in many jurisdictions for public-facing digital products, not a best-practice recommendation.** Document every failure and its resolution before launch."
+      ]
+    },
+    {
+      "id": "S13", "section": "typography",
+      "title": "The specification is what prevents drift",
+      "lead": "Type does the legibility job and the archetype job at once. Choosing two faces is not enough — you have to say how they are used.",
+      "why": "chapter gives an explicit six-rung type scale as a list block — 'Display / H1: 56px / 1.1 … Caption: 13px / 1.4' — an ordered hierarchy from smallest to largest, and argues 'The specification prevents drift'",
+      "archetype": "ladder",
+      "duration": 7.5,
+      "data": {
+        "lowLabel": "caption",
+        "highLabel": "display",
+        "rungs": [
+          { "label": "Caption 13", "note": "Inter 400 / 1.4" },
+          { "label": "UI 14", "note": "Inter 500 / 1, 0.02em" },
+          { "label": "Body 16", "note": "Inter 400 / 1.6" },
+          { "label": "H3 24", "note": "Inter 600 / 1.3" },
+          { "label": "H2 36", "note": "Source Serif 4 600 / 1.2" },
+          { "label": "Display 56", "note": "Source Serif 4 700 / 1.1, −0.02em" }
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "wireframes",
+      "title": "Same five pages. Different archetype. Different structure.",
+      "lead": "Home, About, Projects, Writing, Contact. Every page beyond five needs explicit justification. The section order is not neutral — it is an archetype expression.",
+      "why": "chapter runs one shared origin into two outcomes — 'Produce two wireframe descriptions in structured text for the same five-page portfolio: one for a Sage archetype, one for a Hero archetype. The pages are the same; the section order, density, and component character should differ.'",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "the same five pages",
+        "splitLabel": "the archetype",
+        "tracks": [
+          {
+            "label": "Sage · leads with the thinking",
+            "outcome": "text-forward",
+            "tone": "ink", "path": "up",
+            "notes": [
+              "positioning sentence above the fold",
+              "12-column grid, 1100px, 60-char lines",
+              "more text density, fewer full-bleed images"
+            ]
+          },
+          {
+            "label": "Hero · leads with the image",
+            "outcome": "image-forward",
+            "tone": "accent", "path": "down",
+            "notes": [
+              "large above-the-fold project image",
+              "a metrics strip, then short punchy copy",
+              "wider spread, 1440px, a primary CTA"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S15", "section": "the loop closes",
+      "title": "Chapter 6 opened it. This chapter closes it.",
+      "lead": "The brief turned the strategy into constraints. A palette without a type system is a colour mood board. A type system without a layout system is a font choice. A layout system without an archetype is a default template.",
+      "why": "chapter states a provenance chain — 'Chapter 6 produced a brand strategy. The creative brief translated that strategy into design constraints. The palette expressed the archetype in colour… the brand guidelines document captures all of those decisions' — and ends with a test whose outcome the reader must run",
+      "archetype": "graph",
+      "duration": 8.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          { "id": "strat", "label": "Ch.6 strategy", "tone": "ink", "layer": 0 },
+          { "id": "brief", "label": "creative brief", "tone": "accent", "layer": 1 },
+          { "id": "pal", "label": "palette", "tone": "ink", "layer": 2 },
+          { "id": "type", "label": "typography", "tone": "ink", "layer": 2 },
+          { "id": "wire", "label": "wireframe", "tone": "ink", "layer": 2 },
+          { "id": "guide", "label": "brand guidelines", "tone": "good", "layer": 3 },
+          { "id": "test", "label": "", "pending": true, "layer": 4 }
+        ],
+        "edges": [
+          { "from": "strat", "to": "brief" },
+          { "from": "brief", "to": "pal" },
+          { "from": "brief", "to": "type" },
+          { "from": "brief", "to": "wire" },
+          { "from": "pal", "to": "guide" },
+          { "from": "type", "to": "guide" },
+          { "from": "wire", "to": "guide", "label": "one reference doc" },
+          { "from": "guide", "to": "test", "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S16", "section": "the classmate test",
+      "title": "Hand the document to someone who was not there",
+      "lead": "The grey slot at the end of that chain is the only honest verdict available to me. It is your run, not mine.",
+      "bullets": [
+        "Give the brand guidelines to one classmate uninvolved in your brand work. Ask them to make **one** decision using only the document — a button colour, a headline weight.",
+        "Then evaluate whether their choice was archetype-aligned. If it was, the document is specific enough. If it was not, find the gap: vague tone words? a missing palette variant? an unspecified weight?",
+        "And be honest about the limit: **the causal evidence that archetype-aligned visual identity moves user trust in AI tools specifically is thin.** The mechanism is plausible and branding-supported; the AI-specific evidence is largely anecdotal and survivor-biased."
+      ]
+    },
+    {
+      "id": "S17", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Coherence is the standard. Craft follows with time.",
+      "lead": "Write the brief before you open the design tool. Commit a hex and a name for every colour. Measure every contrast ratio instead of estimating it. Then hand your guidelines to a stranger and find out whether the system is a system — or a mood board with confidence."
+    }
+  ]
+}

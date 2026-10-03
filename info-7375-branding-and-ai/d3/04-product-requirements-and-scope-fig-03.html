@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The one-page PRD template</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:260px; }
+.title { font-family:'EB Garamond', Georgia, serif; font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-family:'EB Garamond', Georgia, serif; font-size:11px; fill:var(--color-secondary); }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const sections=[
+ {n:"1. Problem",q:"Who, what pain, how often, at what cost?",weak:"\"Marketing professionals need better intelligence.\"",strong:"Marketing managers at small B2B SaaS spend 2-4 hrs/Monday aggregating competitor news by hand."},
+ {n:"2. Gap",q:"What exists, and exactly where does it fall short?",weak:"\"There are tools, but they're not quite right.\"",strong:"Google Alerts: cheap, noisy. Brand24: smart, $99/mo. The gap: affordable plus analyzed."},
+ {n:"3. Tool",q:"What, exactly, will you build? (what, not how)",weak:"\"An AI-powered marketing-intelligence platform.\"",strong:"An n8n workflow: pull RSS, dedupe, score sentiment, write a daily Sheet. Under $20/mo."},
+ {n:"4. MVP boundary",q:"In scope for v1 — and explicitly out of scope.",weak:"Only writing the \"in\" column.",strong:"IN: 10 feeds, dedupe, sentiment, daily Sheet. OUT: multi-user, social, dashboards, Slack, API."}
+];
+const titleText='The one-page PRD template';
+const descText='Four stacked sections — Problem, Gap, Tool, MVP boundary — each with its question, a crossed-out weak version, and a strong version; a sidebar marks the $100,000 no as the first out-column entry.';
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,700);
+ const rowH=82, top=80, totalHeight=top+sections.length*(rowH+8)+40;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight)
+   .attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text('Four sections. Weak version crossed out; strong version below. The $100,000 no leads the out column.');
+ const mainW=Math.min(totalWidth-200,460), sideX=mainW+72, sideW=Math.max(totalWidth-mainW-96,132);
+ const g=svg.append('g').selectAll('.sec').data(sections).join('g');
+ g.each(function(d,i){
+   const sel=d3.select(this); const y=top+i*(rowH+8);
+   sel.append('rect').attr('x',24).attr('y',y).attr('width',mainW).attr('height',rowH).attr('rx',0).attr('fill','var(--color-white)').attr('stroke','var(--color-border)').attr('stroke-width',1).attr('tabindex',0)
+     .attr('aria-label',d.n+'. '+d.q+' Strong: '+d.strong)
+     .on('mouseover',function(event){d3.select(this).attr('stroke','var(--color-red)'); showTooltip(event,'<strong>'+d.n+'</strong><br>'+d.q+'<br><em>'+d.strong+'</em>');})
+     .on('mousemove',moveTooltip).on('mouseout',function(){d3.select(this).attr('stroke','var(--color-border)'); hideTooltip();});
+   sel.append('rect').attr('x',24).attr('y',y).attr('width',6).attr('height',rowH).attr('fill','var(--color-red)');
+   sel.append('text').attr('x',42).attr('y',y+20).attr('font-size',12).attr('font-weight',700).attr('fill','var(--color-ink)').attr('font-family',"'EB Garamond', Georgia, serif").text(d.n);
+   sel.append('text').attr('x',42).attr('y',y+36).attr('font-size',9).attr('fill','var(--color-secondary)').attr('font-family',"'EB Garamond', Georgia, serif").text(d.q);
+   sel.append('text').attr('x',42).attr('y',y+54).attr('font-size',9).attr('fill','var(--color-secondary)').attr('text-decoration','line-through').attr('font-family',"'EB Garamond', Georgia, serif").text(d.weak);
+   sel.append('text').attr('x',42).attr('y',y+72).attr('font-size',9).attr('fill','var(--color-ink)').attr('font-family',"'EB Garamond', Georgia, serif").text(d.strong);
+ });
+ // sidebar $100,000 no aligned to MVP row
+ const sy=top+3*(rowH+8);
+ svg.append('rect').attr('x',sideX).attr('y',sy).attr('width',sideW).attr('height',rowH).attr('rx',0).attr('fill','var(--color-fill)').attr('stroke','var(--color-ochre)').attr('stroke-width',1).attr('tabindex',0)
+   .attr('aria-label','The $100,000 no: the first entry in the out column — the feature you refuse even when refusing costs you')
+   .on('mouseover',(event)=>showTooltip(event,'<strong>The $100,000 no</strong><br>The feature a real user will ask for, with a real argument, that you decline anyway because it would compromise the core.'))
+   .on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+ svg.append('rect').attr('x',sideX).attr('y',sy).attr('width',6).attr('height',rowH).attr('fill','var(--color-ochre)');
+ svg.append('text').attr('x',sideX+18).attr('y',sy+22).attr('font-size',11).attr('font-weight',700).attr('fill','var(--color-ink)').attr('font-family',"'EB Garamond', Georgia, serif").text('The $100,000 no');
+ svg.append('text').attr('x',sideX+18).attr('y',sy+42).attr('font-size',9).attr('fill','var(--color-secondary)').attr('font-family',"'EB Garamond', Georgia, serif").text('First entry in the');
+ svg.append('text').attr('x',sideX+18).attr('y',sy+56).attr('font-size',9).attr('fill','var(--color-secondary)').attr('font-family',"'EB Garamond', Georgia, serif").text('out column:');
+ svg.append('text').attr('x',sideX+18).attr('y',sy+72).attr('font-size',9).attr('fill','var(--color-ink)').attr('font-family',"'EB Garamond', Georgia, serif").text('multi-user accounts.');
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

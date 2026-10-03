@@ -1,0 +1,75 @@
+<!--
+  Deployment in four steps
+  Book: Branding and AI
+  Chapter: 23-shipit-interface-and-deployment
+  Figure: 07
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/23-shipit-interface-and-deployment-cajal.md
+-->
+<svg viewBox="0 0 700 354" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-23-07">
+  <title id="fig-title-23-07">Deployment in four steps</title>
+  <desc>Choose a host, write a clean requirements file, handle secrets correctly, and test the deployed URL as a first-time user — the path from working code to a public artifact.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="23-shipit-interface-and-deployment"
+      figure-number="07" figure-title="Deployment in four steps"
+      figure-slug="deployment-four-steps" figure-type="process flowchart"
+      priority="Supplementary" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/23-shipit-interface-and-deployment-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="340" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Deployment is the gate — a URL someone other than you can use</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Not the interesting part. Mandatory anyway. Four concrete steps.</text>
+
+  <defs><marker id="arrow2307" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker></defs>
+
+  <!-- Step 1 -->
+  <rect x="40" y="100" width="140" height="70" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="110" y="128" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">1 · Choose host</text>
+  <text x="110" y="148" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Streamlit Cloud /</text>
+  <text x="110" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">HF Spaces</text>
+
+  <!-- Step 2 -->
+  <rect x="220" y="100" width="140" height="70" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="290" y="128" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">2 · Requirements</text>
+  <text x="290" y="148" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">pip freeze in a</text>
+  <text x="290" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">clean venv</text>
+
+  <!-- Step 3 -->
+  <rect x="400" y="100" width="140" height="70" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="470" y="128" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">3 · Handle secrets</text>
+  <text x="470" y="148" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">env vars, never</text>
+  <text x="470" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">in the repo</text>
+
+  <!-- Step 4 -->
+  <rect x="560" y="100" width="108" height="70" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="614" y="128" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">4 · Test URL</text>
+  <text x="614" y="148" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">as a first-time</text>
+  <text x="614" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">user</text>
+
+  <!-- arrows -->
+  <line x1="180" y1="135" x2="216" y2="135" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2307)"/>
+  <line x1="360" y1="135" x2="396" y2="135" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2307)"/>
+  <line x1="540" y1="135" x2="556" y2="135" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2307)"/>
+
+  <!-- failure notes -->
+  <text x="110" y="196" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">both free, &lt; 1 hr</text>
+  <text x="110" y="211" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">if deps are clean.</text>
+
+  <text x="290" y="196" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">FAILS: missing deps =</text>
+  <text x="290" y="211" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"works on my machine".</text>
+
+  <text x="470" y="196" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">FAILS: keys in code =</text>
+  <text x="470" y="211" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">security failure.</text>
+
+  <text x="614" y="196" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">prod != dev;</text>
+  <text x="614" y="211" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">behavior differs.</text>
+
+  <!-- terminal -->
+  <rect x="32" y="248" width="636" height="54" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="269" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">A public URL someone else can visit and use —</text>
+  <text x="350" y="285" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">the first public artifact the brand must account for.</text>
+
+  <text x="32" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 23, DEPLOYMENT</text>
+</svg>

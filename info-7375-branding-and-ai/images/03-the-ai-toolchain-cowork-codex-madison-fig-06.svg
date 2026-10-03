@@ -1,0 +1,44 @@
+<!--
+  Three ReAct failure modes and their fixes
+  Book: Branding and AI
+  Chapter: 03-the-ai-toolchain-cowork-codex-madison
+  Figure: 06
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/03-the-ai-toolchain-cowork-codex-madison-cajal.md
+-->
+<svg viewBox="0 0 760 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03-06">
+  <title id="fig-title-03-06">Three ReAct failure modes and their fixes</title>
+  <desc>Reasoning, action, and observation failures with what each does and its design response; the observation failure is the most dangerous and is emphasized.</desc>
+  <rect x="0" y="0" width="760" height="340" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three places the loop breaks — each needs a different fix</text>
+
+  <!-- severity tick label -->
+  <text x="42" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.06em">SEVERITY ↑</text>
+
+  <!-- headers -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">
+    <rect x="120" y="60" width="180" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="132" y="80">Failure mode</text>
+    <rect x="300" y="60" width="230" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="312" y="80">What happens</text>
+    <rect x="530" y="60" width="200" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="542" y="80">Design response</text>
+  </g>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <!-- reasoning -->
+    <rect x="120" y="92" width="180" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="132" y="120" font-weight="700">Reasoning failure</text><text x="132" y="140" fill="#545454">misreads the state</text>
+    <rect x="300" y="92" width="230" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="312" y="120" fill="#545454">does the wrong thing —</text><text x="312" y="140" fill="#545454">scores 870 without dedupe</text>
+    <rect x="530" y="92" width="200" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="542" y="120" fill="#545454">add a guard;</text><text x="542" y="140" fill="#545454">recoverable, just costly</text>
+
+    <!-- action -->
+    <rect x="120" y="160" width="180" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="132" y="188" font-weight="700">Action failure</text><text x="132" y="208" fill="#545454">tool errors or stalls</text>
+    <rect x="300" y="160" width="230" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="312" y="188" fill="#545454">crashes, or worse, fakes</text><text x="312" y="208" fill="#545454">a result silently</text>
+    <rect x="530" y="160" width="200" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="542" y="188" fill="#545454">make it loud — treat the</text><text x="542" y="208" fill="#545454">error as an observation</text>
+
+    <!-- observation (emphasized row, ink borders) -->
+    <rect x="120" y="228" width="180" height="76" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/><text x="132" y="256" font-weight="700">Observation failure</text><text x="132" y="276" fill="#545454">plausible-but-wrong</text><text x="132" y="292" fill="#545454">result propagates</text>
+    <rect x="300" y="228" width="230" height="76" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/><text x="312" y="256" fill="#545454">most dangerous — error</text><text x="312" y="276" fill="#545454">flows downstream</text><text x="312" y="292" fill="#545454">undetected</text>
+    <rect x="530" y="228" width="200" height="76" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/><text x="542" y="256" fill="#545454">Performance layer closes</text><text x="542" y="276" fill="#545454">the feedback loop —</text><text x="542" y="292" fill="#545454">real outcomes tell truth</text>
+  </g>
+  <!-- single red element: focal tab marking the most dangerous row -->
+  <rect x="110" y="228" width="6" height="76" fill="#C8102E"/>
+</svg>

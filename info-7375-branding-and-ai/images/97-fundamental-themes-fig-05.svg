@@ -1,0 +1,62 @@
+<!--
+  The wrong arrow and the right one
+  Book: Branding and AI
+  Chapter: 97-fundamental-themes
+  Figure: 05
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/97-fundamental-themes-cajal.md
+-->
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-97-05">
+  <title id="fig-title-97-05">The wrong arrow and the right one</title>
+  <desc>Two directional diagrams. The wrong arrow runs from your domain to becoming a technologist, which the market does not pay for and which has nowhere to land for many fields. The right arrow runs from your domain plus AI superpowers, preserving domain identity and adding AI capability on top.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="97-fundamental-themes"
+      figure-number="05" figure-title="The wrong arrow and the right one" figure-slug="wrong-arrow-right-arrow"
+      figure-type="comparison panels" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/97-fundamental-themes-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="360" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The wrong arrow and the right one</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The premium goes to AI-fluent domain experts who stayed in their domain.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#C8102E"/>
+    </marker>
+  </defs>
+
+  <!-- WRONG arrow panel -->
+  <rect x="32" y="76" width="636" height="116" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="100" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">The wrong arrow:  your domain &#8594; become a technologist</text>
+
+  <rect x="48" y="116" width="150" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="123" y="143" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Lawyer</text>
+  <line x1="198" y1="138" x2="262" y2="138" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <rect x="264" y="116" width="170" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="349" y="143" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">LegalTech Engineer</text>
+  <text x="460" y="134" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">An engineer at Westlaw &#8212; not a</text>
+  <text x="460" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">lawyer. The arrow has nowhere</text>
+  <text x="460" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">to land for many domains.</text>
+  <text x="48" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-style="italic" fill="#545454">The market is not paying the premium for engineers who used to be lawyers.</text>
+
+  <!-- RIGHT arrow panel -->
+  <rect x="32" y="208" width="636" height="116" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">The right arrow:  your domain + AI superpowers</text>
+
+  <rect x="48" y="248" width="150" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="123" y="275" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Lawyer</text>
+  <!-- RED arrow: the single move to adopt -->
+  <line x1="198" y1="270" x2="262" y2="270" stroke="#C8102E" stroke-width="2.5" fill="none" marker-end="url(#arrowRed)"/>
+  <text x="218" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">+ AI</text>
+  <rect x="264" y="248" width="200" height="44" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <text x="364" y="270" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">AI-fluent lawyer</text>
+  <text x="364" y="284" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">still practices law</text>
+  <text x="484" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Domain identity preserved.</text>
+  <text x="484" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">AI capability added on top.</text>
+  <text x="48" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-style="italic" fill="#545454">This arrow holds for every domain &#8212; it is what the 56% premium is actually paying for.</text>
+</svg>

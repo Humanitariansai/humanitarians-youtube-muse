@@ -1,0 +1,22 @@
+{
+  "scheme_version": "bear-figma-0.1",
+  "_comment": "Bear's scheme for a Figma pass aimed at remote part-time / consulting / educational-material work. Differences from default-0.1: (1) the director/VP exclusion is dropped — a 30-year teaching career legitimately reaches Head/Director-level education roles; only interns and early-career/new-grad titles are excluded; (2) max_skill_hits raised to 12 so a long, honest skill list is not clipped; (3) threshold raised to 4.0 to compensate; (4) location stays soft — Figma posts remote and US-hub roles.",
+  "threshold": 4.0,
+  "location_mode": "soft",
+  "max_skill_hits": 12,
+  "weights": {
+    "title": 3.0,
+    "title_partial": 1.5,
+    "skill": 1.0,
+    "skill_unshipped": 0.25,
+    "skill_any": 0.5,
+    "degree": 0.5,
+    "location": 1.0,
+    "location_miss": -1.0
+  },
+  "exclude_title_patterns": [
+    "\\bintern(ship)?\\b",
+    "\\bnew grad\\b",
+    "\\bearly career\\b"
+  ]
+}

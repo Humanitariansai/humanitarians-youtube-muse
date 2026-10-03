@@ -1,0 +1,84 @@
+<!--
+  The Frictional mechanism
+  Book: Branding and AI
+  Chapter: 97-fundamental-themes
+  Figure: 02
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/97-fundamental-themes-cajal.md
+-->
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-97-02">
+  <title id="fig-title-97-02">The Frictional mechanism</title>
+  <desc>A causal chain showing how prediction error fires dopamine, upregulates BDNF, strengthens synapses, and forms durable memory. A parallel lower track shows the AI-shortcut path where removing friction removes the trigger, so no consolidation occurs and the brain is unchanged.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="97-fundamental-themes"
+      figure-number="02" figure-title="The Frictional mechanism" figure-slug="frictional-mechanism"
+      figure-type="process flowchart" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/97-fundamental-themes-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="380" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The struggle is the mechanism — remove it and learning does not fire</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Genuine learning is a biological event before it is a pedagogical one.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#C8102E"/>
+    </marker>
+  </defs>
+
+  <!-- TOP TRACK: the learning mechanism -->
+  <text x="32" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">With friction — the learning fires</text>
+
+  <rect x="32" y="104" width="120" height="52" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="92" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Prediction error</text>
+  <text x="92" y="140" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">material doesn't fit</text>
+  <line x1="152" y1="130" x2="174" y2="130" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="176" y="104" width="120" height="52" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="236" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Dopamine fires,</text>
+  <text x="236" y="140" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">BDNF upregulates</text>
+  <line x1="296" y1="130" x2="318" y2="130" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="320" y="104" width="120" height="52" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="380" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Synapses strengthen,</text>
+  <text x="380" y="140" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">spines form</text>
+  <line x1="440" y1="130" x2="462" y2="130" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="464" y="104" width="120" height="52" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <text x="524" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Durable memory</text>
+  <text x="524" y="140" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">capability built</text>
+
+  <!-- BOTTOM TRACK: the AI shortcut -->
+  <text x="32" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">AI removes friction — the trigger never arrives</text>
+
+  <rect x="32" y="228" width="120" height="52" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="92" y="250" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">AI removes the</text>
+  <text x="92" y="264" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">struggle</text>
+
+  <!-- RED break arrow: the single thing to see -->
+  <line x1="152" y1="254" x2="174" y2="254" stroke="#C8102E" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  <text x="163" y="294" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#C8102E">break</text>
+
+  <rect x="176" y="228" width="120" height="52" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="236" y="250" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">No trigger</text>
+  <text x="236" y="264" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">nothing to consolidate</text>
+  <line x1="296" y1="254" x2="318" y2="254" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="320" y="228" width="120" height="52" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="380" y="250" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">No consolidation,</text>
+  <text x="380" y="264" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">no durable learning</text>
+  <line x1="440" y1="254" x2="462" y2="254" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="464" y="228" width="120" height="52" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="524" y="250" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Artifact is fine,</text>
+  <text x="524" y="264" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">brain is unchanged</text>
+
+  <!-- bottom note -->
+  <line x1="32" y1="312" x2="668" y2="312" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="32" y="334" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">The fluency of the AI's output is indistinguishable from the feeling of mastery &#8212; but the neurological events that produce mastery</text>
+  <text x="32" y="348" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">never occurred. AI should make the struggle more productive, not eliminate it.</text>
+</svg>

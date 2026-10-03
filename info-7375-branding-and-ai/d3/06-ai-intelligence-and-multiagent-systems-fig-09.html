@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Role, goal, and backstory each narrow the LLM's behavior space</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:280px; }
+.title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); }
+.band-label { font-size:12px; font-weight:700; } .small { font-size:9px; fill:var(--color-secondary); } .mono { font-family:'IBM Plex Mono','JetBrains Mono',monospace; }
+.ex-head { font-size:11px; font-weight:700; } .ex-body { font-size:10px; fill:var(--color-ink); }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const titleText="Each component does successive narrowing work";
+const descText="A funnel narrowing from the LLM's full behavior space through Role (activates domain associations), Goal (encodes task and constraints), and Backstory (resolves edge cases) to the agent's actual operating range. Beside it, a vague spec versus a specific role/goal/backstory spec.";
+const bands=[
+ {name:"",sub:"LLM's full behavior space",topW:1.0,botW:0.78,fill:"var(--color-fill)",txt:"var(--color-ink)"},
+ {name:"Role",sub:"activates domain associations",topW:0.78,botW:0.56,fill:"var(--color-fill)",txt:"var(--color-ink)"},
+ {name:"Goal",sub:"encodes task + constraints",topW:0.56,botW:0.34,fill:"var(--color-fill)",txt:"var(--color-ink)"},
+ {name:"Backstory",sub:"resolves edge cases",topW:0.34,botW:0.14,fill:"var(--color-red)",txt:"var(--color-white)"}
+];
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,640);
+ const totalHeight=400;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text("Role, goal, and backstory are not interchangeable — each constrains the agent further.");
+ // funnel left half
+ const fcx=totalWidth*0.27, maxW=Math.min(totalWidth*0.4,260), top=92, bandH=52;
+ svg.append('text').attr('class','small').attr('x',fcx).attr('y',top-4).attr('text-anchor','middle').text("LLM's full behavior space");
+ const g=svg.selectAll('.band').data(bands).join('g').attr('tabindex',0).attr('aria-label',d=>(d.name||'full space')+': '+d.sub)
+   .on('mouseover',(event,d)=>showTooltip(event,'<strong>'+(d.name||'Full behavior space')+'</strong><br>'+d.sub)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+ g.each(function(d,i){
+  const y0=top+i*bandH, y1=y0+bandH-4;
+  const tw=d.topW*maxW/2, bw=d.botW*maxW/2;
+  d3.select(this).append('polygon')
+    .attr('points',[(fcx-tw)+','+y0,(fcx+tw)+','+y0,(fcx+bw)+','+y1,(fcx-bw)+','+y1].join(' '))
+    .attr('fill',d.fill).attr('stroke','var(--color-border)').attr('opacity',0).transition().duration(320).delay(i*70).attr('opacity',1);
+  if(d.name){
+   d3.select(this).append('text').attr('class','band-label').attr('x',fcx).attr('y',y0+bandH/2-2).attr('text-anchor','middle').attr('fill',d.txt).text(d.name);
+   d3.select(this).append('text').attr('class','small').attr('x',fcx).attr('y',y0+bandH/2+12).attr('text-anchor','middle').attr('fill',d.txt==='var(--color-white)'?'var(--color-white)':'var(--color-secondary)').text(d.sub);
+  }
+ });
+ svg.append('text').attr('class','band-label').attr('x',fcx).attr('y',top+bands.length*bandH+12).attr('text-anchor','middle').attr('fill','var(--color-red)').attr('font-size','10px').text("agent's operating range");
+ // right: before/after
+ const rx=totalWidth*0.56, rw=Math.min(totalWidth*0.38,280);
+ const g1=svg.append('g').attr('tabindex',0).attr('aria-label','Vague spec: wanders, fails the downstream need')
+   .on('mouseover',(event)=>showTooltip(event,'<strong>Vague spec</strong><br>role: "Write content" — the agent wanders, calls unintended tools, satisfies the prompt but fails the need.')).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+ g1.append('rect').attr('x',rx).attr('y',92).attr('width',rw).attr('height',92).attr('fill','var(--color-fill)').attr('stroke','var(--color-border)');
+ g1.append('text').attr('class','ex-head').attr('x',rx+12).attr('y',112).attr('fill','var(--color-ink)').text("Vague spec");
+ g1.append('text').attr('class','small mono').attr('x',rx+12).attr('y',132).text('role: "Write content"');
+ g1.append('text').attr('class','ex-body').attr('x',rx+12).attr('y',156).text("Wanders. Calls unintended tools.");
+ g1.append('text').attr('class','ex-body').attr('x',rx+12).attr('y',172).text("Satisfies prompt, fails the need.");
+ const g2=svg.append('g').attr('tabindex',0).attr('aria-label','Specific spec: sources claims, notes uncertainty, debuggable')
+   .on('mouseover',(event)=>showTooltip(event,'<strong>Specific spec</strong><br>role + goal + backstory together: sources claims, notes uncertainty, behaves consistently and debuggably.')).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+ g2.append('rect').attr('x',rx).attr('y',200).attr('width',rw).attr('height',124).attr('fill','var(--color-fill)').attr('stroke','var(--color-red)').attr('stroke-width',1.5);
+ g2.append('text').attr('class','ex-head').attr('x',rx+12).attr('y',220).attr('fill','var(--color-red)').text("Specific spec");
+ g2.append('text').attr('class','small mono').attr('x',rx+12).attr('y',240).text('role: Competitive Intel. Analyst');
+ g2.append('text').attr('class','small mono').attr('x',rx+12).attr('y',254).text('goal: structured JSON, cite or null');
+ g2.append('text').attr('class','small mono').attr('x',rx+12).attr('y',268).text('backstory: evidence over guessing');
+ g2.append('text').attr('class','ex-body').attr('x',rx+12).attr('y',294).text("Sources claims. Notes uncertainty.");
+ g2.append('text').attr('class','ex-body').attr('x',rx+12).attr('y',310).text("Consistent, debuggable behavior.");
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

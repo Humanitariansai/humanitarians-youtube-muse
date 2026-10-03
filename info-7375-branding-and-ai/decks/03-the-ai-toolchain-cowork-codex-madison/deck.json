@@ -1,0 +1,515 @@
+{
+  "meta": {
+    "title": "The AI Toolchain: Cowork, Codex & Madison",
+    "short": "BRANDING · CH03",
+    "course": "Branding and AI · Chapter 03",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/03-the-ai-toolchain-cowork-codex-madison.md"
+  },
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "title",
+      "kicker": "Branding and AI · Chapter 03",
+      "title": "The AI Toolchain: Cowork, Codex & Madison",
+      "subtitle": "Five roles, one pipeline, and the moment you realize architecture is brand.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02",
+      "section": "the strange thing",
+      "title": "Same model. Opposite products.",
+      "lead": "Hand two teams the same frontier model — identical weights, identical API — and one builds Cursor, the other builds Devin.",
+      "bullets": [
+        "The thing that made them different was not the model. It was **the architecture** — the choice of where to put the seams.",
+        "That choice is the central skill in AI product design, and it is almost never taught.",
+        "Most people have a vivid sense of what they want the thing to *do*, and no framework at all for how its internal structure decides how it fails.",
+        "We will use **Madison** — an open-source, agent-based marketing intelligence framework — as the specimen."
+      ]
+    },
+    {
+      "id": "S03",
+      "section": "the word that breaks meetings",
+      "title": "\"Agent\" means four different things",
+      "lead": "In 2026 this one word carries at least four distinct meanings, and the speaker rarely signals which one they intend.",
+      "why": "chapter enumerates Meaning one through Meaning four, each with its own example product, architectural implication, and failure mode — a genuine two-level taxonomy under one word",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "AGENT",
+        "centerShort": "AGENT",
+        "groups": [
+          {
+            "label": "1 · Prompt + function",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "I wrote a prompt"
+              },
+              {
+                "label": "I call an API"
+              },
+              {
+                "label": "text comes back"
+              }
+            ]
+          },
+          {
+            "label": "2 · Tools + a loop",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "reaches into the world"
+              },
+              {
+                "label": "ReAct · Yao et al. 2023"
+              },
+              {
+                "label": "reasons on returns"
+              }
+            ]
+          },
+          {
+            "label": "3 · Autonomous",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "Devin 2.0"
+              },
+              {
+                "label": "parallel sandboxes"
+              },
+              {
+                "label": "reports, not asks"
+              }
+            ]
+          },
+          {
+            "label": "4 · A role in a system",
+            "tone": "accent",
+            "children": [
+              {
+                "label": "Madison"
+              },
+              {
+                "label": "defined inputs/outputs"
+              },
+              {
+                "label": "agent as job title"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "section": "why the meaning decides the product",
+      "title": "Recoverable error, or silent disaster",
+      "lead": "The four meanings are not in conflict. They are different levels of abstraction — and meanings three and four produce completely different failure modes.",
+      "bullets": [
+        "An autonomous system that hallucinates partway through a twelve-step task has **corrupted its own output by the time you notice**.",
+        "A role-in-pipeline that hallucinates at step three fails *loudly, immediately, at a known location*.",
+        "You can fix it. You can tell a customer exactly what broke.",
+        "The architecture is the difference between a recoverable error and a silent disaster."
+      ]
+    },
+    {
+      "id": "S05",
+      "section": "what Madison is",
+      "title": "Five specialized roles, one coordinating layer",
+      "lead": "An agent is a role with a defined job. Five roles report into one orchestration layer — and Performance is the one that closes the feedback loop back into it.",
+      "why": "chapter names five specialized layers each with stated inputs and outputs, 'connected through a sixth coordinating layer' — a dependency chain, and Performance 'closes the feedback loop'",
+      "archetype": "graph",
+      "duration": 9.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          {
+            "id": "intel",
+            "label": "Intelligence",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "content",
+            "label": "Content",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "research",
+            "label": "Research",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "exp",
+            "label": "Experience",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "perf",
+            "label": "Performance",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "orch",
+            "label": "Orchestration",
+            "tone": "accent",
+            "layer": 1
+          }
+        ],
+        "edges": [
+          {
+            "from": "intel",
+            "to": "orch",
+            "label": "rated info"
+          },
+          {
+            "from": "content",
+            "to": "orch",
+            "label": "drafts"
+          },
+          {
+            "from": "research",
+            "to": "orch",
+            "label": "insights"
+          },
+          {
+            "from": "exp",
+            "to": "orch",
+            "label": "signal"
+          },
+          {
+            "from": "perf",
+            "to": "orch",
+            "label": "outcomes"
+          },
+          {
+            "from": "orch",
+            "to": "content",
+            "label": "briefs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "section": "why those seams",
+      "title": "Madison made the org chart machine-readable",
+      "lead": "If you are a working marketer, that list should feel familiar. A research team. A content team. An analytics function.",
+      "bullets": [
+        "That borrowing is not accidental and it is not trivial. Organizations divided marketing this way because the functions have genuinely different information needs, cadences, and success metrics.",
+        "Intelligence needs fresh data every morning. Content needs a brief and brand guidelines. Performance needs experiment results and *statistical patience*.",
+        "Designing agents along the same boundaries means each can be optimized without knowing how the others work internally.",
+        "The orchestration layer handles the connective tissue."
+      ]
+    },
+    {
+      "id": "S07",
+      "section": "five roles vs. one mega-agent",
+      "title": "The mega-agent breaks in three places",
+      "lead": "Suppose you built Madison as a single large model with a long prompt and access to every data source. On a demo, this works. In production, three things break, in sequence.",
+      "why": "chapter states all three verdicts explicitly — token costs, blurred failure modes, no product surfaces — and says 'the layered design solves all three problems at once'; the reader's own pipeline is untested",
+      "archetype": "matrixGrid",
+      "duration": 9.0,
+      "data": {
+        "rows": [
+          {
+            "label": "Token economics"
+          },
+          {
+            "label": "Fault location"
+          },
+          {
+            "label": "Product surfaces"
+          }
+        ],
+        "cols": [
+          {
+            "label": "Five roles"
+          },
+          {
+            "label": "One mega-agent"
+          },
+          {
+            "label": "Your pipeline"
+          }
+        ],
+        "cells": [
+          [
+            "hit",
+            "miss",
+            "pending"
+          ],
+          [
+            "hit",
+            "miss",
+            "pending"
+          ],
+          [
+            "hit",
+            "miss",
+            "pending"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "section": "the thing engineers miss",
+      "title": "A named layer is a sales surface",
+      "lead": "\"Our Intelligence layer is running correctly; our Content layer is returning off-brand output.\" That sentence encodes diagnostic capability.",
+      "bullets": [
+        "It also encodes a **sales** capability. You can sell tiers. You can sell the Intelligence layer to a customer who does not yet need the Content layer.",
+        "You can version each layer independently. You can hire a vendor to replace one layer without rebuilding the system.",
+        "From the customer's side, a mega-agent is a black box: nothing to name, nothing to version, nothing to sell separately. **The architecture is also an invisibility trap.**",
+        "The engineering choice and the brand choice are the same choice."
+      ]
+    },
+    {
+      "id": "S09",
+      "section": "Cursor vs. Devin",
+      "title": "Two products, one technology, two theories of risk",
+      "lead": "A senior developer choosing between them is not comparing capability benchmarks. They are comparing models of agency and trust.",
+      "why": "the chapter's own opening claim is a divergence: 'the same frontier language model — identical weights, identical API' splitting on the architectural commitment into two brand positions",
+      "archetype": "divergence",
+      "duration": 9.0,
+      "data": {
+        "startLabel": "the same frontier model",
+        "splitLabel": "where you put the seams",
+        "tracks": [
+          {
+            "label": "Cursor · augmentation",
+            "outcome": "we trust developers",
+            "tone": "accent",
+            "path": "up",
+            "notes": [
+              "AI woven into the editing surface",
+              "developer reviews and approves",
+              "Madison sits on this end"
+            ]
+          },
+          {
+            "label": "Devin · delegation",
+            "outcome": "we handle defined work",
+            "tone": "ink",
+            "path": "down",
+            "notes": [
+              "sandboxed cloud, its own IDE",
+              "parallel instances, isolated VMs",
+              "you take the calls outside the spec"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "section": "the small machine inside",
+      "title": "ReAct: reasoning without reaching is just thinking",
+      "lead": "Yao et al., 2023. An LLM doing useful work in the world has to interleave two operations.",
+      "bullets": [
+        "*Reasoning* — thinking in natural language about what to do next. *Acting* — calling a tool, querying an API, modifying state.",
+        "Pure chain-of-thought is all thinking, no reaching. Pure tool-use is reactive, with no plan threading the actions together.",
+        "Yao et al. showed a **34 percentage point** improvement over imitation learning on ALFWorld. That is not a marginal gain.",
+        "The same loop structure runs in every Madison layer, with different tools and different reasoning prompts."
+      ]
+    },
+    {
+      "id": "S11",
+      "section": "the loop",
+      "title": "Thought → Action → Observation → Thought",
+      "lead": "The LLM is not just calling APIs. It is reasoning about *why* it is calling them and *what to do* with what comes back.",
+      "why": "chapter prints the loop as a cycle and its figure calls out 'the observation-to-thought feedback arrow that distinguishes a true agent loop from a plain prompt'",
+      "archetype": "graph",
+      "duration": 7.5,
+      "data": {
+        "layout": "ring",
+        "nodes": [
+          {
+            "id": "th",
+            "label": "THOUGHT",
+            "tone": "ink"
+          },
+          {
+            "id": "ac",
+            "label": "ACTION",
+            "tone": "ink"
+          },
+          {
+            "id": "ob",
+            "label": "OBSERVATION",
+            "tone": "ink"
+          }
+        ],
+        "edges": [
+          {
+            "from": "th",
+            "to": "ac",
+            "label": "calls a tool"
+          },
+          {
+            "from": "ac",
+            "to": "ob",
+            "label": "the tool returns"
+          },
+          {
+            "from": "ob",
+            "to": "th",
+            "label": "updates the reasoning"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "section": "one real trace",
+      "title": "The 7 a.m. news run",
+      "lead": "An Intelligence Agent reasoning its way through a morning news cycle for Brand X.",
+      "why": "the chapter prints the trace with its own stated counts — 870 articles received, 87 unique after deduplication, 87 returned with scores; nothing downstream of the dashboard is stated",
+      "archetype": "attrition",
+      "duration": 7.5,
+      "data": {
+        "total": 870,
+        "startLabel": "articles received",
+        "stages": [
+          {
+            "label": "deduplicated · MD5 + Levenshtein",
+            "survival": 0.1
+          },
+          {
+            "label": "scored for sentiment + relevance",
+            "survival": 1.0
+          },
+          {
+            "label": "acted on by the other layers",
+            "pending": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "section": "three ways the loop fails",
+      "title": "The dangerous failures are the quiet ones",
+      "lead": "Understanding the loop teaches you exactly where it fails — and each failure needs a different design response.",
+      "why": "chapter ranks them: a reasoning failure is 'expensive, recoverable'; a hallucinated action is 'far more dangerous because it is silent'; an observation failure is 'the most dangerous category'",
+      "archetype": "ladder",
+      "duration": 7.5,
+      "data": {
+        "lowLabel": "expensive, recoverable",
+        "highLabel": "most dangerous",
+        "rungs": [
+          {
+            "label": "Reasoning failure",
+            "note": "scores all 870 without deduplicating first — add a guard"
+          },
+          {
+            "label": "Action failure",
+            "note": "the tool errors, or the model hallucinates success — make it loud"
+          },
+          {
+            "label": "Observation failure",
+            "note": "plausible-but-wrong result propagates downstream — Performance is what catches it"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "section": "orchestration",
+      "title": "Predictability or flexibility. Pick knowingly.",
+      "lead": "Two dominant patterns in production systems in 2026, and Madison's reference implementation picks one.",
+      "bullets": [
+        "**Graph-based** — n8n, LangGraph. The workflow is a directed graph defined in advance. Every path is explicit, testable, auditable.",
+        "**Conversation-based** — Microsoft AutoGen. The orchestrator is a meta-agent talking to sub-agents; they self-organize on task sequences nobody pre-specified.",
+        "Madison chose predictability, because the operational question is not \"can this handle a task I didn't anticipate?\" It is \"can this be trusted to run at 7 a.m. every day *without surprising anyone*?\"",
+        "Flexibility is not free: the failure modes are harder to isolate and the debugging surface is enormous."
+      ]
+    },
+    {
+      "id": "S15",
+      "section": "where humans sit",
+      "title": "Human-in-the-loop is risk engineering, not philosophy",
+      "lead": "Madison includes human validation as an explicit architectural feature, not an afterthought.",
+      "why": "chapter draws the boundary and names the three crossings by name — 'what content to publish, how to allocate campaign budget, what persona to deploy … are reviewed by a human before execution'",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": {
+          "label": "RUNS WITHOUT A HUMAN"
+        },
+        "inside": [
+          {
+            "label": "pull the feeds"
+          },
+          {
+            "label": "dedupe and score"
+          },
+          {
+            "label": "draft variants"
+          },
+          {
+            "label": "refresh the dashboard"
+          }
+        ],
+        "attempts": [
+          {
+            "label": "publish content",
+            "blocked": true,
+            "from": "left"
+          },
+          {
+            "label": "allocate budget",
+            "blocked": true,
+            "from": "right"
+          },
+          {
+            "label": "deploy a persona",
+            "blocked": true,
+            "from": "top"
+          },
+          {
+            "label": "your own gates",
+            "blocked": null,
+            "from": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "section": "the integrating claim",
+      "title": "McLuhan was right about your codebase",
+      "lead": "He argued the structure of a communication system carries its own meaning, independent of content. He could not have anticipated how precisely that applies to software architecture.",
+      "bullets": [
+        "Neither Cursor's nor Devin's brand position was written in a marketing document first. Both **emerged from architectural commitments made for technical reasons**, whose brand implications became visible later.",
+        "That is how most product positioning actually works: engineers make choices, choices create affordances, affordances create experience, and marketing writes copy describing what the engineers already produced.",
+        "You are in the rare position of designing a product from scratch. You can run this process deliberately.",
+        "The window is narrow. It closes the moment you commit to a data model."
+      ]
+    },
+    {
+      "id": "S17",
+      "section": "what this deck does not tell you",
+      "title": "Every grey slot is a thing you have to run",
+      "lead": "The counts on the news-run slide are the chapter's own — 870 in, 87 after deduplication. Everything else stayed empty on purpose.",
+      "bullets": [
+        "Whether *your* pipeline holds on token economics, fault location and product surfaces — **TO RUN**.",
+        "Which of your decisions are expensive and hard to reverse enough to deserve a human gate — **TO RUN**.",
+        "Madison is a reference architecture, not a template. Reading it well teaches you what to do. Copying it produces a worse Madison."
+      ]
+    },
+    {
+      "id": "S18",
+      "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Design the decomposition first. The code is implementation.",
+      "lead": "A multi-agent system is a theory of how a job should be decomposed, written in code. Pick one Madison layer, trace it end to end, and name the two decisions in your own pipeline that must stay human-gated."
+    }
+  ]
+}

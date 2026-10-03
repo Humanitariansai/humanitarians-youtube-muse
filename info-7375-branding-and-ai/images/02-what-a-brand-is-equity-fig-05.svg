@@ -1,0 +1,41 @@
+<!--
+  Kapferer's identity prism
+  Book: Branding and AI
+  Chapter: 02-what-a-brand-is-equity
+  Figure: 05
+  Type: structural schematic
+  Generated: 2026-06-18
+  Source: pantry/02-what-a-brand-is-equity-cajal.md
+-->
+<svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02-05">
+  <title id="fig-title-02-05">Kapferer's identity prism</title>
+  <desc>A hexagon mapping six brand-identity facets — physique, personality, culture on the sender side; relationship, reflection, self-image on the receiver side.</desc>
+  <rect x="0" y="0" width="720" height="420" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Six facets, split into sender and receiver</text>
+
+  <!-- hexagon (pointy left-right). center 360,230 -->
+  <polygon points="360,90 540,170 540,290 360,370 180,290 180,170" fill="#F5F5F5" stroke="#121212" stroke-width="1.25"/>
+
+  <!-- sender|receiver divider -->
+  <line x1="360" y1="90" x2="360" y2="370" stroke="#121212" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="250" y="76" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454" text-anchor="middle">SENDER — identity</text>
+  <text x="470" y="76" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454" text-anchor="middle">RECEIVER — image</text>
+
+  <!-- six facet labels -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">
+    <text x="360" y="115">Physique</text>
+    <text x="250" y="180">Personality</text>
+    <text x="250" y="272">Culture</text>
+    <text x="470" y="180">Relationship</text>
+    <text x="470" y="272">Reflection</text>
+    <text x="360" y="352">Self-image</text>
+  </g>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" text-anchor="middle">
+    <text x="360" y="131">outward expression</text>
+    <text x="250" y="196">the brand's character</text>
+    <text x="250" y="288">values, origin</text>
+    <text x="470" y="196">bond with customer</text>
+    <text x="470" y="288">how it pictures its user</text>
+    <text x="360" y="336">how users see themselves</text>
+  </g>
+</svg>

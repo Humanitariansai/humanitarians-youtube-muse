@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "title": "Crisis & Reputation Management",
+    "short": "BRANDING · CH16",
+    "course": "Branding and AI · Chapter 16",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/16-crisis-and-reputation-management.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 16",
+      "title": "Crisis & Reputation Management",
+      "subtitle": "Reputation is built in years and lost in hours. The playbook is written before the fire, not during it.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the open",
+      "title": "October 1, 1982",
+      "lead": "A twelve-year-old girl in Elk Grove Village, Illinois took two Extra-Strength Tylenol capsules for a cold and died within hours. By the end of the day, six more people in the Chicago area were dead.",
+      "bullets": [
+        "Investigators traced the deaths to capsules removed from store shelves, laced with potassium cyanide, and returned to the bottles.",
+        "Someone — never identified — had poisoned the product **after it left Johnson & Johnson's factories**.",
+        "Legally, J&J had done nothing. The responsibility sat with an unknown criminal. Hold that thought, because it is the whole point of the case."
+      ]
+    },
+    {
+      "id": "S03", "section": "the decision",
+      "title": "A decision no financial model could justify",
+      "lead": "In the days that followed, J&J pulled **31 million bottles** of Tylenol from shelves nationwide — not just Chicago, not just the affected lot numbers. The entire national inventory.",
+      "bullets": [
+        "Estimated cost: **$100 million**.",
+        "They communicated openly. They invented tamper-evident packaging.",
+        "They showed, through expensive and irreversible action, that a stated commitment to consumer safety was not marketing copy.",
+        "**Action first, then words — with the words explaining the action rather than substituting for it.**"
+      ]
+    },
+    {
+      "id": "S04", "section": "what it cost, what it bought",
+      "title": "35 to 8, and back",
+      "lead": "Tylenol had been the leading over-the-counter pain reliever in the United States. Put the numbers the chapter actually states on one axis and look at what a $100 million recall purchased.",
+      "why": "chapter states four magnitudes of the same quantity — 35% market share pre-crisis, collapsed to 8% within weeks, recovered to 30% by 1983, and \"by 1984, it had exceeded its pre-crisis level\" — that last one with no figure attached, so it is TO RUN",
+      "archetype": "scaleAxis",
+      "duration": 7.5,
+      "data": {
+        "axis": { "min": 0, "max": 40, "unit": "US market share, %", "log": false },
+        "band": { "from": 8, "to": 35, "label": "the collapse, and the climb back" },
+        "items": [
+          { "label": "pre-crisis · 35%", "value": 35 },
+          { "label": "within weeks · 8%", "value": 8, "hot": true },
+          { "label": "by 1983 · 30%", "value": 30 },
+          { "label": "by 1984 · above pre-crisis", "value": 0, "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S05", "section": "why it worked",
+      "title": "They were victims. They did not lead with that.",
+      "lead": "The recovery happened because the response matched the reality of the crisis — and then went past it.",
+      "bullets": [
+        "J&J was a **victim**: the product was tampered with after it left their control.",
+        "Instead of leading with that fact — instead of saying *this is not our fault* — they led with the safety of the customer.",
+        "**They took action consistent with responsibility even where responsibility did not legally exist.**",
+        "That sequence is the hardest thing to execute when a crisis arrives without warning and every instinct says slow down, protect, equivocate."
+      ]
+    },
+    {
+      "id": "S06", "section": "years to build, hours to lose",
+      "title": "The response window has been compressed to hours",
+      "lead": "Brand equity accumulates through thousands of consistent interactions over months and years. The accumulation is asymmetric: long to build, short to lose — and the asymmetry has gotten worse.",
+      "bullets": [
+        "Before social media a crisis moved at the speed of news cycles. A brand had days, sometimes weeks. The first **24 hours** were consequential but not necessarily decisive.",
+        "A video of a United Airlines passenger being dragged off a plane was recorded on **April 9, 2017**, posted within minutes, and seen by millions before the end of the day.",
+        "United's CEO statement came the following morning — calling the situation \"upsetting\" and defending the airline's right to remove \"disruptive\" passengers.",
+        "**United lost the first day of the narrative without saying anything at all.**"
+      ]
+    },
+    {
+      "id": "S07", "section": "the discipline problem",
+      "title": "Two modes, and you only train for one",
+      "lead": "Building brand equity requires patience — you cannot rush the accumulation. Protecting it in a crisis requires speed — you cannot wait for the full picture.",
+      "bullets": [
+        "These are different organizational reflexes, and most organizations train extensively for the slow accumulation and almost never for the fast response.",
+        "The purpose of a crisis playbook is to solve this institutionally.",
+        "**Make the slow decisions in advance, so that the fast moment is execution rather than judgment.**"
+      ]
+    },
+    {
+      "id": "S08", "section": "SCCT",
+      "title": "Three crisis clusters, ordered by how much responsibility the public assigns you",
+      "lead": "W. Timothy Coombs's Situational Crisis Communication Theory, developed through the 1990s and consolidated in *Protecting Organization Reputations During a Crisis* (2007).",
+      "why": "chapter names three clusters with an explicit direction — \"public responsibility attribution is low… moderate… high\" — and pairs each rung with the strategy that fits it; the fourth rung is the reader's own crisis, whose type is TO RUN",
+      "archetype": "ladder",
+      "duration": 7.5,
+      "data": {
+        "lowLabel": "low responsibility attribution",
+        "highLabel": "high responsibility attribution",
+        "rungs": [
+          { "label": "Victim · deny or bolster", "note": "an external force: disaster, tampering. The organization suffers alongside its stakeholders" },
+          { "label": "Accidental · diminish", "note": "unintended harm. Acknowledge, explain credibly, say what is being done" },
+          { "label": "Preventable · rebuild", "note": "you knew or should have known. Full acknowledgment, apology, real corrective action" },
+          { "label": "", "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S09", "section": "the strategic error",
+      "title": "The instinct is precisely backward",
+      "lead": "The error that ruins most corporate crisis responses is applying the wrong strategy to the crisis type — and it happens because high-responsibility crises are the most threatening.",
+      "bullets": [
+        "Largest liability, most severe reputational risk, most pressure from counsel to minimize disclosed responsibility.",
+        "So the instinct is to treat a **preventable** crisis as if it were **accidental** — explain context, note extenuating factors, avoid the words *we were wrong*.",
+        "Audiences are sophisticated readers of organizational behavior under pressure. A low-responsibility strategy on a high-responsibility crisis signals that you are protecting yourself rather than your stakeholders.",
+        "**That signal is often more damaging than the original crisis.**"
+      ]
+    },
+    {
+      "id": "S10", "section": "the full palette",
+      "title": "Benoit's five responses — and which ones are actually available",
+      "lead": "Image Repair Theory maps everything an organization can say. It does not say all five are on the table.",
+      "bullets": [
+        "**Denial** — it did not happen, or we did not do it. **Evasion of responsibility** — we did not intend it, someone else is responsible.",
+        "**Reducing offensiveness** — the harm is not as severe as it appears. **Corrective action** — we are fixing the problem.",
+        "**Mortification** — we accept responsibility and we apologize.",
+        "In a preventable crisis, denial is not viable: the facts will surface and the denial becomes an additional crisis on top of the original one. **Mortification plus genuine corrective action is the only path with a reasonable chance of recovery.**"
+      ]
+    },
+    {
+      "id": "S11", "section": "the Tylenol standard",
+      "title": "The Credo was written in 1943. The crisis was the test.",
+      "lead": "J&J's Credo — a statement of values written by Robert Wood Johnson II — placed responsibility to customers and the community explicitly ahead of responsibility to shareholders.",
+      "why": "chapter describes a commitment registered decades before the evidence: \"The Credo was not written in response to the crisis. It predated the crisis by nearly forty years. The crisis was a test of whether the values were real or decorative. They were real.\" — the resolution is one the chapter does state, so it is a verdict, not a TO RUN",
+      "archetype": "lockTimeline",
+      "duration": 7.0,
+      "data": {
+        "commit": { "at": 0.08, "label": "1943 · the Credo" },
+        "marks": [
+          { "at": 0.42, "label": "1982 · seven dead" },
+          { "at": 0.60, "label": "31M bottles · $100M" },
+          { "at": 0.78, "label": "tamper-evident packs" }
+        ],
+        "resolve": { "at": 0.90, "label": "1984 · above pre-crisis share", "verdict": "hit" },
+        "axisLabel": "forty years between the promise and the test"
+      }
+    },
+    {
+      "id": "S12", "section": "the contrast case",
+      "title": "Same claim, two outcomes: does the strategy match the responsibility?",
+      "lead": "In 2010 BP's Deepwater Horizon well blew out in the Gulf of Mexico, killing eleven workers. Internal documents later showed safety concerns had been raised and overridden for cost and schedule. Clearly preventable.",
+      "why": "chapter explicitly pairs the two cases as one argument — \"the Deepwater Horizon incident is now cited alongside the Tylenol case as the canonical illustration of SCCT's central claim: the strategy must match the responsibility\" — same crisis moment, two strategies, two landings",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "a crisis arrives",
+        "splitLabel": "does the strategy match the responsibility?",
+        "tracks": [
+          {
+            "label": "J&J · action first, then words",
+            "outcome": "recovery",
+            "tone": "good",
+            "path": "up",
+            "notes": ["pulled the national inventory", "communicated openly", "above pre-crisis share by 1984"]
+          },
+          {
+            "label": "BP · diminish on preventable",
+            "outcome": "compounded",
+            "tone": "warn",
+            "path": "down",
+            "notes": ["\"a very big ocean\"", "\"I'd like my life back\"", "Hayward resigned, July 2010"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S13", "section": "the playbook",
+      "title": "The most important thing about a playbook is when it is written",
+      "lead": "It is written before the crisis. Obvious in principle, violated constantly in practice — because it requires imagining the worst things that could happen to your brand while things are going well.",
+      "bullets": [
+        "**Monitoring and alert thresholds** — what you watch, and at what signal level watching becomes responding.",
+        "**Severity triage** — the first question when an alert fires: what kind of crisis is this?",
+        "**Holding statements** — one pre-drafted template per crisis category, written before anything happens.",
+        "**Escalation path** — who decides, who speaks, who must approve, and whether legal review comes first."
+      ]
+    },
+    {
+      "id": "S14", "section": "the live moment",
+      "title": "In the crisis, the content decisions are already made",
+      "lead": "A signal arrives. Nothing about what follows should be improvised — the playbook turned each decision into a gate you either clear or you don't.",
+      "why": "chapter describes an ordered flow where each step determines the next — \"applying SCCT's framework at the triage stage determines the response strategy before the response is written… every subsequent decision follows from it… the team selects the appropriate template, adjusts for the specifics, gets approval, and posts\" — and every verdict here belongs to the reader's own run",
+      "archetype": "gatePipeline",
+      "duration": 8.0,
+      "data": {
+        "input": { "label": "a monitoring signal" },
+        "gates": [
+          { "label": "Threshold", "rule": "background noise, or worth investigating?", "pass": null },
+          { "label": "Triage", "rule": "victim · accidental · preventable", "pass": null },
+          { "label": "Template", "rule": "pull the statement for that category", "pass": null },
+          { "label": "Approval", "rule": "who signs · legal review if required", "pass": null }
+        ],
+        "output": { "label": "posted", "pending": true }
+      }
+    },
+    {
+      "id": "S15", "section": "the threshold",
+      "title": "A judgment call, not a formula",
+      "lead": "The alert threshold separates background noise — a few negative mentions, normal sentiment variation — from a signal worth investigating: a spike, a negative story from a credible source, a pattern pointing to a systematic problem.",
+      "bullets": [
+        "Set it **too high** and you miss the early signal that, addressed quickly, could have been contained.",
+        "Set it **too low** and the system produces false alarms constantly, and the team habituates to ignoring alerts.",
+        "For a startup or personal brand the right threshold is typically **lower** than for a large corporation: less buffer equity to absorb a slow response, and a smaller audience where a smaller absolute signal is a larger proportional threat."
+      ]
+    },
+    {
+      "id": "S16", "section": "speed vs wrong-speed",
+      "title": "\"Respond fast\" is incomplete advice",
+      "lead": "Respond fast *with the right message*. Silence cedes the narrative — every hour of organizational silence is an hour in which the story is written by people who do not share your interests.",
+      "bullets": [
+        "**Wrong-fast** is a statement issued before you understand the situation: a defensive one falsified when the facts emerge, a minimizing one that looks tone-deaf when the scale becomes public, a denial that cannot be sustained.",
+        "United was not silent. Its response came *after* the narrative had set, and deployed the wrong strategy on a high-responsibility crisis. **The late and wrong response was worse than silence would have been.**",
+        "The holding statement resolves the tension: fast, and committing to nothing that cannot be sustained. \"We are investigating\" stays true as long as you are actually investigating.",
+        "For a story spreading on social: post it within the first **two hours**. For breaking broadcast news, it should already be queued."
+      ]
+    },
+    {
+      "id": "S17", "section": "worked example",
+      "title": "Three scenarios you would rather not imagine",
+      "lead": "The crisis playbook for a one-person technical education brand. Thinking these through in advance is uncomfortable and necessary — and the triage answer selects the template before a word is written.",
+      "why": "chapter classifies three named scenarios against the SCCT lenses and states the escalation: content error is \"an accidental crisis\"; systematic bad advice is \"likely accidental\" until \"a pattern emerges… it becomes preventable\"; personal misconduct \"is preventable\" — your own fourth scenario is TO RUN",
+      "archetype": "matrixGrid",
+      "duration": 8.5,
+      "data": {
+        "rows": [
+          { "label": "Victim" },
+          { "label": "Accidental" },
+          { "label": "Preventable" }
+        ],
+        "cols": [
+          { "label": "Content error" },
+          { "label": "Systematic bad advice" },
+          { "label": "Personal conduct" },
+          { "label": "Your scenario" }
+        ],
+        "cells": [
+          ["miss", "miss", "miss", "pending"],
+          ["hit", "hit", "miss", "pending"],
+          ["miss", "hit", "hit", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S18", "section": "the +1",
+      "title": "The monitor detects. You decide.",
+      "lead": "Madison watches the sources, spots the pattern, drafts the template. There is a line it does not cross, and the chapter marks crossing it a hard fail.",
+      "why": "chapter draws an explicit permission boundary in the AI+1 section — \"Madison detects and triages; you decide whether and how to respond… never auto-sent\" — and the validation gate names the crossing: \"any path where a monitor alert triggers a public response without human approval? Hard fail\"; the Warm-Up asks you to find the flaw in an auto-post escalation rule",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT THE MONITOR MAY DO" },
+        "inside": [
+          { "label": "watch the sources" },
+          { "label": "surface a signal" },
+          { "label": "draft a severity ranking" },
+          { "label": "draft holding templates" }
+        ],
+        "attempts": [
+          { "label": "auto-post a statement", "blocked": true, "from": "left" },
+          { "label": "the go/quiet call", "blocked": true, "from": "top" },
+          { "label": "verdict from a spike", "blocked": true, "from": "right" },
+          { "label": "flag it for you", "blocked": false, "from": "bottom" },
+          { "label": "your threshold", "blocked": null, "from": "left" }
+        ]
+      }
+    },
+    {
+      "id": "S19", "section": "still puzzling",
+      "title": "\"Be genuine\" is not useful to someone deciding what to type in the next twenty minutes",
+      "lead": "The Tylenol case is compelling partly because the values predated the crisis by decades. The response was evidence of real values, not a performance of them.",
+      "bullets": [
+        "Most crisis advice says lead with values and show empathy. Audiences are highly sensitive to **performed** empathy, and performed values during a crisis tend to make the crisis worse.",
+        "What I cannot reduce to a clean principle: how an organization distinguishes, in the live moment and under pressure, an authentic expression of values from a performance of authenticity.",
+        "**What would change my mind on SCCT:** it was built from case studies and surveys, not experiments. A controlled study randomly assigning response strategies across matched crisis types would confirm it or find where it fails. That study has not been done."
+      ]
+    },
+    {
+      "id": "S20", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Write the worst week of your brand's life. Then write what you would do.",
+      "lead": "Three realistic scenarios, matched to SCCT types. An alert threshold for each. A holding statement template for each — marked DRAFT, human approval required. And an escalation path that answers who decides and who speaks when the alert fires at 11pm on a Friday."
+    }
+  ]
+}

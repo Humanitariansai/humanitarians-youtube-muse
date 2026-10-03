@@ -1,0 +1,60 @@
+<!--
+  The six identity components as a system
+  Book: Branding and AI
+  Chapter: 09-visual-identity-systems
+  Figure: 03
+  Type: systems diagram (hub-and-spoke)
+  Generated: 2026-06-18
+  Source: pantry/09-visual-identity-systems-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-09-03">
+  <title id="fig-title-09-03">The six identity components as a system</title>
+  <desc>Six visual identity components — logo and wordmark, color palette, typography, imagery direction, layout system, and motion — all connect to a central archetype, because each is perceived in context with the others rather than independently.</desc>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Six components, one impression: each is read against the archetype</text>
+
+  <!-- center node -->
+  <rect x="270" y="200" width="160" height="60" fill="#F5F5F5" stroke="#121212" stroke-width="1.5"/>
+  <text x="350" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">Archetype</text>
+  <text x="350" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">the unifying orientation</text>
+
+  <!-- spokes -->
+  <g stroke="#121212" stroke-width="1">
+    <line x1="290" y1="210" x2="180" y2="120"/>
+    <line x1="350" y1="200" x2="350" y2="110"/>
+    <line x1="410" y1="210" x2="520" y2="120"/>
+    <line x1="290" y1="250" x2="180" y2="340"/>
+    <line x1="350" y1="260" x2="350" y2="350"/>
+    <line x1="410" y1="250" x2="520" y2="340"/>
+  </g>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <rect x="70" y="86" width="170" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="82" y="106" fill="#121212" font-weight="700">Logo / wordmark</text>
+    <text x="82" y="122" fill="#545454">most-replicated mark</text>
+
+    <rect x="265" y="74" width="170" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="277" y="94" fill="#121212" font-weight="700">Color palette</text>
+    <text x="277" y="110" fill="#545454">highest-frequency signal</text>
+
+    <rect x="460" y="86" width="170" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="472" y="106" fill="#121212" font-weight="700">Typography</text>
+    <text x="472" y="122" fill="#545454">sets register before words</text>
+
+    <rect x="70" y="328" width="170" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="82" y="348" fill="#121212" font-weight="700">Imagery direction</text>
+    <text x="82" y="364" fill="#545454">a style, not an asset</text>
+
+    <rect x="265" y="350" width="170" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="277" y="370" fill="#121212" font-weight="700">Layout system</text>
+    <text x="277" y="386" fill="#545454">recognizable without a logo</text>
+
+    <rect x="460" y="328" width="170" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="472" y="348" fill="#121212" font-weight="700">Motion</text>
+    <text x="472" y="364" fill="#545454">secondary; do the five first</text>
+  </g>
+
+
+  <text x="32" y="432" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The user perceives all of it at once and forms one impression.</text>
+  <text x="32" y="448" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Components either converge on the archetype or conflict.</text>
+</svg>

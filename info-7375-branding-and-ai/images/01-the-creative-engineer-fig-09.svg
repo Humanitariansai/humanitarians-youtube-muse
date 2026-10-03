@@ -1,0 +1,42 @@
+<!--
+  Three frames, one argument
+  Book: Branding and AI
+  Chapter: 01-the-creative-engineer
+  Figure: 09
+  Type: hierarchy / stack
+  Generated: 2026-06-18
+  Source: pantry/01-the-creative-engineer-cajal.md
+-->
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01-09">
+  <title id="fig-title-01-09">Three frames, one argument</title>
+  <desc>A dependency stack: Spence mechanism explains why, the four-verb framework explains what the portfolio must show, the archetype system explains how to execute Brand.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="400" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">One argument at three levels of resolution</text>
+
+  <!-- Band 1 -->
+  <rect x="120" y="64" width="480" height="86" fill="#F5F5F5" stroke="#121212" stroke-width="1.25"/>
+  <text x="136" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Spence mechanism</text>
+  <text x="136" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Answers: WHY brand matters — the build signal pooled</text>
+  <text x="136" y="134" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Breaks without it: brand treated as optional decoration</text>
+
+  <!-- Band 2 -->
+  <rect x="120" y="172" width="480" height="86" fill="#F5F5F5" stroke="#121212" stroke-width="1.25"/>
+  <text x="136" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Four-verb framework</text>
+  <text x="136" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Answers: WHAT the portfolio must demonstrate</text>
+  <text x="136" y="242" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Breaks without it: identity but no market action to prove it</text>
+
+  <!-- Band 3 -->
+  <rect x="120" y="280" width="480" height="86" fill="#F5F5F5" stroke="#121212" stroke-width="1.25"/>
+  <text x="136" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Archetype system</text>
+  <text x="136" y="330" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Answers: HOW to execute Brand specifically</text>
+  <text x="136" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Breaks without it: arbitrary style choices, drifting voice</text>
+
+  <!-- dependency arrows -->
+  <line x1="360" y1="150" x2="360" y2="170" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="360" y1="258" x2="360" y2="278" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <text x="32" y="392" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each layer fails without the one above it: why, then what, then how.</text>
+</svg>

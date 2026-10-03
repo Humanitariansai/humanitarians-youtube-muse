@@ -1,0 +1,54 @@
+<!--
+  Co-branding and ingredient branding
+  Book: Branding and AI
+  Chapter: 07-brand-architecture-and-portfolio
+  Figure: 05
+  Type: systems diagram
+  Generated: 2026-06-18
+  Source: pantry/07-brand-architecture-and-portfolio-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-07-05">
+  <title id="fig-title-07-05">Co-branding and ingredient branding</title>
+  <desc>Two structures for borrowing equity through partnership. Co-branding pairs two equal consumer brands in a joint value proposition. Ingredient branding makes a component brand visible inside a finished product. Both carry symmetric risk: you inherit the partner's crises.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Borrowing equity across brands: two structures, one symmetric risk</text>
+
+  <!-- LEFT: co-branding -->
+  <rect x="40" y="60" width="290" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Co-branding</text>
+  <text x="56" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">two equal consumer brands pair</text>
+
+  <rect x="60" y="150" width="100" height="48" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="110" y="179" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">Brand A</text>
+  <rect x="210" y="150" width="100" height="48" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="260" y="179" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">Brand B</text>
+  <line x1="160" y1="174" x2="210" y2="174" stroke="#121212" stroke-width="1.5"/>
+  <text x="185" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">joint value proposition</text>
+
+  <text x="56" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Nike × Apple</text>
+  <text x="56" y="284" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Supreme × Louis Vuitton</text>
+  <text x="56" y="302" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">BMW × Louis Vuitton</text>
+  <text x="56" y="326" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">pairing communicates more</text>
+
+  <!-- RIGHT: ingredient -->
+  <rect x="370" y="60" width="290" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="386" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Ingredient branding</text>
+  <text x="386" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">component visible in a finished product</text>
+
+  <rect x="400" y="140" width="230" height="80" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="412" y="158" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Finished product</text>
+  <rect x="470" y="166" width="120" height="40" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <text x="530" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">Component</text>
+  <text x="515" y="240" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">component visible to consumer</text>
+
+  <text x="386" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Intel Inside</text>
+  <text x="386" y="284" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Gore-Tex</text>
+  <text x="386" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">component claims what the maker</text>
+  <text x="386" y="324" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">cannot claim alone</text>
+
+  <!-- shared risk caption -->
+  <rect x="40" y="360" width="620" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="382" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" font-weight="700">Symmetric risk</text>
+  <text x="56" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">You inherit your partner's reputation — and your partner's crises.</text>
+  <text x="56" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Choosing a partner is choosing which risks to take aboard.</text>
+</svg>

@@ -1,0 +1,67 @@
+<!--
+  The brand relationship spectrum
+  Book: Branding and AI
+  Chapter: 07-brand-architecture-and-portfolio
+  Figure: 01
+  Type: conceptual map
+  Generated: 2026-06-18
+  Source: pantry/07-brand-architecture-and-portfolio-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-07-01">
+  <title id="fig-title-07-01">The brand relationship spectrum</title>
+  <desc>Horizontal spectrum from branded house on the left to house of brands on the right, with four labeled positions: branded house, sub-brand, endorsed brand, house of brands. Shared equity falls and risk containment rises moving left to right.</desc>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The brand relationship spectrum: from one master brand to many independent brands</text>
+
+  <!-- upper annotation band: shared equity / efficiency -->
+  <text x="60" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Shared equity &amp; marketing efficiency</text>
+  <line x1="60" y1="100" x2="640" y2="100" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <polygon points="60 100, 70 96, 70 104" fill="#787878"/>
+  <text x="76" y="116" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">highest</text>
+  <text x="600" y="116" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="end">lowest</text>
+
+  <!-- main spectrum axis -->
+  <line x1="60" y1="200" x2="640" y2="200" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- four position ticks/boxes -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">
+    <line x1="105" y1="192" x2="105" y2="208" stroke="#121212" stroke-width="1.5"/>
+    <rect x="50" y="214" width="110" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="105" y="232">Branded house</text>
+    <text x="105" y="250" font-size="11" fill="#545454">one master brand</text>
+
+    <line x1="285" y1="192" x2="285" y2="208" stroke="#121212" stroke-width="1.5"/>
+    <rect x="230" y="214" width="110" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="285" y="232">Sub-brand</text>
+    <text x="285" y="250" font-size="11" fill="#545454">master leads</text>
+
+    <line x1="415" y1="192" x2="415" y2="208" stroke="#121212" stroke-width="1.5"/>
+    <rect x="360" y="214" width="110" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="415" y="232">Endorsed brand</text>
+    <text x="415" y="250" font-size="11" fill="#545454">child leads</text>
+
+    <line x1="595" y1="192" x2="595" y2="208" stroke="#121212" stroke-width="1.5"/>
+    <rect x="540" y="214" width="110" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="595" y="232">House of brands</text>
+    <text x="595" y="250" font-size="11" fill="#545454">parent invisible</text>
+  </g>
+
+  <!-- example anchors -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">
+    <text x="105" y="284">Apple · FedEx</text>
+    <text x="285" y="284">Apple to iPhone</text>
+    <text x="415" y="284">Courtyard by Marriott</text>
+    <text x="595" y="284">P&amp;G · Unilever</text>
+  </g>
+
+  <!-- lower annotation band: risk containment -->
+  <line x1="60" y1="330" x2="640" y2="330" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3"/>
+  <polygon points="640 330, 630 326, 630 334" fill="#787878"/>
+  <text x="60" y="324" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Risk containment &amp; precise targeting</text>
+  <text x="76" y="348" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">lowest</text>
+  <text x="600" y="348" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="end">highest</text>
+
+  <text x="32" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Moving right trades efficiency for isolation: shared equity is shared risk;</text>
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">independent brands isolate failure but cost more to build.</text>
+  <text x="32" y="424" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">AFTER AAKER &amp; JOACHIMSTHALER, BRAND LEADERSHIP — BRAND RELATIONSHIP SPECTRUM</text>
+</svg>

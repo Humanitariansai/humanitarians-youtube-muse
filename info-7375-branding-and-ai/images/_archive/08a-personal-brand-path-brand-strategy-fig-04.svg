@@ -1,0 +1,38 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="480" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">The Stripe inversion — what the brand declined is what made it legible</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Two columns of equal weight. The right column is as definitional as the left.</text>
+<rect x="56" y="80" width="272" height="320" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="72" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.5">WHAT STRIPE BUILT</text>
+<line x1="72" y1="112" x2="312" y2="112" stroke="#8a8480" stroke-width="0.75"/>
+<circle cx="80" cy="140" r="3" fill="#1a1714"/>
+<text x="92" y="144" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1a1714">Clean payment API</text>
+<circle cx="80" cy="188" r="3" fill="#1a1714"/>
+<text x="92" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1a1714">Developer documentation</text>
+<circle cx="80" cy="236" r="3" fill="#1a1714"/>
+<text x="92" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1a1714">Self-serve onboarding</text>
+<circle cx="80" cy="284" r="3" fill="#1a1714"/>
+<text x="92" y="288" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1a1714">Technically-precise blog</text>
+<circle cx="80" cy="332" r="3" fill="#1a1714"/>
+<text x="92" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1a1714">Slow product cadence</text>
+<rect x="372" y="80" width="272" height="320" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="388" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.5">WHAT STRIPE DECLINED</text>
+<line x1="388" y1="112" x2="628" y2="112" stroke="#8a8480" stroke-width="0.75"/>
+<circle cx="396" cy="140" r="3" fill="#1a1714"/>
+<text x="408" y="144" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1a1714">Enterprise sales team</text>
+<circle cx="396" cy="188" r="3" fill="#1a1714"/>
+<text x="408" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1a1714">Broad-audience marketing</text>
+<circle cx="396" cy="236" r="3" fill="#1a1714"/>
+<text x="408" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1a1714">Consumer trust signals</text>
+<circle cx="396" cy="284" r="3" fill="#1a1714"/>
+<text x="408" y="288" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1a1714">Rapid product proliferation</text>
+<circle cx="396" cy="332" r="3" fill="#1a1714"/>
+<text x="408" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#1a1714">Marketing-style content</text>
+<text x="350.0" y="432" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Pile up these declinations across fifteen years and the company looks like it always knew what it was —</text>
+<text x="350.0" y="452" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">because it kept declining the things that would have made it look like something else.</text>
+</svg>

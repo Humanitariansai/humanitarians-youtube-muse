@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The augmentation-to-delegation spectrum</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:240px; }
+.title { font-family:'EB Garamond', Georgia, serif; font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle,.axis-label { font-family:'EB Garamond', Georgia, serif; font-size:11px; fill:var(--color-secondary); } .value-label { font-family:'IBM Plex Mono','JetBrains Mono',monospace; font-size:10px; fill:var(--color-secondary); letter-spacing:0.08em; }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const points=[
+ {label:"Cursor",pos:0.18,desc:"AI embedded in the editor; developer reviews and approves each change.",brand:"“we trust developers”",accent:false},
+ {label:"Madison",pos:0.42,desc:"Five orchestrated roles; humans approve at consequential points.",brand:"“humans approve where it matters”",accent:true},
+ {label:"Devin",pos:0.85,desc:"Sandboxed autonomous agent; developer reviews outcomes, not steps.",brand:"“we handle defined work”",accent:false}
+];
+const titleText='The augmentation-to-delegation spectrum';
+const descText='A horizontal axis from user-in-full-control (Cursor) to system-autonomous (Devin); Madison sits in the left-center, where humans approve consequential decisions.';
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,700);
+ const totalHeight=420; const margin={left:90,right:90};
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight)
+   .attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text('Same technology, different theory of agency and risk. Locate your own tool concept on this axis.');
+ const defs=svg.append('defs');
+ defs.append('marker').attr('id','arrow').attr('markerWidth',8).attr('markerHeight',6).attr('refX',7).attr('refY',3).attr('orient','auto')
+   .append('polygon').attr('points','0 0, 8 3, 0 6').attr('fill','var(--color-ink)');
+ const x=d3.scaleLinear().domain([0,1]).range([margin.left,totalWidth-margin.right]);
+ const axisY=200;
+ svg.append('line').attr('x1',margin.left).attr('y1',axisY).attr('x2',totalWidth-margin.right).attr('y2',axisY)
+   .attr('stroke','var(--color-ink)').attr('stroke-width',1.5).attr('marker-end','url(#arrow)').attr('aria-hidden','true');
+ svg.append('text').attr('x',margin.left).attr('y',axisY+30).attr('class','axis-label').attr('font-weight',700).attr('fill','var(--color-ink)').text('User in full control');
+ svg.append('text').attr('x',margin.left).attr('y',axisY+46).attr('class','axis-label').text('Augmentation');
+ svg.append('text').attr('x',totalWidth-margin.right).attr('y',axisY+30).attr('text-anchor','end').attr('class','axis-label').attr('font-weight',700).attr('fill','var(--color-ink)').text('System autonomous');
+ svg.append('text').attr('x',totalWidth-margin.right).attr('y',axisY+46).attr('text-anchor','end').attr('class','axis-label').text('Delegation — human reviews outcomes');
+ const g=svg.append('g').selectAll('.pt').data(points).join('g');
+ g.each(function(d){
+   const sel=d3.select(this); const px=x(d.pos);
+   sel.append('line').attr('x1',px).attr('y1',axisY-8).attr('x2',px).attr('y2',axisY+8).attr('stroke',d.accent?'var(--color-red)':'var(--color-ink)').attr('stroke-width',d.accent?2:1.5);
+   sel.append('line').attr('x1',px).attr('y1',axisY-8).attr('x2',px).attr('y2',150).attr('stroke',d.accent?'var(--color-red)':'var(--color-border)').attr('stroke-width',d.accent?1.5:1);
+   sel.append('rect').attr('x',px-50).attr('y',108).attr('width',100).attr('height',42).attr('rx',0)
+     .attr('fill',d.accent?'var(--color-red)':'var(--color-white)').attr('stroke',d.accent?'var(--color-ink)':'var(--color-border)').attr('stroke-width',1).attr('tabindex',0)
+     .attr('aria-label',d.label+': '+d.desc)
+     .on('mouseover',function(event){if(!d.accent)d3.select(this).attr('stroke','var(--color-red)'); showTooltip(event,'<strong>'+d.label+'</strong><br>'+d.desc+'<br><em>'+d.brand+'</em>');})
+     .on('mousemove',moveTooltip).on('mouseout',function(){if(!d.accent)d3.select(this).attr('stroke','var(--color-border)'); hideTooltip();});
+   sel.append('text').attr('x',px).attr('y',127).attr('text-anchor','middle').attr('font-size',12).attr('fill',d.accent?'var(--color-white)':'var(--color-ink)').attr('font-family',"'EB Garamond', Georgia, serif").text(d.label);
+   sel.append('text').attr('x',px).attr('y',142).attr('text-anchor','middle').attr('font-size',8).attr('fill',d.accent?'var(--color-white)':'var(--color-secondary)').attr('font-family',"'EB Garamond', Georgia, serif").text(d.brand.replace(/[“”]/g,''));
+ });
+ svg.append('text').attr('x',margin.left).attr('y',300).attr('class','axis-label').text('Recovery: review every change inline');
+ svg.append('text').attr('x',totalWidth-margin.right).attr('y',300).attr('text-anchor','end').attr('class','axis-label').text('Recovery: review the outcome, not the steps');
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

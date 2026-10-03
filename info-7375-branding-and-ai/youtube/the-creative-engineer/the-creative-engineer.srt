@@ -1,0 +1,164 @@
+1
+00:00:00,000 --> 00:00:12,960
+Ola. This is Liam, in for Bear. Here is
+the question we are running today. When
+almost anyone can make the thing that used
+
+2
+00:00:13,010 --> 00:00:26,190
+For twenty years, one visible artifact
+told employers who could build. Now the
+tool made producing that artifact cheap.
+
+3
+00:00:26,240 --> 00:00:33,380
+Act one. A signal is not the thing itself.
+It is a proxy for the thing, chosen
+because the thing itself is hard to see.
+
+4
+00:00:33,430 --> 00:00:47,840
+An employer hires someone to be
+productive. They cannot measure
+productivity before hiring; by the time
+
+5
+00:00:47,890 --> 00:01:03,630
+In nineteen seventy-three the economist
+Michael Spence gave this idea a mechanism.
+A signal carries information only when
+
+6
+00:01:03,680 --> 00:01:16,260
+Spence named two states. In one, the
+signal separates. High and low candidates
+land on visibly different sides of it. In
+
+7
+00:01:16,310 --> 00:01:32,450
+For a long stretch, one visible artifact
+was the separating signal for software: a
+working project in a public repository. To
+
+8
+00:01:32,500 --> 00:01:50,670
+Then a study published in twenty twenty-
+three ran the numbers. Ninety-five
+professional developers, same task, half
+
+9
+00:01:50,720 --> 00:02:05,330
+By twenty twenty-four, eighty-two percent
+of a large developer survey reported using
+assistive tools for code. That is not a
+
+10
+00:02:05,380 --> 00:02:20,690
+The visible artifact did not vanish. It
+pooled. A recruiter looking at the same
+repository can no longer tell whether it
+
+11
+00:02:20,740 --> 00:02:25,850
+Act two. If the tool cheapened the proof,
+the question becomes: what did the tool
+not touch?
+
+12
+00:02:25,900 --> 00:02:37,710
+There is a useful way to slice a working
+career into four moves. Ideate. Build.
+Brand. Ship. The tool has been living
+
+13
+00:02:37,760 --> 00:02:53,670
+Ideate is the decision about what is worth
+building. The tool does the second
+question well. It cannot answer the first.
+
+14
+00:02:53,720 --> 00:03:10,080
+Build is necessary and no longer
+sufficient. Real systems still need
+judgment: architecture that scales, a
+
+15
+00:03:10,130 --> 00:03:27,300
+Brand is where the technical mind resists.
+Here is the useful analogy. An interface
+without documentation is complete. It
+
+16
+00:03:27,350 --> 00:03:41,470
+Ship is a public address that a stranger
+can reach, and someone who is not you
+using the thing. Not a repository. Not a
+
+17
+00:03:41,520 --> 00:03:43,800
+Act three. Being seen at all.
+
+18
+00:03:43,850 --> 00:03:59,520
+Being good at something is one problem.
+Being recognizable for it is another, and
+the second one is what a market can
+
+19
+00:03:59,570 --> 00:04:17,400
+Consider two firms doing broadly similar
+frontier research. Their technical
+foundations rhyme. Their brands do not.
+
+20
+00:04:17,450 --> 00:04:32,440
+A useful map for the same choice at the
+level of a career is the twelve archetype
+wheel. It gives a vocabulary for the
+
+21
+00:04:32,490 --> 00:04:50,340
+The archetype is descriptive first,
+prescriptive second. You are not inventing
+a persona. You are naming the one already
+
+22
+00:04:50,390 --> 00:05:09,500
+A worked example. Engineer A has seventeen
+repositories, fourteen unfinished. The
+three complete are tight and unforgiving.
+
+23
+00:05:09,550 --> 00:05:29,790
+Engineer B has four repositories, all
+finished. Two read like tutorials. His bio
+talks about making complex systems
+
+24
+00:05:29,840 --> 00:05:45,600
+Zoom out and the three moves connect. The
+signal argument names why the market is
+repricing. The four verbs name where the
+
+25
+00:05:45,650 --> 00:05:59,000
+One caveat, plainly stated. The currently
+separating signals are the next to pool.
+That is what happens to signals under a
+
+26
+00:05:59,050 --> 00:06:11,460
+The verdict, in four lines. A signal works
+only while producing it stays costly.
+Cheap tools collapse the cost. The value
+
+27
+00:06:11,510 --> 00:06:36,440
+Your turn. Paste this into your Claude
+session, in your own words. Name the field
+you work in. List two or three signals
+
+28
+00:06:36,490 --> 00:06:40,070
+When the Signal Stops Sorting. Liam, in
+for Bear.

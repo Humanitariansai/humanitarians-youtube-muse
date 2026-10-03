@@ -1,0 +1,84 @@
+<!--
+  Orchestrated vs autonomous vs chained: the trade-off
+  Book: Branding and AI
+  Chapter: 22-shipit-ai-intelligence-and-multiagent-systems
+  Figure: 08
+  Type: comparison matrix
+  Generated: 2026-06-18
+  Source: pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md
+-->
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-22-08">
+  <title id="fig-title-22-08">Orchestrated vs autonomous vs chained: the trade-off</title>
+  <desc>A trade-off matrix comparing autonomous agents, orchestrated multi-agent systems, and chained calls across predictability, debugging surface, specification cost, failure visibility, and cost control. No architecture wins on every dimension.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="22-shipit-ai-intelligence-and-multiagent-systems"
+      figure-number="08" figure-title="Orchestrated vs autonomous vs chained: the trade-off" figure-slug="architecture-tradeoff-matrix"
+      figure-type="comparison matrix" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="360" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">No architecture wins on every dimension</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The disciplined engineer chooses where to sit and designs each failure mode on purpose.</text>
+
+  <!-- header row -->
+  <rect x="32" y="72" width="160" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="192" y="72" width="158" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="350" y="72" width="158" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="508" y="72" width="160" height="40" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="96" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Dimension</text>
+  <text x="200" y="96" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Autonomous</text>
+  <text x="358" y="96" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Orchestrated</text>
+  <text x="516" y="96" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Chained calls</text>
+
+  <!-- helper: 5 rows, each h=44, y starts 112 -->
+  <!-- row predictability -->
+  <rect x="32" y="112" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="192" y="112" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="350" y="112" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="508" y="112" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="138" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Predictability</text>
+  <text x="200" y="138" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Low</text>
+  <text x="358" y="138" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">High</text>
+  <text x="516" y="138" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">High (per-step risk)</text>
+
+  <!-- row debugging surface -->
+  <rect x="32" y="156" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="192" y="156" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="350" y="156" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="508" y="156" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Debugging surface</text>
+  <text x="200" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Whole 40-step trace</text>
+  <text x="358" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">One agent at a time</text>
+  <text x="516" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">One step at a time</text>
+
+  <!-- row specification cost -->
+  <rect x="32" y="200" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="192" y="200" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="350" y="200" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="508" y="200" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Specification cost</text>
+  <text x="200" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Low upfront</text>
+  <text x="358" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">High — each agent</text>
+  <text x="516" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Medium</text>
+
+  <!-- row failure visibility -->
+  <rect x="32" y="244" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="192" y="244" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="350" y="244" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="508" y="244" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Failure visibility</text>
+  <text x="200" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Visible to user</text>
+  <text x="358" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Hidden — needs logs</text>
+  <text x="516" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Inspectable per step</text>
+
+  <!-- row cost control -->
+  <rect x="32" y="288" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="192" y="288" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="350" y="288" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="508" y="288" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Cost control</text>
+  <text x="200" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Hard — needs ceilings</text>
+  <text x="358" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Predictable</text>
+  <text x="516" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Predictable</text>
+</svg>

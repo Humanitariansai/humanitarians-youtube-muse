@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consistent cadence vs burst-and-abandon over three years</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; } .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-size:13px; max-width:240px; } .title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); } .panel-title { font-size:12px; font-weight:700; } .axis-label { font-family:'IBM Plex Mono','JetBrains Mono',monospace; font-size:9px; fill:var(--color-secondary); } @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+// consistent: steady monthly audience growth over 36 months
+const consistent=d3.range(0,37).map(m=>({m:m,aud:Math.round(2+Math.pow(m,1.35)*0.9)}));
+// burst-and-abandon: sawtooth, net flat
+const burst=d3.range(0,37).map(m=>{ const phase=m%12; let v; if(phase<6) v=4+phase*4; else v=28-(phase-6)*4.2; return {m:m,aud:Math.max(2,Math.round(v*0.9+ (m>24?2:0)))}; });
+const titleText="Consistent cadence vs burst-and-abandon";
+const descText="Same 36 pieces over three years. The audience curve, not the count, is what differs — consistency compounds.";
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function panel(svg,x,w,title,titleColor,data,color){
+  const top=100, h=250;
+  svg.append('text').attr('x',x+w/2).attr('y',90).attr('text-anchor','middle').attr('class','panel-title').attr('fill',titleColor).text(title);
+  svg.append('rect').attr('x',x).attr('y',top).attr('width',w).attr('height',h).attr('fill','var(--color-fill)').attr('stroke','var(--color-border)');
+  const xS=d3.scaleLinear().domain([0,36]).range([x+10,x+w-10]);
+  const yS=d3.scaleLinear().domain([0,55]).range([top+h-14,top+14]);
+  const line=d3.line().x(d=>xS(d.m)).y(d=>yS(d.aud)).curve(d3.curveMonotoneX);
+  const path=svg.append('path').datum(data).attr('fill','none').attr('stroke',color).attr('stroke-width',2.5).attr('d',line);
+  const len=path.node().getTotalLength();
+  path.attr('stroke-dasharray',len+' '+len).attr('stroke-dashoffset',len).transition().duration(800).attr('stroke-dashoffset',0);
+  // invisible hover targets
+  svg.selectAll('.hot-'+x).data(data.filter((d,i)=>i%3===0)).join('circle').attr('r',4).attr('cx',d=>xS(d.m)).attr('cy',d=>yS(d.aud)).attr('fill','transparent').attr('tabindex',0).attr('aria-label',d=>'Month '+d.m+': audience '+d.aud)
+    .on('mouseover',(e,d)=>showTooltip(e,'<strong>Month '+d.m+'</strong><br>Audience index: '+d.aud)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+  // year ticks
+  [0,12,24].forEach(yr=>svg.append('text').attr('x',xS(yr)).attr('y',top+h+16).attr('class','axis-label').text('Yr '+(yr/12+1)));
+  svg.append('text').attr('x',x).attr('y',top-4).attr('class','axis-label').text('audience');
+}
+function draw(){
+  d3.select('#chart').selectAll('*').remove();
+  const container=document.getElementById('chart');
+  const totalWidth=Math.max(container.clientWidth-48,660);
+  const totalHeight=440; const padX=24; const gap=40;
+  const pw=(totalWidth-padX*2-gap)/2;
+  const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+  svg.append('title').attr('id','chart-title').text(titleText);
+  svg.append('desc').attr('id','chart-desc').text(descText);
+  svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+  svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText);
+  panel(svg,padX,pw,'Consistent — 12/yr, steady growth','var(--color-red)',consistent,'var(--color-red)');
+  panel(svg,padX+pw+gap,pw,'Burst-and-abandon — flat audience','var(--color-secondary)',burst,'var(--color-secondary)');
+  svg.append('text').attr('x',totalWidth/2).attr('y',totalHeight-12).attr('text-anchor','middle').attr('font-size',10).attr('font-style','italic').attr('fill','var(--color-secondary)').text('Cadence is a compounding asset — consistency builds the recognizable presence.');
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

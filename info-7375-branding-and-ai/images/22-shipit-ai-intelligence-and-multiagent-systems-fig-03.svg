@@ -1,0 +1,81 @@
+<!--
+  Architecture A vs Architecture B as a brand experience
+  Book: Branding and AI
+  Chapter: 22-shipit-ai-intelligence-and-multiagent-systems
+  Figure: 03
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-22-03">
+  <title id="fig-title-22-03">Architecture A vs Architecture B as a brand experience</title>
+  <desc>Two side-by-side panels for identical capability. Architecture A is autonomous and transparent — the user watches the reasoning trace. Architecture B is orchestrated and competent — a structured brief in, a finished report out. Each shows what happens when it works and when it fails.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="22-shipit-ai-intelligence-and-multiagent-systems"
+      figure-number="03" figure-title="Architecture A vs Architecture B as a brand experience" figure-slug="architecture-a-vs-b-brand"
+      figure-type="comparison panels" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Same model, same task — two brand experiences</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The architecture decides what the product feels like. Neither is universally correct.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- Panel A -->
+  <rect x="32" y="74" width="306" height="320" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="48" y="98" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Architecture A — Autonomous</text>
+  <text x="48" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Brand promise: transparency</text>
+
+  <rect x="48" y="130" width="120" height="30" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="108" y="149" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">User asks a question</text>
+  <line x1="168" y1="145" x2="200" y2="145" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <rect x="202" y="130" width="120" height="30" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="262" y="145" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Agent decides what</text>
+  <text x="262" y="156" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">to search / read next</text>
+  <line x1="262" y1="160" x2="262" y2="186" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <rect x="202" y="188" width="120" height="30" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="262" y="207" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Visible reasoning trace</text>
+  <text x="108" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">User watches it work</text>
+
+  <line x1="48" y1="240" x2="322" y2="240" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="262" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">When it works</text>
+  <text x="48" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Feels collaborative and alive — the</text>
+  <text x="48" y="291" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">user directs the exploration.</text>
+  <text x="48" y="318" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">When it fails</text>
+  <text x="48" y="334" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">The failure is equally visible — the</text>
+  <text x="48" y="347" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">loop, the confusion, the wrong answer,</text>
+  <text x="48" y="360" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">all in real time.</text>
+  <text x="48" y="382" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Fits: research-collaboration tools.</text>
+
+  <!-- Panel B -->
+  <rect x="362" y="74" width="306" height="320" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="378" y="98" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Architecture B — Orchestrated</text>
+  <text x="378" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Brand promise: competence</text>
+
+  <rect x="378" y="130" width="120" height="30" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="438" y="149" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">User fills a brief</text>
+  <line x1="498" y1="145" x2="530" y2="145" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <rect x="532" y="130" width="120" height="30" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="592" y="145" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">5 specialist agents</text>
+  <text x="592" y="156" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">run in sequence</text>
+  <line x1="592" y1="160" x2="592" y2="186" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <rect x="532" y="188" width="120" height="30" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="592" y="207" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Finished report</text>
+  <text x="438" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">User sees a status bar</text>
+
+  <line x1="378" y1="240" x2="652" y2="240" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="378" y="262" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">When it works</text>
+  <text x="378" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Feels professional and frictionless —</text>
+  <text x="378" y="291" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">a deliverable, not a process.</text>
+  <text x="378" y="318" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">When it fails</text>
+  <text x="378" y="334" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">The failure is opaque — a missing</text>
+  <text x="378" y="347" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">report or an error, no visible path</text>
+  <text x="378" y="360" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">to understanding why.</text>
+  <text x="378" y="382" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Fits: enterprise reporting tools.</text>
+</svg>

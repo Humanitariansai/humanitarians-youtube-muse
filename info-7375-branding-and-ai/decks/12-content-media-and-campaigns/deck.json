@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "title": "Content, Media & Campaigns",
+    "short": "BRANDING · CH12",
+    "course": "Branding and AI · Chapter 12",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/12-content-media-and-campaigns.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 12",
+      "title": "Content, Media & Campaigns",
+      "subtitle": "AI made content free to produce. That is exactly why most of it is worthless.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the thought experiment",
+      "title": "A thousand competent posts for the price of one",
+      "lead": "Not a thousand great posts — a thousand competent ones. Readable, formatted, on-trend, free of obvious errors. Would you be richer for it?",
+      "bullets": [
+        "The naive answer is yes: more surface area, more search presence, more touchpoints.",
+        "The correct answer is that you would almost certainly be **worse off**.",
+        "The barrier that used to protect good publishers — *they could afford to produce, and most people couldn't* — is gone.",
+        "So the scarce thing is no longer the content. It is the **reason to publish this** and the **judgment to make it good and true**."
+      ]
+    },
+    {
+      "id": "S03", "section": "the flood and the filter",
+      "title": "Same cheap drafting. Two completely different assets.",
+      "lead": "The thousand-post experiment is a trap. The ten-post strategy is a compounding asset. The difference is one decision made upstream.",
+      "why": "chapter's closing claim is literally a split from a shared origin: \"Content without the upstream strategy is the flood. Content with the upstream strategy … is the filter.\"",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "AI drafting at near-zero cost",
+        "splitLabel": "is there a strategy layer above the copy?",
+        "tracks": [
+          {
+            "label": "With the upstream strategy", "outcome": "the filter", "tone": "good", "path": "up",
+            "notes": ["archetype decides the channels", "voice spec decides the sound", "negative-space list decides the silence"]
+          },
+          {
+            "label": "Without it", "outcome": "the flood", "tone": "warn", "path": "down",
+            "notes": ["volume as a substitute for judgment", "fluent, on-trend, generic", "an execution capability mistaken for a strategy"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S04", "section": "PESO",
+      "title": "Four kinds of media, four different economics",
+      "lead": "Gini Dietrich's model. Memorize the acronym — each letter is a genuinely different relationship between the brand and the audience.",
+      "why": "chapter names four media categories and lists the specific surfaces inside each one — paid (search ads, display, sponsored, influencer), earned (press, reviews, backlinks), shared (LinkedIn, X, Reddit, Slack), owned (site, blog, email, podcast, docs): a real two-level taxonomy",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "PESO",
+        "centerShort": "PESO",
+        "groups": [
+          {
+            "label": "Paid", "tone": "ink",
+            "children": [
+              { "label": "search + social ads" },
+              { "label": "display" },
+              { "label": "sponsored content" },
+              { "label": "influencer, disclosed" }
+            ]
+          },
+          {
+            "label": "Earned", "tone": "ink",
+            "children": [
+              { "label": "press mentions" },
+              { "label": "reviews" },
+              { "label": "word of mouth" },
+              { "label": "backlinks + citations" }
+            ]
+          },
+          {
+            "label": "Shared", "tone": "ink",
+            "children": [
+              { "label": "LinkedIn" },
+              { "label": "X threads" },
+              { "label": "Reddit" },
+              { "label": "community Slack" }
+            ]
+          },
+          {
+            "label": "Owned", "tone": "accent",
+            "children": [
+              { "label": "your website" },
+              { "label": "your email list" },
+              { "label": "podcast + docs" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S05", "section": "the real argument",
+      "title": "The power is in the integration, not the quadrant",
+      "lead": "Any media buyer knows paid from editorial. What the model reveals is how each channel feeds the next.",
+      "why": "chapter traces an explicit chain: owned research \"can earn press coverage, which spreads on shared channels, which makes paid amplification of the best-performing version worth the cost\" — and paid drives traffic back to owned",
+      "archetype": "graph",
+      "duration": 7.5,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          { "id": "owned", "label": "owned · original data", "tone": "accent", "layer": 0 },
+          { "id": "earned", "label": "earned · press", "tone": "ink", "layer": 1 },
+          { "id": "shared", "label": "shared · it spreads", "tone": "ink", "layer": 2 },
+          { "id": "paid", "label": "paid · amplify the winner", "tone": "ink", "layer": 3 }
+        ],
+        "edges": [
+          { "from": "owned", "to": "earned", "label": "worth referencing" },
+          { "from": "earned", "to": "shared", "label": "third party vouches" },
+          { "from": "shared", "to": "paid", "label": "now worth the spend" },
+          { "from": "paid", "to": "owned", "label": "drives traffic back" }
+        ]
+      }
+    },
+    {
+      "id": "S06", "section": "one voice",
+      "title": "IMC is an organizational insistence, not a style guide",
+      "lead": "Don Schultz watched the fragmented channel landscape of the 1980s produce brands that said different things in different rooms — not by strategy, but because each department owned its channel and optimized alone.",
+      "bullets": [
+        "The ad team had its message. The PR team had its story. The direct-mail team had its offer.",
+        "The customer rarely experienced them as a coherent whole.",
+        "IMC: the specific expression adapts to the channel — a tweet is not a press release — but the **claim, the archetype, and the voice are identical** across all of them.",
+        "A brand with four messages is not running a campaign. It is running four unrelated publishing programs that happen to share a logo."
+      ]
+    },
+    {
+      "id": "S07", "section": "the worked case",
+      "title": "Stripe Atlas, 2016",
+      "lead": "What a well-run IMC campaign actually looks like — and it does not look like a campaign.",
+      "bullets": [
+        "Owned: a detailed explainer aimed at the developer-and-builder audience Stripe had cultivated for six years.",
+        "Earned: publications covering startup infrastructure — *not* general business press.",
+        "Shared: developer communities and founder forums, because the product solved a problem those rooms were already discussing.",
+        "No television. No display. No celebrity. One message everywhere: **this was unnecessarily hard, and we made it simple.**"
+      ]
+    },
+    {
+      "id": "S08", "section": "the brief",
+      "title": "Six questions, in sequence, each one constraining the next",
+      "lead": "The document that enforces IMC — and it is shorter than most people expect.",
+      "why": "chapter states \"a campaign brief answers six questions in sequence. Each question constrains the next\" and names all six; whether your own brief clears each is per-reader, so every verdict is TO RUN",
+      "archetype": "gatePipeline",
+      "duration": 9.0,
+      "data": {
+        "input": { "label": "your Chapter 6 strategy" },
+        "gates": [
+          { "label": "Objective", "rule": "measurable, or it is a publishing impulse", "pass": null },
+          { "label": "Audience", "rule": "a named person, not an abstraction", "pass": null },
+          { "label": "Message", "rule": "one testable claim, not a list", "pass": null },
+          { "label": "Channel mix", "rule": "derived from audience, not from habit", "pass": null },
+          { "label": "Budget", "rule": "work backward to the achievable", "pass": null },
+          { "label": "Measurement", "rule": "one KPI, set before launch", "pass": null }
+        ],
+        "output": { "label": "a one-page brief", "pending": true }
+      }
+    },
+    {
+      "id": "S09", "section": "the test",
+      "title": "\"More awareness\" is not an objective",
+      "lead": "Awareness is a precondition. An objective is something you can verify after the campaign ends.",
+      "bullets": [
+        "*Increase signups from developer-audience visitors by 20% over six weeks.* That is an objective.",
+        "*Generate 50 press mentions in publications covering AI developer tools by Q3.* That is an objective.",
+        "Set measurement **before** launch — measurement chosen after the fact will unconsciously favor the metrics that flatter you.",
+        "A brief that fits on one page is finished. A brief that runs to three pages has not yet made its decisions."
+      ]
+    },
+    {
+      "id": "S10", "section": "reach vs frequency",
+      "title": "The error most small brands make",
+      "lead": "Reach is how many distinct people see it once. Frequency is how many times each one sees it. At the same total cost, these are not equivalent.",
+      "why": "chapter states the comparison in figures: \"a campaign that achieves one impression with 10,000 people will almost never produce as much behavior change as a campaign that achieves five impressions with 2,000 people — even at the same total cost\"; the exercise adds the 10-impressions-to-200-people case",
+      "archetype": "scaleAxis",
+      "duration": 7.5,
+      "data": {
+        "axis": { "min": 100, "max": 20000, "unit": "distinct people reached", "log": true },
+        "items": [
+          { "label": "1 impression each · awareness play", "value": 10000 },
+          { "label": "5 impressions each · the chapter's example", "value": 2000, "hot": true },
+          { "label": "10 impressions each · the exercise's option B", "value": 200 },
+          { "label": "", "value": 500, "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S11", "section": "assembled",
+      "title": "The Sage tool, eight weeks, forty demo requests",
+      "lead": "Marketing managers at small B2B SaaS companies who run attribution manually and distrust AI insights they cannot audit. They are on LinkedIn. They are not on TikTok.",
+      "bullets": [
+        "Message, one claim: **the tool shows exactly how each attribution model reaches its conclusion.** Auditable AI, not just AI.",
+        "Owned is the primary investment — a long-form piece with real data the skeptic can evaluate *before* the demo.",
+        "Earned is the secondary bet: pitch two or three B2B SaaS operations newsletters, framed as a how-to.",
+        "Paid is small, and only after organic reach on the founder's LinkedIn thread has been **measured**."
+      ]
+    },
+    {
+      "id": "S12", "section": "the +1",
+      "title": "Madison is the drafting engine, not the decision-maker",
+      "lead": "The AI produced the volume and the structure. The human produced the truth and the voice.",
+      "why": "chapter draws the boundary explicitly — Madison drafts the brief structure, four content pieces and tags every specific claim [VERIFY]; \"the output Madison cannot produce\" is the judgment that the tone is authentic, the claim fair, the client recognizable",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT MADISON MAY DO" },
+        "inside": [
+          { "label": "drafts the brief structure" },
+          { "label": "generates copy per channel" },
+          { "label": "tags every claim [VERIFY]" },
+          { "label": "spots off-archetype copy" }
+        ],
+        "attempts": [
+          { "label": "choose the objective", "blocked": true, "from": "left" },
+          { "label": "approve the voice", "blocked": true, "from": "right" },
+          { "label": "ship an unchecked stat", "blocked": true, "from": "top" },
+          { "label": "hand you drafts to clear", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S13", "section": "the validation gate",
+      "title": "Every cell here is a thing you have to go and check",
+      "lead": "Pass, fail, or cannot-determine — with evidence. Nothing on this grid can be filled in from the chapter, and nothing should be filled in from a guess.",
+      "why": "Exercise 5 asks for Pass/Fail/Cannot-determine with evidence on correctness, IMC consistency and every [FABRICATED] tag, across one piece per PESO channel — verdicts belong to the reader's own run, so the whole grid is TO RUN",
+      "archetype": "matrixGrid",
+      "duration": 8.5,
+      "data": {
+        "rows": [
+          { "label": "Every specific sourced" },
+          { "label": "One message (IMC)" },
+          { "label": "Zero [FABRICATED]" }
+        ],
+        "cols": [
+          { "label": "Paid" },
+          { "label": "Earned" },
+          { "label": "Shared" },
+          { "label": "Owned" }
+        ],
+        "cells": [
+          ["pending", "pending", "pending", "pending"],
+          ["pending", "pending", "pending", "pending"],
+          ["pending", "pending", "pending", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "where the argument is thin",
+      "title": "What would change my mind",
+      "lead": "I should say plainly which part of this chapter is a first-principles argument rather than a finding.",
+      "bullets": [
+        "The mechanism — AI raises the value of editorial judgment — is plausible from first principles. The **empirical evidence is sparse and fast-moving.**",
+        "If audience trust metrics for AI-volume brands turn out indistinguishable from editorial-judgment brands, the chapter's premise needs revision.",
+        "Still puzzling: the correct ratio of AI-drafted to human-written content for a Sage brand is genuinely unknown.",
+        "I suspect the distinction matters more in long-form owned content than in short-form shared. I do not have clean evidence for that."
+      ]
+    },
+    {
+      "id": "S15", "section": "the wayback machine",
+      "title": "Lasswell already wrote your campaign brief",
+      "lead": "\"Who says what, in which channel, to whom, with what effect.\" One sentence from the 1930s that is the skeleton of this entire chapter.",
+      "bullets": [
+        "PESO is *which channel*. The audience line is *to whom*. The one-claim message is *what*.",
+        "The measurable objective and its KPI are *with what effect*. IMC is the insistence that the *who* stays one coherent voice.",
+        "The flood of cheap AI content is what happens when you generate the **what** and skip the other four questions.",
+        "Fluent saying, with no answer to any of them."
+      ]
+    },
+    {
+      "id": "S16", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Decide what is worth saying. Then let the machine draft it.",
+      "lead": "Write the one-page brief. Six questions, in order. Then draft one piece per PESO channel, tag every specific claim, and clear the tags yourself. The volume is free now. The judgment is the only thing you are actually selling."
+    }
+  ]
+}

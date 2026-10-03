@@ -1,0 +1,71 @@
+<!--
+  The dependency chain
+  Book: Branding and AI
+  Chapter: 06-brand-strategy-and-positioning
+  Figure: 03
+  Type: systems diagram
+  Generated: 2026-06-18
+  Source: pantry/06-brand-strategy-and-positioning-cajal.md
+-->
+<svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-06-03">
+  <title id="fig-title-06-03">The dependency chain</title>
+  <desc>Seven brand components stacked with downward dependency arrows, each constraining the next, with negative space at the base as the downstream consequence of all seven.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="06-brand-strategy-and-positioning"
+      figure-number="03" figure-title="The dependency chain" figure-slug="the-dependency-chain"
+      figure-type="systems diagram" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/06-brand-strategy-and-positioning-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="540" fill="#FFFFFF"/>
+  <defs><marker id="arrow0603" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker></defs>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Each component constrains the next; negative space is the output</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">When the components contradict, the brand is incoherent and does not scale.</text>
+
+  <!-- 7 boxes stacked, x center 240, width 360, height 36, gap with arrows -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <rect x="180" y="80" width="340" height="36" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+    <text x="200" y="103" font-size="12" font-weight="700" fill="#121212">Mission</text>
+    <text x="300" y="103" font-size="11" fill="#545454">scopes the vision</text>
+
+    <rect x="180" y="134" width="340" height="36" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+    <text x="200" y="157" font-size="12" font-weight="700" fill="#121212">Vision</text>
+    <text x="300" y="157" font-size="11" fill="#545454">bounded by the values</text>
+
+    <rect x="180" y="188" width="340" height="36" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+    <text x="200" y="211" font-size="12" font-weight="700" fill="#121212">Values</text>
+    <text x="300" y="211" font-size="11" fill="#545454">the UVP must be consistent with them</text>
+
+    <rect x="180" y="242" width="340" height="36" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+    <text x="200" y="265" font-size="12" font-weight="700" fill="#121212">UVP</text>
+    <text x="300" y="265" font-size="11" fill="#545454">expressed through the archetype</text>
+
+    <rect x="180" y="296" width="340" height="36" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+    <text x="200" y="319" font-size="12" font-weight="700" fill="#121212">Archetype</text>
+    <text x="300" y="319" font-size="11" fill="#545454">carried by the voice</text>
+
+    <rect x="180" y="350" width="340" height="36" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+    <text x="200" y="373" font-size="12" font-weight="700" fill="#121212">Voice</text>
+    <text x="300" y="373" font-size="11" fill="#545454">encodes audience + archetype</text>
+
+    <rect x="180" y="404" width="340" height="36" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+    <text x="200" y="427" font-size="12" font-weight="700" fill="#121212">Positioning</text>
+    <text x="300" y="427" font-size="11" fill="#545454">names the actual alternative</text>
+  </g>
+
+  <!-- arrows between -->
+  <line x1="350" y1="116" x2="350" y2="132" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow0603)"/>
+  <line x1="350" y1="170" x2="350" y2="186" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow0603)"/>
+  <line x1="350" y1="224" x2="350" y2="240" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow0603)"/>
+  <line x1="350" y1="278" x2="350" y2="294" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow0603)"/>
+  <line x1="350" y1="332" x2="350" y2="348" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow0603)"/>
+  <line x1="350" y1="386" x2="350" y2="402" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow0603)"/>
+  <line x1="350" y1="440" x2="350" y2="464" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow0603)"/>
+
+  <!-- Negative Space node RED -->
+  <rect x="140" y="466" width="420" height="44" fill="#F5F5F5" stroke="#C8102E" stroke-width="2"/>
+  <text x="350" y="488" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#C8102E">Negative space — what the company declines</text>
+  <text x="350" y="504" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the downstream consequence that makes the brand legible</text>
+
+  <text x="32" y="532" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 6, THE SEVEN COMPONENTS</text>
+</svg>

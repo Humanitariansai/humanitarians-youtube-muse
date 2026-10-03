@@ -1,0 +1,65 @@
+<!--
+  Sub-brand vs. endorsed brand
+  Book: Branding and AI
+  Chapter: 07-brand-architecture-and-portfolio
+  Figure: 03
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/07-brand-architecture-and-portfolio-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-07-03">
+  <title id="fig-title-07-03">Sub-brand vs. endorsed brand</title>
+  <desc>Two diagrams showing the orientation reversal. In a sub-brand the master brand leads and equity flows down to a qualifier such as Apple to iPhone. In an endorsed brand the child leads and the parent appears only as a small trust signal such as Courtyard by Marriott.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The middle of the spectrum: which brand leads, and what flows between them</text>
+
+  <defs>
+    <marker id="arrow0703" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- LEFT: sub-brand -->
+  <rect x="40" y="60" width="290" height="320" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Sub-brand — master leads</text>
+
+  <rect x="105" y="106" width="160" height="44" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <text x="185" y="133" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" fill="#121212" text-anchor="middle">MASTER (Apple)</text>
+  <line x1="185" y1="150" x2="185" y2="186" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0703)"/>
+  <text x="195" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">equity flows down</text>
+  <rect x="125" y="190" width="120" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="185" y="213" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">iPhone (qualifier)</text>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <line x1="56" y1="252" x2="314" y2="252" stroke="#D4D4D4" stroke-width="0.75"/>
+    <text x="56" y="278" fill="#545454" font-weight="700">Equity borrowed</text>
+    <text x="314" y="278" fill="#121212" text-anchor="end">almost all</text>
+    <text x="56" y="306" fill="#545454" font-weight="700">Independent identity</text>
+    <text x="314" y="306" fill="#121212" text-anchor="end">little</text>
+    <text x="56" y="338" fill="#545454">Trade-off: only as strong</text>
+    <text x="56" y="354" fill="#545454">as the master brand.</text>
+  </g>
+
+  <!-- RIGHT: endorsed -->
+  <rect x="370" y="60" width="290" height="320" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="386" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Endorsed brand — child leads</text>
+
+  <rect x="435" y="106" width="160" height="44" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <text x="515" y="133" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" fill="#121212" text-anchor="middle">CHILD (Courtyard)</text>
+  <line x1="515" y1="190" x2="515" y2="154" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0703)"/>
+  <text x="525" y="176" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">trust signal up</text>
+  <rect x="455" y="190" width="120" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="515" y="213" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">by Marriott</text>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <line x1="386" y1="252" x2="644" y2="252" stroke="#D4D4D4" stroke-width="0.75"/>
+    <text x="386" y="278" fill="#545454" font-weight="700">Equity borrowed</text>
+    <text x="644" y="278" fill="#121212" text-anchor="end">partial (credibility)</text>
+    <text x="386" y="306" fill="#545454" font-weight="700">Independent identity</text>
+    <text x="644" y="306" fill="#121212" text-anchor="end">substantial</text>
+    <text x="386" y="338" fill="#545454">Use when the offering must</text>
+    <text x="386" y="354" fill="#545454">differ but still needs trust.</text>
+  </g>
+
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Test: how much does the new offering want to borrow from the parent, and how much does it need to differ?</text>
+</svg>

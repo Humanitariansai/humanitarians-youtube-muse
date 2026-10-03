@@ -1,0 +1,86 @@
+<!--
+  Three case studies mapped to three misalignments
+  Book: Branding and AI
+  Chapter: 23-shipit-interface-and-deployment
+  Figure: 03
+  Type: comparison table
+  Generated: 2026-06-18
+  Source: pantry/23-shipit-interface-and-deployment-cajal.md
+-->
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-23-03">
+  <title id="fig-title-23-03">Three case studies mapped to three misalignments</title>
+  <desc>Bard (confidence), Snapchat (tone), Tay (capability) — each with interface promise, system reality, and brand consequence.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="23-shipit-interface-and-deployment"
+      figure-number="03" figure-title="Three case studies mapped to three misalignments"
+      figure-slug="three-case-studies-mapped" figure-type="comparison table"
+      priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/23-shipit-interface-and-deployment-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="380" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three real failures, three misalignment types</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each case shows how fast the brand consequence arrives when the interface promise outruns the system.</text>
+
+  <!-- Header -->
+  <rect x="32" y="80" width="150" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="103" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Product · type</text>
+  <rect x="182" y="80" width="160" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="194" y="103" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Interface promise</text>
+  <rect x="342" y="80" width="160" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="354" y="103" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">System reality</text>
+  <rect x="502" y="80" width="166" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="514" y="103" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Brand consequence</text>
+
+  <!-- Row 1 Bard -->
+  <rect x="32" y="116" width="150" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Google Bard</text>
+  <text x="44" y="158" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Feb 2023</text>
+  <text x="44" y="176" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">confidence</text>
+  <rect x="182" y="116" width="160" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="194" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Confident, authoritative,</text>
+  <text x="194" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Google-quality answer.</text>
+  <rect x="342" y="116" width="160" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="354" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">A research preview</text>
+  <text x="354" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">that got a fact wrong.</text>
+  <rect x="502" y="116" width="166" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="514" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">~$100B market cap</text>
+  <text x="514" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">lost in a day.</text>
+
+  <!-- Row 2 Snapchat -->
+  <rect x="32" y="196" width="150" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Snapchat redesign</text>
+  <text x="44" y="238" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Feb 2018</text>
+  <text x="44" y="256" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">tone</text>
+  <rect x="182" y="196" width="160" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="194" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Organized, media-</text>
+  <text x="194" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">forward content</text>
+  <text x="194" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">platform.</text>
+  <rect x="342" y="196" width="160" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="354" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">A casual, personal,</text>
+  <text x="354" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">ephemeral app for</text>
+  <text x="354" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">friends.</text>
+  <rect x="502" y="196" width="166" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="514" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">1.2M-signature revert</text>
+  <text x="514" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">petition; ~7% stock</text>
+  <text x="514" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">drop; DAU decline.</text>
+
+  <!-- Row 3 Tay -->
+  <rect x="32" y="276" width="150" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Microsoft Tay</text>
+  <text x="44" y="318" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Mar 2016</text>
+  <text x="44" y="336" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">capability</text>
+  <rect x="182" y="276" width="160" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="194" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">A bot that safely</text>
+  <text x="194" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">learns from public</text>
+  <text x="194" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">conversation.</text>
+  <rect x="342" y="276" width="160" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="354" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">No defenses against</text>
+  <text x="354" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">adversarial input.</text>
+  <rect x="502" y="276" width="166" height="80" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="514" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Pulled offline within</text>
+  <text x="514" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">16 hours; screenshots</text>
+  <text x="514" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">circulated widely.</text>
+
+  <text x="32" y="374" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 23, THREE CASE STUDIES</text>
+</svg>

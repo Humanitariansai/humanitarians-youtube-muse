@@ -1,0 +1,25 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Three frames, one argument</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Each layer is built on the one below; remove any layer and the others lose their grip.</text>
+<rect x="120" y="96" width="460" height="76" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1a1714" text-anchor="middle">ARCHETYPE SYSTEM</text>
+<text x="350" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#4a4540" text-anchor="middle">explains *how* to execute Brand</text>
+<text x="350" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">The role you play in your audience's story</text>
+<rect x="120" y="196" width="460" height="76" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1a1714" text-anchor="middle">FOUR-VERB FRAMEWORK</text>
+<text x="350" y="236" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#4a4540" text-anchor="middle">explains *what* the portfolio must demonstrate</text>
+<text x="350" y="258" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Ideate · Build · Brand · Ship</text>
+<rect x="120" y="296" width="460" height="76" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1a1714" text-anchor="middle">SPENCE MECHANISM</text>
+<text x="350" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#4a4540" text-anchor="middle">explains *why* brand matters</text>
+<text x="350" y="358" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">When build cheapens, separation moves to upstream and downstream verbs</text>
+<path d="M350 296 L350 276" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M350 196 L350 176" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="350.0" y="396" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Why → What → How. The student who reads the levels in this order builds an integrated practice.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-08-7 desc-08-7">
+<title id="title-08-7">Company A vs Company B over twelve months</title>
+<desc id="desc-08-7">Side-by-side twelve-month timelines for Company A, which has an explicit no-list, and Company B, which has none. Four rows compare product decisions, customer understanding, team clarity, and brand legibility. Company A converges to a clear brand shape; Company B fragments. The divergence is caused by absence of constraint, not bad intent.</desc>
+<rect width="700" height="480" fill="#FFFFFF"/>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#2a1a0e">Company A vs Company B over twelve months</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Same product, same quarter. One has an explicit no-list; the other does not.</text>
+
+<!-- Column headers -->
+<text x="345" y="92" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#C8102E">Company A — explicit no-list</text>
+<text x="565" y="92" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#545454">Company B — no no-list</text>
+
+<!-- Row labels and panels -->
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9.5">
+<!-- Row 1 -->
+<text x="48" y="122" font-size="11" font-weight="bold" fill="#2a1a0e">Product decisions</text>
+<rect x="220" y="108" width="250" height="38" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+<text x="345" y="131" text-anchor="middle" fill="#2a1a0e">Focused: declines off-brand requests</text>
+<rect x="480" y="108" width="170" height="38" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="565" y="131" text-anchor="middle" fill="#545454">Builds whatever is loudest</text>
+<!-- Row 2 -->
+<text x="48" y="168" font-size="11" font-weight="bold" fill="#2a1a0e">Customer understanding</text>
+<rect x="220" y="154" width="250" height="38" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+<text x="345" y="177" text-anchor="middle" fill="#2a1a0e">Knows what it is buying</text>
+<rect x="480" y="154" width="170" height="38" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="565" y="177" text-anchor="middle" fill="#545454">Confused; product may pivot</text>
+<!-- Row 3 -->
+<text x="48" y="214" font-size="11" font-weight="bold" fill="#2a1a0e">Team clarity</text>
+<rect x="220" y="200" width="250" height="38" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+<text x="345" y="223" text-anchor="middle" fill="#2a1a0e">No-list resolves priorities fast</text>
+<rect x="480" y="200" width="170" height="38" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="565" y="223" text-anchor="middle" fill="#545454">Two days/week in debate</text>
+<!-- Row 4 -->
+<text x="48" y="260" font-size="11" font-weight="bold" fill="#2a1a0e">Brand legibility</text>
+<rect x="220" y="246" width="250" height="38" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+<text x="345" y="269" text-anchor="middle" fill="#2a1a0e">Recognizable identity</text>
+<rect x="480" y="246" width="170" height="38" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="565" y="269" text-anchor="middle" fill="#545454">Collection of features</text>
+</g>
+
+<!-- End-of-timeline shapes -->
+<text x="345" y="318" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">After 12 months — the brand shape</text>
+<rect x="290" y="330" width="110" height="80" fill="#C8102E"/>
+<text x="345" y="426" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">A clear shape</text>
+
+<!-- Company B blurred/multi shape -->
+<rect x="500" y="332" width="34" height="40" fill="#ADADAD"/>
+<rect x="540" y="350" width="40" height="58" fill="#787878"/>
+<rect x="586" y="338" width="30" height="52" fill="#D4D4D4"/>
+<rect x="520" y="368" width="46" height="28" fill="#545454" opacity="0.6"/>
+<text x="565" y="426" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">A blurred shape</text>
+
+<line x1="48" y1="442" x2="652" y2="442" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="460" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 8.7</text>
+</svg>

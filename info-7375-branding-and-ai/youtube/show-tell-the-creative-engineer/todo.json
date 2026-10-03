@@ -1,0 +1,195 @@
+{
+  "video": "show-tell-the-creative-engineer",
+  "metadata": {
+    "slug": "show-tell-the-creative-engineer",
+    "title": "The Creative Engineer",
+    "topic": "INFO 7375 \u00b7 BRANDING AND AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "Thai (Sawasdee) \u2014 confirmed unused 2026-09-27",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "course": "INFO 7375 Branding and AI \u00b7 Nik Bear Brown \u00b7 Northeastern University",
+    "audience": "INFO 7375 Branding and AI students (Fall 2026): designers and engineers deciding what to learn next",
+    "bookloop_policy": "Course film: carries the INFO 7375 credit, spoken in BIDEA and on screen in the BDEFS title and the BHTF composer topic; not a numbered lecture. Outro stays OUTRO-LOCK.",
+    "source_doc": "info-7375-branding-and-ai/chapters/01-the-creative-engineer.md (opening + Spence + Four Verbs) and Bear's framing, 2026-09-27 (SOURCE.md); Peng et al., arXiv 2302.06590, read 2026-09-27",
+    "playlist": "Claude & Agentic AI",
+    "chapter_number": 0,
+    "tags": [
+      "creative engineer",
+      "design and engineering",
+      "agentic AI",
+      "Claude Code",
+      "judgment",
+      "GitHub Copilot",
+      "branding",
+      "INFO 7375",
+      "Northeastern",
+      "Claude",
+      "Nik Bear Brown"
+    ],
+    "build": {
+      "at": "2026-09-27T14:57:35",
+      "cut": "review",
+      "filled": 12,
+      "of": 12,
+      "slates": [],
+      "skin_warnings": [
+        "BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' \u2014 COLD OPEN LAW wants ClaudeComposerAsk"
+      ]
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 12,
+  "beats_open": 0,
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "status": "filled",
+      "on_disk": "media/BIDEA.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BIDEA.mp4",
+      "label": "Sawasdee. This is Liam, in for Bear, with a short film for INFO seventy-three seventy-five, Branding"
+    },
+    {
+      "beat_id": "BDEFS",
+      "status": "filled",
+      "on_disk": "media/BDEFS.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BDEFS.mp4",
+      "label": "Three terms. Agentic AI: AI that carries out multi-step work for you, like Claude Code building an a"
+    },
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "manim/B00.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B00.mp4",
+      "label": "Start with one experiment. In 2022, researchers from GitHub, Microsoft and MIT asked professional pr"
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "manim/B01.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B01.mp4",
+      "label": "When building is cheap, the expensive part moves. Anyone can make the box now. The hard part is deci"
+    },
+    {
+      "beat_id": "B02",
+      "status": "filled",
+      "on_disk": "manim/B02.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B02.mp4",
+      "label": "So designers need the tools. With Claude Code and agentic AI, a designer can turn a sketch into a wo"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "manim/B03.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B03.mp4",
+      "label": "And engineers need design. For routine code, the tools already do in minutes what used to take hours"
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "manim/B04.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B04.mp4",
+      "label": "Cheap building changes the loop. You can have an idea, build it, try it, and go again, ten times in "
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "manim/B05.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B05.mp4",
+      "label": "The course names four kinds of work. Ideate: deciding what's worth making. Build: making it. Brand: "
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "manim/B06.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B06.mp4",
+      "label": "It changes how people get noticed, too. A working app on GitHub used to take weeks, so having one sa"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "manim/B07.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B07.mp4",
+      "label": "That's the creative engineer: a designer who can build, or an engineer who can design. Either way, w"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. Pick something you want to build, and paste this into Claude: Here's something I'm planni"
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": "The Creative Engineer. At Nik Bear Brown."
+    }
+  ]
+}

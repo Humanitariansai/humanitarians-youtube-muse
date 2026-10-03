@@ -1,0 +1,77 @@
+<!--
+  Streamlit vs. Gradio selection guide
+  Book: Branding and AI
+  Chapter: 23-shipit-interface-and-deployment
+  Figure: 04
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/23-shipit-interface-and-deployment-cajal.md
+-->
+<svg viewBox="0 0 700 448" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-23-04">
+  <title id="fig-title-23-04">Streamlit vs. Gradio selection guide</title>
+  <desc>The framework choice as an interaction-model decision: Streamlit for do-work tools, Gradio for try-the-model demos, compared across five criteria, with the mismatch to avoid.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="23-shipit-interface-and-deployment"
+      figure-number="04" figure-title="Streamlit vs. Gradio selection guide"
+      figure-slug="streamlit-vs-gradio-selection-guide" figure-type="comparison panels"
+      priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/23-shipit-interface-and-deployment-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Streamlit vs. Gradio — an interaction-model decision, not a preference</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Ask: what is the user's primary job when they open the tool?</text>
+
+  <!-- criterion column -->
+  <rect x="32" y="80" width="180" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Criterion</text>
+  <rect x="212" y="80" width="228" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Streamlit</text>
+  <rect x="440" y="80" width="228" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="452" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Gradio</text>
+
+  <!-- rows -->
+  <!-- r1 -->
+  <rect x="32" y="114" width="180" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">User's primary job</text>
+  <rect x="212" y="114" width="228" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Do work — configure, run, inspect</text>
+  <rect x="440" y="114" width="228" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="452" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Try the model — input, output, repeat</text>
+  <!-- r2 -->
+  <rect x="32" y="158" width="180" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Model implied</text>
+  <rect x="212" y="158" width="228" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">"a tool to accomplish a task"</text>
+  <rect x="440" y="158" width="228" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="452" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">"a model you can probe"</text>
+  <!-- r3 -->
+  <rect x="32" y="202" width="180" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Architecture fit</text>
+  <rect x="212" y="202" width="228" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Orchestrated, multi-step</text>
+  <rect x="440" y="202" width="228" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="452" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Single-purpose model demo</text>
+  <!-- r4 -->
+  <rect x="32" y="246" width="180" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Deploy on</text>
+  <rect x="212" y="246" width="228" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="272" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Streamlit Community Cloud</text>
+  <rect x="440" y="246" width="228" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="452" y="272" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">Hugging Face Spaces</text>
+  <!-- r5 -->
+  <rect x="32" y="290" width="180" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Pipeline types</text>
+  <rect x="212" y="290" width="228" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">RSS pipeline, report builder</text>
+  <rect x="440" y="290" width="228" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="452" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">headline gen, sentiment scorer</text>
+
+  <!-- mismatch warning band -->
+  <rect x="32" y="346" width="636" height="70" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="368" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">The mismatch to avoid</text>
+  <text x="350" y="388" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">An orchestrated multi-agent system behind a free-form Gradio box.</text>
+  <text x="350" y="402" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">If the architecture is structured, choose Streamlit.</text>
+
+  <text x="32" y="430" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 23, STREAMLIT AND GRADIO</text>
+</svg>

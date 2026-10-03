@@ -1,0 +1,39 @@
+{
+  "scene": "scenes",
+  "snapshots": 20,
+  "errors": 0,
+  "warnings": 2,
+  "safe_area": [
+    6.3,
+    3.4
+  ],
+  "min_overlap": 0.12,
+  "findings": [
+    {
+      "type": "OFF_SAFE_AREA",
+      "severity": "WARN",
+      "text": "Slide10\u2014$150Kseed\u00b715%equity\u00b7Advisoryboardseat",
+      "t": 3.87,
+      "snap": 0,
+      "box": [
+        -3.49,
+        -3.45,
+        3.49,
+        -3.12
+      ]
+    },
+    {
+      "type": "OFF_SAFE_AREA",
+      "severity": "WARN",
+      "text": "Lens\u2014TheClose",
+      "t": 5.2,
+      "snap": 3,
+      "box": [
+        -6.46,
+        2.99,
+        -2.94,
+        3.35
+      ]
+    }
+  ]
+}

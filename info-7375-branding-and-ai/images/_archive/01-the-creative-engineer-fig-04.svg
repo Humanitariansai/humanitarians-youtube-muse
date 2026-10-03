@@ -1,0 +1,46 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="360" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">The compression of the signal collapse, 2004&#8211;2024</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">From signal-creation to signal-pooling in the span of a single career.</text>
+<line x1="80" y1="200" x2="620" y2="200" stroke="#1a1714" stroke-width="1.5"/>
+<path d="M614 196 L622 200 L614 204 Z" fill="#1a1714"/>
+<line x1="80.0" y1="197" x2="80.0" y2="203" stroke="#4a4540" stroke-width="0.75"/>
+<text x="80.0" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">2004</text>
+<line x1="188.0" y1="197" x2="188.0" y2="203" stroke="#4a4540" stroke-width="0.75"/>
+<text x="188.0" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">2008</text>
+<line x1="296.0" y1="197" x2="296.0" y2="203" stroke="#4a4540" stroke-width="0.75"/>
+<text x="296.0" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">2012</text>
+<line x1="404.0" y1="197" x2="404.0" y2="203" stroke="#4a4540" stroke-width="0.75"/>
+<text x="404.0" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">2016</text>
+<line x1="512.0" y1="197" x2="512.0" y2="203" stroke="#4a4540" stroke-width="0.75"/>
+<text x="512.0" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">2020</text>
+<line x1="620.0" y1="197" x2="620.0" y2="203" stroke="#4a4540" stroke-width="0.75"/>
+<text x="620.0" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">2024</text>
+<circle cx="188.0" cy="200" r="5" fill="#1a1714"/>
+<line x1="188.0" y1="194" x2="188.0" y2="154" stroke="#8a8480" stroke-width="0.75"/>
+<text x="188.0" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">2008</text>
+<text x="188.0" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">GitHub launches</text>
+<text x="188.0" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">build = a separating signal</text>
+<circle cx="539.0" cy="200" r="5" fill="#1a1714"/>
+<line x1="539.0" y1="206" x2="539.0" y2="246" stroke="#8a8480" stroke-width="0.75"/>
+<text x="539.0" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">2021</text>
+<text x="539.0" y="276" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">GitHub Copilot launches</text>
+<text x="539.0" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">build assistance at scale</text>
+<circle cx="566.0" cy="200" r="5" fill="#1a1714"/>
+<line x1="566.0" y1="194" x2="566.0" y2="154" stroke="#8a8480" stroke-width="0.75"/>
+<text x="566.0" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">2022</text>
+<text x="566.0" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">Peng et al. study</text>
+<text x="566.0" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">56% completion-time reduction</text>
+<circle cx="620.0" cy="200" r="5" fill="#1a1714"/>
+<line x1="620.0" y1="206" x2="620.0" y2="246" stroke="#8a8480" stroke-width="0.75"/>
+<text x="620.0" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">2024</text>
+<text x="620.0" y="276" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">Stack Overflow survey</text>
+<text x="620.0" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">82% of devs use AI tooling</text>
+<text x="350.0" y="320" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Thirteen years from launch to mass adoption to peer-reviewed signal collapse.</text>
+<text x="350.0" y="340" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Most readers&#8217; careers will outlast at least one more cycle of this length.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-7-1 desc-7-1">
+<title id="title-7-1">Three misalignment types mapped to three case studies</title>
+<desc id="desc-7-1">A three-row, three-column grid. Rows are the cases Bard, Snapchat, and Tay; columns are the interface promise, the system reality, and the brand consequence. Arrows show the gap between promise and reality in each case, so a student can identify the misalignment type from the pattern and predict the brand consequence.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">Three misalignment types, three case studies</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">The interface promises; the system cannot keep it; the brand pays the gap.</text>
+
+<!-- column headers -->
+<text x="150" y="92" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#545454">Interface promise</text>
+<text x="372" y="92" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#545454">System reality</text>
+<text x="588" y="92" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#545454">Brand consequence</text>
+
+<!-- ROW 1: Bard -->
+<text x="48" y="128" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">Bard</text>
+<text x="48" y="142" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#C8102E">confidence</text>
+<rect x="92" y="106" width="116" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="150" y="128" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">authoritative,</text>
+<text x="150" y="142" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">Google-quality answers</text>
+<rect x="314" y="106" width="116" height="48" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="372" y="128" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">research preview;</text>
+<text x="372" y="142" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">JWST claim was wrong</text>
+<rect x="530" y="106" width="116" height="48" fill="#C8102E" stroke="#2a1a0e" stroke-width="1"/>
+<text x="588" y="128" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#FFFFFF">~$100B market cap</text>
+<text x="588" y="142" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#FFFFFF">lost in a day</text>
+<path d="M 208 130 L 310 130" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M 430 130 L 526 130" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+<!-- ROW 2: Snapchat -->
+<text x="48" y="208" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">Snapchat</text>
+<text x="48" y="222" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#C8102E">tone</text>
+<rect x="92" y="186" width="116" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="150" y="208" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">casual, private</text>
+<text x="150" y="222" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">friend messaging</text>
+<rect x="314" y="186" width="116" height="48" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="372" y="208" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">redesign signals</text>
+<text x="372" y="222" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">"content platform"</text>
+<rect x="530" y="186" width="116" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+<text x="588" y="208" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">1.2M-signature</text>
+<text x="588" y="222" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">revert petition</text>
+<path d="M 208 210 L 310 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M 430 210 L 526 210" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+<!-- ROW 3: Tay -->
+<text x="48" y="288" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">Tay</text>
+<text x="48" y="302" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#C8102E">capability</text>
+<rect x="92" y="266" width="116" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="150" y="288" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">safely learns from</text>
+<text x="150" y="302" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">public input</text>
+<rect x="314" y="266" width="116" height="48" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="372" y="288" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">no defense against</text>
+<text x="372" y="302" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">adversarial input</text>
+<rect x="530" y="266" width="116" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.5"/>
+<text x="588" y="288" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">pulled offline in</text>
+<text x="588" y="302" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">~16 hours</text>
+<path d="M 208 290 L 310 290" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M 430 290 L 526 290" stroke="#2a1a0e" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+<text x="48" y="346" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The gap between promise and reality (center arrows) is the misalignment; the right column is what it cost.</text>
+
+<line x1="48" y1="382" x2="652" y2="382" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="400" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 7.1</text>
+</svg>

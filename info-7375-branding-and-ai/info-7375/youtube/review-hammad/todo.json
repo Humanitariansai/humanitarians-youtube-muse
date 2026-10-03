@@ -1,0 +1,186 @@
+{
+  "video": "review-hammad",
+  "metadata": {
+    "slug": "review-hammad",
+    "title": "INFO 7375 \u2014 Project Review: Hammad",
+    "topic": "INFO 7375 \u00b7 PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 470,
+    "build": {
+      "at": "2026-08-16T23:58:53",
+      "cut": "master",
+      "filled": 10,
+      "of": 14,
+      "slates": [
+        "B02",
+        "B03",
+        "B05",
+        "B06"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 14,
+  "beats_open": 4,
+  "beats": [
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "media/B00.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B00.mp4",
+      "label": "Hey Claude \u2014 I just read Hammad's final brand portfolio for INFO 7375. This is a personal brand subm"
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "media/B01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B01.mp4",
+      "label": "Path A required a complete personal brand system \u2014 UVP, five pillars, target audience, visual identi"
+    },
+    {
+      "beat_id": "B02",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The UVP evolution slide shows five iterations, from a generic first pass to the final version. The final reads: I help security-conscious organizations bridge t",
+      "slot": "media/B02.png (or .mp4)",
+      "label": "The UVP evolution slide shows five iterations, from a generic first pass to the final version. The f"
+    },
+    {
+      "beat_id": "B03",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: Slide five benchmarks five GRC candidates across seven dimensions. That's not a generic competitive landscape \u2014 that's a direct peer comparison. The analysis sh",
+      "slot": "media/B03.png (or .mp4)",
+      "label": "Slide five benchmarks five GRC candidates across seven dimensions. That's not a generic competitive "
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "media/B04.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B04.mp4",
+      "label": "The positioning matrix plots GRC framework depth against IT operations depth. Every peer candidate f"
+    },
+    {
+      "beat_id": "B05",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The visual system is Deep Navy, Slate Teal, Muted Gold, and Warm Cream. Georgia for headings, Arial for body. The HR monogram is clean and professional. The War",
+      "slot": "media/B05.png (or .mp4)",
+      "label": "The visual system is Deep Navy, Slate Teal, Muted Gold, and Warm Cream. Georgia for headings, Arial "
+    },
+    {
+      "beat_id": "B06",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: Two LinkedIn posts are live and documented. The first is a career pivot origin story. The second announces SentinelGRC Ops with the line: not a class project, a",
+      "slot": "media/B06.png (or .mp4)",
+      "label": "Two LinkedIn posts are live and documented. The first is a career pivot origin story. The second ann"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "media/B07.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B07.mp4",
+      "label": "SentinelGRC Ops ingests live CISA advisories 30 at a time, maps each finding to ISO 27001, SOC 2, an"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "media/B08.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B08.mp4",
+      "label": "The ROI slide estimates 450 to 675 dollars per month in saved analyst labor \u2014 for a tool that costs "
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "media/B09.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B09.mp4",
+      "label": "Five pillars: operational honesty, rigor without rigidity, continuity of trust, lifelong learning un"
+    },
+    {
+      "beat_id": "B10",
+      "status": "filled",
+      "on_disk": "media/B10.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B10.mp4",
+      "label": "A visual resume was submitted alongside the deck. We're discussing it in narration rather than showi"
+    },
+    {
+      "beat_id": "BVDT",
+      "status": "filled",
+      "on_disk": "media/BVDT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BVDT.mp4",
+      "label": "One of the most complete Path A submissions in the cohort. The UVP is specific and argued, the compe"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. Pick one of the two underevidenced pillars \u2014 continuity of trust or cross-cultural compet"
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": ""
+    }
+  ]
+}

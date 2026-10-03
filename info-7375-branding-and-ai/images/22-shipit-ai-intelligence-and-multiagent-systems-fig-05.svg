@@ -1,0 +1,73 @@
+<!--
+  Compounding error: probability of an error-free chain
+  Book: Branding and AI
+  Chapter: 22-shipit-ai-intelligence-and-multiagent-systems
+  Figure: 05
+  Type: line chart
+  Generated: 2026-06-18
+  Source: pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-22-05">
+  <title id="fig-title-22-05">Compounding error: probability of an error-free chain</title>
+  <desc>A line chart of the probability of error-free output against the number of agent steps from 0 to 40. A 10-percent-per-step error curve collapses to roughly 35 percent at 10 steps, 12 percent at 20 steps, and 1.5 percent at 40 steps. A 5-percent-per-step curve decays more slowly.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="22-shipit-ai-intelligence-and-multiagent-systems"
+      figure-number="05" figure-title="Compounding error: probability of an error-free chain" figure-slug="compounding-error-chain"
+      figure-type="line chart" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Errors compound geometrically with each agent step</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A 10% per-step error rate gives a 40-step agent a ~1.5% chance of a fully correct result.</text>
+
+  <!-- plot region: x 96..660, y 80..360 -->
+  <rect x="96" y="80" width="564" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- gridlines y: 0,25,50,75,100% -> y 360,290,220,150,80 -->
+  <line x1="96" y1="290" x2="660" y2="290" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="96" y1="220" x2="660" y2="220" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="96" y1="150" x2="660" y2="150" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="96" y1="80" x2="660" y2="80" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- y axis ticks: 0% at 360, 25 at 290, 50 at 220, 75 at 150, 100 at 80 -->
+  <text x="88" y="364" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0%</text>
+  <text x="88" y="294" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">25%</text>
+  <text x="88" y="224" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">50%</text>
+  <text x="88" y="154" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">75%</text>
+  <text x="88" y="84" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">100%</text>
+
+  <!-- x axis: steps 0..40 over 96..660 (14.1 px/step). ticks 0,10,20,30,40 -->
+  <line x1="96" y1="360" x2="660" y2="360" stroke="#121212" stroke-width="1"/>
+  <line x1="96" y1="80" x2="96" y2="360" stroke="#121212" stroke-width="1"/>
+  <text x="96" y="380" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0</text>
+  <text x="237" y="380" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">10</text>
+  <text x="378" y="380" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">20</text>
+  <text x="519" y="380" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">30</text>
+  <text x="660" y="380" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">40</text>
+  <text x="378" y="404" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Agent steps</text>
+
+  <!-- 5% per-step curve: y = 0.95^n. value at n -> px. y_px = 360 - val*280 -->
+  <!-- n:0 v1.000 y80; 5 .774 y143; 10 .599 y192; 15 .463 y230; 20 .358 y260; 25 .277 y282; 30 .215 y300; 35 .166 y314; 40 .129 y324 -->
+  <polyline points="96,80 166.5,143 237,192 307.5,230 378,260 448.5,282 519,300 589.5,314 660,324"
+    fill="none" stroke="#787878" stroke-width="1.5"/>
+
+  <!-- 10% per-step curve (RED, primary): y = 0.9^n -->
+  <!-- n:0 1.000 y80; 5 .590 y195; 10 .349 y262; 15 .206 y302; 20 .122 y326; 25 .072 y340; 30 .042 y348; 35 .025 y353; 40 .0148 y356 -->
+  <polyline points="96,80 166.5,195 237,262 307.5,302 378,326 448.5,340 519,348 589.5,353 660,356"
+    fill="none" stroke="#C8102E" stroke-width="2"/>
+
+  <!-- annotated markers on the 10% curve at 10,20,40 -->
+  <circle cx="237" cy="262" r="3.5" fill="#C8102E"/>
+  <circle cx="378" cy="326" r="3.5" fill="#C8102E"/>
+  <circle cx="660" cy="356" r="3.5" fill="#C8102E"/>
+  <text x="245" y="256" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">35%</text>
+  <text x="386" y="320" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">12%</text>
+  <text x="652" y="350" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">1.5%</text>
+
+  <!-- legend -->
+  <line x1="120" y1="416" x2="150" y2="416" stroke="#C8102E" stroke-width="2"/>
+  <text x="156" y="420" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">10% error per step</text>
+  <line x1="300" y1="416" x2="330" y2="416" stroke="#787878" stroke-width="1.5"/>
+  <text x="336" y="420" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">5% error per step</text>
+</svg>

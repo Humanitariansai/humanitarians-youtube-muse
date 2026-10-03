@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One ReAct loop in the Intelligence Agent</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:260px; }
+.title { font-family:'EB Garamond', Georgia, serif; font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-family:'EB Garamond', Georgia, serif; font-size:11px; fill:var(--color-secondary); } .step-tag { font-family:'IBM Plex Mono','JetBrains Mono',monospace; font-size:11px; letter-spacing:0.06em; }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const steps=[
+ {tag:"THOUGHT",body:"\"Time to pull today's news.\"",accent:true,col:0,row:0,full:"Reason about the current state and decide the next action."},
+ {tag:"ACTION",body:"pull RSS, News API, subreddits",accent:false,col:1,row:0,full:"Call a tool that reaches into the world."},
+ {tag:"OBSERVATION",body:"\"870 articles received.\"",accent:false,col:1,row:1,full:"The tool returns a result that the model must interpret."},
+ {tag:"THOUGHT",body:"\"Deduplicate before scoring.\"",accent:false,col:0,row:1,full:"Update reasoning in light of the observation — the loop continues."}
+];
+const titleText='One ReAct loop in the Intelligence Agent';
+const descText='A single Thought-Action-Observation cycle; the observation feeds back into the next thought, which is what makes this an agent rather than a script.';
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,700);
+ const totalHeight=420;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight)
+   .attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text('Reason, act, observe — then the observation feeds back into the next reasoning step.');
+ const defs=svg.append('defs');
+ defs.append('marker').attr('id','arrow').attr('markerWidth',8).attr('markerHeight',6).attr('refX',7).attr('refY',3).attr('orient','auto').append('polygon').attr('points','0 0, 8 3, 0 6').attr('fill','var(--color-ink)');
+ defs.append('marker').attr('id','arrowR').attr('markerWidth',8).attr('markerHeight',6).attr('refX',7).attr('refY',3).attr('orient','auto').append('polygon').attr('points','0 0, 8 3, 0 6').attr('fill','var(--color-red)');
+ const boxW=Math.min((totalWidth-120)/2,230), boxH=78, gapX=Math.max(totalWidth-2*boxW-96,80);
+ const x0=48, x1=48+boxW+gapX, y0=100, y1=240;
+ function bx(c){return c===0?x0:x1;} function by(r){return r===0?y0:y1;}
+ // connectors first
+ // thought0 -> action
+ svg.append('line').attr('x1',x0+boxW).attr('y1',y0+boxH/2).attr('x2',x1-4).attr('y2',y0+boxH/2).attr('stroke','var(--color-ink)').attr('stroke-width',1.5).attr('marker-end','url(#arrow)').attr('aria-hidden','true');
+ // action -> observation
+ svg.append('line').attr('x1',x1+boxW/2).attr('y1',y0+boxH).attr('x2',x1+boxW/2).attr('y2',y1-4).attr('stroke','var(--color-ink)').attr('stroke-width',1.5).attr('marker-end','url(#arrow)').attr('aria-hidden','true');
+ // observation -> thought1 (red feedback)
+ svg.append('line').attr('x1',x1).attr('y1',y1+boxH/2).attr('x2',x0+boxW+4).attr('y2',y1+boxH/2).attr('stroke','var(--color-red)').attr('stroke-width',1.5).attr('marker-end','url(#arrowR)').attr('aria-hidden','true');
+ // thought1 -> next loop (dashed up)
+ svg.append('line').attr('x1',x0+boxW/2).attr('y1',y1).attr('x2',x0+boxW/2).attr('y2',y0+boxH+4).attr('stroke','var(--color-ink)').attr('stroke-width',1.5).attr('stroke-dasharray','3 3').attr('marker-end','url(#arrow)').attr('aria-hidden','true');
+ const g=svg.append('g').selectAll('.step').data(steps).join('g');
+ g.each(function(d){
+   const sel=d3.select(this); const px=bx(d.col), py=by(d.row);
+   const fill=d.accent?'var(--color-red)':(d.tag==='THOUGHT'?'var(--color-fill)':'var(--color-white)');
+   sel.append('rect').attr('x',px).attr('y',py).attr('width',boxW).attr('height',boxH).attr('rx',0)
+     .attr('fill',fill).attr('stroke',d.accent?'var(--color-ink)':'var(--color-border)').attr('stroke-width',1).attr('tabindex',0)
+     .attr('aria-label',d.tag+': '+d.full)
+     .on('mouseover',function(event){if(!d.accent)d3.select(this).attr('stroke','var(--color-red)'); showTooltip(event,'<strong>'+d.tag+'</strong><br>'+d.full);})
+     .on('mousemove',moveTooltip).on('mouseout',function(){if(!d.accent)d3.select(this).attr('stroke','var(--color-border)'); hideTooltip();});
+   sel.append('text').attr('x',px+boxW/2).attr('y',py+26).attr('text-anchor','middle').attr('class','step-tag').attr('fill',d.accent?'var(--color-white)':'var(--color-ink)').text(d.tag);
+   sel.append('text').attr('x',px+boxW/2).attr('y',py+50).attr('text-anchor','middle').attr('font-size',10).attr('fill',d.accent?'var(--color-white)':'var(--color-ink)').attr('font-family',"'EB Garamond', Georgia, serif").text(d.body);
+ });
+ svg.append('text').attr('x',x1).attr('y',y1+boxH+30).attr('font-size',10).attr('fill','var(--color-red)').attr('font-family',"'EB Garamond', Georgia, serif").text('observation feeds back into reasoning');
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

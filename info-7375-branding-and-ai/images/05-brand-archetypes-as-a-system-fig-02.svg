@@ -1,0 +1,78 @@
+<!--
+  The twelve archetypes on two axes
+  Book: Branding and AI
+  Chapter: 05-brand-archetypes-as-a-system
+  Figure: 02
+  Type: conceptual map / 2x2
+  Generated: 2026-06-18
+  Source: pantry/05-brand-archetypes-as-a-system-cajal.md
+-->
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05-02">
+  <title id="fig-title-05-02">The twelve archetypes on two axes</title>
+  <desc>The Mark and Pearson system mapped on Order versus Freedom and Self versus Social axes, with twelve archetype names and their core motivations placed by quadrant tendency.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="05-brand-archetypes-as-a-system"
+      figure-number="02" figure-title="The twelve archetypes on two axes" figure-slug="twelve-archetypes-two-axes"
+      figure-type="conceptual map" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/05-brand-archetypes-as-a-system-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="560" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Twelve recurring identities, mapped on two axes</text>
+  <text x="32" y="55" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Order ↔ Freedom on one axis; Self-orientation ↔ Social belonging on the other.</text>
+
+  <!-- plot region -->
+  <rect x="80" y="80" width="540" height="400" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <!-- axes -->
+  <line x1="350" y1="80" x2="350" y2="480" stroke="#121212" stroke-width="1"/>
+  <line x1="80" y1="280" x2="620" y2="280" stroke="#121212" stroke-width="1"/>
+  <!-- axis pole labels -->
+  <text x="350" y="74" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">SELF / individuation</text>
+  <text x="350" y="498" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">SOCIAL / belonging</text>
+  <text x="84" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">ORDER / structure</text>
+  <text x="616" y="270" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">FREEDOM / change</text>
+  <text x="84" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">STABILITY / nurture</text>
+  <text x="616" y="294" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">CONNECTION / belonging</text>
+
+  <!-- 12 nodes; helper text: name + motivation. Place by tendency. -->
+  <!-- Upper-left ORDER+SELF: Ruler, Creator, Sage -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <text x="150" y="140" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Ruler</text>
+    <text x="150" y="155" text-anchor="middle" font-size="10" fill="#545454">control</text>
+    <text x="250" y="170" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Creator</text>
+    <text x="250" y="185" text-anchor="middle" font-size="10" fill="#545454">expression</text>
+    <text x="170" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Sage</text>
+    <text x="170" y="235" text-anchor="middle" font-size="10" fill="#545454">wisdom</text>
+  </g>
+  <!-- Upper-right FREEDOM+SELF: Hero, Outlaw, Magician, Explorer -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <text x="450" y="135" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Hero</text>
+    <text x="450" y="150" text-anchor="middle" font-size="10" fill="#545454">mastery</text>
+    <text x="550" y="160" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Outlaw</text>
+    <text x="550" y="175" text-anchor="middle" font-size="10" fill="#545454">disruption</text>
+    <text x="440" y="210" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Magician</text>
+    <text x="440" y="225" text-anchor="middle" font-size="10" fill="#545454">transformation</text>
+    <text x="560" y="235" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Explorer</text>
+    <text x="560" y="250" text-anchor="middle" font-size="10" fill="#545454">freedom</text>
+  </g>
+  <!-- Lower-left ORDER+SOCIAL: Caregiver, Innocent -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <text x="160" y="350" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Caregiver</text>
+    <text x="160" y="365" text-anchor="middle" font-size="10" fill="#545454">service</text>
+    <text x="240" y="420" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Innocent</text>
+    <text x="240" y="435" text-anchor="middle" font-size="10" fill="#545454">purity</text>
+  </g>
+  <!-- Lower-right FREEDOM+SOCIAL: Everyman, Lover, Jester -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <text x="450" y="350" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Lover</text>
+    <text x="450" y="365" text-anchor="middle" font-size="10" fill="#545454">intimacy</text>
+    <text x="555" y="385" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Jester</text>
+    <text x="555" y="400" text-anchor="middle" font-size="10" fill="#545454">fun</text>
+    <text x="440" y="430" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Everyman</text>
+    <text x="440" y="445" text-anchor="middle" font-size="10" fill="#545454">belonging</text>
+  </g>
+
+  <text x="32" y="516" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Positions show motivational tendency, not fixed coordinates —</text>
+  <text x="32" y="532" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">mature brands often sit between quadrants.</text>
+  <text x="32" y="552" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: MARK &amp; PEARSON SYSTEM · CH. 5</text>
+</svg>

@@ -1,0 +1,152 @@
+{
+  "video": "ogilvy-nguyenduc",
+  "metadata": {
+    "slug": "ogilvy-nguyenduc",
+    "title": "An Ogilvy Lens on SignalBrief \u2014 Duc Nguyen",
+    "topic": "INFO 7375 \u00b7 OGILVY LENS",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Teardown",
+    "style": "ogilvy",
+    "source_pitch": "branding-and-ai/info-7375/submissions/nguyenduc_318747_42354597_Nguyen_Duc_MadisonPitch.pdf",
+    "source_video": "branding-and-ai/info-7375/submissions/nguyenduc_318747_42354598_Nguyen_Duc_MadisonPitch.mp4",
+    "ogilvy_note": "Food for thought \u2014 not a grade. Ogilvy is one lens among several, running alongside the course rubric. The maker decides.",
+    "total_estimated_duration_seconds": 129,
+    "build": {
+      "at": "2026-07-31T19:13:28",
+      "cut": "master",
+      "filled": 11,
+      "of": 11,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 11,
+  "beats_open": 0,
+  "beats": [
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "media/B00.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B00.mp4",
+      "label": "Duc Nguyen's SignalBrief pitch. A weekly decision brief for AI infrastructure founders \u2014 180 signals"
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "manim/B01.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B01.mp4",
+      "label": "The problem Duc is solving is real and specific. AI infrastructure founders spend three hours every "
+    },
+    {
+      "beat_id": "B02",
+      "status": "filled",
+      "on_disk": "manim/B02.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B02.mp4",
+      "label": "The solution: SignalBrief collects developer signals from Hacker News, DEV, and GitHub, ranks them b"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "manim/B03.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B03.mp4",
+      "label": "Ogilvy's Hathaway shirt man wore an eyepatch. One concrete specific that made every other detail sti"
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "manim/B04.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B04.mp4",
+      "label": "Ogilvy wouldn't write a line until he could state the big idea in one sentence. This pitch contains "
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "manim/B05.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B05.mp4",
+      "label": "Ogilvy wanted specifics over superlatives \u2014 and this pitch earns its numbers. Three hours reduced to"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "manim/B06.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B06.mp4",
+      "label": "Ogilvy: five times as many people read the headline as the body copy. Slide one says: source-linked "
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "manim/B07.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B07.mp4",
+      "label": "The ask is admirably clean. Five design partners and access to founder communities. One ask \u2014 not th"
+    },
+    {
+      "beat_id": "BVDT",
+      "status": "filled",
+      "on_disk": "media/BVDT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BVDT.mp4",
+      "label": "Not a verdict \u2014 a lens set. Four questions to carry to the next draft. One: is the Madison proof the"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. Take your deck into Claude and try this: Here are four Ogilvy questions about my pitch. F"
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": "An Ogilvy Lens on SignalBrief \u2014 Duc Nguyen. I'm Liam, in for Bear."
+    }
+  ]
+}

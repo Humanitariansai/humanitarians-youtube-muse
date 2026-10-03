@@ -1,0 +1,77 @@
+<!--
+  Greenwashing is now regulated: EU vs. US
+  Book: Branding and AI
+  Chapter: 15-brand-ethics-purpose-and-sustainability
+  Figure: 04
+  Type: comparison / reference table
+  Generated: 2026-06-18
+  Source: pantry/15-brand-ethics-purpose-and-sustainability-cajal.md
+-->
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-15-04">
+  <title id="fig-title-15-04">Greenwashing is now regulated: EU vs. US</title>
+  <desc>A comparison of green-claim regulation across three jurisdictions as of 2026: the EU ECGT Directive applying 27 September 2026, the US FTC Green Guides as authoritative guidance under review, and US state-level rules led by California. Columns give the governing rule, effective date, banned claim types, and enforcement.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="15-brand-ethics-purpose-and-sustainability" figure-number="04"
+      figure-title="Greenwashing regulatory comparison: EU vs. US"
+      figure-slug="greenwashing-regulation-eu-us"
+      figure-type="comparison / reference table" priority="Important"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/15-brand-ethics-purpose-and-sustainability-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="400" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Greenwashing is now regulated</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">As of 2026, unsubstantiated environmental claims are a legal exposure in the EU</text>
+  <text x="32" y="70" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">and an increasing one in the US.</text>
+
+  <!-- header -->
+  <rect x="32" y="72" width="636" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Jurisdiction</text>
+  <text x="150" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Governing rule</text>
+  <text x="316" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Banned / restricted claims</text>
+  <text x="556" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Enforcement</text>
+
+  <!-- separators -->
+  <line x1="142" y1="72" x2="142" y2="328" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="308" y1="72" x2="308" y2="328" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="548" y1="72" x2="548" y2="328" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- EU row -->
+  <rect x="32" y="104" width="636" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="126" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">EU</text>
+  <text x="150" y="126" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">ECGT Directive</text>
+  <text x="150" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">(Empowering Consumers</text>
+  <text x="150" y="154" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">for the Green Transition)</text>
+  <text x="150" y="174" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#545454">applies 27 Sep 2026</text>
+  <text x="316" y="126" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">1. Generic green claims with no</text>
+  <text x="316" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">   substantiation ("eco-friendly")</text>
+  <text x="316" y="160" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">2. Offset-based "climate neutral" /</text>
+  <text x="316" y="174" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">   "net zero" at product level</text>
+  <text x="556" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">binding;</text>
+  <text x="556" y="154" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">national law</text>
+
+  <!-- US federal row -->
+  <rect x="32" y="204" width="636" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">US</text>
+  <text x="40"  y="240" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">(federal)</text>
+  <text x="150" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">FTC Green Guides</text>
+  <text x="150" y="240" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">(2012; under review)</text>
+  <text x="150" y="258" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#545454">update unreleased</text>
+  <text x="316" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">claims contrary to guidance are</text>
+  <text x="316" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">presumptively deceptive (Sec. 5)</text>
+  <text x="556" y="237" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">guidance, not law</text>
+
+  <!-- US state row -->
+  <rect x="32" y="268" width="636" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">US</text>
+  <text x="40"  y="304" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">(state)</text>
+  <text x="150" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">California (leading)</text>
+  <text x="316" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">recyclable / compostable labeling —</text>
+  <text x="316" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">moving faster than the federal rule</text>
+  <text x="556" y="301" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">state statute</text>
+
+  <text x="32" y="356" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Dates and enforcement details flagged for verification before publication. The teachable point is durable: pairing every</text>
+  <text x="32" y="370" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">claim with evidence is no longer optional for any company selling in these markets — it is compliance.</text>
+  <text x="32" y="390" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">ROUTE SPECIFIC REGULATORY QUESTIONS TO COUNSEL.</text>
+</svg>

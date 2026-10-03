@@ -1,0 +1,54 @@
+<!--
+  The unified argument: three levels
+  Book: Branding and AI
+  Chapter: 97-fundamental-themes
+  Figure: 01
+  Type: conceptual map
+  Generated: 2026-06-18
+  Source: pantry/97-fundamental-themes-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-97-01">
+  <title id="fig-title-97-01">The unified argument: three levels</title>
+  <desc>A three-tier nested stack: Frictional at the biological level, Phase gates at the operational level, and Humans plus AI at the design level. The phase gate sits at the Tier 1 / Tier 4 boundary.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="97-fundamental-themes"
+      figure-number="01" figure-title="The unified argument: three levels" figure-slug="unified-argument-three-levels"
+      figure-type="conceptual map" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/97-fundamental-themes-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">One argument, three levels — biological, operational, design</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each level is the one above it made actionable.</text>
+
+  <!-- Level 1 Frictional -->
+  <rect x="32" y="78" width="636" height="92" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">1 &#183; Frictional &#8212; the biological level</text>
+  <text x="48" y="122" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Learning is a physical event triggered by cognitive struggle. Prediction error fires dopamine,</text>
+  <text x="48" y="138" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">upregulates BDNF, strengthens synapses. Remove the struggle and you remove the trigger.</text>
+  <text x="48" y="158" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-style="italic" fill="#545454">The struggle is the mechanism, not the price.</text>
+
+  <!-- down arrow -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+  <line x1="350" y1="170" x2="350" y2="186" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Level 2 Phase gates -->
+  <rect x="32" y="188" width="636" height="92" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="212" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">2 &#183; Phase gates &#8212; the operational level</text>
+  <text x="48" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Specify the exact point where AI stops and human work begins. Make it explicit. Enforce it.</text>
+  <text x="48" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">The gate sits at the Tier 1 / Tier 4 boundary &#8212; where the cognitive work constitutes the learning.</text>
+  <text x="48" y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-style="italic" fill="#545454">The Frictional principle made enforceable.</text>
+
+  <line x1="350" y1="280" x2="350" y2="296" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Level 3 Humans + AI -->
+  <rect x="32" y="298" width="636" height="92" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="322" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">3 &#183; Humans + AI &#8212; the design level</text>
+  <text x="48" y="342" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">AI handles Tier 1 (pattern, retrieval, structure) so humans do Tiers 4&#8211;7 (judgment, causal</text>
+  <text x="48" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">reasoning, wisdom). Not less human involvement &#8212; better involvement, at the irreducible tiers.</text>
+  <text x="48" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-style="italic" fill="#545454">Humans + AI, not humans or AI.</text>
+</svg>

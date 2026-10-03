@@ -1,0 +1,58 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-6-11 desc-6-11">
+<title id="title-6-11">Each architectural decision statement carries downstream consequences</title>
+<desc id="desc-6-11">A decision-statement to consequence map showing the four architectural templates side by side: single LLM call, chained calls, tool-using agent, and multi-agent system. For each, the fill-in-the-blank decision statement, what it enables in Chapter 7's interface design, and the failure mode it requires a mitigation for. The decision statement is the contract that determines everything else in the build.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<text x="48" y="44" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">The decision statement is the contract, not a formality</text>
+<text x="48" y="64" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Write the architectural choice down first. It determines the interface you can build and the failure you must mitigate.</text>
+
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif">
+<!-- column headers row -->
+<text x="56" y="98" font-size="10" font-weight="bold" fill="#545454">Pattern</text>
+<text x="200" y="98" font-size="10" font-weight="bold" fill="#545454">Decision statement</text>
+<text x="406" y="98" font-size="10" font-weight="bold" fill="#545454">Enables in Ch. 7</text>
+<text x="540" y="98" font-size="10" font-weight="bold" fill="#545454">Mitigate for</text>
+<line x1="48" y1="106" x2="652" y2="106" stroke="#D4D4D4" stroke-width="1"/>
+
+<!-- Row 1: single call (red = highlighted simplest) -->
+<rect x="48" y="114" width="120" height="64" fill="#C8102E"/>
+<text x="108" y="150" text-anchor="middle" font-size="11" fill="#FFFFFF">Single LLM call</text>
+<text x="180" y="134" font-size="9" fill="#2a1a0e">"one prompt; output</text>
+<text x="180" y="148" font-size="9" fill="#2a1a0e">validated against</text>
+<text x="180" y="162" font-size="9" fill="#2a1a0e">[criteria]"</text>
+<text x="406" y="148" font-size="9" fill="#545454">simple result view</text>
+<text x="540" y="148" font-size="9" fill="#545454">brittle prompts</text>
+<line x1="48" y1="184" x2="652" y2="184" stroke="#D4D4D4" stroke-width="0.75"/>
+
+<!-- Row 2: chained -->
+<rect x="48" y="190" width="120" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="108" y="224" text-anchor="middle" font-size="11" fill="#2a1a0e">Chained calls</text>
+<text x="180" y="208" font-size="9" fill="#2a1a0e">"[N] sequential steps;</text>
+<text x="180" y="222" font-size="9" fill="#2a1a0e">validate at step [K]</text>
+<text x="180" y="236" font-size="9" fill="#2a1a0e">before proceeding"</text>
+<text x="406" y="222" font-size="9" fill="#545454">step-by-step status</text>
+<text x="540" y="222" font-size="9" fill="#545454">compounding error</text>
+<line x1="48" y1="256" x2="652" y2="256" stroke="#D4D4D4" stroke-width="0.75"/>
+
+<!-- Row 3: tool-using -->
+<rect x="48" y="262" width="120" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="108" y="296" text-anchor="middle" font-size="11" fill="#2a1a0e">Tool-using agent</text>
+<text x="180" y="280" font-size="9" fill="#2a1a0e">"adaptive reasoning;</text>
+<text x="180" y="294" font-size="9" fill="#2a1a0e">step ceiling [N];</text>
+<text x="180" y="308" font-size="9" fill="#2a1a0e">cost ceiling [$]"</text>
+<text x="406" y="294" font-size="9" fill="#545454">visible reasoning trace</text>
+<text x="540" y="294" font-size="9" fill="#545454">cost runaway</text>
+<line x1="48" y1="328" x2="652" y2="328" stroke="#D4D4D4" stroke-width="0.75"/>
+
+<!-- Row 4: multi-agent -->
+<rect x="48" y="334" width="120" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="108" y="368" text-anchor="middle" font-size="11" fill="#2a1a0e">Multi-agent</text>
+<text x="180" y="352" font-size="9" fill="#2a1a0e">"[N] agents by role;</text>
+<text x="180" y="366" font-size="9" fill="#2a1a0e">each independently</text>
+<text x="180" y="380" font-size="9" fill="#2a1a0e">debuggable"</text>
+<text x="406" y="366" font-size="9" fill="#545454">role-scoped panels</text>
+<text x="540" y="366" font-size="9" fill="#545454">hidden failure</text>
+</g>
+
+<line x1="48" y1="404" x2="652" y2="404" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="418" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 6.11</text>
+</svg>

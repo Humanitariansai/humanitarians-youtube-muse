@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "title": "Brand Voice & Storytelling",
+    "short": "BRANDING · CH10",
+    "course": "Branding and AI · Chapter 10",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/10-brand-voice-and-storytelling.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 10",
+      "title": "Brand Voice & Storytelling",
+      "subtitle": "A brand without a story is a logo on a business card. A brand telling the wrong story burns faster than no story at all.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the cold open",
+      "title": "Every word of it is true. None of it is a story.",
+      "lead": "The line that keeps appearing in student portfolios: \"I built a pipeline in n8n that processes competitor RSS feeds using the OpenAI API and outputs a daily summary to Google Sheets.\"",
+      "bullets": [
+        "Now compare: *\"A marketing team was spending three hours every Monday morning manually pulling competitor reports. Six weeks after the pipeline shipped, that time dropped to twenty minutes. The marketing director used the recaptured hours to launch a campaign strategy the team had been tabling for months.\"*",
+        "The first is a résumé entry. The second is **evidence of impact**.",
+        "The second has a customer, a problem, a transformation, and stakes. The first has none of those things.",
+        "This chapter is not about being a better writer. It is about the architectural constraints that separate a story from a description."
+      ]
+    },
+    {
+      "id": "S03", "section": "three frameworks",
+      "title": "They are not competitors. They are telescoping levels.",
+      "lead": "Campbell describes the deep architecture. Booker categorises the plots — Overcoming the Monster, Rags to Riches, the Quest, Voyage and Return, Comedy, Tragedy, Rebirth. Miller adapts it for brands. And the archetype sits at the centre filtering which plots are even available to you.",
+      "why": "chapter names three layered frameworks and enumerates the named sub-shapes inside each — 'the simplified three-act shape — Departure, Initiation, Return'; Booker's seven plots; Miller's problem/guide/plan/action/transformation — a genuine two-level taxonomy",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "THE ARCHETYPE IS THE FILTER",
+        "centerShort": "ARCHETYPE",
+        "groups": [
+          {
+            "label": "Campbell 1949", "tone": "ink",
+            "children": [{ "label": "Departure" }, { "label": "Initiation" }, { "label": "Return" }]
+          },
+          {
+            "label": "Booker 2004", "tone": "ink",
+            "children": [
+              { "label": "Monster" }, { "label": "Riches" }, { "label": "Quest" },
+              { "label": "Voyage" }, { "label": "Comedy" }, { "label": "Tragedy" }, { "label": "Rebirth" }
+            ]
+          },
+          {
+            "label": "Miller 2017", "tone": "accent",
+            "children": [
+              { "label": "problem" }, { "label": "guide" }, { "label": "plan" },
+              { "label": "action" }, { "label": "transformed" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S04", "section": "what each level does",
+      "title": "You write at Miller's level. The other two hold it up.",
+      "lead": "The archetype is not a fourth framework. It is the filter on what story shapes are available to your brand.",
+      "bullets": [
+        "**Campbell (1949)** distilled a monomyth from Greek, Hindu, Arthurian, Indigenous American and African mythology. Seventeen stages in full; three acts is enough for brand work.",
+        "**Booker (2004)** named seven plot shapes. The Quest is the one brands invoke most — and it differs from the Journey in emphasis: *the Journey centres the hero's transformation; the Quest centres why the destination matters.*",
+        "**Miller (2017)** made the positional claim: in a customer story, the customer is always the hero. The brand is never the hero. The brand is the guide.",
+        "A case study is a Miller-level artifact whose structural validity depends on Campbell being present underneath it — a call, a threshold, an ordeal, a return with a boon."
+      ]
+    },
+    {
+      "id": "S05", "section": "the hero position",
+      "title": "Same product. Two story shapes.",
+      "lead": "Most technical founders default to stories where the brand is the hero. The founders fought through hard problems, built something remarkable, overcame the early market.",
+      "why": "chapter's Figure 10.1 is literally a shared origin splitting two ways — 'Brand-as-hero vs. customer-as-hero: the same product, two story shapes' — and the chapter grades the outcomes: brand-as-hero is 'sometimes compelling for raising capital… weak for selling to customers'",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "the same product",
+        "splitLabel": "who is the hero",
+        "tracks": [
+          {
+            "label": "Customer as hero · brand as guide",
+            "outcome": "sells", "tone": "good", "path": "up",
+            "notes": [
+              "the customer faces a problem",
+              "the brand has a plan and the tools",
+              "Yoda does not go to the Death Star"
+            ]
+          },
+          {
+            "label": "Brand as hero",
+            "outcome": "raises capital", "tone": "warn", "path": "down",
+            "notes": [
+              "the founders fought through",
+              "true, and sometimes compelling",
+              "the customer cannot identify"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06", "section": "the constraint",
+      "title": "Each archetype has story shapes native to it — and shapes that read as imposture",
+      "lead": "In Chapter 3 the archetype was a consistency-enforcement device: a constraint that makes downstream decisions decidable. Storytelling is a downstream decision.",
+      "bullets": [
+        "**Hero** tells the Journey directly — Nike's thirty years of advertising, with Nike as the gear and the belief system. **Sage** tells Methodology and Quest: *the mechanism is the story.* **Outlaw** tells Rebellion — Patagonia's \"Don't Buy This Jacket,\" Oatly's packaging copy.",
+        "**Caregiver** tells Service and Transformation — the subject is the person in need, not the carer's competence. **Magician** tells Transformation with a mystery at the centre. **Jester** tells Inversion — Old Spice, Wendy's Twitter voice.",
+        "The constraint is not that you can only tell one kind of story. It is that shapes requiring a different archetype's commitments **will misfire**.",
+        "The audience does not articulate the mismatch in framework terms. They just feel the falseness."
+      ]
+    },
+    {
+      "id": "S07", "section": "the native map",
+      "title": "The diagonal is native. Most of the grid is your call.",
+      "lead": "The chapter names the fits and three specific misfires. Everything else is a judgement it does not make for you.",
+      "why": "chapter states native pairings and three explicit misfires — 'A Sage telling a Jester story reads as trying too hard. A Jester telling a sincere Service story reads as insincere.' — and grades nothing else, so every other cell is TO RUN",
+      "archetype": "matrixGrid",
+      "duration": 9.0,
+      "data": {
+        "rows": [
+          { "label": "Hero's Journey" },
+          { "label": "Methodology / Quest" },
+          { "label": "Rebellion" },
+          { "label": "Service" },
+          { "label": "Inversion" }
+        ],
+        "cols": [
+          { "label": "Hero" },
+          { "label": "Sage" },
+          { "label": "Outlaw" },
+          { "label": "Jester" }
+        ],
+        "cells": [
+          ["hit", "pending", "pending", "pending"],
+          ["hit", "hit", "pending", "pending"],
+          ["pending", "pending", "hit", "pending"],
+          ["pending", "pending", "pending", "miss"],
+          ["pending", "miss", "pending", "hit"]
+        ]
+      }
+    },
+    {
+      "id": "S08", "section": "three pathways",
+      "title": "How a mismatch actually fails",
+      "lead": "Name the failure mechanism precisely before you look at the cases. An archetype–narrative mismatch fails through one of three pathways.",
+      "bullets": [
+        "**1 · Wrong emotional register.** A Hero's Journey requires genuine stakes. An Innocent must introduce conflict, shadow and the possibility of failure — but the Innocent's whole commitment is purity and simplicity. The conflict reads as performed because the brand's language is not built to hold it.",
+        "**2 · Archetype-inconsistent role.** The brand's position in the story — hero, guide, mentor — carries archetypal weight. An Everyman claiming to be a transformative force is claiming to transcend the ordinary. The Everyman's promise is *you belong here, as you are.*",
+        "**3 · Borrowed cultural content.** Some subject matter belongs, culturally, to specific archetypes. Social movements belong to the Outlaw. Grief and care to the Caregiver. Mastery to the Hero. **The borrowing reads as exploitation regardless of intent.**"
+      ]
+    },
+    {
+      "id": "S09", "section": "Pepsi · April 2017",
+      "title": "All three pathways were active at once",
+      "lead": "Pepsi's archetype is Innocent with Jester elements. The Live for Now ad attempted a Hero's Journey at the customer level, with the brand cast as the object that resolves the conflict.",
+      "why": "chapter draws an explicit boundary around what an Innocent may credibly tell and names three crossings that failed — 'casting the brand as a magical resolution device is a Magician move, not an Innocent move'; the protest content 'belongs to the Outlaw'; 'Jenner risks nothing visible'",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT AN INNOCENT CAN CREDIBLY TELL" },
+        "inside": [
+          { "label": "purity, simplicity" },
+          { "label": "the world is good" },
+          { "label": "uncomplicated joy" }
+        ],
+        "attempts": [
+          { "label": "resolve tension", "blocked": true, "from": "left" },
+          { "label": "protest imagery", "blocked": true, "from": "top" },
+          { "label": "real stakes", "blocked": true, "from": "right" },
+          { "label": "a moment of refreshment", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S10", "section": "the apology confirmed it",
+      "title": "Pulled within 24 hours",
+      "lead": "The company's apology stated it had been trying to project a global message of unity, peace and understanding. That apology *confirmed the mechanism.*",
+      "bullets": [
+        "The **intent** was Innocent — unity, peace.",
+        "The **story shape** was Hero — call, threshold, heroic act, transformed community.",
+        "The **cultural content** belonged to the Outlaw — protest, police confrontation, movement imagery.",
+        "Three mismatches, one catastrophe. Every element was competently produced. That is the point."
+      ]
+    },
+    {
+      "id": "S11", "section": "Bud Light · April 2023",
+      "title": "The lesson is not about the cultural politics. It is architectural.",
+      "lead": "Bud Light's archetype is Everyman. The Everyman promise is belonging — *you fit here, as you are.* Its entire brand history is built on mainstream identification.",
+      "bullets": [
+        "The intent appeared to be a Transformation story: the brand marking a personal transformation, signalling an expansion of who belongs.",
+        "But when a mainstream brand signals alignment with a group a substantial part of its audience reads as non-mainstream, **it does not expand \"us\" — it disrupts the existing \"us\" without providing new stable footing.**",
+        "A Transformation story requires a foundation of demonstrated vision and earned trust in the brand's capacity to transform. Bud Light had built none. **The story shape required a Magician; the brand was an Everyman.**",
+        "Bud Light lost its position as the best-selling beer in the United States in the months following."
+      ]
+    },
+    {
+      "id": "S12", "section": "Jaguar · November 2024",
+      "title": "A Magician story with no second act",
+      "lead": "Jaguar's archetype historically was Ruler — prestige, controlled power, the standard others aspire to. \"Copy Nothing\" attempted Magician/Outlaw: radical transformation, refusal of convention.",
+      "why": "chapter describes a commitment registered before its evidence — 'the new vehicles the rebrand was intended to introduce had not yet shipped… the mystery must be followed by a revelation. Without the cars, the story had no second act' — and flags that the account itself needs verification",
+      "archetype": "lockTimeline",
+      "duration": 7.5,
+      "data": {
+        "commit": { "at": 0.16, "label": "\"Copy Nothing\" launches" },
+        "marks": [
+          { "at": 0.38, "label": "launch video · no cars" },
+          { "at": 0.62, "label": "public coverage to mid-2025" }
+        ],
+        "resolve": { "at": 0.86, "label": "the revelation", "pending": true },
+        "axisLabel": "the Magician's promise, unresolved"
+      }
+    },
+    {
+      "id": "S13", "section": "the pattern",
+      "title": "Three cases. Three industries. Three different pathways.",
+      "lead": "The same structural failure sits underneath all of them: the story shape did not match the brand's archetype, and the audience perceived the dissonance before they could articulate why.",
+      "bullets": [
+        "A Ruler attempting an Outlaw story is not rejecting convention. **It is abandoning the specific convention — excellence, prestige, earned authority — that constituted its value.**",
+        "None of these brands lacked budget, agency talent, or craft. The mechanism is subtle enough that brands with large agencies miss it, and obvious enough that audiences feel it immediately.",
+        "**The alignment check takes ten minutes. The misalignment recovery takes months.**"
+      ]
+    },
+    {
+      "id": "S14", "section": "the checklist",
+      "title": "Three questions before you publish anything",
+      "lead": "Answer them in order. If one and two do not align, revise. If three points at an archetype you do not inhabit, revise.",
+      "why": "chapter gives an ordered pre-publication check where each answer gates the next — 'before publishing any brand story, answer three questions… If the answers to questions one and two do not align, revise the story' — and every verdict belongs to the reader's own draft",
+      "archetype": "gatePipeline",
+      "duration": 7.5,
+      "data": {
+        "input": { "label": "a drafted brand story" },
+        "gates": [
+          { "label": "Name the shape", "rule": "Journey · Quest · Rebellion · Service · Inversion", "pass": null },
+          { "label": "Native to your archetype?", "rule": "if not, revise the story", "pass": null },
+          { "label": "Who owns this content?", "rule": "if another archetype owns it, revise", "pass": null }
+        ],
+        "output": { "label": "publish", "pending": true }
+      }
+    },
+    {
+      "id": "S15", "section": "what good looks like",
+      "title": "Three properties you can check before publishing",
+      "lead": "Not taste. Checks.",
+      "bullets": [
+        "**1 · The shape matches the archetype.** The shape is not decorative — it carries the brand's promises. A mismatch is not a style problem; it is a credibility problem.",
+        "**2 · The customer is the hero; the brand is the guide.** The brand does not solve the problem. It provides clarity, a plan, and the tools. The customer takes the action and is transformed.",
+        "**3 · The stakes are real and specific.** \"Our tool saves time\" is not a stake. **Abstract stakes signal that the writer does not actually know what changed for the customer.**"
+      ]
+    },
+    {
+      "id": "S16", "section": "Sage storytelling in a README",
+      "title": "The mechanism *is* the story",
+      "lead": "Students treat documentation as documentation. For a Sage brand, the README is often the first thing a collaborator or customer sees.",
+      "bullets": [
+        "The Madison Intelligence Agent README opens with throughput: **870 articles processed per day, 90% deduplication rate, sub-three-minute latency** from ingestion to output.",
+        "It does not say \"Madison is a powerful marketing intelligence system.\" It shows the mechanism and its quantified outputs — and satisfies the reader's want before it makes any claim.",
+        "The architecture section walks the five-layer agent structure — Intelligence, Content, Research, Experience, Performance — with enough specificity that a technical reader can judge the decomposition.",
+        "The narrative question is not *will the hero succeed?* It is *how does this actually work, and is the design defensible?*"
+      ]
+    },
+    {
+      "id": "S17", "section": "six story types",
+      "title": "Six shapes, each with an archetype range",
+      "lead": "The Learning story — the mistake, the recognition, the corrective action, the evidence it stuck — is the fastest trust-building type available, because it requires genuine vulnerability rather than a performance of it.",
+      "why": "chapter enumerates six story types and names, inside each, the archetypes it is native to — 'the learning story is cross-archetype — it works for Caregiver, Sage, Everyman, and even Outlaw' — a second-level set the chapter states explicitly",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "SIX SHAPES AND WHO CAN TELL THEM",
+        "centerShort": "STORY TYPES",
+        "groups": [
+          {
+            "label": "Origin", "tone": "ink",
+            "children": [{ "label": "Hero" }, { "label": "Sage" }, { "label": "Magician" }]
+          },
+          {
+            "label": "Case study", "tone": "accent",
+            "children": [{ "label": "customer is hero" }, { "label": "brand is guide" }]
+          },
+          {
+            "label": "Quest", "tone": "ink",
+            "children": [{ "label": "Sage" }, { "label": "Hero" }]
+          },
+          {
+            "label": "Thought leadership", "tone": "ink",
+            "children": [{ "label": "falsifiable thesis" }, { "label": "", "pending": true }]
+          },
+          {
+            "label": "Transformation", "tone": "ink",
+            "children": [{ "label": "Magician" }, { "label": "before / after" }]
+          },
+          {
+            "label": "Learning", "tone": "ink",
+            "children": [
+              { "label": "Caregiver" }, { "label": "Sage" },
+              { "label": "Everyman" }, { "label": "Outlaw" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S18", "section": "channel fit",
+      "title": "The channel is a downstream decision",
+      "lead": "Not every story shape works in every channel. Choose the channel after the archetype and the shape, not before.",
+      "bullets": [
+        "**LinkedIn articles** reward credibility signals — evidence, specificity, demonstrated expertise. Sage and Hero thrive. Case studies and thought-leadership are the strongest formats.",
+        "**Blog posts on your tool's site** are indexed and discoverable over time. \"How to monitor competitor pricing automatically with n8n\" will be found by people who need to do that. \"Introducing Our New Competitive Intelligence Feature\" will be found by no one except people who already know you exist.",
+        "**GitHub README and documentation** are underused as brand storytelling. A README that opens with mechanism and quantified outputs is Sage storytelling at its best.",
+        "A thesis a hostile reader can push back on: *\"Most marketing teams using AI for content generation are measuring the wrong output and will not detect the quality degradation until it is expensive to reverse.\"* \"AI is changing everything\" is an observation, not a thesis."
+      ]
+    },
+    {
+      "id": "S19", "section": "cadence",
+      "title": "Same total piece count. Opposite trajectories.",
+      "lead": "The common error: publishing at a volume you cannot sustain, burning out at week six, and abandoning the content strategy entirely.",
+      "why": "chapter's own chart is a shared origin splitting two ways — 'two audience-growth trajectories over 36 months at the same total piece count — a steady monthly cadence compounding into a rising curve versus a burst-and-abandon sawtooth that collapses near zero'",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "the same total piece count",
+        "splitLabel": "cadence, or volume",
+        "tracks": [
+          {
+            "label": "Steady monthly cadence",
+            "outcome": "compounds", "tone": "good", "path": "up",
+            "notes": [
+              "70% capacity, not your best week",
+              "two well-told case studies a year",
+              "the body of work builds the model"
+            ]
+          },
+          {
+            "label": "Burst, then abandon",
+            "outcome": "collapses", "tone": "warn", "path": "down",
+            "notes": [
+              "ten mediocre posts a month",
+              "burnout at week six",
+              "the strategy is dropped"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S20", "section": "the case study template",
+      "title": "Six elements. All six must be present. The order is yours.",
+      "lead": "They do not have to appear in this order in the finished piece — but a case study missing one of them is a description with a headline on it.",
+      "bullets": [
+        "**Customer** — the protagonist, named or described precisely enough that a reader can identify with the role. **Problem** — specific, with real stakes.",
+        "**What they tried before** — *the most skipped element and the most important.* Without it the reader does not understand why your approach was necessary rather than obvious.",
+        "**Approach** — framed as service to the customer, not as demonstration of your skill. **Transformation** — numbers where available, timelines where relevant.",
+        "**Meta-lesson** — what this teaches beyond \"our tool works.\" What it teaches about the problem domain and the kind of transformation that is possible."
+      ]
+    },
+    {
+      "id": "S21", "section": "the honest limit",
+      "title": "What would change my mind",
+      "lead": "Every grey slot in this deck is a verdict I do not have. So is this one.",
+      "bullets": [
+        "Strong controlled evidence that brand storytelling investment does **not** predict customer acquisition or retention for AI-tool startups, controlling for product quality and sales effectiveness.",
+        "The case here rests largely on qualitative evidence and a few well-documented reversals. Large-N studies on storytelling ROI at the startup stage would either strengthen or challenge these claims substantially.",
+        "And I still cannot cleanly explain how Apple moved from Outlaw to Magician without reading as opportunistic. The hypothesis is a sustained series of stories building toward the new archetype *before* the transition is named — but the evidence is post-hoc analysis of successes."
+      ]
+    },
+    {
+      "id": "S22", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Name the shape before you write the sentence.",
+      "lead": "Take the last thing you shipped and write it twice: once as the résumé entry, once with a customer, a problem, a transformation and stakes. Then run the three questions. If the shape is not native to your archetype, do not publish it well — revise it."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+<!--
+  Three rights you think are one
+  Book: Branding and AI
+  Chapter: 08-naming-trademark-and-brand-protection
+  Figure: 01
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/08-naming-trademark-and-brand-protection-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-08-01">
+  <title id="fig-title-08-01">Three rights you think are one</title>
+  <desc>Three independent rights bundled under "the name": trademark, domain, and company registration. Each grants different things, is issued by a different body, and only the trademark requires a lawyer to clear properly.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">"The name" is three separate rights — you can hold all three, one, or none</text>
+
+  <!-- three columns -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <!-- Trademark -->
+    <rect x="40" y="60" width="195" height="310" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="54" y="86" font-size="13" font-weight="700" fill="#121212">Trademark</text>
+    <text x="54" y="116" font-size="11" fill="#545454" font-weight="700">Grants</text>
+    <text x="54" y="134" font-size="11" fill="#121212">Right to use a mark for</text>
+    <text x="54" y="150" font-size="11" fill="#121212">specific goods/services.</text>
+    <text x="54" y="180" font-size="11" fill="#545454" font-weight="700">Does NOT grant</text>
+    <text x="54" y="198" font-size="11" fill="#121212">A web address; an entity.</text>
+    <text x="54" y="228" font-size="11" fill="#545454" font-weight="700">Issued by</text>
+    <text x="54" y="246" font-size="11" fill="#121212">USPTO (registration or</text>
+    <text x="54" y="262" font-size="11" fill="#121212">prior use in commerce).</text>
+    <text x="54" y="292" font-size="11" fill="#545454" font-weight="700">Needs a lawyer?</text>
+    <text x="54" y="310" font-size="11" fill="#121212">Yes — clearance is</text>
+    <text x="54" y="326" font-size="11" fill="#121212">counsel's job.</text>
+
+    <!-- Domain -->
+    <rect x="252" y="60" width="195" height="310" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="266" y="86" font-size="13" font-weight="700" fill="#121212">Domain</text>
+    <text x="266" y="116" font-size="11" fill="#545454" font-weight="700">Grants</text>
+    <text x="266" y="134" font-size="11" fill="#121212">A rented web address</text>
+    <text x="266" y="150" font-size="11" fill="#121212">(example.com).</text>
+    <text x="266" y="180" font-size="11" fill="#545454" font-weight="700">Does NOT grant</text>
+    <text x="266" y="198" font-size="11" fill="#121212">Any trademark right.</text>
+    <text x="266" y="228" font-size="11" fill="#545454" font-weight="700">Issued by</text>
+    <text x="266" y="246" font-size="11" fill="#121212">A registrar (rental).</text>
+    <text x="266" y="292" font-size="11" fill="#545454" font-weight="700">Needs a lawyer?</text>
+    <text x="266" y="310" font-size="11" fill="#121212">No — buy at registrar;</text>
+    <text x="266" y="326" font-size="11" fill="#121212">arbitration can override.</text>
+
+    <!-- Company registration -->
+    <rect x="464" y="60" width="196" height="310" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="478" y="86" font-size="13" font-weight="700" fill="#121212">Company reg.</text>
+    <text x="478" y="116" font-size="11" fill="#545454" font-weight="700">Grants</text>
+    <text x="478" y="134" font-size="11" fill="#121212">An entity name on file</text>
+    <text x="478" y="150" font-size="11" fill="#121212">in one state.</text>
+    <text x="478" y="180" font-size="11" fill="#545454" font-weight="700">Does NOT grant</text>
+    <text x="478" y="198" font-size="11" fill="#121212">A trademark; federal</text>
+    <text x="478" y="214" font-size="11" fill="#121212">or cross-category cover.</text>
+    <text x="478" y="244" font-size="11" fill="#545454" font-weight="700">Issued by</text>
+    <text x="478" y="262" font-size="11" fill="#121212">A state agency.</text>
+    <text x="478" y="292" font-size="11" fill="#545454" font-weight="700">Needs a lawyer?</text>
+    <text x="478" y="310" font-size="11" fill="#121212">No — but it is not</text>
+    <text x="478" y="326" font-size="11" fill="#121212">protection.</text>
+  </g>
+
+  <text x="32" y="402" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"I bought the domain, so I own the name" is the most common and most dangerous version of the error.</text>
+  <text x="32" y="426" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The three rights are separate. Clearance requires addressing all three —</text>
+  <text x="32" y="442" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">only the trademark requires counsel.</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Three pipeline disciplines, one brand outcome</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Parallel structure to the Spence / Four-Verb / Archetype stack — each layer rests on the one below.</text>
+<rect x="120" y="96" width="460" height="76" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1a1714" text-anchor="middle">CONTRACT MONITORING</text>
+<text x="350" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#4a4540" text-anchor="middle">*how* to know before users do</text>
+<text x="350" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Status-page feeds, billing alerts, error workflows</text>
+<rect x="120" y="196" width="460" height="76" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1a1714" text-anchor="middle">DEGRADED MODE DESIGN</text>
+<text x="350" y="236" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#4a4540" text-anchor="middle">*what* to do when a contract fails</text>
+<text x="350" y="258" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Informative failure → partial degradation → fallback → graceful staleness</text>
+<rect x="120" y="296" width="460" height="76" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1a1714" text-anchor="middle">CONTRACT DOCUMENTATION</text>
+<text x="350" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#4a4540" text-anchor="middle">*why* it matters</text>
+<text x="350" y="358" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Every external dependency named; *subject to change* explicitly acknowledged</text>
+<path d="M350 296 L350 276" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M350 196 L350 176" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="350.0" y="396" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">A pipeline failure is a brand failure. The brand that pays is the one whose name is on the front page.</text>
+</svg>

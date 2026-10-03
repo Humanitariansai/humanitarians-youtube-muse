@@ -1,0 +1,54 @@
+<!--
+  Extension risk matrix
+  Book: Branding and AI
+  Chapter: 07-brand-architecture-and-portfolio
+  Figure: 04
+  Type: 2x2 matrix
+  Generated: 2026-06-18
+  Source: pantry/07-brand-architecture-and-portfolio-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-07-04">
+  <title id="fig-title-07-04">Extension risk matrix</title>
+  <desc>A two-by-two matrix. Horizontal axis is fit with the parent's core associations, low to high. Vertical axis is the effect on parent associations, blurs to reinforces. The low-fit, blurs quadrant is the danger zone where extensions dilute the parent and is highlighted.</desc>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Extension risk: does the extension fit, and does it reinforce or blur the parent?</text>
+
+  <!-- matrix region -->
+  <rect x="150" y="70" width="430" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="365" y1="70" x2="365" y2="370" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="150" y1="220" x2="580" y2="220" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- danger quadrant highlight: low fit (left) / blurs (bottom) -> red border -->
+  <rect x="150" y="220" width="215" height="150" fill="none" stroke="#C8102E" stroke-width="2"/>
+
+  <!-- quadrant labels -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">
+    <!-- top-left: low fit / reinforces (rare) -->
+    <text x="257" y="120">Low fit · reinforces</text>
+    <text x="257" y="140" font-size="11" fill="#545454">rare / accidental</text>
+    <!-- top-right: high fit / reinforces (strong) -->
+    <text x="472" y="120">High fit · reinforces</text>
+    <text x="472" y="140" font-size="11" fill="#545454">Apple to Apple Watch</text>
+    <text x="472" y="156" font-size="11" fill="#545454">strengthens parent</text>
+    <!-- bottom-left: low fit / blurs (danger) -->
+    <text x="257" y="278" fill="#C8102E">Low fit · blurs</text>
+    <text x="257" y="298" font-size="11" fill="#545454">Apple to groceries / insurance</text>
+    <text x="257" y="314" font-size="11" fill="#545454">dilutes — the danger zone</text>
+    <!-- bottom-right: high fit / blurs -->
+    <text x="472" y="278">High fit · blurs</text>
+    <text x="472" y="298" font-size="11" fill="#545454">over-stretched line variant</text>
+    <text x="472" y="314" font-size="11" fill="#545454">cannibalizes</text>
+  </g>
+
+  <!-- axis labels -->
+  <text x="365" y="396" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">Fit with parent's core associations</text>
+  <text x="200" y="388" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">low</text>
+  <text x="530" y="388" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">high</text>
+
+  <text x="40" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" transform="rotate(-90 40 220)" text-anchor="middle">Effect on parent associations</text>
+  <text x="128" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="end">reinforces</text>
+  <text x="128" y="362" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="end">blurs</text>
+
+  <text x="32" y="428" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Dilution is the low-fit, blurs quadrant: the extension reaches for revenue</text>
+  <text x="32" y="444" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">rather than competence, and the diffusion is hard to reverse.</text>
+</svg>

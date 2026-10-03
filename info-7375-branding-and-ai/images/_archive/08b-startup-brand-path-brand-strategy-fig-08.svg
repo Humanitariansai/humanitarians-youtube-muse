@@ -1,0 +1,50 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-08-8 desc-08-8">
+<title id="title-08-8">The one-page brand strategy document — blank template</title>
+<desc id="desc-08-8">A blank one-page strategy document mockup with a name and tagline block at the top and eight labeled sections — mission, vision, values, UVP, archetype, voice, positioning, and negative space — each printed with its length limit. Proportional boxes show the relative space each section should occupy. Negative space is the largest box. The student can draft directly into the boxes.</desc>
+<rect width="700" height="480" fill="#FFFFFF"/>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#2a1a0e">The one-page brand strategy document — blank template</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Eight sections, each with its length limit. Every section competes for the same finite page.</text>
+
+<!-- Name / tagline block -->
+<rect x="60" y="76" width="580" height="40" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+<text x="72" y="93" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#C8102E">Name + tagline</text>
+<text x="72" y="109" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9.5" fill="#545454">Name chosen, trademark + domain status noted · tagline: 1 sentence, archetype-aligned</text>
+
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif">
+<!-- Mission -->
+<rect x="60" y="124" width="285" height="44" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+<text x="72" y="142" font-size="11" font-weight="bold" fill="#2a1a0e">Mission</text>
+<text x="72" y="158" font-size="9.5" fill="#545454">1 sentence — testable, theory-driven, tech-agnostic</text>
+<!-- Vision -->
+<rect x="355" y="124" width="285" height="44" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+<text x="367" y="142" font-size="11" font-weight="bold" fill="#2a1a0e">Vision</text>
+<text x="367" y="158" font-size="9.5" fill="#545454">1–2 sentences — the changed world, not your position</text>
+<!-- Values -->
+<rect x="60" y="174" width="285" height="56" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+<text x="72" y="192" font-size="11" font-weight="bold" fill="#2a1a0e">Values</text>
+<text x="72" y="208" font-size="9.5" fill="#545454">3–5 bullets — each implies 2 traceable decisions</text>
+<!-- UVP -->
+<rect x="355" y="174" width="285" height="56" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+<text x="367" y="192" font-size="11" font-weight="bold" fill="#2a1a0e">UVP</text>
+<text x="367" y="208" font-size="9.5" fill="#545454">1 sentence — specific, falsifiable, scoped to audience</text>
+<!-- Archetype -->
+<rect x="60" y="236" width="285" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+<text x="72" y="254" font-size="11" font-weight="bold" fill="#2a1a0e">Archetype</text>
+<text x="72" y="270" font-size="9.5" fill="#545454">named + 2 sentences + 1 sentence on the shadow</text>
+<!-- Voice -->
+<rect x="355" y="236" width="285" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+<text x="367" y="254" font-size="11" font-weight="bold" fill="#2a1a0e">Voice</text>
+<text x="367" y="270" font-size="9.5" fill="#545454">3–5 bullets — rhythm, vocabulary, formats</text>
+<!-- Positioning -->
+<rect x="60" y="290" width="285" height="48" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+<text x="72" y="308" font-size="11" font-weight="bold" fill="#2a1a0e">Positioning</text>
+<text x="72" y="324" font-size="9.5" fill="#545454">1 paragraph — competitive set + switching trigger</text>
+<!-- Negative space (largest, red) -->
+<rect x="355" y="290" width="285" height="100" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+<text x="367" y="308" font-size="11" font-weight="bold" fill="#C8102E">Negative space</text>
+<text x="367" y="326" font-size="9.5" fill="#545454"><tspan x="367" dy="0">5+ entries — the most load-bearing box.</tspan><tspan x="367" dy="13">Each: the declined thing, the archetype</tspan><tspan x="367" dy="13">reason, a competitor who chose otherwise.</tspan></text>
+</g>
+
+<line x1="48" y1="442" x2="652" y2="442" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="460" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 8.8</text>
+</svg>

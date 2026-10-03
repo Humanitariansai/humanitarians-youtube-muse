@@ -1,0 +1,62 @@
+<!--
+  One framework, four applications
+  Book: Branding and AI
+  Chapter: 97-fundamental-themes
+  Figure: 07
+  Type: conceptual map
+  Generated: 2026-06-18
+  Source: pantry/97-fundamental-themes-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-97-07">
+  <title id="fig-title-97-07">One framework, four applications</title>
+  <desc>A hub-and-spoke map. At the center is the Irreducibly Human taxonomy and phase gate. Four spokes connect to its applications: AI+1 in employment economics, Brutalist in creative production, Boondoggling in software engineering, and Frictional as the empirical foundation.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="97-fundamental-themes"
+      figure-number="07" figure-title="One framework, four applications" figure-slug="one-framework-four-applications"
+      figure-type="conceptual map" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/97-fundamental-themes-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The argument is one; the applications are many</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each project is a different instantiation of the same taxonomy and phase gate.</text>
+
+  <!-- spokes (drawn first, behind nodes) -->
+  <line x1="350" y1="240" x2="180" y2="140" stroke="#787878" stroke-width="1"/>
+  <line x1="350" y1="240" x2="520" y2="140" stroke="#787878" stroke-width="1"/>
+  <line x1="350" y1="240" x2="180" y2="356" stroke="#787878" stroke-width="1"/>
+  <line x1="350" y1="240" x2="520" y2="356" stroke="#787878" stroke-width="1"/>
+
+  <!-- hub -->
+  <rect x="252" y="204" width="196" height="72" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <text x="350" y="232" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Irreducibly Human</text>
+  <text x="350" y="248" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">taxonomy + phase gate</text>
+  <text x="350" y="266" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">Tier 1 / Tier 4&#8211;7 division</text>
+
+  <!-- spoke 1: AI+1 (top-left) -->
+  <rect x="64" y="108" width="220" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="76" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">AI+1</text>
+  <text x="76" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Employment economics &#8212; the 56%</text>
+  <text x="76" y="160" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">premium for AI-fluent domain experts.</text>
+
+  <!-- spoke 2: Brutalist (top-right) -->
+  <rect x="416" y="108" width="220" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="428" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Brutalist</text>
+  <text x="428" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Creative production &#8212; AI executes,</text>
+  <text x="428" y="160" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">the artist keeps creative judgment.</text>
+
+  <!-- spoke 3: Boondoggling (bottom-left) -->
+  <rect x="64" y="324" width="220" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="76" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Boondoggling</text>
+  <text x="76" y="362" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Software engineering &#8212; conducting</text>
+  <text x="76" y="376" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Claude with explicit labor separation.</text>
+
+  <!-- spoke 4: Frictional (bottom-right) -->
+  <rect x="416" y="324" width="220" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="428" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Frictional</text>
+  <text x="428" y="362" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">The empirical foundation &#8212; measuring</text>
+  <text x="428" y="376" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">the friction genuine learning leaves.</text>
+
+  <!-- bottom note -->
+  <text x="350" y="420" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">The tools will change. The taxonomy will evolve at the margins. The neurobiological mechanism will not.</text>
+</svg>

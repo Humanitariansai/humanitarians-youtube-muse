@@ -1,0 +1,59 @@
+<!--
+  What vs. how — the boundary the PRD must hold
+  Book: Branding and AI
+  Chapter: 20-shipit-product-requirements-and-scope
+  Figure: 02
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/20-shipit-product-requirements-and-scope-cajal.md
+-->
+<svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-20-02">
+  <title id="fig-title-20-02">What vs. how — the boundary the PRD must hold</title>
+  <desc>Paired examples — a clean "what" statement beside the same statement contaminated with "how" decisions the PRD had no business making.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="20-shipit-product-requirements-and-scope"
+      figure-number="02" figure-title="What vs. how — the boundary the PRD must hold"
+      figure-slug="what-vs-how-boundary" figure-type="comparison panels"
+      priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/20-shipit-product-requirements-and-scope-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The PRD specifies the what — engineering decides the how</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">When the how is smuggled into the PRD, it becomes a requirement</text>
+  <text x="32" y="76" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">engineers build against — and later defend.</text>
+
+  <!-- Column headers -->
+  <rect x="32" y="96" width="306" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">WHAT — belongs in the PRD</text>
+  <rect x="362" y="96" width="306" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="378" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">HOW — smuggled in, does not</text>
+
+  <!-- Row 1 -->
+  <rect x="32" y="130" width="306" height="106" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="154" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">"The tool sends users a daily</text>
+  <text x="48" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">email summary."</text>
+  <text x="48" y="202" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Says nothing about infrastructure.</text>
+  <rect x="362" y="130" width="306" height="106" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="378" y="154" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">"...via SendGrid at 7 a.m. ET</text>
+  <text x="378" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">using a Handlebars template."</text>
+  <text x="378" y="202" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">how in what's clothing</text>
+
+  <!-- Row 2 -->
+  <rect x="32" y="244" width="306" height="106" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">"The tool scores articles</text>
+  <text x="48" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">for sentiment."</text>
+  <text x="48" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Output behavior, not mechanism.</text>
+  <rect x="362" y="244" width="306" height="106" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="378" y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">"...using GPT-4o-mini, temp 0.2,</text>
+  <text x="378" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">a custom 5-point prompt."</text>
+  <text x="378" y="316" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">model + temp + prompt = how</text>
+
+  <!-- Footer -->
+  <rect x="32" y="360" width="636" height="80" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="386" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">The cost of how-in-what</text>
+  <text x="350" y="406" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#545454">When the implementation must change — and it always must —</text>
+  <text x="350" y="424" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#545454">the PRD becomes a source of false constraints.</text>
+
+  <text x="32" y="454" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 20, WHAT A PRD ACTUALLY IS</text>
+</svg>

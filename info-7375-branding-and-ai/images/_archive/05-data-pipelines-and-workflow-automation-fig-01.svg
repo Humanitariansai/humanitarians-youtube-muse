@@ -1,0 +1,34 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">A pipeline is a chain of contracts</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Each arrow is a contract owned by someone else. The pipeline runs as long as every contract holds.</text>
+<rect x="20" y="174" width="88" height="52" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="64" y="205" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Trigger</text>
+<rect x="148" y="174" width="88" height="52" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="192" y="205" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Ingest</text>
+<rect x="276" y="174" width="88" height="52" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="320" y="205" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Transform</text>
+<rect x="404" y="174" width="88" height="52" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="448" y="205" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">LLM step</text>
+<rect x="532" y="174" width="88" height="52" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="576" y="205" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Output</text>
+<path d="M108 200 L148 200" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="128.0" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="9" font-style="italic" fill="#4a4540" text-anchor="middle">contract</text>
+<path d="M236 200 L276 200" stroke="#1a1714" stroke-width="2" fill="none" marker-end="url(#arrow)" stroke-dasharray="4 3"/>
+<text x="256.0" y="188" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#1a1714" text-anchor="middle">?</text>
+<text x="256.0" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">contract failure</text>
+<path d="M364 200 L404 200" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="384.0" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="9" font-style="italic" fill="#4a4540" text-anchor="middle">contract</text>
+<path d="M492 200 L532 200" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="512.0" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="9" font-style="italic" fill="#4a4540" text-anchor="middle">contract</text>
+<text x="576" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">degraded</text>
+<text x="576" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">output</text>
+<text x="350.0" y="320" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">The pipeline does not crash. It runs, in a degraded mode, because Ingest&#8217;s contract failure was anticipated.</text>
+<text x="350.0" y="340" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">The brand consequence — the user-facing failure — is contained to the affected step.</text>
+<text x="350.0" y="380" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">A pipeline is not a piece of code. It is a chain of contracts, each subject to change without your consent.</text>
+</svg>

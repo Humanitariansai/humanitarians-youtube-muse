@@ -1,0 +1,73 @@
+<!--
+  Apollo and the damage asymmetry
+  Book: Branding and AI
+  Chapter: 21-shipit-pipelines-and-workflow-on-madison
+  Figure: 03
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-21-03">
+  <title id="fig-title-21-03">Apollo and the damage asymmetry</title>
+  <desc>Three actors in the Reddit-Apollo contract failure: Reddit absorbs diffuse damage, Apollo the product absorbs total product-killing damage, Christian Selig the developer gains reputation. Damage flows to the smallest party.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="21-shipit-pipelines-and-workflow-on-madison"
+      figure-number="03" figure-title="Apollo and the damage asymmetry"
+      figure-slug="apollo-damage-asymmetry" figure-type="comparison panels"
+      priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Damage flows downhill in a contract chain</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Reddit raised API pricing; Apollo would owe ~$20M/year on revenue in the hundreds</text>
+  <text x="32" y="76" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">of thousands. It shut down in 30 days.</text>
+
+  <defs><marker id="arrow2103" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#545454"/></marker></defs>
+
+  <!-- Panel 1: Reddit (upstream) -->
+  <rect x="32" y="92" width="200" height="220" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="32" y="92" width="200" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Reddit — upstream</text>
+  <text x="44" y="152" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DAMAGE TYPE</text>
+  <text x="44" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Diffuse, spread across</text>
+  <text x="44" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">hundreds of millions</text>
+  <text x="44" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">of users.</text>
+  <text x="44" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DURATION</text>
+  <text x="44" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Absorbed and forgotten.</text>
+  <text x="44" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">The largest party.</text>
+
+  <!-- Panel 2: Apollo (downstream) — RED focal point -->
+  <rect x="250" y="92" width="200" height="220" fill="#F5F5F5" stroke="#C8102E" stroke-width="2"/>
+  <rect x="250" y="92" width="200" height="34" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="262" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#C8102E">Apollo — downstream</text>
+  <text x="262" y="152" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DAMAGE TYPE</text>
+  <text x="262" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Concentrated,</text>
+  <text x="262" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">immediate,</text>
+  <text x="262" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">product-killing.</text>
+  <text x="262" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DURATION</text>
+  <text x="262" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Total. The product died.</text>
+  <text x="262" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#C8102E">The smallest party.</text>
+
+  <!-- Panel 3: Selig (personal) -->
+  <rect x="468" y="92" width="200" height="220" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="468" y="92" width="200" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="480" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Selig — personal</text>
+  <text x="480" y="152" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DAMAGE TYPE</text>
+  <text x="480" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">None — reputation</text>
+  <text x="480" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">strengthened by</text>
+  <text x="480" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">transparency.</text>
+  <text x="480" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">DURATION</text>
+  <text x="480" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">A net gain.</text>
+  <text x="480" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">The visible builder.</text>
+
+  <!-- downhill arrow motif -->
+  <line x1="232" y1="330" x2="248" y2="330" stroke="#545454" stroke-width="1.5" fill="none" marker-end="url(#arrow2103)"/>
+
+  <!-- Footer -->
+  <rect x="32" y="354" width="636" height="46" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="374" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Your users do not see "upstream contract failure" — they see "this tool stopped working."</text>
+  <text x="350" y="392" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The brand damage flows to the name on the front page. Which is yours.</text>
+
+  <text x="32" y="426" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 21, APOLLO AS A BRAND STORY</text>
+</svg>

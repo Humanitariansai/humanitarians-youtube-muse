@@ -1,0 +1,79 @@
+<!--
+  A pipeline is a chain of contracts
+  Book: Branding and AI
+  Chapter: 21-shipit-pipelines-and-workflow-on-madison
+  Figure: 01
+  Type: systems diagram
+  Generated: 2026-06-18
+  Source: pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-21-01">
+  <title id="fig-title-21-01">A pipeline is a chain of contracts</title>
+  <desc>A left-to-right chain of pipeline nodes where every connecting edge is labeled as a contract — shape, cost, rate limit, terms — each owned by someone else and subject to change.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="21-shipit-pipelines-and-workflow-on-madison"
+      figure-number="01" figure-title="A pipeline is a chain of contracts"
+      figure-slug="pipeline-chain-of-contracts" figure-type="systems diagram"
+      priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">A pipeline is not code — it is a chain of contracts</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Between every component there is an agreement you do not own.</text>
+  <text x="32" y="76" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The pipeline runs while every agreement holds.</text>
+
+  <!-- Banner -->
+  <rect x="32" y="80" width="636" height="28" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="99" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">The pipeline breaks when one agreement fails — and the agreements are not yours to control.</text>
+
+  <defs><marker id="arrow2101" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker></defs>
+
+  <!-- Nodes -->
+  <rect x="40" y="160" width="128" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="104" y="184" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Source</text>
+  <text x="104" y="202" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">RSS / feed</text>
+
+  <rect x="226" y="160" width="128" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="290" y="184" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">API call</text>
+  <text x="290" y="202" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">3rd-party service</text>
+
+  <rect x="412" y="160" width="128" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="476" y="184" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Transform</text>
+  <text x="476" y="202" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">clean / score</text>
+
+  <rect x="560" y="160" width="100" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="610" y="184" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Store</text>
+  <text x="610" y="202" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Sheet / DB</text>
+
+  <!-- Arrows + contract tags -->
+  <line x1="168" y1="188" x2="222" y2="188" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2101)"/>
+  <line x1="354" y1="188" x2="408" y2="188" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2101)"/>
+  <line x1="540" y1="188" x2="556" y2="188" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2101)"/>
+
+  <!-- contract callout boxes beneath each edge -->
+  <rect x="120" y="248" width="160" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="200" y="268" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">CONTRACT 1</text>
+  <text x="200" y="286" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">shape · rate limit</text>
+  <text x="200" y="301" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">terms of service</text>
+  <line x1="195" y1="216" x2="200" y2="246" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+  <rect x="306" y="248" width="160" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="386" y="268" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">CONTRACT 2</text>
+  <text x="386" y="286" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">price · auth</text>
+  <text x="386" y="301" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">schema fields</text>
+  <line x1="381" y1="216" x2="386" y2="246" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+  <rect x="492" y="248" width="160" height="64" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="572" y="268" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">CONTRACT 3</text>
+  <text x="572" y="286" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">quota · format</text>
+  <text x="572" y="301" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">availability</text>
+  <line x1="548" y1="216" x2="572" y2="246" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+  <!-- Footer -->
+  <rect x="32" y="350" width="636" height="46" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="370" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Every contract will change. Design for the day it does.</text>
+  <text x="350" y="388" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The code is real and matters — but the contracts decide whether the pipeline survives in production.</text>
+
+  <text x="32" y="424" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 21, A PIPELINE IS A CHAIN OF CONTRACTS</text>
+</svg>

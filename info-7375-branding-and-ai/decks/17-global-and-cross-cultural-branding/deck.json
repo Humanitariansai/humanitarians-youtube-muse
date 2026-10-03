@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "Global & Cross-Cultural Branding",
+    "short": "BRANDING · CH17",
+    "course": "Branding and AI · Chapter 17",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/17-global-and-cross-cultural-branding.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 17",
+      "title": "Global & Cross-Cultural Branding",
+      "subtitle": "The same message, translated literally, can mean the opposite across a border. Localization is re-creation, not translation.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the premise",
+      "title": "A brand crossing a border is not moving a product",
+      "lead": "It is moving a set of associations, a voice, a promise — mental constructs built inside one culture's values, aesthetics and reference points — into a context where all three may be entirely different.",
+      "bullets": [
+        "The associations do not automatically transfer. The voice may not translate.",
+        "The promise may land as something different from what was intended, or not land at all.",
+        "Every earlier chapter of this book was implicitly single-market. **This one adds the dimension that changes almost everything about execution: the market you are entering has different ways of seeing.**"
+      ]
+    },
+    {
+      "id": "S03", "section": "standardize or adapt?",
+      "title": "Levitt said one brand everywhere. The world said no.",
+      "lead": "The question was formally posed in 1983, when Theodore Levitt published \"The Globalization of Markets\" in the Harvard Business Review: technology was homogenizing world tastes, so standardize — one identity, maximum scale, lower cost.",
+      "bullets": [
+        "The counterargument was immediate and empirical. What a French consumer finds aspirational, a Brazilian consumer may find cold. The visual language that signals quality in Germany may signal cheapness in Japan.",
+        "A tagline built on individual achievement resonates in the United States and misfires in cultures organized around collective identity. Adaptation was not accommodation. **It was the price of relevance.**",
+        "The resolution is neither pole: **glocalization** — a global strategy with local execution. The Golden Arches are the same in Tokyo and Toronto. The McSpicy Paneer is not.",
+        "The trade-off does not dissolve. Standardization buys efficiency and recognition that accrues across markets; adaptation buys local resonance at higher coordination cost."
+      ]
+    },
+    {
+      "id": "S04", "section": "per element",
+      "title": "The decision is not made once for the whole brand",
+      "lead": "It is made element by element — and every element that holds global and every element that flexes local requires a clear rationale of its own.",
+      "why": "chapter sorts one set into exactly two named buckets and says so directly — \"the core stays global, the expression localizes… the decision is not made once for the whole brand; it is made per element\" — while the elements its figure lists but its prose never assigns stay unsorted",
+      "archetype": "tallySplit",
+      "duration": 7.5,
+      "data": {
+        "left": { "label": "Core · holds global", "pending": true },
+        "right": { "label": "Expression · localizes", "pending": true },
+        "items": [
+          { "label": "purpose", "side": "left" },
+          { "label": "archetype", "side": "left" },
+          { "label": "fundamental promise", "side": "left" },
+          { "label": "the Golden Arches", "side": "left" },
+          { "label": "language", "side": "right" },
+          { "label": "imagery", "side": "right" },
+          { "label": "humor", "side": "right" },
+          { "label": "channel mix", "side": "right" },
+          { "label": "local menu items", "side": "right" },
+          { "label": "brand name", "side": "pending" },
+          { "label": "pricing", "side": "pending" },
+          { "label": "your own elements", "side": "pending" }
+        ],
+        "note": "The rest is your split to make — with a rationale for each."
+      }
+    },
+    {
+      "id": "S05", "section": "the cultural lens",
+      "title": "Hofstede's dimensions, and what each one does to a message",
+      "lead": "The most widely cited framework for why the same brand message reads differently across cultures — drawn from IBM employee survey data collected in the late 1960s and early 1970s, later expanded.",
+      "bullets": [
+        "**Power distance** — how much unequal power is accepted. Changes how brand authority and expert endorsement land.",
+        "**Individualism vs. collectivism** — probably the dimension with the most direct implications for messaging: personal achievement and self-expression, versus belonging, family and shared identity.",
+        "**Uncertainty avoidance** — tolerance for ambiguity. Safety, reliability and expertise on one end; novelty and disruption framing that would read as recklessness on the other.",
+        "**Masculinity vs. femininity**, plus **long- vs. short-term orientation** and **indulgence vs. restraint**. The chapter flags its own `[verify]` on the current dimension set."
+      ]
+    },
+    {
+      "id": "S06", "section": "the caveat first",
+      "title": "Population tendencies, not scripts for individuals",
+      "lead": "This caveat applies before anything else, and the chapter puts it before the applications for a reason.",
+      "bullets": [
+        "The dimensions describe the statistical center of a national culture, not every member of it. A Dutch person is not automatically low-power-distance because the Netherlands scores low.",
+        "**Using the framework to stereotype individuals produces exactly the kind of cultural error it is supposed to help avoid.**",
+        "The right use is to ask better questions — *in this market, is a message built on individual achievement more or less likely to resonate than one built on collective identity, and why?* — not to answer them before doing the empirical work.",
+        "Marieke de Mooij's research applies the framework to brand communication specifically. Worth consulting before any significant adaptation decision."
+      ]
+    },
+    {
+      "id": "S07", "section": "three levels",
+      "title": "Translation, localization, transcreation",
+      "lead": "Three escalating levels of effort in adapting brand language for a new market. Only one of them is brand work.",
+      "why": "chapter names an explicitly ordered set — \"there are three escalating levels of effort in adapting brand language for a new market\" — from words, to words plus context, to \"what would produce this feeling in this culture?\"",
+      "archetype": "ladder",
+      "duration": 7.0,
+      "data": {
+        "lowLabel": "the words",
+        "highLabel": "the feeling",
+        "rungs": [
+          { "label": "Translation", "note": "words converted. Fine at literal meaning — and brand language is not primarily literal" },
+          { "label": "Localization", "note": "words plus context: formats, units, currency, references, regulation. The standard for functional content" },
+          { "label": "Transcreation", "note": "not what these words mean, but what would produce this feeling here" }
+        ]
+      }
+    },
+    {
+      "id": "S08", "section": "why it has to be re-created",
+      "title": "Grammatically correct and emotionally inert",
+      "lead": "A transcreated line may be shorter or longer, use entirely different metaphors, reference different touchstones — and still be faithful, because it produces the same experience in its audience. Honda's \"The Power of Dreams\" was adapted this way market to market.",
+      "bullets": [
+        "Brand language is about emotional effect, cultural resonance, rhythm and connotation. **None of that survives word-for-word conversion.**",
+        "Brand language accumulates connotations in one cultural context that simply do not transfer to another.",
+        "Humor is the most reliable victim. A joke depends on shared assumptions about what is surprising, what is transgressive, and what is true — and those assumptions are cultural.",
+        "**A joke that works in São Paulo is not a joke in Seoul. It is just a sentence.**"
+      ]
+    },
+    {
+      "id": "S09", "section": "what stays global",
+      "title": "The core is the membrane. Nothing gets to flex it.",
+      "lead": "Glocalization needs an explicit rule for what is fixed and what flexes. Without one, every market decision becomes a negotiation and the brand slowly becomes a different thing in every country — which is not localization, it is fragmentation.",
+      "why": "chapter draws a boundary and names what is refused entry: \"a brand that is an Innocent in one market and a Sage in another does not have a global brand — it has two brands with the same name\"; the archetype is universal, \"the specific expression of it is not\"",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT MAY FLEX, MARKET BY MARKET" },
+        "inside": [
+          { "label": "language" },
+          { "label": "imagery" },
+          { "label": "cultural references" },
+          { "label": "channel + seasonal" }
+        ],
+        "attempts": [
+          { "label": "the archetype", "blocked": true, "from": "left" },
+          { "label": "the purpose", "blocked": true, "from": "top" },
+          { "label": "the promise", "blocked": true, "from": "right" },
+          { "label": "local menu items", "blocked": false, "from": "bottom" },
+          { "label": "the brand name", "blocked": null, "from": "left" }
+        ]
+      }
+    },
+    {
+      "id": "S10", "section": "two ways to get it wrong",
+      "title": "Too rigid and too loose fail differently",
+      "lead": "The boundary between core and expression can be drawn badly in either direction, and each mistake produces its own distinct failure.",
+      "why": "chapter states both failure modes from one shared decision — \"getting this boundary wrong in either direction fails distinctly. Too rigid… and the brand sounds tone-deaf: a foreigner trying to make local references without actually knowing the culture. Too loose… and the brand becomes incoherent\"",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "one brand, one new market",
+        "splitLabel": "where you drew the line",
+        "tracks": [
+          {
+            "label": "Too rigid · expression held too",
+            "outcome": "tone-deaf",
+            "tone": "warn",
+            "path": "up",
+            "notes": ["local references made from outside", "without knowing the culture", "correct and inert"]
+          },
+          {
+            "label": "Too loose · flexed the core too",
+            "outcome": "incoherent",
+            "tone": "warn",
+            "path": "down",
+            "notes": ["a different brand per market", "two brands with one name", "no global equity accumulates"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S11", "section": "the working test",
+      "title": "Would the two descriptions match?",
+      "lead": "One question settles whether the core is holding.",
+      "bullets": [
+        "If someone in Market A and someone in Market B described what this brand is and what it stands for — **would their descriptions match?**",
+        "If yes, the core is holding.",
+        "If the descriptions differ significantly, either the localization has gone too far, **or the core was never clearly enough defined to anchor the adaptation in the first place.**"
+      ]
+    },
+    {
+      "id": "S12", "section": "the blunder file",
+      "title": "Half the famous cautionary tales are not true",
+      "lead": "Cross-cultural branding has a famous catalog of failures — names that mean something unfortunate elsewhere, colors that signaled mourning, slogans that became punchlines. They get repeated because they are memorable.",
+      "bullets": [
+        "Many of the most-repeated blunder stories are apocryphal, exaggerated, or simply wrong — **including several that have made it into marketing textbooks**.",
+        "The GM Nova story is contested: the car sold reasonably well in those markets, and \"nova\" is not naturally parsed as \"no va\" in Spanish. The Coors \"Turn It Loose\" story has been repeated for decades with uncertain sourcing.",
+        "The underlying principle is real: names carry connotations that do not appear in dictionaries, and what is neutral in one context is loaded in another.",
+        "**That principle does not require apocryphal anecdotes to be compelling.** Do not repeat a blunder story you cannot source."
+      ]
+    },
+    {
+      "id": "S13", "section": "the risk audit",
+      "title": "Not one cell of this gets filled in by a model",
+      "lead": "Name, colors, imagery, numerical associations, humor — everything that carries cultural meaning beyond its literal content, across every market you intend to enter.",
+      "why": "chapter defines a fixed set of risk elements applied across markets and refuses to fill any of them in: \"flag anything that requires verification. Then verify it — not with the model, with people\"; the exercise instruction is \"tag every cultural claim [VERIFY WITH NATIVE SPEAKER]. Assert no cross-cultural fact without that tag\"",
+      "archetype": "matrixGrid",
+      "duration": 8.5,
+      "data": {
+        "rows": [
+          { "label": "Name" },
+          { "label": "Colors" },
+          { "label": "Imagery" },
+          { "label": "Humor" }
+        ],
+        "cols": [
+          { "label": "Tokyo" },
+          { "label": "Toronto" },
+          { "label": "São Paulo" },
+          { "label": "Seoul" }
+        ],
+        "cells": [
+          ["pending", "pending", "pending", "pending"],
+          ["pending", "pending", "pending", "pending"],
+          ["pending", "pending", "pending", "pending"],
+          ["pending", "pending", "pending", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "the market-entry plan",
+      "title": "Three stages, and a human at the end of every one",
+      "lead": "The plan for entering one new market: what holds globally, what localizes, and where the cultural risks are.",
+      "why": "chapter states \"the plan has three stages\" in order — the split, the transcreation, the risk audit — with the same refusal at each: \"the verification step is not optional and is not something AI can do… verify it — not with the model, with people\"; whether any stage clears is the reader's own run",
+      "archetype": "gatePipeline",
+      "duration": 7.5,
+      "data": {
+        "input": { "label": "your brand, one new market" },
+        "gates": [
+          { "label": "The split", "rule": "element by element, a rationale for each", "pass": null },
+          { "label": "Transcreation", "rule": "AI drafts · someone who lives there verifies", "pass": null },
+          { "label": "Risk audit", "rule": "name · colors · imagery · numbers · humor", "pass": null }
+        ],
+        "output": { "label": "a market-entry plan", "pending": true }
+      }
+    },
+    {
+      "id": "S15", "section": "the +1",
+      "title": "A model can be fluent. It cannot feel whether it lands.",
+      "lead": "AI generates and drafts at volume, flags patterns, and asks better questions. That is real work and you should use it.",
+      "bullets": [
+        "Cultural judgment — whether an adaptation is authentic or tone-deaf, whether a flagged risk is real or theoretical, whether the transcreated version actually feels like the brand there — **lives in communities, not in models**.",
+        "The tell: you have crossed the line when AI's cultural confidence substitutes for local knowledge.",
+        "Margaret Mead's *Coming of Age in Samoa* (1928) made the underlying move first — what one culture treats as natural and universal is often local convention.",
+        "Her method is the chapter's verification step: **go and observe inside the culture rather than reasoning about it from outside.** Not a dictionary, not a multilingual colleague, not a confident model."
+      ]
+    },
+    {
+      "id": "S16", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Pick one market. Draw the line. Then go ask someone who lives there.",
+      "lead": "Split your brand element by element with a rationale for each. Transcreate the tagline and one key message — accept that the words may be entirely different. Audit the name, the colors, the imagery, the numbers and the humor. Tag every cultural claim [VERIFY WITH NATIVE SPEAKER], and then actually verify it."
+    }
+  ]
+}

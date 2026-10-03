@@ -1,0 +1,196 @@
+{
+  "video": "show-tell-costly-signals",
+  "metadata": {
+    "slug": "show-tell-costly-signals",
+    "title": "Cheap to Make, Cheap to Signal",
+    "topic": "INFO 7375 \u00b7 BRANDING AND AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "Burmese (Mingalaba) \u2014 confirmed unused 2026-09-27",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "course": "INFO 7375 Branding and AI \u00b7 Nik Bear Brown \u00b7 Northeastern University",
+    "audience": "INFO 7375 Branding and AI students (Fall 2026) building portfolios in the age of AI",
+    "bookloop_policy": "Course film: carries the INFO 7375 credit, spoken in BIDEA and on screen in the BDEFS title and the BHTF composer topic; not a numbered lecture. Outro stays OUTRO-LOCK.",
+    "source_doc": "info-7375-branding-and-ai/chapters/01-the-creative-engineer.md, 'The Machinery: Spence Signaling Mechanism' + Bear's framing, 2026-09-27 (SOURCE.md); Spence 1973 QJE 87(3):355-374; Peng et al., arXiv 2302.06590",
+    "playlist": "Claude & Agentic AI",
+    "chapter_number": 0,
+    "tags": [
+      "signaling",
+      "Michael Spence",
+      "costly signals",
+      "portfolio",
+      "judgment",
+      "AI",
+      "hiring",
+      "branding",
+      "INFO 7375",
+      "Northeastern",
+      "Claude",
+      "Nik Bear Brown"
+    ],
+    "build": {
+      "at": "2026-09-27T15:12:41",
+      "cut": "review",
+      "filled": 12,
+      "of": 12,
+      "slates": [],
+      "skin_warnings": [
+        "BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' \u2014 COLD OPEN LAW wants ClaudeComposerAsk"
+      ]
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 12,
+  "beats_open": 0,
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "status": "filled",
+      "on_disk": "media/BIDEA.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BIDEA.mp4",
+      "label": "Mingalaba. This is Liam, in for Bear, with a short film for INFO seventy-three seventy-five, Brandin"
+    },
+    {
+      "beat_id": "BDEFS",
+      "status": "filled",
+      "on_disk": "media/BDEFS.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BDEFS.mp4",
+      "label": "Three terms. A signal: something you show that stands in for what others can't see. A costly signal:"
+    },
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "manim/B00.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B00.mp4",
+      "label": "In 1973, the economist Michael Spence asked a simple question. An employer wants productive people, "
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "manim/B01.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B01.mp4",
+      "label": "They look at signals: things you can show that stand in for what they can't see. Spence's example wa"
+    },
+    {
+      "beat_id": "B02",
+      "status": "filled",
+      "on_disk": "manim/B02.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B02.mp4",
+      "label": "A degree works as a signal because it's costly, and costlier for some people than for others. It's h"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "manim/B03.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B03.mp4",
+      "label": "When the cost holds, the signal separates people. Spence called that a separating equilibrium. The w"
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "manim/B04.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B04.mp4",
+      "label": "Now AI has made some of those signals nearly free. A working demo app. A clean cover letter. A polis"
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "manim/B05.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B05.mp4",
+      "label": "When everyone can produce the signal, it stops sorting. Spence called that pooling. Everyone looks t"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "manim/B06.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B06.mp4",
+      "label": "So what didn't get cheap? Judgment: choosing what's worth making. Ideation: finding a problem real p"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "manim/B07.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B07.mp4",
+      "label": "So show the expensive part. The problem you chose, and why. The versions you threw away. What real u"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. Pick one project you'd show an employer, and paste this into Claude: Here's a project in "
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": "Cheap to Make, Cheap to Signal. At Nik Bear Brown."
+    }
+  ]
+}

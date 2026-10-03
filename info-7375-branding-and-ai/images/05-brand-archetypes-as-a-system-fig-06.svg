@@ -1,0 +1,79 @@
+<!--
+  Three cases of archetype drift
+  Book: Branding and AI
+  Chapter: 05-brand-archetypes-as-a-system
+  Figure: 06
+  Type: comparison table
+  Generated: 2026-06-18
+  Source: pantry/05-brand-archetypes-as-a-system-cajal.md
+-->
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05-06">
+  <title id="fig-title-05-06">Three cases of archetype drift</title>
+  <desc>Tropicana, Gap, and New Coke compared on original archetype, drift type, rejection mechanism, and days to rollback. Gap's six-day reversal is the fastest documented major rollback.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="05-brand-archetypes-as-a-system"
+      figure-number="06" figure-title="Three cases of archetype drift" figure-slug="three-cases-archetype-drift"
+      figure-type="comparison table" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/05-brand-archetypes-as-a-system-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="400" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three drifts, three rollbacks, one shape of failure</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">When a brand leaves the archetype its customers built a model around, they stop recognizing it.</text>
+
+  <!-- column headers -->
+  <rect x="200" y="80" width="156" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="356" y="80" width="156" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="512" y="80" width="156" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="278" y="102" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Tropicana '09</text>
+  <text x="434" y="102" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Gap '10</text>
+  <text x="590" y="102" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">New Coke '85</text>
+
+  <!-- row labels -->
+  <text x="32" y="142" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Original</text>
+  <text x="32" y="158" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">archetype</text>
+  <text x="32" y="206" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Drift type</text>
+  <text x="32" y="262" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Rejection</text>
+  <text x="32" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">mechanism</text>
+  <text x="32" y="334" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Days to</text>
+  <text x="32" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">rollback</text>
+
+  <!-- grid -->
+  <line x1="32" y1="172" x2="668" y2="172" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="32" y1="228" x2="668" y2="228" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="32" y1="300" x2="668" y2="300" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="32" y1="368" x2="668" y2="368" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="200" y1="114" x2="200" y2="368" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="356" y1="114" x2="356" y2="368" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="512" y1="114" x2="512" y2="368" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- Tropicana -->
+  <text x="210" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Innocent</text>
+  <text x="210" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Category error</text>
+  <text x="210" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">(→ Lover/Ruler)</text>
+  <text x="210" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Recognition cue</text>
+  <text x="210" y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">(orange+straw)</text>
+  <text x="210" y="284" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">erased.</text>
+  <text x="210" y="338" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="16" fill="#121212">~60</text>
+
+  <!-- Gap RED on days -->
+  <text x="366" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Everyman</text>
+  <text x="366" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Category error</text>
+  <text x="366" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">(→ Creator/Lover)</text>
+  <text x="366" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Instant felt</text>
+  <text x="366" y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">mismatch; 2,000+</text>
+  <text x="366" y="284" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">complaints in 24h.</text>
+  <text x="366" y="338" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="18" font-weight="700" fill="#C8102E">6</text>
+  <text x="396" y="338" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">fastest on record</text>
+
+  <!-- New Coke -->
+  <text x="522" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Innocent</text>
+  <text x="522" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Category error</text>
+  <text x="522" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">+ shadow (denial)</text>
+  <text x="522" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Sameness violated;</text>
+  <text x="522" y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">400,000+ letters,</text>
+  <text x="522" y="284" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">protest, grief.</text>
+  <text x="522" y="338" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="16" fill="#121212">~90</text>
+
+  <text x="32" y="390" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 5, THREE CASES OF ARCHETYPE DRIFT</text>
+</svg>

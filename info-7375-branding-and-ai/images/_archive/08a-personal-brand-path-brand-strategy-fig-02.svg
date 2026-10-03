@@ -1,0 +1,42 @@
+<svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="600" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">The seven components, in the order they constrain each other</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">A contradiction anywhere upstream propagates down. Negative space is downstream of everything.</text>
+<rect x="160" y="84" width="380" height="48" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">MISSION</text>
+<text x="350" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">What the company exists to do</text>
+<rect x="160" y="152" width="380" height="48" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">VISION</text>
+<text x="350" y="188" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">The world if you succeed</text>
+<rect x="160" y="220" width="380" height="48" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="238" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">VALUES</text>
+<text x="350" y="256" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">What the company won't compromise</text>
+<rect x="160" y="288" width="380" height="48" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="306" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">UVP</text>
+<text x="350" y="324" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">What you offer that competitors don't</text>
+<rect x="160" y="356" width="380" height="48" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="374" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">ARCHETYPE</text>
+<text x="350" y="392" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">The role you play in the audience's story</text>
+<rect x="160" y="424" width="380" height="48" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="442" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">VOICE</text>
+<text x="350" y="460" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">How the company speaks</text>
+<rect x="160" y="484" width="380" height="48" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="502" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">POSITIONING</text>
+<text x="350" y="520" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">Where you sit relative to the actual alternative</text>
+<path d="M350 132 L350 150" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M350 200 L350 218" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M350 268 L350 286" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M350 336 L350 354" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M350 404 L350 422" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M350 472 L350 482" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="80" y="552" width="540" height="40" fill="#1a1714" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="576" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">NEGATIVE SPACE — downstream of all seven; what the company refuses to do</text>
+<path d="M220 532 L220 550" stroke="#1a1714" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+<path d="M350 532 L350 550" stroke="#1a1714" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+<path d="M480 532 L480 550" stroke="#1a1714" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+</svg>

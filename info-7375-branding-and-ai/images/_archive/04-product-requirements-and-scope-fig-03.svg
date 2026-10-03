@@ -1,0 +1,53 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-4-3 desc-4-3">
+<title id="title-4-3">The one-page PRD template</title>
+<desc id="desc-4-3">Four labelled boxes arranged vertically — Problem, Gap, Tool, MVP Boundary — each with its guiding question, a crossed-out weak version, and a strong version. A sidebar annotation marks the $100,000 no as the first entry in the MVP Boundary out column. The figure works as a blank template for the reader's own PRD.</desc>
+<rect width="700" height="480" fill="#FFFFFF"/>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">The one-page PRD template</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Four sections. Weak version crossed out; strong version below. The $100,000 no leads the out column.</text>
+
+<!-- PROBLEM -->
+<rect x="48" y="80" width="456" height="80" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="48" y="80" width="6" height="80" fill="#C8102E"/>
+<text x="66" y="100" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#2a1a0e">1. Problem</text>
+<text x="66" y="116" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">Who, what specific pain, how often, at what cost?</text>
+<text x="66" y="134" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454" text-decoration="line-through">"Marketing professionals need better intelligence."</text>
+<text x="66" y="150" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">Marketing managers at small B2B SaaS spend 2-4 hrs/Monday aggregating competitor news manually.</text>
+
+<!-- GAP -->
+<rect x="48" y="172" width="456" height="80" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="48" y="172" width="6" height="80" fill="#C8102E"/>
+<text x="66" y="192" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#2a1a0e">2. Gap</text>
+<text x="66" y="208" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">What exists, and exactly where does it fall short?</text>
+<text x="66" y="226" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454" text-decoration="line-through">"There are tools, but they're not quite right."</text>
+<text x="66" y="242" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">Google Alerts: cheap, noisy. Brand24: smart, $99/mo. The gap: affordable plus analyzed.</text>
+
+<!-- TOOL -->
+<rect x="48" y="264" width="456" height="80" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="48" y="264" width="6" height="80" fill="#C8102E"/>
+<text x="66" y="284" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#2a1a0e">3. Tool</text>
+<text x="66" y="300" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">What, exactly, will you build? (the what, not the how)</text>
+<text x="66" y="318" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454" text-decoration="line-through">"An AI-powered platform for marketing intelligence."</text>
+<text x="66" y="334" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">An n8n workflow: pulls RSS, dedupes, scores sentiment, writes a daily Google Sheet. Under $20/mo.</text>
+
+<!-- MVP BOUNDARY -->
+<rect x="48" y="356" width="456" height="92" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="48" y="356" width="6" height="92" fill="#C8102E"/>
+<text x="66" y="376" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#2a1a0e">4. MVP boundary</text>
+<text x="66" y="392" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">In scope for v1 — and, explicitly, out of scope.</text>
+<text x="66" y="410" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">IN: 10 feeds, dedup, sentiment, daily Sheet, email notice.</text>
+<text x="66" y="426" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">OUT: multi-user, social, dashboards, Slack, real-time, API.</text>
+<text x="66" y="442" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">Only writing the "in" column is the failure mode.</text>
+
+<!-- SIDEBAR: $100,000 no -->
+<rect x="520" y="356" width="132" height="92" fill="#F5F5F5" stroke="#C8860E" stroke-width="1"/>
+<rect x="520" y="356" width="6" height="92" fill="#C8860E"/>
+<text x="538" y="378" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">The $100,000 no</text>
+<text x="538" y="396" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">First entry in the</text>
+<text x="538" y="408" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">out column. The</text>
+<text x="538" y="420" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">feature you refuse</text>
+<text x="538" y="432" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">even when it costs:</text>
+<text x="538" y="444" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#2a1a0e">multi-user accounts.</text>
+
+<line x1="48" y1="462" x2="652" y2="462" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="476" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 4.3</text>
+</svg>

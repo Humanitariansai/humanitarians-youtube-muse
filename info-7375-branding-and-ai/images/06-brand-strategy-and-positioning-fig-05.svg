@@ -1,0 +1,91 @@
+<!--
+  Negative-space criteria
+  Book: Branding and AI
+  Chapter: 06-brand-strategy-and-positioning
+  Figure: 05
+  Type: comparison table
+  Generated: 2026-06-18
+  Source: pantry/06-brand-strategy-and-positioning-cajal.md
+-->
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-06-05">
+  <title id="fig-title-06-05">Negative-space criteria</title>
+  <desc>The four tests every no-list item must pass — specific, archetype-consistent, costly, testable over time — with what passes, what fails, and a Stripe example for each.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="06-brand-strategy-and-positioning"
+      figure-number="05" figure-title="Negative-space criteria" figure-slug="negative-space-criteria"
+      figure-type="comparison table" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/06-brand-strategy-and-positioning-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="380" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Four tests that turn a refusal into a real commitment</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Your no-list needs at least five items, each passing all four.</text>
+
+  <!-- header -->
+  <rect x="32" y="80" width="130" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="162" y="80" width="180" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="342" y="80" width="160" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="502" y="80" width="166" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Criterion</text>
+  <text x="170" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">What passes</text>
+  <text x="350" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">What fails</text>
+  <text x="510" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Stripe example</text>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10.5">
+    <!-- Specific -->
+    <rect x="32" y="112" width="130" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="162" y="112" width="180" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="342" y="112" width="160" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="502" y="112" width="166" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="145" font-weight="700" fill="#121212">Specific</text>
+    <text x="170" y="138" fill="#121212">"No settings panel</text>
+    <text x="170" y="152" fill="#121212">over 5 options in v1."</text>
+    <text x="350" y="138" fill="#545454">"We won't compromise</text>
+    <text x="350" y="152" fill="#545454">simplicity." (decorative)</text>
+    <text x="510" y="138" fill="#545454">No sales-call-required</text>
+    <text x="510" y="152" fill="#545454">onboarding.</text>
+
+    <!-- Archetype-consistent -->
+    <rect x="32" y="170" width="130" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="162" y="170" width="180" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="342" y="170" width="160" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="502" y="170" width="166" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="196" font-weight="700" fill="#121212">Archetype-</text>
+    <text x="40" y="210" font-weight="700" fill="#121212">consistent</text>
+    <text x="170" y="196" fill="#121212">Predictable from</text>
+    <text x="170" y="210" fill="#121212">the stated archetype.</text>
+    <text x="350" y="196" fill="#545454">A no that contradicts</text>
+    <text x="350" y="210" fill="#545454">the archetype.</text>
+    <text x="510" y="196" fill="#545454">No competitor-bashing</text>
+    <text x="510" y="210" fill="#545454">(Sage).</text>
+
+    <!-- Costly -->
+    <rect x="32" y="228" width="130" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="162" y="228" width="180" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="342" y="228" width="160" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="502" y="228" width="166" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="261" font-weight="700" fill="#121212">Costly</text>
+    <text x="170" y="254" fill="#121212">"No enterprise SSO</text>
+    <text x="170" y="268" fill="#121212">even for 6 figures."</text>
+    <text x="350" y="254" fill="#545454">"No feature nobody</text>
+    <text x="350" y="268" fill="#545454">asked for."</text>
+    <text x="510" y="254" fill="#545454">Declined enterprise</text>
+    <text x="510" y="268" fill="#545454">sales for years.</text>
+
+    <!-- Testable -->
+    <rect x="32" y="286" width="130" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="162" y="286" width="180" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="342" y="286" width="160" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="502" y="286" width="166" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="312" font-weight="700" fill="#121212">Testable</text>
+    <text x="40" y="326" font-weight="700" fill="#121212">over time</text>
+    <text x="170" y="312" fill="#121212">A reader in 2 years</text>
+    <text x="170" y="326" fill="#121212">can check it.</text>
+    <text x="350" y="312" fill="#545454">A vague value that</text>
+    <text x="350" y="326" fill="#545454">cannot be violated.</text>
+    <text x="510" y="312" fill="#545454">No marketing claim</text>
+    <text x="510" y="326" fill="#545454">docs won't support.</text>
+  </g>
+
+  <text x="32" y="368" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 6, NEGATIVE SPACE — WHAT YOU DECLINE</text>
+</svg>

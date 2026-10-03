@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "Naming, Trademark & Brand Protection",
+    "short": "BRANDING · CH08",
+    "course": "Branding and AI · Chapter 08",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/08-naming-trademark-and-brand-protection.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 08",
+      "title": "Naming, Trademark & Brand Protection",
+      "subtitle": "A great name you cannot own is a liability with good marketing.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the story with a shape",
+      "title": "The creative work was fine. It just did not matter.",
+      "lead": "A startup spent six months and a chunk of seed money building a brand around a name, then received a cease-and-desist from a company in the same software class with a prior registration.",
+      "bullets": [
+        "The name was memorable. The logo was done. The domain was bought. **None of it mattered, because they never ran a trademark search.**",
+        "The name had to go, and with it the six months.",
+        "They treated naming as a purely creative problem when it is also a legal one — and **the legal half is the half that can unwind everything else.**"
+      ]
+    },
+    {
+      "id": "S03", "section": "clearance before commitment",
+      "title": "Everything they spent was spent behind a lock",
+      "lead": "The order of operations is the entire lesson. The commitment came first; the evidence arrived last, and uninvited.",
+      "why": "the chapter opens with a commitment made before any evidence: \"spent six months and a chunk of seed money building a brand around a name, only to receive a cease-and-desist... The name was memorable, the logo was done, the domain was bought — and none of it mattered, because they never ran a trademark search\"; the section that answers it is titled \"Clearance Before Commitment\"",
+      "archetype": "lockTimeline",
+      "duration": 8.5,
+      "data": {
+        "commit": { "at": 0.10, "label": "the name is committed to" },
+        "marks": [
+          { "at": 0.34, "label": "logo done" },
+          { "at": 0.54, "label": "domain bought" },
+          { "at": 0.72, "label": "six months of brand-building" }
+        ],
+        "resolve": { "at": 0.90, "label": "cease-and-desist", "verdict": "miss" },
+        "axisLabel": "the search that was never run"
+      }
+    },
+    {
+      "id": "S04", "section": "three things you think are one",
+      "title": "Three rights. You can hold all three, one, or none.",
+      "lead": "Most founders treat \"the name\" as a single thing. It is not — and each of these does exactly one job.",
+      "why": "chapter: \"There are three separate rights bundled under that phrase\" and states each cell — a trademark is \"enforceable against confusingly similar uses\"; a domain \"grants no trademark rights whatsoever\"; a company registration \"means a state agency did not already have that name on file in that state... It is not a trademark\"; \"Only one of them — the trademark — requires a lawyer to clear properly\"",
+      "archetype": "matrixGrid",
+      "duration": 8.5,
+      "data": {
+        "rows": [
+          { "label": "Excludes confusingly similar uses" },
+          { "label": "Gives you the web address" },
+          { "label": "Checked only against one state's list" },
+          { "label": "Needs counsel to clear" }
+        ],
+        "cols": [
+          { "label": "Trademark" },
+          { "label": "Domain" },
+          { "label": "Company registration" }
+        ],
+        "cells": [
+          ["hit", "miss", "miss"],
+          ["miss", "hit", "miss"],
+          ["miss", "miss", "hit"],
+          ["hit", "miss", "miss"]
+        ]
+      }
+    },
+    {
+      "id": "S05", "section": "the dangerous sentence",
+      "title": "\"I bought the domain, so I own the name.\"",
+      "lead": "This is the most common and most dangerous version of the error, and it is one sentence long.",
+      "bullets": [
+        "A domain is **a rented address**. A trademark registration grants no rights to a domain, and a domain grants no trademark rights whatsoever.",
+        "These are two legally separate systems, and they conflict routinely: a company can own the trademark and lose the domain arbitration, or own the domain and still receive a cease-and-desist.",
+        "A company registration does not protect the name federally — or even against a similarly named company in the same state operating in a different category.",
+        "**Clearance means addressing all three.**"
+      ]
+    },
+    {
+      "id": "S06", "section": "the strength spectrum",
+      "title": "The clearer the name, the less it is yours",
+      "lead": "US trademark law calls this the *Abercrombie* spectrum, after a 1976 Second Circuit case. From weakest to strongest.",
+      "why": "chapter: \"US trademark law articulates this as the *Abercrombie* spectrum... From weakest to strongest\" and then names five ordered stops with examples — generic, descriptive, suggestive, arbitrary, fanciful — with protectability rising and legibility falling along the same axis",
+      "archetype": "ladder",
+      "duration": 9.0,
+      "data": {
+        "lowLabel": "instantly legible · never yours",
+        "highLabel": "opaque at first · entirely yours",
+        "rungs": [
+          { "label": "Generic", "note": "\"Software\" for software — never protectable, under any circumstances" },
+          { "label": "Descriptive", "note": "\"Cold and Creamy\" — protected only after years of secondary meaning" },
+          { "label": "Suggestive", "note": "Netflix, Coppertone — protectable without secondary meaning" },
+          { "label": "Arbitrary", "note": "Apple, Amazon, Shell — a real word with no relation to the product" },
+          { "label": "Fanciful", "note": "Kodak, Xerox, Häagen-Dazs — invented, and yours from day one" }
+        ]
+      }
+    },
+    {
+      "id": "S07", "section": "the trade-off",
+      "title": "You are trading legibility for exclusivity",
+      "lead": "When founders sit down to name something, they gravitate toward names that communicate. That is the descriptive end — the weakest end.",
+      "bullets": [
+        "Descriptive names are the most likely to be **lost in a crowd of similar descriptors**, and they are the hardest to defend.",
+        "Arbitrary and fanciful names cost more to teach, because customers cannot infer meaning from them.",
+        "**Once taught, they are defensible assets.** \"Apple\" had to earn its meaning. Now no one else in the computer business can use it.",
+        "The more immediately legible the name, the less exclusively yours it is. That is the whole design philosophy of the naming decision."
+      ]
+    },
+    {
+      "id": "S08", "section": "likelihood of confusion",
+      "title": "The test is not whether the marks match",
+      "lead": "It is whether a reasonable consumer would be confused about the *source* of the goods or services. Several factors feed that one question.",
+      "why": "chapter enumerates exactly what feeds the test — \"The similarity of the marks (in appearance, sound, meaning). The relatedness of the goods or services. The channels through which they are sold. The sophistication of the buyers. The strength of the existing mark. Whether actual confusion has been reported\" — and fig-04 draws it as a hub with those spokes",
+      "archetype": "graph",
+      "duration": 9.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          { "id": "sim", "label": "similarity of marks", "layer": 0 },
+          { "id": "goods", "label": "relatedness of goods", "layer": 0 },
+          { "id": "chan", "label": "channels of trade", "layer": 0 },
+          { "id": "hub", "label": "likelihood of confusion", "tone": "accent", "layer": 1 },
+          { "id": "buyer", "label": "buyer sophistication", "layer": 2 },
+          { "id": "strength", "label": "strength of the mark", "layer": 2 },
+          { "id": "actual", "label": "reported confusion", "layer": 2 }
+        ],
+        "edges": [
+          { "from": "sim", "to": "hub" },
+          { "from": "goods", "to": "hub" },
+          { "from": "chan", "to": "hub" },
+          { "from": "buyer", "to": "hub" },
+          { "from": "strength", "to": "hub" },
+          { "from": "actual", "to": "hub" }
+        ]
+      }
+    },
+    {
+      "id": "S09", "section": "why a clean search is not a clean name",
+      "title": "Slickcraft and Speedcraft. Polaroid and Polacolor.",
+      "lead": "Two marks do not have to look identical to trigger infringement.",
+      "bullets": [
+        "A mark that **sounds** like an existing mark, or **means the same thing in another language**, or differs by a single letter in the same product category — any of these can create a likelihood of confusion.",
+        "Searching your exact string and finding nothing tells you one thing only: that your exact string is not registered.",
+        "It tells you nothing about phonetic variants, visual similarities, translation equivalents, or related marks in adjacent classes.",
+        "**A name that passes an exact-match search and fails a confusion analysis will still generate a cease-and-desist.**"
+      ]
+    },
+    {
+      "id": "S10", "section": "the clearance sequence",
+      "title": "Four steps, in order of cost",
+      "lead": "Cheap searches first, so the expensive one only ever runs on a name that survived the cheap ones.",
+      "why": "chapter: \"The practical sequence for pre-screening a name before you invest in it has four steps, and they run in order of cost\" — register, domains, open web, then \"Fourth, and this is the step that is not optional: consult a trademark attorney.\" Every verdict belongs to the reader's own name and its counsel",
+      "archetype": "gatePipeline",
+      "duration": 9.0,
+      "data": {
+        "input": { "label": "a candidate name" },
+        "gates": [
+          { "label": "The register", "rule": "USPTO: exact string, misspellings, phonetic and visual variants, Class 9 or 42", "pass": null },
+          { "label": "The domains", "rule": ".com at minimum; increasingly .io and .ai", "pass": null },
+          { "label": "The open web", "rule": "unregistered use can still create common-law rights", "pass": null },
+          { "label": "Counsel", "rule": "not optional — this book gives literacy, not clearance", "pass": null }
+        ],
+        "output": { "label": "a name you can build on", "pending": true }
+      }
+    },
+    {
+      "id": "S11", "section": "what AI is good at",
+      "title": "The generative half is real work, and models do it well",
+      "lead": "There is a sharp line in this chapter, and it runs between two things that feel similar but are legally different.",
+      "bullets": [
+        "Producing large candidate sets quickly. Classifying candidates on the strength spectrum. Flagging names that mean something unintended in another language.",
+        "Checking obvious domain availability. Spotting glaring phonetic conflicts with well-known marks.",
+        "These are pattern-recognition and retrieval tasks. **Generating forty candidates is tedious for a human and trivial for a model.**"
+      ]
+    },
+    {
+      "id": "S12", "section": "the AI+1 line",
+      "title": "When a model says a name is available, it is saying it has no memory of a conflict",
+      "lead": "Which is meaningless. Its training data is not a trademark clearance search.",
+      "why": "chapter draws the boundary explicitly — fig-06 is \"a two-column split divided by the AI+1 boundary\" — and names what crosses: the model \"does not have access to current trademark registers. It does not run likelihood-of-confusion analysis against the live database. It cannot interpret the results of a search it did not run,\" and \"Every AI-generated availability note... is `[verify with search + counsel]`\"",
+      "archetype": "containment",
+      "duration": 9.0,
+      "data": {
+        "boundary": { "label": "WHAT THE MODEL MAY DO" },
+        "inside": [
+          { "label": "generates candidates" },
+          { "label": "classifies on the spectrum" },
+          { "label": "flags language traps" },
+          { "label": "checks obvious domains" }
+        ],
+        "attempts": [
+          { "label": "run the live register", "blocked": true, "from": "left" },
+          { "label": "assess confusion", "blocked": true, "from": "left" },
+          { "label": "clear a mark", "blocked": true, "from": "right" },
+          { "label": "give legal advice", "blocked": true, "from": "right" },
+          { "label": "an availability note", "blocked": null, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S13", "section": "the three passes",
+      "title": "Generate wide, screen hard, commit once",
+      "lead": "AI owns the generation. Humans own the decision. Counsel owns the clearance. That division is not a formality.",
+      "why": "chapter's naming funnel states its own rates: \"generating forty candidates is tedious for a human and trivial for a model\"; after screening \"you should have a shortlist of three to five names that survive initial scrutiny\"; the commitment pass takes one name to counsel. Whether the mark registers is not something the chapter can tell you",
+      "archetype": "attrition",
+      "duration": 8.5,
+      "data": {
+        "total": 40,
+        "startLabel": "Pass 1 · generative candidates",
+        "stages": [
+          { "label": "Pass 2 · survive screening", "survival": 0.125 },
+          { "label": "Pass 3 · goes to counsel", "survival": 0.2 },
+          { "label": "registered mark", "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "the checklist",
+      "title": "Four checkboxes, and none of them substitutes for another",
+      "lead": "The protection checklist is simple, which is exactly why people skip parts of it.",
+      "bullets": [
+        "Have you run the USPTO search **and its phonetic variants**?",
+        "Have you secured the domain you will actually use?",
+        "Have you filed the entity?",
+        "Have you filed, or begun, the trademark application?"
+      ]
+    },
+    {
+      "id": "S15", "section": "the older argument",
+      "title": "How far should the right to exclude reach?",
+      "lead": "Lawrence Lessig co-founded Creative Commons in 2001 and argued in *Code and Other Laws of Cyberspace* (1999) that \"code is law\" — technical architecture regulates behaviour as powerfully as any statute.",
+      "bullets": [
+        "His question was always where the boundaries of ownership should sit: what a name, a work, or an idea can legitimately exclude others from using, and what it cannot.",
+        "A trademark is a state-granted right to exclude others from a name **in a specific class** — not ownership of a word.",
+        "The *Abercrombie* spectrum is, at bottom, an argument about how much exclusivity the law should grant: **none** for the generic word everyone needs, **the most** for the fanciful word no one needed before you invented it.",
+        "How far ownership should reach before it chokes the commons it depends on is the question underneath every clearance decision."
+      ]
+    },
+    {
+      "id": "S16", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Generate forty. Shortlist five. Then stop and pay someone.",
+      "lead": "Label every candidate on the spectrum yourself — if you cannot, go back to the spectrum before you trust the model's labels. Tag every availability note [VERIFY WITH SEARCH + COUNSEL]. The one thing that matters here is the one thing the model cannot check."
+    }
+  ]
+}

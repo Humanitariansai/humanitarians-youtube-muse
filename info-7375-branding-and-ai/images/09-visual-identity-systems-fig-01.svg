@@ -1,0 +1,64 @@
+<!--
+  Sage vs. Hero home-page wireframe
+  Book: Branding and AI
+  Chapter: 09-visual-identity-systems
+  Figure: 01
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/09-visual-identity-systems-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-09-01">
+  <title id="fig-title-09-01">Sage vs. Hero home-page wireframe</title>
+  <desc>Two low-fidelity home-page wireframes. The Sage page leads with a positioning sentence and name, three text-forward project cards, a writing section, and a bio strip. The Hero page leads with a large project image, a metrics strip, short copy, and a bold call to action.</desc>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The layout structure itself expresses the archetype — before any styling</text>
+
+  <!-- LEFT: Sage -->
+  <text x="56" y="64" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Sage — leads with the thinking</text>
+  <rect x="40" y="74" width="290" height="340" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <!-- positioning hero (text) -->
+  <rect x="56" y="88" width="258" height="58" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="68" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Name + positioning sentence</text>
+  <rect x="68" y="120" width="180" height="6" fill="#ADADAD"/>
+  <rect x="68" y="130" width="140" height="6" fill="#ADADAD"/>
+  <!-- three project cards (text-forward) -->
+  <rect x="56" y="156" width="80" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="145" y="156" width="80" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="234" y="156" width="80" height="70" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">three text-forward project cards</text>
+  <!-- writing -->
+  <rect x="56" y="256" width="258" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="68" y="284" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Writing — one featured piece</text>
+  <!-- bio strip -->
+  <rect x="56" y="314" width="258" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="68" y="338" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Brief bio → About</text>
+  <!-- footer -->
+  <rect x="56" y="364" width="258" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="68" y="385" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Footer: contact + links</text>
+
+  <!-- RIGHT: Hero -->
+  <text x="386" y="64" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Hero — leads with the image</text>
+  <rect x="370" y="74" width="290" height="340" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <!-- large above-the-fold image -->
+  <rect x="386" y="88" width="258" height="96" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="386" y1="88" x2="644" y2="184" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="644" y1="88" x2="386" y2="184" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="515" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">large above-the-fold project image</text>
+  <!-- metrics strip -->
+  <rect x="386" y="212" width="258" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="412" y="237" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13" fill="#121212">10x</text>
+  <text x="486" y="237" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13" fill="#121212">+40%</text>
+  <text x="560" y="237" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="13" fill="#121212">3M</text>
+  <text x="386" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">metrics strip</text>
+  <!-- short copy -->
+  <rect x="386" y="280" width="258" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="398" y="294" width="180" height="6" fill="#ADADAD"/>
+  <rect x="398" y="306" width="120" height="6" fill="#ADADAD"/>
+  <!-- bold CTA -->
+  <rect x="386" y="332" width="150" height="40" fill="#121212"/>
+  <text x="461" y="357" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Primary CTA</text>
+  <text x="546" y="357" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">implies action</text>
+
+  <text x="32" y="438" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Same five pages, different structural rhythm: Sage front-loads text and evidence;</text>
+  <text x="32" y="454" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Hero front-loads the image, metrics, and a call to act.</text>
+</svg>

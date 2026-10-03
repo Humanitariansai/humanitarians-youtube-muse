@@ -1,0 +1,74 @@
+<!--
+  Three autonomous-agent failure modes
+  Book: Branding and AI
+  Chapter: 22-shipit-ai-intelligence-and-multiagent-systems
+  Figure: 06
+  Type: conceptual map
+  Generated: 2026-06-18
+  Source: pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md
+-->
+<svg viewBox="0 0 700 412" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-22-06">
+  <title id="fig-title-22-06">Three autonomous-agent failure modes</title>
+  <desc>Three failure modes of autonomous agents — compounding error, cost runaway, and trust collapse on visible failure — each with its mechanism, plus a footer naming the three production controls that prevent cost runaway.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="22-shipit-ai-intelligence-and-multiagent-systems"
+      figure-number="06" figure-title="Three autonomous-agent failure modes" figure-slug="three-autonomous-failure-modes"
+      figure-type="conceptual map" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="412" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The 2023 AutoGPT wave: three failure modes, not random</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each clusters around a specific mechanism the architecture failed to guard.</text>
+
+  <!-- block 1 -->
+  <rect x="32" y="78" width="200" height="210" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Compounding error</text>
+  <line x1="44" y1="114" x2="220" y2="114" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="134" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Step N is built on step</text>
+  <text x="44" y="147" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">N&#8722;1. If N&#8722;1 was wrong,</text>
+  <text x="44" y="160" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">N rests on a false</text>
+  <text x="44" y="173" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">foundation.</text>
+  <text x="44" y="197" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">The agent checks whether</text>
+  <text x="44" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">a step completed, not</text>
+  <text x="44" y="223" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">whether it was correct.</text>
+  <text x="44" y="250" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-style="italic" fill="#121212">Errors compound</text>
+  <text x="44" y="263" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-style="italic" fill="#121212">geometrically.</text>
+
+  <!-- block 2 -->
+  <rect x="250" y="78" width="200" height="210" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="262" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Cost runaway</text>
+  <line x1="262" y1="114" x2="438" y2="114" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="262" y="134" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Each step calls a model.</text>
+  <text x="262" y="147" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">Each call costs money.</text>
+  <text x="262" y="171" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">No step ceiling means</text>
+  <text x="262" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">arbitrarily many calls</text>
+  <text x="262" y="197" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">toward a goal it cannot</text>
+  <text x="262" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">reach or recognize.</text>
+  <text x="262" y="250" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-style="italic" fill="#121212">The $80 session that</text>
+  <text x="262" y="263" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-style="italic" fill="#121212">delivered nothing.</text>
+
+  <!-- block 3 -->
+  <rect x="468" y="78" width="200" height="210" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="480" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Trust collapse</text>
+  <line x1="480" y1="114" x2="656" y2="114" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="480" y="134" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">A user watches the agent</text>
+  <text x="480" y="147" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">loop and fail in real</text>
+  <text x="480" y="160" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">time, money on the meter.</text>
+  <text x="480" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Visible failure damages</text>
+  <text x="480" y="197" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">long-term trust more</text>
+  <text x="480" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">than opaque failure.</text>
+  <text x="480" y="250" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-style="italic" fill="#121212">It hurt "autonomous"</text>
+  <text x="480" y="263" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-style="italic" fill="#121212">as a whole category.</text>
+
+  <!-- footer band: controls -->
+  <rect x="32" y="308" width="636" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Three production controls early frameworks did not install by default —</text>
+  <text x="44" y="342" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">basic hygiene, not sophistication.</text>
+  <text x="44" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">1. Maximum step count</text>
+  <text x="260" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">2. Per-execution cost ceiling</text>
+  <text x="476" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">3. Repeated-call circuit breaker</text>
+  <text x="44" y="384" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Hard stop on runaway loops.</text>
+  <text x="260" y="384" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Halt before the bill runs.</text>
+  <text x="476" y="384" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Halt on same tool + same input &#215; N.</text>
+</svg>

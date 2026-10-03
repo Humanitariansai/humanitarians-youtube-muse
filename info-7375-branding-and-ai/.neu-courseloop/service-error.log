@@ -1,0 +1,2 @@
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
+/bin/bash: /Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/neu-courseloop.sh: Operation not permitted

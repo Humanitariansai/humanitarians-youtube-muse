@@ -1,0 +1,104 @@
+[0.0s-7.8s] Hi everyone, I'm Raksha Krishna Murthy and I want to start with something that happened
+[7.8s-12.2s] while I was in turning at the start-up working on early cancer detection.
+[12.2s-17.2s] So beyond all the medical work, I kept noticing something, people dealing with health conditions
+[17.2s-22.0s] couldn't find clothing that actually worked for their bodies after treatment and the frustration
+[22.0s-27.0s] was real and nobody was solving it and that's why I created Threadline.
+[27.0s-31.6s] So Threadline is an adaptive fashion market intelligence store.
+[31.6s-36.3s] So coming to the problem, let's talk about the market, so adaptive clothing.
+[36.3s-41.0s] So adaptive clothing is clothing designed for people managing health condition.
+[41.0s-44.2s] It is a 15 to 20 billion dollar global market.
+[44.2s-50.5s] So growing every year, so 35 million Americans need these products and 168 surgeries happen
+[50.5s-56.2s] in US annually, that's fundamentally changed something what someone could wear.
+[56.2s-60.9s] So here's the thing, these people are not silent about it and they're posting it on online
+[60.9s-65.7s] communities, writing detailed reviews and returning the products that don't work for them
+[65.7s-67.5s] and they're trying it again.
+[67.5s-72.1s] So one person wrote, and this is from a real post from our actual data set, it says,
+[72.1s-73.1s] help me.
+[73.1s-78.8s] I cannot make one more Amazon return and weeks away from my surgery and I'm looking for something
+[78.8s-80.8s] that actually works for me.
+[80.8s-86.0s] So that's one person and there are 1000 more writing the exact same thing and brands have
+[86.0s-88.2s] never really read any of it.
+[88.2s-94.5s] So to find this out through a traditional way, a focus group could cost way more and takes
+[94.5s-101.4s] more weeks, like let's say six weeks and there had to be a better way to solve this issue.
+[101.4s-105.4s] So the better way is Threadline and that is our solution.
+[105.4s-111.3s] So Threadline reads what adaptive clothing consumers are actually saying through their
+[111.3s-115.1s] post, their reviews and take these as signals.
+[115.1s-119.1s] So we have around 2353 signals in total.
+[119.1s-125.0s] So it runs through a quality filter on the genuine verified consumer language gets through
+[125.0s-131.2s] then AI lands and generates product opportunities weekly and when a brand opens the app, those
+[131.2s-136.2s] rant opportunities are right there instantly and there is no way thing.
+[136.2s-139.3s] So there is no AI running in the background when you open it.
+[139.3s-144.5s] Everything is regenerated so the experience is immediate, a brand can open Threadline and
+[144.5s-150.7s] know what to build before they've spent a single dollar on the research.
+[150.7s-154.8s] So here's what I think makes Threadline genuinely different.
+[154.8s-160.9s] So we use AI to read thousands of consumers signals at scale and surface rant products
+[160.9s-162.8s] opportunities instantly.
+[162.8s-168.7s] So without Threadline, a brand reads 50 reviews manually and they miss patterns and spent
+[168.7s-172.8s] 20,000 on a focus group and still builds it on a guest.
+[172.8s-177.7s] But with Threadline, there are thousands of signals processed instantly and there's
+[177.7s-183.1s] the inside that surprised me the most was people with completely different conditions
+[183.1s-185.2s] often needed the same thing.
+[185.2s-190.8s] So post surgery arthritis shoulder recovery, the all needed garments that don't require lifting
+[190.8s-192.3s] your arms overhead.
+[192.3s-195.2s] So that's one product with multiple markets.
+[195.2s-200.6s] So you would never catch such a thing by reading post one by one.
+[200.6s-206.1s] So coming to the business model, the model is honest and simple, proves the value first
+[206.1s-207.9s] and then charge for it.
+[207.9s-209.9s] So right now the pilot is free.
+[209.9s-216.5s] I need one brand or hospital to partner and actually use this on a real product decision
+[216.5s-218.4s] and that's how I thought on the trust.
+[218.4s-224.6s] So after that, I would charge 500 to 1000 dollars per inside and brands have already spent
+[224.6s-228.3s] 20,000 on a focus group that takes six weeks.
+[228.3s-233.1s] Even at 1000, Threadline is 20 times cheaper and delivers the same tape.
+[233.1s-239.0s] So coming to a long term goal, an ongoing subscription for continuous market intelligence
+[239.0s-244.0s] but I'm not starting there and starting with owning the trust.
+[244.0s-250.5s] So to get the first customer and my go to market strategy and three steps.
+[250.5s-255.3s] So the first one would be hospital and cancer center partnerships first.
+[255.3s-259.7s] They already have the patient trust and relationships with adaptive brands.
+[259.7s-264.8s] So they are like a natural bridge for us to connect with them and a coming to the second
+[264.8s-265.8s] one.
+[265.8s-268.6s] So that would be the small adaptive clothing founders.
+[268.6s-272.8s] They are the most motivated because they genuinely cannot afford thousands of dollars
+[272.8s-274.7s] on a focus group.
+[274.7s-279.1s] And the third one would be one successful pilot becomes a case study for me.
+[279.1s-286.0s] And this case study opens door to bigger retailers and brands.
+[286.0s-290.3s] And coming to the competition when people think adaptive fashion, they think about Tommy
+[290.3s-293.8s] Helfiger, adaptive silver legs or rebound wear.
+[293.8s-294.8s] So here's the thing.
+[294.8s-296.1s] They're all product companies.
+[296.1s-298.1s] They make and sell garments.
+[298.1s-300.6s] None of them produce intelligence.
+[300.6s-305.6s] None of them can tell a brand which they need to be built next.
+[305.6s-307.7s] So thread line doesn't compete with them.
+[307.7s-314.2s] We sit one step earlier in the chain and honestly, that could be our customer.
+[314.2s-318.5s] So coming to the development plan, here's exactly where I am at.
+[318.5s-326.5s] So thread line is live right now and there are 2353 consumer signals process and it has
+[326.5s-332.9s] 20 rank opportunities across four conditions and automated weekly refresh every Sunday.
+[332.9s-338.2s] So what is next for us is getting one real brand or hospital partnership to use it on
+[338.2s-342.8s] an actual product and product decision and test our MVP out.
+[342.8s-346.3s] And the face to would be to build more intelligence to it.
+[346.3s-351.5s] So maybe add a chatbot layer so brands can actually ask questions from the data and use
+[351.5s-356.6s] this data and more signals to build more accurate platform.
+[356.6s-364.1s] So coming to the proof of concept and let me just show you this website because it's
+[364.1s-368.6s] not a mock up and this is thread line which is live.
+[368.6s-374.6s] So over here, I can pick a condition or I can pick multiple conditions and I can click
+[374.6s-376.7s] on show opportunities.
+[376.7s-383.7s] So when we clicked breast cancer recovery and post surgical recovery, it sure is 10 product
+[383.7s-385.0s] opportunities.
+[385.0s-387.3s] And they're ranked by signal strength.
+[387.3s-391.7s] So like there are 10 product opportunities that we can see over here.
+[391.7s-395.9s] And to read more about it, we can always click on the product card.
+[395.9s-400.9s] And each product opportunity has a detailed information about the confirmed pain points
+[400.9s-406.0s] and product features which you need to build first and what are the other recommended features.
+[406.0s-410.8s] And if there are any gaps that we don't know about and where did we get this product
+[410.8s-416.0s] opportunity like how did we come up with this and what are the source evidence for it.
+[416.0s-419.1s] So this is what it consists and this is our MVP.
+[419.1s-425.5s] We are still planning to add like a heat map or something more visually representative that
+[425.5s-429.7s] could help us explain more about the product.
+[429.7s-433.3s] So this is the website that we've built.
+[433.3s-434.3s] Yeah.
+[434.3s-440.2s] So coming to the ask a brand or a hospital partnership willing to test this on your
+[440.2s-446.1s] product decision or someone that could guide us and help us build from here and a genuine
+[446.1s-450.7s] introduction to someone who is an into adaptive fashion, healthcare or retail.
+[450.7s-455.2s] So the product is live and the data is real, I just need one real test.
+[455.2s-455.5s] Thank you.

@@ -1,0 +1,218 @@
+{
+  "video": "show-tell-four-verbs",
+  "metadata": {
+    "slug": "show-tell-four-verbs",
+    "title": "Ideate, Build, Brand, Ship",
+    "topic": "INFO 7375 \u00b7 BRANDING AND AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "Setswana (Dumela) \u2014 confirmed unused 2026-09-27",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "course": "INFO 7375 Branding and AI \u00b7 Nik Bear Brown \u00b7 Northeastern University",
+    "audience": "INFO 7375 Branding and AI students (Fall 2026), mostly engineers",
+    "bookloop_policy": "Course film: carries the INFO 7375 credit, spoken in BIDEA and on screen in the BDEFS title and the BHTF composer topic; not a numbered lecture. Outro stays OUTRO-LOCK.",
+    "source_doc": "info-7375-branding-and-ai/chapters/01-the-creative-engineer.md, 'The Four Verbs' (pasted by Bear 2026-09-27); arXiv 2212.08073; arXiv 2112.00861; Wikipedia (Anthropic, OpenAI)",
+    "playlist": "Claude & Agentic AI",
+    "chapter_number": 0,
+    "tags": [
+      "creative engineer",
+      "four verbs",
+      "ideate",
+      "brand",
+      "ship",
+      "portfolio",
+      "careers",
+      "Anthropic",
+      "Constitutional AI",
+      "INFO 7375",
+      "Claude",
+      "Nik Bear Brown"
+    ],
+    "build": {
+      "at": "2026-09-27T21:11:28",
+      "cut": "review",
+      "filled": 14,
+      "of": 14,
+      "slates": [],
+      "skin_warnings": [
+        "BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' \u2014 COLD OPEN LAW wants ClaudeComposerAsk"
+      ]
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 14,
+  "beats_open": 0,
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "status": "filled",
+      "on_disk": "media/BIDEA.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BIDEA.mp4",
+      "label": "Dumela. This is Liam, in for Bear, with a short film for INFO seventy-three seventy-five, Branding a"
+    },
+    {
+      "beat_id": "BDEFS",
+      "status": "filled",
+      "on_disk": "media/BDEFS.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BDEFS.mp4",
+      "label": "Three terms. A costly signal: something that's hard to fake cheaply, so it tells people apart. Brand"
+    },
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "manim/B00.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B00.mp4",
+      "label": "A creative engineer is an engineer who noticed the costly signals shifted, and invested accordingly."
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "manim/B01.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B01.mp4",
+      "label": "Ideate is the hardest move, and the one AI can't do for you yet. Hand the tools a specification and "
+    },
+    {
+      "beat_id": "B02",
+      "status": "filled",
+      "on_disk": "manim/B02.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B02.mp4",
+      "label": "The mistake I see most: pick a technology you want to learn, build a project around it, then try to "
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "manim/B03.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B03.mp4",
+      "label": "Build is the verb AI cheapened. Real production systems still need deep technical judgment. But a re"
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "manim/B04.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B04.mp4",
+      "label": "Brand is where engineers push back hardest. So think of an API with no documentation. It computes. I"
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "media/B05.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B05.mp4",
+      "label": "In practice, Brand is a handful of choices: who it's for, how it's positioned, the voice, the look. "
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "manim/B06.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B06.mp4",
+      "label": "Ship means a public link, people who found it, and feedback from real use. Not a commit. Not a class"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "media/B07.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B07.mp4",
+      "label": "So score yourself honestly on each verb, one to five, where five means public evidence a stranger co"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "media/B08.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B08.mp4",
+      "label": "It works at company scale too. Anthropic was founded in 2021 by former OpenAI researchers, and put a"
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "manim/B09.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B09.mp4",
+      "label": "And it works for one person. A clear audience, a clear position, and the work to prove it decide who"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. Paste this into Claude: Here are my three best projects: list them, with links. Score me "
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": "Ideate, Build, Brand, Ship. At Nik Bear Brown."
+    }
+  ]
+}

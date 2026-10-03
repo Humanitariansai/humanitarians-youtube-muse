@@ -1,0 +1,69 @@
+<!--
+  The flood and the filter
+  Book: Branding and AI
+  Chapter: 12-content-media-and-campaigns
+  Figure: 01
+  Type: conceptual map
+  Generated: 2026-06-18
+  Source: pantry/12-content-media-and-campaigns-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-12-01">
+  <title id="fig-title-12-01">The flood and the filter</title>
+  <desc>Cheap AI content floods every channel, raising the value of the scarce thing it cannot supply: editorial judgment — the decision of what is worth saying, verification that it is true, and the judgment that it sounds like you.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="12-content-media-and-campaigns" figure-number="01"
+      figure-title="The flood and the filter"
+      figure-slug="flood-and-filter"
+      figure-type="conceptual map" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/12-content-media-and-campaigns-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The flood and the filter</text>
+  <text x="32" y="58" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Cheap content raises, not lowers, the value of editorial judgment.</text>
+
+  <!-- Left zone: the flood -->
+  <text x="120" y="92" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">The flood</text>
+  <text x="120" y="108" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">cheap, fluent, generic</text>
+  <g fill="#ADADAD">
+    <rect x="40" y="130" width="42" height="14" /><rect x="92" y="130" width="42" height="14" /><rect x="144" y="130" width="42" height="14" />
+    <rect x="56" y="152" width="42" height="14" /><rect x="108" y="152" width="42" height="14" /><rect x="160" y="152" width="42" height="14" />
+    <rect x="40" y="174" width="42" height="14" /><rect x="92" y="174" width="42" height="14" /><rect x="144" y="174" width="42" height="14" />
+    <rect x="56" y="196" width="42" height="14" /><rect x="108" y="196" width="42" height="14" /><rect x="160" y="196" width="42" height="14" />
+    <rect x="40" y="218" width="42" height="14" /><rect x="92" y="218" width="42" height="14" /><rect x="144" y="218" width="42" height="14" />
+    <rect x="56" y="240" width="42" height="14" /><rect x="108" y="240" width="42" height="14" /><rect x="160" y="240" width="42" height="14" />
+  </g>
+  <text x="120" y="284" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">no specific claim</text>
+  <text x="120" y="300" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">no audience · no verified truth</text>
+
+  <!-- Center: the filter (RED) -->
+  <polygon points="240,128 460,128 392,250 308,250" fill="#C8102E" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="168" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">editorial</text>
+  <text x="350" y="186" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">judgment</text>
+  <text x="350" y="216" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">what AI cannot supply</text>
+
+  <!-- arrow through -->
+  <defs>
+    <marker id="arrow-12-01" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+  <line x1="350" y1="252" x2="350" y2="290" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow-12-01)"/>
+
+  <!-- Right zone: the filter outputs -->
+  <text x="350" y="312" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">What rises in value</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <rect x="500" y="130" width="168" height="36" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+    <text x="512" y="152">the decision of what to say</text>
+    <rect x="500" y="178" width="168" height="36" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+    <text x="512" y="200">verification that it is true</text>
+    <rect x="500" y="226" width="168" height="36" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+    <text x="512" y="248">the judgment of voice</text>
+  </g>
+  <text x="584" y="112" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">The filter</text>
+
+  <text x="32" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">When everyone can flood every channel, the scarce thing is no longer the content —</text>
+  <text x="32" y="374" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">it is the reason to publish this and the judgment to make it good and true.</text>
+</svg>

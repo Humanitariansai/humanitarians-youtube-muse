@@ -1,0 +1,71 @@
+<!--
+  Core holds, expression flexes
+  Book: Branding and AI
+  Chapter: 17-global-and-cross-cultural-branding
+  Figure: 05
+  Type: structural schematic
+  Generated: 2026-06-18
+  Source: pantry/17-global-and-cross-cultural-branding-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-17-05">
+  <title id="fig-title-17-05">Core holds, expression flexes</title>
+  <desc>Concentric zones: innermost purpose/archetype/promise is global and fixed; middle visual identity and voice principles adapt lightly; outer language, imagery, references, channel adapt per market. Two failure modes: too rigid and too loose.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="17-global-and-cross-cultural-branding" figure-number="05"
+      figure-title="Core holds, expression flexes"
+      figure-slug="core-holds-expression-flexes"
+      figure-type="structural schematic" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/17-global-and-cross-cultural-branding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Core holds, expression flexes</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The rule that anchors glocalization: the core stays global, the expression localizes per market.</text>
+
+  <!-- concentric zones centered 350,265 -->
+  <!-- outer circle: r=170, left x=180, right x=520, top y=95, bottom y=435 -->
+  <circle cx="350" cy="265" r="170" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <!-- middle circle: r=115, top y=150, bottom y=380 -->
+  <circle cx="350" cy="265" r="115" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <!-- inner circle: r=62, top y=203, bottom y=327 -->
+  <circle cx="350" cy="265" r="62" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- Expression ring label — in outer ring, above middle circle top (y=150) -->
+  <text x="350" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Expression — adapts per market</text>
+  <text x="350" y="141" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">language, imagery, references, channel, seasonal</text>
+
+  <!-- Mostly global ring label — in middle ring, clear of inner circle top (y=203) -->
+  <text x="350" y="176" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Mostly global, light adaptation</text>
+  <text x="350" y="191" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">visual identity, voice principles</text>
+
+  <!-- Core label — inside inner circle (center y=265) -->
+  <text x="350" y="255" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Core — global,</text>
+  <text x="350" y="270" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">fixed</text>
+  <text x="350" y="285" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">purpose · archetype</text>
+  <text x="350" y="296" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">promise</text>
+
+  <!-- failure callout connectors — horizontal lines at circle center y=265 -->
+  <!-- left: from outer circle edge (x=180) toward Too rigid box -->
+  <line x1="180" y1="265" x2="100" y2="265" stroke="#D4D4D4" stroke-width="0.75"/>
+  <!-- right: from outer circle edge (x=520) toward Too loose box -->
+  <line x1="520" y1="265" x2="600" y2="265" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Too rigid box — right edge at x=170, clear of circle left edge (x=180) -->
+  <rect x="14" y="292" width="156" height="80" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="26" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Too rigid</text>
+  <text x="26" y="329" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">Holding expression fixed too:</text>
+  <text x="26" y="342" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">tone-deaf, faking local</text>
+  <text x="26" y="355" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">references it does not know.</text>
+
+  <!-- Too loose box — left edge at x=530, clear of circle right edge (x=520) -->
+  <rect x="530" y="292" width="156" height="80" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="542" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Too loose</text>
+  <text x="542" y="329" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">Flexing the core too:</text>
+  <text x="542" y="342" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">incoherent, a different</text>
+  <text x="542" y="355" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">brand in every market.</text>
+
+  <text x="32" y="450" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Test: would a person in Market A and one in Market B describe what this brand stands for the same way?</text>
+  <text x="32" y="466" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">If yes, the core is holding.</text>
+</svg>

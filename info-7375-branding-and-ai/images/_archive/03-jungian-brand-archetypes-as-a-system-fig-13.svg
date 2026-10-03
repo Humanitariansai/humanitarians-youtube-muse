@@ -1,0 +1,46 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-3-13 desc-3-13">
+<title id="title-3-13">The three tests for committing to an archetype</title>
+<desc id="desc-3-13">A three-panel checklist of the tests an archetype must pass before you commit to it. The Authenticity Test (mirror): does it match how you actually behave when not performing? The Differentiation Test (compass): does it set you apart in a crowded market? The Stress Test (gauge): does it survive ten-times growth and a stronger competitor? Each panel states the pass question and what failure looks like.</desc>
+<rect width="700" height="360" fill="#FFFFFF"/>
+<text x="48" y="44" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">Run all three tests before you commit</text>
+<text x="48" y="64" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">An archetype that passes all three is the one to carry forward through the rest of the book.</text>
+
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif">
+<!-- Panel 1 Authenticity (mirror) -->
+<rect x="48" y="92" width="184" height="216" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<ellipse cx="140" cy="132" rx="20" ry="26" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+<line x1="140" y1="158" x2="140" y2="168" stroke="#C8102E" stroke-width="2"/>
+<text x="140" y="192" text-anchor="middle" font-size="13" font-weight="bold" fill="#2a1a0e">Authenticity</text>
+<text x="62" y="218" font-size="11" fill="#2a1a0e">Does it match how</text>
+<text x="62" y="234" font-size="11" fill="#2a1a0e">you behave when</text>
+<text x="62" y="250" font-size="11" fill="#2a1a0e">not performing?</text>
+<text x="62" y="284" font-size="10" fill="#545454">Fails: a forced fit is</text>
+<text x="62" y="298" font-size="10" fill="#545454">exhausting to hold.</text>
+
+<!-- Panel 2 Differentiation (compass) -->
+<rect x="258" y="92" width="184" height="216" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<circle cx="350" cy="134" r="24" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+<polygon points="350,118 356,134 350,150 344,134" fill="#C8102E"/>
+<text x="350" y="192" text-anchor="middle" font-size="13" font-weight="bold" fill="#2a1a0e">Differentiation</text>
+<text x="272" y="218" font-size="11" fill="#2a1a0e">Does it set you apart</text>
+<text x="272" y="234" font-size="11" fill="#2a1a0e">in a crowded</text>
+<text x="272" y="250" font-size="11" fill="#2a1a0e">market?</text>
+<text x="272" y="284" font-size="10" fill="#545454">Fails: another Sage</text>
+<text x="272" y="298" font-size="10" fill="#545454">in a Sage market.</text>
+
+<!-- Panel 3 Stress (gauge x10) -->
+<rect x="468" y="92" width="184" height="216" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<path d="M 536 146 A 24 24 0 0 1 584 146" fill="none" stroke="#C8102E" stroke-width="2"/>
+<line x1="560" y1="146" x2="576" y2="124" stroke="#C8102E" stroke-width="2"/>
+<text x="560" y="166" text-anchor="middle" font-size="11" fill="#545454">x10</text>
+<text x="560" y="192" text-anchor="middle" font-size="13" font-weight="bold" fill="#2a1a0e">Stress</text>
+<text x="482" y="218" font-size="11" fill="#2a1a0e">Does it survive 10x</text>
+<text x="482" y="234" font-size="11" fill="#2a1a0e">growth and a</text>
+<text x="482" y="250" font-size="11" fill="#2a1a0e">stronger rival?</text>
+<text x="482" y="284" font-size="10" fill="#545454">Fails: breaks under</text>
+<text x="482" y="298" font-size="10" fill="#545454">scale or competition.</text>
+</g>
+
+<line x1="48" y1="328" x2="652" y2="328" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="346" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 3.13</text>
+</svg>

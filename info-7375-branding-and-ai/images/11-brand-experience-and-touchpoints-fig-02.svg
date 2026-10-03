@@ -1,0 +1,62 @@
+<!--
+  Pine and Gilmore value ladder
+  Book: Branding and AI
+  Chapter: 11-brand-experience-and-touchpoints
+  Figure: 02
+  Type: timeline / progression
+  Generated: 2026-06-18
+  Source: pantry/11-brand-experience-and-touchpoints-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-11-02">
+  <title id="fig-title-11-02">Pine and Gilmore value ladder</title>
+  <desc>Four ascending steps — commodity, good, service, experience — each rising in price and differentiation, illustrated with coffee. AI compresses goods and services toward parity, pushing experience as the remaining differentiator.</desc>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The experience economy: value climbs from commodity to staged experience</text>
+
+  <!-- ascending steps -->
+  <!-- step base y=350; each step rises -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <!-- commodity -->
+    <rect x="60" y="290" width="130" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="125" y="316" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Commodity</text>
+    <text x="125" y="334" font-size="11" fill="#545454" text-anchor="middle">coffee bean · cents</text>
+
+    <!-- good -->
+    <rect x="200" y="230" width="130" height="120" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="265" y="256" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Goods</text>
+    <text x="265" y="274" font-size="11" fill="#545454" text-anchor="middle">ground in a can</text>
+    <text x="265" y="290" font-size="11" fill="#545454" text-anchor="middle">$1–2</text>
+
+    <!-- service -->
+    <rect x="340" y="170" width="130" height="180" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="405" y="196" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Service</text>
+    <text x="405" y="214" font-size="11" fill="#545454" text-anchor="middle">sit-down coffee</text>
+    <text x="405" y="230" font-size="11" fill="#545454" text-anchor="middle">several dollars</text>
+
+    <!-- experience -->
+    <rect x="480" y="100" width="130" height="250" fill="#F5F5F5" stroke="#121212" stroke-width="1.5"/>
+    <text x="545" y="126" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Experience</text>
+    <text x="545" y="144" font-size="11" fill="#545454" text-anchor="middle">"third place"</text>
+    <text x="545" y="160" font-size="11" fill="#545454" text-anchor="middle">ritual, atmosphere</text>
+    <text x="545" y="176" font-size="11" fill="#545454" text-anchor="middle">considerably more</text>
+  </g>
+
+  <!-- baseline + rising axis arrow -->
+  <line x1="60" y1="350" x2="630" y2="350" stroke="#121212" stroke-width="1"/>
+  <text x="60" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">→ rising price &amp; differentiation; the commodity is identical at every step</text>
+
+  <!-- AI compression bracket over commodity + good + service -->
+  <g stroke="#787878" stroke-width="1" fill="none">
+    <line x1="60"  y1="152" x2="470" y2="152"/>
+    <line x1="60"  y1="152" x2="60"  y2="162"/>
+    <line x1="470" y1="152" x2="470" y2="162"/>
+  </g>
+  <text x="265" y="144" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878" text-anchor="middle">AI compresses these toward parity</text>
+
+  <!-- experience differentiator callout -->
+  <text x="545" y="72" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212" text-anchor="middle" font-weight="700">remaining</text>
+  <text x="545" y="84" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212" text-anchor="middle" font-weight="700">differentiator</text>
+
+  <text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">As features commoditize, the experience staged around the product becomes the remaining differentiator.</text>
+  <text x="32" y="426" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: PINE &amp; GILMORE, THE EXPERIENCE ECONOMY (1999)</text>
+</svg>

@@ -1,0 +1,68 @@
+<!--
+  The centerpiece case study: four jobs at once
+  Book: Branding and AI
+  Chapter: 18-portfolio-as-product
+  Figure: 04
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/18-portfolio-as-product-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-18-04">
+  <title id="fig-title-18-04">The centerpiece case study: four jobs at once</title>
+  <desc>Four functions a case study must perform together: frame the problem, show the technical work with metrics, connect to the brand, and be honest about limits. Each with what it contains, what it signals, and the failure mode when omitted.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="18-portfolio-as-product" figure-number="04"
+      figure-title="The centerpiece case study four jobs at once"
+      figure-slug="case-study-four-jobs"
+      figure-type="matrix" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/18-portfolio-as-product-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The centerpiece case study: four jobs at once</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Most case studies do one or two. Performing all four is what sets it apart. 800–1,500 words.</text>
+
+  <!-- headers -->
+  <text x="32" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Function</text>
+  <text x="200" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">What it contains</text>
+  <text x="430" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Failure mode if omitted</text>
+  <line x1="32" y1="94" x2="668" y2="94" stroke="#121212" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <text x="32" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Frame the</text>
+  <text x="32" y="133" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">problem</text>
+  <text x="200" y="126" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">specific user, pain, frequency, cost</text>
+  <text x="430" y="126" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">no one recognizes themselves</text>
+  <line x1="32" y1="146" x2="668" y2="146" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 2 weighted -->
+  <rect x="32" y="150" width="636" height="56" fill="#F5F5F5"/>
+  <text x="40" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Show the</text>
+  <text x="40" y="187" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">technical work</text>
+  <text x="200" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">architecture, decisions, and metrics:</text>
+  <text x="200" y="186" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">870 articles / 3 min, $0.80/run, 90% dedup</text>
+  <text x="430" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">a marketing claim, not a case study</text>
+  <line x1="32" y1="206" x2="668" y2="206" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 3 -->
+  <text x="32" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Connect to</text>
+  <text x="32" y="245" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">the brand</text>
+  <text x="200" y="238" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">archetype, voice, visual rationale</text>
+  <text x="430" y="238" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">reads as engineering without design</text>
+  <line x1="32" y1="258" x2="668" y2="258" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 4 -->
+  <text x="32" y="282" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Be honest</text>
+  <text x="32" y="297" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">about limits</text>
+  <text x="200" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">what it doesn't do; the v2 boundary</text>
+  <text x="430" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the claims you do make lose trust</text>
+  <line x1="32" y1="306" x2="668" y2="306" stroke="#121212" stroke-width="1"/>
+
+  <text x="32" y="334" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The Feynman move: specific metrics make claims verifiable, and verifiable claims build trust that</text>
+  <text x="32" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">unverifiable ones cannot. Naming limits does the same — it shows you know what you do not know.</text>
+
+  <text x="32" y="386" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Visuals: a hero screenshot, the architecture diagram, two or three interface shots, one results image.</text>
+  <text x="32" y="402" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Reading time: four to seven minutes for a thorough reader.</text>
+</svg>

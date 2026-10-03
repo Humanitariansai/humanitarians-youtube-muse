@@ -1,0 +1,174 @@
+{
+  "video": "review-tanaka",
+  "metadata": {
+    "slug": "review-tanaka",
+    "title": "INFO 7375 \u2014 Project Review: Tanaka",
+    "topic": "INFO 7375 \u00b7 PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 440,
+    "build": {
+      "at": "2026-08-16T23:37:09",
+      "cut": "master",
+      "filled": 10,
+      "of": 13,
+      "slates": [
+        "B02",
+        "B04",
+        "B05"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 13,
+  "beats_open": 3,
+  "beats": [
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "media/B00.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B00.mp4",
+      "label": "Hey Claude \u2014 I just read Tanaka's final brand portfolio for INFO 7375. MentionMap, also branded as B"
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "media/B01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B01.mp4",
+      "label": "Path B required a complete brand system for an AI tool startup. Tanaka submitted 14 slides plus a de"
+    },
+    {
+      "beat_id": "B02",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The deployed tool at the Hugging Face URL takes pasted brand mentions \u2014 tweets, reviews, Reddit posts \u2014 and returns a mood score, a brand archetype from twelve ",
+      "slot": "media/B02.png (or .mp4)",
+      "label": "The deployed tool at the Hugging Face URL takes pasted brand mentions \u2014 tweets, reviews, Reddit post"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "media/B03.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B03.mp4",
+      "label": "The positioning matrix maps easy versus hard on one axis and basic alerts versus deep reports on the"
+    },
+    {
+      "beat_id": "B04",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: 37,706 post impressions on LinkedIn is a real number. The top-performing hook \u2014 most developers add AI like a dependency, they're wrong \u2014 is strong copy. That's",
+      "slot": "media/B04.png (or .mp4)",
+      "label": "37,706 post impressions on LinkedIn is a real number. The top-performing hook \u2014 most developers add "
+    },
+    {
+      "beat_id": "B05",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: Navy at 60 percent for authority, teal at 25 percent for intelligence, gold at 15 percent accent. Cambria for headings \u2014 authority and permanence \u2014 Calibri for ",
+      "slot": "media/B05.png (or .mp4)",
+      "label": "Navy at 60 percent for authority, teal at 25 percent for intelligence, gold at 15 percent accent. Ca"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "media/B06.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B06.mp4",
+      "label": "The slide deck opens with MentionMap. The tool URL is splitwolf-brandpulse. The roadmap references m"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "media/B07.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B07.mp4",
+      "label": "The tool claims to identify which of 12 brand archetypes your audience projects onto your brand. Tha"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "media/B08.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B08.mp4",
+      "label": "Five hundred Pro users at 29 dollars equals 174,000 ARR \u2014 the math works. But the slide doesn't show"
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "media/B09.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B09.mp4",
+      "label": "The roadmap is concrete: live data connections in August, team dashboard in September, public launch"
+    },
+    {
+      "beat_id": "BVDT",
+      "status": "filled",
+      "on_disk": "media/BVDT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BVDT.mp4",
+      "label": "Live tool, documented traction, honest competitive positioning, real roadmap. The submission has eve"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. Pick one brand name \u2014 MentionMap or BrandPulse \u2014 and write a one-page naming rationale: w"
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": ""
+    }
+  ]
+}

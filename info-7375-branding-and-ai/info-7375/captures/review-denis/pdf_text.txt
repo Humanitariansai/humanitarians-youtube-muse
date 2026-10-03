@@ -1,0 +1,68 @@
+=== Page 1 ===
+TOOL DOCUMENTATION
+v1.0 · AUGUST 2026
+Madison — User Guide & Feature Overview
+DC-metro job market intelligence, powered by adversarial multi-agent AI
+Madison puts a resume through a simulated hiring debate before the candidate ever applies. Two AI agents argue the candidate's
+fit — a harsh hiring manager stress-testing every claim, and a candidate advocate surfacing transferable strengths — grounded
+in live labor-market data. A third agent, the synthesis judge, reconciles both arguments into a fit score, a confidence rating, and a
+concrete 3-step action plan.
+HO W IT W O RK S
+01
+Upload
+Candidate submits a resume and a target
+role or job posting. No account required.
+02
+Debate
+Agent A (Harsh Hiring Manager) and Agent
+B (Candidate Advocate) argue fit live,
+grounded in BLS, NewsAPI, and real job-
+posting data.
+03
+Verdict
+The Synthesis Judge delivers a fit score, a
+confidence rating, and a 3-step plan to close
+the gap.
+FE ATUR E O VE RV I EW
+UNDE R T HE HO OD
+DATA SOURCES
+Bureau of Labor Statistics (BLS) API · NewsAPI · Kaggle LinkedIn job-postings dataset —
+62 records verified at 100% data quality across all 3 sources
+PIPELINE
+14-node n8n workflow — ingest, clean, cross-reference, and route data into the debate
+layer
+AI AGENTS
+Agent A (Harsh Hiring Manager), Agent B (Candidate Advocate), Synthesis Judge — three
+independent roles on live Claude API calls
+INTERFACE
+Gradio, deployed on Hugging Face Spaces · average 11.4s from upload to full briefing
+VALIDATION
+Structured user testing with 3 live testers (Sri, Arjun, Chase) via Zoom, recorded and
+transcribed with Otter.ai
+LIVE WEBSITE
+inquisitive-lily-b52fee.netlify.app
+Brand domain getmadison.app is registered; redirect pending.
+LIVE TOOL DEMO
+huggingface.co/spaces/denisbykov/madison-
+job-intel
+github.com/drippydenis/Madison · denisbb.substack.com
+Denis Bykov · INFO 7375 Branding & AI · Northeastern University
+Madison · Tool Documentation · Page 1 of 1
+Multi-source labor data — BLS, NewsAPI, and Kaggle job
+postings, fused in a 14-node n8n pipeline
+—
+Adversarial two-agent debate + synthesis judge, powered by live
+Claude API calls
+—
+DC-metro and clearance-corridor tuned — TS/SCI premiums,
+cloud-vs-NOC hiring trend tracking
+—
+Weekly Signal newsletter — recurring market briefings delivered
+on a schedule
+—
+Gradio interface, deployed and publicly testable on Hugging
+Face Spaces
+—
+Every verdict includes a named skill/credential gap and a next
+step — never just a number
+—

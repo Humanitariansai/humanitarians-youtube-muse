@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "slug": "ogilvy-vaibhav",
+    "title": "An Ogilvy Lens on Olembic — Vaibhav",
+    "topic": "INFO 7375 · OGILVY LENS",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Teardown",
+    "style": "ogilvy",
+    "source_pitch": "branding-and-ai/info-7375/submissions/Vaibhav_MadisonPitch.pdf",
+    "ogilvy_note": "Food for thought — not a grade. Ogilvy is one lens among several, running alongside the course rubric. The maker decides.",
+    "total_estimated_duration_seconds": 194,
+    "build": {
+      "at": "2026-08-01T15:02:20",
+      "cut": "master",
+      "filled": 10,
+      "of": 10,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Vaibhav's Olembic pitch. Distill the signal, silence the noise — an open-source AI brand-intelligence agent that reads the internet, learns which sources matter, and files you a weekly briefing. The pipeline is live. What would David Ogilvy ask about it?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · OGILVY LENS",
+            "segment": "Olembic — Vaibhav",
+            "command": "I just watched Vaibhav's Olembic pitch — distill the signal, silence the noise. Open-source AI brand-intelligence agent that reads the internet, learns which sources matter via bandit algorithms, and delivers a weekly written briefing. Live demo running on HuggingFace today. What do David Ogilvy's principles say about how this pitch frames the work? Not a score. Just the questions a great ad man would ask.",
+            "runningText": "reading the pitch...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 14.12,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:02:20"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "RECONSTRUCT — Slide 1: The Tagline",
+      "role_note": "Show Slide 1, rebuild. 'Distill the signal. Silence the noise.' is close to Ogilvy copy — push it further.",
+      "narration_text": "Slide 1 — the tagline. Distill the signal. Silence the noise. Four words, then four words. That is a writer's instinct — Ogilvy would recognize it. But the product description underneath is thirty words. An open-source AI brand-intelligence agent that reads the internet, learns which sources matter, and files you a weekly briefing. Ogilvy would ask: which of these two lines would stop a reader in a magazine ad?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B01_TheTagline",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 20.71,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim:B01_TheTagline",
+        "at": "2026-08-01T15:02:20"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "LENS 1 — The Person Who Is Priced Out",
+      "role_note": "Show Slide 2 (problem), rebuild. '$8B market failing the people who need it most' — who are those people?",
+      "narration_text": "Slide 2 — the problem. You know they're talking about you. You don't know what they're saying. That two-line setup is sharp — it puts the reader in the problem. Then: an eight-billion-dollar market, and it's failing the people who need it most. Ogilvy would stop and ask: who? The slide knows — it's the small brand paying nothing because fifteen thousand dollars a year is the entry price. Show that person. Name them.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B02_PersonPricedOut",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 19.43,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim:B02_PersonPricedOut",
+        "at": "2026-08-01T15:02:20"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "LENS 2 — The Buried Lead: Working Today",
+      "role_note": "Show Slide 9 (POC), rebuild. 'Working today' + live HuggingFace demo — buried on Slide 9.",
+      "narration_text": "Slide 9 — proof of concept. Working today. There is a live Gradio demo on HuggingFace, a real briefing with three-hundred-twelve mentions tracked, eighty-seven percent positive sentiment, and specific recommended actions. Ogilvy's second most powerful word, after free, is now. This product runs now. That is the headline. It is sitting on Slide 9. The question worth sitting with: what if it opened the pitch?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B03_WorkingToday",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 21.31,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim:B03_WorkingToday",
+        "at": "2026-08-01T15:02:20"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "LENS 3 — Not a Dashboard. A Narrative.",
+      "role_note": "Show Slide 3 (solution), rebuild. 'Not a dashboard. A narrative.' is a headline that earns its place.",
+      "narration_text": "Slide 3 — the solution. Three steps: listen, distill, deliver. And at the bottom of the slide, in plain text: not a dashboard. A narrative. That is the whole pitch in four words. It names the category, it names the distinction, and it does it with the minimum possible words. Ogilvy: specifics in advertising always outperform generalities. This line is a specific. The question is where it belongs.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B04_NotADashboard",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 20.54,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim:B04_NotADashboard",
+        "at": "2026-08-01T15:02:20"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "LENS 4 — The Open-Source Free Tier Is the Ask",
+      "role_note": "No slide needed. Free self-hosted tier + live demo = the unstated strongest ask.",
+      "narration_text": "There is a free tier. Self-hosted, full pipeline, forever. And a live public demo anyone can run right now. Ogilvy was explicit: free is the most powerful word in advertising. The open-source flywheel is already the GTM strategy — the slide says every self-hosted install is a warm lead. But the ask is a two-hundred-fifty-thousand-dollar seed check. The most direct ask in this pitch may be the one not stated: go fork it today. Why is that not the last line?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B05_OpenSourceFree",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 24.83,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim:B05_OpenSourceFree",
+        "at": "2026-08-01T15:02:20"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "LENS 5 — The Close: One Door, Not Three",
+      "role_note": "Show Slide 10 (ask), rebuild. 'Fund the first briefing' is specific — but three contact destinations dilutes it.",
+      "narration_text": "Slide 10 — the ask. Fund the first briefing. Two-hundred-fifty thousand dollars, three design partners, ten intros. The seed number is specific and right-sized. Ogilvy: a close should give the reader one door to walk through. The bottom of this slide has three: an email, a website, and a GitHub repo. Each one is correct. The question is whether they all belong in the close, or whether the investor close and the developer close need to be different rooms.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B06_TheClose",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 21.4,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim:B06_TheClose",
+        "at": "2026-08-01T15:02:20"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT ARTIFACT — The Lens Set",
+      "role_note": "Not a verdict: four questions for the next draft.",
+      "narration_text": "Not a verdict — a lens set. Four questions for the next draft. One: distill the signal — which of the two lines on Slide 1 would stop a reader? Two: eight billion dollar market failing the people who need it most — who is that person? Three: not a dashboard, a narrative — four words that are the whole pitch, where do they belong? Four: free tier, live demo — why not end with 'go fork it today'? These are Ogilvy's questions. The pitch decides which ones matter.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "CARD",
+        "source": "remotion",
+        "motion": "hold",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Four Ogilvy questions for the next draft",
+            "artifactHeading": "The lens set — not the verdict",
+            "artifactLines": [
+              "'Distill the signal' — which line stops the reader?",
+              "$8B market failing who? The person isn't on the slide.",
+              "'Not a dashboard. A narrative.' — why not Slide 1?",
+              "Live demo, free tier — why not end: 'fork it today'?"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "actual_duration_s": 21.08,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:02:20"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Scaffolded prompt for Vaibhav to run on his own next draft.",
+      "narration_text": "Your turn. Take your deck into Claude and try this: here are four Ogilvy questions about my pitch. For each one — which specific slide is most in play, and what is one alternative frame to consider? Not a correction, just another angle. The goal is not to score the pitch. Ogilvy is one lens. The course rubric is another.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375 · OGILVY LENS",
+            "segment": "Run this on your next draft",
+            "command": "Here are four Ogilvy questions about my pitch. For each one: (1) which slide is most directly in play, and (2) give me one alternative frame to consider — not a correction, just another angle. Goal: not to score the pitch. One more lens.",
+            "runningText": "thinking...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 16.7,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:02:20"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "OUTRO-LOCK — ClaudeTitleOutro.",
+      "narration_text": "An Ogilvy Lens on Olembic — Vaibhav. I'm Liam, in for Bear.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 6,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "An Ogilvy Lens on Olembic — Vaibhav",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 4.37,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:02:20"
+      }
+    }
+  ]
+}

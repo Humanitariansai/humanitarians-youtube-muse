@@ -1,0 +1,198 @@
+{
+ "book": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai",
+ "items": [
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/01-the-creative-engineer.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/the-creative-engineer",
+   "slug": "the-creative-engineer",
+   "status": "building",
+   "attempts": 1,
+   "note": "claude exited non-zero after 3s",
+   "worker": "69868"
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/02-what-a-brand-is-equity.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/what-a-brand-is-equity",
+   "slug": "what-a-brand-is-equity",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/03-the-ai-toolchain-cowork-codex-madison.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/the-ai-toolchain-cowork-codex-madison",
+   "slug": "the-ai-toolchain-cowork-codex-madison",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/04-the-brand-audience.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/the-brand-audience",
+   "slug": "the-brand-audience",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/05-brand-archetypes-as-a-system.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/brand-archetypes-as-a-system",
+   "slug": "brand-archetypes-as-a-system",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/06-brand-strategy-and-positioning.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/brand-strategy-and-positioning",
+   "slug": "brand-strategy-and-positioning",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/07-brand-architecture-and-portfolio.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/brand-architecture-and-portfolio",
+   "slug": "brand-architecture-and-portfolio",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/08-naming-trademark-and-brand-protection.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/naming-trademark-and-brand-protection",
+   "slug": "naming-trademark-and-brand-protection",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/09-visual-identity-systems.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/visual-identity-systems",
+   "slug": "visual-identity-systems",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/10-brand-voice-and-storytelling.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/brand-voice-and-storytelling",
+   "slug": "brand-voice-and-storytelling",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/11-brand-experience-and-touchpoints.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/brand-experience-and-touchpoints",
+   "slug": "brand-experience-and-touchpoints",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/12-content-media-and-campaigns.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/content-media-and-campaigns",
+   "slug": "content-media-and-campaigns",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/13-measuring-brand-equity-and-impact.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/measuring-brand-equity-and-impact",
+   "slug": "measuring-brand-equity-and-impact",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/14-brand-management-governance-and-rebranding.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/brand-management-governance-and-rebranding",
+   "slug": "brand-management-governance-and-rebranding",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/15-brand-ethics-purpose-and-sustainability.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/brand-ethics-purpose-and-sustainability",
+   "slug": "brand-ethics-purpose-and-sustainability",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/16-crisis-and-reputation-management.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/crisis-and-reputation-management",
+   "slug": "crisis-and-reputation-management",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/17-global-and-cross-cultural-branding.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/global-and-cross-cultural-branding",
+   "slug": "global-and-cross-cultural-branding",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/18-portfolio-as-product.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/portfolio-as-product",
+   "slug": "portfolio-as-product",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/19-professional-presence-and-launch.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/professional-presence-and-launch",
+   "slug": "professional-presence-and-launch",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/20-shipit-product-requirements-and-scope.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/shipit-product-requirements-and-scope",
+   "slug": "shipit-product-requirements-and-scope",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/21-shipit-pipelines-and-workflow-on-madison.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/shipit-pipelines-and-workflow-on-madison",
+   "slug": "shipit-pipelines-and-workflow-on-madison",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/22-shipit-ai-intelligence-and-multiagent-systems.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/shipit-ai-intelligence-and-multiagent-systems",
+   "slug": "shipit-ai-intelligence-and-multiagent-systems",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/23-shipit-interface-and-deployment.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/shipit-interface-and-deployment",
+   "slug": "shipit-interface-and-deployment",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  },
+  {
+   "chapter": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters/97-fundamental-themes.md",
+   "dir": "/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/fundamental-themes",
+   "slug": "fundamental-themes",
+   "status": "pending",
+   "attempts": 0,
+   "note": ""
+  }
+ ]
+}

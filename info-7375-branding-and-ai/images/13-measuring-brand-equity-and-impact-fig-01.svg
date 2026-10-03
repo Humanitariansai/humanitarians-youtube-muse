@@ -1,0 +1,77 @@
+<!--
+  The patience gap: brand vs. performance over time
+  Book: Branding and AI
+  Chapter: 13-measuring-brand-equity-and-impact
+  Figure: 01
+  Type: timeline / two-series time chart
+  Generated: 2026-06-18
+  Source: pantry/13-measuring-brand-equity-and-impact-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-13-01">
+  <title id="fig-title-13-01">The patience gap: brand vs. performance metrics over time</title>
+  <desc>Two metric families on a shared 0 to 24 month axis. A performance line moves fast and volatile; a brand line moves slowly and rises smoothly. The interval between when brand investment begins and when performance finally responds is labeled the patience gap.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="13-measuring-brand-equity-and-impact" figure-number="01"
+      figure-title="The patience gap: brand vs. performance over time"
+      figure-slug="patience-gap-brand-vs-performance"
+      figure-type="timeline / two-series time chart" priority="Critical"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/13-measuring-brand-equity-and-impact-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The patience gap: two metric families move on different clocks</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Performance moves fast and volatile; brand equity moves slowly and durably.</text>
+
+  <!-- plot region -->
+  <rect x="64" y="80" width="556" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- gridlines (x at 0,6,12,18,24 months) -->
+  <line x1="64"  y1="80" x2="64"  y2="360" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="203" y1="80" x2="203" y2="360" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="342" y1="80" x2="342" y2="360" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="481" y1="80" x2="481" y2="360" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="620" y1="80" x2="620" y2="360" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- axes -->
+  <line x1="64" y1="360" x2="620" y2="360" stroke="#121212" stroke-width="1"/>
+  <line x1="64" y1="80"  x2="64"  y2="360" stroke="#121212" stroke-width="1"/>
+
+  <!-- x tick labels -->
+  <text x="64"  y="378" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0</text>
+  <text x="203" y="378" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">6</text>
+  <text x="342" y="378" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">12</text>
+  <text x="481" y="378" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">18</text>
+  <text x="620" y="378" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">24</text>
+  <text x="342" y="398" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">months</text>
+
+  <!-- y axis label -->
+  <text x="48" y="220" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" transform="rotate(-90 48 220)">metric index</text>
+
+  <!-- brand investment begins marker (month 0) -->
+  <line x1="64" y1="80" x2="64" y2="360" stroke="#121212" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="72" y="104" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">brand investment begins</text>
+
+  <!-- performance metric: fast, volatile, flat-then-responding around month 12-14 -->
+  <polyline fill="none" stroke="#787878" stroke-width="1.5"
+    points="64,300 87,288 110,312 134,295 157,318 180,300 203,308 226,292 250,302 273,286 296,298 319,270 342,250 365,210 388,232 411,180 434,198 458,150 481,168 504,128 527,142 550,110 573,124 596,96 620,108"/>
+  <text x="560" y="106" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">performance (fast, volatile)</text>
+
+  <!-- brand metric: slow, smooth rise -->
+  <path fill="none" stroke="#121212" stroke-width="1.5"
+    d="M64,330 C 180,326 240,300 342,250 C 440,200 520,160 620,142"/>
+  <text x="356" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">brand equity (slow, smooth)</text>
+
+  <!-- the patience gap bracket: month 0 (investment) to ~month 13 (performance responds) -->
+  <line x1="64"  y1="338" x2="364" y2="338" stroke="#121212" stroke-width="1"/>
+  <line x1="64"  y1="332" x2="64"  y2="344" stroke="#121212" stroke-width="1"/>
+  <line x1="364" y1="332" x2="364" y2="344" stroke="#121212" stroke-width="1"/>
+  <text x="214" y="352" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">the patience gap</text>
+  <!-- performance-responds marker -->
+  <line x1="364" y1="200" x2="364" y2="338" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="360" y="196" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">performance responds</text>
+
+  <text x="32" y="424" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Watch only performance, and you cancel the brand campaign during the gap —</text>
+  <text x="32" y="440" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">before it produces the outcome it is building toward.</text>
+</svg>

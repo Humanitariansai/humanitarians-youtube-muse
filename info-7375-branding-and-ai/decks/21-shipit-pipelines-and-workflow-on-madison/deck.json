@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "title": "Appendix S2 — Pipelines & Workflow (on Madison)",
+    "short": "BRANDING · CH21",
+    "course": "Branding and AI · Chapter 21",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/21-shipit-pipelines-and-workflow-on-madison.md"
+  },
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "title",
+      "kicker": "Branding and AI · Chapter 21 · Appendix S2",
+      "title": "Pipelines & Workflow",
+      "subtitle": "Every external dependency is a contract. Every contract will change.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02",
+      "section": "the cold open",
+      "title": "On May 31, 2023, Christian Selig published a number",
+      "lead": "Reddit had announced new API pricing in April: **$0.24 per 1,000 calls**. Selig did the math.",
+      "bullets": [
+        "Apollo — his third-party Reddit client, beloved by several hundred thousand paying users — had made roughly seven billion API requests in the previous month.",
+        "Multiplying out: Apollo would owe Reddit approximately **$20 million per year**. Apollo was a one-developer shop with revenue in the hundreds of thousands.",
+        "Twenty million was not a price adjustment. It was a *kill order*, delivered with three months' notice. On **June 30**, Apollo shut down."
+      ]
+    },
+    {
+      "id": "S03",
+      "section": "the reframe",
+      "title": "It was not the code. It was the contract.",
+      "lead": "Apollo was not a bad pipeline. By most measures it was excellent — performant, well-designed, praised by everyone who used it.",
+      "bullets": [
+        "Most people think about pipelines as code: a script that pulls data, processes it, writes it somewhere. Not wrong. But it misses the thing that decides whether a pipeline survives.",
+        "**A pipeline is a chain of contracts** — each owned by someone else, each subject to change without your consent.",
+        "Between every component there is an agreement: what shape the data is, at what cost, under what rate limit, governed by what terms of service.",
+        "The pipeline runs as long as every agreement holds. It breaks when one fails."
+      ]
+    },
+    {
+      "id": "S04",
+      "section": "the boundary",
+      "title": "The agreements are not yours to control",
+      "lead": "Draw the line around what you actually own. Then watch what walks straight through it, uncontested.",
+      "why": "chapter: 'each owned by someone else, each subject to change without your consent … The pipeline breaks when one agreement fails. And the agreements are not yours to control.' — a boundary and named crossings that nothing stops",
+      "archetype": "containment",
+      "duration": 8.0,
+      "data": {
+        "boundary": {
+          "label": "WHAT YOU ACTUALLY CONTROL"
+        },
+        "inside": [
+          {
+            "label": "the code you wrote"
+          },
+          {
+            "label": "the schedule you set"
+          },
+          {
+            "label": "the sheet you write to"
+          }
+        ],
+        "attempts": [
+          {
+            "label": "Reddit reprices",
+            "blocked": false,
+            "from": "left"
+          },
+          {
+            "label": "a free tier ends",
+            "blocked": false,
+            "from": "right"
+          },
+          {
+            "label": "a schema drops a field",
+            "blocked": false,
+            "from": "top"
+          },
+          {
+            "label": "your next break",
+            "blocked": null,
+            "from": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "section": "the vocabulary",
+      "title": "Four kinds of data pipeline",
+      "lead": "The tooling, the failure modes, and the design discipline all differ by type. You are building two of these.",
+      "why": "chapter enumerates 'four categories of data pipeline' and names the tool family inside each — ETL/Airflow-dbt-Fivetran-Spark, streaming/Kafka-Flink, workflow/n8n-Zapier-Make, inference/LangChain-LlamaIndex",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "FOUR KINDS",
+        "centerShort": "FOUR KINDS",
+        "groups": [
+          {
+            "label": "ETL",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "Airflow"
+              },
+              {
+                "label": "dbt"
+              },
+              {
+                "label": "Fivetran"
+              },
+              {
+                "label": "Spark"
+              }
+            ]
+          },
+          {
+            "label": "Streaming",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "Kafka"
+              },
+              {
+                "label": "Flink"
+              },
+              {
+                "label": "Spark Streaming"
+              }
+            ]
+          },
+          {
+            "label": "Workflow",
+            "tone": "accent",
+            "children": [
+              {
+                "label": "n8n"
+              },
+              {
+                "label": "Zapier"
+              },
+              {
+                "label": "Make"
+              }
+            ]
+          },
+          {
+            "label": "Inference",
+            "tone": "accent",
+            "children": [
+              {
+                "label": "LangChain"
+              },
+              {
+                "label": "LlamaIndex"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "section": "the brand story",
+      "title": "The product died. The person did not.",
+      "lead": "Read Apollo first as a brand story, because that is where the lesson is sharpest.",
+      "why": "chapter: 'The brand damage to the *product* was total, even as the brand benefit to the *person* was real' — one event, two outcomes",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "one pricing change",
+        "splitLabel": "the product and the person",
+        "tracks": [
+          {
+            "label": "Selig · the developer",
+            "outcome": "reputation strengthened",
+            "tone": "good",
+            "path": "up",
+            "notes": [
+              "published his calculations",
+              "made the breakage legible",
+              "public sympathy went to him"
+            ]
+          },
+          {
+            "label": "Apollo · the product",
+            "outcome": "dead in thirty days",
+            "tone": "warn",
+            "path": "down",
+            "notes": [
+              "paying users lost the tool",
+              "being well-built changed nothing",
+              "brand damage total"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "section": "the asymmetry",
+      "title": "Damage flows downhill",
+      "lead": "Reddit absorbed a spread across hundreds of millions of users. Apollo, Reddit Is Fun and ReddPlanet absorbed everything.",
+      "bullets": [
+        "The largest, most diversified party takes diffuse reputational damage. The smallest, most dependent party takes concentrated, product-killing damage.",
+        "Twitter, February 2023: the free API tier deprecated, new pricing from **$100 per month**, an enterprise research tier at **$42,000 per month**. Hundreds of third-party tools broke overnight.",
+        "Heroku, November 2022: the free dyno tier ended, thousands of student projects went offline.",
+        "Your users do not see \"upstream contract failure.\" They see *this tool stopped working* — under the name on the front page. Which is yours."
+      ]
+    },
+    {
+      "id": "S08",
+      "section": "the disciplines",
+      "title": "Three disciplines. The tooling is implementation.",
+      "lead": "Your pipeline will depend on at least one external service, and that service's contract will change. The question to answer *before* you build: when it changes, what does your product do?",
+      "bullets": [
+        "**Document every external dependency before you build on it** — in the workflow itself, one sentence: what it gives you, what it costs, what the rate limit is, what the terms allow.",
+        "**Every critical dependency needs a degraded mode** — a designed answer to \"what does my product do when this contract fails?\"",
+        "**Monitor the contracts, not just the executions** — a workflow can return 200 at every node while the underlying contract silently degrades. Wire the status-page RSS into your alerts; set billing alerts upstream."
+      ]
+    },
+    {
+      "id": "S09",
+      "section": "degraded modes",
+      "title": "Four levels, in increasing order of robustness",
+      "lead": "Stale data is usually better than no data — as long as the staleness is legible.",
+      "why": "chapter names the degraded-mode taxonomy explicitly as 'Four levels, in increasing order of robustness'; challenge C2 asks the reader to design a fifth, so the top rung is TO RUN",
+      "archetype": "ladder",
+      "duration": 7.5,
+      "data": {
+        "lowLabel": "the break is at least legible",
+        "highLabel": "the product keeps serving",
+        "rungs": [
+          {
+            "label": "Informative failure",
+            "note": "says what is unavailable and why — the minimum viable mode"
+          },
+          {
+            "label": "Partial degradation",
+            "note": "the broken feature switches off; the rest keeps running"
+          },
+          {
+            "label": "Fallback source",
+            "note": "the broken dependency is replaced by an alternative"
+          },
+          {
+            "label": "Graceful staleness",
+            "note": "last successful result, with a visible timestamp"
+          },
+          {
+            "label": "",
+            "pending": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "section": "the tool",
+      "title": "n8n makes every contract a node you can swap",
+      "lead": "Nodes are operations. Connections are edges. Workflows are named graphs with a trigger.",
+      "bullets": [
+        "Open-source, fair-code licensed, self-hostable, **400-plus** pre-built integrations, JavaScript or Python at any node. Two commands if you have Docker.",
+        "In a single Python script that makes ten API calls, the dependencies are interwoven — swapping one API may mean touching half the file.",
+        "In n8n every dependency is a node with a defined input and output. OpenAI raises prices, you swap in a Claude node. Reddit breaks ingestion, you swap in an RSS node — without touching transform or output.",
+        "**The visual graph forces the contracts to be explicit.** That is the whole argument for it."
+      ]
+    },
+    {
+      "id": "S11",
+      "section": "the build",
+      "title": "Four nodes, three contracts, one verifiable output",
+      "lead": "The minimal pipeline that does real work: runs on a schedule, pulls fresh data, transforms it, writes it somewhere you can check.",
+      "why": "chapter walks Node 1 → Node 4 in order and ends 'Run the workflow manually. Open the sheet. Verify that rows appeared.' — every verdict belongs to the reader's own run",
+      "archetype": "gatePipeline",
+      "duration": 8.0,
+      "data": {
+        "input": {
+          "label": "a schedule trigger"
+        },
+        "gates": [
+          {
+            "label": "Schedule",
+            "rule": "hourly; skipped, not retried, if n8n is down",
+            "pass": null
+          },
+          {
+            "label": "HTTP · HN RSS",
+            "rule": "no auth, stable Atom since 2006, risk low",
+            "pass": null
+          },
+          {
+            "label": "Code · dedupe",
+            "rule": "one row per URL",
+            "pass": null
+          },
+          {
+            "label": "Sheets · append",
+            "rule": "you open the sheet and look",
+            "pass": null
+          }
+        ],
+        "output": {
+          "label": "rows you can verify",
+          "pending": true
+        }
+      }
+    },
+    {
+      "id": "S12",
+      "section": "reading Madison",
+      "title": "You are not looking for the node count",
+      "lead": "You are looking for the design decisions. The run log answers the only question monitoring needs to ask: did it run today?",
+      "why": "chapter traces the Intelligence Agent's dataflow node by node — six-hour trigger, parallel ingestion branches, seen-URL dedupe, GPT-4o-mini scoring, two output nodes",
+      "archetype": "graph",
+      "duration": 9.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          {
+            "id": "sched",
+            "label": "every six hours",
+            "tone": "accent",
+            "layer": 0
+          },
+          {
+            "id": "rss",
+            "label": "RSS feeds",
+            "tone": "ink",
+            "layer": 1
+          },
+          {
+            "id": "news",
+            "label": "Google News",
+            "tone": "ink",
+            "layer": 1
+          },
+          {
+            "id": "reddit",
+            "label": "Reddit",
+            "tone": "ink",
+            "layer": 1
+          },
+          {
+            "id": "dedup",
+            "label": "seen-URL store",
+            "tone": "ink",
+            "layer": 2
+          },
+          {
+            "id": "score",
+            "label": "GPT-4o-mini",
+            "tone": "ink",
+            "layer": 3
+          },
+          {
+            "id": "out",
+            "label": "sheet + run log",
+            "tone": "good",
+            "layer": 4
+          }
+        ],
+        "edges": [
+          {
+            "from": "sched",
+            "to": "rss",
+            "label": "isolated branch"
+          },
+          {
+            "from": "sched",
+            "to": "news"
+          },
+          {
+            "from": "sched",
+            "to": "reddit"
+          },
+          {
+            "from": "rss",
+            "to": "dedup",
+            "label": "hash the URL"
+          },
+          {
+            "from": "news",
+            "to": "dedup"
+          },
+          {
+            "from": "reddit",
+            "to": "dedup",
+            "label": "scored once"
+          },
+          {
+            "from": "dedup",
+            "to": "score"
+          },
+          {
+            "from": "score",
+            "to": "out"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "section": "choosing contracts",
+      "title": "Stable, or rich. Rarely both.",
+      "lead": "Prefer contracts stable for a long time, maintained by multiple parties, and not dependent on one platform's business model staying aligned with your use.",
+      "why": "chapter sorts named services against the three-part stability heuristic — RSS/Atom 'satisfy all three'; 'Twitter's API, Reddit's API, and Heroku's free tier failed all three' — and leaves the rest of your inventory unscored",
+      "archetype": "tallySplit",
+      "duration": 8.0,
+      "data": {
+        "left": {
+          "label": "Stable",
+          "pending": true
+        },
+        "right": {
+          "label": "Single-platform",
+          "pending": true
+        },
+        "items": [
+          {
+            "label": "RSS / Atom",
+            "side": "left"
+          },
+          {
+            "label": "Hacker News RSS",
+            "side": "left"
+          },
+          {
+            "label": "Twitter API",
+            "side": "right"
+          },
+          {
+            "label": "Reddit API",
+            "side": "right"
+          },
+          {
+            "label": "Heroku free tier",
+            "side": "right"
+          },
+          {
+            "label": "Google Sheets API",
+            "side": "pending"
+          },
+          {
+            "label": "Google News API",
+            "side": "pending"
+          },
+          {
+            "label": "GPT-4o-mini",
+            "side": "pending"
+          }
+        ],
+        "note": "The chapter scores five. The rest of your inventory is yours to score."
+      }
+    },
+    {
+      "id": "S14",
+      "section": "hardening",
+      "title": "Break your own contracts, on purpose, first",
+      "lead": "Most pipeline bugs surface not when the happy path runs but when an unexpected input arrives.",
+      "bullets": [
+        "Node-level error outputs: wire the HTTP Request node's error output to a Code node that logs the failure and returns an empty item list instead of crashing the run.",
+        "Workflow-level: set an Error Workflow that fires on failure with the workflow name, the failing node, and the message. That is your contract-monitoring hook.",
+        "Then disconnect the API key. Point the request at a 404. Comment out the dedupe so rows write twice. **Watch what happens.**",
+        "The only way to know your error handling works is to trigger the errors intentionally before users do it accidentally."
+      ]
+    },
+    {
+      "id": "S15",
+      "section": "the limit of discipline",
+      "title": "You cannot error-handle your way out of a monopsony",
+      "lead": "Joan Robinson formalized it in the 1930s: one buyer, many sellers, no realistic alternatives — so the buyer sets the terms unilaterally.",
+      "bullets": [
+        "Reddit was not charging Apollo what a competitive API market would bear. Reddit charged what it chose to charge, because Apollo had no alternative source for Reddit data.",
+        "The three disciplines answer the *tractable* failures — the rate limit that creeps down, the schema field that is deprecated, the free tier that becomes paid.",
+        "The monopsony failure is preventable only by choosing, where possible, contracts with genuine alternatives.",
+        "Your pipeline is not infrastructure separate from your product. From the perspective of reliability, **it is your product**."
+      ]
+    },
+    {
+      "id": "S16",
+      "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Name every contract you depend on. Then design its failure.",
+      "lead": "Build the four nodes. Document the three contracts. Write a degraded mode for each. Then break one deliberately and watch. The Creative Engineer ships the pipeline that is still running six months after launch, because they designed for the contracts they do not control."
+    }
+  ]
+}

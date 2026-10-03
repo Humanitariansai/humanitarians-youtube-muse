@@ -1,0 +1,44 @@
+---
+title: "Branding and AI"
+subtitle: "AI+1, Hands on. Domain specific. No generic prompts."
+author: "Nik Bear Brown & Nina Harris"
+date: 2026
+lang: en-US
+description: |
+  A graduate-level practitioner handbook for technical students whose
+  credentials no longer separate them. The book teaches a Spence-mechanism
+  reading of why credentials cheapened, the four-verb framework
+  (Ideate / Build / Brand / Ship), the Madison reference architecture for
+  AI-powered tools, the twelve Jungian brand archetypes as a strategic
+  system, and the visual-identity, storytelling, portfolio, and launch
+  disciplines that make a Creative Engineer legible to the audience their
+  work is for.
+rights: "Copyright © 2026 Nik Bear Brown & Nina Harris. All rights reserved."
+publisher: "Humanitarians AI Incorporated, a 501(c)(3) nonprofit organization"
+subject:
+  - Branding & Identity
+  - AI Product Design
+  - Career Development for Technical Practitioners
+  - Visual Identity Systems
+keywords:
+  - Creative Engineer
+  - Madison framework
+  - Jungian brand archetypes
+  - brand strategy
+  - visual identity
+  - storytelling
+  - portfolio
+  - n8n
+  - AI tools
+ibooks:
+  version: 1.0.0
+toc-title: Contents
+subject_domain: ""
+tone: ""
+audience: ""
+chapter_titles: []
+avoid: []
+palette_preference: ""
+series_name: "AI+1"
+thumbnail_priority: "title and central icon"
+...

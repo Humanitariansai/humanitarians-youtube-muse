@@ -1,0 +1,94 @@
+<!--
+  Standardize, adapt, or glocalize
+  Book: Branding and AI
+  Chapter: 17-global-and-cross-cultural-branding
+  Figure: 01
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/17-global-and-cross-cultural-branding-cajal.md
+-->
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-17-01">
+  <title id="fig-title-17-01">Standardize, adapt, or glocalize</title>
+  <desc>The 1983 Levitt question resolved at neither pole. Three strategies compared: standardize (one identity everywhere), adapt (change expression per market), glocalize (global core, local execution), each with what it buys and what it costs.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="17-global-and-cross-cultural-branding" figure-number="01"
+      figure-title="Standardize, adapt, or glocalize"
+      figure-slug="standardize-adapt-or-glocalize"
+      figure-type="comparison panels" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/17-global-and-cross-cultural-branding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="400" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Standardize, adapt, or glocalize</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The global-brand trade-off, posed in 1983, resolves at neither pole.</text>
+  <text x="32" y="72" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The choice is made per element, not once.</text>
+
+  <!-- row labels gutter -->
+  <text x="32" y="100" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">Strategy</text>
+  <text x="32" y="168" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">What it buys</text>
+  <text x="32" y="250" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">What it costs</text>
+  <text x="32" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">Posture</text>
+
+  <!-- panel borders -->
+  <rect x="150" y="76" width="172" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="338" y="76" width="172" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="526" y="76" width="142" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- headers -->
+  <text x="236" y="100" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Standardize</text>
+  <text x="424" y="100" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Adapt</text>
+  <text x="597" y="100" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Glocalize</text>
+
+  <!-- sub-line -->
+  <text x="236" y="118" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">one identity everywhere</text>
+  <text x="424" y="118" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">change per market</text>
+  <text x="597" y="118" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">global core, local act</text>
+
+  <line x1="150" y1="132" x2="668" y2="132" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- what it buys -->
+  <text x="160" y="152" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Efficiency; one</text>
+  <text x="160" y="167" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">consistent global</text>
+  <text x="160" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">identity; lower cost.</text>
+
+  <text x="348" y="152" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Local resonance;</text>
+  <text x="348" y="167" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">relevance in each</text>
+  <text x="348" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">market.</text>
+
+  <text x="536" y="152" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Both: scale on</text>
+  <text x="536" y="167" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">the core, fit on</text>
+  <text x="536" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">the expression.</text>
+
+  <line x1="150" y1="200" x2="668" y2="200" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- what it costs -->
+  <text x="160" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Misfires where</text>
+  <text x="160" y="237" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">cultures differ;</text>
+  <text x="160" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">tone-deaf abroad.</text>
+
+  <text x="348" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Coordination cost;</text>
+  <text x="348" y="237" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">risk of fragmenting</text>
+  <text x="348" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">into many brands.</text>
+
+  <text x="536" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Needs an explicit</text>
+  <text x="536" y="237" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">rule for what holds</text>
+  <text x="536" y="252" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">vs. what flexes.</text>
+
+  <line x1="150" y1="270" x2="668" y2="270" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- posture -->
+  <text x="160" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"Same message,</text>
+  <text x="160" y="309" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">every border."</text>
+
+  <text x="348" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"Rebuild for</text>
+  <text x="348" y="309" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">each market."</text>
+
+  <text x="536" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">McDonald's: same</text>
+  <text x="536" y="309" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Arches, local menu.</text>
+  <text x="536" y="330" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">McSpicy Paneer</text>
+  <text x="536" y="344" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">is not in Toronto.</text>
+
+  <text x="32" y="394" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Most global brands land on glocalization — the synthesis of scale and local fit.</text>
+</svg>

@@ -1,0 +1,69 @@
+<!--
+  The Boondoggle Score: Minion part and Gru part
+  Book: Branding and AI
+  Chapter: 97-fundamental-themes
+  Figure: 08
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/97-fundamental-themes-cajal.md
+-->
+<svg viewBox="0 0 700 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-97-08">
+  <title id="fig-title-97-08">The Boondoggle Score: Minion part and Gru part</title>
+  <desc>A two-track score in dependency order. The Minion Part holds copy-pasteable prompts for Claude with full constraints from the SDD. The Gru Part holds the human's supervisory actions, each labeled with a capacity. Between the tracks sits a handoff condition that must be true before the next step begins.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="97-fundamental-themes"
+      figure-number="08" figure-title="The Boondoggle Score: Minion part and Gru part" figure-slug="boondoggle-score-minion-gru"
+      figure-type="comparison panels" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/97-fundamental-themes-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Programming as conducting — two parts, one score</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Claude runs the Minion Part; the human runs the Gru Part. Every handoff has a condition.</text>
+
+  <!-- track headers -->
+  <text x="40" y="84" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Minion Part &#8212; Claude</text>
+  <text x="396" y="84" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Gru Part &#8212; Human</text>
+
+  <!-- Minion (left) track -->
+  <rect x="32" y="94" width="260" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Copy-pasteable spec</text>
+  <text x="44" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Fields with types, invariants,</text>
+  <text x="44" y="144" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">relationships &#8212; pulled from the SDD.</text>
+
+  <rect x="32" y="172" width="260" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Generate code scaffolding</text>
+  <text x="44" y="208" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">No memory between prompts &#8212; every</text>
+  <text x="44" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">prompt carries its own constraints.</text>
+
+  <rect x="32" y="250" width="260" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Write tests &amp; documentation</text>
+  <text x="44" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">From documented acceptance criteria,</text>
+  <text x="44" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">in dependency order.</text>
+
+  <!-- handoff gate (center) -->
+  <line x1="350" y1="94" x2="350" y2="330" stroke="#121212" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="350" y="350" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">handoff condition</text>
+  <text x="350" y="364" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">a specific, testable condition &#8212;</text>
+  <text x="350" y="376" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">not "looks good"</text>
+
+  <!-- Gru (right) track -->
+  <rect x="408" y="94" width="260" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="420" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">[PF] Problem Formulation</text>
+  <text x="420" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Rewrite the question so the answer</text>
+  <text x="420" y="144" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">becomes findable.</text>
+
+  <rect x="408" y="172" width="260" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="420" y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">[PA] Plausibility Auditing</text>
+  <text x="420" y="208" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Hear the wrong note before you</text>
+  <text x="420" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">recompute it &#8212; catch what passes syntax.</text>
+
+  <rect x="408" y="250" width="260" height="60" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="420" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">[TO] [IJ] [EI]</text>
+  <text x="420" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Tool orchestration, interpretive judgment,</text>
+  <text x="420" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">executive integration &#8212; hold the whole build.</text>
+
+  <!-- bottom note -->
+  <text x="32" y="402" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">The solve-verify asymmetry is permanent: Claude solves faster, the gap widens. The human verifies against domain reality</text>
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">that is not in the prompt.</text>
+</svg>

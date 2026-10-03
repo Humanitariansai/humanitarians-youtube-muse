@@ -1,0 +1,62 @@
+<!--
+  The concierge failure-state ladder
+  Book: Branding and AI
+  Chapter: 11-brand-experience-and-touchpoints
+  Figure: 06
+  Type: process flowchart (state branching)
+  Generated: 2026-06-18
+  Source: pantry/11-brand-experience-and-touchpoints-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-11-06">
+  <title id="fig-title-11-06">The concierge failure-state ladder</title>
+  <desc>An AI concierge branches from the happy path to empty, error, frustrated-user, and cannot-answer states. Each failure state has an on-archetype response standard. The cannot-answer state, where intellectual honesty holds the archetype, is the one to design first.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The failure path is where the archetype holds or breaks</text>
+
+  <defs>
+    <marker id="arrow1106" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- happy path node -->
+  <rect x="40" y="190" width="150" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="115" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">Happy path</text>
+  <text x="115" y="234" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">easy — anyone gets this</text>
+
+  <!-- branch arrows -->
+  <g stroke="#121212" stroke-width="1.5" fill="none">
+    <line x1="190" y1="205" x2="300" y2="90" marker-end="url(#arrow1106)"/>
+    <line x1="190" y1="212" x2="300" y2="170" marker-end="url(#arrow1106)"/>
+    <line x1="190" y1="228" x2="300" y2="250" marker-end="url(#arrow1106)"/>
+    <line x1="190" y1="235" x2="300" y2="330" marker-end="url(#arrow1106)"/>
+  </g>
+
+  <!-- failure states -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <!-- empty -->
+    <rect x="300" y="64" width="360" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="314" y="84" fill="#121212" font-weight="700">Empty state</text>
+    <text x="314" y="102" fill="#545454">nothing yet — orient and invite a first action, in voice.</text>
+
+    <!-- error -->
+    <rect x="300" y="146" width="360" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="314" y="166" fill="#121212" font-weight="700">Error state</text>
+    <text x="314" y="184" fill="#545454">something broke — name it plainly, no generic reassurance.</text>
+
+    <!-- frustrated -->
+    <rect x="300" y="228" width="360" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="314" y="248" fill="#121212" font-weight="700">Frustrated user</text>
+    <text x="314" y="266" fill="#545454">Caregiver: acknowledge the frustration before resolving.</text>
+
+    <!-- cannot answer (the red focal node) -->
+    <rect x="300" y="310" width="360" height="56" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+    <text x="314" y="330" fill="#C8102E" font-weight="700">Cannot answer</text>
+    <text x="314" y="348" fill="#121212">Sage: intellectual honesty — "I don't have a reliable</text>
+    <text x="314" y="362" fill="#121212">answer to that, and here is where you can find one."</text>
+  </g>
+
+  <text x="32" y="396" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Designing the failure states before building the tool is not optional — it is the design work.</text>
+  <text x="32" y="418" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The "cannot answer" state is the sharpest test: does the concierge stay honest</text>
+  <text x="32" y="434" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">in its own voice, or default to generic deflection?</text>
+</svg>

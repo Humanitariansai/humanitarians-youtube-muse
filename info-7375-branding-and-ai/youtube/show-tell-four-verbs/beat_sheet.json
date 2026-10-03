@@ -1,0 +1,817 @@
+{
+  "metadata": {
+    "slug": "show-tell-four-verbs",
+    "title": "Ideate, Build, Brand, Ship",
+    "topic": "INFO 7375 · BRANDING AND AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "Setswana (Dumela) — confirmed unused 2026-09-27",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "course": "INFO 7375 Branding and AI · Nik Bear Brown · Northeastern University",
+    "audience": "INFO 7375 Branding and AI students (Fall 2026), mostly engineers",
+    "bookloop_policy": "Course film: carries the INFO 7375 credit, spoken in BIDEA and on screen in the BDEFS title and the BHTF composer topic; not a numbered lecture. Outro stays OUTRO-LOCK.",
+    "source_doc": "info-7375-branding-and-ai/chapters/01-the-creative-engineer.md, 'The Four Verbs' (pasted by Bear 2026-09-27); arXiv 2212.08073; arXiv 2112.00861; Wikipedia (Anthropic, OpenAI)",
+    "playlist": "Claude & Agentic AI",
+    "chapter_number": 0,
+    "tags": [
+      "creative engineer",
+      "four verbs",
+      "ideate",
+      "brand",
+      "ship",
+      "portfolio",
+      "careers",
+      "Anthropic",
+      "Constitutional AI",
+      "INFO 7375",
+      "Claude",
+      "Nik Bear Brown"
+    ],
+    "build": {
+      "at": "2026-09-27T21:13:05",
+      "cut": "master",
+      "filled": 14,
+      "of": 14,
+      "slates": [],
+      "skin_warnings": [
+        "BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' — COLD OPEN LAW wants ClaudeComposerAsk"
+      ]
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Dumela. This is Liam, in for Bear, with a short film for INFO seventy-three seventy-five, Branding and AI. Engineers tend to ask how to build it better. Now that building is cheap, the question is what else you have to show.",
+      "estimated_duration_s": 14.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'How do I get better at building?'"
+          },
+          {
+            "at": 0.6,
+            "event": "'better at building' → 'seen for what I build'"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I get better\nat building?",
+            "triggerWords": "better at building",
+            "replacementWords": "seen for what I build",
+            "fontSize": 72,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "show-tell-four-verbs",
+            "banner": "",
+            "durationSeconds": 12.629
+          },
+          "rendered": {
+            "out": "media/BIDEA.mp4",
+            "at": "2026-09-28T01:05:08.715264+00:00"
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the build-only question and corrects it: be seen for what you build.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      },
+      "actual_duration_s": 12.629,
+      "audio_file": "mp3/beat-BIDEA.mp3",
+      "render_duration_s": 12.666666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BIDEA.mp4",
+        "filled_by": "remotion:BrutalistHesitantWriter",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. A costly signal: something that's hard to fake cheaply, so it tells people apart. Brand: the choices that decide whether the right stranger can find your work and see it's for them. And ship: put it in front of real users, at a public link.",
+      "estimated_duration_s": 16.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "'costly signal'"
+          },
+          {
+            "at": 0.4,
+            "event": "'brand'"
+          },
+          {
+            "at": 0.75,
+            "event": "'ship'"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "INFO 7375 · Terms In This Film",
+            "terms": [
+              {
+                "term": "costly signal",
+                "meaning": "hard to fake cheaply, so it tells people apart"
+              },
+              {
+                "term": "brand",
+                "meaning": "choices that let the right stranger find your work"
+              },
+              {
+                "term": "ship",
+                "meaning": "real users, at a public link"
+              }
+            ],
+            "folderLabel": "@NikBearBrown",
+            "durationSeconds": 13.419
+          },
+          "rendered": {
+            "out": "media/BDEFS.mp4",
+            "at": "2026-09-28T01:05:38.418160+00:00"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      },
+      "actual_duration_s": 13.419,
+      "audio_file": "mp3/beat-BDEFS.mp3",
+      "render_duration_s": 13.458333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BDEFS.mp4",
+        "filled_by": "remotion:ClaudeDefinitions",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "A creative engineer is an engineer who noticed the costly signals shifted, and invested accordingly. The work comes down to four verbs. Ideate. Build. Brand. Ship.",
+      "estimated_duration_s": 9.3,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Four kraft slabs land one by one as each verb is spoken, labelled Ideate, Build, Brand, Ship; a small box lands on the first.",
+        "show": [
+          {
+            "at": 0.5,
+            "event": "Ideate"
+          },
+          {
+            "at": 0.65,
+            "event": "Build"
+          },
+          {
+            "at": 0.8,
+            "event": "Brand"
+          },
+          {
+            "at": 0.92,
+            "event": "Ship"
+          }
+        ],
+        "manim": {
+          "class": "B00_FourVerbs"
+        },
+        "motion_claim": "Four kraft slabs land one by one as each verb is spoken, labelled Ideate, Build, Brand, Ship; a small box lands on the first."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 9.792,
+      "audio_file": "mp3/beat-B00.mp3",
+      "render_duration_s": 9.833333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B00.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Ideate is the hardest move, and the one AI can't do for you yet. Hand the tools a specification and they'll build it. They can't tell you whether it's worth building. That takes talking to real people, and finding a real gap.",
+      "estimated_duration_s": 15.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A white spec page slides into a dark block and a box pops straight out ('spec'); then a shelf of boxes, a dot scans along it and stops at the one empty slot, where a dashed outline appears ('the gap').",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "spec in, box out"
+          },
+          {
+            "at": 0.6,
+            "event": "the shelf"
+          },
+          {
+            "at": 0.85,
+            "event": "the gap"
+          }
+        ],
+        "manim": {
+          "class": "B01_Gap"
+        },
+        "motion_claim": "A white spec page slides into a dark block and a box pops straight out ('spec'); then a shelf of boxes, a dot scans along it and stops at the one empty slot, where a dashed outline appears ('the gap')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 11.968,
+      "audio_file": "mp3/beat-B01.mp3",
+      "render_duration_s": 12.0,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The mistake I see most: pick a technology you want to learn, build a project around it, then try to glue a user need on afterward. You get a competent thing nobody wanted. It shows Build. It doesn't show Ideate.",
+      "estimated_duration_s": 14.3,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A dark block ('tech first') drops; a box builds on top of it; a white tag is stuck on crooked and slides off.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "tech first"
+          },
+          {
+            "at": 0.4,
+            "event": "build around it"
+          },
+          {
+            "at": 0.65,
+            "event": "tag glued on, falls off"
+          }
+        ],
+        "manim": {
+          "class": "B02_TechFirst"
+        },
+        "motion_claim": "A dark block ('tech first') drops; a box builds on top of it; a white tag is stuck on crooked and slides off."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 11.627,
+      "audio_file": "mp3/beat-B02.mp3",
+      "render_duration_s": 11.666666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Build is the verb AI cheapened. Real production systems still need deep technical judgment. But a repo on GitHub no longer sets you apart. Build is necessary. It isn't sufficient.",
+      "estimated_duration_s": 10.7,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A box on a plinth ('necessary'); identical boxes appear on plinths either side until it no longer stands out ('not sufficient').",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "the box"
+          },
+          {
+            "at": 0.55,
+            "event": "copies appear"
+          },
+          {
+            "at": 0.85,
+            "event": "not sufficient"
+          }
+        ],
+        "manim": {
+          "class": "B03_Necessary"
+        },
+        "motion_claim": "A box on a plinth ('necessary'); identical boxes appear on plinths either side until it no longer stands out ('not sufficient')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 10.816,
+      "audio_file": "mp3/beat-B03.mp3",
+      "render_duration_s": 10.833333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Brand is where engineers push back hardest. So think of an API with no documentation. It computes. It returns the right values. But the developer who needs it can't tell what it's for, so it's useless. Documentation isn't decoration. It's what connects the API to the people who need it. Brand is documentation for your career.",
+      "estimated_duration_s": 20.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A dark API block on the right; a cable from a second block on the left reaches toward it and stops short; a white doc page attaches to the API, the cable connects, and lights come on ('API', 'docs').",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "API"
+          },
+          {
+            "at": 0.4,
+            "event": "cable stops short"
+          },
+          {
+            "at": 0.7,
+            "event": "docs attach, cable connects"
+          }
+        ],
+        "manim": {
+          "class": "B04_Docs"
+        },
+        "motion_claim": "A dark API block on the right; a cable from a second block on the left reaches toward it and stops short; a white doc page attaches to the API, the cable connects, and lights come on ('API', 'docs')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 17.621,
+      "audio_file": "mp3/beat-B04.mp3",
+      "render_duration_s": 17.625,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "card",
+      "proof_gate": "SHOW",
+      "narration_text": "In practice, Brand is a handful of choices: who it's for, how it's positioned, the voice, the look. Together they decide whether a stranger who needs your work can find it, and see it's for them. Your work can't speak for itself if the person it's for never finds it.",
+      "estimated_duration_s": 17.9,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "search card, shot on twos"
+          }
+        ],
+        "remotion": {
+          "pattern": "ShowTellCard",
+          "props": {
+            "kind": "search",
+            "heading": "accessible charts for nonprofits",
+            "items": [
+              {
+                "label": "Accessible Charts for Nonprofits",
+                "sub": "who it's for, a demo, a clear README"
+              },
+              {
+                "label": "chart-utils-v2",
+                "sub": "no description"
+              },
+              {
+                "label": "dataviz-final",
+                "sub": "no description"
+              }
+            ],
+            "focus": 0,
+            "durationSeconds": 13.589
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": "2026-09-28T01:06:07.159772+00:00"
+          }
+        }
+      },
+      "motion_claim": "A stranger types what they need; three results drop in; only the one that says who it's for gets picked.",
+      "why_card": "Search IS the idea (a stranger finding your work); results arriving IS the claim; a drawing can't show search better.",
+      "actual_duration_s": 13.589,
+      "audio_file": "mp3/beat-B05.mp3",
+      "render_duration_s": 13.625,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "remotion:ShowTellCard",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Ship means a public link, people who found it, and feedback from real use. Not a commit. Not a class demo. Shipping teaches you the most, because every guess you made gets tested the moment real users touch it.",
+      "estimated_duration_s": 13.9,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The box rides out through an open gate ('public'); three curved feedback lines draw back from the right with dots travelling along them; the box's tape turns on ('feedback').",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "out the gate"
+          },
+          {
+            "at": 0.6,
+            "event": "feedback comes back"
+          },
+          {
+            "at": 0.85,
+            "event": "the box changes"
+          }
+        ],
+        "manim": {
+          "class": "B06_Ship"
+        },
+        "motion_claim": "The box rides out through an open gate ('public'); three curved feedback lines draw back from the right with dots travelling along them; the box's tape turns on ('feedback')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 11.563,
+      "audio_file": "mp3/beat-B06.mp3",
+      "render_duration_s": 11.583333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "card",
+      "proof_gate": "SHOW",
+      "narration_text": "So score yourself honestly on each verb, one to five, where five means public evidence a stranger could see. For Ideate, that's user research. For Build, a deployed project. For Brand, a clear audience. For Ship, real users.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "focus card, shot on twos"
+          }
+        ],
+        "remotion": {
+          "pattern": "ShowTellCard",
+          "props": {
+            "kind": "focus",
+            "heading": "What a 5 looks like",
+            "focus": 3,
+            "items": [
+              {
+                "label": "Ideate",
+                "value": "user research"
+              },
+              {
+                "label": "Build",
+                "value": "deployed"
+              },
+              {
+                "label": "Brand",
+                "value": "clear audience"
+              },
+              {
+                "label": "Ship",
+                "value": "real users"
+              }
+            ],
+            "cues": [
+              0.608,
+              0.747,
+              0.876
+            ],
+            "durationSeconds": 12.821
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": "2026-09-28T01:06:37.980526+00:00"
+          }
+        }
+      },
+      "motion_claim": "A lens steps down the rubric verb by verb as each is spoken.",
+      "why_card": "The rubric IS a table; the lens stepping row by row IS scoring yourself verb by verb.",
+      "actual_duration_s": 12.821,
+      "audio_file": "mp3/beat-B07.mp3",
+      "render_duration_s": 12.833333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "remotion:ShowTellCard",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "card",
+      "proof_gate": "SHOW",
+      "narration_text": "It works at company scale too. Anthropic was founded in 2021 by former OpenAI researchers, and put a published safety method, Constitutional AI, at its front door. OpenAI does similar technical work, but leads with capability, and a mission of AGI that benefits all of humanity. Similar tech. Two brands. Two audiences.",
+      "estimated_duration_s": 18.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "tabs card, shot on twos"
+          }
+        ],
+        "remotion": {
+          "pattern": "ShowTellCard",
+          "props": {
+            "kind": "tabs",
+            "labels": [
+              "Anthropic",
+              "OpenAI"
+            ],
+            "items": [
+              {
+                "label": "Constitutional AI",
+                "value": "2022"
+              },
+              {
+                "label": "Helpful, honest, harmless",
+                "value": ""
+              },
+              {
+                "label": "Safety at the front door",
+                "value": ""
+              }
+            ],
+            "items2": [
+              {
+                "label": "Capability launches",
+                "value": ""
+              },
+              {
+                "label": "AGI for all of humanity",
+                "value": ""
+              },
+              {
+                "label": "Frontier first",
+                "value": ""
+              }
+            ],
+            "cues": [
+              0.56
+            ],
+            "durationSeconds": 19.456
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": "2026-09-28T01:07:16.475799+00:00"
+          }
+        }
+      },
+      "motion_claim": "Two tabs: Anthropic's panel, then the pill slides and OpenAI's panel replaces it.",
+      "why_card": "The idea IS compare A then B; the tab switch IS the comparison. Rows are verified wording only.",
+      "actual_duration_s": 19.456,
+      "audio_file": "mp3/beat-B08.mp3",
+      "render_duration_s": 19.458333333333332,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "remotion:ShowTellCard",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And it works for one person. A clear audience, a clear position, and the work to prove it decide who can find you, want you, and hire you. Not a company. A career.",
+      "estimated_duration_s": 11.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The four slabs again, Build ghosted; the box hops across all four and gets the terracotta tape on Ship ('a career').",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "the slabs"
+          },
+          {
+            "at": 0.5,
+            "event": "the box hops across"
+          },
+          {
+            "at": 0.85,
+            "event": "a career"
+          }
+        ],
+        "manim": {
+          "class": "B09_Career"
+        },
+        "motion_claim": "The four slabs again, Build ghosted; the box hops across all four and gets the terracotta tape on Ship ('a career')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 9.28,
+      "audio_file": "mp3/beat-B09.mp3",
+      "render_duration_s": 9.291666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: Here are my three best projects: list them, with links. Score me from one to five on each of four verbs: Ideate, Build, Brand, Ship. A five means a public artifact a stranger could see. For each score, name the evidence you used, then tell me the one change that would raise my lowest verb. Then check two things yourself. Is every score backed by something a stranger could actually find? And is your lowest verb the one you've been avoiding?",
+      "estimated_duration_s": 31.1,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "INFO 7375 BRANDING AND AI · YOUR TURN",
+            "segment": "Ideate, Build, Brand, Ship",
+            "command": "Here are my three best projects: [list them, with links]. Score me from one to five on each of four verbs: Ideate, Build, Brand, Ship. A five means a public artifact a stranger could see. For each score, name the evidence you used, then tell me the one change that would raise my lowest verb.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: is every score backed by something public?",
+              "Check: is your lowest verb the one you avoid?"
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": "2026-09-28T01:08:18.008022+00:00"
+          }
+        }
+      },
+      "actual_duration_s": 23.701,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "render_duration_s": 23.708333333333332,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "remotion:ClaudeComposerAsk",
+        "at": "2026-09-27T21:13:05"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Ideate, Build, Brand, Ship. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Ideate, Build, Brand, Ship",
+            "slug": "show-tell-four-verbs",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": "2026-09-28T01:08:32.708548+00:00"
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0,
+      "actual_duration_s": 4.584,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "render_duration_s": 4.625,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "remotion:ClaudeTitleOutro",
+        "at": "2026-09-27T21:13:05"
+      }
+    }
+  ]
+}

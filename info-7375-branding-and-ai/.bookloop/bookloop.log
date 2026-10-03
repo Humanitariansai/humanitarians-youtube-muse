@@ -1,0 +1,38 @@
+2026-09-02 11:49:00  [w67677]  scanning /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters (skip front/back matter: yes)
+2026-09-02 11:49:00  [w67677]  book: /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai
+2026-09-02 11:49:00  [w67677]  skill: deep-explainer   channel: claude-liam (Liam / Kokoro am_onyx)   pantry: OFF
+2026-09-02 11:49:00  [w67677]  queue: pending=25
+2026-09-02 11:49:00  [w67677]  DRY RUN — nothing is invoked, nothing is rendered, the queue is left untouched.
+2026-09-02 11:49:13  [w67728]  book: /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai
+2026-09-02 11:49:13  [w67728]  skill: deep-explainer   channel: claude-liam (Liam / Kokoro am_onyx)   pantry: OFF
+2026-09-02 11:49:13  [w67728]  queue: pending=25
+2026-09-02 11:49:13  [w67728]  DRY RUN — nothing is invoked, nothing is rendered, the queue is left untouched.
+2026-09-02 11:49:59  [w67855]  book: /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai
+2026-09-02 11:49:59  [w67855]  skill: deep-explainer   channel: claude-liam (Liam / Kokoro am_onyx)   pantry: OFF
+2026-09-02 11:49:59  [w67855]  queue: pending=25
+2026-09-02 11:49:59  [w67855]  DRY RUN — nothing is invoked, nothing is rendered, the queue is left untouched.
+2026-09-02 11:49:59  [w67882]  book: /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai
+2026-09-02 11:49:59  [w67882]  skill: deep-explainer   channel: claude-liam (Liam / Kokoro am_onyx)   pantry: OFF
+2026-09-02 11:49:59  [w67882]  queue: pending=25
+2026-09-02 11:49:59  [w67882]  DRY RUN — nothing is invoked, nothing is rendered, the queue is left untouched.
+2026-09-02 11:50:12  [w68009]  scanning /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/chapters (skip front/back matter: yes)
+2026-09-02 11:50:12  [w68009]  book: /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai
+2026-09-02 11:50:12  [w68009]  skill: deep-explainer   channel: claude-liam (Liam / Kokoro am_onyx)   pantry: OFF
+2026-09-02 11:50:12  [w68009]  queue: pending=24
+2026-09-02 11:50:12  [w68009]  DRY RUN — nothing is invoked, nothing is rendered, the queue is left untouched.
+2026-09-02 11:50:12  [w68040]  book: /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai
+2026-09-02 11:50:12  [w68040]  skill: deep-explainer   channel: claude-liam (Liam / Kokoro am_onyx)   pantry: OFF
+2026-09-02 11:50:12  [w68040]  queue: pending=24
+2026-09-02 11:50:12  [w68040]  DRY RUN — nothing is invoked, nothing is rendered, the queue is left untouched.
+2026-09-02 11:50:19  [w68074]  book: /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai
+2026-09-02 11:50:19  [w68074]  skill: deep-explainer   channel: claude-liam (Liam / Kokoro am_onyx)   pantry: OFF
+2026-09-02 11:50:19  [w68074]  queue: pending=24
+2026-09-02 11:50:19  [w68074]  ── the-creative-engineer   (01-the-creative-engineer.md, free 96GB, building=1 pending=23)
+2026-09-02 11:50:23  [w68074]     FAILED after 3s — claude exited non-zero after 3s (see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/.bookloop/the-creative-engineer.w68074.out)
+2026-09-02 11:50:23  [w68074]  SUMMARY: attempted=1 done=0 failed=1 wall=4s
+2026-09-02 11:50:23  [w68074]    FAILED: the-creative-engineer: claude exited non-zero after 3s
+2026-09-02 11:50:23  [w68074]  queue: pending=24
+2026-09-02 12:00:00  [w69868]  book: /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai
+2026-09-02 12:00:00  [w69868]  skill: deep-explainer   channel: claude-liam (Liam / Kokoro am_onyx)   pantry: OFF
+2026-09-02 12:00:00  [w69868]  queue: pending=24
+2026-09-02 12:00:00  [w69868]  ── the-creative-engineer   (01-the-creative-engineer.md, free 96GB, building=1 pending=23)

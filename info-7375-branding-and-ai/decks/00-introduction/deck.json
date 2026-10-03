@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Introduction",
+    "short": "BRANDING · CH00",
+    "course": "Branding and AI · Chapter 00",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/00-introduction.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 00",
+      "title": "Introduction",
+      "subtitle": "Building got cheap. Knowing what to build, and making it legible, did not.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "where the book starts",
+      "title": "Same task. Half of them got Copilot.",
+      "lead": "A controlled experiment at Microsoft Research in 2022. One task, two groups, one tool handed to one side.",
+      "why": "the chapter opens on a controlled experiment: identical developers, identical task, split at the moment half are handed Copilot, landing on 71 minutes versus 161 — a shared origin that separates at a named moment",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "professional developers · one identical task",
+        "splitLabel": "half handed GitHub Copilot",
+        "tracks": [
+          {
+            "label": "Copilot group", "outcome": "71 min", "tone": "good", "path": "up",
+            "notes": ["the cost of building collapses", "a 56% collapse"]
+          },
+          {
+            "label": "Control group", "outcome": "161 min", "tone": "ink", "path": "down",
+            "notes": ["building is still the bottleneck", "the old scarcity"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S03", "section": "the consequence",
+      "title": "When building gets cheap, building stops being the scarce skill",
+      "lead": "That 56% collapse is not a productivity story. It is a signaling story — and signaling is branding.",
+      "bullets": [
+        "The scarce skill is knowing **what** to build.",
+        "And making that work **legible** to the people it is for.",
+        "*That is a branding problem.* This book teaches brand strategy for technical practitioners whose credentials no longer separate them.",
+        "With AI as your tool — **not your replacement**."
+      ]
+    },
+    {
+      "id": "S04", "section": "what this book is",
+      "title": "Ideate · Build · Brand · Ship",
+      "lead": "A graduate-level, hands-on branding course. It reads the cheapening of technical signals through Spence's signaling mechanism and names the four verbs that now carry career value.",
+      "bullets": [
+        "The brand disciplines that make a **Creative Engineer** recognizable: archetype, scope, pipelines, interface, positioning, visual identity, storytelling, portfolio, launch.",
+        "Every chapter opens on a **brand decision**, then uses AI to execute it.",
+        "What it is *not*: a tour of AI tools. The tool changes every quarter; the brand decision does not.",
+        "When a chapter reaches for AI, **the decision leads and the model follows.**"
+      ]
+    },
+    {
+      "id": "S05", "section": "the idea running through the book",
+      "title": "AI+1 — the agent drafts, you own the decision",
+      "lead": "The division of labor is the whole argument. AI is excellent at reformatting, drafting, and pattern-spotting — and unreliable at the calibrated, accountable judgments brand work turns on.",
+      "why": "the chapter draws an explicit permission boundary — the agent drafts; you, the +1, own committing an archetype, approving a voice, signing off a position, accepting a persona as real, clearing a claim",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT THE AGENT MAY DO" },
+        "inside": [
+          { "label": "reformats" },
+          { "label": "drafts" },
+          { "label": "spots patterns" },
+          { "label": "runs the recipe" }
+        ],
+        "attempts": [
+          { "label": "commit an archetype", "blocked": true, "from": "left" },
+          { "label": "sign off a position", "blocked": true, "from": "right" },
+          { "label": "clear a claim", "blocked": true, "from": "top" },
+          { "label": "hand you a draft to check", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S06", "section": "the tool you run",
+      "title": "Madison: this book ships the AI it teaches you to use",
+      "lead": "The `madison/` directory is a self-contained copy of the Madison framework — an open-source, agent-based marketing-intelligence system.",
+      "bullets": [
+        "Organized into **five agent roles plus orchestration**.",
+        "Download the repository and the end-of-chapter exercises are runnable. No other clone required.",
+        "Madison is the *tool*. This book is the *branding course* that uses it.",
+        "Anything the agent generates — a persona, a metric, a citation — is a draft that needs an evidence check."
+      ]
+    },
+    {
+      "id": "S07", "section": "how the book is organized",
+      "title": "Twelve chapters, each opening on a decision",
+      "lead": "Signal, framework, archetype, scope, pipelines, intelligence, interface, strategy, identity, story, portfolio, launch.",
+      "bullets": [
+        "**Ch 4 — the $100,000 no.** What you refuse to build defines the product.",
+        "**Ch 5 — every external dependency is a contract**, and every contract will change.",
+        "**Ch 10 — a brand telling the wrong story burns faster than none.**",
+        "**Ch 12 — the final deliverable is you.**"
+      ]
+    },
+    {
+      "id": "S08", "section": "the fork",
+      "title": "At Chapter 8 you pick a path and carry it to the end",
+      "lead": "Positioning as a defensible claim, on two tracks you choose between — or run both.",
+      "why": "the chapter names a literal fork: 'At Chapter 8, pick the path that fits — personal (8a) or startup (8b) — and carry it to the end'",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "positioning as a defensible claim",
+        "splitLabel": "Chapter 8 · you choose",
+        "tracks": [
+          {
+            "label": "8a · Personal Brand Path", "outcome": "position a person", "tone": "accent", "path": "up",
+            "notes": ["the Creative Engineer as the claim", "carried to the Ch 12 launch"]
+          },
+          {
+            "label": "8b · Startup Brand Path", "outcome": "position a venture", "tone": "ink", "path": "down",
+            "notes": ["the venture as the claim", "carried to the Ch 12 launch"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S09", "section": "how to read it",
+      "title": "The chapters compound — and the thread returns to you",
+      "lead": "Read in order if the field is new. Each chapter's artifact is the next chapter's input.",
+      "why": "the chapter states an explicit dependency chain: 'your Chapter 1 signal baseline feeds your Chapter 3 audience, which feeds your Chapter 4 scope, and so on to the Chapter 12 launch' — which returns to you",
+      "archetype": "graph",
+      "duration": 8.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          { "id": "sig", "label": "Ch 1 signal baseline", "tone": "accent", "layer": 0 },
+          { "id": "aud", "label": "Ch 3 audience", "tone": "ink", "layer": 1 },
+          { "id": "scope", "label": "Ch 4 scope", "tone": "ink", "layer": 2 },
+          { "id": "gap", "label": "", "pending": true, "layer": 3 },
+          { "id": "launch", "label": "Ch 12 launch", "tone": "ink", "layer": 4 },
+          { "id": "you", "label": "you", "tone": "good", "layer": 5 }
+        ],
+        "edges": [
+          { "from": "sig", "to": "aud", "label": "feeds" },
+          { "from": "aud", "to": "scope", "label": "feeds" },
+          { "from": "scope", "to": "gap", "pending": true },
+          { "from": "gap", "to": "launch", "pending": true },
+          { "from": "launch", "to": "you", "label": "returns to" }
+        ]
+      }
+    },
+    {
+      "id": "S10", "section": "what this deck does not tell you",
+      "title": "The Self-as-Project thread is yours to run",
+      "lead": "Every chapter closes with a five-part AI+1 block that advances your own brand by running the mapped Madison recipe.",
+      "bullets": [
+        "Whether your signal baseline holds, whether your archetype survives contact, whether your claim clears an evidence check — **TO RUN**.",
+        "The chapter states one experiment: 71 minutes against 161, a 56% collapse. So that is the only figure this deck states. The grey slot in the chain is the part the chapter writes as *and so on* — you fill it.",
+        "Generic copy, fabricated personas, and unprovable claims are exactly what destroy a brand at first contact."
+      ]
+    },
+    {
+      "id": "S11", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Building got cheap. Deciding did not.",
+      "lead": "Pick the brand you will run end to end. Open Chapter 1, set your signal baseline, and own every judgment the agent hands you. Let's go."
+    }
+  ]
+}

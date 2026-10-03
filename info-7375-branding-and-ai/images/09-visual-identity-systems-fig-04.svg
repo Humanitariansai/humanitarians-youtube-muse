@@ -1,0 +1,57 @@
+<!--
+  Archetype visual-logic quadrant
+  Book: Branding and AI
+  Chapter: 09-visual-identity-systems
+  Figure: 04
+  Type: 2x2 matrix
+  Generated: 2026-06-18
+  Source: pantry/09-visual-identity-systems-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-09-04">
+  <title id="fig-title-09-04">Archetype visual-logic quadrant</title>
+  <desc>A two-by-two grid with a warm-to-cool horizontal axis and a restrained-to-expressive vertical axis. Sage sits restrained and cool, Caregiver restrained and warm, Hero expressive and cool, Magician expressive and warm. Each quadrant notes palette and type direction with one brand example.</desc>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Archetype visual logic: position on two axes drives palette and type</text>
+
+  <!-- grid -->
+  <rect x="150" y="70" width="430" height="320" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="365" y1="70" x2="365" y2="390" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="150" y1="230" x2="580" y2="230" stroke="#D4D4D4" stroke-width="1"/>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <!-- top-left: Hero (expressive / cool) -->
+    <text x="257" y="100" font-size="13" font-weight="700" fill="#121212" text-anchor="middle">Hero</text>
+    <text x="257" y="120" font-size="11" fill="#545454" text-anchor="middle">saturated, motion-implying</text>
+    <text x="257" y="136" font-size="11" fill="#545454" text-anchor="middle">athletic geometric sans</text>
+    <text x="257" y="152" font-size="11" fill="#545454" text-anchor="middle">Nike · Red Bull</text>
+
+    <!-- top-right: Magician (expressive / warm) -->
+    <text x="472" y="100" font-size="13" font-weight="700" fill="#121212" text-anchor="middle">Magician</text>
+    <text x="472" y="120" font-size="11" fill="#545454" text-anchor="middle">jewel tones, gradients</text>
+    <text x="472" y="136" font-size="11" fill="#545454" text-anchor="middle">dramatic display faces</text>
+    <text x="472" y="152" font-size="11" fill="#545454" text-anchor="middle">early Adobe · Spotify</text>
+
+    <!-- bottom-left: Sage (restrained / cool) -->
+    <text x="257" y="270" font-size="13" font-weight="700" fill="#121212" text-anchor="middle">Sage</text>
+    <text x="257" y="290" font-size="11" fill="#545454" text-anchor="middle">low-saturation, high-contrast</text>
+    <text x="257" y="306" font-size="11" fill="#545454" text-anchor="middle">classical serif + humanist sans</text>
+    <text x="257" y="322" font-size="11" fill="#545454" text-anchor="middle">NYT · The Economist</text>
+
+    <!-- bottom-right: Caregiver (restrained / warm) -->
+    <text x="472" y="270" font-size="13" font-weight="700" fill="#121212" text-anchor="middle">Caregiver</text>
+    <text x="472" y="290" font-size="11" fill="#545454" text-anchor="middle">warm earth tones, soft</text>
+    <text x="472" y="306" font-size="11" fill="#545454" text-anchor="middle">rounded humanist sans</text>
+    <text x="472" y="322" font-size="11" fill="#545454" text-anchor="middle">Headspace · J&amp;J</text>
+  </g>
+
+  <!-- axis labels -->
+  <text x="365" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">warm ←→ cool (palette temperature)</text>
+  <text x="200" y="408" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">cool</text>
+  <text x="530" y="408" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">warm</text>
+  <text x="40" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" transform="rotate(-90 40 230)" text-anchor="middle">restrained ←→ expressive</text>
+  <text x="128" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="end">expressive</text>
+  <text x="128" y="382" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="end">restrained</text>
+
+  <text x="32" y="446" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Shown structurally in greyscale: temperature and energy are encoded by position,</text>
+  <text x="32" y="462" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">not by displaying the actual hues.</text>
+</svg>

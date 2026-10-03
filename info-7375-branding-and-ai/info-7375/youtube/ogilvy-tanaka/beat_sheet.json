@@ -1,0 +1,330 @@
+{
+  "metadata": {
+    "slug": "ogilvy-tanaka",
+    "title": "An Ogilvy Lens on MentionMap — Tanaka",
+    "topic": "INFO 7375 · OGILVY LENS",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "voice": "am_onyx",
+    "palette": "claude",
+    "register": "Teardown",
+    "style": "ogilvy",
+    "source_pitch": "branding-and-ai/info-7375/submissions/Tanaka_MadisonPitch.pdf",
+    "ogilvy_note": "Food for thought — not a grade. Ogilvy is one lens among several, running alongside the course rubric. The maker decides.",
+    "total_estimated_duration_seconds": 190,
+    "build": {
+      "at": "2026-08-01T15:50:05",
+      "cut": "master",
+      "filled": 10,
+      "of": 10,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Tanaka's MentionMap pitch. Your brand's morning briefing, powered by AI — four point nine billion voices across the internet, distilled to one daily signal. Free for small teams. Enterprise tools charge three thousand dollars a month. The product is live today at splitwolf-brandpulse. What would David Ogilvy ask about it?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · OGILVY LENS",
+            "segment": "MentionMap — Tanaka",
+            "command": "I just watched Tanaka's MentionMap pitch — AI-powered brand intelligence for small teams. 4.9 billion voices across the internet → one daily brand briefing, delivered free. Enterprise tools charge $3K/month. The product is live today at splitwolf-brandpulse.hf.space with all 4 features working. What do David Ogilvy's principles say about how this pitch frames the work? Not a score. Just the questions a great ad man would ask.",
+            "runningText": "reading the pitch...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 17.49,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:50:05"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "RECONSTRUCT — Slide 1: The Morning Briefing",
+      "role_note": "Show Slide 1, rebuild. 'Your brand's morning briefing' is a ritual, not a feature — Ogilvy: does the pitch live inside that frame?",
+      "narration_text": "Slide 1 — the frame. MentionMap. Your brand's morning briefing, powered by AI. That phrase does more than describe a product — it describes a ritual. Ogilvy: the best headlines sell the product and establish the register all at once. A morning briefing is not a dashboard. It is a daily cadence. The question is whether the rest of the pitch lives inside that frame — or whether it drifts back into features.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B01_MorningBriefing",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 20.61,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim:B01_MorningBriefing",
+        "at": "2026-08-01T15:50:05"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "LENS 1 — The Person Priced Out at $3,000 a Month",
+      "role_note": "Show Slide 2 (problem), rebuild. 4.9B voices is the scale — who is the small-team brand manager?",
+      "narration_text": "Slide 2 — the problem. Four point nine billion voices across the internet. No signal, only noise. Enterprise tools cost three thousand dollars per month. Small teams pay nothing — and get nothing useful. Ogilvy: always find the person. Who is the brand manager at a small company staring at a spreadsheet of mentions they cannot interpret? Name that person. The statistic is the scale — the person is the pitch.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B02_PersonPricedOut",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 21.25,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim:B02_PersonPricedOut",
+        "at": "2026-08-01T15:50:05"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "LENS 2 — It's Live Right Now",
+      "role_note": "Show Slide 9 (live demo), rebuild. 'It's live. Right now.' — Ogilvy: that is the headline. Why is it on Slide 9?",
+      "narration_text": "Slide 9 — proof. It is live right now. Hugging Face, all four features working. No waitlist, no account wall, no API key. Ogilvy: the most powerful word after free is now. This product exists today and any person watching this video can run their brand through it before the pitch ends. That is the lead. It is on Slide 9. The question worth sitting with: what if the pitch opened there instead of closing there?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B03_LiveRightNow",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 20.84,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim:B03_LiveRightNow",
+        "at": "2026-08-01T15:50:05"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "LENS 3 — Nobody Owns This Corner",
+      "role_note": "Show Slide 7 (competition), rebuild. 'Nobody owns this corner' — Ogilvy: a competitive claim needs a specific enemy and a specific advantage.",
+      "narration_text": "Slide 7 — competition. Brandwatch, Mention, Sprout Social — they find mentions. Then the claim: nobody owns this corner. The only tool that is both easy and deep. Ogilvy: a competitive claim needs a specific enemy and a specific advantage. Easy is one thing. Deep is another. The audience will ask: easy compared to what, deep in what dimension? Show them one answer to each and the whole slide becomes a proof point.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B04_NobodyOwnsCorner",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 21.16,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim:B04_NobodyOwnsCorner",
+        "at": "2026-08-01T15:50:05"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "LENS 4 — Three Doors",
+      "role_note": "No slide needed. 'Invest · Advise · Become a customer' — Ogilvy: a close should end on one clear ask, not a menu.",
+      "narration_text": "The closing ask has three options: invest, advise, or become a customer. Three different commitments. Three different relationships. Ogilvy: a close should end on one clear ask — not a menu. A menu gives the audience permission to choose the easiest option, which is often none of them. The question is whether these three doors are the same door named three different ways — or whether each one needs its own sentence and its own audience.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B05_ThreeDoors",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 21.16,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim:B05_ThreeDoors",
+        "at": "2026-08-01T15:50:05"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "LENS 5 — The Close",
+      "role_note": "Show Slide 10 (ask), rebuild. $50K seed, specific allocations — Ogilvy: give the reader everything they need to act.",
+      "narration_text": "Slide 10 — the ask. Fifty thousand dollars. Twenty thousand for API infrastructure, twenty for user experience, ten for the Product Hunt launch. Specific allocations, next-step milestones. Ogilvy: a close should give the reader everything they need to act. This one does. The question is whether the person reading this knows which of the three doors is theirs — and whether the pitch has made it easy for them to open it.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B06_TheClose",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 21.06,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim:B06_TheClose",
+        "at": "2026-08-01T15:50:05"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT ARTIFACT — The Lens Set",
+      "role_note": "Not a verdict: four questions for the next draft.",
+      "narration_text": "Not a verdict — a lens set. Four questions for the next draft. One: four point nine billion voices, zero signal — that is Slide 2. Could it be Slide 1? Two: no account, no API, no analyst — does the free tier lead? Three: it is live right now on Slide 9 — Ogilvy would move it. Four: invest, advise, or become a customer — are those three doors, or one door named three ways? These are Ogilvy's questions. The pitch decides which ones matter.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "CARD",
+        "source": "remotion",
+        "motion": "hold",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Four Ogilvy questions for the next draft",
+            "artifactHeading": "The lens set — not the verdict",
+            "artifactLines": [
+              "'4.9B voices, zero signal' — that's Slide 2, not Slide 1.",
+              "No account, no API, no analyst — does the free tier lead?",
+              "'Nobody owns this corner' — easy how? Deep in what?",
+              "Invest, advise, or become a customer — one ask or three?"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "actual_duration_s": 22.49,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:50:05"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Scaffolded prompt for Tanaka to run on their own next draft.",
+      "narration_text": "Your turn. Take your deck into Claude and try this: here are four Ogilvy questions about my pitch. For each one — which specific slide is most in play, and what is one alternative frame to consider? Not a correction, just another angle. The goal is not to score the pitch. Ogilvy is one lens. The course rubric is another.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375 · OGILVY LENS",
+            "segment": "Run this on your next draft",
+            "command": "Here are four Ogilvy questions about my pitch. For each one: (1) which slide is most directly in play, and (2) give me one alternative frame to consider — not a correction, just another angle. Goal: not to score the pitch. One more lens.",
+            "runningText": "thinking...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 16.7,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:50:05"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "OUTRO-LOCK — ClaudeTitleOutro.",
+      "narration_text": "An Ogilvy Lens on MentionMap — Tanaka. I'm Liam, in for Bear.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 6,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "An Ogilvy Lens on MentionMap — Tanaka",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 4.44,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:50:05"
+      }
+    }
+  ]
+}

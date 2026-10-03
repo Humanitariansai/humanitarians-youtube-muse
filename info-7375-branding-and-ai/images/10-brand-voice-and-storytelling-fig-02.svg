@@ -1,0 +1,64 @@
+<!--
+  Brand-as-hero vs. customer-as-hero
+  Book: Branding and AI
+  Chapter: 10-brand-voice-and-storytelling
+  Figure: 02
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/10-brand-voice-and-storytelling-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-10-02">
+  <title id="fig-title-10-02">Brand-as-hero versus customer-as-hero</title>
+  <desc>Two panels for the same product. Left, the brand is the protagonist and the customer a bystander — weak for selling. Right, the customer is the hero and the brand the guide who supplies a plan, the orientation that lets the audience identify.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="10-brand-voice-and-storytelling" figure-number="02"
+      figure-title="Brand-as-hero vs. customer-as-hero"
+      figure-slug="brand-hero-vs-customer-hero"
+      figure-type="comparison panels" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/10-brand-voice-and-storytelling-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Brand-as-hero vs. customer-as-hero: the same product, two story shapes</text>
+
+  <!-- Divider -->
+  <line x1="350" y1="64" x2="350" y2="388" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- LEFT panel -->
+  <rect x="32" y="64" width="290" height="324" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="56" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Brand-as-hero</text>
+  <text x="56" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">weak for selling to customers</text>
+
+  <text x="56" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Protagonist</text>
+  <rect x="56" y="154" width="242" height="38" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="177" y="178" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Brand = hero</text>
+
+  <text x="56" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Customer's role</text>
+  <rect x="56" y="234" width="242" height="38" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="177" y="258" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#545454">bystander</text>
+
+  <text x="56" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Outcome</text>
+  <text x="56" y="326" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Audience cannot identify with</text>
+  <text x="56" y="342" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">a story whose hero is someone</text>
+  <text x="56" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">else.</text>
+
+  <!-- RIGHT panel -->
+  <rect x="378" y="64" width="290" height="324" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="402" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Customer-as-hero (StoryBrand)</text>
+  <text x="402" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the customer identifies and acts</text>
+
+  <text x="402" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Protagonist</text>
+  <rect x="402" y="154" width="242" height="38" fill="#C8102E" stroke="#121212" stroke-width="1"/>
+  <text x="523" y="178" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Customer = hero</text>
+
+  <text x="402" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Brand's role</text>
+  <rect x="402" y="234" width="242" height="38" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="523" y="258" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">guide (Yoda to Luke)</text>
+
+  <text x="402" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Outcome</text>
+  <text x="402" y="326" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Brand gives the plan; the</text>
+  <text x="402" y="342" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">customer takes action and</text>
+  <text x="402" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">is transformed.</text>
+</svg>

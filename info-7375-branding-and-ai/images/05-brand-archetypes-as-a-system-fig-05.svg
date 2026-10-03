@@ -1,0 +1,99 @@
+<!--
+  Strength and its shadow
+  Book: Branding and AI
+  Chapter: 05-brand-archetypes-as-a-system
+  Figure: 05
+  Type: comparison table
+  Generated: 2026-06-18
+  Source: pantry/05-brand-archetypes-as-a-system-cajal.md
+-->
+<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05-05">
+  <title id="fig-title-05-05">Strength and its shadow</title>
+  <desc>Six archetypes with core strength, shadow, and the structural relationship between them — the shadow is the strength under pressure, not an accident.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="05-brand-archetypes-as-a-system"
+      figure-number="05" figure-title="Strength and its shadow" figure-slug="strength-and-its-shadow"
+      figure-type="comparison table" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/05-brand-archetypes-as-a-system-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The shadow is the strength under pressure — not an accident</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">When you pick an archetype, you also pick your most likely failure mode.</text>
+
+  <!-- header -->
+  <rect x="32" y="80" width="120" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="152" y="80" width="160" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="312" y="80" width="120" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="432" y="80" width="300" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Archetype</text>
+  <text x="162" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Core strength</text>
+  <text x="322" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#C8102E">Shadow</text>
+  <text x="442" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">How the strength curdles</text>
+
+  <!-- rows -->
+  <!-- helper for 6 rows; each 46 tall starting at 114 -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <!-- Innocent -->
+    <rect x="32" y="114" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="114" width="160" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="312" y="114" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="432" y="114" width="300" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="42" y="141" font-weight="700" fill="#121212">Innocent</text>
+    <text x="162" y="141" fill="#121212">Purity, simplicity</text>
+    <text x="322" y="141" fill="#121212">Denial</text>
+    <text x="442" y="141" fill="#545454">Simplicity becomes refusal to see complexity.</text>
+
+    <!-- Sage -->
+    <rect x="32" y="160" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="160" width="160" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="312" y="160" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="432" y="160" width="300" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="42" y="187" font-weight="700" fill="#121212">Sage</text>
+    <text x="162" y="187" fill="#121212">Expertise, truth</text>
+    <text x="322" y="187" fill="#121212">Dogmatism</text>
+    <text x="442" y="187" fill="#545454">Authority hardens into intolerance of dissent.</text>
+
+    <!-- Hero -->
+    <rect x="32" y="206" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="206" width="160" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="312" y="206" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="432" y="206" width="300" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="42" y="233" font-weight="700" fill="#121212">Hero</text>
+    <text x="162" y="233" fill="#121212">Mastery, courage</text>
+    <text x="322" y="233" fill="#121212">Arrogance</text>
+    <text x="442" y="233" fill="#545454">Drive to win curdles into contempt for strugglers.</text>
+
+    <!-- Caregiver -->
+    <rect x="32" y="252" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="252" width="160" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="312" y="252" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="432" y="252" width="300" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="42" y="279" font-weight="700" fill="#121212">Caregiver</text>
+    <text x="162" y="279" fill="#121212">Service, compassion</text>
+    <text x="322" y="279" fill="#121212">Martyrdom</text>
+    <text x="442" y="279" fill="#545454">Care becomes "we sacrifice; notice it."</text>
+
+    <!-- Ruler -->
+    <rect x="32" y="298" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="298" width="160" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="312" y="298" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="432" y="298" width="300" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="42" y="325" font-weight="700" fill="#121212">Ruler</text>
+    <text x="162" y="325" fill="#121212">Control, leadership</text>
+    <text x="322" y="325" fill="#121212">Tyranny</text>
+    <text x="442" y="325" fill="#545454">Standard-setting rigidifies; punishes deviation.</text>
+
+    <!-- Creator -->
+    <rect x="32" y="344" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="152" y="344" width="160" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="312" y="344" width="120" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="432" y="344" width="300" height="46" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="42" y="371" font-weight="700" fill="#121212">Creator</text>
+    <text x="162" y="371" fill="#121212">Imagination</text>
+    <text x="322" y="371" fill="#121212">Perfectionism</text>
+    <text x="442" y="371" fill="#545454">Craft obsession forgets the audience exists.</text>
+  </g>
+
+  <text x="32" y="408" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: MARK &amp; PEARSON SYSTEM · CH. 5</text>
+</svg>

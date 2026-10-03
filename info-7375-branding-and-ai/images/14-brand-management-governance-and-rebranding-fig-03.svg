@@ -1,0 +1,77 @@
+<!--
+  Stewardship at three scales
+  Book: Branding and AI
+  Chapter: 14-brand-management-governance-and-rebranding
+  Figure: 03
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/14-brand-management-governance-and-rebranding-cajal.md
+-->
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-14-03">
+  <title id="fig-title-14-03">Brand stewardship at three scales</title>
+  <desc>As headcount grows, the mechanism for consistency changes: one person relies on personal coherence, ten people on a shared system and periodic review, and a hundred or more on automated audit with the steward deciding what the flags mean.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="14-brand-management-governance-and-rebranding" figure-number="03"
+      figure-title="Stewardship at three scales"
+      figure-slug="stewardship-three-scales"
+      figure-type="matrix" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/14-brand-management-governance-and-rebranding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="340" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The arithmetic of consistency: stewardship at three scales</text>
+
+  <!-- Header -->
+  <rect x="32" y="56" width="130" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="162" y="56" width="200" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="362" y="56" width="166" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="528" y="56" width="140" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">
+    <text x="40" y="77">Scale</text>
+    <text x="170" y="77">Consistency mechanism</text>
+    <text x="370" y="77">Failure mode</text>
+    <text x="536" y="77">AI role</text>
+  </g>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <!-- Row 1 -->
+    <rect x="32" y="90" width="130" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="162" y="90" width="200" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="362" y="90" width="166" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="528" y="90" width="140" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="128" font-weight="700">One person</text>
+    <text x="170" y="122">personal coherence</text>
+    <text x="170" y="138" fill="#545454">no system needed</text>
+    <text x="370" y="128" fill="#545454">none yet</text>
+    <text x="536" y="128" fill="#545454">none</text>
+
+    <!-- Row 2 -->
+    <rect x="32" y="158" width="130" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="162" y="158" width="200" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="362" y="158" width="166" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="528" y="158" width="140" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="196" font-weight="700">Ten people</text>
+    <text x="170" y="190">shared system +</text>
+    <text x="170" y="206">periodic review</text>
+    <text x="370" y="196">silent divergence</text>
+    <text x="536" y="196" fill="#545454">light assist</text>
+
+    <!-- Row 3 -->
+    <rect x="32" y="226" width="130" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="162" y="226" width="200" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="362" y="226" width="166" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="528" y="226" width="140" height="68" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="264" font-weight="700">Hundred+</text>
+    <text x="170" y="258">automated audit +</text>
+    <text x="170" y="274">steward decides flags</text>
+    <text x="370" y="258">manual review</text>
+    <text x="370" y="274" fill="#545454">becomes infeasible</text>
+    <text x="536" y="258">pattern-</text>
+    <text x="536" y="274">recognition at scale</text>
+  </g>
+
+  <text x="32" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">At scale, stewardship shifts from reviewing every artifact to designing</text>
+  <text x="32" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the system that makes on-brand easy.</text>
+</svg>

@@ -1,0 +1,78 @@
+<!--
+  Clearance before commitment
+  Book: Branding and AI
+  Chapter: 08-naming-trademark-and-brand-protection
+  Figure: 05
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/08-naming-trademark-and-brand-protection-cajal.md
+-->
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-08-05">
+  <title id="fig-title-08-05">Clearance before commitment</title>
+  <desc>Four pre-screening steps ordered by rising cost: search the USPTO register and phonetic variants, check domain availability, run a web search for unregistered use, then consult a trademark attorney. The fourth step, consulting counsel, is the non-optional clearance gate.</desc>
+  <rect x="0" y="0" width="760" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Clearance before commitment: four steps in order of rising cost</text>
+
+  <defs>
+    <marker id="arrow0805" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- rising-cost baseline arrow -->
+  <text x="32" y="72" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">rising cost and stakes →</text>
+
+  <!-- four nodes -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <!-- 1 -->
+    <rect x="40" y="90" width="155" height="200" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="54" y="114" font-size="12" font-weight="700" fill="#121212">1 · USPTO search</text>
+    <text x="54" y="140" font-size="11" fill="#121212">Exact string + phonetic</text>
+    <text x="54" y="156" font-size="11" fill="#121212">("Brite"/"Bright") + visual</text>
+    <text x="54" y="172" font-size="11" fill="#121212">variants, in your Nice</text>
+    <text x="54" y="188" font-size="11" fill="#121212">class.</text>
+    <text x="54" y="212" font-size="11" fill="#545454">Catches: registered marks</text>
+    <text x="54" y="228" font-size="11" fill="#545454">Misses: confusion analysis</text>
+    <text x="54" y="272" font-size="11" fill="#545454" font-style="italic">You run it.</text>
+
+    <!-- 2 -->
+    <rect x="215" y="90" width="155" height="200" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="229" y="114" font-size="12" font-weight="700" fill="#121212">2 · Domain check</text>
+    <text x="229" y="140" font-size="11" fill="#121212">.com, .io, .ai and any</text>
+    <text x="229" y="156" font-size="11" fill="#121212">TLD that matters.</text>
+    <text x="229" y="212" font-size="11" fill="#545454">Catches: address conflicts</text>
+    <text x="229" y="228" font-size="11" fill="#545454">Misses: trademark rights</text>
+    <text x="229" y="272" font-size="11" fill="#545454" font-style="italic">You run it.</text>
+
+    <!-- 3 -->
+    <rect x="390" y="90" width="155" height="200" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="404" y="114" font-size="12" font-weight="700" fill="#121212">3 · Web search</text>
+    <text x="404" y="140" font-size="11" fill="#121212">Unregistered use in your</text>
+    <text x="404" y="156" font-size="11" fill="#121212">category (common-law</text>
+    <text x="404" y="172" font-size="11" fill="#121212">rights, esp. in the US).</text>
+    <text x="404" y="212" font-size="11" fill="#545454">Catches: prior users</text>
+    <text x="404" y="228" font-size="11" fill="#545454">Misses: formal clearance</text>
+    <text x="404" y="272" font-size="11" fill="#545454" font-style="italic">You run it.</text>
+
+    <!-- 4 (red gate) -->
+    <rect x="565" y="90" width="155" height="200" fill="#F5F5F5" stroke="#C8102E" stroke-width="2"/>
+    <text x="579" y="114" font-size="11" font-weight="700" fill="#C8102E">4 · Trademark counsel</text>
+    <text x="579" y="140" font-size="11" fill="#121212">Consult an attorney</text>
+    <text x="579" y="156" font-size="11" fill="#121212">before committing.</text>
+    <text x="579" y="172" font-size="11" fill="#121212">Not optional.</text>
+    <text x="579" y="212" font-size="11" fill="#545454">Catches: real clearance</text>
+    <text x="579" y="228" font-size="11" fill="#545454">Misses: nothing you can</text>
+    <text x="579" y="244" font-size="11" fill="#545454">skip safely</text>
+    <text x="579" y="272" font-size="11" fill="#545454" font-style="italic">Counsel runs it.</text>
+  </g>
+
+  <!-- arrows -->
+  <line x1="195" y1="190" x2="215" y2="190" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0805)"/>
+  <line x1="370" y1="190" x2="390" y2="190" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0805)"/>
+  <line x1="545" y1="190" x2="565" y2="190" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0805)"/>
+
+  <text x="32" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">A clean exact-match search is not the same as being cleared — it tells you only</text>
+  <text x="32" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">that your exact string is not registered.</text>
+  <text x="32" y="354" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A lawyer&#x2019;s clearance search is a rounding error against the cost of a</text>
+  <text x="32" y="370" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">cease-and-desist after six months of brand-building.</text>
+</svg>

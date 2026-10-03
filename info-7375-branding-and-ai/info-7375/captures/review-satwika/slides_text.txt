@@ -1,0 +1,263 @@
+=== Slide 1 ===
+Behavrix
+Human Risk Intelligence Platform
+80% of breaches are caused by people, not firewalls. We surface exactly who's at risk.
+Satwika Maddukuri
+INFO 7375 — Branding with AI  •  Northeastern University
+August 2026
+behavrix.framer.app  ·  Behavrix · Streamlit
+1 / 14
+
+=== Slide 2 ===
+Behavrix
+2 / 14
+THE PROBLEM
+The $9.5 Trillion Blind Spot.
+80%
+of breaches caused by human behavior
+$9.5T
+annual global cybercrime cost
+$25K
+avg. consulting engagement cost
+6 wks
+to get one vendor risk assessment
+“Six weeks and $25,000 later, you get a report. The human risk stayed invisible the entire time you waited..”
+
+=== Slide 3 ===
+Behavrix
+3 / 14
+WHO WE SERVE
+Two People Who Need an Answer, Not a Compliance Artifact
+Priya
+Security Analyst · Primary
+Mid-size financial institution, no dedicated research team
+NEEDS
+To include human behavioral risk findings in a vendor report without adding days to her timeline.
+“I can show this to a CISO and they immediately know where to focus.”
+Harry
+CISO · Secondary
+Mid-size regulated organization, reports to the board
+NEEDS
+To communicate human risk exposure to the board in plain English, without translating it himself.
+“Transparency around how the score is calculated would significantly improve credibility.”
+
+=== Slide 4 ===
+Behavrix
+4 / 14
+We Teach AI to Think Like an Attacker.
+Select organization type  →  AI analyzes 270 records  →  Human Risk Report in 90 seconds
+The Clicker
+Falls for urgency and fear-based phishing
+MITRE T1566
+Password Recycler
+Reuses credentials across systems
+MITRE T1078
+Shadow IT User
+Routes around approved tools
+MITRE T1072
+Over-Trusted Insider
+Extends trust based on social pressure
+MITRE T1134
+“Behavrix helps security analysts at regulated organizations identify which human behavior patterns make their teams most vulnerable — so they can run data-backed tabletop exercises and communicate human risk to leadership without waiting weeks or paying thousands for a consultant.”
+
+=== Slide 5 ===
+Behavrix
+5 / 14
+BRAND STRATEGY
+What Behavrix Won't Compromise On.
+01
+Transparency
+Every score shows its reasoning
+02
+Accessibility
+Enterprise intelligence, no enterprise contract
+03
+Honesty
+Advisory framing, not false confidence
+04
+Human-Centered
+Built around how people behave
+05
+Evidence-Based
+Every output traces to real data
+Every brand touchpoint — the tool, the site, the article — gets checked against these five before it ships.
+
+=== Slide 6 ===
+Behavrix
+6 / 14
+COMPETITIVE POSITIONING
+Everyone Measures Controls. Nobody Measures Humans.
+Behavrix
+KnowBe4
+Prevalent
+Drata/Sprinto
+Behavioral archetypes
+✔ 4 personas
+✖
+✖
+✖
+Data-attributed scoring
+✔
+✖
+✖
+✖
+Time to first report
+90 sec
+Weeks
+Weeks
+Weeks
+Cost per report
+$0.002
+$2.79–3.75/user/mo
+Enterprise
+Enterprise
+Contract required
+None
+25-seat min
+✔
+✔
+MITRE ATT&CK mapped
+✔
+✖
+✖
+✖
+
+=== Slide 7 ===
+Behavrix
+7 / 14
+COMPETITIVE ADVANTAGE
+The Space Nobody Else Occupies.
+THE GAP THEY ALL SHARE
+✖
+KnowBe4 trains on phishing — never generates a vendor risk report
+✖
+Prevalent scores questionnaires — a vendor can score 95/100 while employing 500 password recyclers
+✖
+Drata/Sprinto automate compliance evidence — never touch behavioral risk
+OUR UNFAIR ADVANTAGE
+✔
+Behavioral archetypes, not compliance checkboxes — 4 personas mapped to MITRE ATT&CK
+✔
+Data-attributed scoring — shows exactly which pattern drove the risk score
+✔
+$0.002 per report, 90 seconds, zero contract — structurally impossible for enterprise GRC pricing to match
+“Behavrix is the only security intelligence tool that models human vulnerability as behavioral archetypes — using data-attributed scoring that shows analysts exactly what pattern drove the risk score, without a per-seat subscription, enterprise contract, or implementation timeline.”
+
+=== Slide 8 ===
+Behavrix
+8 / 14
+VISUAL IDENTITY
+Visual Identity System
+Primary Mark  ·  Reversed Variation
+Deep Navy
+#0D1F35
+Teal
+#1D9E75
+Blue
+#378ADD
+Frost
+#EAF4FB
+Soft Teal
+#E1F5EE
+Amber
+#FAEEDA
+IBM Plex Sans headings, risk scores    Roboto body text, labels    IBM Plex Mono MITRE codes, data values
+No shields or padlocks. Amber reserved for medium risk only. Always specific numbers, never vague claims.
+
+=== Slide 9 ===
+Behavrix
+9 / 14
+VISUAL IDENTITY
+One Palette. Every Surface.
+TYPOGRAPHY
+IBM Plex Sans
+PRIMARY — Headings & Interface
+Aa Bb Cc 0123456789
+IBM Plex Mono
+SECONDARY — Data, Codes & Scores
+T1566   90 sec   $0.002   82/100
+H1 32pt Bold  •  H2 20pt  •  Body 13pt  •  Data 12pt Mono
+Live report — Financial Institution, 88/100 Critical Risk
+
+=== Slide 10 ===
+Behavrix
+10 / 14
+VISUAL IDENTITY
+Already Live. Already Public.
+LINKEDIN
+Short, immediate, stat-first — built for a scroll, not a read.
+SUBSTACK
+Long-form credibility — the origin story and the framework, owned not borrowed.
+SUBSTACK POST
+Published Aug 7 — the framework article, live and public.
+
+=== Slide 11 ===
+Behavrix
+11 / 14
+Origin Story — Voyage and Return
+01
+The Setup
+A year and a half into my MS in Information Systems, I took a cybersecurity co-op in Braintree.
+02
+The Pattern
+Six months in Tenable, Splunk, Defender — taught me security is really about people: who ignores a ticket, who reuses a password.
+03
+The Question
+AI was the one thing everyone was talking about. Could it measure the human risk every other tool skipped?
+04
+The Build
+That question became Behavrix — 270 real records, a Human Risk Score, in 90 seconds.
+Framework: Voyage and Return — departure into the unfamiliar, trials faced, return transformed.
+
+=== Slide 12 ===
+Behavrix
+12 / 14
+BRAND STORYTELLING
+What Changes When the Pattern Is Visible
+BEFORE BEHAVRIX
+A vendor questionnaire scores 95/100 while employing 500 password recyclers
+A security analyst's only options: $25,000 and six weeks, or a checklist that says nothing useful
+A CISO gets a risk score with no explanation — nothing to defend to the board
+AFTER BEHAVRIX
+A Human Risk Score shows exactly which behavioral pattern drove it — defensible, not just a number
+A complete report in 90 seconds for $0.002 — no contract, no consultant
+A CISO walks into the board meeting with personas, MITRE mapping, and a number they can explain
+
+=== Slide 13 ===
+Behavrix
+13 / 14
+MADISON AI TOOL — LIVE DEMO
+See What $25,000 and Six Weeks Get Replaced By
+● LIVE DEMO
+Streamlit
+01
+SELECT
+Choose an organization type from 10 options
+02
+GENERATE
+AI analyzes 270 real records in ~90 seconds
+03
+ACT
+Risk score, personas, MITRE mapping, ready to present
+270
+records analyzed
+90 sec
+avg report time
+$0.002
+cost per run
+3
+real user test sessions
+
+=== Slide 14 ===
+The Human Risk Gap Is Real.
+The human risk gap is real. The product is live.
+$150,000 seed · 15% equity · Advisory board seat
+90 days: 10 paying customers   ·   12 months: $25K MRR   ·   18 months: Enterprise API
+PRODUCT
+behavrix.framer.app
+LIVE TOOL
+...streamlit.app
+SUBSTACK
+behavrix.substack.com
+Are you in?
+14 / 14

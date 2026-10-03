@@ -1,0 +1,63 @@
+<!--
+  Three levels of language adaptation
+  Book: Branding and AI
+  Chapter: 17-global-and-cross-cultural-branding
+  Figure: 04
+  Type: structural schematic
+  Generated: 2026-06-18
+  Source: pantry/17-global-and-cross-cultural-branding-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-17-04">
+  <title id="fig-title-17-04">Three levels of language adaptation</title>
+  <desc>Three escalating levels rendered as nested rings. Translation (outer: words). Localization (middle: words plus context). Transcreation (inner: words plus context plus emotional intent) — where brand work happens, the level students skip.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="17-global-and-cross-cultural-branding" figure-number="04"
+      figure-title="Three levels of language adaptation"
+      figure-slug="three-levels-language-adaptation"
+      figure-type="structural schematic" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/17-global-and-cross-cultural-branding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three levels of language adaptation</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each level preserves more than the last. Brand work lives only at the deepest one.</text>
+
+  <!-- nested rings centered at 280,270 -->
+  <circle cx="280" cy="270" r="160" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <circle cx="280" cy="270" r="108" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <circle cx="280" cy="270" r="58" fill="#C8102E" stroke="#C8102E" stroke-width="1"/>
+
+  <!-- ring labels -->
+  <text x="280" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Translation</text>
+  <text x="280" y="153" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">words</text>
+
+  <text x="280" y="190" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Localization</text>
+  <text x="280" y="205" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">words + context</text>
+
+  <text x="280" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Transcreation</text>
+  <text x="280" y="278" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">words + context</text>
+  <text x="280" y="291" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">+ emotional intent</text>
+
+  <!-- right-side annotations -->
+  <line x1="440" y1="130" x2="500" y2="130" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="508" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Translation</text>
+  <text x="508" y="136" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Preserves literal meaning.</text>
+  <text x="508" y="151" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Insufficient alone for brand.</text>
+
+  <line x1="388" y1="225" x2="500" y2="225" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="508" y="215" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Localization</text>
+  <text x="508" y="231" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Adds units, formats, dates,</text>
+  <text x="508" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">references. Standard for</text>
+  <text x="508" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">functional content.</text>
+
+  <line x1="338" y1="300" x2="500" y2="320" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="508" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Transcreation</text>
+  <text x="508" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Asks: what produces this</text>
+  <text x="508" y="347" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">feeling in this culture? May</text>
+  <text x="508" y="362" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">share no words. Where</text>
+  <text x="508" y="377" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">brand work happens.</text>
+
+  <text x="32" y="440" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Failure mode: skipping to translation, then surprised the result is grammatical and emotionally inert.</text>
+</svg>

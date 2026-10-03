@@ -1,0 +1,61 @@
+<!--
+  Likelihood-of-confusion factors
+  Book: Branding and AI
+  Chapter: 08-naming-trademark-and-brand-protection
+  Figure: 04
+  Type: systems diagram (hub-and-spoke)
+  Generated: 2026-06-18
+  Source: pantry/08-naming-trademark-and-brand-protection-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-08-04">
+  <title id="fig-title-08-04">Likelihood-of-confusion factors</title>
+  <desc>A central test — would a reasonable consumer be confused about source — feeds from six factors: similarity of marks, relatedness of goods, channels of trade, buyer sophistication, strength of the existing mark, and reported actual confusion. Exact match is not required.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Likelihood of confusion: a multi-factor test, not an exact-match test</text>
+
+  <!-- central node -->
+  <rect x="250" y="190" width="200" height="70" fill="#F5F5F5" stroke="#121212" stroke-width="1.5"/>
+  <text x="350" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">Likelihood of confusion</text>
+  <text x="350" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">would a reasonable consumer</text>
+  <text x="350" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">be confused about source?</text>
+
+  <!-- spokes -->
+  <g stroke="#121212" stroke-width="1">
+    <line x1="250" y1="207" x2="150" y2="130"/>
+    <line x1="300" y1="190" x2="280" y2="90"/>
+    <line x1="400" y1="190" x2="430" y2="90"/>
+    <line x1="450" y1="207" x2="555" y2="130"/>
+    <line x1="270" y1="260" x2="180" y2="350"/>
+    <line x1="430" y1="260" x2="540" y2="350"/>
+  </g>
+
+  <!-- factor nodes -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <rect x="40" y="118" width="200" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="52" y="138" fill="#121212">Similarity of marks</text>
+    <text x="52" y="154" fill="#545454">appearance · sound · meaning</text>
+
+    <rect x="200" y="46" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="212" y="66" fill="#121212">Relatedness of goods</text>
+    <text x="212" y="82" fill="#545454">same / adjacent category</text>
+
+    <rect x="370" y="46" width="160" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="382" y="66" fill="#121212">Channels of trade</text>
+    <text x="382" y="82" fill="#545454">where each is sold</text>
+
+    <rect x="490" y="118" width="170" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="502" y="138" fill="#121212">Buyer sophistication</text>
+    <text x="502" y="154" fill="#545454">careful vs. impulse buyers</text>
+
+    <rect x="60" y="346" width="170" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="72" y="366" fill="#121212">Strength of existing mark</text>
+    <text x="72" y="382" fill="#545454">stronger = wider protection</text>
+
+    <rect x="500" y="346" width="170" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="512" y="366" fill="#121212">Actual confusion reported</text>
+    <text x="512" y="382" fill="#545454">evidence of real mix-ups</text>
+  </g>
+
+  <text x="32" y="426" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Marks need not be identical: &#x201C;Slickcraft&#x201D; vs. &#x201C;Speedcraft&#x201D; and &#x201C;Polaroid&#x201D; vs.</text>
+  <text x="32" y="442" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">&#x201C;Polacolor&#x201D; were found confusingly similar.</text>
+</svg>

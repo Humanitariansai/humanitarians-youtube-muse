@@ -1,0 +1,80 @@
+<!--
+  Weak to strong — the PRD rewrite ladder
+  Book: Branding and AI
+  Chapter: 20-shipit-product-requirements-and-scope
+  Figure: 06
+  Type: comparison table
+  Generated: 2026-06-18
+  Source: pantry/20-shipit-product-requirements-and-scope-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-20-06">
+  <title id="fig-title-20-06">Weak to strong — the PRD rewrite ladder</title>
+  <desc>The worked example's three rewrite iterations: weak version, failure mode, strong version, across problem statement, tool description, and out-list.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="20-shipit-product-requirements-and-scope"
+      figure-number="06" figure-title="Weak to strong — the PRD rewrite ladder"
+      figure-slug="weak-to-strong-prd-rewrite-ladder" figure-type="comparison table"
+      priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/20-shipit-product-requirements-and-scope-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">From wish to spec — the three rewrites that make a PRD</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each row is the same idea rewritten until it is testable and buildable.</text>
+
+  <!-- Header row -->
+  <rect x="32" y="80" width="200" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Weak version</text>
+  <rect x="232" y="80" width="172" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="244" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Failure mode</text>
+  <rect x="404" y="80" width="264" height="32" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="416" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Strong version</text>
+
+  <!-- Row 1: problem -->
+  <rect x="32" y="112" width="200" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="44" y1="140" x2="220" y2="140" stroke="#ADADAD" stroke-width="1"/>
+  <text x="44" y="135" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878">"Marketing professionals</text>
+  <text x="44" y="155" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878">need better competitive</text>
+  <text x="44" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878">intelligence."</text>
+  <rect x="232" y="112" width="172" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="244" y="143" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">No user, no frequency,</text>
+  <text x="244" y="158" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">no cost — a wish,</text>
+  <text x="244" y="173" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">not a problem.</text>
+  <rect x="404" y="112" width="264" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="416" y="135" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Marketing managers at small B2B</text>
+  <text x="416" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">SaaS spend 2–3 hrs every Monday</text>
+  <text x="416" y="165" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">aggregating competitor news — no</text>
+  <text x="416" y="180" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">tool does it at their price point.</text>
+
+  <!-- Row 2: tool -->
+  <rect x="32" y="208" width="200" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="44" y1="236" x2="208" y2="236" stroke="#ADADAD" stroke-width="1"/>
+  <text x="44" y="231" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878">"An AI-powered</text>
+  <text x="44" y="251" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878">competitive intelligence</text>
+  <text x="44" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878">platform."</text>
+  <rect x="232" y="208" width="172" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="244" y="239" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Marketing language —</text>
+  <text x="244" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">tells the reader</text>
+  <text x="244" y="269" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">nothing buildable.</text>
+  <rect x="404" y="208" width="264" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="416" y="231" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">A self-hosted n8n workflow that</text>
+  <text x="416" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">pulls 10 RSS feeds, dedups, scores</text>
+  <text x="416" y="261" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">sentiment, writes a daily summary</text>
+  <text x="416" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">to Sheets for under $20/month.</text>
+
+  <!-- Row 3: out list -->
+  <rect x="32" y="304" width="200" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="44" y1="332" x2="180" y2="332" stroke="#ADADAD" stroke-width="1"/>
+  <text x="44" y="327" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878">Out list with</text>
+  <text x="44" y="347" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878">2 items.</text>
+  <rect x="232" y="304" width="172" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="244" y="335" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Incomplete — a</text>
+  <text x="244" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">deferred in-list, not</text>
+  <text x="244" y="365" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">a disciplined boundary.</text>
+  <rect x="404" y="304" width="264" height="96" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="416" y="335" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Out list with 8 named exclusions,</text>
+  <text x="416" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">each a door that won't open in v1,</text>
+  <text x="416" y="365" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">with the $100,000 no at the top.</text>
+
+  <text x="32" y="426" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 20, A WORKED EXAMPLE</text>
+</svg>

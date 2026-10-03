@@ -1,0 +1,132 @@
+=== satwika: compile ===
+[art] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/ogilvy-satwika.mp4  (186.0s, audio: per-beat narration, drawtext: no — PIL overlays)
+[art] slots: 10/10 filled — B00:VIDEO B01:MANIM B02:MANIM B03:MANIM B04:MANIM B05:MANIM B06:MANIM BVDT:VIDEO BHTF:VIDEO BOUT:VIDEO
+[run] GATE V — frame-level visual QC on the compiled reel
+[gate-v] frames=20 BLOCKER=0 MAJOR=5 → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/_qc/REPORT.md
+[run] GATE T — type-lock (typography assertions)
+[typecheck] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/TYPECHECK.md
+[typecheck] GATE T: FAIL (1 beats)
+[run] GATE T FAILED: typography violations — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/TYPECHECK.md
+[run] Fix the FAILed beats (de-wordify, re-face, refit) and re-run.
+[run] A reel with TYPECHECK.md FAILs is unfinished — the same way a
+[run] reel without FACTCHECK.md is unfinished. ART_STRICT=0 to warn only.
+[run] GATE SHARPNESS — per-beat sharpness audit
+[sharpness] GATE SHARPNESS PASS — 10 beats, median LV=232.2
+[run] GATE BOOKEND — four-bookend structure check
+[bookend] PASS — four bookends correct for ogilvy-satwika
+[run] GATE AUDIO — checking compiled reel for silence
+[run] GATE AUDIO: PASS (mean_volume -24.2 dB)
+[run] done → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika  (QC gates: on)
+[run] this was the FULL machine pass: motion graphics + outro done;
+[run] any remaining slates are YOUR slots — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/SHOTLIST.md
+=== satwika done ===
+=== tanaka: compile ===
+[art] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/ogilvy-tanaka.mp4  (187.2s, audio: per-beat narration, drawtext: no — PIL overlays)
+[art] slots: 10/10 filled — B00:VIDEO B01:MANIM B02:MANIM B03:MANIM B04:MANIM B05:MANIM B06:MANIM BVDT:VIDEO BHTF:VIDEO BOUT:VIDEO
+[run] GATE V — frame-level visual QC on the compiled reel
+[gate-v] frames=20 BLOCKER=0 MAJOR=4 → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/_qc/REPORT.md
+[run] GATE T — type-lock (typography assertions)
+[typecheck] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/TYPECHECK.md
+[typecheck] GATE T: FAIL (2 beats)
+[run] GATE T FAILED: typography violations — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/TYPECHECK.md
+[run] Fix the FAILed beats (de-wordify, re-face, refit) and re-run.
+[run] A reel with TYPECHECK.md FAILs is unfinished — the same way a
+[run] reel without FACTCHECK.md is unfinished. ART_STRICT=0 to warn only.
+[run] GATE SHARPNESS — per-beat sharpness audit
+[sharpness] GATE SHARPNESS PASS — 10 beats, median LV=375.3
+[run] GATE BOOKEND — four-bookend structure check
+[bookend] PASS — four bookends correct for ogilvy-tanaka
+[run] GATE AUDIO — checking compiled reel for silence
+[run] GATE AUDIO: PASS (mean_volume -24.1 dB)
+[run] done → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka  (QC gates: on)
+[run] this was the FULL machine pass: motion graphics + outro done;
+[run] any remaining slates are YOUR slots — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/SHOTLIST.md
+=== tanaka done ===
+=== kanishk: compile ===
+[art] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/ogilvy-kanishk.mp4  (175.0s, audio: per-beat narration, drawtext: no — PIL overlays)
+[art] slots: 10/10 filled — B00:VIDEO B01:MANIM B02:MANIM B03:MANIM B04:MANIM B05:MANIM B06:MANIM BVDT:VIDEO BHTF:VIDEO BOUT:VIDEO
+[run] GATE V — frame-level visual QC on the compiled reel
+[gate-v] frames=20 BLOCKER=0 MAJOR=5 → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/_qc/REPORT.md
+[run] GATE T — type-lock (typography assertions)
+[typecheck] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/TYPECHECK.md
+[typecheck] GATE T: FAIL (1 beats)
+[run] GATE T FAILED: typography violations — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/TYPECHECK.md
+[run] Fix the FAILed beats (de-wordify, re-face, refit) and re-run.
+[run] A reel with TYPECHECK.md FAILs is unfinished — the same way a
+[run] reel without FACTCHECK.md is unfinished. ART_STRICT=0 to warn only.
+[run] GATE SHARPNESS — per-beat sharpness audit
+[sharpness] GATE SHARPNESS PASS — 10 beats, median LV=640.7
+[run] GATE BOOKEND — four-bookend structure check
+[bookend] PASS — four bookends correct for ogilvy-kanishk
+[run] GATE AUDIO — checking compiled reel for silence
+[run] GATE AUDIO: PASS (mean_volume -24.3 dB)
+[run] done → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk  (QC gates: on)
+[run] this was the FULL machine pass: motion graphics + outro done;
+[run] any remaining slates are YOUR slots — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/SHOTLIST.md
+=== kanishk done ===
+=== vaibhav: compile ===
+[art] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/ogilvy-vaibhav.mp4  (184.5s, audio: per-beat narration, drawtext: no — PIL overlays)
+[art] slots: 10/10 filled — B00:VIDEO B01:MANIM B02:MANIM B03:MANIM B04:MANIM B05:MANIM B06:MANIM BVDT:VIDEO BHTF:VIDEO BOUT:VIDEO
+[run] GATE V — frame-level visual QC on the compiled reel
+[gate-v] frames=20 BLOCKER=0 MAJOR=7 → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/_qc/REPORT.md
+[run] GATE T — type-lock (typography assertions)
+[typecheck] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/TYPECHECK.md
+[typecheck] GATE T: FAIL (1 beats)
+[run] GATE T FAILED: typography violations — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/TYPECHECK.md
+[run] Fix the FAILed beats (de-wordify, re-face, refit) and re-run.
+[run] A reel with TYPECHECK.md FAILs is unfinished — the same way a
+[run] reel without FACTCHECK.md is unfinished. ART_STRICT=0 to warn only.
+[run] GATE SHARPNESS — per-beat sharpness audit
+[sharpness] GATE SHARPNESS PASS — 10 beats, median LV=521.3
+[run] GATE BOOKEND — four-bookend structure check
+[bookend] PASS — four bookends correct for ogilvy-vaibhav
+[run] GATE AUDIO — checking compiled reel for silence
+[run] GATE AUDIO: PASS (mean_volume -24.2 dB)
+[run] done → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav  (QC gates: on)
+[run] this was the FULL machine pass: motion graphics + outro done;
+[run] any remaining slates are YOUR slots — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/SHOTLIST.md
+=== vaibhav done ===
+=== hammad: compile ===
+[art] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/ogilvy-hammad.mp4  (193.2s, audio: per-beat narration, drawtext: no — PIL overlays)
+[art] slots: 10/10 filled — B00:VIDEO B01:MANIM B02:MANIM B03:MANIM B04:MANIM B05:MANIM B06:MANIM BVDT:VIDEO BHTF:VIDEO BOUT:VIDEO
+[run] GATE V — frame-level visual QC on the compiled reel
+[gate-v] frames=20 BLOCKER=0 MAJOR=6 → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/_qc/REPORT.md
+[run] GATE T — type-lock (typography assertions)
+[typecheck] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/TYPECHECK.md
+[typecheck] GATE T: FAIL (2 beats)
+[run] GATE T FAILED: typography violations — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/TYPECHECK.md
+[run] Fix the FAILed beats (de-wordify, re-face, refit) and re-run.
+[run] A reel with TYPECHECK.md FAILs is unfinished — the same way a
+[run] reel without FACTCHECK.md is unfinished. ART_STRICT=0 to warn only.
+[run] GATE SHARPNESS — per-beat sharpness audit
+[sharpness] GATE SHARPNESS PASS — 10 beats, median LV=427.4
+[run] GATE BOOKEND — four-bookend structure check
+[bookend] PASS — four bookends correct for ogilvy-hammad
+[run] GATE AUDIO — checking compiled reel for silence
+[run] GATE AUDIO: PASS (mean_volume -24.2 dB)
+[run] done → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad  (QC gates: on)
+[run] this was the FULL machine pass: motion graphics + outro done;
+[run] any remaining slates are YOUR slots — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/SHOTLIST.md
+=== hammad done ===
+=== denis: compile ===
+[gate-v] FAILED — 3 blocking defect(s). Reel not clean; fix and re-render.
+[run] GATE V FAILED: visual defects in the compiled cut —
+[run] see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/_qc/REPORT.md and _qc/contact_sheet.png.
+[run] Fix the scene source and re-run. (ART_STRICT=0 downgrades MAJOR to warnings.)
+[run] GATE T — type-lock (typography assertions)
+[typecheck] wrote /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/TYPECHECK.md
+[typecheck] GATE T: FAIL (2 beats)
+[run] GATE T FAILED: typography violations — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/TYPECHECK.md
+[run] Fix the FAILed beats (de-wordify, re-face, refit) and re-run.
+[run] A reel with TYPECHECK.md FAILs is unfinished — the same way a
+[run] reel without FACTCHECK.md is unfinished. ART_STRICT=0 to warn only.
+[run] GATE SHARPNESS — per-beat sharpness audit
+[sharpness] GATE SHARPNESS PASS — 10 beats, median LV=467.5
+[run] GATE BOOKEND — four-bookend structure check
+[bookend] PASS — four bookends correct for ogilvy-denis
+[run] GATE AUDIO — checking compiled reel for silence
+[run] GATE AUDIO: PASS (mean_volume -24.2 dB)
+[run] done → /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis  (QC gates: on)
+[run] this was the FULL machine pass: motion graphics + outro done;
+[run] any remaining slates are YOUR slots — see /Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/SHOTLIST.md
+=== denis done ===

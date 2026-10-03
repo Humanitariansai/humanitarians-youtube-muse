@@ -1,0 +1,56 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-10-8 desc-10-8">
+<title id="title-10-8">Sage storytelling in the Madison README</title>
+<desc id="desc-10-8">An annotated mockup of the Madison Intelligence Agent README opening, with three callouts pointing to real features: the throughput numbers in the first paragraph labeled "Mechanism before claim"; the architecture section headers labeled "Structure as story"; and the limitation language labeled "Honesty as Sage credibility signal." It shows what Sage storytelling looks like in a real technical artifact.</desc>
+<defs>
+<marker id="arrow-10-8" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+<path d="M0,1 L8,4.5 L0,8 Z" fill="#C8102E"/>
+</marker>
+</defs>
+<rect width="700" height="480" fill="#FFFFFF"/>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#2a1a0e">Sage storytelling in the Madison README</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">The mechanism is the story — documentation as brand storytelling for the Sage archetype.</text>
+
+<!-- README mockup window -->
+<rect x="60" y="80" width="360" height="332" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="60" y="80" width="360" height="22" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="72" y="96" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">README.md — Madison Intelligence Agent</text>
+
+<!-- opening throughput para -->
+<rect x="76" y="116" width="328" height="58" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+<text x="86" y="134" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9.5" fill="#2a1a0e"><tspan x="86" dy="0">870 articles processed per day. 90%</tspan><tspan x="86" dy="13">deduplication rate. Sub-three-minute</tspan><tspan x="86" dy="13">latency from ingestion to output.</tspan></text>
+
+<!-- architecture headers -->
+<text x="76" y="200" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9.5" font-weight="bold" fill="#2a1a0e">## Architecture — five-layer agents</text>
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454">
+<rect x="76" y="210" width="328" height="16" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="84" y="221">Intelligence · Content · Research · Experience · Performance</text>
+</g>
+<rect x="76" y="232" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<rect x="246" y="232" width="158" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+
+<!-- limitations -->
+<text x="76" y="306" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9.5" font-weight="bold" fill="#2a1a0e">## Known limitations</text>
+<rect x="76" y="314" width="328" height="40" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.25"/>
+<text x="86" y="332" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="9" fill="#545454"><tspan x="86" dy="0">Deduplication degrades on near-duplicate</tspan><tspan x="86" dy="12">syndicated wire copy; flagged for v2.</tspan></text>
+
+<!-- callouts -->
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif">
+<line x1="404" y1="145" x2="470" y2="145" stroke="#C8102E" stroke-width="1.25" marker-end="url(#arrow-10-8)"/>
+<rect x="476" y="124" width="174" height="44" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.25"/>
+<text x="486" y="142" font-size="10.5" font-weight="bold" fill="#C8102E">Mechanism before claim</text>
+<text x="486" y="158" font-size="9" fill="#545454">numbers, not adjectives, open</text>
+
+<line x1="404" y1="244" x2="470" y2="244" stroke="#2a1a0e" stroke-width="1.25" marker-end="url(#arrow-10-8)"/>
+<rect x="476" y="222" width="174" height="44" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+<text x="486" y="240" font-size="10.5" font-weight="bold" fill="#2a1a0e">Structure as story</text>
+<text x="486" y="256" font-size="9" fill="#545454">the decomposition is the plot</text>
+
+<line x1="404" y1="334" x2="470" y2="334" stroke="#2a1a0e" stroke-width="1.25" marker-end="url(#arrow-10-8)"/>
+<rect x="476" y="312" width="174" height="44" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1"/>
+<text x="486" y="330" font-size="10.5" font-weight="bold" fill="#2a1a0e">Honesty signals Sage</text>
+<text x="486" y="346" font-size="9" fill="#545454">limits build credibility</text>
+</g>
+
+<line x1="48" y1="442" x2="652" y2="442" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="460" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 10.8</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="480" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Two GitHub profiles, two archetypes legible at a glance</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">The README, the project list, the negative space — all signal who the engineer is for.</text>
+<rect x="56" y="80" width="272" height="340" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="72" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.2">ENGINEER A — Sage shadow / Critic</text>
+<line x1="72" y1="108" x2="312" y2="108" stroke="#8a8480" stroke-width="0.75"/>
+<text x="72" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">Bio:</text>
+<text x="72" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">Senior eng. Strong opinions, lightly held.</text>
+<text x="72" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">Pinned repos:</text>
+<text x="72" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">fork-of-mit-license · my-dotfiles · old-side-project</text>
+<text x="72" y="220" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">READMEs:</text>
+<text x="72" y="236" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">Sparse. Code-only. Tone: critical.</text>
+<text x="72" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">Activity:</text>
+<text x="72" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">Issue threads with sharp corrections</text>
+<text x="72" y="308" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">Negative space:</text>
+<text x="72" y="324" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">No tutorials. No accessibility framing.</text>
+<line x1="72" y1="380" x2="312" y2="380" stroke="#c8c4c0" stroke-width="0.75" stroke-dasharray="4 3"/>
+<text x="192" y="402" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">Reads as: the colleague you don't ask twice.</text>
+<rect x="372" y="80" width="272" height="340" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="388" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.2">ENGINEER B — Sage / Teacher</text>
+<line x1="388" y1="108" x2="628" y2="108" stroke="#8a8480" stroke-width="0.75"/>
+<text x="388" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">Bio:</text>
+<text x="388" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">Builds tools that make hard things teachable.</text>
+<text x="388" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">Pinned repos:</text>
+<text x="388" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">rss-pipeline · llm-eval-kit · accessibility-ux-toolkit</text>
+<text x="388" y="220" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">READMEs:</text>
+<text x="388" y="236" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">Tutorial-style. Voice: warm, precise.</text>
+<text x="388" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">Activity:</text>
+<text x="388" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">Writes guides, answers questions</text>
+<text x="388" y="308" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540">Negative space:</text>
+<text x="388" y="324" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">No drive-by comments. No flame wars.</text>
+<line x1="388" y1="380" x2="628" y2="380" stroke="#c8c4c0" stroke-width="0.75" stroke-dasharray="4 3"/>
+<text x="508" y="402" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">Reads as: the colleague you bring questions to.</text>
+</svg>

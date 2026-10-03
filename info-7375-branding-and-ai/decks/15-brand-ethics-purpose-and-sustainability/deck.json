@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "Brand Ethics, Purpose & Sustainability",
+    "short": "BRANDING · CH15",
+    "course": "Branding and AI · Chapter 15",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/15-brand-ethics-purpose-and-sustainability.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 15",
+      "title": "Brand Ethics, Purpose & Sustainability",
+      "subtitle": "A purpose you won't pay for is a slogan. A green claim you can't prove is now a fine.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the open",
+      "title": "Don't Buy This Jacket",
+      "lead": "In 2011, Patagonia ran a full-page ad in the New York Times on Black Friday. It showed one of their fleece jackets. The headline told you not to buy it.",
+      "bullets": [
+        "The copy priced the jacket's water, its carbon, its waste — and asked customers to buy less, repair what they owned, think twice. This from a company whose revenue depends entirely on people buying things.",
+        "Debate whether it was strategically clever or genuinely self-sacrificing all you like. What is not debatable is that **it cost them something**.",
+        "A repair program. A used-gear marketplace. A legal restructuring that commits nearly all profits to environmental causes. **The values show up in decisions that carry real costs.**"
+      ]
+    },
+    {
+      "id": "S03", "section": "the gap",
+      "title": "Real purpose on one side. The costume of a value on the other.",
+      "lead": "A fast-fashion \"Conscious Collection\" is 1% of the company's volume while the core business model depends on overproduction and rapid disposal. Technically accurate. Strategically hollow.",
+      "why": "chapter sorts one set into exactly two named buckets — a commitment that costs something versus \"the performance of a commitment without the commitment itself\" — and says \"the gap between these two cases is the subject of this chapter\"; the three Warm-Up cases are explicitly left for the reader to classify, so they park unsorted",
+      "archetype": "tallySplit",
+      "duration": 7.5,
+      "data": {
+        "left": { "label": "Real purpose · it cost something", "pending": true },
+        "right": { "label": "Purpose-washing · concern without cost", "pending": true },
+        "items": [
+          { "label": "Don't Buy This Jacket", "side": "left" },
+          { "label": "repair + used-gear program", "side": "left" },
+          { "label": "profits committed to environment", "side": "left" },
+          { "label": "\"Conscious Collection\" · 1% of volume", "side": "right" },
+          { "label": "coffee chain · living wage next year", "side": "pending" },
+          { "label": "airline · 100% offsets, \"carbon neutral\"", "side": "pending" },
+          { "label": "software co · Pledge 1%, no product claim", "side": "pending" }
+        ],
+        "note": "The chapter classifies two. The rest are yours to classify."
+      }
+    },
+    {
+      "id": "S04", "section": "the test",
+      "title": "Is it a commitment you maintain when maintaining it costs you something?",
+      "lead": "Sinek's \"Start With Why\" made organizational purpose fashionable in 2009. The fashion outran the substance. By the mid-2010s nearly every consumer brand had a purpose statement — and the proliferation of identical-sounding language produced skepticism roughly proportional to its volume.",
+      "bullets": [
+        "It is the same values test as **Chapter 6**, and it is **behavioral, not linguistic**.",
+        "Not what the brand says it believes. What decisions the belief *requires* — and whether those decisions get made when the cost is real.",
+        "Only claim the values you can demonstrate. Aspirations that are not yet practices: say so honestly, or say nothing.",
+        "**Silence is not a failure of brand integrity. A claim you cannot substantiate is.**"
+      ]
+    },
+    {
+      "id": "S05", "section": "the AI+1 discipline",
+      "title": "AI drafts. You verify. Everything without proof is cut.",
+      "lead": "Models are fluent at purpose language — noble, specific-sounding, warmly phrased, arriving in seconds. They are pattern-matching on what purpose language sounds like, not reasoning about what your company can actually demonstrate.",
+      "why": "chapter states an ordered discipline where nothing proceeds until it clears the previous step — \"AI drafts; you verify; everything without proof is cut. Anything that survives that process is a real commitment\" — and every verdict depends on the reader's own brand, so all four gates are TO RUN",
+      "archetype": "gatePipeline",
+      "duration": 8.0,
+      "data": {
+        "input": { "label": "AI-drafted purpose language" },
+        "gates": [
+          { "label": "Behavioral", "rule": "does maintaining it cost you something?", "pass": null },
+          { "label": "Evidence", "rule": "HAVE · NEED · CANNOT SUBSTANTIATE", "pass": null },
+          { "label": "ECGT", "rule": "no generic green, no offset neutrality", "pass": null },
+          { "label": "FTC §5", "rule": "substantiated, not presumptively deceptive", "pass": null }
+        ],
+        "output": { "label": "a real commitment", "pending": true }
+      }
+    },
+    {
+      "id": "S06", "section": "the tool",
+      "title": "The claim–proof map",
+      "lead": "Every ethics or sustainability claim the brand makes, placed in a table beside the evidence that would have to exist for it to be true.",
+      "bullets": [
+        "Four columns: **the claim · the evidence required · the evidence you actually have · the status**.",
+        "The status column is the honest reckoning — **HAVE**, **NEED**, or **CANNOT SUBSTANTIATE**.",
+        "\"Cannot substantiate\" is not a failure of the brand; it is a failure of the claim. **The fix is to remove the claim, not to manufacture the evidence.**",
+        "It does two jobs that are easy to conflate: brand-integrity tool, and — where a regulator can ask to see substantiation — the documentation that answers the request."
+      ]
+    },
+    {
+      "id": "S07", "section": "AI ethics claims",
+      "title": "Four claims that appear everywhere and substantiate almost nowhere",
+      "lead": "\"Responsible AI.\" \"Explainable AI.\" \"Bias-free AI.\" \"Human-centered AI.\" Appealing to users who are rightly concerned — and almost universally unsubstantiated in the marketing copy where they appear.",
+      "why": "chapter applies a fixed set of evidence standards across a fixed set of named claims — \"an 'explainable AI' claim requires documentation of the explanation mechanism… a 'bias-audited' claim requires a published audit by a credible methodology… a 'human-in-the-loop' claim requires documentation of where the human sits\" — and the only verdict it actually states is that \"our system is bias-free\" is a claim you almost certainly cannot substantiate",
+      "archetype": "matrixGrid",
+      "duration": 8.5,
+      "data": {
+        "rows": [
+          { "label": "Specific evidence named" },
+          { "label": "Published or third-party" },
+          { "label": "A user can act on it" }
+        ],
+        "cols": [
+          { "label": "Responsible AI" },
+          { "label": "Explainable AI" },
+          { "label": "Bias-free AI" },
+          { "label": "Human-centered AI" }
+        ],
+        "cells": [
+          ["pending", "pending", "miss", "pending"],
+          ["pending", "pending", "pending", "pending"],
+          ["pending", "pending", "pending", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S08", "section": "the regime",
+      "title": "Greenwashing is now regulated",
+      "lead": "As of 2026 a loose environmental claim is not just a reputational risk. It is legal exposure in the European Union and increasing exposure in the United States.",
+      "bullets": [
+        "**EU:** the Empowering Consumers for the Green Transition Directive — ECGT — adopted March 2024. Member states had to transpose by **27 March 2026**; the rules apply from **27 September 2026**.",
+        "The standalone Green Claims Directive was withdrawn by the European Commission in June 2025 and is not expected to re-enter force. ECGT is the operative rule.",
+        "**US:** the FTC Green Guides, last revised in **2012**, govern under **Section 5** of the FTC Act. Not law — but claims made contrary to them are presumptively deceptive.",
+        "The FTC opened a review in 2022; as of early 2026 no updated version has been released. California is moving faster than the federal framework."
+      ]
+    },
+    {
+      "id": "S09", "section": "what ECGT bans",
+      "title": "Two categories of claim that stop at the border",
+      "lead": "After 27 September 2026 there is a line around what a brand may say about the environment in the EU, and the chapter names exactly what does not cross it.",
+      "why": "chapter draws a permission boundary and names the two banned categories — \"generic green claims without substantiation\" and product-level \"climate neutral\" based primarily on offsets — while the Warm-Up asks for \"one example of a real claim in the same category that would survive the ban\"; the crossings are the argument, and your own claim's verdict is TO RUN",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT YOU MAY SAY · EU, FROM 27 SEPT 2026" },
+        "inside": [
+          { "label": "specific claims" },
+          { "label": "recognized substantiation" },
+          { "label": "documented value-chain cuts" },
+          { "label": "evidence the consumer can reach" }
+        ],
+        "attempts": [
+          { "label": "\"eco-friendly\"", "blocked": true, "from": "left" },
+          { "label": "\"climate-smart\"", "blocked": true, "from": "top" },
+          { "label": "offset neutrality", "blocked": true, "from": "right" },
+          { "label": "certified materials", "blocked": false, "from": "bottom" },
+          { "label": "your own claim", "blocked": null, "from": "left" }
+        ]
+      }
+    },
+    {
+      "id": "S10", "section": "three instruments",
+      "title": "CSR, ESG, B Corp — ordered by how hard they are to fake",
+      "lead": "Three instruments for translating an internal commitment into an external signal customers, investors and employees can evaluate.",
+      "why": "chapter presents the three instruments in an explicit order of increasing third-party rigor — CSR is voluntary and \"not third-party verified\", ESG is standardized-but-unharmonized disclosure where \"a company that reports ESG metrics is not the same as a company performing well\", B Corp is \"third-party verification by B Lab… meaningfully harder to obtain\" — and then names the rung above it that does not exist: the standards are \"set by B Lab rather than a regulatory body\"",
+      "archetype": "ladder",
+      "duration": 7.5,
+      "data": {
+        "lowLabel": "self-reported",
+        "highLabel": "third-party verified",
+        "rungs": [
+          { "label": "CSR", "note": "voluntary, unverified — a tobacco company with a great CSR program is still a tobacco company" },
+          { "label": "ESG reporting", "note": "standardized metrics, unharmonized frameworks — reporting is not performing" },
+          { "label": "B Corp", "note": "B Lab verification plus recertification — a floor, not a ceiling" },
+          { "label": "", "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S11", "section": "the honest summary",
+      "title": "Signals that invite scrutiny, not credentials that resolve it",
+      "lead": "All three are worth scrutinizing. None is proof of purpose. All are better than no signal.",
+      "bullets": [
+        "Read an ESG report for what it actually measures, not for what it headlines.",
+        "The rung above B Corp is dashed for a reason: no regulator sets these standards. B Lab does.",
+        "Use the frameworks as **documentation infrastructure for the claim–proof map** — a B Corp certification supplies verified evidence for certain categories of claim — never as a substitute for the discipline itself."
+      ]
+    },
+    {
+      "id": "S12", "section": "the backlash mechanism",
+      "title": "The claim is a lock. Your future behavior is what opens it.",
+      "lead": "When a brand makes a values claim it creates a behavioral expectation. The audience does not consciously track it — the expectation is encoded as a background standard against which future behavior gets evaluated.",
+      "why": "chapter describes a commitment registered before the evidence arrives: the later inconsistency \"is evaluated against the standard the brand created\", and \"values claims require ongoing behavioral verification… disclose the change and revise the claim before the audience discovers the gap\"; whether your behavior holds is not something the chapter can state",
+      "archetype": "lockTimeline",
+      "duration": 7.0,
+      "data": {
+        "commit": { "at": 0.12, "label": "values claim published" },
+        "marks": [
+          { "at": 0.36, "label": "expectation encoded" },
+          { "at": 0.58, "label": "behavior must keep producing it" },
+          { "at": 0.76, "label": "disclose before discovery" }
+        ],
+        "resolve": { "at": 0.92, "label": "held, or hypocrisy", "pending": true },
+        "axisLabel": "the claim's behavioral clock"
+      }
+    },
+    {
+      "id": "S13", "section": "the asymmetry",
+      "title": "Same scandal. Two brands. Two floors.",
+      "lead": "A brand that claims nothing and then has a supply chain scandal has a crisis. A brand that claimed to lead on supply chain ethics and then has the same scandal has a trust collapse.",
+      "why": "the chapter's own diagram is two trust trajectories dropping at the same scandal event, and the text names the split and the mechanism: \"the claim inflated the expectation; the violation deflates it by the full inflated amount. The net damage is greater than if the claim had never been made.\"",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "the same supply-chain scandal",
+        "splitLabel": "had the brand claimed to lead on it?",
+        "tracks": [
+          {
+            "label": "No values claim was made",
+            "outcome": "a crisis",
+            "tone": "good",
+            "path": "up",
+            "notes": ["no promise was broken", "trust falls to a recoverable level", "recovery is faster"]
+          },
+          {
+            "label": "Claimed to lead on exactly this",
+            "outcome": "trust collapse",
+            "tone": "warn",
+            "path": "down",
+            "notes": ["hypocrisy added to the gap", "trust falls further", "recovery is slower"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "what I don't know",
+      "title": "The evidence is real. The causality is not clean.",
+      "lead": "The brands we study as successful purpose-driven brands survived long enough and performed well enough to be studied.",
+      "bullets": [
+        "Selection bias: the brands that staked a values position, failed to maintain it, and permanently damaged their trust **are not generating Harvard case studies**.",
+        "Do purpose-driven brands perform well because purpose drives better decisions — or do well-performing brands have the slack to invest in purpose?",
+        "**What would change my mind:** evidence that moderate purpose-washing produces no measurable trust erosion. The backlash research is mostly built on severe cases — major scandals, documented hypocrisy."
+      ]
+    },
+    {
+      "id": "S15", "section": "less heroic, more defensible",
+      "title": "\"Bias-free\" versus the sentence you can actually defend",
+      "lead": "Madison will draft your ethics section. It will be clear, well-structured, and it will almost certainly make claims that exceed what you can substantiate.",
+      "bullets": [
+        "\"Our system is bias-free\" is a claim you almost certainly cannot substantiate.",
+        "\"We conduct quarterly bias audits on [specific protected characteristics] using [specific methodology] and publish results at [URL]\" — if true and documented — is a claim you can.",
+        "From **Chapter 3**: human oversight is a design architecture claim, not a marketing claim. **The architecture should be the evidence.**",
+        "The second sentence is less heroic. **It is also defensible.**"
+      ]
+    },
+    {
+      "id": "S16", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Write the map before you write the copy.",
+      "lead": "Take every ethics, sustainability and social claim your brand intends to make in public. Name the evidence each would require. Mark it HAVE, NEED, or CANNOT SUBSTANTIATE — and cut what cannot be substantiated before a regulator, or an audience, does it for you."
+    }
+  ]
+}

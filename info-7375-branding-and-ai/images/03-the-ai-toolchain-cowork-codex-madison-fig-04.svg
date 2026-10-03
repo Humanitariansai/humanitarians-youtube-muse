@@ -1,0 +1,45 @@
+<!--
+  Cursor vs. Devin: the control-delegation spectrum
+  Book: Branding and AI
+  Chapter: 03-the-ai-toolchain-cowork-codex-madison
+  Figure: 04
+  Type: spectrum / timeline
+  Generated: 2026-06-18
+  Source: pantry/03-the-ai-toolchain-cowork-codex-madison-cajal.md
+-->
+<svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03-04">
+  <title id="fig-title-03-04">Cursor vs. Devin: the control–delegation spectrum</title>
+  <desc>A spectrum from augmentation (user in full control, Cursor) to delegation (system autonomous, Devin), with Madison placed left-of-center; each architecture encodes a theory of risk.</desc>
+  <rect x="0" y="0" width="720" height="340" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Same technology, opposite theories of who the human is for</text>
+
+  <!-- spectrum axis -->
+  <line x1="80" y1="170" x2="660" y2="170" stroke="#121212" stroke-width="1.5"/>
+  <text x="80" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">augmentation — user in full control</text>
+  <text x="660" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="end">delegation — system autonomous</text>
+
+  <!-- Cursor (left) -->
+  <circle cx="120" cy="170" r="6" fill="#787878"/>
+  <text x="120" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212" text-anchor="middle">Cursor</text>
+  <text x="120" y="112" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">"AI for engineers who</text>
+  <text x="120" y="96" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">want to be better engineers"</text>
+  <text x="120" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">recovery: dev reviews</text>
+  <text x="120" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">every change</text>
+
+  <!-- Madison (left-of-center, RED focal) -->
+  <circle cx="280" cy="170" r="8" fill="#C8102E"/>
+  <text x="280" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212" text-anchor="middle">Madison</text>
+  <text x="280" y="112" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">orchestrated roles,</text>
+  <text x="280" y="96" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">human gates the risk</text>
+
+  <!-- Devin (right) -->
+  <circle cx="620" cy="170" r="6" fill="#787878"/>
+  <text x="620" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212" text-anchor="middle">Devin</text>
+  <text x="620" y="112" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">"AI engineers you</text>
+  <text x="620" y="96" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">assign work to"</text>
+  <text x="620" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">recovery: sandboxed,</text>
+  <text x="620" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">review outcomes</text>
+
+  <text x="32" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Marketing mistakes are asymmetric and hard to reverse — so Madison sits toward control.</text>
+  <text x="32" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The architecture encodes a theory of risk.</text>
+</svg>

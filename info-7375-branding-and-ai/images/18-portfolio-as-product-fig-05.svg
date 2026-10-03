@@ -1,0 +1,80 @@
+<!--
+  v0 vs. Framer vs. hand-coded React
+  Book: Branding and AI
+  Chapter: 18-portfolio-as-product
+  Figure: 05
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/18-portfolio-as-product-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-18-05">
+  <title id="fig-title-18-05">v0 vs. Framer vs. hand-coded React</title>
+  <desc>Three tools compared across control level, deployment path, technical signal, visual control, best-fit use case, and time to a deployed draft. v0 is the right trade for most students on a deadline.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="18-portfolio-as-product" figure-number="05"
+      figure-title="v0 vs Framer vs hand-coded React"
+      figure-slug="v0-framer-hand-coded-react"
+      figure-type="comparison panels" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/18-portfolio-as-product-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">v0 vs. Framer vs. hand-coded React</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Three routes to a deployed portfolio, each with a different trade-off worth understanding first.</text>
+
+  <!-- row labels gutter + panels -->
+  <rect x="178" y="70" width="160" height="306" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="346" y="70" width="160" height="306" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="514" y="70" width="154" height="306" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+
+  <text x="258" y="90" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">v0</text>
+  <text x="426" y="90" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Framer</text>
+  <text x="591" y="90" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Hand-coded React</text>
+  <line x1="178" y1="100" x2="668" y2="100" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- rows -->
+  <text x="32" y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">Control</text>
+  <text x="258" y="124" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">medium</text>
+  <text x="426" y="124" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">design-led</text>
+  <text x="591" y="124" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">full</text>
+  <line x1="32" y1="136" x2="668" y2="136" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <text x="32" y="160" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">Deploy</text>
+  <text x="258" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Vercel, 1 click</text>
+  <text x="426" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Framer-hosted</text>
+  <text x="591" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">vercel deploy</text>
+  <line x1="32" y1="172" x2="668" y2="172" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <text x="32" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">Technical</text>
+  <text x="32" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">signal</text>
+  <text x="258" y="203" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">exportable code</text>
+  <text x="426" y="203" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">design, not code</text>
+  <text x="591" y="203" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">strongest</text>
+  <line x1="32" y1="220" x2="668" y2="220" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <text x="32" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">Visual</text>
+  <text x="32" y="258" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">control</text>
+  <text x="258" y="251" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">on-trend look</text>
+  <text x="426" y="251" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">precise, visual</text>
+  <text x="591" y="251" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">most distinctive</text>
+  <line x1="32" y1="268" x2="668" y2="268" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <text x="32" y="296" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">Best for</text>
+  <text x="258" y="290" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">most students,</text>
+  <text x="258" y="304" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">deadline + React</text>
+  <text x="426" y="290" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">design-first</text>
+  <text x="426" y="304" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">portfolios</text>
+  <text x="591" y="290" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">React-team</text>
+  <text x="591" y="304" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">signal, no clock</text>
+  <line x1="32" y1="318" x2="668" y2="318" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <text x="32" y="344" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">Time to</text>
+  <text x="32" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">draft</text>
+  <text x="258" y="351" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">a weekend</text>
+  <text x="426" y="351" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">a weekend</text>
+  <text x="591" y="351" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">longer</text>
+
+  <text x="32" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The tool is the starting point; your brand strategy, visual identity, and content are the ending point.</text>
+</svg>

@@ -1,0 +1,291 @@
+{
+  "course": "INFO 7375",
+  "title": "Branding and AI",
+  "term": "fall-2026",
+  "pedagogy": [
+    "Predict",
+    "Build It",
+    "Use It",
+    "Ship It",
+    "Verify"
+  ],
+  "language": "Python",
+  "provider": "Claude",
+  "assessments": "ungraded",
+  "assignment_interval_days": 10,
+  "points": {
+    "implementation": 60,
+    "frictional": 10,
+    "github": 10,
+    "relative_quartile": 20
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Make a brand promise you can inspect",
+      "path": "lessons/01-brand-as-evidence/README.md",
+      "reading": "chapters/01-the-creative-engineer.md",
+      "readings": [
+        "chapters/01-the-creative-engineer.md",
+        "chapters/02-what-a-brand-is-equity.md",
+        "chapters/03-the-ai-toolchain-cowork-codex-madison.md"
+      ],
+      "ai_should": "draft alternatives and flag missing evidence",
+      "human_should": "choose the running project, justify its promise, and own its claims"
+    },
+    {
+      "lesson": 2,
+      "title": "An audience is a testable choice",
+      "path": "lessons/02-audience-and-research/README.md",
+      "reading": "chapters/04-the-brand-audience.md",
+      "readings": [
+        "chapters/04-the-brand-audience.md"
+      ],
+      "ai_should": "organize sources and propose research questions",
+      "human_should": "choose the segment, conduct any real interaction, and interpret the evidence"
+    },
+    {
+      "lesson": 3,
+      "title": "Turn strategy into a useful constraint",
+      "path": "lessons/03-archetype-and-positioning/README.md",
+      "reading": "chapters/05-brand-archetypes-as-a-system.md",
+      "readings": [
+        "chapters/05-brand-archetypes-as-a-system.md",
+        "chapters/06-brand-strategy-and-positioning.md"
+      ],
+      "ai_should": "generate and compare strategic alternatives",
+      "human_should": "select and defend the positioning and the tradeoffs it creates"
+    },
+    {
+      "lesson": 4,
+      "title": "Give the brand a coherent structure",
+      "path": "lessons/04-architecture-and-naming/README.md",
+      "reading": "chapters/07-brand-architecture-and-portfolio.md",
+      "readings": [
+        "chapters/07-brand-architecture-and-portfolio.md",
+        "chapters/08-naming-trademark-and-brand-protection.md"
+      ],
+      "ai_should": "generate candidates and inspect structural consistency",
+      "human_should": "select the architecture and names and identify unresolved rights or review needs"
+    },
+    {
+      "lesson": 5,
+      "title": "Build a repeatable visual system",
+      "path": "lessons/05-visual-identity/README.md",
+      "reading": "chapters/09-visual-identity-systems.md",
+      "readings": [
+        "chapters/09-visual-identity-systems.md"
+      ],
+      "ai_should": "generate code and design alternatives within the brief",
+      "human_should": "set creative direction, inspect the rendered work, and decide which system serves the audience"
+    },
+    {
+      "lesson": 6,
+      "title": "A brand voice must survive a factual check",
+      "path": "lessons/06-voice-and-story/README.md",
+      "reading": "chapters/10-brand-voice-and-storytelling.md",
+      "readings": [
+        "chapters/10-brand-voice-and-storytelling.md"
+      ],
+      "ai_should": "draft and vary copy while checking explicit constraints",
+      "human_should": "choose the voice, verify promises, and edit for audience and context"
+    },
+    {
+      "lesson": 7,
+      "title": "Check the promise across the journey",
+      "path": "lessons/07-touchpoints-and-experience/README.md",
+      "reading": "chapters/11-brand-experience-and-touchpoints.md",
+      "readings": [
+        "chapters/11-brand-experience-and-touchpoints.md"
+      ],
+      "ai_should": "simulate paths and propose failure cases",
+      "human_should": "inspect the experience, gather real feedback when available, and own service commitments"
+    },
+    {
+      "lesson": 8,
+      "title": "Make every channel carry the same claim",
+      "path": "lessons/08-campaign-and-content/README.md",
+      "reading": "chapters/12-content-media-and-campaigns.md",
+      "readings": [
+        "chapters/12-content-media-and-campaigns.md"
+      ],
+      "ai_should": "adapt messages and inspect consistency",
+      "human_should": "choose the campaign objective, approve actual claims, and authorize any real release"
+    },
+    {
+      "lesson": 9,
+      "title": "A number that moved needs an explanation",
+      "path": "lessons/09-measurement-and-attribution/README.md",
+      "reading": "chapters/13-measuring-brand-equity-and-impact.md",
+      "readings": [
+        "chapters/13-measuring-brand-equity-and-impact.md"
+      ],
+      "ai_should": "calculate and propose explanations",
+      "human_should": "choose meaningful measures and judge what the evidence can support"
+    },
+    {
+      "lesson": 10,
+      "title": "Make brand rules usable at the decision point",
+      "path": "lessons/10-governance-and-change/README.md",
+      "reading": "chapters/14-brand-management-governance-and-rebranding.md",
+      "readings": [
+        "chapters/14-brand-management-governance-and-rebranding.md"
+      ],
+      "ai_should": "identify dependencies and draft consistent revisions",
+      "human_should": "decide whether to refresh or rebrand and approve the tradeoff"
+    },
+    {
+      "lesson": 11,
+      "title": "Make the ethical claim earn its evidence",
+      "path": "lessons/11-purpose-and-proof/README.md",
+      "reading": "chapters/15-brand-ethics-purpose-and-sustainability.md",
+      "readings": [
+        "chapters/15-brand-ethics-purpose-and-sustainability.md"
+      ],
+      "ai_should": "locate candidate support and propose qualified wording",
+      "human_should": "inspect the evidence, decide which claims are defensible, and own the commitments"
+    },
+    {
+      "lesson": 12,
+      "title": "Respond to what is known, not what sounds reassuring",
+      "path": "lessons/12-crisis-response/README.md",
+      "reading": "chapters/16-crisis-and-reputation-management.md",
+      "readings": [
+        "chapters/16-crisis-and-reputation-management.md"
+      ],
+      "ai_should": "draft and compare statements against the fact record",
+      "human_should": "judge the response, preserve uncertainty, and authorize real commitments"
+    },
+    {
+      "lesson": 13,
+      "title": "Adapt the message without inventing the audience",
+      "path": "lessons/13-cross-cultural-adaptation/README.md",
+      "reading": "chapters/17-global-and-cross-cultural-branding.md",
+      "readings": [
+        "chapters/17-global-and-cross-cultural-branding.md"
+      ],
+      "ai_should": "generate alternatives and compare meaning",
+      "human_should": "define the audience, seek appropriate feedback, and decide the limits of the adaptation"
+    },
+    {
+      "lesson": 14,
+      "title": "Turn the project into inspectable evidence",
+      "path": "lessons/14-portfolio-as-product/README.md",
+      "reading": "chapters/18-portfolio-as-product.md",
+      "readings": [
+        "chapters/18-portfolio-as-product.md"
+      ],
+      "ai_should": "organize and draft the case study from supplied evidence",
+      "human_should": "curate the work, identify the actual contribution, and own the story"
+    },
+    {
+      "lesson": 15,
+      "title": "Ship a coherent brand someone else can use",
+      "path": "lessons/15-verified-brand-handoff/README.md",
+      "reading": "chapters/19-professional-presence-and-launch.md",
+      "readings": [
+        "chapters/19-professional-presence-and-launch.md"
+      ],
+      "ai_should": "assemble, check, and challenge the candidate package",
+      "human_should": "set final creative direction, verify the evidence, and own approvals and the handoff"
+    }
+  ],
+  "assignments": [
+    {
+      "assignment": 1,
+      "title": "Brand promise and audience",
+      "lessons": [
+        1,
+        2
+      ],
+      "path": "assignments/fall-2026/assignment-01.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 2,
+      "title": "Positioning, architecture, and naming",
+      "lessons": [
+        3,
+        4
+      ],
+      "path": "assignments/fall-2026/assignment-02.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 3,
+      "title": "Visual identity system",
+      "lessons": [
+        5
+      ],
+      "path": "assignments/fall-2026/assignment-03.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 4,
+      "title": "Voice and experience",
+      "lessons": [
+        6,
+        7
+      ],
+      "path": "assignments/fall-2026/assignment-04.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 5,
+      "title": "Campaign and content",
+      "lessons": [
+        8
+      ],
+      "path": "assignments/fall-2026/assignment-05.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 6,
+      "title": "Measurement and attribution",
+      "lessons": [
+        9
+      ],
+      "path": "assignments/fall-2026/assignment-06.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 7,
+      "title": "Governance and claim proof",
+      "lessons": [
+        10,
+        11
+      ],
+      "path": "assignments/fall-2026/assignment-07.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 8,
+      "title": "Crisis and cultural adaptation",
+      "lessons": [
+        12,
+        13
+      ],
+      "path": "assignments/fall-2026/assignment-08.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 9,
+      "title": "Portfolio case study",
+      "lessons": [
+        14
+      ],
+      "path": "assignments/fall-2026/assignment-09.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 10,
+      "title": "Verified brand handoff",
+      "lessons": [
+        15
+      ],
+      "path": "assignments/fall-2026/assignment-10.md",
+      "due": "Canvas"
+    }
+  ]
+}
+

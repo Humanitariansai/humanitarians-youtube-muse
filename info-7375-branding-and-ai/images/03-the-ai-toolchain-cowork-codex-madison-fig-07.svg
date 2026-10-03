@@ -1,0 +1,53 @@
+<!--
+  Graph-based vs. conversation-based orchestration
+  Book: Branding and AI
+  Chapter: 03-the-ai-toolchain-cowork-codex-madison
+  Figure: 07
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/03-the-ai-toolchain-cowork-codex-madison-cajal.md
+-->
+<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03-07">
+  <title id="fig-title-03-07">Graph-based vs. conversation-based orchestration</title>
+  <desc>A trade-off comparison: graph-based orchestration (n8n, LangGraph) is predictable and auditable; conversation-based (AutoGen) is flexible but hard to isolate failures in.</desc>
+  <rect x="0" y="0" width="760" height="420" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Predictability vs. flexibility — Madison chose predictability</text>
+
+  <!-- row labels -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">
+    <text x="32" y="112">Failure locatability</text>
+    <text x="32" y="164">Novel-task handling</text>
+    <text x="32" y="216">Auditability</text>
+    <text x="32" y="268">Debugging surface</text>
+    <text x="32" y="320">Best-fit use case</text>
+  </g>
+
+  <!-- headers -->
+  <text x="400" y="80" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Graph-based (n8n / LangGraph)</text>
+  <text x="630" y="80" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Conversation (AutoGen)</text>
+
+  <!-- panels -->
+  <rect x="280" y="92" width="240" height="260" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="520" y="92" width="220" height="260" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="280" y1="144" x2="740" y2="144" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="280" y1="196" x2="740" y2="196" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="280" y1="248" x2="740" y2="248" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="280" y1="300" x2="740" y2="300" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <text x="296" y="116">precise — every path defined</text>
+    <text x="296" y="168">limited — pre-specified only</text>
+    <text x="296" y="220">high — every step testable</text>
+    <text x="296" y="272">small and bounded</text>
+    <text x="296" y="324">known task, run daily</text>
+
+    <text x="536" y="116">hard — fault diffuses</text>
+    <text x="536" y="168">strong — agents self-organize</text>
+    <text x="536" y="220">low — emergent paths</text>
+    <text x="536" y="272">enormous</text>
+    <text x="536" y="324">open-ended exploration</text>
+  </g>
+
+  <text x="32" y="384" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A system that runs at 7 a.m. daily and feeds a director's dashboard needs</text>
+  <text x="32" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">predictability, not novelty-handling.</text>
+</svg>

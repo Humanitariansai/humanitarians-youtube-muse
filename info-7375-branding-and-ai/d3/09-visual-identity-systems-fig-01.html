@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sage vs Hero home-page wireframes</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; } .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-size:13px; max-width:240px; } .title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); } .panel-title { font-size:12px; font-weight:700; } .block-label { font-size:8.5px; fill:var(--color-secondary); } .block-tag { font-size:9px; fill:var(--color-secondary); } @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const sage=[
+ {tag:"Name + positioning sentence — prose hero, primary CTA",h:56,hero:true},
+ {tag:"Selected work — 3 text-forward cards",h:22},
+ {tag:"(card)",h:22},{tag:"(card)",h:22},
+ {tag:"Writing — one featured piece",h:42},
+ {tag:"Bio strip → About",h:22},
+ {tag:"Footer — contact + links",h:18}
+];
+const hero=[
+ {tag:"Large project image / video loop",h:74,hero:true},
+ {tag:"Metrics strip — bold numbers",h:30},
+ {tag:"Short, punchy section copy",h:30},
+ {tag:"Bold CTA",h:26,cta:true},
+ {tag:"Bio",h:20},
+ {tag:"Footer",h:18}
+];
+const titleText="Sage vs Hero home-page wireframes";
+const descText="Same five-page architecture, archetype-driven structural rhythm. Section order encodes priority.";
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function panel(svg,x,w,title,titleColor,blocks){
+  svg.append('text').attr('x',x+w/2).attr('y',86).attr('text-anchor','middle').attr('class','panel-title').attr('fill',titleColor).text(title);
+  const frameTop=96, frameH=320;
+  svg.append('rect').attr('x',x).attr('y',frameTop).attr('width',w).attr('height',frameH).attr('fill','var(--color-white)').attr('stroke','var(--color-ink)').attr('stroke-width',1.25);
+  let y=frameTop+16; const innerX=x+16, innerW=w-32;
+  blocks.forEach((b,i)=>{
+    const g=svg.append('g').attr('opacity',0);
+    const fill=b.cta?'var(--color-red)':(b.hero?'var(--color-fill)':'var(--color-white)');
+    const stroke=b.hero||b.cta?'var(--color-red)':'var(--color-border)';
+    g.append('rect').attr('x',innerX).attr('y',y).attr('width',innerW).attr('height',b.h).attr('fill',fill).attr('stroke',stroke).attr('stroke-width',b.hero||b.cta?1.25:1).attr('tabindex',0).attr('aria-label',b.tag)
+      .on('mouseover',(e)=>showTooltip(e,b.tag)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    g.append('text').attr('x',innerX+8).attr('y',y+b.h/2+3).attr('class',b.cta?'panel-title':'block-tag').attr('fill',b.cta?'var(--color-white)':'var(--color-secondary)').attr('font-size',b.cta?10:9).text(b.tag.length>40?b.tag.slice(0,38)+'…':b.tag);
+    g.transition().delay(i*80).duration(320).attr('opacity',1);
+    y+=b.h+8;
+  });
+}
+function draw(){
+  d3.select('#chart').selectAll('*').remove();
+  const container=document.getElementById('chart');
+  const totalWidth=Math.max(container.clientWidth-48,640);
+  const totalHeight=460; const padX=24; const gap=40;
+  const pw=(totalWidth-padX*2-gap)/2;
+  const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+  svg.append('title').attr('id','chart-title').text(titleText);
+  svg.append('desc').attr('id','chart-desc').text(descText);
+  svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+  svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText);
+  panel(svg,padX,pw,'Sage — lead with the thinking','var(--color-red)',sage);
+  panel(svg,padX+pw+gap,pw,'Hero — lead with the work','var(--color-ink)',hero);
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

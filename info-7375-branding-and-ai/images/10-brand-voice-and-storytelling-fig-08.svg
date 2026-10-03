@@ -1,0 +1,57 @@
+<!--
+  Cadence beats volume
+  Book: Branding and AI
+  Chapter: 10-brand-voice-and-storytelling
+  Figure: 08
+  Type: quantitative chart
+  Generated: 2026-06-18
+  Source: pantry/10-brand-voice-and-storytelling-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-10-08">
+  <title id="fig-title-10-08">Cadence beats volume</title>
+  <desc>Two illustrative audience-growth trajectories over thirty-six months at the same total piece count: a steady monthly cadence compounds into a rising curve, while a burst-and-abandon pattern spikes then collapses near zero.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="10-brand-voice-and-storytelling" figure-number="08"
+      figure-title="Cadence beats volume"
+      figure-slug="cadence-beats-volume"
+      figure-type="quantitative chart" priority="Supplementary"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/10-brand-voice-and-storytelling-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Cadence beats volume</text>
+  <text x="32" y="58" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Same total number of pieces, opposite trajectories. Illustrative shape only.</text>
+
+  <!-- Plot region -->
+  <rect x="64" y="80" width="540" height="270" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Gridlines -->
+  <line x1="64" y1="148" x2="604" y2="148" stroke="#D4D4D4" stroke-width="0.75" opacity="0.6"/>
+  <line x1="64" y1="215" x2="604" y2="215" stroke="#D4D4D4" stroke-width="0.75" opacity="0.6"/>
+  <line x1="64" y1="282" x2="604" y2="282" stroke="#D4D4D4" stroke-width="0.75" opacity="0.6"/>
+
+  <!-- Y axis label -->
+  <text x="56" y="80" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">high</text>
+  <text x="56" y="350" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0</text>
+  <text x="36" y="220" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" transform="rotate(-90 36 220)">audience</text>
+
+  <!-- X axis ticks -->
+  <text x="64" y="368" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0</text>
+  <text x="244" y="368" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">12</text>
+  <text x="424" y="368" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">24</text>
+  <text x="604" y="368" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">36</text>
+  <text x="334" y="388" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">months</text>
+
+  <!-- Burst-and-abandon: spike then collapse (neutral gray) -->
+  <polyline points="64,350 100,300 140,250 175,235 200,290 240,330 280,342 340,346 420,348 540,349 604,349"
+            fill="none" stroke="#787878" stroke-width="1.5"/>
+  <text x="206" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878">burst-and-abandon</text>
+
+  <!-- Steady cadence: compounding rise (RED, primary series) -->
+  <path d="M 64 350 C 200 340, 320 300, 420 240 C 500 192, 560 150, 604 108" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <text x="470" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#C8102E">steady monthly cadence</text>
+
+  <text x="32" y="408" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The accumulated body of work, not the burst, builds the audience.</text>
+</svg>

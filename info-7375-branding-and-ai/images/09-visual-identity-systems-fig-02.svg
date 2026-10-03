@@ -1,0 +1,67 @@
+<!--
+  Three strategy-free failure cases
+  Book: Branding and AI
+  Chapter: 09-visual-identity-systems
+  Figure: 02
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/09-visual-identity-systems-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-09-02">
+  <title id="fig-title-09-02">Three strategy-free failure cases</title>
+  <desc>Three columns — Pepsi 2008, Yahoo 2013, Tropicana 2009 — each showing what changed, the strategic failure, the consequence, and the recovery. The common diagnosis is design without a prior strategic commitment.</desc>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three ways visual identity fails when no strategy anchors it</text>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <!-- Pepsi -->
+    <rect x="40" y="60" width="195" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="54" y="86" font-size="13" font-weight="700" fill="#121212">Pepsi 2008</text>
+    <text x="54" y="114" font-size="11" fill="#545454" font-weight="700">Changed</text>
+    <text x="54" y="130" font-size="11" fill="#121212">Logo tweak + 27-page</text>
+    <text x="54" y="146" font-size="11" fill="#121212">rationale doc.</text>
+    <text x="54" y="176" font-size="11" fill="#545454" font-weight="700">Failure</text>
+    <text x="54" y="192" font-size="11" fill="#121212">Strategy-free rationale —</text>
+    <text x="54" y="208" font-size="11" fill="#121212">borrowed authority.</text>
+    <text x="54" y="238" font-size="11" fill="#545454" font-weight="700">Consequence</text>
+    <text x="54" y="254" font-size="11" fill="#121212">Public proof the brand</text>
+    <text x="54" y="270" font-size="11" fill="#121212">had nothing to say.</text>
+    <text x="54" y="300" font-size="11" fill="#545454" font-weight="700">Recovery</text>
+    <text x="54" y="316" font-size="11" fill="#121212">Mark quietly retained.</text>
+
+    <!-- Yahoo -->
+    <rect x="252" y="60" width="195" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="266" y="86" font-size="13" font-weight="700" fill="#121212">Yahoo 2013</text>
+    <text x="266" y="114" font-size="11" fill="#545454" font-weight="700">Changed</text>
+    <text x="266" y="130" font-size="11" fill="#121212">30-day logo journey,</text>
+    <text x="266" y="146" font-size="11" fill="#121212">a concept a day.</text>
+    <text x="266" y="176" font-size="11" fill="#545454" font-weight="700">Failure</text>
+    <text x="266" y="192" font-size="11" fill="#121212">Strategy-free process —</text>
+    <text x="266" y="208" font-size="11" fill="#121212">no archetype constrained it.</text>
+    <text x="266" y="238" font-size="11" fill="#545454" font-weight="700">Consequence</text>
+    <text x="266" y="254" font-size="11" fill="#121212">Committee output; identity</text>
+    <text x="266" y="270" font-size="11" fill="#121212">never stabilized.</text>
+    <text x="266" y="300" font-size="11" fill="#545454" font-weight="700">Recovery</text>
+    <text x="266" y="316" font-size="11" fill="#121212">Sold to Verizon, 2017.</text>
+
+    <!-- Tropicana -->
+    <rect x="464" y="60" width="196" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="478" y="86" font-size="13" font-weight="700" fill="#121212">Tropicana 2009</text>
+    <text x="478" y="114" font-size="11" fill="#545454" font-weight="700">Changed</text>
+    <text x="478" y="130" font-size="11" fill="#121212">Repackaged: clean type,</text>
+    <text x="478" y="146" font-size="11" fill="#121212">premium photography.</text>
+    <text x="478" y="176" font-size="11" fill="#545454" font-weight="700">Failure</text>
+    <text x="478" y="192" font-size="11" fill="#121212">Wrong archetype — Lover/</text>
+    <text x="478" y="208" font-size="11" fill="#121212">Ruler, not Innocent.</text>
+    <text x="478" y="238" font-size="11" fill="#545454" font-weight="700">Consequence</text>
+    <text x="478" y="254" font-size="11" fill="#121212">Sales fell 20% in two</text>
+    <text x="478" y="270" font-size="11" fill="#121212">months.</text>
+    <text x="478" y="300" font-size="11" fill="#545454" font-weight="700">Recovery</text>
+    <text x="478" y="316" font-size="11" fill="#121212">Original restored.</text>
+  </g>
+
+  <!-- unifying diagnosis band -->
+  <rect x="40" y="356" width="620" height="64" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="381" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Common diagnosis</text>
+  <text x="56" y="399" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each was avoidable if the design had been required to answer to a prior strategic commitment.</text>
+</svg>

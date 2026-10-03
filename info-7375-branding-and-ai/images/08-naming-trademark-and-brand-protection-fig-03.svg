@@ -1,0 +1,70 @@
+<!--
+  The legibility-exclusivity trade-off
+  Book: Branding and AI
+  Chapter: 08-naming-trademark-and-brand-protection
+  Figure: 03
+  Type: crossing-lines chart (schematic)
+  Generated: 2026-06-30
+  Source: pantry/08-naming-trademark-and-brand-protection-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-08-03">
+  <title id="fig-title-08-03">The legibility-exclusivity trade-off</title>
+  <desc>Two crossing lines across the five Abercrombie positions. Legibility falls from high at Generic to low at Fanciful; protectability rises from low at Generic to high at Fanciful. The lines cross between Suggestive and Arbitrary.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Legibility and protectability run in opposite directions across the spectrum</text>
+
+  <!-- plot region -->
+  <rect x="80" y="64" width="540" height="260" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- axis labels -->
+  <text x="80" y="58" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#787878">high</text>
+  <text x="80" y="338" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#787878">low</text>
+
+  <!-- five x-positions: 130 240 350 460 570 -->
+  <!-- Legibility y-values (decreasing): 85 125 195 265 305 -->
+  <!-- Protectability y-values (increasing): 305 265 195 125 85 -->
+
+  <!-- Legibility line (dark) -->
+  <polyline points="130,85 240,125 350,195 460,265 570,305"
+    fill="none" stroke="#545454" stroke-width="2"/>
+  <!-- Protectability line (light) -->
+  <polyline points="130,305 240,265 350,195 460,125 570,85"
+    fill="none" stroke="#ADADAD" stroke-width="2"/>
+
+  <!-- Legibility dots -->
+  <circle cx="130" cy="85"  r="4" fill="#545454"/>
+  <circle cx="240" cy="125" r="4" fill="#545454"/>
+  <circle cx="350" cy="195" r="4" fill="#545454"/>
+  <circle cx="460" cy="265" r="4" fill="#545454"/>
+  <circle cx="570" cy="305" r="4" fill="#545454"/>
+
+  <!-- Protectability dots -->
+  <circle cx="130" cy="305" r="4" fill="#ADADAD"/>
+  <circle cx="240" cy="265" r="4" fill="#ADADAD"/>
+  <circle cx="350" cy="195" r="4" fill="#ADADAD" stroke="#545454" stroke-width="1"/>
+  <circle cx="460" cy="125" r="4" fill="#ADADAD"/>
+  <circle cx="570" cy="85"  r="4" fill="#ADADAD"/>
+
+  <!-- x-axis baseline -->
+  <line x1="80" y1="324" x2="620" y2="324" stroke="#121212" stroke-width="1"/>
+
+  <!-- position labels -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">
+    <text x="130" y="342">Generic</text>
+    <text x="240" y="342">Descriptive</text>
+    <text x="350" y="342">Suggestive</text>
+    <text x="460" y="342">Arbitrary</text>
+    <text x="570" y="342">Fanciful</text>
+  </g>
+
+  <!-- legend -->
+  <line x1="80" y1="372" x2="100" y2="372" stroke="#545454" stroke-width="2"/>
+  <circle cx="90" cy="372" r="4" fill="#545454"/>
+  <text x="108" y="376" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Legibility (clarity to a new customer)</text>
+  <line x1="360" y1="372" x2="380" y2="372" stroke="#ADADAD" stroke-width="2"/>
+  <circle cx="370" cy="372" r="4" fill="#ADADAD"/>
+  <text x="388" y="376" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Protectability (legal exclusivity)</text>
+
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Schematic: lines show relative high/low, not measured values.</text>
+  <text x="32" y="432" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The two profiles cross between suggestive and arbitrary.</text>
+</svg>

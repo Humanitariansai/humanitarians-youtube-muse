@@ -1,0 +1,71 @@
+<!--
+  LinkedIn optimization, default vs. archetype-aligned
+  Book: Branding and AI
+  Chapter: 18-portfolio-as-product
+  Figure: 06
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/18-portfolio-as-product-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-18-06">
+  <title id="fig-title-18-06">LinkedIn optimization, default vs. archetype-aligned</title>
+  <desc>Five LinkedIn elements — headline, about, featured, experience, skills — shown as default state with its failure signal versus the archetype-aligned version. Two to three hours of work with compounding returns.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="18-portfolio-as-product" figure-number="06"
+      figure-title="LinkedIn optimization default vs archetype-aligned"
+      figure-slug="linkedin-optimization"
+      figure-type="comparison panels" priority="Supplementary"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/18-portfolio-as-product-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">LinkedIn optimization, default vs. archetype-aligned</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The most underused surface. Two to three hours; compounding returns where recruiters meet you first.</text>
+
+  <!-- column headers + divider -->
+  <text x="180" y="86" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">Default — and its failure signal</text>
+  <text x="500" y="86" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Archetype-aligned version</text>
+  <line x1="32" y1="94" x2="668" y2="94" stroke="#121212" stroke-width="1"/>
+  <line x1="340" y1="100" x2="340" y2="284" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- rows: element gutter at far left is folded into left column label -->
+  <!-- Headline -->
+  <text x="32" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Headline</text>
+  <text x="120" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"AI Engineer at Acme" — a job title</text>
+  <text x="352" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">a positioning sentence that does work</text>
+  <line x1="32" y1="132" x2="668" y2="132" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- About -->
+  <text x="32" y="158" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">About</text>
+  <text x="120" y="158" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">job history, redundant with roles</text>
+  <text x="352" y="158" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">positioning + origin compressed + focus</text>
+  <line x1="32" y1="170" x2="668" y2="170" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Featured -->
+  <text x="32" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Featured</text>
+  <text x="120" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">nothing pinned</text>
+  <text x="352" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">portfolio, AI tool, best published piece</text>
+  <line x1="32" y1="208" x2="668" y2="208" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Experience -->
+  <text x="32" y="234" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Experience</text>
+  <text x="120" y="234" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">a wall of bullets</text>
+  <text x="352" y="234" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">2–3 narrative sentences, project links</text>
+  <line x1="32" y1="246" x2="668" y2="246" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Skills -->
+  <text x="32" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Skills</text>
+  <text x="120" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">fifty technologies — no focus</text>
+  <text x="352" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">pruned to the archetype-relevant ones</text>
+  <line x1="32" y1="284" x2="668" y2="284" stroke="#121212" stroke-width="1"/>
+
+  <text x="32" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" font-weight="700">Headline example, Sage:</text>
+  <text x="200" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"AI engineer building developer-first marketing intelligence tools."</text>
+  <text x="32" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" font-weight="700">Creator:</text>
+  <text x="200" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"AI engineer shipping multi-agent content systems and the brand that makes them legible."</text>
+
+  <text x="32" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The headline appears in search, messages, and connection suggestions —</text>
+  <text x="32" y="388" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">read aloud, it should not sound like a corporate bio.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-2-2 desc-2-2">
+<title id="title-2-2">The augmentation-to-delegation spectrum</title>
+<desc id="desc-2-2">A horizontal axis runs from "user in full control" (Cursor, augmentation) on the left to "system autonomous, human reviews outcomes" (Devin, delegation) on the right. Madison is marked in the left-center zone. Each end is annotated with its brand position and failure-recovery model, so a student can locate where their own tool concept would sit.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">The augmentation-to-delegation spectrum</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Same technology, different theory of agency and risk. Locate your own tool concept on this axis.</text>
+
+<!-- axis -->
+<line x1="80" y1="190" x2="640" y2="190" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="80" y="218" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">User in full control</text>
+<text x="80" y="234" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Augmentation</text>
+<text x="640" y="218" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">System autonomous</text>
+<text x="640" y="234" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Delegation — human reviews outcomes</text>
+
+<!-- tick markers -->
+<!-- Cursor, left -->
+<line x1="150" y1="182" x2="150" y2="198" stroke="#2a1a0e" stroke-width="1.5"/>
+<rect x="106" y="120" width="88" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="150" y="138" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Cursor</text>
+<text x="150" y="152" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#545454">AI in the editor</text>
+<line x1="150" y1="160" x2="150" y2="182" stroke="#D4D4D4" stroke-width="1"/>
+
+<!-- Madison, left-center, RED -->
+<line x1="280" y1="182" x2="280" y2="198" stroke="#C8102E" stroke-width="2"/>
+<rect x="232" y="120" width="96" height="40" fill="#C8102E" stroke="#2a1a0e" stroke-width="1"/>
+<text x="280" y="138" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#FFFFFF">Madison</text>
+<text x="280" y="152" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#FFFFFF">orchestrated roles</text>
+<line x1="280" y1="160" x2="280" y2="182" stroke="#C8102E" stroke-width="1.5"/>
+
+<!-- Devin, right -->
+<line x1="570" y1="182" x2="570" y2="198" stroke="#2a1a0e" stroke-width="1.5"/>
+<rect x="526" y="120" width="88" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+<text x="570" y="138" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#2a1a0e">Devin</text>
+<text x="570" y="152" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="8" fill="#545454">sandboxed agent</text>
+<line x1="570" y1="160" x2="570" y2="182" stroke="#D4D4D4" stroke-width="1"/>
+
+<!-- annotations: brand position + recovery model -->
+<text x="80" y="280" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#2a1a0e">Brand: "we trust developers"</text>
+<text x="80" y="298" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Recovery: review every change inline</text>
+<text x="640" y="280" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#2a1a0e">Brand: "we handle defined work"</text>
+<text x="640" y="298" text-anchor="end" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Recovery: review the outcome, not the steps</text>
+<text x="280" y="332" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Humans approve at consequential points</text>
+
+<line x1="48" y1="382" x2="652" y2="382" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="400" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 2.2</text>
+</svg>

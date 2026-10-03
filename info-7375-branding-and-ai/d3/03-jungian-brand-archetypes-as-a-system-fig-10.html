@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The archetype is load-bearing across the whole book</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:260px; }
+.title { font-family:'EB Garamond', Georgia, serif; font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle,.axis-label { font-family:'EB Garamond', Georgia, serif; font-size:11px; fill:var(--color-secondary); }
+.tick-label { font-family:'IBM Plex Mono', 'JetBrains Mono', monospace; font-size:10px; fill:var(--color-secondary); letter-spacing:0.06em; }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const titleText="The archetype is load-bearing across the whole book";
+const descText="Provisionally picked in Chapter 2, committed in Chapter 3, a silent constraint through Chapters 4 to 7, and reactivated at full strength in Chapter 8.";
+const chapters=[1,2,3,4,5,6,7,8];
+const segments=[
+ {start:1,end:2,state:"inactive",label:"Before pick"},
+ {start:2,end:3,state:"active",label:"Provisional pick (Ch. 2)"},
+ {start:3,end:4,state:"active",label:"Commit (Ch. 3)"},
+ {start:4,end:7,state:"dormant",label:"Silent constraint (Ch. 4–7)"},
+ {start:7,end:8,state:"reactivated",label:"Full brand activation (Ch. 8)"}
+];
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,d){tooltip.html('<strong>'+d.label+'</strong><br>State: '+d.state).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,640);
+ const totalHeight=320;
+ const margin={top:72,right:48,bottom:64,left:48};
+ const chartWidth=totalWidth-margin.left-margin.right;
+ const chartHeight=totalHeight-margin.top-margin.bottom;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText.slice(0,120));
+ const gChart=svg.append('g').attr('class','g-chart').attr('transform','translate('+margin.left+','+margin.top+')');
+ const x=d3.scaleLinear().domain([1,8]).range([0,chartWidth]);
+ const yBand=chartHeight/2;
+ // axis
+ gChart.append('line').attr('x1',0).attr('x2',chartWidth).attr('y1',chartHeight).attr('y2',chartHeight).attr('stroke','var(--color-border)').attr('aria-hidden','true');
+ gChart.selectAll('.tick-label').data(chapters).join('text').attr('class','tick-label').attr('text-anchor','middle').attr('x',d=>x(d)).attr('y',chartHeight+18).text(d=>d);
+ gChart.append('text').attr('class','axis-label').attr('x',chartWidth/2).attr('y',chartHeight+40).attr('text-anchor','middle').text('Chapter');
+ // segments
+ const g=gChart.selectAll('.seg').data(segments).join('g').attr('tabindex',0).attr('aria-label',d=>d.label+': '+d.state);
+ g.each(function(d){
+  const sel=d3.select(this);
+  const x0=x(d.start),x1=x(d.end);
+  if(d.state==='active'||d.state==='reactivated'){
+   sel.append('rect').attr('x',x0).attr('y',yBand-14).attr('width',0).attr('height',28).attr('fill','var(--color-red)')
+    .transition().duration(320).attr('width',x1-x0);
+  } else if(d.state==='dormant'){
+   sel.append('line').attr('x1',x0).attr('x2',x1).attr('y1',yBand).attr('y2',yBand).attr('stroke','var(--color-red)').attr('stroke-width',1.5).attr('stroke-dasharray','2 5');
+  } else {
+   sel.append('line').attr('x1',x0).attr('x2',x1).attr('y1',yBand).attr('y2',yBand).attr('stroke','var(--color-secondary)').attr('stroke-width',1.5).attr('stroke-dasharray','3 4');
+  }
+  sel.append('rect').attr('x',x0).attr('y',yBand-16).attr('width',x1-x0).attr('height',32).attr('fill','transparent')
+   .on('mouseover',(event)=>showTooltip(event,d)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+ });
+ // labels for key inflections
+ const marks=[{at:2,t:"Provisional pick",c:"var(--color-ink)"},{at:3,t:"Commit (Ch. 3)",c:"var(--color-red)"},{at:7.5,t:"Brand activation",c:"var(--color-ink)"}];
+ gChart.selectAll('.mark').data(marks).join('text').attr('class','axis-label').attr('text-anchor','middle').attr('x',d=>x(d.at)).attr('y',yBand-26).attr('fill',d=>d.c).text(d=>d.t);
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

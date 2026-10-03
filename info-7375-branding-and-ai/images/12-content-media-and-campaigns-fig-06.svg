@@ -1,0 +1,72 @@
+<!--
+  Worked campaign: PESO channels connect
+  Book: Branding and AI
+  Chapter: 12-content-media-and-campaigns
+  Figure: 06
+  Type: systems diagram
+  Generated: 2026-06-18
+  Source: pantry/12-content-media-and-campaigns-cajal.md
+-->
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-12-06">
+  <title id="fig-title-12-06">Worked campaign: how the four PESO channels connect</title>
+  <desc>The Sage-archetype analytics campaign flows owned to earned to shared to paid, carrying one message — auditable AI, not a black box — with the owned long-form explainer as the primary investment that anchors and feeds the others.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="12-content-media-and-campaigns" figure-number="06"
+      figure-title="Worked campaign plan: PESO channels connect"
+      figure-slug="worked-campaign-peso-connect"
+      figure-type="systems diagram" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/12-content-media-and-campaigns-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="360" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Worked campaign: one message through four connected channels</text>
+
+  <!-- Message banner -->
+  <rect x="32" y="58" width="636" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="80" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Message: auditable AI, not a black box</text>
+
+  <defs>
+    <marker id="arrow-12-06" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- Owned (primary) — x=32 w=140 -->
+  <rect x="32" y="140" width="140" height="96" fill="#121212" stroke="#121212" stroke-width="1"/>
+  <text x="46" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Owned</text>
+  <text x="46" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">long-form audit</text>
+  <text x="46" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">explainer</text>
+  <text x="46" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">primary investment</text>
+
+  <!-- Earned — x=188 w=140 -->
+  <rect x="188" y="140" width="140" height="96" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="202" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Earned</text>
+  <text x="202" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">pitch 2–3 B2B SaaS</text>
+  <text x="202" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">newsletters as a how-to</text>
+
+  <!-- Shared — x=344 w=140 -->
+  <rect x="344" y="140" width="140" height="96" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="358" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Shared</text>
+  <text x="358" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">founder LinkedIn</text>
+  <text x="358" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">thread of key finding</text>
+
+  <!-- Paid — x=500 w=140 -->
+  <rect x="500" y="140" width="140" height="96" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="514" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Paid</text>
+  <text x="514" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">small boost</text>
+  <text x="514" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">of best post</text>
+
+  <!-- connectors with labels below the arrow -->
+  <line x1="172" y1="188" x2="186" y2="188" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-06)"/>
+  <text x="180" y="252" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">earns</text>
+  <line x1="328" y1="188" x2="342" y2="188" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-06)"/>
+  <text x="336" y="252" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">spreads</text>
+  <line x1="484" y1="188" x2="498" y2="188" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-06)"/>
+  <text x="492" y="252" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">amplifies</text>
+
+  <text x="32" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Objective: 40 qualified demo requests in eight weeks.</text>
+  <text x="32" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">KPI: demo requests attributed to campaign traffic via UTM parameters on the owned landing page.</text>
+  <text x="32" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Audience: skeptical B2B SaaS marketing managers who distrust black-box AI insights.</text>
+</svg>

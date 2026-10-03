@@ -1,0 +1,59 @@
+<!--
+  Three ways to value a brand
+  Book: Branding and AI
+  Chapter: 02-what-a-brand-is-equity
+  Figure: 06
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/02-what-a-brand-is-equity-cajal.md
+-->
+<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02-06">
+  <title id="fig-title-02-06">Three ways to value a brand</title>
+  <desc>Interbrand, Kantar BrandZ, and Brand Finance compared on methodology, main data input, what the number represents, and a known limitation, with ISO 10668 as the arbitration standard.</desc>
+  <rect x="0" y="0" width="760" height="420" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three valuation methods that disagree by design</text>
+
+  <!-- row labels -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">
+    <text x="32" y="120">Primary methodology</text>
+    <text x="32" y="190">Main data input</text>
+    <text x="32" y="260">What the number means</text>
+    <text x="32" y="330">Known limitation</text>
+  </g>
+
+  <!-- headers -->
+  <text x="290" y="80" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Interbrand</text>
+  <text x="450" y="80" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Kantar BrandZ</text>
+  <text x="630" y="80" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Brand Finance</text>
+
+  <!-- panels -->
+  <rect x="210" y="92" width="160" height="276" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="370" y="92" width="160" height="276" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="530" y="92" width="200" height="276" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="210" y1="160" x2="730" y2="160" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="210" y1="230" x2="730" y2="230" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="210" y1="300" x2="730" y2="300" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <!-- Interbrand -->
+    <text x="222" y="112">forecast × role-of-</text><text x="222" y="128">brand × brand strength</text>
+    <text x="222" y="182">financials + strength</text><text x="222" y="198">score</text>
+    <text x="222" y="252">brand-driven future</text><text x="222" y="268">earnings, discounted</text>
+    <text x="222" y="322">strength scoring is</text><text x="222" y="338">partly judgmental</text>
+
+    <!-- Kantar -->
+    <text x="382" y="112">consumer research on</text><text x="382" y="128">meaningful difference</text>
+    <text x="382" y="182">large-scale survey</text><text x="382" y="198">data</text>
+    <text x="382" y="252">value of brand's place</text><text x="382" y="268">in consumers' minds</text>
+    <text x="382" y="322">most consumer-side;</text><text x="382" y="338">survey-dependent</text>
+
+    <!-- Brand Finance -->
+    <text x="542" y="112">royalty-relief: what</text><text x="542" y="128">licensing it would cost</text>
+    <text x="542" y="182">comparable royalty</text><text x="542" y="198">rates, capitalized</text>
+    <text x="542" y="252">capitalized notional</text><text x="542" y="268">royalty stream</text>
+    <text x="542" y="322">depends on royalty-rate</text><text x="542" y="338">comparables</text>
+  </g>
+
+  <!-- ISO footer -->
+  <text x="210" y="396" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">ISO 10668 is the arbitration standard — the models disagree because they measure different things</text>
+</svg>

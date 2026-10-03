@@ -1,0 +1,44 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="480" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Madison Intelligence Agent — production-grade workflow architecture</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Each design choice is a response to a specific failure mode — not a stylistic preference.</text>
+<rect x="64" y="100" width="120" height="40" fill="#fdfcfb" stroke="#1a1714" stroke-width="1"/>
+<text x="124" y="117" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">Schedule</text>
+<text x="124" y="131" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#4a4540" text-anchor="middle">every 6 hours</text>
+<rect x="248" y="80" width="120" height="40" fill="#fdfcfb" stroke="#1a1714" stroke-width="1"/>
+<text x="308" y="98" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">HTTP: RSS feeds</text>
+<path d="M184 120 L248 100" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="248" y="180" width="120" height="40" fill="#fdfcfb" stroke="#1a1714" stroke-width="1"/>
+<text x="308" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">HTTP: Google News</text>
+<path d="M184 120 L248 200" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="248" y="280" width="120" height="40" fill="#fdfcfb" stroke="#1a1714" stroke-width="1"/>
+<text x="308" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">HTTP: Reddit API</text>
+<path d="M184 120 L248 300" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="408" y="180" width="120" height="40" fill="#fdfcfb" stroke="#1a1714" stroke-width="1"/>
+<text x="468" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">Code: dedup</text>
+<text x="468" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#4a4540" text-anchor="middle">seen-URL store</text>
+<path d="M368 100 L408 200" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M368 200 L408 200" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M368 300 L408 200" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="568" y="180" width="100" height="40" fill="#fdfcfb" stroke="#1a1714" stroke-width="1"/>
+<text x="618" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">OpenAI</text>
+<text x="618" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#4a4540" text-anchor="middle">score + summarize</text>
+<path d="M528 200 L568 200" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<rect x="518" y="320" width="120" height="40" fill="#fdfcfb" stroke="#1a1714" stroke-width="1"/>
+<text x="578" y="338" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">Sheets: append</text>
+<text x="578" y="352" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#4a4540" text-anchor="middle">scored items</text>
+<rect x="248" y="320" width="120" height="40" fill="#fdfcfb" stroke="#1a1714" stroke-width="1"/>
+<text x="308" y="338" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">Sheets: run log</text>
+<text x="308" y="352" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#4a4540" text-anchor="middle">timestamp + count</text>
+<path d="M618 220 L578 320" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M468 220 L308 320" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="60" y="406" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">(1) Parallel ingestion — single source down ≠ pipeline stalls</text>
+<text x="60" y="422" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">(2) Seen-URL store — no double-scoring across runs</text>
+<text x="60" y="438" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">(3) LLM scoring — inference as a step inside the workflow</text>
+<text x="60" y="454" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">(4) Run log — visibility independent of execution health</text>
+</svg>

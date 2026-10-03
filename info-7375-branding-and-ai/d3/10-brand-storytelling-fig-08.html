@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sage storytelling in the Madison README</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; } .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-size:13px; max-width:240px; } .title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); } .mono { font-family:'IBM Plex Mono','JetBrains Mono',monospace; font-size:9px; fill:var(--color-secondary); } .card-title { font-size:10.5px; font-weight:700; } .card-body { font-size:9px; fill:var(--color-secondary); } @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const callouts=[
+ {y:124,title:"Mechanism before claim",sub:"numbers, not adjectives, open",primary:true,anchorY:145},
+ {y:222,title:"Structure as story",sub:"the decomposition is the plot",primary:false,anchorY:244},
+ {y:312,title:"Honesty signals Sage",sub:"limits build credibility",primary:false,anchorY:334}
+];
+const titleText="Sage storytelling in the Madison README";
+const descText="The mechanism is the story — README throughput numbers, architecture headers, and limitation language each carry the Sage brand.";
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+  d3.select('#chart').selectAll('*').remove();
+  const container=document.getElementById('chart');
+  const totalWidth=Math.max(container.clientWidth-48,660);
+  const totalHeight=440;
+  const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+  svg.append('title').attr('id','chart-title').text(titleText);
+  svg.append('desc').attr('id','chart-desc').text(descText);
+  svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+  svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText);
+  // README window
+  const winX=24, winW=360;
+  svg.append('rect').attr('x',winX).attr('y',72).attr('width',winW).attr('height',332).attr('fill','var(--color-fill)').attr('stroke','var(--color-border)');
+  svg.append('rect').attr('x',winX).attr('y',72).attr('width',winW).attr('height',22).attr('fill','var(--color-white)').attr('stroke','var(--color-border)');
+  svg.append('text').attr('x',winX+12).attr('y',88).attr('class','mono').text('README.md — Madison Intelligence Agent');
+  // throughput
+  svg.append('rect').attr('x',winX+16).attr('y',108).attr('width',winW-32).attr('height',58).attr('fill','var(--color-white)').attr('stroke','var(--color-red)').attr('stroke-width',1.5);
+  svg.append('text').attr('x',winX+26).attr('y',126).attr('font-size',9.5).attr('fill','var(--color-ink)').text('870 articles processed per day. 90%');
+  svg.append('text').attr('x',winX+26).attr('y',139).attr('font-size',9.5).attr('fill','var(--color-ink)').text('deduplication rate. Sub-three-minute');
+  svg.append('text').attr('x',winX+26).attr('y',152).attr('font-size',9.5).attr('fill','var(--color-ink)').text('latency from ingestion to output.');
+  // architecture
+  svg.append('text').attr('x',winX+16).attr('y',192).attr('class','mono').attr('font-weight',700).attr('fill','var(--color-ink)').text('## Architecture — five-layer agents');
+  svg.append('rect').attr('x',winX+16).attr('y',200).attr('width',winW-32).attr('height',16).attr('fill','var(--color-white)').attr('stroke','var(--color-border)');
+  svg.append('text').attr('x',winX+24).attr('y',211).attr('class','card-body').text('Intelligence · Content · Research · Experience · Performance');
+  svg.append('rect').attr('x',winX+16).attr('y',222).attr('width',(winW-44)/2).attr('height',44).attr('fill','var(--color-white)').attr('stroke','var(--color-border)');
+  svg.append('rect').attr('x',winX+28+(winW-44)/2).attr('y',222).attr('width',(winW-44)/2).attr('height',44).attr('fill','var(--color-white)').attr('stroke','var(--color-border)');
+  // limitations
+  svg.append('text').attr('x',winX+16).attr('y',296).attr('class','mono').attr('font-weight',700).attr('fill','var(--color-ink)').text('## Known limitations');
+  svg.append('rect').attr('x',winX+16).attr('y',304).attr('width',winW-32).attr('height',40).attr('fill','var(--color-white)').attr('stroke','var(--color-red)').attr('stroke-width',1.25);
+  svg.append('text').attr('x',winX+26).attr('y',322).attr('class','card-body').text('Deduplication degrades on near-duplicate');
+  svg.append('text').attr('x',winX+26).attr('y',334).attr('class','card-body').text('syndicated wire copy; flagged for v2.');
+  // callout cards
+  const cardX=Math.min(winX+winW+72,totalWidth-200);
+  const lineFromX=winX+winW;
+  callouts.forEach((c,i)=>{
+    const g=svg.append('g').attr('opacity',0);
+    const stroke=c.primary?'var(--color-red)':'var(--color-ink)';
+    g.append('line').attr('x1',lineFromX).attr('y1',c.anchorY).attr('x2',cardX-6).attr('y2',c.anchorY).attr('stroke',stroke).attr('stroke-width',1.25);
+    g.append('rect').attr('x',cardX).attr('y',c.y).attr('width',174).attr('height',44).attr('fill',c.primary?'var(--color-fill)':'var(--color-white)').attr('stroke',stroke).attr('stroke-width',c.primary?1.25:1).attr('tabindex',0).attr('aria-label',c.title+': '+c.sub)
+      .on('mouseover',(e)=>showTooltip(e,'<strong>'+c.title+'</strong><br>'+c.sub)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    g.append('text').attr('x',cardX+10).attr('y',c.y+18).attr('class','card-title').attr('fill',c.primary?'var(--color-red)':'var(--color-ink)').text(c.title);
+    g.append('text').attr('x',cardX+10).attr('y',c.y+34).attr('class','card-body').text(c.sub);
+    g.transition().delay(i*150).duration(320).attr('opacity',1);
+  });
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

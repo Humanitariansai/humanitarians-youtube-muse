@@ -1,0 +1,99 @@
+<!--
+  Archetype naming patterns
+  Book: Branding and AI
+  Chapter: 06-brand-strategy-and-positioning
+  Figure: 08
+  Type: comparison table
+  Generated: 2026-06-18
+  Source: pantry/06-brand-strategy-and-positioning-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-06-08">
+  <title id="fig-title-06-08">Archetype naming patterns</title>
+  <desc>Six archetypes with their naming tendency, real-world examples, and connotations to avoid. A name that fights its archetype fights itself.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="06-brand-strategy-and-positioning"
+      figure-number="08" figure-title="Archetype naming patterns" figure-slug="archetype-naming-patterns"
+      figure-type="comparison table" priority="Supplementary" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/06-brand-strategy-and-positioning-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">A name that fights its archetype fights itself</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Archetype alignment is the fourth naming test, beyond bar, lawyer, and domain.</text>
+
+  <!-- header -->
+  <rect x="32" y="80" width="110" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="80" width="220" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="362" y="80" width="180" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="542" y="80" width="126" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Archetype</text>
+  <text x="150" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Naming tendency</text>
+  <text x="370" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Examples</text>
+  <text x="550" y="101" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Avoid</text>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <!-- Sage -->
+    <rect x="32" y="112" width="110" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="112" width="220" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="362" y="112" width="180" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="542" y="112" width="126" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="140" font-weight="700" fill="#121212">Sage</text>
+    <text x="150" y="133" fill="#121212">Precise, understated,</text>
+    <text x="150" y="148" fill="#121212">functional.</text>
+    <text x="370" y="140" fill="#545454">Stripe, Linear, Notion</text>
+    <text x="550" y="140" fill="#545454">excitement</text>
+
+    <!-- Hero -->
+    <rect x="32" y="160" width="110" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="160" width="220" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="362" y="160" width="180" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="542" y="160" width="126" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="187" font-weight="700" fill="#121212">Hero</text>
+    <text x="150" y="187" fill="#121212">Energetic, action-forward.</text>
+    <text x="370" y="187" fill="#545454">Salesforce, Cloudflare</text>
+    <text x="550" y="187" fill="#545454">timidity</text>
+
+    <!-- Caregiver -->
+    <rect x="32" y="204" width="110" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="204" width="220" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="362" y="204" width="180" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="542" y="204" width="126" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="231" font-weight="700" fill="#121212">Caregiver</text>
+    <text x="150" y="231" fill="#121212">Warm, calming.</text>
+    <text x="370" y="231" fill="#545454">Calm, Headspace</text>
+    <text x="550" y="231" fill="#545454">aggression</text>
+
+    <!-- Magician -->
+    <rect x="32" y="248" width="110" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="248" width="220" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="362" y="248" width="180" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="542" y="248" width="126" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="275" font-weight="700" fill="#121212">Magician</text>
+    <text x="150" y="275" fill="#121212">Transformation, scale.</text>
+    <text x="370" y="275" fill="#545454">Palantir, Anthropic</text>
+    <text x="550" y="275" fill="#545454">the mundane</text>
+
+    <!-- Rebel -->
+    <rect x="32" y="292" width="110" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="292" width="220" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="362" y="292" width="180" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="542" y="292" width="126" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="319" font-weight="700" fill="#121212">Rebel</text>
+    <text x="150" y="319" fill="#121212">Defiant, against the grain.</text>
+    <text x="370" y="319" fill="#545454">Liquid Death, Oatly</text>
+    <text x="550" y="319" fill="#545454">corporate polish</text>
+
+    <!-- Creator -->
+    <rect x="32" y="336" width="110" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="336" width="220" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="362" y="336" width="180" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="542" y="336" width="126" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="363" font-weight="700" fill="#121212">Creator</text>
+    <text x="150" y="363" fill="#121212">Evocative, made-up,</text>
+    <text x="150" y="377" fill="#121212">expressive.</text>
+    <text x="370" y="363" fill="#545454">Figma, Canva</text>
+    <text x="550" y="363" fill="#545454">the generic</text>
+  </g>
+
+  <text x="32" y="404" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 6, NAMING</text>
+</svg>

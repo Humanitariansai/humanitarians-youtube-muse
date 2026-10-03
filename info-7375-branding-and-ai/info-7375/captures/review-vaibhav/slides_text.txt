@@ -1,0 +1,334 @@
+=== Slide 1 ===
+F
+FINAL EXAM. PATH A
+vaibhav.
+I ship developer tools engineers actually adopt.
+PATH A
+Personal Brand
+COURSE
+INFO 7375
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+1 / 15
+
+=== Slide 2 ===
+02
+THE PROBLEM
+Maintainers are drowning in mentions.
+But starving for signal.
+3.9M+
+downloads on Random Word (a weekend project I forgot about)
+63k+
+weekly downloads on Nightwatch (BrowserStack, in production)
+300+
+mentions per week Random Word gets in the wild today
+0
+dashboards that tell me which 5 to act on this week
+3+ hrs
+per week lost to triage that never actually gets done
+1
+person doing the triage (me), on my weekends
+"Maintainers can SEE their mentions. But they can’t tell what to DO with them."
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+2 / 15
+
+=== Slide 3 ===
+03
+AUDIENCE
+The audience is three concentric rings.
+All three ask the same question when they read this deck.
+01
+HIRING MANAGERS
+Senior engineering leaders at developer-tools companies
+Vercel  ·  Linear  ·  Anthropic  ·  Stripe
+02
+RECRUITERS
+Engineering recruiters at those same companies
+The 6-second scan of the top of the resume
+03
+STARTUP CTOs
+Founders needing whiteboard-to-production, no hand-off
+10-person teams, staff-level trust required
+All three ask the same question. Has this person shipped something people actually use?
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+3 / 15
+
+=== Slide 4 ===
+04
+THE PERSONAS
+The maintainers I’m building Olembic for.
+Two archetypes. Both real. Both me, eight months ago.
+PERSONA 01
+Maya. Solo maintainer, full-time job
+Ships an OSS library that hit 500k+ npm downloads. Codes for a living. Maintains on weekends.
+PAIN
+40 GitHub notifications a day. Can’t tell which matter. Opens 12, actions 2, feels behind.
+WANTS
+The 5 signals worth stopping her weekend for. Ranked. Explained.
+PERSONA 02
+Alex. Small team on a dev tool
+Three-person team maintaining a testing framework with real production users.
+PAIN
+One person doing community. Always behind. Adoption signals lost in noise.
+WANTS
+A weekly queue. Three signals this week. Not three hundred.
+The maintainer’s inbox is not a coverage problem. It’s a triage problem.
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+4 / 15
+
+=== Slide 5 ===
+05
+WHY ME
+Five years shipping tools engineers adopt.
+Verifiable public numbers. No adjectives required.
+3.9M+
+NPM DOWNLOADS
+Random Word · TypeScript · shipped 2020 · still growing
+63k+
+WEEKLY DOWNLOADS
+Nightwatch Reporter Revamp · React · BrowserStack · prod
+500k
+USERS, ZERO DOWNTIME
+Kubernetes / FluxCD migration · BrowserStack · 2024
+These aren’t claims. They’re numbers you can verify without taking my word for it.
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+5 / 15
+
+=== Slide 6 ===
+06
+THE PRODUCT FRAMEWORK
+You don’t get another dashboard. You get 5 signals.
+The 4-Signal Framework. Every classification has a source-weighted confidence score.
+SIGNAL
+Act now
+Reproducible bug from a real user. Reply within 48h.
+SILENCE
+Ignore
+Praise retweets, drive-by stars. Doesn’t predict anything.
+SURFACE
+Consider
+Repeated question hinting at a docs gap. Batch weekly.
+SUBSCRIBE
+Watch
+Adjacent tool citing you. Might shift ecosystem gravity.
+Prescriptive, not descriptive.
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+6 / 15
+
+=== Slide 7 ===
+07
+COMPETITIVE LANDSCAPE
+Every tool in this space optimizes for the wrong thing.
+Coverage is a solved problem. Triage is not.
+Factor
+GitHub Insights
+Mention.com
+Sprout Social
+Olembic
+Time to insight
+Hours
+Hours
+Hours
+15 seconds
+Output style
+Charts
+Feed
+Feed
+Ranked actions
+Source weighting
+None
+None
+None
+Per-project
+Domain awareness
+Repo only
+Generic
+Generic
+Dev tools
+Confidence scoring
+✗
+✗
+✗
+✓
+Positioning. Prescriptive where competitors are just descriptive.
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+7 / 15
+
+=== Slide 8 ===
+08
+POSITIONING MATRIX
+We win where others can’t compete.
+Two axes. One empty quadrant. That’s where Olembic lives.
+DEV-NATIVE
+GENERIC
+COVERAGE
+TRIAGE
+Sprout Social
+Mention.com
+GitHub Insights
+Meltwater
+OLEMBIC
+sweet spot
+The tools worth building answer one question. What should I stop what I’m doing for?
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+8 / 15
+
+=== Slide 9 ===
+09
+VISUAL IDENTITY
+Signal and Static.
+One system. Two neutrals. One accent. Reserved for the signal color.
+COLOR PALETTE
+#0F0F14
+Ink
+text · dark surfaces
+#F0EDE4
+Paper
+background
+#E63946
+Vermillion
+the signal color
+#5A5A62
+Stone
+muted text
+TYPE STACK
+Aa
+Fraunces
+Display serif. For the ideas.
+Aa
+Inter
+Body sans. For the work.
+01
+JetBrains Mono
+Monospace. For labels and code.
+A serif for the idea. A sans for the work. Monospace for the code.
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+9 / 15
+
+=== Slide 10 ===
+10
+BRAND CONSISTENCY
+Three surfaces. Same grammar.
+Cohesion by design. Not by duplication.
+WEBSITE
+announces a positioning claim
+LINKEDIN
+announces a person
+SUBSTACK
+announces a body of work
+Same palette. Same typefaces. Same mark. Different jobs.
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+10 / 15
+
+=== Slide 11 ===
+11
+BRAND VOICE
+The same voice, across every channel.
+Same period. Same restraint. Same measured-not-claimed.
+PRIMARY
+LinkedIn.
+Networking, hiring signals
+"Every brand monitoring tool I have used treats the maintainer’s inbox as a coverage problem. This is a solved problem, and it’s the wrong problem."
+SECONDARY
+Substack.
+Long-form thought leadership
+"The bottleneck for a solo maintainer with real users isn’t visibility. It’s triage. Which 3 signals out of 300 predict churn before they show up in your download graph?"
+TERTIARY
+GitHub / OSS.
+Build-in-public, technical
+"Random Word: cryptographically random words from diverse dictionaries. Zero dependencies. TypeScript. 3.9M downloads and counting."
+Voice is the brand. Everything else is decoration.
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+11 / 15
+
+=== Slide 12 ===
+12
+ORIGIN STORY
+The story behind Olembic.
+FRAMEWORK: OVERCOMING THE MONSTER
+1
+THE OVERWHELM
+Random Word hit 3.9 million downloads. A weekend project I built to learn Python packaging. Suddenly there were 300 mentions a week and one person triaging. Me. On weekends.
+2
+THE PATTERN
+I kept a private log. Three kinds of signals mattered, almost always. Reproducible bugs from real users. Adjacent tools citing me. Repeated docs-gap questions. Everything else was noise.
+3
+THE CATEGORY ERROR
+Once I saw the pattern, I couldn’t unsee it. Every mention-tracking tool optimizes for coverage. Maintainers need triage. It’s not a feature gap. It’s a category error.
+4
+THE BUILD
+I started Olembic that week. Bandit-weighted source scoring. RAG over public developer chatter. Five signals out of three hundred. Prototype, not shipped. Working on my machine.
+Story  →  Values.  Measured  ·  Shipped  ·  Depth  ·  Open  ·  Honest
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+12 / 15
+
+=== Slide 13 ===
+13
+BEFORE / AFTER
+What changes when you flip the frame.
+Maya’s Sunday, both ways.
+BEFORE OLEMBIC
+Maya’s Sunday.
+✗
+40 GitHub notifications from the week, unread
+✗
+No idea which to open first
+✗
+Opens 12 in tabs, reads 8, answers 2
+✗
+Realizes 3 hours have passed
+✗
+Closes tab feeling behind
+WITH OLEMBIC
+Maya’s Sunday.
+✓
+5 signals triaged, each with a confidence score
+✓
+Reproducible bug from user w/ 20 stars = SIGNAL
+✓
+Retweet + praise emojis = SILENCE
+✓
+Answers the 3 that matter, closes tab
+✓
+20 minutes total. Feels caught up.
+3 hours → 20 minutes. From coverage to triage.
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+13 / 15
+
+=== Slide 14 ===
+14
+LIVE DEMO
+The system, in action.
+Website + Olembic prototype. Two minutes each.
+01
+WEBSITE
+The brand, shipped
+vaibhavsingh97.com. Hero, metrics above the fold, three projects, "Now" section, footer. One design system end-to-end.
+02
+OLEMBIC
+The prototype, running
+The 4-Signal Framework applied to a real package. Watch the bandit reweighting sources. Watch five signals surface out of three hundred.
+03
+SUBSTACK
+The argument, published
+Signal from Noise. First essay: the maintainer’s inbox is not a coverage problem. Published, promoted, indexed.
+BACKUP PLAN.  If the prototype breaks live, screenshots are ready in a backup tab. Keep talking.
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+14 / 15
+
+=== Slide 15 ===
+15
+CLOSING
+Why did you build this?
+The question behind every slide I built.
+THE STORY
+answered why
+I got tired of my own excuse.
+THE STRATEGY
+answered for whom
+Solo maintainers with real users and no time.
+THE DEMO
+answered how
+Triage-first architecture. Source-weighted learning.
+If all three connect, the question answers itself.
+VAIBHAV SINGH  ·  FINAL EXAM  ·  DEC 2026
+15 / 15

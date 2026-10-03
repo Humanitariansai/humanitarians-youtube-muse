@@ -1,0 +1,52 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-08-5 desc-08-5">
+<title id="title-08-5">The strategy document as a decision funnel</title>
+<desc id="desc-08-5">A funnel diagram showing incoming decisions — feature requests, partnership opportunities, channel proposals, hiring criteria — flowing through three filter layers: Archetype, Values, and Negative Space. The output at the bottom is "Decided, without a meeting." The strategy document is a pre-computation of decisions, not a reference for revisiting each one.</desc>
+<defs>
+<marker id="arrow-08-5" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+<path d="M0,1 L8,4.5 L0,8 Z" fill="#C8102E"/>
+</marker>
+</defs>
+<rect width="700" height="480" fill="#FFFFFF"/>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#2a1a0e">The strategy document as a decision funnel</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Incoming decisions pass through three constraint layers and exit decided — no meeting required.</text>
+
+<!-- Incoming decisions row -->
+<text x="350" y="92" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#2a1a0e">Incoming decisions</text>
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#2a1a0e">
+<rect x="60" y="104" width="130" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="125" y="125" text-anchor="middle">Feature requests</text>
+<rect x="205" y="104" width="130" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="270" y="125" text-anchor="middle">Partnership offers</text>
+<rect x="365" y="104" width="130" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="430" y="125" text-anchor="middle">Channel proposals</text>
+<rect x="510" y="104" width="130" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="575" y="125" text-anchor="middle">Hiring criteria</text>
+</g>
+<line x1="350" y1="138" x2="350" y2="158" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrow-08-5)"/>
+
+<!-- Filter 1: Archetype (widest) -->
+<polygon points="120,162 580,162 540,206 160,206" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+<text x="350" y="182" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#2a1a0e">1 — Archetype</text>
+<text x="350" y="198" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Does this fit who we are?</text>
+<line x1="350" y1="206" x2="350" y2="222" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrow-08-5)"/>
+
+<!-- Filter 2: Values -->
+<polygon points="165,226 535,226 500,270 200,270" fill="#FFFFFF" stroke="#2a1a0e" stroke-width="1.25"/>
+<text x="350" y="246" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#2a1a0e">2 — Values</text>
+<text x="350" y="262" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Does this fit what we won't compromise?</text>
+<line x1="350" y1="270" x2="350" y2="286" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrow-08-5)"/>
+
+<!-- Filter 3: Negative Space (narrowest) -->
+<polygon points="205,290 495,290 460,334 240,334" fill="#FFFFFF" stroke="#C8102E" stroke-width="1.5"/>
+<text x="350" y="310" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#C8102E">3 — Negative space</text>
+<text x="350" y="326" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">Is this on the no-list?</text>
+<line x1="350" y1="334" x2="350" y2="356" stroke="#C8102E" stroke-width="1.5" marker-end="url(#arrow-08-5)"/>
+
+<!-- Output -->
+<rect x="225" y="360" width="250" height="48" fill="#F5F5F5" stroke="#2a1a0e" stroke-width="1.5"/>
+<text x="350" y="382" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#2a1a0e">Decided, without a meeting</text>
+<text x="350" y="400" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" fill="#545454">The strategy pre-computes the decision.</text>
+
+<line x1="48" y1="442" x2="652" y2="442" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="460" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 8.5</text>
+</svg>

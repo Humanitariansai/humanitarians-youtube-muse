@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anatomy of Stripe's mission statement</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; } .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:240px; } .title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); } .card-title { font-size:11px; font-weight:700; } .card-body { font-size:9.5px; fill:var(--color-secondary); } @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const cards=[
+ {n:"1 — Testable",lines:["GDP of the internet is in","principle measurable. Progress","can be checked against a","product decision."],primary:false},
+ {n:"2 — Theory-driven",lines:["Implies a causal claim: friction","in financial infrastructure","constrains digital economic","value."],primary:false},
+ {n:"3 — Tech-agnostic",lines:["No mention of APIs or payments.","The mechanism could change;","the mission survives.",""],primary:false}
+];
+const counter=[
+ {n:"Not testable",sub:"'easy' has no metric"},
+ {n:"No theory",sub:"no causal claim implied"},
+ {n:"Tech-bound",sub:"names the category"}
+];
+const titleText="Anatomy of Stripe's mission statement";
+const descText="A strong mission passes three tests — testable, theory-driven, tech-agnostic; a generic mission fails all three.";
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+  d3.select('#chart').selectAll('*').remove();
+  const container=document.getElementById('chart');
+  const totalWidth=Math.max(container.clientWidth-48,640);
+  const totalHeight=520; const cx=totalWidth/2;
+  const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+  svg.append('title').attr('id','chart-title').text(titleText);
+  svg.append('desc').attr('id','chart-desc').text(descText);
+  svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+  svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText);
+  // strong mission box
+  svg.append('rect').attr('x',cx-190).attr('y',76).attr('width',380).attr('height',44).attr('fill','var(--color-fill)').attr('stroke','var(--color-red)').attr('stroke-width',1.5);
+  svg.append('text').attr('x',cx).attr('y',97).attr('text-anchor','middle').attr('font-size',14).attr('font-weight',700).attr('fill','var(--color-red)').text('"Increase the GDP of the internet"');
+  svg.append('text').attr('x',cx).attr('y',113).attr('text-anchor','middle').attr('class','card-body').text('Stripe — the worked model');
+  // three callout cards
+  const cw=180, gap=(380-cw*0)/1;
+  const xs=[cx-190,cx-90,cx+10];
+  // distribute evenly across width
+  const total=cw*3+40; const startX=cx-total/2;
+  cards.forEach((c,i)=>{
+    const x=startX+i*(cw+20);
+    const g=svg.append('g').attr('opacity',0);
+    g.append('line').attr('x1',cx+(i-1)*120).attr('y1',120).attr('x2',x+cw/2).attr('y2',150).attr('stroke','var(--color-red)').attr('stroke-width',1.25);
+    g.append('rect').attr('x',x).attr('y',152).attr('width',cw).attr('height',88).attr('fill','var(--color-white)').attr('stroke','var(--color-ink)').attr('tabindex',0).attr('aria-label',c.n)
+      .on('mouseover',(e)=>showTooltip(e,'<strong>'+c.n+'</strong>')).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    g.append('text').attr('x',x+12).attr('y',172).attr('class','card-title').attr('fill','var(--color-ink)').text(c.n);
+    c.lines.forEach((ln,j)=>{ if(ln) g.append('text').attr('x',x+12).attr('y',190+j*13).attr('class','card-body').text(ln); });
+    g.transition().delay(i*150).duration(320).attr('opacity',1);
+  });
+  // divider + counter-example
+  svg.append('line').attr('x1',24).attr('y1',272).attr('x2',totalWidth-24).attr('y2',272).attr('stroke','var(--color-border)');
+  svg.append('text').attr('x',24).attr('y',292).attr('class','card-title').attr('fill','var(--color-ink)').text('Counter-example — generic mission fails the same three tests');
+  svg.append('rect').attr('x',cx-190).attr('y',304).attr('width',380).attr('height',40).attr('fill','var(--color-white)').attr('stroke','var(--color-border)');
+  svg.append('text').attr('x',cx).attr('y',329).attr('text-anchor','middle').attr('font-size',13).attr('fill','var(--color-secondary)').text('"Make payments easy"');
+  counter.forEach((c,i)=>{
+    const x=startX+i*(cw+20);
+    svg.append('rect').attr('x',x).attr('y',360).attr('width',cw).attr('height',48).attr('fill','var(--color-fill)').attr('stroke','var(--color-border)').attr('tabindex',0).attr('aria-label',c.n+': '+c.sub)
+      .on('mouseover',(e)=>showTooltip(e,'<strong>'+c.n+'</strong><br>'+c.sub)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    svg.append('text').attr('x',x+cw/2).attr('y',380).attr('text-anchor','middle').attr('class','card-title').attr('fill','var(--color-ink)').text(c.n);
+    svg.append('text').attr('x',x+cw/2).attr('y',396).attr('text-anchor','middle').attr('class','card-body').text(c.sub);
+  });
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

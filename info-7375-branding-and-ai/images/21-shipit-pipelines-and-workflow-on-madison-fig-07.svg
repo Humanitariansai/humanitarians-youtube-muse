@@ -1,0 +1,76 @@
+<!--
+  The four-node build pipeline
+  Book: Branding and AI
+  Chapter: 21-shipit-pipelines-and-workflow-on-madison
+  Figure: 07
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md
+-->
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-21-07">
+  <title id="fig-title-21-07">The four-node build pipeline</title>
+  <desc>Schedule Trigger to HTTP Request (RSS) to Code (Transform and Deduplicate) to Google Sheets (Write Row), each node annotated with its documented contract.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="21-shipit-pipelines-and-workflow-on-madison"
+      figure-number="07" figure-title="The four-node build pipeline"
+      figure-slug="four-node-build-pipeline" figure-type="process flowchart"
+      priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="360" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The minimal pipeline that does real work — four nodes, three contracts</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Runs on a schedule, pulls fresh data, transforms it, and writes somewhere you can verify.</text>
+
+  <defs><marker id="arrow2107" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker></defs>
+
+  <!-- Node 1 -->
+  <rect x="40" y="110" width="140" height="70" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="110" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Schedule</text>
+  <text x="110" y="154" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Trigger</text>
+  <text x="110" y="172" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">every hour</text>
+
+  <!-- Node 2 -->
+  <rect x="220" y="110" width="140" height="70" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="290" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">HTTP Request</text>
+  <text x="290" y="156" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">GET HN RSS feed</text>
+
+  <!-- Node 3 -->
+  <rect x="400" y="110" width="140" height="70" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="470" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Code</text>
+  <text x="470" y="156" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">transform + dedup</text>
+
+  <!-- Node 4 -->
+  <rect x="560" y="110" width="108" height="70" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="614" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Google</text>
+  <text x="614" y="154" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Sheets</text>
+  <text x="614" y="172" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">append row</text>
+
+  <!-- arrows -->
+  <line x1="180" y1="145" x2="216" y2="145" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2107)"/>
+  <line x1="360" y1="145" x2="396" y2="145" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2107)"/>
+  <line x1="540" y1="145" x2="556" y2="145" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2107)"/>
+
+  <!-- contract notes -->
+  <text x="110" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">contract with time:</text>
+  <text x="110" y="222" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">missed runs are</text>
+  <text x="110" y="238" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">skipped, not retried.</text>
+
+  <text x="290" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">no auth, no rate</text>
+  <text x="290" y="222" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">limit documented,</text>
+  <text x="290" y="238" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">stable since 2006 · risk: low</text>
+
+  <text x="470" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">deduplicate by URL;</text>
+  <text x="470" y="222" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">extract fields;</text>
+  <text x="470" y="238" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">stamp processed_at.</text>
+
+  <text x="614" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">OAuth via n8n</text>
+  <text x="614" y="222" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">credential manager;</text>
+  <text x="614" y="238" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">map fields to columns.</text>
+
+  <!-- Footer -->
+  <rect x="32" y="284" width="636" height="36" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="307" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Four nodes, three contracts, one verifiable output.</text>
+
+  <text x="32" y="344" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 21, THE PIPELINE YOU ARE GOING TO BUILD</text>
+</svg>

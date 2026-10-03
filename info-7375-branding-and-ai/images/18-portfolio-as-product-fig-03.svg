@@ -1,0 +1,74 @@
+<!--
+  Curation and the negative-space rule
+  Book: Branding and AI
+  Chapter: 18-portfolio-as-product
+  Figure: 03
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/18-portfolio-as-product-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-18-03">
+  <title id="fig-title-18-03">Curation and the negative-space rule</title>
+  <desc>Five selection criteria — archetype alignment, positioning relevance, technical-depth signal, recency, the exclusion rule — each with what it means, how to apply it, and the failure mode when ignored. Three to six projects beat ten.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="18-portfolio-as-product" figure-number="03"
+      figure-title="Curation and the negative-space rule"
+      figure-slug="curation-negative-space-rule"
+      figure-type="matrix" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/18-portfolio-as-product-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Curation and the negative-space rule</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Three to six excellent projects beat ten. What you decline defines the point of view.</text>
+
+  <!-- headers -->
+  <text x="32" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Criterion</text>
+  <text x="200" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">How to apply it</text>
+  <text x="440" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Failure mode if ignored</text>
+  <line x1="32" y1="94" x2="668" y2="94" stroke="#121212" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <text x="32" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Archetype</text>
+  <text x="32" y="133" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">alignment</text>
+  <text x="200" y="126" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">does it demonstrate the archetype?</text>
+  <text x="440" y="126" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"I have done things," not "I am this kind."</text>
+  <line x1="32" y1="146" x2="668" y2="146" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 2 -->
+  <text x="32" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Positioning</text>
+  <text x="32" y="185" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">relevance</text>
+  <text x="200" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">does it advance the positioning claim?</text>
+  <text x="440" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">off-thesis work dilutes the claim.</text>
+  <line x1="32" y1="198" x2="668" y2="198" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 3 -->
+  <text x="32" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Technical-depth</text>
+  <text x="32" y="237" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">signal</text>
+  <text x="200" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">does it show depth, with evidence?</text>
+  <text x="440" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">thumbnails read as shallow.</text>
+  <line x1="32" y1="250" x2="668" y2="250" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 4 -->
+  <text x="32" y="274" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Recency</text>
+  <text x="200" y="274" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">recent, but secondary to fit</text>
+  <text x="440" y="274" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">newest is not always strongest.</text>
+  <line x1="32" y1="286" x2="668" y2="286" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 5 exclusion rule -->
+  <text x="32" y="310" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Exclusion rule</text>
+  <text x="200" y="310" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">name one you left out, and why</text>
+  <text x="440" y="310" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">if you can't, there is no point of view.</text>
+  <line x1="32" y1="322" x2="668" y2="322" stroke="#121212" stroke-width="1"/>
+
+  <!-- negative space test band -->
+  <rect x="32" y="336" width="636" height="54" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">The negative-space test:</text>
+  <text x="200" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">feature 3–6; for each, name one excluded and write the one-sentence reason.</text>
+  <text x="44" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Cut: screenshot walls, fifty-icon skills lists, unrelated hobbies, "currently learning X."</text>
+
+  <text x="32" y="410" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The portfolio is brand strategy, not a transcript —</text>
+  <text x="32" y="426" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">pick the archetype-aligned project over the hardest one.</text>
+</svg>

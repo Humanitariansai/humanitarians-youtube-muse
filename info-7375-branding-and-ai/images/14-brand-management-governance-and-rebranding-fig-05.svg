@@ -1,0 +1,70 @@
+<!--
+  Refresh vs. rebrand: the decision spectrum
+  Book: Branding and AI
+  Chapter: 14-brand-management-governance-and-rebranding
+  Figure: 05
+  Type: timeline / spectrum
+  Generated: 2026-06-18
+  Source: pantry/14-brand-management-governance-and-rebranding-cajal.md
+-->
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-14-05">
+  <title id="fig-title-14-05">Refresh versus rebrand: the decision spectrum</title>
+  <desc>Change runs from refresh — evolution where the core identity holds and the old brand stays legible — to rebrand, revolution where the previous brand is no longer legible. Triggers sit along the spectrum; the new-executive-preference trigger is flagged as the illegitimate one that causes the most avoidable damage.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="14-brand-management-governance-and-rebranding" figure-number="05"
+      figure-title="Refresh vs. rebrand: the decision spectrum"
+      figure-slug="refresh-vs-rebrand-spectrum"
+      figure-type="timeline / spectrum" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/14-brand-management-governance-and-rebranding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="400" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Refresh or rebrand? The decision spectrum</text>
+
+  <!-- Spectrum axis -->
+  <line x1="80" y1="170" x2="620" y2="170" stroke="#121212" stroke-width="1.5"/>
+  <circle cx="80" cy="170" r="4" fill="#121212"/>
+  <circle cx="620" cy="170" r="4" fill="#121212"/>
+  <text x="80" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Refresh</text>
+  <text x="80" y="216" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">evolution · core holds</text>
+  <text x="80" y="230" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">old brand still legible</text>
+  <text x="620" y="200" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Rebrand</text>
+  <text x="620" y="216" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">revolution · new identity</text>
+  <text x="620" y="230" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">previous brand not legible</text>
+
+  <!-- Trigger markers above the line (legitimate, ink) -->
+  <line x1="180" y1="170" x2="180" y2="120" stroke="#787878" stroke-width="1"/>
+  <circle cx="180" cy="170" r="3" fill="#121212"/>
+  <text x="180" y="110" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">contemporize</text>
+  <text x="180" y="96" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">modernize the mark</text>
+
+  <line x1="300" y1="170" x2="300" y2="140" stroke="#787878" stroke-width="1"/>
+  <circle cx="300" cy="170" r="3" fill="#121212"/>
+  <text x="300" y="130" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">outgrown identity</text>
+
+  <line x1="460" y1="170" x2="460" y2="140" stroke="#787878" stroke-width="1"/>
+  <circle cx="460" cy="170" r="3" fill="#121212"/>
+  <text x="460" y="130" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">repositioning</text>
+
+  <line x1="560" y1="170" x2="560" y2="120" stroke="#787878" stroke-width="1"/>
+  <circle cx="560" cy="170" r="3" fill="#121212"/>
+  <text x="560" y="110" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">merger · damage</text>
+  <text x="560" y="96" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">to leave behind</text>
+
+  <!-- Illegitimate trigger below (RED) -->
+  <line x1="380" y1="170" x2="380" y2="262" stroke="#C8102E" stroke-width="1.5"/>
+  <circle cx="380" cy="170" r="4" fill="#C8102E"/>
+  <rect x="270" y="262" width="220" height="56" fill="#C8102E" stroke="#121212" stroke-width="1"/>
+  <text x="380" y="286" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">New executive wants</text>
+  <text x="380" y="304" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">a mark of their own</text>
+  <text x="380" y="338" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">illegitimate trigger — the one that causes the most avoidable damage</text>
+
+  <!-- equity risk indicator -->
+  <text x="80" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">low equity risk</text>
+  <text x="620" y="262" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">high equity risk</text>
+  <line x1="150" y1="252" x2="550" y2="252" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="5 4"/>
+
+  <text x="32" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Cautionary cases — Tropicana 2009, Gap 2010, New Coke 1985 — all failed this decision.</text>
+</svg>

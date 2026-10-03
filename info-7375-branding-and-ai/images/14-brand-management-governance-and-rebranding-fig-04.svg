@@ -1,0 +1,67 @@
+<!--
+  Drift vs. intentional variation
+  Book: Branding and AI
+  Chapter: 14-brand-management-governance-and-rebranding
+  Figure: 04
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/14-brand-management-governance-and-rebranding-cajal.md
+-->
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-14-04">
+  <title id="fig-title-14-04">Drift versus intentional variation</title>
+  <desc>The outputs can look identical. Intentional variation is an authorized departure within understood parameters; drift is the same departure repeating across many assets over months — a signal that something has shifted. The distinguisher is the decision and the pattern.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="14-brand-management-governance-and-rebranding" figure-number="04"
+      figure-title="Drift vs. intentional variation"
+      figure-slug="drift-vs-intentional-variation"
+      figure-type="comparison panels" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/14-brand-management-governance-and-rebranding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="400" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Drift vs. intentional variation: the outputs look alike, the meaning does not</text>
+
+  <line x1="350" y1="64" x2="350" y2="368" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- LEFT: intentional -->
+  <rect x="32" y="64" width="290" height="304" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="56" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Intentional variation</text>
+  <text x="56" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the system flexing within its rules</text>
+
+  <!-- scattered authorized departures, varied, each checked -->
+  <g>
+    <rect x="64" y="140" width="56" height="40" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+    <rect x="150" y="170" width="56" height="40" fill="#FFFFFF" stroke="#ADADAD" stroke-width="1"/>
+    <rect x="236" y="148" width="56" height="40" fill="#FFFFFF" stroke="#545454" stroke-width="1"/>
+    <rect x="100" y="230" width="56" height="40" fill="#FFFFFF" stroke="#ADADAD" stroke-width="1"/>
+    <rect x="200" y="244" width="56" height="40" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  </g>
+  <text x="56" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Authorized · within parameters ·</text>
+  <text x="56" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">different surfaces, same archetype</text>
+  <text x="56" y="352" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Response: document and close.</text>
+
+  <!-- RIGHT: drift -->
+  <rect x="378" y="64" width="290" height="304" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="402" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Drift</text>
+  <text x="402" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the same departure, repeating</text>
+
+  <!-- repeated identical departure across many assets — RED cluster -->
+  <g>
+    <rect x="410" y="140" width="52" height="38" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+    <rect x="474" y="140" width="52" height="38" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+    <rect x="538" y="140" width="52" height="38" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+    <rect x="602" y="140" width="52" height="38" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+    <rect x="410" y="188" width="52" height="38" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+    <rect x="474" y="188" width="52" height="38" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+    <rect x="538" y="188" width="52" height="38" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+    <rect x="602" y="188" width="52" height="38" fill="#FFFFFF" stroke="#787878" stroke-width="1.5"/>
+  </g>
+  <text x="402" y="262" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#787878">Same departure across 15 assets</text>
+  <text x="402" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">over three months — a signal.</text>
+  <text x="402" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Distinguisher: the decision (who</text>
+  <text x="402" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">authorized) and the pattern (one</text>
+  <text x="402" y="344" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">vs. many). Response: correct — or</text>
+  <text x="402" y="360" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">update the system.</text>
+</svg>

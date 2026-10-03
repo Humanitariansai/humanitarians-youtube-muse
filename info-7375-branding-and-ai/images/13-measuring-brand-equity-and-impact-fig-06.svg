@@ -1,0 +1,99 @@
+<!--
+  A measurement plan with honest (blank) baselines
+  Book: Branding and AI
+  Chapter: 13-measuring-brand-equity-and-impact
+  Figure: 06
+  Type: reference table
+  Generated: 2026-06-18
+  Source: pantry/13-measuring-brand-equity-and-impact-cajal.md
+-->
+<svg viewBox="0 0 700 456" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-13-06">
+  <title id="fig-title-13-06">A measurement plan with honest, blank baselines</title>
+  <desc>The worked-example plan: six metrics surviving the Farris filter, each with brand or performance label, source, cadence, and the decision it informs. Every baseline cell reads not yet measured — a fabricated baseline corrupts every later comparison, so the honest baseline is blank.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="13-measuring-brand-equity-and-impact" figure-number="06"
+      figure-title="A measurement plan with honest (blank) baselines"
+      figure-slug="measurement-plan-blank-baselines"
+      figure-type="reference table" priority="Important"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/13-measuring-brand-equity-and-impact-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="456" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">A measurement plan with honest baselines</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Six metrics survive the Farris filter. Every baseline is blank until the first data point is collected.</text>
+
+  <!-- header -->
+  <rect x="32" y="72" width="636" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Metric</text>
+  <text x="232" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Type</text>
+  <text x="312" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Source</text>
+  <text x="430" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Cadence</text>
+  <text x="520" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Baseline</text>
+
+  <!-- column separators -->
+  <line x1="224" y1="72" x2="224" y2="392" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="304" y1="72" x2="304" y2="392" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="422" y1="72" x2="422" y2="392" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="512" y1="72" x2="512" y2="392" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- 6 rows, 48px each -->
+  <!-- r1 -->
+  <rect x="32" y="104" width="636" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Unaided awareness</text>
+  <text x="40"  y="139" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">among target segment</text>
+  <text x="232" y="131" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">brand</text>
+  <text x="312" y="131" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">survey panel</text>
+  <text x="430" y="131" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">quarterly</text>
+  <text x="520" y="131" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#787878">not yet measured</text>
+
+  <!-- r2 -->
+  <rect x="32" y="152" width="636" height="48" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Newsletter-to-course</text>
+  <text x="40"  y="187" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">conversion rate (90+ days)</text>
+  <text x="232" y="179" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">perf.</text>
+  <text x="312" y="179" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">email + payments</text>
+  <text x="430" y="179" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">monthly</text>
+  <text x="520" y="179" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#787878">not yet measured</text>
+
+  <!-- r3 -->
+  <rect x="32" y="200" width="636" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Inbound consultation</text>
+  <text x="40"  y="235" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">request quality (fit %)</text>
+  <text x="232" y="227" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">perf.</text>
+  <text x="312" y="227" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">intake form + CRM</text>
+  <text x="430" y="227" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">monthly</text>
+  <text x="520" y="227" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#787878">not yet measured</text>
+
+  <!-- r4 -->
+  <rect x="32" y="248" width="636" height="48" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="268" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Net revenue per customer</text>
+  <text x="40"  y="283" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">tracked over time</text>
+  <text x="232" y="275" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">perf.</text>
+  <text x="312" y="275" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">payment processor</text>
+  <text x="430" y="275" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">quarterly</text>
+  <text x="520" y="275" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#787878">not yet measured</text>
+
+  <!-- r5 -->
+  <rect x="32" y="296" width="636" height="48" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Referral rate</text>
+  <text x="40"  y="331" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">heard from another person</text>
+  <text x="232" y="323" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">perf.</text>
+  <text x="312" y="323" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">intake survey</text>
+  <text x="430" y="323" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">monthly</text>
+  <text x="520" y="323" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#787878">not yet measured</text>
+
+  <!-- r6 -->
+  <rect x="32" y="344" width="636" height="48" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40"  y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Association strength</text>
+  <text x="40"  y="379" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">on target attributes</text>
+  <text x="232" y="371" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">brand</text>
+  <text x="312" y="371" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">survey + coding</text>
+  <text x="430" y="371" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#121212">semi-annual</text>
+  <text x="520" y="371" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="9" fill="#787878">not yet measured</text>
+
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A fabricated baseline corrupts every comparison. AI can draft the structure;</text>
+  <text x="32" y="432" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">it cannot supply the baseline — the number you measure, not a model's estimate.</text>
+  <text x="32" y="448" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each metric also names the decision it informs (full plan in text).</text>
+</svg>

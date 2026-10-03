@@ -1,0 +1,72 @@
+<!--
+  The twelve archetypes, grouped by orientation
+  Book: Branding and AI
+  Chapter: 01-the-creative-engineer
+  Figure: 07
+  Type: hierarchy/taxonomy
+  Generated: 2026-06-18
+  Source: pantry/01-the-creative-engineer-cajal.md
+-->
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01-07">
+  <title id="fig-title-01-07">The twelve archetypes, grouped by orientation</title>
+  <desc>Twelve Jungian brand archetypes arranged in three groups of four — ego-driven, soul-driven, and self-driven — each tagged with its core drive.</desc>
+  <rect x="0" y="0" width="720" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Twelve archetypes in three groups of four</text>
+
+  <!-- group headers -->
+  <rect x="40" y="64" width="200" height="32" fill="#545454"/>
+  <rect x="260" y="64" width="200" height="32" fill="#787878"/>
+  <rect x="480" y="64" width="200" height="32" fill="#ADADAD"/>
+  <text x="140" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Ego — leave a mark</text>
+  <text x="360" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Soul — find belonging</text>
+  <text x="580" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212" text-anchor="middle">Self — change the order</text>
+
+  <!-- cells helper: 4 rows per column at y 108,188,268,348 height 72 -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <!-- EGO: Hero, Creator, Caregiver, Ruler -->
+    <g>
+      <rect x="40" y="108" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="52" y="138" font-size="13" font-weight="700" fill="#121212">Hero</text>
+      <text x="52" y="160" font-size="11" fill="#545454">mastery, winning through effort</text>
+      <rect x="40" y="188" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="52" y="218" font-size="13" font-weight="700" fill="#121212">Creator</text>
+      <text x="52" y="240" font-size="11" fill="#545454">enduring quality and craft</text>
+      <rect x="40" y="268" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="52" y="298" font-size="13" font-weight="700" fill="#121212">Caregiver</text>
+      <text x="52" y="320" font-size="11" fill="#545454">service, removing friction</text>
+      <rect x="40" y="348" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="52" y="378" font-size="13" font-weight="700" fill="#121212">Ruler</text>
+      <text x="52" y="400" font-size="11" fill="#545454">order, control, lasting systems</text>
+    </g>
+    <!-- SOUL: Innocent, Sage, Explorer, Everyman -->
+    <g>
+      <rect x="260" y="108" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="272" y="138" font-size="13" font-weight="700" fill="#121212">Innocent</text>
+      <text x="272" y="160" font-size="11" fill="#545454">safety, simplicity, doing it right</text>
+      <rect x="260" y="188" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="272" y="218" font-size="13" font-weight="700" fill="#121212">Sage</text>
+      <text x="272" y="240" font-size="11" fill="#545454">truth, understanding, insight</text>
+      <rect x="260" y="268" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="272" y="298" font-size="13" font-weight="700" fill="#121212">Explorer</text>
+      <text x="272" y="320" font-size="11" fill="#545454">freedom, discovery</text>
+      <rect x="260" y="348" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="272" y="378" font-size="13" font-weight="700" fill="#121212">Everyman</text>
+      <text x="272" y="400" font-size="11" fill="#545454">belonging, accessibility</text>
+    </g>
+    <!-- SELF: Magician, Lover, Jester, Rebel -->
+    <g>
+      <rect x="480" y="108" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="492" y="138" font-size="13" font-weight="700" fill="#121212">Magician</text>
+      <text x="492" y="160" font-size="11" fill="#545454">transformation, the impossible</text>
+      <rect x="480" y="188" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="492" y="218" font-size="13" font-weight="700" fill="#121212">Lover</text>
+      <text x="492" y="240" font-size="11" fill="#545454">connection, intimacy</text>
+      <rect x="480" y="268" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="492" y="298" font-size="13" font-weight="700" fill="#121212">Jester</text>
+      <text x="492" y="320" font-size="11" fill="#545454">joy, levity, truth via humor</text>
+      <rect x="480" y="348" width="200" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+      <text x="492" y="378" font-size="13" font-weight="700" fill="#121212">Rebel</text>
+      <text x="492" y="400" font-size="11" fill="#545454">disruption, breaking the rules</text>
+    </g>
+  </g>
+</svg>

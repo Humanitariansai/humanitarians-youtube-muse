@@ -1,0 +1,68 @@
+<!--
+  The milkshake reframe
+  Book: Branding and AI
+  Chapter: 04-the-brand-audience
+  Figure: 04
+  Type: timeline / process
+  Generated: 2026-06-18
+  Source: pantry/04-the-brand-audience-cajal.md
+-->
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04-04">
+  <title id="fig-title-04-04">The milkshake reframe</title>
+  <desc>Christensen's jobs-to-be-done case as four stages: demographic segmentation fails, direct observation, the real job identified, design changes that follow. The job is the pivot.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="04-the-brand-audience"
+      figure-number="04" figure-title="The milkshake reframe" figure-slug="the-milkshake-reframe"
+      figure-type="timeline / process" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/04-the-brand-audience-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="380" fill="#FFFFFF"/>
+  <defs><marker id="arrow0404" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker></defs>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Jobs to be done: how the milkshake question got reframed</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Customers do not buy products. They hire products to do a job.</text>
+
+  <!-- timeline axis -->
+  <line x1="48" y1="150" x2="668" y2="150" stroke="#121212" stroke-width="1"/>
+
+  <!-- markers -->
+  <!-- stage 1 -->
+  <circle cx="118" cy="150" r="6" fill="#787878"/>
+  <text x="118" y="118" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">1 · Segment</text>
+  <text x="118" y="98" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">by demographics</text>
+  <text x="118" y="182" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Usual cuts found</text>
+  <text x="118" y="196" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">nothing actionable.</text>
+
+  <!-- stage 2 -->
+  <circle cx="288" cy="150" r="6" fill="#787878"/>
+  <text x="288" y="118" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">2 · Observe</text>
+  <text x="288" y="98" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">the purchase</text>
+  <text x="288" y="182" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Bought early A.M. by</text>
+  <text x="288" y="196" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">commuters, alone.</text>
+
+  <!-- stage 3 RED pivot -->
+  <circle cx="458" cy="150" r="8" fill="#C8102E"/>
+  <text x="458" y="118" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#C8102E">3 · The real job</text>
+  <text x="458" y="98" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#C8102E">identified</text>
+  <text x="458" y="182" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"Make the commute</text>
+  <text x="458" y="196" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">tolerable; stay full</text>
+  <text x="458" y="210" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">until lunch, no mess."</text>
+
+  <!-- stage 4 -->
+  <circle cx="628" cy="150" r="6" fill="#787878"/>
+  <text x="628" y="118" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">4 · Design</text>
+  <text x="628" y="98" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">changes follow</text>
+  <text x="628" y="182" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Thicker, faster to</text>
+  <text x="628" y="196" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">dispense, wider straw.</text>
+
+  <!-- progression arrows along axis -->
+  <line x1="130" y1="150" x2="274" y2="150" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow0404)" fill="none"/>
+  <line x1="300" y1="150" x2="444" y2="150" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow0404)" fill="none"/>
+  <line x1="470" y1="150" x2="614" y2="150" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow0404)" fill="none"/>
+
+  <line x1="32" y1="252" x2="668" y2="252" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="32" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">The real competitor was not other milkshakes — it was a banana, a bagel, anything consumed one-handed.</text>
+  <text x="32" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#545454">A shared job unites a 22-year-old student and a 55-year-old executive that demographics would have split.</text>
+
+  <text x="32" y="352" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CHRISTENSEN, COMPETING AGAINST LUCK · CH. 4</text>
+</svg>

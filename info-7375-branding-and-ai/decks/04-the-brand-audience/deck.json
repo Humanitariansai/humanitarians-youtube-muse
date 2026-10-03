@@ -1,0 +1,590 @@
+{
+  "meta": {
+    "title": "The Brand Audience",
+    "short": "BRANDING · CH04",
+    "course": "Branding and AI · Chapter 04",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/04-the-brand-audience.md"
+  },
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "title",
+      "kicker": "Branding and AI · Chapter 04",
+      "title": "The Brand Audience",
+      "subtitle": "\"Everyone\" is not an audience. It is the most expensive way to reach no one.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02",
+      "section": "the founder",
+      "title": "A beautiful product and no traction",
+      "lead": "He told me his app was \"for everyone with a smartphone.\" Those two facts were related. Then one day he changed one sentence.",
+      "why": "the chapter opens on exactly this shape — one product, and 'the day he decided his product was for freelance designers who bill hourly and lose money to scope creep' everything downstream changed",
+      "archetype": "divergence",
+      "duration": 9.0,
+      "data": {
+        "startLabel": "one beautiful product",
+        "splitLabel": "the day he chose whose",
+        "tracks": [
+          {
+            "label": "\"for everyone with a smartphone\"",
+            "outcome": "no traction",
+            "tone": "warn",
+            "path": "down",
+            "notes": [
+              "no one to design for",
+              "no message, no channel to choose",
+              "the ad resonated with none"
+            ]
+          },
+          {
+            "label": "\"for freelance designers who lose money to scope creep\"",
+            "outcome": "traction",
+            "tone": "good",
+            "path": "up",
+            "notes": [
+              "the copy wrote itself",
+              "the channel was obvious",
+              "the first users arrived"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "section": "the cost of \"everyone\"",
+      "title": "The instinct is not laziness. It looks like ambition.",
+      "lead": "If your product is good, why would you *voluntarily* exclude anyone?",
+      "bullets": [
+        "Being useful to many people is not the same as being **for** a specific person. Those are different claims, and they activate different things in a buyer's mind.",
+        "\"This is for you\" is a signal that requires specificity to carry. \"This is for everyone\" carries no signal at all, because it requires no discrimination.",
+        "We are back in Spence territory: a signal is only as useful as the cost-structure that makes it informative. **\"For everyone\" is zero cost to say.**",
+        "It tells the listener nothing about whether the product understands their specific problem."
+      ]
+    },
+    {
+      "id": "S04",
+      "section": "the mechanism",
+      "title": "Three ways an undefined audience defeats you",
+      "lead": "The empirical consequences are predictable, and they converge.",
+      "why": "chapter names exactly three consequences — 'dilutes the message … wastes budget … corrupts the product roadmap' — and the figure has all three converging on 'a brand that becomes illegible'",
+      "archetype": "graph",
+      "duration": 8.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          {
+            "id": "ev",
+            "label": "\"everyone\"",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "msg",
+            "label": "diluted message",
+            "tone": "ink",
+            "layer": 1
+          },
+          {
+            "id": "bud",
+            "label": "wasted budget",
+            "tone": "ink",
+            "layer": 1
+          },
+          {
+            "id": "road",
+            "label": "corrupted roadmap",
+            "tone": "ink",
+            "layer": 1
+          },
+          {
+            "id": "ill",
+            "label": "an illegible brand",
+            "tone": "warn",
+            "layer": 2
+          }
+        ],
+        "edges": [
+          {
+            "from": "ev",
+            "to": "msg",
+            "label": "moves none"
+          },
+          {
+            "from": "ev",
+            "to": "bud",
+            "label": "no converts"
+          },
+          {
+            "from": "ev",
+            "to": "road",
+            "label": "no priority"
+          },
+          {
+            "from": "msg",
+            "to": "ill"
+          },
+          {
+            "from": "bud",
+            "to": "ill"
+          },
+          {
+            "from": "road",
+            "to": "ill"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "section": "the uncomfortable part",
+      "title": "Choosing an audience is choosing whom to disappoint",
+      "lead": "That refusal is not a limitation. It is what makes the brand legible.",
+      "bullets": [
+        "You cannot have a principled basis for deciding whose request matters most until you have decided whose requests you are listening to.",
+        "The founder was probably *right* that his product would help any knowledge worker. Being right about that did him no good at all.",
+        "Specificity is the cost that makes the signal informative — the same mechanism, all the way down from Chapter 2."
+      ]
+    },
+    {
+      "id": "S06",
+      "section": "the canonical spine",
+      "title": "STP: the sequence is the point",
+      "lead": "Segmentation, Targeting, Positioning. Each step is built on the one before it — and no step can be skipped.",
+      "why": "chapter states 'the sequence matters' and 'Positioning is built on top of targeting'; whether your own market clears each stage is a thing only your work can answer",
+      "archetype": "gatePipeline",
+      "duration": 8.0,
+      "data": {
+        "input": {
+          "label": "a market"
+        },
+        "gates": [
+          {
+            "label": "Segmentation",
+            "rule": "divide into groups with genuinely different needs",
+            "pass": null
+          },
+          {
+            "label": "Targeting",
+            "rule": "fit × winnability — a strategic bet",
+            "pass": null
+          },
+          {
+            "label": "Positioning",
+            "rule": "a specific place in the target's mind",
+            "pass": null
+          }
+        ],
+        "output": {
+          "label": "a chosen audience",
+          "pending": true
+        }
+      }
+    },
+    {
+      "id": "S07",
+      "section": "segmentation",
+      "title": "Five ways to cut the same population",
+      "lead": "Each basis gives you a different cut through one market. They are not equally good.",
+      "why": "chapter enumerates five named bases, each with its own listed sub-criteria — 'demographic (age, income, occupation), geographic (region, urban/rural density), behavioral …' — a genuine two-level taxonomy",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "ONE MARKET",
+        "centerShort": "ONE MARKET",
+        "groups": [
+          {
+            "label": "Demographic",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "age"
+              },
+              {
+                "label": "income"
+              },
+              {
+                "label": "occupation"
+              }
+            ]
+          },
+          {
+            "label": "Geographic",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "region"
+              },
+              {
+                "label": "urban / rural density"
+              }
+            ]
+          },
+          {
+            "label": "Behavioral",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "purchase frequency"
+              },
+              {
+                "label": "loyalty"
+              },
+              {
+                "label": "usage occasion"
+              }
+            ]
+          },
+          {
+            "label": "Psychographic",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "values"
+              },
+              {
+                "label": "lifestyle"
+              },
+              {
+                "label": "personality type"
+              }
+            ]
+          },
+          {
+            "label": "Needs-based",
+            "tone": "accent",
+            "children": [
+              {
+                "label": "what they are trying to accomplish"
+              },
+              {
+                "label": "a shared need, not a shared age"
+              },
+              {
+                "label": "this is what defines a segment"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "section": "the most common mistake",
+      "title": "\"Women 25–34\" is a description, not a segment",
+      "lead": "Stopping at demographics is where most audience work dies.",
+      "bullets": [
+        "The women in that description want dozens of different things — different jobs, different anxieties, different purchasing criteria.",
+        "What makes a group a **segment** is a shared *need*, not a shared demographic.",
+        "Two people with nothing demographically in common can belong to the same segment if they are trying to solve the same problem.",
+        "STP was formalized when marketing data was largely demographic and survey-based. The tools available shaped the bases. Behavioral data changed what is tractable."
+      ]
+    },
+    {
+      "id": "S09",
+      "section": "targeting",
+      "title": "A strategic bet with two inputs",
+      "lead": "Fit: does the segment's need connect to what you actually do well? Winnability: can you reach them, and can you be meaningfully better than what they use now?",
+      "why": "chapter names both disqualifying cases outright — 'a segment that is a perfect fit but unreachable is not a target. A reachable segment where you offer nothing distinctive is not a target either'",
+      "archetype": "matrixGrid",
+      "duration": 8.5,
+      "data": {
+        "rows": [
+          {
+            "label": "Fit"
+          },
+          {
+            "label": "Winnability"
+          }
+        ],
+        "cols": [
+          {
+            "label": "Perfect fit, unreachable"
+          },
+          {
+            "label": "Reachable, nothing distinctive"
+          },
+          {
+            "label": "Your candidate segment"
+          }
+        ],
+        "cells": [
+          [
+            "hit",
+            "miss",
+            "pending"
+          ],
+          [
+            "miss",
+            "hit",
+            "pending"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "section": "positioning, briefly",
+      "title": "There is no mental slot for \"everything\"",
+      "lead": "Positioning — which Chapter 6 develops fully — is claiming a specific place in the target's mind: what you are, who you are for, and why you over the alternatives.",
+      "bullets": [
+        "Positioning is built on top of targeting. It cannot be done first, and it cannot be done for everyone.",
+        "This is why the sequence in STP is not bureaucratic ordering. Skip a step and the next one has nothing to stand on.",
+        "Needs-based segmentation became tractable as behavioral data — purchase history, clickstream, usage logs — became available. **JTBD is what happens when you take it seriously all the way down.**"
+      ]
+    },
+    {
+      "id": "S11",
+      "section": "jobs to be done",
+      "title": "Customers do not buy products. They hire them.",
+      "lead": "Clayton Christensen's reframing, from *Competing Against Luck*, starts from an uncomfortable observation.",
+      "bullets": [
+        "The question stops being \"who is this person\" and becomes \"what job is this person hiring this thing to do?\"",
+        "Not what they *get* — that is the feature. What does having your work **accomplish** for them, in the context of the moment they turn to you?",
+        "\"I need to look competent in front of a nontechnical executive in forty-eight hours\" is specific enough to design for.",
+        "\"Software engineers\" is not."
+      ]
+    },
+    {
+      "id": "S12",
+      "section": "the milkshake",
+      "title": "The method, in four moves",
+      "lead": "A fast-food chain hired a research firm to increase milkshake sales. The usual segmentation found nothing actionable — so the team changed the question.",
+      "why": "chapter narrates the study as ordered stages with stated outcomes: demographic and psychographic segmentation 'found nothing actionable', then direct observation, then the job, then the design changes",
+      "archetype": "gatePipeline",
+      "duration": 8.5,
+      "data": {
+        "input": {
+          "label": "increase milkshake sales"
+        },
+        "gates": [
+          {
+            "label": "Segment by demographics",
+            "rule": "the usual cuts, done well",
+            "pass": false
+          },
+          {
+            "label": "Observe the purchase",
+            "rule": "early morning · commuters · eating alone",
+            "pass": true
+          },
+          {
+            "label": "Name the job",
+            "rule": "tolerable commute, full until lunch, no mess",
+            "pass": true
+          },
+          {
+            "label": "Name the real competitor",
+            "rule": "a banana, a granola bar, a bagel",
+            "pass": true
+          }
+        ],
+        "output": {
+          "label": "thicker · wider straw · faster to dispense"
+        }
+      }
+    },
+    {
+      "id": "S13",
+      "section": "why the job is the segment",
+      "title": "A job cuts across demographics. Demographics cannot cut across themselves.",
+      "lead": "A 22-year-old graduate student and a 55-year-old executive may hire the same brand for the same job.",
+      "bullets": [
+        "That shared job **is** the real segment.",
+        "If you had segmented by demographics, you would have separated them.",
+        "The shared job unites them in a way that actually predicts purchase and retention. The age bracket predicts nothing.",
+        "The real competitor is never the category. It is everything else that could do the job."
+      ]
+    },
+    {
+      "id": "S14",
+      "section": "the cultural lens",
+      "title": "The strongest brands resolve a tension, not a task",
+      "lead": "Douglas Holt, *How Brands Become Icons*: a contradiction or anxiety in the broader culture that a significant group feels and nobody is addressing.",
+      "bullets": [
+        "Nike in its early mass-market phase was not selling shoes to athletes. It spoke to an anxiety about personal achievement in an era of corporate downsizing. **\"Just Do It\" was not a product promise.** It was a resolution: effort is still meaningful, and here is the uniform for it.",
+        "Dove's \"Real Beauty\" ran the same structure. The soap had not changed. The brand took a position in a conversation no major personal-care brand had entered.",
+        "The cultural tension *was* the unserved segment.",
+        "So ask one more question after you have the job: what tension does this group live with that no brand in your space is currently resolving?"
+      ]
+    },
+    {
+      "id": "S15",
+      "section": "worked example",
+      "title": "From a description to something magnetic",
+      "lead": "My brand: helping working engineers decide whether to move into management. Watch the audience definition sharpen, one rung at a time.",
+      "why": "chapter climbs this exact ladder in the worked example — the demographic 'is where most people stop', then the need, then 'the JTBD framing sharpens it further', then the cultural tension, which is 'dramatically more magnetic'",
+      "archetype": "ladder",
+      "duration": 8.5,
+      "data": {
+        "lowLabel": "a description",
+        "highLabel": "magnetic to the right people",
+        "rungs": [
+          {
+            "label": "Demographic descriptor",
+            "note": "software engineers, mid-sized tech, ages 28–40 — where most people stop"
+          },
+          {
+            "label": "The need",
+            "note": "told I should manage · cannot find honest information about what the transition costs"
+          },
+          {
+            "label": "The job to be done",
+            "note": "decide under uncertainty without paying the full cost of learning through failure"
+          },
+          {
+            "label": "The cultural tension",
+            "note": "\"going to the dark side\" — losing the craft you were good at, gaining you-don't-know-what"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S16",
+      "section": "personas",
+      "title": "The plausible invention feels exactly like knowledge",
+      "lead": "A persona is a research artifact: a concrete portrait grounded in evidence. The failure mode — especially with AI-assisted work — is the vivid portrait with no referent in reality.",
+      "bullets": [
+        "It has a name, a job title, a commute, a weekend hobby, a fear. It is **specific enough to design for**, which is precisely the problem.",
+        "You will design for a person who may not exist, optimize for a problem they may not have, and ship into a gap that is not there.",
+        "What separates a real persona from an invention is what separated a separating signal from a pooling one: *verifiability*.",
+        "A real persona has at least one behavioral claim you can tie to evidence you could show someone — an interview quote, a support-ticket pattern, a forum thread in their own words."
+      ]
+    },
+    {
+      "id": "S17",
+      "section": "the rule I use",
+      "title": "Every non-trivial claim earns a status tag",
+      "lead": "Confirmed: I have evidence. Needs evidence: I believe it, unverified. Inferred: I derived it from something I did confirm.",
+      "why": "chapter tags each worked-example claim by name — Jordan's fear 'confirmed' from three forum threads, Jordan's async preference 'needs evidence', Alex's Slack use 'inferred … not directly confirmed for this specific persona'",
+      "archetype": "tallySplit",
+      "duration": 8.0,
+      "data": {
+        "left": {
+          "label": "Confirmed · you could show it",
+          "pending": true
+        },
+        "right": {
+          "label": "Needs evidence · a hypothesis",
+          "pending": true
+        },
+        "items": [
+          {
+            "label": "Jordan fears losing technical respect",
+            "side": "left"
+          },
+          {
+            "label": "Jordan prefers asynchronous learning",
+            "side": "right"
+          },
+          {
+            "label": "Alex lives in Slack (inferred)",
+            "side": "pending"
+          },
+          {
+            "label": "a name",
+            "side": "pending"
+          },
+          {
+            "label": "a job title",
+            "side": "pending"
+          },
+          {
+            "label": "a commute",
+            "side": "pending"
+          },
+          {
+            "label": "a weekend hobby",
+            "side": "pending"
+          },
+          {
+            "label": "a fear",
+            "side": "pending"
+          }
+        ],
+        "note": "Mostly 'needs evidence' = a hypothesis, not a research artifact."
+      }
+    },
+    {
+      "id": "S18",
+      "section": "the +1",
+      "title": "AI drafts the persona. It cannot decide the persona is true.",
+      "lead": "This is the exact point where AI assistance is most useful and most dangerous.",
+      "why": "the chapter's own When-to-use / When-not-to-use lists name the boundary and its three refused crossings — committing to a target segment, accepting a persona as real, inventing market-size statistics",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": {
+          "label": "WHAT AI MAY DRAFT"
+        },
+        "inside": [
+          {
+            "label": "candidate segments by need"
+          },
+          {
+            "label": "patterns from survey text"
+          },
+          {
+            "label": "persona scaffolds from notes"
+          },
+          {
+            "label": "tensions and hypotheses"
+          }
+        ],
+        "attempts": [
+          {
+            "label": "commit to a target",
+            "blocked": true,
+            "from": "left"
+          },
+          {
+            "label": "accept a persona as real",
+            "blocked": true,
+            "from": "right"
+          },
+          {
+            "label": "invent market size",
+            "blocked": true,
+            "from": "top"
+          },
+          {
+            "label": "your evidence",
+            "blocked": null,
+            "from": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S19",
+      "section": "where I am not sure",
+      "title": "Two things I cannot close",
+      "lead": "The honest limits of the two frameworks this chapter just sold you.",
+      "bullets": [
+        "**JTBD assumes the job is stable enough to be discovered by observation.** If purchase is substantially driven by social contagion — buying because others buy, with no stable underlying job — then the segmentation it enables may be post-hoc rationalization. The contagion evidence is real. I cannot fully reconcile it.",
+        "**The cultural lens works when it works.** Nike and Dove hit genuine moments. Plenty of brands ran the same methodology and produced campaigns that read as opportunistic.",
+        "The difference seems to involve whether the brand's behavior over time is consistent with the position, or whether the campaign is the first time it showed up in that conversation. I cannot reduce that to a clean principle."
+      ]
+    },
+    {
+      "id": "S20",
+      "section": "what this deck does not tell you",
+      "title": "Every grey slot is a thing you have to go and find out",
+      "lead": "The chapter states no market sizes, no conversion rates, no segment counts. So this deck states none.",
+      "bullets": [
+        "Whether *your* candidate segment clears fit and winnability — **TO RUN**.",
+        "How many of your persona claims are confirmed versus hypothesis — **TO RUN**, and the only way to fill it is contact with real humans.",
+        "Inventing market-size or behavior statistics is the one failure this whole chapter is built to prevent. A number you cannot show someone is worse than a blank."
+      ]
+    },
+    {
+      "id": "S21",
+      "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Name the segment. Then name whom you are willing to disappoint.",
+      "lead": "Draft three candidate segments by need or job — none of which could be summarized as \"people who like [adjective] things.\" Pick one. Write two personas, tag every claim, and go find the evidence for one of them this week."
+    }
+  ]
+}

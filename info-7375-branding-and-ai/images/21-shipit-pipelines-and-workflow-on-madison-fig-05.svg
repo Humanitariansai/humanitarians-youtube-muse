@@ -1,0 +1,55 @@
+<!--
+  Degraded mode taxonomy — four levels
+  Book: Branding and AI
+  Chapter: 21-shipit-pipelines-and-workflow-on-madison
+  Figure: 05
+  Type: hierarchy / progression
+  Generated: 2026-06-18
+  Source: pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-21-05">
+  <title id="fig-title-21-05">Degraded mode taxonomy — four levels</title>
+  <desc>Four degraded modes in increasing order of robustness: informative failure, partial degradation, fallback source, graceful staleness — each with its behavior and when to use it.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="21-shipit-pipelines-and-workflow-on-madison"
+      figure-number="05" figure-title="Degraded mode taxonomy — four levels"
+      figure-slug="degraded-mode-taxonomy" figure-type="hierarchy / progression"
+      priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">A degraded mode answers: what does my product do when this contract fails?</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Four levels, ascending in robustness. Each rung adds resilience over the one below it.</text>
+
+  <!-- robustness axis -->
+  <text x="50" y="392" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" transform="rotate(-90 50 240)">increasing robustness</text>
+  <defs><marker id="arrow2105" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#545454"/></marker></defs>
+  <line x1="60" y1="392" x2="60" y2="92" stroke="#545454" stroke-width="1.5" fill="none" marker-end="url(#arrow2105)"/>
+
+  <!-- Rung 4 (top, most robust) -->
+  <rect x="84" y="92" width="584" height="68" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="100" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">4 · Graceful staleness</text>
+  <text x="100" y="138" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Serve the last successful result, with a visible timestamp.</text>
+  <text x="100" y="154" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">USE WHEN: stale data is more useful than no data, and the staleness can be made legible.</text>
+
+  <!-- Rung 3 -->
+  <rect x="84" y="170" width="584" height="68" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="100" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">3 · Fallback source</text>
+  <text x="100" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Replace the broken dependency with an alternative.</text>
+  <text x="100" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">USE WHEN: a comparable second source exists (swap the Reddit node for an RSS node).</text>
+
+  <!-- Rung 2 -->
+  <rect x="84" y="248" width="584" height="68" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="100" y="274" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">2 · Partial degradation</text>
+  <text x="100" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Disable the broken feature; the rest of the product continues.</text>
+  <text x="100" y="310" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">USE WHEN: the feature is separable and the product is still valuable without it.</text>
+
+  <!-- Rung 1 (bottom, minimum viable) -->
+  <rect x="84" y="326" width="584" height="68" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="100" y="352" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">1 · Informative failure</text>
+  <text x="100" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Detect the break; show a clear message instead of an opaque error.</text>
+  <text x="100" y="388" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">USE WHEN: always — the minimum viable degraded mode. This is what Selig did.</text>
+
+  <text x="32" y="424" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 21, THREE SURVIVAL DISCIPLINES — DEGRADED MODES</text>
+</svg>

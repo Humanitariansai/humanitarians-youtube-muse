@@ -1,0 +1,51 @@
+<!--
+  The GitHub signal collapse, 2004-2024
+  Book: Branding and AI
+  Chapter: 01-the-creative-engineer
+  Figure: 03
+  Type: timeline
+  Generated: 2026-06-18
+  Source: pantry/01-the-creative-engineer-cajal.md
+-->
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01-03">
+  <title id="fig-title-01-03">The GitHub signal collapse, 2008–2024</title>
+  <desc>Timeline showing how fast the build signal pooled: GitHub launches 2008, Copilot 2021, Peng et al. 2023, and 82 percent of developers using AI by 2024.</desc>
+  <rect x="0" y="0" width="720" height="320" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The compression of the signal collapse</text>
+
+  <!-- axis -->
+  <line x1="60" y1="190" x2="680" y2="190" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- markers; spacing tightens 2021->2024 to show acceleration -->
+  <!-- 2008 GitHub -->
+  <line x1="100" y1="190" x2="100" y2="178" stroke="#121212" stroke-width="1"/>
+  <circle cx="100" cy="190" r="5" fill="#787878"/>
+  <text x="100" y="214" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454" text-anchor="middle">2008</text>
+  <text x="100" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">GitHub launches</text>
+  <text x="100" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">repo = costly signal</text>
+
+  <!-- 2021 Copilot -->
+  <line x1="430" y1="190" x2="430" y2="178" stroke="#121212" stroke-width="1"/>
+  <circle cx="430" cy="190" r="5" fill="#787878"/>
+  <text x="430" y="214" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454" text-anchor="middle">2021</text>
+  <text x="430" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">Copilot launches</text>
+
+  <!-- 2023 Peng -->
+  <line x1="540" y1="190" x2="540" y2="178" stroke="#121212" stroke-width="1"/>
+  <circle cx="540" cy="190" r="5" fill="#787878"/>
+  <text x="540" y="214" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454" text-anchor="middle">2023</text>
+  <text x="540" y="244" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">Peng et al. (56%)</text>
+
+  <!-- 2024 82% (RED focal) -->
+  <line x1="640" y1="190" x2="640" y2="170" stroke="#121212" stroke-width="1"/>
+  <circle cx="640" cy="190" r="7" fill="#C8102E"/>
+  <text x="640" y="214" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454" text-anchor="middle">2024</text>
+  <text x="640" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212" text-anchor="middle">82% use AI</text>
+  <text x="640" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">signal pooled</text>
+
+  <!-- acceleration bracket -->
+  <line x1="430" y1="262" x2="640" y2="262" stroke="#121212" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="535" y="282" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">three years from tool to population</text>
+
+  <text x="32" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: PENG ET AL. (2023); 2024 STACK OVERFLOW DEVELOPER SURVEY</text>
+</svg>

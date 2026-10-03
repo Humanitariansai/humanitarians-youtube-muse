@@ -1,0 +1,81 @@
+<!--
+  The strategy-experience gap
+  Book: Branding and AI
+  Chapter: 11-brand-experience-and-touchpoints
+  Figure: 01
+  Type: systems diagram (two-layer)
+  Generated: 2026-07-02
+  Source: pantry/11-brand-experience-and-touchpoints-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-11-01">
+  <title id="fig-title-11-01">The strategy-experience gap</title>
+  <desc>Two layers: the brand strategy the company knows (positioning, archetype, visual identity) and the brand experience the customer meets (ad, onboarding email, support chat, error message, cancellation flow). Equity leaks where an un-designed operational touchpoint contradicts the strategy.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The gap: what the company knows vs. what the customer experiences</text>
+
+  <!-- strategy layer -->
+  <text x="40" y="72" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#545454" font-weight="700">Brand strategy — what the company knows</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">
+    <rect x="60"  y="84" width="160" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="140" y="111">Positioning</text>
+    <rect x="270" y="84" width="160" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="350" y="111">Archetype</text>
+    <rect x="480" y="84" width="160" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="560" y="111">Visual identity</text>
+  </g>
+
+  <!-- "strategy covers these" bracket under strategy boxes -->
+  <!-- bracket: horizontal bar from x=60 to x=640, with end ticks down -->
+  <g stroke="#D4D4D4" stroke-width="1.5" fill="none">
+    <line x1="60"  y1="144" x2="640" y2="144"/>
+    <line x1="60"  y1="144" x2="60"  y2="154"/>
+    <line x1="640" y1="144" x2="640" y2="154"/>
+  </g>
+  <text x="350" y="168" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" text-anchor="middle">strategy defines these touchpoints</text>
+
+  <!-- downward arrows from bracket to designed touchpoints -->
+  <g stroke="#D4D4D4" stroke-width="1" marker-end="url(#arrowgray)">
+    <defs>
+      <marker id="arrowgray" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto">
+        <polygon points="0 0, 6 2.5, 0 5" fill="#D4D4D4"/>
+      </marker>
+      <marker id="arrownone" markerWidth="1" markerHeight="1" refX="0" refY="0" orient="auto"/>
+    </defs>
+    <line x1="95"  y1="174" x2="95"  y2="302"/>
+    <line x1="215" y1="174" x2="215" y2="302"/>
+    <line x1="455" y1="174" x2="455" y2="302"/>
+    <line x1="580" y1="174" x2="580" y2="302"/>
+  </g>
+
+  <!-- experience layer -->
+  <text x="40" y="294" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#545454" font-weight="700">Brand experience — what the customer meets</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">
+    <rect x="40"  y="306" width="110" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="95"  y="333">Ad</text>
+
+    <rect x="160" y="306" width="110" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="215" y="327">Onboarding</text>
+    <text x="215" y="341" font-size="10" fill="#545454">email</text>
+
+    <!-- the gap: support chat, no arrow from above, red border -->
+    <rect x="280" y="306" width="110" height="44" fill="#FFF5F5" stroke="#C8102E" stroke-width="2"/>
+    <text x="335" y="327" fill="#C8102E">Support chat</text>
+    <text x="335" y="341" font-size="10" fill="#C8102E">un-designed</text>
+
+    <rect x="400" y="306" width="110" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="455" y="327">Error</text>
+    <text x="455" y="341" font-size="10" fill="#545454">message</text>
+
+    <rect x="520" y="306" width="120" height="44" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="580" y="327">Cancellation</text>
+    <text x="580" y="341" font-size="10" fill="#545454">flow</text>
+  </g>
+
+  <!-- no-coverage indicator above support chat -->
+  <text x="335" y="292" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="16" fill="#C8102E" text-anchor="middle">✕</text>
+
+  <text x="335" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">↑ equity leaks at the touchpoint nobody designed</text>
+
+  <text x="32" y="414" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">A brilliant positioning statement that contradicts the support experience loses to the support experience — every time.</text>
+  <text x="32" y="430" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">People believe what happens to them, not what you claim.</text>
+</svg>

@@ -1,0 +1,676 @@
+{
+  "meta": {
+    "title": "The Fundamental Themes",
+    "short": "BRANDING · CH97",
+    "course": "Branding and AI · Chapter 97",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/97-fundamental-themes.md"
+  },
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "title",
+      "kicker": "Branding and AI · Chapter 97",
+      "title": "The Fundamental Themes",
+      "subtitle": "Frictional · Phase Gates · Humans + AI",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02",
+      "section": "one sentence",
+      "title": "The whole argument, before we take it apart",
+      "lead": "Learning requires struggle, teaching requires judgment, and AI that does either *for* you produces the appearance of both without the substance.",
+      "bullets": [
+        "The answer is not less AI.",
+        "The answer is **a precise division of labor between what machines do well and what human cognition alone constitutes.**",
+        "Everything that follows — the taxonomy, the phase gate, AI+1, Brutalist, Boondoggling — is that one sentence, worked out at four different scales."
+      ]
+    },
+    {
+      "id": "S03",
+      "section": "theme one",
+      "title": "Frictional: the struggle *is* the mechanism",
+      "lead": "The central claim is neurobiological before it is pedagogical. Genuine learning is not a mental event with neurological correlates. It is a biological event.",
+      "bullets": [
+        "Prediction error → dopamine fires, BDNF upregulates, synapses strengthen, dendritic spines form. **These are the physical events that constitute memory** — and they are triggered by cognitive friction.",
+        "The Bastani finding is precise: students who used AI freely during math practice scored **48% higher during practice** and **17 percentage points lower** on the unassisted exam.",
+        "The Kosmyna EEG study makes it visible: up to **55% reduction** in functional brain connectivity during AI-assisted writing versus brain-only writing.",
+        "They felt like they had learned. **The artifact was fine. The brain was unchanged.**"
+      ]
+    },
+    {
+      "id": "S04",
+      "section": "theme two",
+      "title": "Phase gates: the explicit boundary",
+      "lead": "The phase gate is the operational form of the Frictional principle. Not a vague commitment to \"using AI responsibly\" — a specification: AI handles X, human handles Y, the gate is at Z.",
+      "bullets": [
+        "**Extraneous load** — formatting citations, organizing sources, drafting routine communications, generating templates. Friction that impedes learning without constituting it. Delegate it.",
+        "**Germane load** — synthesizing conflicting evidence, constructing an argument, setting up a problem, forming a clinical judgment. This *is* the learning. Delegate it and you delegate the learning.",
+        "**Teachers:** AI handles preparation → human does the teaching. **Students:** AI handles scaffolding → human does the thinking. Inverse gates, same logic.",
+        "Without a gate, the path of least resistance is to let AI do more and more until the human is a reviewer of AI output rather than a practitioner of a discipline."
+      ]
+    },
+    {
+      "id": "S05",
+      "section": "theme three",
+      "title": "Humans + AI, not humans *or* AI",
+      "lead": "The false choice in every public conversation about AI is: use it or don't. Embrace or resist. Replace or reject.",
+      "bullets": [
+        "The actual question is: **what is AI for?**",
+        "Answering it requires a taxonomy — not a vague claim that \"some things are irreducibly human,\" but a specific account of which cognitive capacities machines cannot currently perform reliably, and why.",
+        "AI has decisively won Tier 1. For everything else the situation is more complicated — and **the complication is precisely what this series teaches.**"
+      ]
+    },
+    {
+      "id": "S06",
+      "section": "the unified argument",
+      "title": "Three levels of one claim",
+      "lead": "Frictional is the biological level. Phase gates are the operational level — the Frictional principle made actionable, sitting at the Tier 1 / Tier 4 boundary. Humans + AI is the design level.",
+      "why": "chapter states the dependency chain explicitly: 'The phase gate is the operational form of the Frictional principle' and 'The phase gate follows from the taxonomy … it sits at the Tier 1 / Tier 4 boundary'",
+      "archetype": "graph",
+      "duration": 9.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          {
+            "id": "ai",
+            "label": "AI does it for you",
+            "tone": "warn",
+            "layer": 0
+          },
+          {
+            "id": "pe",
+            "label": "prediction error",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "neuro",
+            "label": "dopamine · BDNF",
+            "tone": "ink",
+            "layer": 1
+          },
+          {
+            "id": "learn",
+            "label": "durable learning",
+            "tone": "good",
+            "layer": 2
+          },
+          {
+            "id": "gate",
+            "label": "the phase gate",
+            "tone": "accent",
+            "layer": 3
+          },
+          {
+            "id": "div",
+            "label": "AI : human labor",
+            "tone": "ink",
+            "layer": 4
+          }
+        ],
+        "edges": [
+          {
+            "from": "pe",
+            "to": "neuro",
+            "label": "friction"
+          },
+          {
+            "from": "ai",
+            "to": "neuro",
+            "label": "bypass"
+          },
+          {
+            "from": "neuro",
+            "to": "learn"
+          },
+          {
+            "from": "learn",
+            "to": "gate"
+          },
+          {
+            "from": "gate",
+            "to": "div"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "section": "the taxonomy",
+      "title": "The tier ladder, from machine territory upward",
+      "lead": "Not a vague claim. A specific account of where machines win, where they are weak, where they are unreliable, and where they are simply absent.",
+      "why": "chapter presents the taxonomy as an explicitly ordered ladder — Tier 1 'machines win', Tier 2 'constrained by physics', Tier 4 'AI is weak', Tier 5 'AI is unreliable', Tiers 6 and 7 'AI is absent', Tier 7 'the deepest tier'; Tier 3 is referenced but never defined here",
+      "archetype": "ladder",
+      "duration": 9.0,
+      "data": {
+        "lowLabel": "machine territory",
+        "highLabel": "irreducibly human",
+        "rungs": [
+          {
+            "label": "Tier 1 · Pattern & Association",
+            "note": "machines win — decisively"
+          },
+          {
+            "label": "Tier 2 · Embodied & Sensorimotor",
+            "note": "constrained by physics"
+          },
+          {
+            "label": "",
+            "pending": true
+          },
+          {
+            "label": "Tier 4 · Metacognitive & Supervisory",
+            "note": "AI is weak here"
+          },
+          {
+            "label": "Tier 5 · Causal & Counterfactual",
+            "note": "AI is unreliable here"
+          },
+          {
+            "label": "Tier 6 · Collective & Distributed",
+            "note": "AI is absent here"
+          },
+          {
+            "label": "Tier 7 · Existential & Wisdom",
+            "note": "AI is absent here — the deepest tier"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "section": "tier one",
+      "title": "Stop teaching humans to compete here",
+      "lead": "AI is superhuman at pattern recognition, statistical association and retrieval. It has read more text than any human ever will.",
+      "bullets": [
+        "Statistical pattern-finding, information retrieval and surface synthesis, recognising what looks like X, predicting what typically follows Y, formatting and structuring, generating text that conforms to established patterns, adjusting complexity, flagging errors in well-defined domains.",
+        "**Humans competing with AI on pattern recognition is malpractice** — a waste of the cognitive capacity that should be directed at the tiers where humans still have the decisive advantage.",
+        "What AI cannot do *even here*: evaluate whether the pattern it found is the right pattern to care about, decide which associations are causal and which are spurious, know when the pattern breaks.",
+        "**These failures are invisible from inside the pattern.**"
+      ]
+    },
+    {
+      "id": "S09",
+      "section": "tiers four to seven",
+      "title": "The capacities, named",
+      "lead": "Not generic capacities dressed in domain vocabulary. Specific judgments, evaluations, and reasoning moves.",
+      "why": "chapter enumerates 'The specific capacities in this tier' four times over — four named capacities each under Tier 4, Tier 5, Tier 6 and Tier 7 — a genuine two-level taxonomy",
+      "archetype": "sunburst",
+      "duration": 10.0,
+      "data": {
+        "center": "TIERS 4–7",
+        "centerShort": "TIERS 4–7",
+        "groups": [
+          {
+            "label": "T4 · Metacognitive",
+            "tone": "accent",
+            "children": [
+              {
+                "label": "plausibility audit"
+              },
+              {
+                "label": "problem formulation"
+              },
+              {
+                "label": "when to distrust"
+              },
+              {
+                "label": "calibration"
+              }
+            ]
+          },
+          {
+            "label": "T5 · Causal",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "identification"
+              },
+              {
+                "label": "confounding"
+              },
+              {
+                "label": "counterfactuals"
+              },
+              {
+                "label": "causal defense"
+              }
+            ]
+          },
+          {
+            "label": "T6 · Collective",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "productive disagreement"
+              },
+              {
+                "label": "humility with backbone"
+              },
+              {
+                "label": "synthesis under tension"
+              },
+              {
+                "label": "institutional judgment"
+              }
+            ]
+          },
+          {
+            "label": "T7 · Wisdom",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "values integration"
+              },
+              {
+                "label": "ethical reasoning"
+              },
+              {
+                "label": "what to ask"
+              },
+              {
+                "label": "accountability"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "section": "why tier four is structural",
+      "title": "The same weights that produced the output are the weights doing the audit",
+      "lead": "AI is structurally weak at metacognition and supervision, for one reason — and it is not a temporary one.",
+      "bullets": [
+        "A model cannot reliably flag its own errors because it cannot step outside its own patterns. **The plausibility check that catches AI errors must come from outside the model.**",
+        "AI does not know its own limits. It is confident where it should be uncertain and uncertain where it should be confident, with no reliable signal about which is which.",
+        "AI produces text calibrated for **fluency**, not for epistemic accuracy. Students who outsource their thinking inherit that miscalibration.",
+        "**Students who cannot audit AI outputs are not more capable for having AI — they are more confidently wrong.**"
+      ]
+    },
+    {
+      "id": "S11",
+      "section": "the division of labor",
+      "title": "AI does AI things. Humans do human things.",
+      "lead": "Neither replaces the other. The teacher who uses AI for preparation does more teaching. The engineer who uses AI for estimation — after doing the identification layer herself — produces more defensible conclusions.",
+      "why": "chapter sorts the work into exactly two named buckets: 'AI does AI things (Tier 1 tasks)' and 'Humans do human things (Tiers 4–7)' — and does not enumerate the split for any particular field",
+      "archetype": "tallySplit",
+      "duration": 9.0,
+      "data": {
+        "left": {
+          "label": "AI · Tier 1",
+          "pending": true
+        },
+        "right": {
+          "label": "Human · Tiers 4–7",
+          "pending": true
+        },
+        "items": [
+          {
+            "label": "generate structure",
+            "side": "left"
+          },
+          {
+            "label": "retrieve information",
+            "side": "left"
+          },
+          {
+            "label": "adjust complexity",
+            "side": "left"
+          },
+          {
+            "label": "calibrated feedback",
+            "side": "left"
+          },
+          {
+            "label": "format & organise",
+            "side": "left"
+          },
+          {
+            "label": "plausibility audit",
+            "side": "right"
+          },
+          {
+            "label": "the identification layer",
+            "side": "right"
+          },
+          {
+            "label": "institutional judgment",
+            "side": "right"
+          },
+          {
+            "label": "what question is worth asking",
+            "side": "right"
+          },
+          {
+            "label": "accountability",
+            "side": "right"
+          },
+          {
+            "label": "your field's Tier 1 list",
+            "side": "pending"
+          },
+          {
+            "label": "your field's Tier 4–7 list",
+            "side": "pending"
+          }
+        ],
+        "note": "AI stops at the gate because the work on the other side is what makes AI safe to use."
+      }
+    },
+    {
+      "id": "S12",
+      "section": "the market",
+      "title": "The premium, on one axis",
+      "lead": "The PwC 2025 Global AI Jobs Barometer analysed approximately one billion job ads. This is where the taxonomy meets the market.",
+      "why": "chapter states each of these figures directly: a 56% wage premium in 2024 'doubled from 25% the prior year', and 'Practical AI skills get a 19–23% premium vs. 9–11% for credentials alone'",
+      "archetype": "scaleAxis",
+      "duration": 8.0,
+      "data": {
+        "axis": {
+          "min": 0,
+          "max": 60,
+          "unit": "% wage premium",
+          "log": false
+        },
+        "band": {
+          "from": 19,
+          "to": 23,
+          "label": "what practical skill pays"
+        },
+        "items": [
+          {
+            "label": "credentials alone",
+            "value": 9,
+            "value2": 11
+          },
+          {
+            "label": "practical AI skills",
+            "value": 19,
+            "value2": 23
+          },
+          {
+            "label": "AI-skilled · prior year",
+            "value": 25
+          },
+          {
+            "label": "AI-skilled · 2024",
+            "value": 56,
+            "hot": true
+          },
+          {
+            "label": "your field",
+            "value": 30,
+            "pending": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "section": "the hiring signal",
+      "title": "The credential matters less. The demonstrated capability matters more.",
+      "lead": "Jobs requiring AI skills grew **7.5%** even as total job postings fell **11.3%**. The premium applies across every industry analysed — marketing managers, financial analysts, clinicians, lawyers, teachers. Not just tech.",
+      "bullets": [
+        "Less than **40%** of employers screen by GPA — the third straight year of decline.",
+        "Nearly two-thirds use skills-based hiring all or most of the time.",
+        "Degree requirements fell **7–9 percentage points** in AI-exposed jobs from **2019–2024**. Internship and co-op experience is the dominant entry-level hiring signal.",
+        "**This is the market telling educators what to teach.**"
+      ]
+    },
+    {
+      "id": "S14",
+      "section": "the arrow",
+      "title": "The wrong arrow and the right one",
+      "lead": "The critical specification: the premium goes to AI-fluent domain experts **who stay in their domain**.",
+      "why": "chapter names both arrows from a shared origin — 'The default AI education frame runs: your domain → become a technologist … The right arrow runs: your domain + AI superpowers' — and names the outcome of each",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "your domain",
+        "splitLabel": "which arrow?",
+        "tracks": [
+          {
+            "label": "domain + AI superpowers",
+            "outcome": "what the premium buys",
+            "tone": "good",
+            "path": "up",
+            "notes": [
+              "the lawyer still practices",
+              "AI handles Tier 1 in that domain",
+              "the human keeps Tiers 4–7"
+            ]
+          },
+          {
+            "label": "become a technologist",
+            "outcome": "an engineer at Westlaw",
+            "tone": "warn",
+            "path": "down",
+            "notes": [
+              "Lawyer → LegalTech Engineer",
+              "for designers, nowhere to land",
+              "not what the market is paying for"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S15",
+      "section": "two paths",
+      "title": "Plus One and Bridge",
+      "lead": "Both paths apply the same framework. The domain expertise is the student's; the phase gate is specified for the student's actual field.",
+      "bullets": [
+        "**AI+1 Plus One** — the residential one-year master's for recent graduates and early-career professionals. Four courses transferred from the undergraduate degree plus four new AI+1 courses. The co-op pathway is preserved.",
+        "The curriculum renders in domain-specific variants matched to the cohort: **eight designers and four lawyers gets a different curriculum than six clinicians and six teachers.**",
+        "**AI+1 Bridge** — the online master's for mid-career professionals, accepting prior coursework and replacing co-op with an employer-tied capstone.",
+        "A generic AI literacy course cannot do this. A course taught in legal vocabulary, with legal worked examples, by someone who understands where AI fails in legal reasoning — that is a different product."
+      ]
+    },
+    {
+      "id": "S16",
+      "section": "brutalist",
+      "title": "Maximally informed, minimally autonomous, by design",
+      "lead": "AI code generation and AI creative generation share a pathology: they run ahead of human intent, lose track of what they have done, and cross into decisions that belong to the human.",
+      "bullets": [
+        "This is the creative version of the fluency trap. **The output looks finished. The human did not make the decisions that matter. The work is not quite theirs.**",
+        "**`CLAUDE.md`** — the technical constitution. Naming conventions, canonical patterns, what the AI must never touch without instruction.",
+        "**`DESIGN.md`** — the visual constitution. The complete palette is six colour variables; requests for more go back to the human layer. This is not a guideline. It is a boundary.",
+        "**`PROJECT.md`** — intent layer plus technical state. Generation does not begin until both layers are populated. Six principles enforce the sequence, and no phase is skipped under deadline pressure."
+      ]
+    },
+    {
+      "id": "S17",
+      "section": "refusal behavior",
+      "title": "Brutalist says no. It does not flag and proceed — it stops.",
+      "lead": "The AI generates code; the human runs it, watches it, and decides whether it is accepted. Creative judgment, aesthetic direction and strategic calls live permanently in the human layer.",
+      "why": "chapter draws the boundary and names the refused crossings: 'When the human asks the AI to perform a task that belongs in the human layer — make a creative judgment, auto-apply a change, choose between two aesthetic directions — the system declines and explains why'",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": {
+          "label": "WHAT THE AI HANDLES"
+        },
+        "inside": [
+          {
+            "label": "syntax and code generation"
+          },
+          {
+            "label": "naming conventions"
+          },
+          {
+            "label": "consistency enforcement"
+          },
+          {
+            "label": "render pipeline execution"
+          }
+        ],
+        "attempts": [
+          {
+            "label": "make a creative judgment",
+            "blocked": true,
+            "from": "left"
+          },
+          {
+            "label": "auto-apply a change",
+            "blocked": true,
+            "from": "top"
+          },
+          {
+            "label": "a seventh colour",
+            "blocked": true,
+            "from": "right"
+          },
+          {
+            "label": "decide it is good",
+            "blocked": true,
+            "from": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S18",
+      "section": "liberation",
+      "title": "The prerequisite was never the point",
+      "lead": "The standard fear is that AI replaces the artist. The Brutalist argument is the opposite: AI removes the technical barrier that was preventing the artist from doing the work that is actually theirs.",
+      "bullets": [
+        "Every creative domain has a technical layer — syntax, keyframes, code, render pipeline, file management. These are Tier 1 tasks. **They have always been the price of entry. They have never been the point.**",
+        "Before AI, artists had to buy the technical capacity before they could reach the creative work. **This is the educational equivalent of teaching students to be slower calculators before teaching them mathematics.**",
+        "Brutalist removes the prerequisite without removing the destination.",
+        "The pipeline is the conductor. **The artist is the composer. The AI is the orchestra** — technically capable, and entirely dependent on the score the human writes."
+      ]
+    },
+    {
+      "id": "S19",
+      "section": "boondoggling",
+      "title": "Anyone can use Claude Code. Boondogglers conduct it.",
+      "lead": "The Gru Part: the human's actions in dependency order, each labelled with the supervisory capacity being exercised — and a specific, testable handoff condition between every step.",
+      "why": "chapter: 'Between every Claude task and every human task is a handoff condition: not \"looks good\" but a specific, testable condition that must be true about Claude's output before the next step begins. This is what gives the separation teeth.'",
+      "archetype": "gatePipeline",
+      "duration": 9.0,
+      "data": {
+        "input": {
+          "label": "Claude's output, in dependency order"
+        },
+        "gates": [
+          {
+            "label": "[PF] Problem Formulation",
+            "rule": "Claude optimises within the frame — is the frame right?",
+            "pass": null
+          },
+          {
+            "label": "[PA] Plausibility Auditing",
+            "rule": "hear the wrong note before you recompute it",
+            "pass": null
+          },
+          {
+            "label": "[TO] Tool Orchestration",
+            "rule": "which tool, in what order, with what constraints",
+            "pass": null
+          },
+          {
+            "label": "[IJ] Interpretive Judgment",
+            "rule": "what it means for this user, this deadline",
+            "pass": null
+          },
+          {
+            "label": "[EI] Executive Integration",
+            "rule": "hold the whole build — and the accountability",
+            "pass": null
+          }
+        ],
+        "output": {
+          "label": "a system you sign your name to",
+          "pending": true
+        }
+      }
+    },
+    {
+      "id": "S20",
+      "section": "the dangerous zone",
+      "title": "Not where Claude fails visibly — where it succeeds fluently at the wrong task",
+      "lead": "Claude solves faster than any human, and that gap will widen. What will not change is what Claude cannot do.",
+      "bullets": [
+        "It cannot verify whether its output is grounded in the specific domain reality at hand. It cannot reframe a poorly formulated problem. It cannot supply accountability when the system ships.",
+        "**These are not temporary limitations. They are structural. They are Tiers 4–7.**",
+        "The problem with most AI-assisted builds is not that the human is doing too much — it is that the human is doing the *wrong* things: approving output rather than evaluating it, filling in context that should have been in the specification, writing more prompts when the right move is to stop and reformulate.",
+        "Gru's success condition is not a good SDD. **A sophisticated document built on an unformulated problem looks like rigor — and teaches the engineer that rigor is a format, not a practice.**"
+      ]
+    },
+    {
+      "id": "S21",
+      "section": "one framework",
+      "title": "The argument is one. The applications are many.",
+      "lead": "Each is a different instantiation of the same claim, at a different scale.",
+      "why": "chapter closes with an explicit hub-and-spoke: 'the Irreducibly Human taxonomy and phase gate at the center, and four spokes to peer instantiations — AI+1 (employment economics), Brutalist (creative production), Boondoggling (software engineering), and Frictional (the empirical foundation)'",
+      "archetype": "graph",
+      "duration": 8.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          {
+            "id": "fric",
+            "label": "Frictional",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "core",
+            "label": "taxonomy + phase gate",
+            "tone": "accent",
+            "layer": 1
+          },
+          {
+            "id": "ai1",
+            "label": "AI+1",
+            "tone": "ink",
+            "layer": 2
+          },
+          {
+            "id": "brut",
+            "label": "Brutalist",
+            "tone": "ink",
+            "layer": 2
+          },
+          {
+            "id": "boon",
+            "label": "Boondoggling",
+            "tone": "ink",
+            "layer": 2
+          }
+        ],
+        "edges": [
+          {
+            "from": "fric",
+            "to": "core",
+            "label": "the empirical foundation"
+          },
+          {
+            "from": "core",
+            "to": "ai1",
+            "label": "employment economics"
+          },
+          {
+            "from": "core",
+            "to": "brut",
+            "label": "creative production"
+          },
+          {
+            "from": "core",
+            "to": "boon",
+            "label": "software engineering"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S22",
+      "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Draw your own gate. Then defend where you put it.",
+      "lead": "Write down the Tier 1 work in your field that you should delegate, and the Tier 4–7 work that is the reason anyone pays you. Specify the gate between them, make it explicit, and enforce it. The tools will change. The taxonomy will shift at the margins. The neurobiological requirement for cognitive struggle to produce durable capability will not."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<!--
+  The Pepsi three-layer mismatch
+  Book: Branding and AI
+  Chapter: 10-brand-voice-and-storytelling
+  Figure: 05
+  Type: annotated example
+  Generated: 2026-06-18
+  Source: pantry/10-brand-voice-and-storytelling-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-10-05">
+  <title id="fig-title-10-05">The Pepsi Live for Now three-layer mismatch</title>
+  <desc>The Pepsi case as a three-way divergence: the story shape attempted was a Hero's Journey, the brand's actual archetype was Innocent, and the cultural content was borrowed from the Outlaw — three mismatches producing one catastrophe.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="10-brand-voice-and-storytelling" figure-number="05"
+      figure-title="The Pepsi three-layer mismatch"
+      figure-slug="pepsi-three-layer-mismatch"
+      figure-type="annotated example" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/10-brand-voice-and-storytelling-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The Pepsi "Live for Now" three-layer mismatch</text>
+  <text x="32" y="58" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Three layers pulling in three directions — one catastrophe, pulled within 24 hours.</text>
+
+  <!-- Central origin point -->
+  <circle cx="200" cy="230" r="4" fill="#121212"/>
+  <text x="170" y="218" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">one ad</text>
+
+  <!-- Three diverging arrows -->
+  <defs>
+    <marker id="arrow-10-05" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- Layer 1: Story shape -->
+  <line x1="208" y1="222" x2="392" y2="118" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow-10-05)"/>
+  <rect x="400" y="96" width="268" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="416" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Story shape attempted</text>
+  <text x="416" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Hero's Journey</text>
+
+  <!-- Layer 2: Actual archetype -->
+  <line x1="210" y1="230" x2="392" y2="230" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow-10-05)"/>
+  <rect x="400" y="202" width="268" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="416" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Brand's actual archetype</text>
+  <text x="416" y="246" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Innocent</text>
+
+  <!-- Layer 3: Cultural content (RED focal) -->
+  <line x1="208" y1="238" x2="392" y2="342" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow-10-05)"/>
+  <rect x="400" y="320" width="268" height="56" fill="#121212" stroke="#121212" stroke-width="1"/>
+  <text x="416" y="344" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#FFFFFF">Cultural content borrowed from</text>
+  <text x="416" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Outlaw — protest imagery</text>
+
+  <!-- Note -->
+  <text x="40" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">The borrowing was</text>
+  <text x="40" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">visible as borrowing —</text>
+  <text x="40" y="322" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">the sharpest of the</text>
+  <text x="40" y="338" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">three failures.</text>
+</svg>

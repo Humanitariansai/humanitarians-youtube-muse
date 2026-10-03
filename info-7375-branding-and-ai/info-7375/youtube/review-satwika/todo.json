@@ -1,0 +1,185 @@
+{
+  "video": "review-satwika",
+  "metadata": {
+    "slug": "review-satwika",
+    "title": "INFO 7375 \u2014 Project Review: Satwika",
+    "topic": "INFO 7375 \u00b7 PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 450,
+    "build": {
+      "at": "2026-08-16T23:29:59",
+      "cut": "master",
+      "filled": 11,
+      "of": 14,
+      "slates": [
+        "B02",
+        "B03",
+        "B05"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 14,
+  "beats_open": 3,
+  "beats": [
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "media/B00.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B00.mp4",
+      "label": "Hey Claude \u2014 I just read Satwika's final brand portfolio for INFO 7375. Behavrix: a human risk intel"
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "media/B01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B01.mp4",
+      "label": "Path B required a complete brand system for an AI tool startup. Satwika submitted 14 slides covering"
+    },
+    {
+      "beat_id": "B02",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The competitive table compares Behavrix against KnowBe4, Prevalent, and Drata across six dimensions. The cost line is the most powerful: two dollars per report ",
+      "slot": "media/B02.png (or .mp4)",
+      "label": "The competitive table compares Behavrix against KnowBe4, Prevalent, and Drata across six dimensions."
+    },
+    {
+      "beat_id": "B03",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: Mapping the four behavioral archetypes \u2014 the Clicker, the Password Recycler, the Shadow IT User, the Over-Trusted Insider \u2014 directly to MITRE ATT&CK technique I",
+      "slot": "media/B03.png (or .mp4)",
+      "label": "Mapping the four behavioral archetypes \u2014 the Clicker, the Password Recycler, the Shadow IT User, the"
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "media/B04.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B04.mp4",
+      "label": "Four archetypes, four MITRE codes: T1566 for phishing clickers, T1078 for credential recyclers, T107"
+    },
+    {
+      "beat_id": "B05",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The visual system uses Deep Navy, Teal, Blue, Frost, Soft Teal, and Amber \u2014 with Amber reserved for medium risk only. That functional color assignment is correc",
+      "slot": "media/B05.png (or .mp4)",
+      "label": "The visual system uses Deep Navy, Teal, Blue, Frost, Soft Teal, and Amber \u2014 with Amber reserved for "
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "media/B06.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B06.mp4",
+      "label": "The LinkedIn post is stat-first and short \u2014 built for scroll. The Substack article provides long-for"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "media/B07.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B07.mp4",
+      "label": "The tool analyzes 270 records to generate a human risk score. That's stated as a fact but never expl"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "media/B08.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B08.mp4",
+      "label": "The final slide asks for 150,000 seed funding with 15 percent equity and an advisory board seat. For"
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "media/B09.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B09.mp4",
+      "label": "Three real user test sessions are cited. One of the personas is a CISO who reports to the board. The"
+    },
+    {
+      "beat_id": "B10",
+      "status": "filled",
+      "on_disk": "media/B10.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B10.mp4",
+      "label": "The live Streamlit tool takes an organization type from ten options, analyzes 270 records in approxi"
+    },
+    {
+      "beat_id": "BVDT",
+      "status": "filled",
+      "on_disk": "media/BVDT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BVDT.mp4",
+      "label": "Strong competitive positioning, real domain knowledge, MITRE mapping that holds up to scrutiny. The "
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. Behavrix's brand first pillar is transparency \u2014 every score shows its reasoning. Write a "
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": ""
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Each architectural decision statement carries downstream consequences</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:280px; }
+.title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); }
+.col-head { font-size:10px; font-weight:700; fill:var(--color-secondary); } .pat { font-size:11px; } .cell { font-size:9px; fill:var(--color-ink); } .cell-sec { font-size:9px; fill:var(--color-secondary); }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const titleText="The decision statement is the contract, not a formality";
+const descText="Four architectural templates side by side — single LLM call, chained calls, tool-using agent, multi-agent system. For each: the fill-in-the-blank decision statement, what it enables in Chapter 7's interface design, and the failure mode it requires a mitigation for.";
+const rows=[
+ {pat:"Single LLM call",highlight:true,stmt:['"one prompt; output','validated against','[criteria]"'],enable:"simple result view",mitigate:"brittle prompts"},
+ {pat:"Chained calls",highlight:false,stmt:['"[N] sequential steps;','validate at step [K]','before proceeding"'],enable:"step-by-step status",mitigate:"compounding error"},
+ {pat:"Tool-using agent",highlight:false,stmt:['"adaptive reasoning;','step ceiling [N];','cost ceiling [$]"'],enable:"visible reasoning trace",mitigate:"cost runaway"},
+ {pat:"Multi-agent",highlight:false,stmt:['"[N] agents by role;','each independently','debuggable"'],enable:"role-scoped panels",mitigate:"hidden failure"}
+];
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,d){tooltip.html('<strong>'+d.pat+'</strong><br>'+d.stmt.join(' ')+'<br>Enables: '+d.enable+'<br>Mitigate: '+d.mitigate).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,640);
+ const totalHeight=400;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text("Write the choice down first — it determines the interface you can build and the failure you must mitigate.");
+ const left=24, top=80;
+ const w=totalWidth-48;
+ const c0=left, c1=left+w*0.27, c2=left+w*0.60, c3=left+w*0.80;
+ svg.append('text').attr('class','col-head').attr('x',c0).attr('y',top).text("Pattern");
+ svg.append('text').attr('class','col-head').attr('x',c1).attr('y',top).text("Decision statement");
+ svg.append('text').attr('class','col-head').attr('x',c2).attr('y',top).text("Enables in Ch. 7");
+ svg.append('text').attr('class','col-head').attr('x',c3).attr('y',top).text("Mitigate for");
+ svg.append('line').attr('x1',left).attr('x2',left+w).attr('y1',top+8).attr('y2',top+8).attr('stroke','var(--color-border)').attr('aria-hidden','true');
+ const rowH=72, rowTop=top+16, boxW=w*0.23;
+ const g=svg.selectAll('.row').data(rows).join('g').attr('transform',(d,i)=>'translate(0,'+(rowTop+i*rowH)+')')
+   .attr('tabindex',0).attr('aria-label',d=>d.pat+': '+d.stmt.join(' ')+'. Enables '+d.enable+'. Mitigate '+d.mitigate)
+   .on('mouseover',(event,d)=>showTooltip(event,d)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+ g.append('rect').attr('x',c0).attr('y',0).attr('width',boxW).attr('height',rowH-12)
+   .attr('fill',d=>d.highlight?'var(--color-red)':'var(--color-fill)').attr('stroke','var(--color-border)')
+   .attr('opacity',0).transition().duration(320).delay((d,i)=>i*60).attr('opacity',1);
+ g.append('text').attr('class','pat').attr('x',c0+boxW/2).attr('y',(rowH-12)/2+3).attr('text-anchor','middle')
+   .attr('fill',d=>d.highlight?'var(--color-white)':'var(--color-ink)').text(d=>d.pat);
+ g.each(function(d){
+  const sel=d3.select(this);
+  d.stmt.forEach((line,i)=>sel.append('text').attr('class','cell').attr('x',c1).attr('y',16+i*14).text(line));
+  sel.append('text').attr('class','cell-sec').attr('x',c2).attr('y',30).text(d.enable);
+  sel.append('text').attr('class','cell-sec').attr('x',c3).attr('y',30).text(d.mitigate);
+ });
+ g.filter((d,i)=>i<rows.length-1).append('line').attr('x1',left).attr('x2',left+w).attr('y1',rowH-6).attr('y2',rowH-6).attr('stroke','var(--color-border)').attr('stroke-width',0.75).attr('aria-hidden','true');
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

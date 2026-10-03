@@ -1,0 +1,62 @@
+<!--
+  Three coherence properties
+  Book: Branding and AI
+  Chapter: 19-professional-presence-and-launch
+  Figure: 02
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/19-professional-presence-and-launch-cajal.md
+-->
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-19-02">
+  <title id="fig-title-19-02">Three coherence properties</title>
+  <desc>Three properties that had nothing to do with visual quality — argument coherence, specific numbers, team weight — each shown present versus absent, all applying beyond the deck to LinkedIn, resume, portfolio, and follow-up.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="19-professional-presence-and-launch" figure-number="02"
+      figure-title="Three coherence properties"
+      figure-slug="three-coherence-properties"
+      figure-type="comparison panels" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/19-professional-presence-and-launch-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="380" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three coherence properties</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">These are presentation properties, not pitch-deck properties —</text>
+  <text x="32" y="72" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">they run across every professional surface.</text>
+
+  <!-- column headers -->
+  <text x="200" y="86" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Present</text>
+  <text x="448" y="86" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">Absent</text>
+  <text x="610" y="86" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Beyond the deck</text>
+  <line x1="32" y1="94" x2="668" y2="94" stroke="#121212" stroke-width="1"/>
+  <line x1="320" y1="100" x2="320" y2="330" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="540" y1="100" x2="540" y2="330" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Property 1 -->
+  <text x="32" y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Argument coherence</text>
+  <text x="84" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">one argument across</text>
+  <text x="84" y="171" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">all ten slides</text>
+  <text x="332" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">ten separate pleas;</text>
+  <text x="332" y="171" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">no through-line</text>
+  <text x="550" y="163" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">portfolio case studies</text>
+  <line x1="32" y1="190" x2="668" y2="190" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Property 2 -->
+  <text x="32" y="218" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Specific numbers</text>
+  <text x="84" y="250" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">"87 bookings in</text>
+  <text x="84" y="265" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">six weeks" — evidence</text>
+  <text x="332" y="250" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"strong early</text>
+  <text x="332" y="265" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">interest" — a claim</text>
+  <text x="550" y="257" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">résumé bullets</text>
+  <line x1="32" y1="284" x2="668" y2="284" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Property 3 -->
+  <text x="32" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Team weight</text>
+  <text x="84" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">named founders, relevant history</text>
+  <text x="332" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">a generic slide</text>
+  <text x="550" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">LinkedIn, follow-up</text>
+  <line x1="32" y1="340" x2="668" y2="340" stroke="#121212" stroke-width="1"/>
+
+  <text x="32" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">At seed stage with no revenue, the team slide is the pitch — specificity signals the work was done.</text>
+</svg>

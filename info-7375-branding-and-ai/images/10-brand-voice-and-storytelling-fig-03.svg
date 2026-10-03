@@ -1,0 +1,183 @@
+<!--
+  Each archetype's native story shape
+  Book: Branding and AI
+  Chapter: 10-brand-voice-and-storytelling
+  Figure: 03
+  Type: matrix
+  Generated: 2026-07-02
+  Source: pantry/10-brand-voice-and-storytelling-cajal.md
+-->
+<svg viewBox="0 0 700 820" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-10-03">
+  <title id="fig-title-10-03">Each archetype's native story shape</title>
+  <desc>A reference matrix mapping all twelve brand archetypes to the story shape native to each, three exemplar brands, and what misfires when the shape is borrowed by the wrong archetype.</desc>
+  <rect x="0" y="0" width="700" height="820" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Each archetype's native story shape</text>
+
+  <!-- Header row -->
+  <rect x="32" y="56" width="110" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="56" width="160" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="302" y="56" width="150" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="452" y="56" width="216" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Archetype</text>
+  <text x="150" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Native story shape</text>
+  <text x="310" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Exemplars</text>
+  <text x="460" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Misfires if borrowed</text>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+
+    <!-- Row 1 Hero — y=90 h=54 -->
+    <rect x="32"  y="90" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="90" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="90" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="90" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="121" font-weight="700">Hero</text>
+    <text x="150" y="121">Hero's Journey</text>
+    <text x="310" y="115">Nike, Adidas,</text>
+    <text x="310" y="129">Under Armour</text>
+    <text x="460" y="115" fill="#545454">customer effort and</text>
+    <text x="460" y="129" fill="#545454">growth carry every ad</text>
+
+    <!-- Row 2 Sage — y=144 h=54 -->
+    <rect x="32"  y="144" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="144" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="144" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="144" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="175" font-weight="700">Sage</text>
+    <text x="150" y="169">Methodology /</text>
+    <text x="150" y="183">Quest</text>
+    <text x="310" y="169">Harvard, NYT,</text>
+    <text x="310" y="183">NEU</text>
+    <text x="460" y="169" fill="#545454">a Jester shape reads</text>
+    <text x="460" y="183" fill="#545454">as trying too hard</text>
+
+    <!-- Row 3 Outlaw — y=198 h=54 -->
+    <rect x="32"  y="198" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="198" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="198" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="198" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="229" font-weight="700">Outlaw</text>
+    <text x="150" y="229">Rebellion</text>
+    <text x="310" y="223">Patagonia, Harley,</text>
+    <text x="310" y="237">Liquid Death</text>
+    <text x="460" y="223" fill="#545454">others borrowing it</text>
+    <text x="460" y="237" fill="#545454">read as co-optation</text>
+
+    <!-- Row 4 Caregiver — y=252 h=54 -->
+    <rect x="32"  y="252" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="252" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="252" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="252" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="283" font-weight="700">Caregiver</text>
+    <text x="150" y="277">Service /</text>
+    <text x="150" y="291">Transformation</text>
+    <text x="310" y="277">J&amp;J, UNICEF,</text>
+    <text x="310" y="291">Dove</text>
+    <text x="460" y="277" fill="#545454">a Jester service story</text>
+    <text x="460" y="291" fill="#545454">reads as insincere</text>
+
+    <!-- Row 5 Magician — y=306 h=54 -->
+    <rect x="32"  y="306" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="306" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="306" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="306" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="337" font-weight="700">Magician</text>
+    <text x="150" y="331">Transformation</text>
+    <text x="150" y="345">with mystery</text>
+    <text x="310" y="331">Disney, Apple,</text>
+    <text x="310" y="345">Dyson</text>
+    <text x="460" y="331" fill="#545454">needs a real revelation</text>
+    <text x="460" y="345" fill="#545454">or the story has no act 2</text>
+
+    <!-- Row 6 Jester — y=360 h=54 -->
+    <rect x="32"  y="360" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="360" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="360" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="360" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="391" font-weight="700">Jester</text>
+    <text x="150" y="391">Inversion</text>
+    <text x="310" y="385">Old Spice, M&amp;Ms,</text>
+    <text x="310" y="399">Dollar Shave Club</text>
+    <text x="460" y="385" fill="#545454">a sincere Service story</text>
+    <text x="460" y="399" fill="#545454">reads as insincere</text>
+
+    <!-- Row 7 Innocent — y=414 h=54 -->
+    <rect x="32"  y="414" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="414" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="414" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="414" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="445" font-weight="700">Innocent</text>
+    <text x="150" y="445">Paradise / Return</text>
+    <text x="310" y="439">Coca-Cola, Whole</text>
+    <text x="310" y="453">Foods, Innocent</text>
+    <text x="460" y="439" fill="#545454">complexity or irony reads</text>
+    <text x="460" y="453" fill="#545454">as brand betrayal</text>
+
+    <!-- Row 8 Explorer — y=468 h=54 -->
+    <rect x="32"  y="468" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="468" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="468" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="468" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="499" font-weight="700">Explorer</text>
+    <text x="150" y="493">Discovery /</text>
+    <text x="150" y="507">Departure</text>
+    <text x="310" y="493">REI, Jeep,</text>
+    <text x="310" y="507">Nat Geo</text>
+    <text x="460" y="493" fill="#545454">settled comfort reads</text>
+    <text x="460" y="507" fill="#545454">as compromise</text>
+
+    <!-- Row 9 Creator — y=522 h=54 -->
+    <rect x="32"  y="522" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="522" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="522" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="522" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="553" font-weight="700">Creator</text>
+    <text x="150" y="553">Making / Vision</text>
+    <text x="310" y="547">LEGO, Adobe,</text>
+    <text x="310" y="561">Etsy</text>
+    <text x="460" y="547" fill="#545454">functional efficiency claims</text>
+    <text x="460" y="561" fill="#545454">undercut craft identity</text>
+
+    <!-- Row 10 Ruler — y=576 h=54 -->
+    <rect x="32"  y="576" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="576" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="576" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="576" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="607" font-weight="700">Ruler</text>
+    <text x="150" y="601">Order /</text>
+    <text x="150" y="615">Legitimacy</text>
+    <text x="310" y="601">Mercedes, Rolex,</text>
+    <text x="310" y="615">Amex</text>
+    <text x="460" y="601" fill="#545454">egalitarian tone reads</text>
+    <text x="460" y="615" fill="#545454">as weakness</text>
+
+    <!-- Row 11 Lover — y=630 h=54 -->
+    <rect x="32"  y="630" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="630" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="630" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="630" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="661" font-weight="700">Lover</text>
+    <text x="150" y="655">Desire /</text>
+    <text x="150" y="669">Intimacy</text>
+    <text x="310" y="655">Chanel, Godiva,</text>
+    <text x="310" y="669">Hallmark</text>
+    <text x="460" y="655" fill="#545454">clinical utility reads</text>
+    <text x="460" y="669" fill="#545454">as coldness</text>
+
+    <!-- Row 12 Everyman — y=684 h=54 -->
+    <rect x="32"  y="684" width="110" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="684" width="160" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="302" y="684" width="150" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="452" y="684" width="216" height="54" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40"  y="715" font-weight="700">Everyman</text>
+    <text x="150" y="709">Belonging /</text>
+    <text x="150" y="723">Solidarity</text>
+    <text x="310" y="709">IKEA, Target,</text>
+    <text x="310" y="723">Levi's</text>
+    <text x="460" y="709" fill="#545454">aspirational claims read</text>
+    <text x="460" y="723" fill="#545454">as abandonment</text>
+
+  </g>
+
+  <text x="32" y="768" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Story shape is not a formula — it is the natural container for what the archetype already believes.</text>
+  <text x="32" y="784" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Borrowing a shape from the wrong archetype activates misfire pathways even when execution is flawless.</text>
+</svg>

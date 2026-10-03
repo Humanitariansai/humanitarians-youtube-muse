@@ -1,0 +1,71 @@
+<!--
+  Python script vs. n8n workflow — same pipeline, two representations
+  Book: Branding and AI
+  Chapter: 21-shipit-pipelines-and-workflow-on-madison
+  Figure: 06
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-21-06">
+  <title id="fig-title-21-06">Python script vs. n8n workflow — same pipeline, two representations</title>
+  <desc>A monolithic Python script with interwoven dependency calls beside an n8n workflow where every contract is a separately labeled, independently replaceable node. One makes the contracts visible.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="21-shipit-pipelines-and-workflow-on-madison"
+      figure-number="06" figure-title="Python script vs. n8n workflow"
+      figure-slug="python-script-vs-n8n-workflow" figure-type="comparison panels"
+      priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Same pipeline, two representations — one makes the contracts visible</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">In n8n every dependency is a node with a defined input and output —</text>
+  <text x="32" y="76" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">replaceable without touching the rest.</text>
+
+  <!-- LEFT: Python script -->
+  <rect x="32" y="80" width="306" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">A single Python script</text>
+  <rect x="32" y="114" width="306" height="262" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <!-- tangled block -->
+  <rect x="56" y="138" width="258" height="208" fill="#FFFFFF" stroke="#787878" stroke-width="1"/>
+  <text x="72" y="160" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">def run():</text>
+  <text x="84" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">r = requests.get(RSS)</text>
+  <text x="84" y="196" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">o = openai.score(r)</text>
+  <text x="84" y="214" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">reddit.fetch(o)</text>
+  <text x="84" y="232" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">sheets.write(...)</text>
+  <text x="72" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Contracts hidden inside the file.</text>
+  <text x="72" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Swapping one API touches half</text>
+  <text x="72" y="324" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the script. Failure isn't localized.</text>
+
+  <!-- RIGHT: n8n workflow -->
+  <rect x="362" y="80" width="306" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="378" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">An n8n workflow</text>
+  <rect x="362" y="114" width="306" height="262" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+
+  <defs><marker id="arrow2106" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker></defs>
+
+  <rect x="392" y="138" width="110" height="40" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="447" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">RSS node</text>
+  <rect x="528" y="138" width="110" height="40" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="583" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">OpenAI node</text>
+  <line x1="502" y1="158" x2="524" y2="158" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2106)"/>
+
+  <rect x="392" y="208" width="110" height="40" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="447" y="232" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Dedup node</text>
+  <rect x="528" y="208" width="110" height="40" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="583" y="232" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Sheets node</text>
+  <line x1="583" y1="178" x2="583" y2="206" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2106)"/>
+  <line x1="502" y1="228" x2="524" y2="228" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2106)"/>
+  <path d="M 447 178 Q 447 193 447 206" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2106)"/>
+
+  <text x="392" y="290" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each contract is its own labeled,</text>
+  <text x="392" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">independently replaceable node.</text>
+  <text x="392" y="324" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Swap OpenAI for Claude in place.</text>
+
+  <!-- Footer -->
+  <rect x="32" y="384" width="636" height="28" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="403" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">The visual graph forces the contracts to be explicit — reason about them before they fail, isolate them when they do.</text>
+
+  <text x="32" y="432" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 21, BUILDING IT IN N8N</text>
+</svg>

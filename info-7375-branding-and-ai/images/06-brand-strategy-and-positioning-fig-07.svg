@@ -1,0 +1,88 @@
+<!--
+  The circular coherence check
+  Book: Branding and AI
+  Chapter: 06-brand-strategy-and-positioning
+  Figure: 07
+  Type: cycle diagram
+  Generated: 2026-06-18
+  Source: pantry/06-brand-strategy-and-positioning-cajal.md
+-->
+<svg viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-06-07">
+  <title id="fig-title-06-07">The circular coherence check</title>
+  <desc>Seven brand components arranged in a ring, each adjacent pair joined by a consistency question. A contradiction on any edge means the document defers the conflict to a worse moment.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="06-brand-strategy-and-positioning"
+      figure-number="07" figure-title="The circular coherence check" figure-slug="circular-coherence-check"
+      figure-type="cycle diagram" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/06-brand-strategy-and-positioning-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="520" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Check every adjacent pair before you finalize</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">If any pair contradicts, revise until it does not — or the conflict surfaces under pressure later.</text>
+
+  <!-- ring: 7 nodes around center (350,300), r=160 -->
+  <!-- center -->
+  <circle cx="350" cy="300" r="58" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="296" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Internal</text>
+  <text x="350" y="312" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">coherence</text>
+
+  <!-- nodes at angles starting top, every 360/7 ~ 51.4 deg -->
+  <!-- positions computed: -->
+  <!-- 0: top (350,140) Mission -->
+  <!-- 1: (487,193) Vision  -->
+  <!-- 2: (506,338) Values  approx -->
+  <!-- using approximate hand-placed coords on r=160 circle -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <!-- Mission top -->
+    <rect x="310" y="118" width="80" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+    <text x="350" y="139" text-anchor="middle" font-weight="700" fill="#121212">Mission</text>
+    <!-- Vision upper-right -->
+    <rect x="478" y="172" width="80" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+    <text x="518" y="193" text-anchor="middle" font-weight="700" fill="#121212">Vision</text>
+    <!-- Values right -->
+    <rect x="520" y="283" width="80" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+    <text x="560" y="304" text-anchor="middle" font-weight="700" fill="#121212">Values</text>
+    <!-- UVP lower-right -->
+    <rect x="452" y="394" width="80" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+    <text x="492" y="415" text-anchor="middle" font-weight="700" fill="#121212">UVP</text>
+    <!-- Positioning lower-left -->
+    <rect x="168" y="394" width="100" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+    <text x="218" y="415" text-anchor="middle" font-weight="700" fill="#121212">Positioning</text>
+    <!-- Voice left -->
+    <rect x="100" y="283" width="80" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+    <text x="140" y="304" text-anchor="middle" font-weight="700" fill="#121212">Voice</text>
+    <!-- Archetype upper-left -->
+    <rect x="142" y="172" width="90" height="34" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+    <text x="187" y="193" text-anchor="middle" font-weight="700" fill="#121212">Archetype</text>
+  </g>
+
+  <!-- ring edges (hairlines) connecting adjacent nodes -->
+  <g stroke="#D4D4D4" stroke-width="1" fill="none">
+    <line x1="390" y1="135" x2="478" y2="180"/>
+    <line x1="518" y1="206" x2="560" y2="283"/>
+    <line x1="555" y1="317" x2="510" y2="394"/>
+    <line x1="452" y1="415" x2="268" y2="415"/>
+    <line x1="180" y1="404" x2="148" y2="317"/>
+    <line x1="140" y1="283" x2="170" y2="206"/>
+    <line x1="225" y1="172" x2="312" y2="138"/>
+  </g>
+
+  <!-- edge labels (consistency questions) -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9.5" fill="#545454">
+    <text x="445" y="132" text-anchor="middle">mission scopes vision?</text>
+    <text x="586" y="240" text-anchor="middle">values bound</text>
+    <text x="586" y="252" text-anchor="middle">the vision?</text>
+    <text x="556" y="362" text-anchor="middle">UVP fits</text>
+    <text x="556" y="374" text-anchor="middle">values?</text>
+    <text x="350" y="446" text-anchor="middle">positioning vs. UVP's actual alternative?</text>
+    <text x="120" y="362" text-anchor="middle">voice =</text>
+    <text x="120" y="374" text-anchor="middle">archetype?</text>
+    <text x="118" y="240" text-anchor="middle">archetype</text>
+    <text x="118" y="252" text-anchor="middle">+ voice?</text>
+    <text x="250" y="132" text-anchor="middle">mission ↔ archetype?</text>
+  </g>
+
+  <text x="350" y="492" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">A document with internal contradictions does not constrain decisions — it defers them.</text>
+  <text x="32" y="512" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 6, THE ONE-PAGE DOCUMENT</text>
+</svg>

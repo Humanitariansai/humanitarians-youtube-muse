@@ -1,0 +1,56 @@
+<!--
+  Name vs. meaning — Hero, Outlaw, Caregiver
+  Book: Branding and AI
+  Chapter: 05-brand-archetypes-as-a-system
+  Figure: 03
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/05-brand-archetypes-as-a-system-cajal.md
+-->
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05-03">
+  <title id="fig-title-05-03">Name versus meaning</title>
+  <desc>Three archetype names whose literal reading misleads — Hero, Outlaw, Caregiver — with the struck-through dictionary reading on the left and the brand-strategy meaning on the right.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="05-brand-archetypes-as-a-system"
+      figure-number="03" figure-title="Name versus meaning" figure-slug="name-versus-meaning"
+      figure-type="comparison panels" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/05-brand-archetypes-as-a-system-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="380" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Read the motivation, not the dictionary definition</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The names mislead if taken literally. The brand meaning is the working one.</text>
+
+  <!-- column headers -->
+  <text x="200" y="92" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">LITERAL READING</text>
+  <text x="500" y="92" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">BRAND-STRATEGY READING</text>
+  <line x1="350" y1="100" x2="350" y2="356" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- Hero row -->
+  <text x="44" y="138" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Hero</text>
+  <text x="160" y="138" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#787878" text-decoration="line-through">A noble, admirable brand.</text>
+  <line x1="160" y1="134" x2="330" y2="134" stroke="#787878" stroke-width="1"/>
+  <text x="368" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">The customer becomes better</text>
+  <text x="368" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">through effort; the brand is the</text>
+  <text x="368" y="164" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">equipment. (Nike)</text>
+  <line x1="32" y1="180" x2="668" y2="180" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- Outlaw row -->
+  <text x="44" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Outlaw</text>
+  <text x="160" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#787878">An illegal or antisocial brand.</text>
+  <line x1="160" y1="218" x2="338" y2="218" stroke="#787878" stroke-width="1"/>
+  <text x="368" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">A weekend escape from the</text>
+  <text x="368" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">system, for accountants who</text>
+  <text x="368" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">want to feel free. (Harley)</text>
+  <line x1="32" y1="264" x2="668" y2="264" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- Caregiver row -->
+  <text x="44" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Caregiver</text>
+  <text x="160" y="306" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#787878">A soft, low-status brand.</text>
+  <line x1="160" y1="302" x2="318" y2="302" stroke="#787878" stroke-width="1"/>
+  <text x="368" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Gentle care for the people you</text>
+  <text x="368" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">love most — from newborns</text>
+  <text x="368" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">to patients. (Johnson &amp; Johnson)</text>
+
+  <text x="32" y="368" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 5, WHAT AN ARCHETYPE ACTUALLY IS</text>
+</svg>

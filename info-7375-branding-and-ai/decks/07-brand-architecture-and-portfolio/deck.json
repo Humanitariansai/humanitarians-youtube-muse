@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "title": "Brand Architecture & Portfolio",
+    "short": "BRANDING · CH07",
+    "course": "Branding and AI · Chapter 07",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/07-brand-architecture-and-portfolio.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 07",
+      "title": "Brand Architecture & Portfolio",
+      "subtitle": "Every brand is a system of brands. The question is whether you designed the system or inherited it.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "two deliberate decisions",
+      "title": "P&G is invisible on purpose",
+      "lead": "Tide, Pampers, Gillette, Crest. Most shoppers have no idea these share a parent company.",
+      "bullets": [
+        "They live in separate aisles, speak to separate anxieties, compete in separate categories. **That invisibility is a structural decision, not an oversight.**",
+        "Now Google: Search, Android, YouTube, Maps, Gmail, Waymo. Some carry the name prominently. Others barely mention it.",
+        "Waymo almost never leads with the Google name in consumer communications — even though it is fully owned, and even though the name would presumably carry trust.",
+        "That distance is a decision too."
+      ]
+    },
+    {
+      "id": "S03", "section": "the system layer",
+      "title": "The previous chapters treated a brand as one standalone thing",
+      "lead": "Most real brand work does not look like that.",
+      "bullets": [
+        "**Brand architecture** specifies how a company's brands relate to each other, how equity flows among them, what names appear on what offerings, and how risk is contained when something goes wrong.",
+        "Most real brand work is portfolio work: where the master brand appears, how new products get named, which connections to make visible and which to hide.",
+        "Yes — even a personal brand has sub-brands. You have offerings, and they already relate to each other whether or not you decided how."
+      ]
+    },
+    {
+      "id": "S04", "section": "the spectrum",
+      "title": "One axis, and everything real happens in the middle",
+      "lead": "Aaker and Joachimsthaler's spectrum maps the structural options between two poles. Understanding the poles first makes the middle legible.",
+      "why": "chapter: \"maps the structural options along a spectrum between two poles\" and \"where the master brand and individual offerings share different degrees of connection\"; fig-01 runs branded house → sub-brand → endorsed → house of brands with shared equity rising one way and risk containment the other",
+      "archetype": "ladder",
+      "duration": 8.5,
+      "data": {
+        "lowLabel": "risk contained · every brand built from scratch",
+        "highLabel": "equity shared · risk shared",
+        "rungs": [
+          { "label": "House of brands", "note": "P&G, Unilever — the parent stays invisible" },
+          { "label": "Endorsed brand", "note": "Courtyard by Marriott — the child leads, the parent vouches" },
+          { "label": "Sub-brand", "note": "Apple → iPhone — the master leads, the qualifier names the thing" },
+          { "label": "Branded house", "note": "Apple, FedEx — one name across everything" }
+        ]
+      }
+    },
+    {
+      "id": "S05", "section": "the branded house",
+      "title": "Every launch pays into the same pool",
+      "lead": "One master brand, stretched across all offerings. iPhone, iPad, Mac, Apple Watch. FedEx Express, Ground, Freight, Office.",
+      "bullets": [
+        "Marketing investment in one offering benefits all the others. A new product **starts with the parent's trust already in its pocket.**",
+        "The reputation you cultivate for being good at X transfers, to some degree, when you launch Y.",
+        "The cost is exposure. Shared equity is shared risk — and the damage does not stay where it started."
+      ]
+    },
+    {
+      "id": "S06", "section": "the structural bet",
+      "title": "One offering fails. Where does the damage land?",
+      "lead": "This is the whole trade-off, and you make it before you know which offering will be the one that fails.",
+      "why": "chapter puts the two cases side by side: \"When Samsung's Note 7 batteries caught fire in 2016, the crisis hit the Samsung master brand, not just the Note line\" versus \"If Axe has a brand image crisis, Dove is unaffected — the two brands do not share equity in the consumer's mind, so the failure does not propagate\"",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "one offering fails in public",
+        "splitLabel": "the architecture you already chose",
+        "tracks": [
+          {
+            "label": "House of brands · separate equity", "outcome": "one brand", "tone": "good", "path": "up",
+            "notes": ["Axe has an image crisis", "Dove is unaffected", "the failure does not propagate"]
+          },
+          {
+            "label": "Branded house · one shared name", "outcome": "the whole portfolio", "tone": "warn", "path": "down",
+            "notes": ["Note 7 batteries caught fire in 2016", "the crisis hit the master brand", "every product was suddenly associated with it"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S07", "section": "the house of brands",
+      "title": "Surgical targeting, paid for in full",
+      "lead": "A portfolio of independent brands, each with its own name, identity and audience — and a parent consumers largely never encounter.",
+      "bullets": [
+        "Tide for heavy-duty cleaning, Dawn for dishes, Mr. Clean for surfaces. Each speaks to a specific occasion **without diluting the others.**",
+        "The cost is economic. You cannot transfer equity from Tide to a new launch — consumers do not know the connection exists.",
+        "Every new brand needs its own advertising, its own identity work, its own distribution. P&G and Unilever can amortize that across enormous businesses. **Most organizations cannot.**"
+      ]
+    },
+    {
+      "id": "S08", "section": "the poles, named",
+      "title": "Whose name is on it?",
+      "lead": "Same question, four portfolios, two completely different answers.",
+      "why": "chapter enumerates each parent's children by name: \"iPhone, iPad, Mac, Apple Watch, Apple TV+, and the App Store\"; \"FedEx Express, FedEx Ground, FedEx Freight, FedEx Office\"; \"Tide, Pampers, Gillette, Crest, Bounty, Dawn, Febreze\"; \"Dove, Axe, Hellmann's, Ben & Jerry's, Lipton\" — a two-level taxonomy, and P&G is named the textbook case",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "WHOSE NAME IS ON IT?",
+        "centerShort": "WHOSE NAME?",
+        "groups": [
+          {
+            "label": "Apple", "tone": "ink",
+            "children": [{ "label": "iPhone" }, { "label": "iPad" }, { "label": "Mac" }, { "label": "Apple Watch" }]
+          },
+          {
+            "label": "FedEx", "tone": "ink",
+            "children": [{ "label": "Express" }, { "label": "Ground" }, { "label": "Freight" }, { "label": "Office" }]
+          },
+          {
+            "label": "P&G", "tone": "accent",
+            "children": [{ "label": "Tide" }, { "label": "Pampers" }, { "label": "Gillette" }, { "label": "Crest" }, { "label": "Dawn" }]
+          },
+          {
+            "label": "Unilever", "tone": "ink",
+            "children": [{ "label": "Dove" }, { "label": "Axe" }, { "label": "Hellmann's" }, { "label": "Lipton" }]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S09", "section": "the middle",
+      "title": "Sub-brand and endorsed brand are opposite orientations",
+      "lead": "The poles are analytically clean and practically rare. Two intermediate structures do most of the real work.",
+      "bullets": [
+        "A **sub-brand** attaches a qualifier to the master. Apple → iPhone. The master leads; the sub-brand borrows almost all its equity and exists to make the offering *nameable*, not to build independent identity.",
+        "The trade-off is dependency: **the sub-brand is only as strong as the master.**",
+        "An **endorsed brand** reverses it. Courtyard *by* Marriott. The child leads with its own identity; the parent is a trust shortcut that reduces the risk of trying something new.",
+        "Marriott runs Ritz-Carlton and St. Regis alongside Fairfield and Aloft. Putting the name prominently on all of them would blur the distinctions that make each legible."
+      ]
+    },
+    {
+      "id": "S10", "section": "the test",
+      "title": "How much does it want to borrow, and how much does it need to differ?",
+      "lead": "That is the entire decision between sub-brand and endorsement.",
+      "bullets": [
+        "Same audience, same category, same associations → **the sub-brand structure usually works.**",
+        "Different audience, different category, or deliberately different associations → **the endorsed or independent structure usually serves better.**",
+        "Note what is *not* on this list: which one sounds more impressive. That is not an input."
+      ]
+    },
+    {
+      "id": "S11", "section": "extension",
+      "title": "Leverage is real. So is the thing it costs you.",
+      "lead": "A brand extension deploys existing equity in a new direction rather than building from scratch.",
+      "bullets": [
+        "**Line extension** stays in the category: Tide Original, Free & Gentle, Pods, with Bleach. **Category extension** crosses out of it: Apple from computers to music players to phones to watches.",
+        "The launch cost of an extension is substantially lower than building a new brand. For a brand with genuine, relevant equity in the new space, that leverage is real.",
+        "The danger is dilution. Kapferer's *elastic brand*: stretch too far and the name loses the specific tension that made it useful.",
+        "Apple into groceries, insurance and furniture would stop meaning *beautifully designed technology* and start meaning *premium things, broadly*. **That diffusion is permanent.**"
+      ]
+    },
+    {
+      "id": "S12", "section": "the extension decision",
+      "title": "Two questions, in this order",
+      "lead": "The chapter gives you a sequence, not a scorecard. Both questions are about the parent, not the new product.",
+      "why": "chapter: \"The extension decision requires two questions. First: is the extension *relevant* to the parent brand's core associations? ... Second: does the extension *reinforce* or *blur* what the parent brand means?\" — ordered, and no verdict is given for the reader's own case",
+      "archetype": "gatePipeline",
+      "duration": 8.0,
+      "data": {
+        "input": { "label": "a proposed extension" },
+        "gates": [
+          { "label": "Relevance", "rule": "same skills, same audience, same emotional territory — or a reach for revenue?", "pass": null },
+          { "label": "Reinforce or blur", "rule": "does the parent get more specific, or harder to locate mentally?", "pass": null }
+        ],
+        "output": { "label": "launch it under the parent's name", "pending": true }
+      }
+    },
+    {
+      "id": "S13", "section": "the risk matrix",
+      "title": "Only one quadrant is named a danger zone",
+      "lead": "Fit with the parent's core associations on one axis; effect on those associations on the other.",
+      "why": "chapter's extension-risk figure sets \"fit with the parent brand (low to high)\" against \"effect on parent associations (blurs to reinforces)\" and flags the low-fit, blurs quadrant — Apple into groceries or insurance — as the danger zone; the other two quadrants the chapter does not adjudicate",
+      "archetype": "matrixGrid",
+      "duration": 8.0,
+      "data": {
+        "rows": [
+          { "label": "Reinforces the parent" },
+          { "label": "Blurs the parent" }
+        ],
+        "cols": [
+          { "label": "High fit" },
+          { "label": "Low fit" },
+          { "label": "your extension" }
+        ],
+        "cells": [
+          ["hit", "pending", "pending"],
+          ["pending", "miss", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "borrowed equity",
+      "title": "Co-branding and ingredient branding",
+      "lead": "Not all brand relationships are internal. Two independent brands can combine equity deliberately.",
+      "bullets": [
+        "**Co-branding** pairs two consumer brands: Nike × Apple, Supreme × Louis Vuitton, BMW × Louis Vuitton. Each works because the pairing *reinforces* both positions — athletic performance and technology, street culture and luxury.",
+        "The co-brand is more than the sum because **the pairing itself communicates something neither brand could say alone.**",
+        "**Ingredient branding** makes a component visible inside a finished product. Intel Inside. Gore-Tex tags on outerwear.",
+        "It works when the component carries associations the manufacturer cannot independently claim — and when consumers know what the component does."
+      ]
+    },
+    {
+      "id": "S15", "section": "the symmetric risk",
+      "title": "You inherit the partner's reputation. And the partner's crises.",
+      "lead": "Both structures carry the risk in both directions, and you signed for it when you signed the deal.",
+      "bullets": [
+        "When a partner faces a scandal or a product failure, the association you spent money building **becomes a liability.**",
+        "The financial crisis that hit various luxury brands' collaborative partners in 2008 dragged down collaborating fashion houses that had done nothing wrong.",
+        "**Choosing a co-brand partner is choosing which risks to take on board.** That is the sentence to keep."
+      ]
+    },
+    {
+      "id": "S16", "section": "pruning",
+      "title": "More brands usually means less total value",
+      "lead": "The intuition runs the other way — more coverage, more targeting, more options. In practice it does not.",
+      "bullets": [
+        "Portfolio bloat splits marketing attention, budget and organizational energy across offerings that **cannibalize each other's audiences**.",
+        "When a company has more brands than it can actively invest in, the rest free-ride on equity that is quietly depreciating without maintenance.",
+        "The discipline is the same as segmentation: every brand must earn its place by carrying distinct associations **no other brand in the portfolio can carry.**",
+        "Redundancy is expensive even when each individual offering is good."
+      ]
+    },
+    {
+      "id": "S17", "section": "subtraction",
+      "title": "The most significant portfolio moves are subtractions",
+      "lead": "Unilever's \"Brand Imprint\" programme, launched in the early 2000s. P&G made similar moves after 2014.",
+      "why": "chapter states the only rates in the chapter: \"reduced their portfolio from approximately 1,600 brands to 400 — and revenue per brand increased\"; the revenue figure itself is never given, and your own survivors are unknown",
+      "archetype": "attrition",
+      "duration": 8.0,
+      "data": {
+        "total": 1600,
+        "startLabel": "Unilever brands before Brand Imprint",
+        "stages": [
+          { "label": "survive the prune", "survival": 0.25 },
+          { "label": "your portfolio's survivors", "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S18", "section": "the worked example",
+      "title": "Four offerings, one name — until one of them isn't",
+      "lead": "A newsletter, a course, a consulting practice, an open-source library. Same person. Not necessarily the same brand.",
+      "why": "chapter's worked example maps exactly this portfolio and pulls one offering out: \"the library runs as an endorsed brand — 'DataPrep, from Nik Bear Brown' — or fully independently\" because it \"reaches a different audience... and carries different associations\"; the reader's own offerings are unmapped",
+      "archetype": "graph",
+      "duration": 9.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          { "id": "master", "label": "Nik Bear Brown", "tone": "accent", "layer": 0 },
+          { "id": "news", "label": "newsletter", "layer": 1 },
+          { "id": "course", "label": "course", "layer": 1 },
+          { "id": "consult", "label": "consulting", "layer": 1 },
+          { "id": "lib", "label": "DataPrep", "layer": 2 },
+          { "id": "you", "label": "", "pending": true, "layer": 2 }
+        ],
+        "edges": [
+          { "from": "master", "to": "news", "label": "branded" },
+          { "from": "master", "to": "course", "label": "branded" },
+          { "from": "master", "to": "consult", "label": "branded · couples the credibility" },
+          { "from": "master", "to": "lib", "label": "endorsed · different audience" },
+          { "from": "master", "to": "you", "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S19", "section": "the cut",
+      "title": "Which of yours earns its place?",
+      "lead": "Once the map is visible, the prune candidates are usually obvious — the offerings neither building distinct equity nor making the master brand more coherent.",
+      "why": "chapter gives the sorting rule — \"every brand must earn its place by carrying distinct, valuable associations that a different brand in the portfolio cannot carry\" — and applies it to exactly one offering (the library, on different audience and different associations). It sorts nothing else, and counts nothing",
+      "archetype": "tallySplit",
+      "duration": 8.5,
+      "data": {
+        "left": { "label": "Earns its place", "pending": true },
+        "right": { "label": "Redundant", "pending": true },
+        "items": [
+          { "label": "DataPrep · different audience, different associations", "side": "left" },
+          { "label": "newsletter", "side": "pending" },
+          { "label": "course", "side": "pending" },
+          { "label": "consulting", "side": "pending" },
+          { "label": "your offerings", "side": "pending" },
+          { "label": "your offerings", "side": "pending" }
+        ],
+        "note": "The chapter maps the portfolio. It refuses to prune yours."
+      }
+    },
+    {
+      "id": "S20", "section": "the older argument",
+      "title": "A system with no architect",
+      "lead": "Frederick Brooks managed IBM's System/360 and its operating system in the 1960s, then wrote *The Mythical Man-Month* (1975).",
+      "bullets": [
+        "His most durable idea is **conceptual integrity**: a system reflecting one coherent set of design ideas is better to use than one packed with more features built by many hands pulling in different directions.",
+        "And the integrity has to be **imposed deliberately** — it never emerges on its own.",
+        "A portfolio that accumulates through acquisitions and one-off launches is Brooks's system-without-an-architect: feature-rich, internally inconsistent, expensive to use.",
+        "Brand architecture and the pruning discipline are how you reimpose conceptual integrity on a portfolio."
+      ]
+    },
+    {
+      "id": "S21", "section": "what I do not know",
+      "title": "The framework is descriptive. It is not predictive.",
+      "lead": "I would rather you hold this loosely than hold it wrongly.",
+      "bullets": [
+        "The Aaker–Joachimsthaler spectrum maps the options. It does **not** provide a strong theory of when each structure produces better outcomes — the empirical evidence is mixed and the confounds are severe.",
+        "The mechanism by which a bad extension dilutes a parent is not fully understood. The rate, the permanence, the reversibility — not well specified.",
+        "Kapferer's elastic brand is intuitive but it is **not a model**.",
+        "I do not know how to predict in advance whether a specific extension will dilute, and **I am skeptical of anyone who claims to.**"
+      ]
+    },
+    {
+      "id": "S22", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Map every public thing you have shipped. Then name the one that is redundant.",
+      "lead": "Offering · relationship to the master brand · the equity it borrows · the overlap risk it creates. Four columns. Then say out loud which offering is neither building distinct equity nor making your name more coherent — and give the evidence. The map is the easy half."
+    }
+  ]
+}

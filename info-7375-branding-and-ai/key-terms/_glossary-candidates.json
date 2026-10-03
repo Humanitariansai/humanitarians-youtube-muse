@@ -1,0 +1,1023 @@
+[
+  {
+    "term": "$100,000 no",
+    "key": "100 000 no",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "Aaker dimensions (awareness / perceived quality / associations / loyalty)",
+    "key": "aaker dimension",
+    "chapters": [
+      "02-what-a-brand-is-equity"
+    ],
+    "source": null
+  },
+  {
+    "term": "aided/unaided awareness",
+    "key": "aided unaided awarenes",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact"
+    ],
+    "source": null
+  },
+  {
+    "term": "alignment audit",
+    "key": "alignment audit",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "archetype shadow",
+    "key": "archetype shadow",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "bases of segmentation",
+    "key": "bases of segmentation",
+    "chapters": [
+      "04-the-brand-audience"
+    ],
+    "source": null
+  },
+  {
+    "term": "brand archetype",
+    "key": "brand archetype",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "brand architecture",
+    "key": "brand architecture",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": {
+      "def": "brand architecture is the structure of [brand](https://en.wikipedia.org/wiki/Brand)s within an [organizational entity](https://en.wikipedia.org/wiki/Organisation).",
+      "url": "https://en.wikipedia.org/wiki/Brand_architecture",
+      "verbatim": "brand architecture is the structure of [brand](https://en.wikipedia.org/wiki/Brand)s within an [organizational entity](https://en.wikipedia.org/wiki/Organisation)."
+    }
+  },
+  {
+    "term": "brand constants vs. variables",
+    "key": "brand constants vs variable",
+    "chapters": [
+      "11-brand-experience-and-touchpoints"
+    ],
+    "source": null
+  },
+  {
+    "term": "brand equity",
+    "key": "brand equity",
+    "chapters": [
+      "02-what-a-brand-is-equity"
+    ],
+    "source": {
+      "def": "Brand equity, in [marketing](https://en.wikipedia.org/wiki/Marketing), is the worth of a [brand](https://en.wikipedia.org/wiki/Brand) in and of itself – i.e., the social value of a well-known [brand name](https://en.wikipedia.org/wiki/Brand_name).",
+      "url": "https://en.wikipedia.org/wiki/Brand_equity",
+      "verbatim": "Brand equity, in [marketing](https://en.wikipedia.org/wiki/Marketing), is the worth of a [brand](https://en.wikipedia.org/wiki/Brand) in and of itself – i.e., the social value of a well-known [brand name](https://en.wikipedia.org/wiki/Brand_name)."
+    }
+  },
+  {
+    "term": "brand experience",
+    "key": "brand experience",
+    "chapters": [
+      "11-brand-experience-and-touchpoints"
+    ],
+    "source": null
+  },
+  {
+    "term": "brand extension (line / category)",
+    "key": "brand extension",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": {
+      "def": "Brand extension or brand stretching is a [marketing strategy](https://en.wikipedia.org/wiki/Marketing_strategy) in which a [firm](https://en.wikipedia.org/wiki/Firm) marketing a product with a well-developed image uses the same [brand name](https://en.wikipedia.org/wiki/Brand_name) in a different product category.",
+      "url": "https://en.wikipedia.org/wiki/Brand_extension",
+      "verbatim": "Brand extension or brand stretching is a [marketing strategy](https://en.wikipedia.org/wiki/Marketing_strategy) in which a [firm](https://en.wikipedia.org/wiki/Firm) marketing a product with a well-developed image uses the same [brand name](https://en.wikipedia.org/wiki/Brand_name) in a different product category."
+    }
+  },
+  {
+    "term": "brand governance",
+    "key": "brand governance",
+    "chapters": [
+      "14-brand-management-governance-and-rebranding"
+    ],
+    "source": null
+  },
+  {
+    "term": "brand identity vs. image",
+    "key": "brand identity vs image",
+    "chapters": [
+      "02-what-a-brand-is-equity"
+    ],
+    "source": null
+  },
+  {
+    "term": "brand-lift study",
+    "key": "brand lift study",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact",
+      "16-crisis-and-reputation-management"
+    ],
+    "source": null
+  },
+  {
+    "term": "brand metrics vs. performance metrics",
+    "key": "brand metrics vs performance metric",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact"
+    ],
+    "source": null
+  },
+  {
+    "term": "Brand Relationship Spectrum",
+    "key": "brand relationship spectrum",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": {
+      "def": "consumer-brand relationship, also known as a brand relationship, is the relationship that [consumer](https://en.wikipedia.org/wiki/Consumer)s think, feel, and have with a product or company [brand](https://en.wikipedia.org/wiki/Brand).",
+      "url": "https://en.wikipedia.org/wiki/Brand_relationship",
+      "verbatim": "consumer-brand relationship, also known as a brand relationship, is the relationship that [consumer](https://en.wikipedia.org/wiki/Consumer)s think, feel, and have with a product or company [brand](https://en.wikipedia.org/wiki/Brand)."
+    }
+  },
+  {
+    "term": "brand stewardship",
+    "key": "brand stewardship",
+    "chapters": [
+      "14-brand-management-governance-and-rebranding"
+    ],
+    "source": null
+  },
+  {
+    "term": "brand tracking study",
+    "key": "brand tracking study",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact"
+    ],
+    "source": null
+  },
+  {
+    "term": "branded house",
+    "key": "branded house",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": null
+  },
+  {
+    "term": "Build-Measure-Learn loop",
+    "key": "build measure learn loop",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "cannibalization",
+    "key": "cannibalization",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": null
+  },
+  {
+    "term": "capability misalignment",
+    "key": "capability misalignment",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "Caregiver",
+    "key": "caregiver",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "category-error drift",
+    "key": "category error drift",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "CBBE pyramid (salience / performance / imagery / judgments / feelings / resonance)",
+    "key": "cbbe pyramid",
+    "chapters": [
+      "02-what-a-brand-is-equity"
+    ],
+    "source": null
+  },
+  {
+    "term": "clearance search",
+    "key": "clearance search",
+    "chapters": [
+      "08-naming-trademark-and-brand-protection"
+    ],
+    "source": null
+  },
+  {
+    "term": "co-branding",
+    "key": "co branding",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": {
+      "def": "Co-branding is a [marketing strategy](https://en.wikipedia.org/wiki/Marketing_strategy) that involves [strategic alliance](https://en.wikipedia.org/wiki/Strategic_alliance) of multiple brand names jointly used on a single product or service.",
+      "url": "https://en.wikipedia.org/wiki/Co-branding",
+      "verbatim": "Co-branding is a [marketing strategy](https://en.wikipedia.org/wiki/Marketing_strategy) that involves [strategic alliance](https://en.wikipedia.org/wiki/Strategic_alliance) of multiple brand names jointly used on a single product or service."
+    }
+  },
+  {
+    "term": "company registration",
+    "key": "company registration",
+    "chapters": [
+      "08-naming-trademark-and-brand-protection"
+    ],
+    "source": null
+  },
+  {
+    "term": "confidence misalignment",
+    "key": "confidence misalignment",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "consideration",
+    "key": "consideration",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact"
+    ],
+    "source": null
+  },
+  {
+    "term": "core vs. expression",
+    "key": "core vs expression",
+    "chapters": [
+      "17-global-and-cross-cultural-branding"
+    ],
+    "source": null
+  },
+  {
+    "term": "Creator",
+    "key": "creator",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "crisis types (victim / accidental / preventable)",
+    "key": "crisis type",
+    "chapters": [
+      "16-crisis-and-reputation-management"
+    ],
+    "source": null
+  },
+  {
+    "term": "cross-cultural verification",
+    "key": "cross cultural verification",
+    "chapters": [
+      "17-global-and-cross-cultural-branding"
+    ],
+    "source": null
+  },
+  {
+    "term": "cultural tension",
+    "key": "cultural tension",
+    "chapters": [
+      "04-the-brand-audience"
+    ],
+    "source": null
+  },
+  {
+    "term": "customer journey map",
+    "key": "customer journey map",
+    "chapters": [
+      "11-brand-experience-and-touchpoints"
+    ],
+    "source": null
+  },
+  {
+    "term": "DAM (digital asset management)",
+    "key": "dam",
+    "chapters": [
+      "14-brand-management-governance-and-rebranding"
+    ],
+    "source": null
+  },
+  {
+    "term": "decision record",
+    "key": "decision record",
+    "chapters": [
+      "14-brand-management-governance-and-rebranding"
+    ],
+    "source": null
+  },
+  {
+    "term": "design system",
+    "key": "design system",
+    "chapters": [
+      "14-brand-management-governance-and-rebranding"
+    ],
+    "source": null
+  },
+  {
+    "term": "domain",
+    "key": "domain",
+    "chapters": [
+      "08-naming-trademark-and-brand-protection"
+    ],
+    "source": null
+  },
+  {
+    "term": "drift vs. intentional variation",
+    "key": "drift vs intentional variation",
+    "chapters": [
+      "14-brand-management-governance-and-rebranding"
+    ],
+    "source": null
+  },
+  {
+    "term": "empty state",
+    "key": "empty state",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "endorsed brand",
+    "key": "endorsed brand",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": null
+  },
+  {
+    "term": "equity migration",
+    "key": "equity migration",
+    "chapters": [
+      "14-brand-management-governance-and-rebranding"
+    ],
+    "source": null
+  },
+  {
+    "term": "equity stranding",
+    "key": "equity stranding",
+    "chapters": [
+      "14-brand-management-governance-and-rebranding"
+    ],
+    "source": null
+  },
+  {
+    "term": "error state",
+    "key": "error state",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "escalation path",
+    "key": "escalation path",
+    "chapters": [
+      "16-crisis-and-reputation-management"
+    ],
+    "source": null
+  },
+  {
+    "term": "Everyman",
+    "key": "everyman",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "experience economy (Pine/Gilmore)",
+    "key": "experience economy",
+    "chapters": [
+      "11-brand-experience-and-touchpoints"
+    ],
+    "source": null
+  },
+  {
+    "term": "Explorer",
+    "key": "explorer",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "Farris test",
+    "key": "farris test",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact"
+    ],
+    "source": null
+  },
+  {
+    "term": "forcing function",
+    "key": "forcing function",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "gap analysis",
+    "key": "gap analysi",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "glocalization",
+    "key": "glocalization",
+    "chapters": [
+      "17-global-and-cross-cultural-branding"
+    ],
+    "source": null
+  },
+  {
+    "term": "goodwill",
+    "key": "goodwill",
+    "chapters": [
+      "02-what-a-brand-is-equity"
+    ],
+    "source": null
+  },
+  {
+    "term": "Gradio",
+    "key": "gradio",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "Hero",
+    "key": "hero",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "Hofstede cultural dimensions",
+    "key": "hofstede cultural dimension",
+    "chapters": [
+      "17-global-and-cross-cultural-branding"
+    ],
+    "source": null
+  },
+  {
+    "term": "holding statement",
+    "key": "holding statement",
+    "chapters": [
+      "16-crisis-and-reputation-management"
+    ],
+    "source": null
+  },
+  {
+    "term": "house of brands",
+    "key": "house of brand",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": null
+  },
+  {
+    "term": "Image Repair Theory",
+    "key": "image repair theory",
+    "chapters": [
+      "16-crisis-and-reputation-management"
+    ],
+    "source": null
+  },
+  {
+    "term": "individualism vs. collectivism",
+    "key": "individualism vs collectivism",
+    "chapters": [
+      "17-global-and-cross-cultural-branding"
+    ],
+    "source": null
+  },
+  {
+    "term": "ingredient branding",
+    "key": "ingredient branding",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": null
+  },
+  {
+    "term": "Innocent",
+    "key": "innocent",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "intangible asset",
+    "key": "intangible asset",
+    "chapters": [
+      "02-what-a-brand-is-equity"
+    ],
+    "source": null
+  },
+  {
+    "term": "interface layers (visual surface / interaction model / deployment surface / brand surface)",
+    "key": "interface layer",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "ISO 10668",
+    "key": "iso 10668",
+    "chapters": [
+      "02-what-a-brand-is-equity"
+    ],
+    "source": null
+  },
+  {
+    "term": "Jester",
+    "key": "jester",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "jobs-to-be-done",
+    "key": "jobs to be done",
+    "chapters": [
+      "04-the-brand-audience"
+    ],
+    "source": null
+  },
+  {
+    "term": "likelihood of confusion",
+    "key": "likelihood of confusion",
+    "chapters": [
+      "08-naming-trademark-and-brand-protection"
+    ],
+    "source": null
+  },
+  {
+    "term": "living guidelines",
+    "key": "living guideline",
+    "chapters": [
+      "14-brand-management-governance-and-rebranding"
+    ],
+    "source": null
+  },
+  {
+    "term": "Lover",
+    "key": "lover",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "Magician",
+    "key": "magician",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "Mark/Pearson system",
+    "key": "mark pearson system",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "marketing-mix modeling",
+    "key": "marketing mix modeling",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact"
+    ],
+    "source": null
+  },
+  {
+    "term": "minimum viable interface",
+    "key": "minimum viable interface",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "moments of truth (ZMOT / FMOT / SMOT)",
+    "key": "moments of truth",
+    "chapters": [
+      "11-brand-experience-and-touchpoints"
+    ],
+    "source": null
+  },
+  {
+    "term": "mortification",
+    "key": "mortification",
+    "chapters": [
+      "16-crisis-and-reputation-management"
+    ],
+    "source": null
+  },
+  {
+    "term": "multi-touch attribution",
+    "key": "multi touch attribution",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact"
+    ],
+    "source": null
+  },
+  {
+    "term": "MVP (minimum viable product)",
+    "key": "mvp",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "MVP boundary",
+    "key": "mvp boundary",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "Net Promoter Score (and its limits)",
+    "key": "net promoter score",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact"
+    ],
+    "source": null
+  },
+  {
+    "term": "Nice Classification",
+    "key": "nice classification",
+    "chapters": [
+      "08-naming-trademark-and-brand-protection"
+    ],
+    "source": null
+  },
+  {
+    "term": "omnichannel consistency",
+    "key": "omnichannel consistency",
+    "chapters": [
+      "11-brand-experience-and-touchpoints"
+    ],
+    "source": null
+  },
+  {
+    "term": "Outlaw",
+    "key": "outlaw",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "persona as research artifact",
+    "key": "persona as research artifact",
+    "chapters": [
+      "04-the-brand-audience"
+    ],
+    "source": null
+  },
+  {
+    "term": "portfolio pruning",
+    "key": "portfolio pruning",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": null
+  },
+  {
+    "term": "power distance",
+    "key": "power distance",
+    "chapters": [
+      "17-global-and-cross-cultural-branding"
+    ],
+    "source": null
+  },
+  {
+    "term": "PRD (product requirements document)",
+    "key": "prd",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "preference",
+    "key": "preference",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact"
+    ],
+    "source": {
+      "def": "brand preference represents which brands are preferred under assumptions of equality in price and availability.",
+      "url": "https://en.wikipedia.org/wiki/Brand_preference",
+      "verbatim": "brand preference represents which brands are preferred under assumptions of equality in price and availability."
+    }
+  },
+  {
+    "term": "price premium",
+    "key": "price premium",
+    "chapters": [
+      "02-what-a-brand-is-equity"
+    ],
+    "source": null
+  },
+  {
+    "term": "problem statement",
+    "key": "problem statement",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "psychographics (VALS)",
+    "key": "psychographic",
+    "chapters": [
+      "04-the-brand-audience"
+    ],
+    "source": null
+  },
+  {
+    "term": "README as interface",
+    "key": "readme as interface",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "recognition asset",
+    "key": "recognition asset",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "refresh vs. rebrand",
+    "key": "refresh vs rebrand",
+    "chapters": [
+      "14-brand-management-governance-and-rebranding"
+    ],
+    "source": null
+  },
+  {
+    "term": "reputation management",
+    "key": "reputation management",
+    "chapters": [
+      "16-crisis-and-reputation-management"
+    ],
+    "source": null
+  },
+  {
+    "term": "route-to-counsel",
+    "key": "route to counsel",
+    "chapters": [
+      "08-naming-trademark-and-brand-protection"
+    ],
+    "source": null
+  },
+  {
+    "term": "royalty-relief valuation",
+    "key": "royalty relief valuation",
+    "chapters": [
+      "02-what-a-brand-is-equity"
+    ],
+    "source": null
+  },
+  {
+    "term": "Ruler",
+    "key": "ruler",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "Sage",
+    "key": "sage",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "scope creep",
+    "key": "scope creep",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "scope discipline",
+    "key": "scope discipline",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "secondary meaning",
+    "key": "secondary meaning",
+    "chapters": [
+      "08-naming-trademark-and-brand-protection"
+    ],
+    "source": null
+  },
+  {
+    "term": "segment vs. demographic",
+    "key": "segment vs demographic",
+    "chapters": [
+      "04-the-brand-audience"
+    ],
+    "source": null
+  },
+  {
+    "term": "service blueprint (front-stage / back-stage)",
+    "key": "service blueprint",
+    "chapters": [
+      "11-brand-experience-and-touchpoints"
+    ],
+    "source": null
+  },
+  {
+    "term": "severity triage",
+    "key": "severity triage",
+    "chapters": [
+      "16-crisis-and-reputation-management"
+    ],
+    "source": null
+  },
+  {
+    "term": "shadow drift",
+    "key": "shadow drift",
+    "chapters": [
+      "05-brand-archetypes-as-a-system"
+    ],
+    "source": null
+  },
+  {
+    "term": "Situational Crisis Communication Theory (SCCT)",
+    "key": "situational crisis communication theory",
+    "chapters": [
+      "16-crisis-and-reputation-management"
+    ],
+    "source": null
+  },
+  {
+    "term": "standardization vs. adaptation",
+    "key": "standardization vs adaptation",
+    "chapters": [
+      "17-global-and-cross-cultural-branding"
+    ],
+    "source": null
+  },
+  {
+    "term": "STP (segmentation / targeting / positioning)",
+    "key": "stp",
+    "chapters": [
+      "04-the-brand-audience"
+    ],
+    "source": null
+  },
+  {
+    "term": "Streamlit",
+    "key": "streamlit",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "sub-brand",
+    "key": "sub brand",
+    "chapters": [
+      "07-brand-architecture-and-portfolio"
+    ],
+    "source": null
+  },
+  {
+    "term": "tone misalignment",
+    "key": "tone misalignment",
+    "chapters": [
+      "23-shipit-interface-and-deployment"
+    ],
+    "source": null
+  },
+  {
+    "term": "touchpoint",
+    "key": "touchpoint",
+    "chapters": [
+      "11-brand-experience-and-touchpoints"
+    ],
+    "source": null
+  },
+  {
+    "term": "trade dress",
+    "key": "trade dres",
+    "chapters": [
+      "08-naming-trademark-and-brand-protection"
+    ],
+    "source": null
+  },
+  {
+    "term": "trademark",
+    "key": "trademark",
+    "chapters": [
+      "08-naming-trademark-and-brand-protection"
+    ],
+    "source": {
+      "def": "sound trademark is a [non-conventional](https://en.wikipedia.org/wiki/Non-conventional_trademark) [trademark](https://en.wikipedia.org/wiki/Trademark) where [sound](https://en.wikipedia.org/wiki/Sound) is used to perform the trademark function of uniquely identifying the commercial origin of products or services.",
+      "url": "https://en.wikipedia.org/wiki/Category:Sound_trademarks",
+      "verbatim": "sound trademark is a [non-conventional](https://en.wikipedia.org/wiki/Non-conventional_trademark) [trademark](https://en.wikipedia.org/wiki/Trademark) where [sound](https://en.wikipedia.org/wiki/Sound) is used to perform the trademark function of uniquely identifying the commercial origin of products or services."
+    }
+  },
+  {
+    "term": "trademark-strength spectrum (generic / descriptive / suggestive / arbitrary / fanciful)",
+    "key": "trademark strength spectrum",
+    "chapters": [
+      "08-naming-trademark-and-brand-protection"
+    ],
+    "source": null
+  },
+  {
+    "term": "translation vs. localization vs. transcreation",
+    "key": "translation vs localization vs transcreation",
+    "chapters": [
+      "17-global-and-cross-cultural-branding"
+    ],
+    "source": null
+  },
+  {
+    "term": "validated learning",
+    "key": "validated learning",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "vanity vs. value metric",
+    "key": "vanity vs value metric",
+    "chapters": [
+      "13-measuring-brand-equity-and-impact"
+    ],
+    "source": null
+  },
+  {
+    "term": "what vs. how",
+    "key": "what vs how",
+    "chapters": [
+      "20-shipit-product-requirements-and-scope"
+    ],
+    "source": null
+  },
+  {
+    "term": "wrong-fast",
+    "key": "wrong fast",
+    "chapters": [
+      "16-crisis-and-reputation-management"
+    ],
+    "source": null
+  }
+]

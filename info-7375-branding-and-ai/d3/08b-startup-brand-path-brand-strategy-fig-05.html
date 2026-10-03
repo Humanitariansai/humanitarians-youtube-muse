@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The strategy document as a decision funnel</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; } .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:240px; } .title { font-family:'EB Garamond', Georgia, serif; font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle,.axis-label { font-family:'EB Garamond', Georgia, serif; font-size:11px; fill:var(--color-secondary); } .stage-label { font-family:'EB Garamond', Georgia, serif; font-size:13px; font-weight:700; } .stage-sub { font-family:'EB Garamond', Georgia, serif; font-size:10px; fill:var(--color-secondary); } @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const inputs = ["Feature requests","Partnership offers","Channel proposals","Hiring criteria"];
+const stages = [
+  {id:1,label:"1 — Archetype",sub:"Does this fit who we are?",topW:460,botW:380},
+  {id:2,label:"2 — Values",sub:"Does this fit what we won't compromise?",topW:370,botW:300},
+  {id:3,label:"3 — Negative space",sub:"Is this on the no-list?",topW:290,botW:220,primary:true}
+];
+const titleText="The strategy document as a decision funnel";
+const descText="Incoming decisions pass through three constraint layers — archetype, values, negative space — and exit decided, no meeting required.";
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+  d3.select('#chart').selectAll('*').remove();
+  const container=document.getElementById('chart');
+  const totalWidth=Math.max(container.clientWidth-48,640);
+  const totalHeight=560;
+  const cx=totalWidth/2;
+  const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+  svg.append('title').attr('id','chart-title').text(titleText);
+  svg.append('desc').attr('id','chart-desc').text(descText);
+  svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+  svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText);
+  // incoming row
+  const gIn=svg.append('g');
+  const iw=Math.min(150,(totalWidth-80)/4-12);
+  inputs.forEach((d,i)=>{
+    const x=cx-(iw*2+18)+i*(iw+12);
+    gIn.append('rect').attr('x',x).attr('y',80).attr('width',iw).attr('height',34).attr('fill','var(--color-fill)').attr('stroke','var(--color-border)').attr('tabindex',0).attr('aria-label',d)
+      .on('mouseover',(e)=>showTooltip(e,'<strong>Incoming decision</strong><br>'+d)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    gIn.append('text').attr('x',x+iw/2).attr('y',101).attr('text-anchor','middle').attr('class','stage-sub').attr('fill','var(--color-ink)').text(d);
+  });
+  // funnel stages
+  let y=140;
+  stages.forEach((s,i)=>{
+    const top=y, h=52, bot=y+h;
+    const stroke=s.primary?'var(--color-red)':'var(--color-ink)';
+    const sw=s.primary?1.5:1.25;
+    const fill=s.primary?'var(--color-fill)':'var(--color-white)';
+    const g=svg.append('g').attr('opacity',0);
+    g.append('polygon')
+      .attr('points',`${cx-s.topW/2},${top} ${cx+s.topW/2},${top} ${cx+s.botW/2},${bot} ${cx-s.botW/2},${bot}`)
+      .attr('fill',fill).attr('stroke',stroke).attr('stroke-width',sw).attr('tabindex',0).attr('aria-label',s.label+': '+s.sub)
+      .on('mouseover',(e)=>showTooltip(e,'<strong>'+s.label+'</strong><br>'+s.sub)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    g.append('text').attr('x',cx).attr('y',top+22).attr('text-anchor','middle').attr('class','stage-label').attr('fill',s.primary?'var(--color-red)':'var(--color-ink)').text(s.label);
+    g.append('text').attr('x',cx).attr('y',top+40).attr('text-anchor','middle').attr('class','stage-sub').text(s.sub);
+    g.transition().delay(i*150).duration(320).attr('opacity',1);
+    y=bot+22;
+  });
+  // output
+  const og=svg.append('g').attr('opacity',0);
+  og.append('rect').attr('x',cx-130).attr('y',y).attr('width',260).attr('height',48).attr('fill','var(--color-fill)').attr('stroke','var(--color-ink)').attr('stroke-width',1.5);
+  og.append('text').attr('x',cx).attr('y',y+22).attr('text-anchor','middle').attr('class','stage-label').attr('fill','var(--color-ink)').text('Decided, without a meeting');
+  og.append('text').attr('x',cx).attr('y',y+40).attr('text-anchor','middle').attr('class','stage-sub').text('The strategy pre-computes the decision.');
+  og.transition().delay(stages.length*150).duration(320).attr('opacity',1);
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

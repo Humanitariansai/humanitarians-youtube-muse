@@ -1,0 +1,516 @@
+{
+  "meta": {
+    "title": "Brand Archetypes as a System",
+    "short": "BRANDING · CH05",
+    "course": "Branding and AI · Chapter 05",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/05-brand-archetypes-as-a-system.md"
+  },
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "title",
+      "kicker": "Branding and AI · Chapter 05",
+      "title": "Brand Archetypes as a System",
+      "subtitle": "The constraint that makes every downstream decision decidable.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02",
+      "section": "the strange thing",
+      "title": "They did not run out of money. They changed what was working.",
+      "lead": "Tropicana. Gap. Coca-Cola in 1985. The most public brand failures are almost never product failures.",
+      "bullets": [
+        "They changed the orange on the carton, the typeface on the logo, the formula in the bottle — and customers who had been buying without thinking for twenty years suddenly stopped.",
+        "\"Don't change what's working\" sounds easy. It isn't, because **nobody in the room understands what is actually working.**",
+        "What they cannot see is the *recognition asset*: the accumulated pattern of touchpoints that lets a customer's eye snap to your product on a crowded shelf at 8 AM without engaging conscious thought.",
+        "That asset is invisible until it is destroyed. And it is destroyed, specifically, by archetype drift."
+      ]
+    },
+    {
+      "id": "S03",
+      "section": "clearing the word",
+      "title": "\"Archetype\" is doing four different jobs",
+      "lead": "The confusion between them will cost you, so let me separate them once.",
+      "bullets": [
+        "**Jungian psychological archetypes** — the Mother, the Shadow, the Trickster. Claims about human psychology. Jung was not building a brand strategy framework.",
+        "**Personality typology** — the Myers-Briggs descendants. Claims about individual people.",
+        "**Genre archetypes** — the Reluctant Hero, the Wise Mentor. Claims about storytelling.",
+        "**Brand archetypes** — the twelve-archetype system formalized by Mark and Pearson in *The Hero and the Outlaw* (2001). Claims about how brands organize identity and how customers form recognition. That is this chapter."
+      ]
+    },
+    {
+      "id": "S04",
+      "section": "the twelve",
+      "title": "Every archetype carries its own failure mode",
+      "lead": "Inner ring: the identity. Outer ring: its shadow — what that identity becomes when its commitments curdle.",
+      "why": "the chapter lists all twelve, each with 'its core motivation and its shadow', and says 'the shadow matters as much as the archetype' — a genuine two-level taxonomy; Innocent and Everyman are accented because all three drift cases sit there",
+      "archetype": "sunburst",
+      "duration": 11.0,
+      "data": {
+        "center": "TWELVE ARCHETYPES · TWELVE SHADOWS",
+        "centerShort": "MARK & PEARSON",
+        "groups": [
+          {
+            "label": "Innocent",
+            "tone": "accent",
+            "children": [
+              {
+                "label": "denial, naivety"
+              }
+            ]
+          },
+          {
+            "label": "Sage",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "dogmatism"
+              }
+            ]
+          },
+          {
+            "label": "Explorer",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "aimlessness"
+              }
+            ]
+          },
+          {
+            "label": "Hero",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "arrogance"
+              }
+            ]
+          },
+          {
+            "label": "Outlaw",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "nihilism, harm"
+              }
+            ]
+          },
+          {
+            "label": "Magician",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "manipulation"
+              }
+            ]
+          },
+          {
+            "label": "Everyman",
+            "tone": "accent",
+            "children": [
+              {
+                "label": "conformity"
+              }
+            ]
+          },
+          {
+            "label": "Lover",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "obsession"
+              }
+            ]
+          },
+          {
+            "label": "Jester",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "cruelty"
+              }
+            ]
+          },
+          {
+            "label": "Caregiver",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "martyrdom"
+              }
+            ]
+          },
+          {
+            "label": "Ruler",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "tyranny"
+              }
+            ]
+          },
+          {
+            "label": "Creator",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "perfectionism"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "section": "a warning about the names",
+      "title": "Read the motivation. Not the dictionary definition.",
+      "lead": "The names will mislead you if you take them literally.",
+      "bullets": [
+        "**Hero** does not mean your brand is noble. It means your brand is organized around the idea that its customer can become better through effort. *The customer is the hero. The brand is the equipment.*",
+        "**Outlaw** does not mean illegal or antisocial. Harley-Davidson's customers are accountants and lawyers who want, for the weekend, to feel like they stepped outside the system.",
+        "**Caregiver** does not mean soft or low-status. Johnson & Johnson's whole line — baby powder, bandages, surgical instruments — says *we protect the ones who cannot protect themselves.*",
+        "The shadow is useful to you in exactly one way: **it tells you where to watch.** When you pick an archetype, you also pick your most likely failure mode."
+      ]
+    },
+    {
+      "id": "S06",
+      "section": "the forcing function",
+      "title": "Thirty days of small decisions",
+      "lead": "You have just launched a tool. Someone has to decide the tagline, the doc tone, the sponsorship, the button colour, the founder's headshot, the error message.",
+      "why": "chapter runs both branches from the same thirty days: without an archetype 'each decision is made in isolation … a brand that looks like it was designed by a committee that never met'; with one, 'each decision has a constraint'",
+      "archetype": "divergence",
+      "duration": 9.0,
+      "data": {
+        "startLabel": "the same thirty days of decisions",
+        "splitLabel": "did you commit to one identity?",
+        "tracks": [
+          {
+            "label": "No archetype",
+            "outcome": "no model forms",
+            "tone": "warn",
+            "path": "down",
+            "notes": [
+              "the loudest voice in the room",
+              "a committee that never met",
+              "you are new to them every time"
+            ]
+          },
+          {
+            "label": "You are a Sage",
+            "outcome": "a recognition asset",
+            "tone": "accent",
+            "path": "up",
+            "notes": [
+              "docs teach, they do not apologize",
+              "hackathon yes, art festival no",
+              "jokes are dry, never loud"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "section": "why it compounds",
+      "title": "The cheapest consistency device you can buy",
+      "lead": "A customer does not experience your brand once. They experience it hundreds of times — a tweet, a search result, a friend's recommendation, a push notification, a package on a shelf.",
+      "bullets": [
+        "Each experience is a data point. If the data points are consistent, the customer builds a **model** of who the brand is. That model is the recognition asset.",
+        "If they are inconsistent, the model never forms. The customer has met your brand before and cannot place you.",
+        "The archetype is the cheapest instrument for enforcing consistency because **it operates at the level of identity rather than execution**.",
+        "You do not tell every designer, writer and engineer what to produce. You tell them who the brand is. A designer who knows the brand is a Sage makes different choices than one who knows it is a Jester — consistently, without a style guide."
+      ]
+    },
+    {
+      "id": "S08",
+      "section": "the shadow",
+      "title": "The strength, taken too far, is the failure",
+      "lead": "The shadow is structurally related to the archetype's strength. That is the part that took me a while to see clearly.",
+      "bullets": [
+        "The Innocent's strength is purity. **The shadow of purity is denial** — refusing bad news, messaging that reads as willfully naive, out of touch with anything complicated or dark.",
+        "The Sage's strength is expertise. The shadow of expertise is dogmatism — certain, preachy, unable to update when the evidence changes.",
+        "The Hero's shadow is contempt for people who have not become better. It sneers at users who struggle.",
+        "The Caregiver's shadow is martyrdom: *we sacrifice for you, and you should notice that.*"
+      ]
+    },
+    {
+      "id": "S09",
+      "section": "three drift cases",
+      "title": "Shadow drift, or category error?",
+      "lead": "The analytical frame has four elements; this is the one that classifies the failure. The chapter names Tropicana and New Coke outright. It never classifies Gap — so neither does this slide.",
+      "why": "chapter states 'this is a category-error drift, not a shadow drift' for Tropicana, 'a category error of the highest order' plus 'there is also a shadow reading' for New Coke, and gives Gap no such verdict",
+      "archetype": "matrixGrid",
+      "duration": 9.0,
+      "data": {
+        "rows": [
+          {
+            "label": "Shadow drift"
+          },
+          {
+            "label": "Category error"
+          }
+        ],
+        "cols": [
+          {
+            "label": "Tropicana 2009"
+          },
+          {
+            "label": "Gap 2010"
+          },
+          {
+            "label": "New Coke 1985"
+          }
+        ],
+        "cells": [
+          [
+            "miss",
+            "pending",
+            "hit"
+          ],
+          [
+            "hit",
+            "pending",
+            "hit"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "section": "what rejection looks like",
+      "title": "Customers do not migrate. They stop seeing you.",
+      "lead": "Three companies. Three archetype drifts. Three rollbacks. The direction of the drift varies; the shape of the failure does not.",
+      "bullets": [
+        "**Tropicana, 2009.** The orange-with-a-straw became a glossy glass of poured juice — the visual language of a Lover or a Ruler, not an Innocent. Within two months sales dropped 20 percent and the company reported losses of more than $30 million in revenue. Regular buyers walked past the new cartons without seeing them.",
+        "**Gap, 2010.** Within 24 hours a fashion blog had collected more than 2,000 negative comments. Six days after launch, Gap announced the rollback. *The speed of the rejection is diagnostic* — customers did not need to be convinced.",
+        "**New Coke, 1985.** More than 400,000 letters and calls within weeks. Protest groups. A senator entering a statement into the Congressional Record.",
+        "The recognition asset is built by the archetype's *specific expression*, not by its name. You cannot swap expressions without losing what accumulated in the original form."
+      ]
+    },
+    {
+      "id": "S11",
+      "section": "the deepest case",
+      "title": "New Coke: a commitment made before the real evidence",
+      "lead": "In blind tests it performed well. Coca-Cola announced the change in April 1985 and discontinued the original formula the same day. Then the actual evidence arrived.",
+      "why": "chapter narrates a commitment registered on blind-test evidence and resolved by the market months later — 'within three months, Coca-Cola brought back the original formula as Coca-Cola Classic'",
+      "archetype": "lockTimeline",
+      "duration": 8.5,
+      "data": {
+        "commit": {
+          "at": 0.12,
+          "label": "April 1985 · original formula discontinued"
+        },
+        "marks": [
+          {
+            "at": 0.36,
+            "label": "within weeks · 400,000 letters and calls"
+          },
+          {
+            "at": 0.54,
+            "label": "protest groups form"
+          },
+          {
+            "at": 0.7,
+            "label": "a statement enters the Congressional Record"
+          }
+        ],
+        "resolve": {
+          "at": 0.88,
+          "label": "three months later · Classic returns",
+          "verdict": "miss"
+        },
+        "axisLabel": "sameness was the promise"
+      }
+    },
+    {
+      "id": "S12",
+      "section": "reading any brand",
+      "title": "Five inputs, one conclusion",
+      "lead": "Ignore what the brand says its archetype is. Read what its behaviour commits to.",
+      "why": "chapter gives the procedure as five named inputs converging on one name — 'name the archetype that accounts for all five. If you cannot reconcile all five … you have found either a genuine hybrid or evidence of drift in progress'",
+      "archetype": "graph",
+      "duration": 9.0,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          {
+            "id": "tag",
+            "label": "tagline",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "vis",
+            "label": "visual language",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "no",
+            "label": "refusals",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "cust",
+            "label": "its customer",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "crisis",
+            "label": "crisis behaviour",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "arch",
+            "label": "one archetype",
+            "tone": "accent",
+            "layer": 1
+          },
+          {
+            "id": "hyb",
+            "label": "hybrid, or drift in progress",
+            "tone": "warn",
+            "layer": 2
+          }
+        ],
+        "edges": [
+          {
+            "from": "tag",
+            "to": "arch",
+            "label": "compressed"
+          },
+          {
+            "from": "vis",
+            "to": "arch",
+            "label": "colour·type"
+          },
+          {
+            "from": "no",
+            "to": "arch",
+            "label": "absences"
+          },
+          {
+            "from": "cust",
+            "to": "arch",
+            "label": "implied"
+          },
+          {
+            "from": "crisis",
+            "to": "arch",
+            "label": "unperformed"
+          },
+          {
+            "from": "arch",
+            "to": "hyb",
+            "label": "will not reconcile"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "section": "a falsifiable prediction",
+      "title": "If LinkedIn fails, this is the shape it fails in",
+      "lead": "Name the archetype, name the shadow, name the early signals — then register the prediction before you have the answer.",
+      "why": "the chapter registers the claim explicitly and refuses to resolve it: 'the prediction is not that the shadow will activate … whether LinkedIn is currently activating its shadow is a question you can evaluate yourself'",
+      "archetype": "lockTimeline",
+      "duration": 8.0,
+      "data": {
+        "commit": {
+          "at": 0.14,
+          "label": "LinkedIn = Sage · shadow = dogmatism"
+        },
+        "marks": [
+          {
+            "at": 0.4,
+            "label": "signal: tone shifts toward the prescriptive"
+          },
+          {
+            "at": 0.56,
+            "label": "signal: authority signalling over genuine insight"
+          },
+          {
+            "at": 0.72,
+            "label": "signal: product rewards performance of expertise"
+          }
+        ],
+        "resolve": {
+          "at": 0.9,
+          "label": "is the shadow activating?",
+          "pending": true
+        },
+        "axisLabel": "the watchlist"
+      }
+    },
+    {
+      "id": "S14",
+      "section": "picking yours",
+      "title": "Three tests, and you have to survive all of them",
+      "lead": "You are not choosing a personality. You are choosing a set of constraints you are willing to maintain for years under pressure.",
+      "why": "chapter names three tests and says 'the archetype that survives all three tests is the one to commit to' — and no verdict is knowable until the reader runs it on their own brand",
+      "archetype": "gatePipeline",
+      "duration": 8.0,
+      "data": {
+        "input": {
+          "label": "a candidate archetype"
+        },
+        "gates": [
+          {
+            "label": "Authenticity",
+            "rule": "does it match how you behave when you are not performing?",
+            "pass": null
+          },
+          {
+            "label": "Differentiation",
+            "rule": "or are you one more Sage in a market full of Sages?",
+            "pass": null
+          },
+          {
+            "label": "Stress",
+            "rule": "does it hold at ten times the size, against a better-funded copy?",
+            "pass": null
+          }
+        ],
+        "output": {
+          "label": "the archetype you commit to",
+          "pending": true
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "section": "the limits",
+      "title": "This is *a* taxonomy, not *the* taxonomy",
+      "lead": "I should be honest about what this framework cannot do.",
+      "bullets": [
+        "Mark and Pearson is a working decision — concrete enough to teach, general enough to apply across industries, with enough documented case history to defend in a portfolio review. It is not a claim about the deep structure of brand identity.",
+        "Real brands combine archetypes. Apple has operated as an Outlaw (\"Think Different\"), a Magician (the iPhone launch), and arguably a Ruler (the App Store era).",
+        "**What would change my mind:** strong evidence that brands without explicit archetype commitments perform comparably, controlling for product quality and marketing spend. The empirical base here is primarily case study.",
+        "**Still puzzling:** how brands successfully *evolve* an archetype without losing the audience. I do not have a clean account of it, and I would not trust anyone who claims they do."
+      ]
+    },
+    {
+      "id": "S16",
+      "section": "what this deck does not tell you",
+      "title": "The stated figures are theirs. The empty slots are yours.",
+      "lead": "Every number on the drift slides is one the chapter states: 20 percent, $30 million, 2,000 comments, six days, 400,000 letters. Nothing was rounded up to sound better.",
+      "bullets": [
+        "How Gap's failure classifies — shadow drift or category error — **TO RUN**. The chapter analyses the case without assigning it, so this deck leaves the cell dashed rather than filling it with a plausible guess.",
+        "Whether LinkedIn's shadow is currently activating — **TO RUN**. Five minutes of the feed, read with this frame, is the experiment.",
+        "Whether your candidate archetype survives authenticity, differentiation and stress — **TO RUN**, and only you can run it. The model can name the shadow. Only you know which triggers actually apply."
+      ]
+    },
+    {
+      "id": "S17",
+      "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Commit to one identity, then write down how it will fail.",
+      "lead": "Paste five samples of writing you did without performing a persona and find out which archetype you actually are. Then name your shadow, list three early-warning behaviours specific to you, and set one monthly check. The archetype is the easy half."
+    }
+  ]
+}

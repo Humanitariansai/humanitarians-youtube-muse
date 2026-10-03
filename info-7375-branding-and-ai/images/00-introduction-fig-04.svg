@@ -1,0 +1,64 @@
+<!--
+  How the book is organized — the twelve-chapter arc
+  Book: Branding and AI
+  Chapter: 00-introduction
+  Figure: 04
+  Type: timeline
+  Generated: 2026-06-18
+  Source: pantry/00-introduction-cajal.md
+-->
+<svg viewBox="0 0 920 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-00-04">
+  <title id="fig-title-00-04">How the book is organized — the twelve-chapter arc</title>
+  <desc>Twelve chapters as a compounding sequence with a fork at Chapter 8 into a personal path (8a) and a startup path (8b) that rejoin toward the launch.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker>
+  </defs>
+  <rect x="0" y="0" width="800" height="400" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The twelve-chapter arc — read in order; the chapters compound</text>
+
+  <!-- spine -->
+  <line x1="50" y1="180" x2="500" y2="180" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- markers 1-7 -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <circle cx="50" cy="180" r="5" fill="#121212"/><text x="50" y="160" text-anchor="middle">1</text><text x="50" y="208" text-anchor="middle" fill="#545454">Engineer</text>
+    <circle cx="125" cy="180" r="5" fill="#121212"/><text x="125" y="160" text-anchor="middle">2</text><text x="125" y="208" text-anchor="middle" fill="#545454">Madison</text>
+    <circle cx="200" cy="180" r="5" fill="#121212"/><text x="200" y="160" text-anchor="middle">3</text><text x="200" y="208" text-anchor="middle" fill="#545454">Archetypes</text>
+    <circle cx="275" cy="180" r="5" fill="#121212"/><text x="275" y="160" text-anchor="middle">4</text><text x="275" y="208" text-anchor="middle" fill="#545454">Scope</text>
+    <circle cx="350" cy="180" r="5" fill="#121212"/><text x="350" y="160" text-anchor="middle">5</text><text x="350" y="208" text-anchor="middle" fill="#545454">Pipelines</text>
+    <circle cx="425" cy="180" r="5" fill="#121212"/><text x="425" y="160" text-anchor="middle">6</text><text x="425" y="208" text-anchor="middle" fill="#545454">Intelligence</text>
+    <circle cx="500" cy="180" r="5" fill="#121212"/><text x="500" y="160" text-anchor="middle">7</text><text x="500" y="208" text-anchor="middle" fill="#545454">Interface</text>
+  </g>
+
+  <!-- connector to fork -->
+  <line x1="500" y1="180" x2="560" y2="180" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- fork node at chapter 8 (RED focal) — label "8" above dot -->
+  <circle cx="560" cy="180" r="7" fill="#C8102E"/>
+  <text x="560" y="163" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">8</text>
+
+  <!-- symmetric diamond: left (560,180) top (640,110) right (720,180) bottom (640,250) -->
+  <path d="M560 180 L 640 110" stroke="#121212" stroke-width="1.5" fill="none"/>
+  <path d="M560 180 L 640 250" stroke="#121212" stroke-width="1.5" fill="none"/>
+  <path d="M640 110 L 720 180" stroke="#121212" stroke-width="1.5" fill="none"/>
+  <path d="M640 250 L 720 180" stroke="#121212" stroke-width="1.5" fill="none"/>
+
+  <!-- "choose a path" centered inside diamond -->
+  <text x="640" y="174" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">choose</text>
+  <text x="640" y="188" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">a path</text>
+
+  <!-- 8a and 8b nodes -->
+  <circle cx="640" cy="110" r="5" fill="#121212"/>
+  <text x="652" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">8a — Personal brand</text>
+  <circle cx="640" cy="250" r="5" fill="#121212"/>
+  <text x="652" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">8b — Startup brand</text>
+
+  <!-- rejoin and continue to 9-12 -->
+  <circle cx="720" cy="180" r="5" fill="#121212"/>
+  <line x1="720" y1="180" x2="855" y2="180" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="720" y="160" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">9–12</text>
+  <text x="728" y="160" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454"> — Identity → Launch</text>
+
+  <text x="32" y="360" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">At Chapter 8 you pick the path that fits — personal (8a) or startup (8b) —</text>
+  <text x="32" y="376" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">and carry it to the Chapter 12 launch.</text>
+</svg>

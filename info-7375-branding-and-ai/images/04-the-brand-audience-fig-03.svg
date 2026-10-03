@@ -1,0 +1,85 @@
+<!--
+  The five bases of segmentation
+  Book: Branding and AI
+  Chapter: 04-the-brand-audience
+  Figure: 03
+  Type: hierarchy / taxonomy
+  Generated: 2026-06-18
+  Source: pantry/04-the-brand-audience-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04-03">
+  <title id="fig-title-04-03">The five bases of segmentation</title>
+  <desc>A single market branches into five segmentation bases — demographic, geographic, behavioral, psychographic, needs-based — each with an example cut. Demographics is where most stop; needs-based defines a true segment.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="04-the-brand-audience"
+      figure-number="03" figure-title="The five bases of segmentation" figure-slug="five-bases-of-segmentation"
+      figure-type="hierarchy / taxonomy" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/04-the-brand-audience-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Five ways to cut a single population</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A demographic descriptor is not a segment. A shared need is.</text>
+
+  <!-- Root -->
+  <rect x="270" y="86" width="160" height="44" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="113" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">The market</text>
+
+  <!-- connector lines from root to 5 branches -->
+  <line x1="350" y1="130" x2="350" y2="158" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="98" y1="158" x2="602" y2="158" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="98" y1="158" x2="98" y2="182" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="224" y1="158" x2="224" y2="182" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="350" y1="158" x2="350" y2="182" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="476" y1="158" x2="476" y2="182" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="602" y1="158" x2="602" y2="182" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- Branch boxes (5) centered at x=98,224,350,476,602 ; width 108 -->
+  <!-- 1 demographic -->
+  <rect x="44" y="182" width="108" height="110" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="98" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Demographic</text>
+  <text x="98" y="228" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">age, income,</text>
+  <text x="98" y="242" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">occupation</text>
+  <text x="98" y="266" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"women 25–34"</text>
+
+  <!-- 2 geographic -->
+  <rect x="170" y="182" width="108" height="110" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="224" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Geographic</text>
+  <text x="224" y="228" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">region, urban</text>
+  <text x="224" y="242" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">/ rural density</text>
+  <text x="224" y="266" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"dense metros"</text>
+
+  <!-- 3 behavioral -->
+  <rect x="296" y="182" width="108" height="110" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Behavioral</text>
+  <text x="350" y="228" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">frequency,</text>
+  <text x="350" y="242" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">loyalty, occasion</text>
+  <text x="350" y="266" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"daily users"</text>
+
+  <!-- 4 psychographic -->
+  <rect x="422" y="182" width="108" height="110" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="476" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Psychographic</text>
+  <text x="476" y="228" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">values,</text>
+  <text x="476" y="242" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">lifestyle (VALS)</text>
+  <text x="476" y="266" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"strivers"</text>
+
+  <!-- 5 needs-based (RED accent: the one that defines a true segment) -->
+  <rect x="548" y="182" width="108" height="110" fill="#F5F5F5" stroke="#C8102E" stroke-width="2"/>
+  <text x="602" y="206" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#C8102E">Needs-based</text>
+  <text x="602" y="228" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">what they are</text>
+  <text x="602" y="242" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">trying to do</text>
+  <text x="602" y="260" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"loses money to</text>
+  <text x="602" y="274" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">scope creep"</text>
+
+  <!-- callouts -->
+  <text x="98" y="310" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">where most stop —</text>
+  <text x="98" y="324" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">a description, not a segment</text>
+
+  <text x="602" y="310" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">a shared need defines</text>
+  <text x="602" y="324" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#C8102E">a true segment</text>
+
+  <line x1="32" y1="356" x2="668" y2="356" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="380" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Two people with nothing demographic in common can share a segment if they solve the same problem.</text>
+
+  <text x="32" y="408" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 4, SEGMENTATION, TARGETING, POSITIONING</text>
+</svg>

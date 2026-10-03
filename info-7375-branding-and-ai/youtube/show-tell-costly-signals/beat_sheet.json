@@ -1,0 +1,645 @@
+{
+  "metadata": {
+    "slug": "show-tell-costly-signals",
+    "title": "Cheap to Make, Cheap to Signal",
+    "topic": "INFO 7375 · BRANDING AND AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "Burmese (Mingalaba) — confirmed unused 2026-09-27",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "course": "INFO 7375 Branding and AI · Nik Bear Brown · Northeastern University",
+    "audience": "INFO 7375 Branding and AI students (Fall 2026) building portfolios in the age of AI",
+    "bookloop_policy": "Course film: carries the INFO 7375 credit, spoken in BIDEA and on screen in the BDEFS title and the BHTF composer topic; not a numbered lecture. Outro stays OUTRO-LOCK.",
+    "source_doc": "info-7375-branding-and-ai/chapters/01-the-creative-engineer.md, 'The Machinery: Spence Signaling Mechanism' + Bear's framing, 2026-09-27 (SOURCE.md); Spence 1973 QJE 87(3):355-374; Peng et al., arXiv 2302.06590",
+    "playlist": "Claude & Agentic AI",
+    "chapter_number": 0,
+    "tags": [
+      "signaling",
+      "Michael Spence",
+      "costly signals",
+      "portfolio",
+      "judgment",
+      "AI",
+      "hiring",
+      "branding",
+      "INFO 7375",
+      "Northeastern",
+      "Claude",
+      "Nik Bear Brown"
+    ],
+    "build": {
+      "at": "2026-09-27T20:00:44",
+      "cut": "master",
+      "filled": 12,
+      "of": 12,
+      "slates": [],
+      "skin_warnings": [
+        "BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' — COLD OPEN LAW wants ClaudeComposerAsk"
+      ]
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Mingalaba. This is Liam, in for Bear, with a short film for INFO seventy-three seventy-five, Branding and AI. You might think a polished portfolio proves what you can do. It only proves something if it cost you something to make.",
+      "estimated_duration_s": 14.3,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Does a polished portfolio prove what I can do?'"
+          },
+          {
+            "at": 0.6,
+            "event": "'prove what I can do' → 'cost me anything to make'"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Does a polished portfolio\nprove what I can do?",
+            "triggerWords": "prove what I can do",
+            "replacementWords": "cost me anything to make",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "show-tell-costly-signals",
+            "banner": "",
+            "durationSeconds": 12.757
+          },
+          "rendered": {
+            "out": "media/BIDEA.mp4",
+            "at": "2026-09-27T19:08:59.853533+00:00"
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive question and corrects it: does it cost anything to make.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      },
+      "actual_duration_s": 12.757,
+      "audio_file": "mp3/beat-BIDEA.mp3",
+      "render_duration_s": 12.791666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BIDEA.mp4",
+        "filled_by": "remotion:BrutalistHesitantWriter",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. A signal: something you show that stands in for what others can't see. A costly signal: one that's hard to fake cheaply, so it tells people apart. And pooling: when everyone can produce the signal, so it stops telling anyone apart.",
+      "estimated_duration_s": 15.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "'signal'"
+          },
+          {
+            "at": 0.4,
+            "event": "'costly signal'"
+          },
+          {
+            "at": 0.7,
+            "event": "'pooling'"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "INFO 7375 · Terms In This Film",
+            "terms": [
+              {
+                "term": "signal",
+                "meaning": "something you show that stands in for what others can't see"
+              },
+              {
+                "term": "costly signal",
+                "meaning": "hard to fake cheaply, so it tells people apart"
+              },
+              {
+                "term": "pooling",
+                "meaning": "everyone can produce the signal, so it stops sorting"
+              }
+            ],
+            "folderLabel": "@NikBearBrown",
+            "durationSeconds": 13.184
+          },
+          "rendered": {
+            "out": "media/BDEFS.mp4",
+            "at": "2026-09-27T19:09:43.469712+00:00"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      },
+      "actual_duration_s": 13.184,
+      "audio_file": "mp3/beat-BDEFS.mp3",
+      "render_duration_s": 13.208333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BDEFS.mp4",
+        "filled_by": "remotion:ClaudeDefinitions",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "In 1973, the economist Michael Spence asked a simple question. An employer wants productive people, but you can't see productivity until after the hire. So how does anyone choose?",
+      "estimated_duration_s": 10.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Five sealed kraft boxes drop onto the stage in a row; a grey bracket draws over them ('can't see inside').",
+        "show": [
+          {
+            "at": 0.3,
+            "event": "sealed boxes drop in"
+          },
+          {
+            "at": 0.8,
+            "event": "can't see inside"
+          }
+        ],
+        "manim": {
+          "class": "B00_CantSee"
+        },
+        "motion_claim": "Five sealed kraft boxes drop onto the stage in a row; a grey bracket draws over them ('can't see inside')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 11.456,
+      "audio_file": "mp3/beat-B00.mp3",
+      "render_duration_s": 11.458333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B00.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "They look at signals: things you can show that stand in for what they can't see. Spence's example was a degree.",
+      "estimated_duration_s": 7.5,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "White page tags drop onto two of the five boxes ('signal').",
+        "show": [
+          {
+            "at": 0.3,
+            "event": "tags land"
+          },
+          {
+            "at": 0.8,
+            "event": "signal"
+          }
+        ],
+        "manim": {
+          "class": "B01_Signal"
+        },
+        "motion_claim": "White page tags drop onto two of the five boxes ('signal')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 6.315,
+      "audio_file": "mp3/beat-B01.mp3",
+      "render_duration_s": 6.333333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "A degree works as a signal because it's costly, and costlier for some people than for others. It's hard to fake cheaply, so it tells people apart.",
+      "estimated_duration_s": 9.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A staircase of kraft steps builds; two small boxes climb it; one reaches the top and gets a page tag, the other stops halfway ('costly').",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "steps build"
+          },
+          {
+            "at": 0.5,
+            "event": "two climb"
+          },
+          {
+            "at": 0.8,
+            "event": "one reaches the tag"
+          }
+        ],
+        "manim": {
+          "class": "B02_Costly"
+        },
+        "motion_claim": "A staircase of kraft steps builds; two small boxes climb it; one reaches the top and gets a page tag, the other stops halfway ('costly')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 8.405,
+      "audio_file": "mp3/beat-B02.mp3",
+      "render_duration_s": 8.416666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "When the cost holds, the signal separates people. Spence called that a separating equilibrium. The work later shared a Nobel prize, for markets where one side knows more than the other.",
+      "estimated_duration_s": 11.1,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A grey sorter splits into two lanes; boxes with tags slide into the right lane, boxes without into the left ('separating').",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "the sorter draws"
+          },
+          {
+            "at": 0.5,
+            "event": "boxes split into two lanes"
+          }
+        ],
+        "manim": {
+          "class": "B03_Separating"
+        },
+        "motion_claim": "A grey sorter splits into two lanes; boxes with tags slide into the right lane, boxes without into the left ('separating')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 10.411,
+      "audio_file": "mp3/beat-B03.mp3",
+      "render_duration_s": 10.416666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now AI has made some of those signals nearly free. A working demo app. A clean cover letter. A polished essay, a logo, a slide deck. In one experiment, programmers with an AI assistant built a small web server in less than half the time.",
+      "estimated_duration_s": 16.1,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A dark server stack lights up and prints page tags, one after another, onto every box in the row ('AI').",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "the server lights"
+          },
+          {
+            "at": 0.4,
+            "event": "tags print onto every box"
+          }
+        ],
+        "manim": {
+          "class": "B04_AIPrints"
+        },
+        "motion_claim": "A dark server stack lights up and prints page tags, one after another, onto every box in the row ('AI')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 14.549,
+      "audio_file": "mp3/beat-B04.mp3",
+      "render_duration_s": 14.583333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "When everyone can produce the signal, it stops sorting. Spence called that pooling. Everyone looks the same on paper, and the employer is back to guessing.",
+      "estimated_duration_s": 9.3,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The two lanes merge into one; every tagged box slides into the same pile ('pooling').",
+        "show": [
+          {
+            "at": 0.3,
+            "event": "lanes merge"
+          },
+          {
+            "at": 0.6,
+            "event": "one pile"
+          }
+        ],
+        "manim": {
+          "class": "B05_Pooling"
+        },
+        "motion_claim": "The two lanes merge into one; every tagged box slides into the same pile ('pooling')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 8.704,
+      "audio_file": "mp3/beat-B05.mp3",
+      "render_duration_s": 8.708333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So what didn't get cheap? Judgment: choosing what's worth making. Ideation: finding a problem real people actually have. Creative taste. And the effort of putting something in front of real users and changing it because of what they said. Those still cost you something, so they still signal.",
+      "estimated_duration_s": 17.1,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "In the pooled pile, one box lifts out and gets the terracotta tape; three dots light beside it one by one ('judgment').",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "one box lifts"
+          },
+          {
+            "at": 0.4,
+            "event": "judgment"
+          },
+          {
+            "at": 0.6,
+            "event": "ideation"
+          },
+          {
+            "at": 0.8,
+            "event": "effort"
+          }
+        ],
+        "manim": {
+          "class": "B06_StillCostly"
+        },
+        "motion_claim": "In the pooled pile, one box lifts out and gets the terracotta tape; three dots light beside it one by one ('judgment')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 15.019,
+      "audio_file": "mp3/beat-B06.mp3",
+      "render_duration_s": 15.041666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So show the expensive part. The problem you chose, and why. The versions you threw away. What real users told you, and what you changed. The artifact is cheap now. The reasons behind it aren't.",
+      "estimated_duration_s": 12.5,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The taped box opens; three white pages rise out of it and fan to the right ('why', 'versions', 'users').",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "the box opens"
+          },
+          {
+            "at": 0.4,
+            "event": "why"
+          },
+          {
+            "at": 0.6,
+            "event": "versions"
+          },
+          {
+            "at": 0.8,
+            "event": "users"
+          }
+        ],
+        "manim": {
+          "class": "B07_ShowIt"
+        },
+        "motion_claim": "The taped box opens; three white pages rise out of it and fan to the right ('why', 'versions', 'users')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn isometric scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      },
+      "actual_duration_s": 10.795,
+      "audio_file": "mp3/beat-B07.mp3",
+      "render_duration_s": 10.833333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Pick one project you'd show an employer, and paste this into Claude: Here's a project in my portfolio: describe it. Act as a skeptical hiring manager who knows AI can produce code and text cheaply. Tell me which parts of this project an AI could have made in an afternoon, and which parts show judgment an AI couldn't supply. Then suggest three things I could add so the costly part is visible to a stranger. Then check two things yourself. Is each costly part something you actually did? And could a stranger see it without asking you?",
+      "estimated_duration_s": 35.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "INFO 7375 BRANDING AND AI · YOUR TURN",
+            "segment": "Cheap to Make, Cheap to Signal",
+            "command": "Here's a project in my portfolio: [describe it]. Act as a skeptical hiring manager who knows AI can produce code and text cheaply. Tell me which parts of this project an AI could have made in an afternoon, and which parts show judgment an AI couldn't supply. Then suggest three things I could add so the costly part is visible to a stranger.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: is each 'costly' part something you actually did?",
+              "Check: could a stranger see it without asking you?"
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": "2026-09-27T19:11:06.463214+00:00"
+          }
+        }
+      },
+      "actual_duration_s": 28.139,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "render_duration_s": 28.166666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "remotion:ClaudeComposerAsk",
+        "at": "2026-09-27T20:00:44"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Cheap to Make, Cheap to Signal. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Cheap to Make, Cheap to Signal",
+            "slug": "show-tell-costly-signals",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": "2026-09-27T19:11:27.685131+00:00"
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0,
+      "actual_duration_s": 4.541,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "render_duration_s": 4.541666666666667,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "remotion:ClaudeTitleOutro",
+        "at": "2026-09-27T20:00:44"
+      }
+    }
+  ]
+}

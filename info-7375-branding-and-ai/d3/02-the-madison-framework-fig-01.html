@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layered Madison architecture versus a single mega-agent</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:240px; }
+.title { font-family:'EB Garamond', Georgia, serif; font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle,.node-label,.axis-label { font-family:'EB Garamond', Georgia, serif; font-size:11px; fill:var(--color-secondary); } .value-label { font-family:'IBM Plex Mono','JetBrains Mono',monospace; font-size:10px; fill:var(--color-secondary); letter-spacing:0.08em; }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const layers=[
+ {label:"Intelligence",desc:"Gathers and scores market data and sentiment."},
+ {label:"Content",desc:"Creates and adapts marketing materials across channels."},
+ {label:"Research",desc:"Processes data into customer insight and personas."},
+ {label:"Experience",desc:"Enhances customer interactions and journeys."},
+ {label:"Performance",desc:"Measures outcomes and optimizes via experiments."}
+];
+const titleText='Layered architecture versus a single mega-agent';
+const descText='Five named agent layers connect through a central orchestration node; the mega-agent is one opaque box with no surfaces and no fault location.';
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,700);
+ const totalHeight=460;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight)
+   .attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text('Named layers fail at known locations and create product surfaces; the mega-agent is a black box.');
+ const defs=svg.append('defs');
+ defs.append('marker').attr('id','arrow').attr('markerWidth',8).attr('markerHeight',6).attr('refX',7).attr('refY',3).attr('orient','auto')
+   .append('polygon').attr('points','0 0, 8 3, 0 6').attr('fill','var(--color-ink)');
+ const leftW=totalWidth*0.62;
+ const orch={x:leftW*0.6,y:250};
+ // orchestration node
+ const gOrch=svg.append('g');
+ gOrch.append('rect').attr('x',orch.x-66).attr('y',orch.y-26).attr('width',132).attr('height',52).attr('rx',0)
+   .attr('fill','var(--color-red)').attr('stroke','var(--color-ink)').attr('stroke-width',1).attr('tabindex',0)
+   .attr('aria-label','Orchestration layer: coordinates all agents')
+   .on('mouseover',(event)=>showTooltip(event,'<strong>Orchestration layer</strong><br>Coordinates all agents: validation, resource allocation, learning.'))
+   .on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+ gOrch.append('text').attr('x',orch.x).attr('y',orch.y-2).attr('text-anchor','middle').attr('font-size',12).attr('fill','var(--color-white)').attr('font-family',"'EB Garamond', Georgia, serif").text('Orchestration');
+ gOrch.append('text').attr('x',orch.x).attr('y',orch.y+14).attr('text-anchor','middle').attr('font-size',9).attr('fill','var(--color-white)').attr('font-family',"'EB Garamond', Georgia, serif").text('layer');
+ // layer nodes positioned around orchestration
+ const positions=[
+  {x:90,y:130},{x:90,y:210},{x:90,y:290},{x:90,y:370},{x:orch.x+150,y:290}
+ ];
+ const nodes=svg.append('g').selectAll('.layer').data(layers).join('g');
+ nodes.each(function(d,i){
+   const g=d3.select(this); const p=positions[i];
+   g.append('line').attr('x1',p.x<orch.x?p.x+116:p.x).attr('y1',p.y).attr('x2',orch.x+(p.x<orch.x?-66:66)).attr('y2',orch.y)
+     .attr('stroke','var(--color-ink)').attr('stroke-width',1.2).attr('marker-end','url(#arrow)');
+   g.append('rect').attr('x',p.x).attr('y',p.y-20).attr('width',116).attr('height',40).attr('rx',0)
+     .attr('fill','var(--color-white)').attr('stroke','var(--color-border)').attr('stroke-width',1).attr('tabindex',0)
+     .attr('aria-label',d.label+': '+d.desc)
+     .on('mouseover',function(event){d3.select(this).attr('stroke','var(--color-red)'); showTooltip(event,'<strong>'+d.label+'</strong><br>'+d.desc);})
+     .on('mousemove',moveTooltip).on('mouseout',function(){d3.select(this).attr('stroke','var(--color-border)'); hideTooltip();});
+   g.append('text').attr('x',p.x+58).attr('y',p.y+4).attr('text-anchor','middle').attr('font-size',10).attr('fill','var(--color-ink)').attr('font-family',"'EB Garamond', Georgia, serif").text(d.label);
+ });
+ // divider + mega-agent
+ svg.append('line').attr('x1',leftW+20).attr('y1',100).attr('x2',leftW+20).attr('y2',410).attr('stroke','var(--color-border)').attr('stroke-width',1);
+ const mx=leftW+50, my=180, mw=Math.max(totalWidth-leftW-80,150);
+ svg.append('text').attr('x',mx).attr('y',130).attr('class','subtitle').attr('font-weight',700).text('MEGA-AGENT — one box');
+ svg.append('rect').attr('x',mx).attr('y',my).attr('width',mw).attr('height',150).attr('rx',0).attr('fill','var(--color-fill)').attr('stroke','var(--color-ink)').attr('stroke-width',1.5).attr('tabindex',0)
+   .attr('aria-label','Mega-agent: a single opaque model with no surfaces and no fault location')
+   .on('mouseover',(event)=>showTooltip(event,'<strong>Mega-agent</strong><br>One model. No surfaces to name, version, or sell. Failures blur. Context is re-read redundantly.'))
+   .on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+ svg.append('text').attr('x',mx+mw/2).attr('y',my+72).attr('text-anchor','middle').attr('font-size',12).attr('fill','var(--color-ink)').attr('font-family',"'EB Garamond', Georgia, serif").text('Single model (black box)');
+ svg.append('text').attr('x',mx).attr('y',my+170).attr('class','subtitle').text('No surfaces. No fault location.');
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

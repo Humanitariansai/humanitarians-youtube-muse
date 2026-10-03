@@ -1,0 +1,94 @@
+<!--
+  Madison Intelligence Agent architecture
+  Book: Branding and AI
+  Chapter: 21-shipit-pipelines-and-workflow-on-madison
+  Figure: 08
+  Type: systems diagram
+  Generated: 2026-06-18
+  Source: pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-21-08">
+  <title id="fig-title-21-08">Madison Intelligence Agent architecture</title>
+  <desc>A six-hour schedule trigger feeds three parallel ingestion branches (RSS, Google News, Reddit) into a dedup node with a seen-URL store, then GPT-4o-mini scoring, then dual outputs: content sheet and run log. Each choice addresses a failure mode.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="21-shipit-pipelines-and-workflow-on-madison"
+      figure-number="08" figure-title="Madison Intelligence Agent architecture"
+      figure-slug="madison-intelligence-agent-architecture" figure-type="systems diagram"
+      priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/21-shipit-pipelines-and-workflow-on-madison-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The Madison Intelligence Agent — read for design decisions, not node count</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each choice is labeled with the failure mode it addresses.</text>
+
+  <defs><marker id="arrow2108" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker></defs>
+
+  <!-- Schedule trigger -->
+  <rect x="32" y="170" width="96" height="60" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="80" y="194" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Schedule</text>
+  <text x="80" y="210" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">every 6 hrs</text>
+
+  <!-- Parallel ingestion branches -->
+  <rect x="180" y="100" width="120" height="46" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="240" y="128" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">RSS feeds</text>
+  <rect x="180" y="177" width="120" height="46" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="240" y="205" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Google News API</text>
+  <rect x="180" y="254" width="120" height="46" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="240" y="282" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Reddit</text>
+
+  <!-- arrows trigger -> branches -->
+  <line x1="128" y1="190" x2="176" y2="123" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2108)"/>
+  <line x1="128" y1="200" x2="176" y2="200" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2108)"/>
+  <line x1="128" y1="210" x2="176" y2="277" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2108)"/>
+
+  <!-- Dedup node -->
+  <rect x="346" y="170" width="110" height="60" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="401" y="194" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Dedup</text>
+  <text x="401" y="210" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">seen-URL store</text>
+
+  <!-- arrows branches -> dedup -->
+  <line x1="300" y1="123" x2="344" y2="188" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2108)"/>
+  <line x1="300" y1="200" x2="344" y2="200" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2108)"/>
+  <line x1="300" y1="277" x2="344" y2="212" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2108)"/>
+
+  <!-- Scoring node -->
+  <rect x="474" y="170" width="110" height="60" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="529" y="194" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">GPT-4o-mini</text>
+  <text x="529" y="210" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">score + summary</text>
+  <line x1="456" y1="200" x2="470" y2="200" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2108)"/>
+
+  <!-- Dual outputs -->
+  <rect x="600" y="138" width="68" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="634" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Content</text>
+  <text x="634" y="178" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">sheet</text>
+  <rect x="600" y="206" width="68" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="634" y="230" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Run log</text>
+  <text x="634" y="246" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">timestamp</text>
+  <line x1="584" y1="190" x2="598" y2="170" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2108)"/>
+  <line x1="584" y1="210" x2="598" y2="228" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow2108)"/>
+
+  <!-- failure-mode annotations -->
+  <rect x="180" y="312" width="120" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="190" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">parallel branches:</text>
+  <text x="190" y="348" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">if Reddit fails, RSS</text>
+  <text x="190" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">branches continue.</text>
+  <line x1="240" y1="300" x2="240" y2="310" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+  <rect x="346" y="312" width="110" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="356" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">seen-URL store:</text>
+  <text x="356" y="348" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">scored once, not</text>
+  <text x="356" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">three times.</text>
+  <line x1="401" y1="230" x2="401" y2="310" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+  <rect x="540" y="312" width="128" height="60" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="550" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">run log answers:</text>
+  <text x="550" y="348" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">did it execute at</text>
+  <text x="550" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">7 a.m.?</text>
+  <line x1="634" y1="262" x2="634" y2="310" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+  <text x="32" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Six-hour schedule: hitting API caps mid-day throttles the rest of the window —</text>
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">a contract-aware decision.</text>
+
+  <text x="32" y="424" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 21, READING MADISON + BREAKING IT ON PURPOSE</text>
+</svg>

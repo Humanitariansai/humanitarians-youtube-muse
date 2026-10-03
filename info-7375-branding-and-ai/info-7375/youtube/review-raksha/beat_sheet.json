@@ -1,0 +1,505 @@
+{
+  "metadata": {
+    "slug": "review-raksha",
+    "title": "INFO 7375 — Project Review: Raksha",
+    "topic": "INFO 7375 · PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 430,
+    "build": {
+      "at": "2026-08-16T23:22:26",
+      "cut": "master",
+      "filled": 10,
+      "of": 14,
+      "slates": [
+        "B02",
+        "B03",
+        "B05",
+        "B10"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Hey Claude — I just read Raksha's final brand portfolio for INFO 7375. Threadline: a market intelligence tool that turns consumer complaints from adaptive fashion communities into ranked product opportunities. What does the work tell us?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 13.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · PROJECT REVIEW",
+            "segment": "Raksha",
+            "command": "I just read Raksha's final brand portfolio. Threadline — market intelligence for adaptive fashion brands. What does the work tell us?",
+            "runningText": "reviewing the submission...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 15.21,
+      "audio_file": "mp3/beat-B00.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:22:26"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "SETUP",
+      "role_note": "The brief — what Path B asked for and what Raksha built.",
+      "narration_text": "Path B required a complete brand system for an AI tool startup. Raksha built a market intelligence tool with a live website, a deployed app, and a ten-slide deck covering strategy, identity, storytelling, and a working pipeline. All five requirements are present.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "The Brief vs. The Delivery",
+            "body": "Strategy, visual identity, storytelling, live tool, deployed website — all five present. Pipeline runs weekly on real community signal data.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 15.17,
+      "audio_file": "mp3/beat-B01.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:22:26"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 1 — The market gap is real and grounded in domain knowledge.",
+      "narration_text": "The clearest strength in this submission is that the problem is real. Raksha built Threadline from firsthand experience in healthcare work — seeing adaptive fashion gaps that brands were missing. That origin story is specific and credible, and it shows in how the tool is scoped: condition-specific communities, not generic social media.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 20.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B02.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.4
+          ]
+        }
+      },
+      "actual_duration_s": 18.18,
+      "audio_file": "mp3/beat-B02.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:22:26",
+        "needs": "YOU → drop a historical image at media/B02.png (or .mp4)",
+        "suggested": "find: The clearest strength in this submission is that the problem is real. Raksha built Threadline from firsthand experience in healthcare work — seeing adaptive fas"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "WHAT WORKS",
+      "role_note": "Strength 2 — Persona work is precise and actionable.",
+      "narration_text": "Sana and Devon are well-constructed personas. Sana is an established brand PM who needs a defensible decision for the next roadmap meeting before budget is spent. Devon is a newcomer building a first business case. Both personas have a specific job to be done — not a vague pain point, but a concrete deliverable.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B03.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 17.62,
+      "audio_file": "mp3/beat-B03.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:22:26",
+        "needs": "YOU → drop a historical image at media/B03.png (or .mp4)",
+        "suggested": "find: Sana and Devon are well-constructed personas. Sana is an established brand PM who needs a defensible decision for the next roadmap meeting before budget is spen"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "WHAT WORKS",
+      "role_note": "Manim — pipeline architecture: scrape, clean, extract, embed, synthesize.",
+      "narration_text": "The pipeline methodology is stated clearly: scrape, clean, extract, embed, synthesize — refreshed weekly. 2,618 signals compressed into 20 ranked opportunities across four conditions. That's a real system, not a concept. Weekly refresh is the right call for a market intelligence product.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 17.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Visual identity system",
+            "body": "Sand, Terracotta, Charcoal. Playfair Display for headings, Inter for body. The palette reads artisan-premium, not marketplace-generic.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 17.64,
+      "audio_file": "mp3/beat-B04.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:22:26"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "BRAND SYSTEM",
+      "role_note": "Visual identity — logo, palette, type system.",
+      "narration_text": "The visual system is clean and coherent. Navy as primary, deep teal and medium teal as the intelligence palette, IBM Plex Sans for body and IBM Plex Mono for data points only. The 60-30-10 color rule is stated and followed. The monogram favicon is a smart practical choice for a data-dense interface.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B05.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 19.14,
+      "audio_file": "mp3/beat-B05.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:22:26",
+        "needs": "YOU → drop a historical image at media/B05.png (or .mp4)",
+        "suggested": "find: The visual system is clean and coherent. Navy as primary, deep teal and medium teal as the intelligence palette, IBM Plex Sans for body and IBM Plex Mono for da"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "BRAND SYSTEM",
+      "role_note": "Brand presence — website, LinkedIn, product interface consistency.",
+      "narration_text": "The identity carries across website, LinkedIn, and product interface with the same navy background, teal accents, and IBM Plex type. The opportunity cards in the product UI use the same color system and structure as the brand slides. That consistency is the work doing what it's supposed to do.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 17.5,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Identity Consistency",
+            "body": "Website, LinkedIn post, and product interface all use the same navy-teal-mono system. Brand tokens aren't described — they're deployed.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 16.75,
+      "audio_file": "mp3/beat-B06.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:22:26"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 1 — The differentiation claim vs. other intelligence tools needs more precision.",
+      "narration_text": "The competitive comparison puts Threadline against Brandwatch and Quantilope. The distinction is sound — monitoring sentiment versus surfacing what to build. But the slide doesn't show what Threadline actually outputs against what Brandwatch outputs. A side-by-side concrete example would make that differentiation unambiguous.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Show, Don't Compare",
+            "body": "The Brandwatch vs. Threadline distinction is correct in principle. But the slide tells us; a concrete output example would show us. One real card from the product beats three bullets.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 17.75,
+      "audio_file": "mp3/beat-B07.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:22:26"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 2 — Business model slide is thin for a B2B intelligence product.",
+      "narration_text": "The business model shows three tiers: free pilot, 500 to 1,000 per insight, 1,500 plus per month subscription. That's the right structure for a B2B intelligence product. But there's no customer acquisition path — how does Sana find Threadline? Content strategy alone isn't an answer. Next move: one concrete first-10-customers plan.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Pricing Without Acquisition",
+            "body": "Three-tier model is right for B2B. But there's no first-10-customers path. How does Sana find Threadline? That gap makes the model aspirational, not operational.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 19.99,
+      "audio_file": "mp3/beat-B08.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:22:26"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "WHERE IT BREAKS",
+      "role_note": "Gap 3 — The storytelling framework slide is the weakest in the deck.",
+      "narration_text": "The quest framework slide walks through goal, obstacle, journey, resolution. It's technically present but reads as a template filled in rather than a story told. The four-step resolution connects back to brand values — that's the right move. The problem is the narration is thin. The story should be longer and more specific.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 18.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "FormACard",
+          "props": {
+            "heading": "Thread pipeline",
+            "body": "Artisan input → AI pattern analysis → sourcing recommendation → pricing output. Four stages, all documented in the submission.",
+            "accent": "terracotta"
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 17.45,
+      "audio_file": "mp3/beat-B09.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:22:26"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "TOOL/BUILD",
+      "role_note": "Live tool — what the deployed app actually delivers.",
+      "narration_text": "The deployed app at the Onrender URL lets you select a condition — post-mastectomy, ostomy, rheumatoid arthritis, or post-surgical recovery — and returns ranked opportunity cards with a score, a confidence tag, and the real consumer complaint behind it. That's the brand promise made tangible. The scoring methodology is the right thing to document next.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "STILL",
+        "source": "archive",
+        "motion": "kenburns",
+        "pantry_file": "pantry/B10.png",
+        "shot": {
+          "focus": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "actual_duration_s": 19.43,
+      "audio_file": "mp3/beat-B10.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-08-16T23:22:26",
+        "needs": "YOU → drop a historical image at media/B10.png (or .mp4)",
+        "suggested": "find: The deployed app at the Onrender URL lets you select a condition — post-mastectomy, ostomy, rheumatoid arthritis, or post-surgical recovery — and returns ranked"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT",
+      "role_note": "ClaudeVerdictArtifact — final verdict.",
+      "narration_text": "Specific problem, real domain knowledge, coherent brand system, working pipeline. The submission is strong where it matters most — the tool does what the brand claims. The gaps are in showing rather than telling the differentiation, and in mapping a real acquisition path.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 14.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Threadline — Raksha",
+            "artifactHeading": "Real domain knowledge, working pipeline, coherent brand — the tool does what it claims.",
+            "artifactLines": [
+              "Problem grounded in firsthand domain experience, not manufactured pain",
+              "Personas have specific jobs-to-be-done, not vague pain points",
+              "Pipeline methodology stated clearly and product UI matches brand tokens",
+              "—",
+              "Show a concrete Threadline output vs. a competitor output — tell is not enough",
+              "Business model needs a first-10-customers acquisition path, not just pricing tiers",
+              "Brand story slide reads as template-filled; invest in a longer, more specific narrative"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 14.85,
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "build": {
+        "status": "SLATE",
+        "src": "",
+        "filled_by": ""
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Your Turn — ClaudeComposerAsk.",
+      "narration_text": "Your turn. Take Threadline's strongest asset — the front-closure wireless post-mastectomy bra opportunity card with a score of 72 — and write the one-page brief you'd hand a product team at Tommy Hilfiger Adaptive. Not a slide. A brief they could act on Monday. Bring it into your next session.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 19.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375",
+            "segment": "Raksha",
+            "command": "Take Threadline's top-scoring opportunity — post-mastectomy front-closure bra, score 72, high confidence — and write the one-page product brief you'd hand to a brand PM. Make it actionable on Monday.",
+            "runningText": "your move...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 15.79,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:22:26"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "ClaudeTitleOutro — title re-read.",
+      "narration_text": "",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 5.0,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "INFO 7375 — Project Review: Raksha",
+            "handle": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "actual_duration_s": 5.0,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-16T23:22:26"
+      }
+    }
+  ]
+}

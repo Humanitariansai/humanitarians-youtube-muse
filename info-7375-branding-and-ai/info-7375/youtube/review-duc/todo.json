@@ -1,0 +1,187 @@
+{
+  "video": "review-duc",
+  "metadata": {
+    "slug": "review-duc",
+    "title": "INFO 7375 \u2014 Project Review: Duc",
+    "topic": "INFO 7375 \u00b7 PROJECT REVIEW",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Workshop",
+    "total_estimated_duration_seconds": 460,
+    "build": {
+      "at": "2026-08-16T23:44:09",
+      "cut": "master",
+      "filled": 9,
+      "of": 14,
+      "slates": [
+        "B02",
+        "B03",
+        "B04",
+        "B06",
+        "B10"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 14,
+  "beats_open": 5,
+  "beats": [
+    {
+      "beat_id": "B00",
+      "status": "filled",
+      "on_disk": "media/B00.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B00.mp4",
+      "label": "Hey Claude \u2014 I just read Duc's final brand portfolio for INFO 7375. SignalBrief: a tool that cross-c"
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "media/B01.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B01.mp4",
+      "label": "Path B required a complete brand system for an AI tool startup. Duc submitted 12 image-based slides "
+    },
+    {
+      "beat_id": "B02",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The problem slide says it directly: the loudest artifact wins. Three hours every week scanning developer feeds, and the final roadmap choice can still be driven",
+      "slot": "media/B02.png (or .mp4)",
+      "label": "The problem slide says it directly: the loudest artifact wins. Three hours every week scanning devel"
+    },
+    {
+      "beat_id": "B03",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The visual system earns real attention. Night for structure, Paper for reading, Verify teal for confirmed evidence, Review amber for uncertainty, Menlo labels f",
+      "slot": "media/B03.png (or .mp4)",
+      "label": "The visual system earns real attention. Night for structure, Paper for reading, Verify teal for conf"
+    },
+    {
+      "beat_id": "B04",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The pipeline has six stages: collect, normalize, enrich with AI, parse and gate outputs, apply deterministic rank, then human review. Stage six is explicitly a ",
+      "slot": "media/B04.png (or .mp4)",
+      "label": "The pipeline has six stages: collect, normalize, enrich with AI, parse and gate outputs, apply deter"
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "media/B05.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B05.mp4",
+      "label": "Public APIs through one normalized schema, AI-enriched in stable 12-record batches, malformed output"
+    },
+    {
+      "beat_id": "B06",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The social content slide shows four platform-native examples: a proof teaser, a case study, product proof, and a point-of-view note. Each adapts the format, non",
+      "slot": "media/B06.png (or .mp4)",
+      "label": "The social content slide shows four platform-native examples: a proof teaser, a case study, product "
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "media/B07.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B07.mp4",
+      "label": "The final slide reports 180 raw records, 12 AI-enriched in 24.25 seconds, 3 ranked signals. That's a"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "media/B08.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B08.mp4",
+      "label": "Fifty founder plans at 49 dollars plus ten team plans at 199 dollars targets 53,280 ARR from 60 cust"
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "media/B09.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/B09.mp4",
+      "label": "The three-source architecture \u2014 Hacker News for discussion, DEV for practitioner writing, GitHub for"
+    },
+    {
+      "beat_id": "B10",
+      "status": "needs-fill",
+      "on_disk": null,
+      "method": "historical-image",
+      "who": "human",
+      "scene_hint": null,
+      "prompt": "find: The demo shows a transparent audit run: remove a source, watch the recommendation weaken because one independent believer no longer corroborates it. That's the ",
+      "slot": "media/B10.png (or .mp4)",
+      "label": "The demo shows a transparent audit run: remove a source, watch the recommendation weaken because one"
+    },
+    {
+      "beat_id": "BVDT",
+      "status": "filled",
+      "on_disk": "media/BVDT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BVDT.mp4",
+      "label": "The strongest visual identity in the cohort, a pipeline architecture that reflects the brand philoso"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. SignalBrief's core claim is that removing one source changes the recommendation. Write a "
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": ""
+    }
+  ]
+}

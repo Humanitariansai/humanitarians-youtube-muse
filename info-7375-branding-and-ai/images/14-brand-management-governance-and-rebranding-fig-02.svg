@@ -1,0 +1,54 @@
+<!--
+  The three-layer living guidelines system
+  Book: Branding and AI
+  Chapter: 14-brand-management-governance-and-rebranding
+  Figure: 02
+  Type: hierarchy / systems diagram
+  Generated: 2026-06-18
+  Source: pantry/14-brand-management-governance-and-rebranding-cajal.md
+-->
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-14-02">
+  <title id="fig-title-14-02">The three-layer living guidelines system</title>
+  <desc>Living guidelines are a system in three layers: a digital asset management layer with assets findable in under a minute, a design system that makes on-brand the easiest path, and a decision record of resolved edge cases. Each layer notes what fails when it is missing.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="14-brand-management-governance-and-rebranding" figure-number="02"
+      figure-title="The three-layer living guidelines system"
+      figure-slug="three-layer-living-guidelines"
+      figure-type="hierarchy / systems diagram" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/14-brand-management-governance-and-rebranding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="380" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Living guidelines are a system, not a document</text>
+  <text x="32" y="58" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Three layers. Each carries the failure that occurs when it is missing.</text>
+
+  <!-- Layer 3 top: Decision record -->
+  <rect x="120" y="86" width="460" height="76" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="140" y="112" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Decision record</text>
+  <text x="140" y="132" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">resolved edge cases, so the same question is not re-litigated</text>
+  <text x="140" y="152" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">missing → the same governance conversation happens twelve times</text>
+
+  <!-- Layer 2 middle: Design system — RED (most under-invested) -->
+  <rect x="120" y="170" width="460" height="76" fill="#121212" stroke="#121212" stroke-width="1"/>
+  <text x="140" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Design system</text>
+  <text x="140" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#FFFFFF">components and templates make on-brand the path of least resistance</text>
+  <text x="140" y="236" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#FFFFFF">missing → consistency cannot scale past individual review</text>
+
+  <!-- Layer 1 base: DAM -->
+  <rect x="120" y="254" width="460" height="76" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="140" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">DAM — digital asset management</text>
+  <text x="140" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">single source of truth; current assets findable in under a minute</text>
+  <text x="140" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">missing → if not findable in under a minute, the system goes unused</text>
+
+  <!-- side annotation pointing to red layer -->
+  <line x1="600" y1="208" x2="582" y2="208" stroke="#121212" stroke-width="1"/>
+  <text x="606" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">most</text>
+  <text x="606" y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">under-</text>
+  <text x="606" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">invested</text>
+
+  <!-- base / top labels -->
+  <text x="100" y="296" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">base</text>
+  <text x="100" y="128" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">top</text>
+</svg>

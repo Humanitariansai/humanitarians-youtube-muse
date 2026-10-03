@@ -1,0 +1,32 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Anthropic / OpenAI — same capability, different positioning</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Two homepage hero sections, two audiences claimed. Brand is the choice that the technology cannot make for you.</text>
+<rect x="56" y="80" width="272" height="280" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<rect x="72" y="96" width="240" height="22" fill="#fdfcfb" stroke="#8a8480" stroke-width="0.75"/>
+<text x="80" y="111" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">anthropic.com</text>
+<text x="72" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540" letter-spacing="1">Sage register — patient, evidence-led</text>
+<text x="72" y="162" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1a1714">AI safety, alignment research,</text>
+<text x="72" y="184" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1a1714">and large-scale models built</text>
+<text x="72" y="206" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1a1714">for the long term.</text>
+<text x="72" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1a1714"></text>
+<text x="72" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1a1714">[ Read the research ]</text>
+<line x1="72" y1="332" x2="312" y2="332" stroke="#c8c4c0" stroke-width="0.75" stroke-dasharray="4 3"/>
+<text x="192" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">Audience: researchers, infra teams, long-horizon buyers.</text>
+<rect x="372" y="80" width="272" height="280" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<rect x="388" y="96" width="240" height="22" fill="#fdfcfb" stroke="#8a8480" stroke-width="0.75"/>
+<text x="396" y="111" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">openai.com</text>
+<text x="388" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="bold" fill="#4a4540" letter-spacing="1">Hero / Magician register — capability foregrounded</text>
+<text x="388" y="162" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1a1714">Powerful AI for everyone.</text>
+<text x="388" y="184" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1a1714">Build, ship, integrate —</text>
+<text x="388" y="206" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1a1714">in minutes, not months.</text>
+<text x="388" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1a1714"></text>
+<text x="388" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#1a1714">[ Try it now ]</text>
+<line x1="388" y1="332" x2="628" y2="332" stroke="#c8c4c0" stroke-width="0.75" stroke-dasharray="4 3"/>
+<text x="508" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">Audience: developers, consumers, fast-iteration buyers.</text>
+</svg>

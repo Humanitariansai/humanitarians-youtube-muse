@@ -1,0 +1,100 @@
+<!--
+  The ten-slide pitch, slide by slide
+  Book: Branding and AI
+  Chapter: 19-professional-presence-and-launch
+  Figure: 03
+  Type: timeline / progression
+  Generated: 2026-06-18
+  Source: pantry/19-professional-presence-and-launch-cajal.md
+-->
+<svg viewBox="0 0 700 490" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-19-03">
+  <title id="fig-title-19-03">The ten-slide pitch, slide by slide</title>
+  <desc>Kawasaki's 10/20/30 made specific: ten sequential slides from title and positioning through to the ask. Slide 6 (brand position) and slide 9 (you as the team) are the ones students skip and the ones that do the persuasion work.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="19-professional-presence-and-launch" figure-number="03"
+      figure-title="The ten-slide pitch slide by slide"
+      figure-slug="ten-slide-pitch"
+      figure-type="timeline" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/19-professional-presence-and-launch-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The ten-slide pitch, slide by slide</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Kawasaki's 10 / 20 / 30 rule: ten slides, twenty minutes, thirty-point font.</text>
+  <text x="32" y="72" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">One idea, number, or visual per slide.</text>
+
+  <!-- progression axis -->
+  <line x1="48" y1="100" x2="668" y2="100" stroke="#121212" stroke-width="1"/>
+  <!-- 10 markers across, x from 78 to 648 step ~63 -->
+  <!-- marker + number + label below -->
+  <!-- slide 1 -->
+  <circle cx="78" cy="100" r="5" fill="#121212"/>
+  <text x="78" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">1</text>
+  <text x="78" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Title +</text>
+  <text x="78" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">positioning</text>
+
+  <circle cx="141" cy="100" r="5" fill="#121212"/>
+  <text x="141" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">2</text>
+  <text x="141" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Problem</text>
+  <text x="141" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">in scene</text>
+
+  <circle cx="204" cy="100" r="5" fill="#121212"/>
+  <text x="204" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">3</text>
+  <text x="204" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Solution</text>
+  <text x="204" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">user-facing</text>
+
+  <circle cx="267" cy="100" r="5" fill="#121212"/>
+  <text x="267" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">4</text>
+  <text x="267" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">How it</text>
+  <text x="267" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">works</text>
+
+  <circle cx="330" cy="100" r="5" fill="#121212"/>
+  <text x="330" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">5</text>
+  <text x="330" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Demo /</text>
+  <text x="330" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">evidence</text>
+
+  <!-- slide 6 flagged with hollow ring -->
+  <circle cx="393" cy="100" r="6" fill="#FFFFFF" stroke="#121212" stroke-width="2"/>
+  <text x="393" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">6</text>
+  <text x="393" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Brand</text>
+  <text x="393" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">position</text>
+
+  <circle cx="456" cy="100" r="5" fill="#121212"/>
+  <text x="456" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">7</text>
+  <text x="456" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Validation</text>
+
+  <circle cx="519" cy="100" r="5" fill="#121212"/>
+  <text x="519" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">8</text>
+  <text x="519" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">Roadmap</text>
+
+  <!-- slide 9 flagged with hollow ring -->
+  <circle cx="582" cy="100" r="6" fill="#FFFFFF" stroke="#121212" stroke-width="2"/>
+  <text x="582" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#121212">9</text>
+  <text x="582" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">You as</text>
+  <text x="582" y="138" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">the team</text>
+
+  <circle cx="645" cy="100" r="5" fill="#121212"/>
+  <text x="645" y="86" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">10</text>
+  <text x="645" y="126" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">The ask</text>
+
+  <!-- flagged-slide callout -->
+  <rect x="32" y="200" width="636" height="106" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Slides 6 and 9 (open rings) are the ones students skip — and the ones that do the persuasion work.</text>
+  <text x="44" y="240" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Slide 6: archetype, audience, voice, what the tool refuses to do —</text>
+  <text x="44" y="255" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">what distinguishes you from every other build.</text>
+  <text x="44" y="273" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Slide 9: archetype, methodology, the four-verb framework, the portfolio URL —</text>
+  <text x="44" y="288" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">for a hiring audience, the key slide.</text>
+
+  <!-- open/close note -->
+  <text x="32" y="326" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Open in scene, not in introduction.</text>
+  <text x="32" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">"It is 7:45 on a Tuesday. A marketing manager opens her laptop…" earns attention</text>
+  <text x="32" y="362" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">that "Hi, I am [name]…" wastes.</text>
+  <text x="32" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Close with the ask, delivered directly. After twenty minutes, the ask is the last</text>
+  <text x="32" y="394" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">impression — do not trail off.</text>
+
+  <text x="32" y="440" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The 30-point rule forces editing: if content does not fit at 30pt, it is too dense</text>
+  <text x="32" y="456" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">for slides — move it to the script.</text>
+  <text x="32" y="472" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Practice the full run-through at least twice; record the second and watch it.</text>
+</svg>

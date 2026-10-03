@@ -1,0 +1,46 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-10-9 desc-10-9">
+<title id="title-10-9">Consistent cadence vs burst-and-abandon over three years</title>
+<desc id="desc-10-9">Two three-year publishing trajectories compared as line charts. Left: a consistent monthly cadence of twelve pieces per year, thirty-six total, producing a steady upward audience-growth curve. Right: a burst-and-abandon pattern — six months intense, eighteen months silent, repeated — producing the same total piece count but a flat or declining audience. The point is the audience model, not the piece count: consistent cadence compounds.</desc>
+<rect width="700" height="480" fill="#FFFFFF"/>
+<text x="48" y="40" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" fill="#2a1a0e">Consistent cadence vs burst-and-abandon</text>
+<text x="48" y="60" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Same 36 pieces over three years. The audience curve, not the count, is what differs.</text>
+
+<!-- LEFT plot: consistent -->
+<text x="190" y="90" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#C8102E">Consistent — 12/yr, steady growth</text>
+<rect x="64" y="100" width="252" height="252" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<!-- axes -->
+<line x1="64" y1="352" x2="316" y2="352" stroke="#D4D4D4" stroke-width="1"/>
+<line x1="64" y1="100" x2="64" y2="352" stroke="#D4D4D4" stroke-width="1"/>
+<!-- steady rising curve -->
+<polyline points="70,340 110,316 150,288 190,254 230,210 270,160 308,116" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+<!-- monthly cadence dots along bottom -->
+<g fill="#2a1a0e">
+<circle cx="78" cy="345" r="2"/><circle cx="98" cy="345" r="2"/><circle cx="118" cy="345" r="2"/><circle cx="138" cy="345" r="2"/><circle cx="158" cy="345" r="2"/><circle cx="178" cy="345" r="2"/><circle cx="198" cy="345" r="2"/><circle cx="218" cy="345" r="2"/><circle cx="238" cy="345" r="2"/><circle cx="258" cy="345" r="2"/><circle cx="278" cy="345" r="2"/><circle cx="298" cy="345" r="2"/>
+</g>
+<text x="70" y="370" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">Yr 1</text>
+<text x="160" y="370" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">Yr 2</text>
+<text x="250" y="370" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">Yr 3</text>
+<text x="50" y="106" text-anchor="end" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454" transform="rotate(-90 50 106)">audience</text>
+
+<!-- RIGHT plot: burst-and-abandon -->
+<text x="510" y="90" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#545454">Burst-and-abandon — flat audience</text>
+<rect x="384" y="100" width="252" height="252" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<line x1="384" y1="352" x2="636" y2="352" stroke="#D4D4D4" stroke-width="1"/>
+<line x1="384" y1="100" x2="384" y2="352" stroke="#D4D4D4" stroke-width="1"/>
+<!-- sawtooth: rise during burst, decay during silence, net flat -->
+<polyline points="390,346 410,300 430,288 450,316 490,344 530,348 548,306 566,296 586,322 626,346" fill="none" stroke="#545454" stroke-width="2.5"/>
+<!-- clustered cadence dots (bursts then gaps) -->
+<g fill="#2a1a0e">
+<circle cx="392" cy="345" r="2"/><circle cx="402" cy="345" r="2"/><circle cx="412" cy="345" r="2"/><circle cx="422" cy="345" r="2"/><circle cx="432" cy="345" r="2"/><circle cx="442" cy="345" r="2"/>
+<circle cx="512" cy="345" r="2"/><circle cx="522" cy="345" r="2"/><circle cx="532" cy="345" r="2"/><circle cx="542" cy="345" r="2"/><circle cx="552" cy="345" r="2"/><circle cx="562" cy="345" r="2"/>
+</g>
+<text x="408" y="370" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">burst</text>
+<text x="468" y="370" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">silent</text>
+<text x="528" y="370" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">burst</text>
+<text x="588" y="370" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">silent</text>
+
+<text x="350" y="400" text-anchor="middle" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#545454">Cadence is a compounding asset — consistency builds the recognizable presence.</text>
+
+<line x1="48" y1="442" x2="652" y2="442" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="460" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 10.9</text>
+</svg>

@@ -1,0 +1,108 @@
+<!--
+  The Tylenol standard: action first, then words
+  Book: Branding and AI
+  Chapter: 16-crisis-and-reputation-management
+  Figure: 03
+  Type: process flowchart / timeline
+  Generated: 2026-06-18
+  Source: pantry/16-crisis-and-reputation-management-cajal.md
+-->
+<svg viewBox="0 0 700 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-16-03">
+  <title id="fig-title-16-03">The Tylenol standard: action first, then words</title>
+  <desc>Johnson and Johnson's 1982 response as a left-to-right sequence: scope the problem, pull 31 million bottles nationwide at a cost of 100 million dollars, communicate openly, invent tamper-evident packaging, relaunch, and recover market share. The pivotal move is the irreversible costly action that preceded the messaging.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="16-crisis-and-reputation-management" figure-number="03"
+      figure-title="The Tylenol standard: action first, then words"
+      figure-slug="tylenol-action-first-sequence"
+      figure-type="process flowchart / timeline" priority="Important"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/16-crisis-and-reputation-management-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow-16-03" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="432" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The Tylenol standard: action first, then words</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">J&amp;J, 1982. The response worked because behavior matched the Credo —</text>
+  <text x="32" y="70" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">customers ahead of shareholders.</text>
+
+  <!-- Step 1 -->
+  <rect x="32" y="84" width="118" height="76" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="42" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Day 1</text>
+  <text x="42" y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">scope the</text>
+  <text x="42" y="137" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">problem; seven</text>
+  <text x="42" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">dead in Chicago</text>
+
+  <line x1="150" y1="122" x2="166" y2="122" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow-16-03)"/>
+
+  <!-- Step 2 — RED focal: pull 31M bottles ($100M), the irreversible costly action -->
+  <rect x="168" y="84" width="118" height="76" fill="#C8102E" stroke="#121212" stroke-width="1"/>
+  <text x="178" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Day 2 — act</text>
+  <text x="178" y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">pull 31M bottles</text>
+  <text x="178" y="137" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">nationwide</text>
+  <text x="178" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">cost: $100M</text>
+
+  <line x1="286" y1="122" x2="302" y2="122" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow-16-03)"/>
+
+  <!-- Step 3 -->
+  <rect x="304" y="84" width="118" height="76" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="314" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Day 3 — speak</text>
+  <text x="314" y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">CEO communicates</text>
+  <text x="314" y="137" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">openly; words</text>
+  <text x="314" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">explain the action</text>
+
+  <line x1="422" y1="122" x2="438" y2="122" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow-16-03)"/>
+
+  <!-- Step 4 -->
+  <rect x="440" y="84" width="118" height="76" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="450" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Week 2</text>
+  <text x="450" y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">invent tamper-</text>
+  <text x="450" y="137" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">evident</text>
+  <text x="450" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">packaging</text>
+
+  <line x1="558" y1="122" x2="574" y2="122" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow-16-03)"/>
+
+  <!-- Step 5 -->
+  <rect x="576" y="84" width="92" height="76" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="586" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Month 3</text>
+  <text x="586" y="124" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">relaunch</text>
+  <text x="586" y="137" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">in new</text>
+  <text x="586" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">packaging</text>
+
+  <!-- annotation on the red step -->
+  <line x1="227" y1="160" x2="227" y2="186" stroke="#121212" stroke-width="1"/>
+  <text x="227" y="202" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">the irreversible, expensive action that proved the values were real</text>
+
+  <!-- recovery arc panel -->
+  <rect x="32" y="228" width="636" height="110" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="42" y="240" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Market share recovery</text>
+
+  <!-- mini bars: 35% pre, 8% post-crisis, 30% 1983, >35% 1984 -->
+  <!-- baseline -->
+  <line x1="120" y1="320" x2="640" y2="320" stroke="#121212" stroke-width="1"/>
+  <!-- 35% pre -->
+  <rect x="140" y="262" width="60" height="58" fill="#787878"/>
+  <text x="170" y="256" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">35%</text>
+  <text x="170" y="334" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">pre-crisis</text>
+  <!-- 8% post -->
+  <rect x="280" y="307" width="60" height="13" fill="#ADADAD"/>
+  <text x="310" y="300" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">8%</text>
+  <text x="310" y="334" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">weeks after</text>
+  <!-- 30% 1983 -->
+  <rect x="420" y="270" width="60" height="50" fill="#787878"/>
+  <text x="450" y="264" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">30%</text>
+  <text x="450" y="334" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">1983</text>
+  <!-- >35% 1984 -->
+  <rect x="560" y="258" width="60" height="62" fill="#121212"/>
+  <text x="590" y="252" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">&gt;35%</text>
+  <text x="590" y="334" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">1984</text>
+
+  <text x="32" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The sequence — action first, then words explaining the action</text>
+  <text x="32" y="380" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">rather than substituting for it — is the gold standard.</text>
+  <text x="32" y="396" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The 1943 Credo predated the crisis by four decades: the crisis tested</text>
+  <text x="32" y="412" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">whether the values were real or decorative.</text>
+</svg>

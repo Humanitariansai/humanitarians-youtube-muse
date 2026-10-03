@@ -1,0 +1,71 @@
+<!--
+  The governance workflow: AI flags, human routes
+  Book: Branding and AI
+  Chapter: 14-brand-management-governance-and-rebranding
+  Figure: 07
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/14-brand-management-governance-and-rebranding-cajal.md
+-->
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-14-07">
+  <title id="fig-title-14-07">The governance workflow: AI flags, the human routes</title>
+  <desc>An AI audit produces a flags list; the steward reviews each flag and routes it to one of three branches — intentional variation (document and close), drift (correct against the system), or a pattern of drift (update the system). AI produces the flags; the human routes every flag.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="14-brand-management-governance-and-rebranding" figure-number="07"
+      figure-title="The governance workflow: AI flags, human routes"
+      figure-slug="governance-workflow-ai-flags-human-routes"
+      figure-type="process flowchart" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/14-brand-management-governance-and-rebranding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="400" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The governance workflow: AI produces the flags, the human routes every one</text>
+
+  <defs>
+    <marker id="arrow-14-07" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- AI audit -->
+  <rect x="32" y="150" width="180" height="80" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="48" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">AI audit</text>
+  <text x="48" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">off-system colors,</text>
+  <text x="48" y="202" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">drifting copy,</text>
+  <text x="48" y="216" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">deprecated logos → flags list</text>
+
+  <line x1="212" y1="190" x2="218" y2="190" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-14-07)"/>
+
+  <!-- Steward reviews — RED focal -->
+  <rect x="222" y="150" width="180" height="80" fill="#C8102E" stroke="#121212" stroke-width="1"/>
+  <text x="238" y="174" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Steward reviews</text>
+  <text x="238" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">each flag</text>
+  <text x="238" y="206" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">non-delegable,</text>
+  <text x="238" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#FFFFFF">not a formality</text>
+
+  <!-- Three branches -->
+  <line x1="402" y1="170" x2="496" y2="98" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-14-07)"/>
+  <line x1="402" y1="190" x2="496" y2="190" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-14-07)"/>
+  <line x1="402" y1="210" x2="496" y2="282" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-14-07)"/>
+
+  <rect x="500" y="70" width="168" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="514" y="94" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">1 Intentional variation</text>
+  <text x="514" y="112" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">document and close</text>
+
+  <rect x="500" y="162" width="168" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="514" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">2 Drift</text>
+  <text x="514" y="204" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">correct against the system</text>
+
+  <rect x="500" y="254" width="168" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="514" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">3 Pattern of drift</text>
+  <text x="514" y="296" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">update the system itself</text>
+
+  <!-- AI+1 boundary -->
+  <line x1="206" y1="64" x2="206" y2="330" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="120" y="320" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">AI PRODUCES</text>
+  <text x="300" y="320" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">HUMAN ROUTES</text>
+
+  <text x="32" y="370" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The output is a flags list, not a decisions list. The model flags; the steward decides what each means.</text>
+</svg>

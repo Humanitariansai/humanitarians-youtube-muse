@@ -1,0 +1,79 @@
+<!--
+  Scope discipline compounds vs. coherence spent for cash
+  Book: Branding and AI
+  Chapter: 20-shipit-product-requirements-and-scope
+  Figure: 05
+  Type: line chart
+  Generated: 2026-06-18
+  Source: pantry/20-shipit-product-requirements-and-scope-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-20-05">
+  <title id="fig-title-20-05">Scope discipline compounds vs. coherence spent for cash</title>
+  <desc>Two divergent trajectories on a coherence index over release cycles: the disciplined product holds and rises while the feature-accepting product erodes.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="20-shipit-product-requirements-and-scope"
+      figure-number="05" figure-title="Scope discipline compounds vs. coherence spent for cash"
+      figure-slug="scope-discipline-compounds" figure-type="line chart"
+      priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/20-shipit-product-requirements-and-scope-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Scope discipline compounds; coherence spent for cash erodes</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Illustrative trajectories — the shape is the argument, not measured values.</text>
+
+  <!-- Plot region -->
+  <rect x="64" y="80" width="572" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Y gridlines + ticks (0-100) -->
+  <line x1="64" y1="380" x2="636" y2="380" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="64" y1="305" x2="636" y2="305" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="64" y1="230" x2="636" y2="230" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="64" y1="155" x2="636" y2="155" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="64" y1="80" x2="636" y2="80" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="56" y="384" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">0</text>
+  <text x="56" y="309" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">25</text>
+  <text x="56" y="234" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">50</text>
+  <text x="56" y="159" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">75</text>
+  <text x="56" y="84" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">100</text>
+
+  <!-- X ticks -->
+  <text x="64" y="398" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">v1</text>
+  <text x="207" y="398" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">v3</text>
+  <text x="350" y="398" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">v5</text>
+  <text x="493" y="398" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">v7</text>
+  <text x="636" y="398" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="11" fill="#545454">v9</text>
+  <text x="350" y="418" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">release cycles over time</text>
+
+  <!-- Feature-accepting line (declining) — ink/gray secondary -->
+  <polyline points="64,200 207,238 350,278 493,318 636,348" fill="none" stroke="#787878" stroke-width="1.5"/>
+  <circle cx="64" cy="200" r="2.5" fill="#787878"/>
+  <circle cx="207" cy="238" r="2.5" fill="#787878"/>
+  <circle cx="350" cy="278" r="2.5" fill="#787878"/>
+  <circle cx="493" cy="318" r="2.5" fill="#787878"/>
+  <circle cx="636" cy="348" r="2.5" fill="#787878"/>
+
+  <!-- Disciplined line (rising/held) — RED, the primary series -->
+  <polyline points="64,200 207,165 350,140 493,122 636,110" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <!-- refusal-point markers -->
+  <rect x="204" y="162" width="6" height="6" fill="#C8102E"/>
+  <rect x="347" y="137" width="6" height="6" fill="#C8102E"/>
+  <rect x="490" y="119" width="6" height="6" fill="#C8102E"/>
+
+  <!-- divergence annotation -->
+  <line x1="350" y1="140" x2="350" y2="278" stroke="#D4D4D4" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <text x="358" y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the gap becomes</text>
+  <text x="358" y="230" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">brand identity</text>
+
+  <!-- inline labels -->
+  <text x="530" y="100" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#C8102E">scope held</text>
+  <text x="490" y="364" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#787878">features accepted</text>
+
+  <!-- Y axis title -->
+  <text x="20" y="234" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" transform="rotate(-90 20 234)">coherence index (0–100)</text>
+
+  <!-- legend / refusal note -->
+  <text x="64" y="438" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Red squares mark refusal points — each rejected feature is also a rejected source of complexity.</text>
+
+  <text x="32" y="454" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 20, SCOPE DISCIPLINE AS IDENTITY — THE LINEAR CASE</text>
+</svg>

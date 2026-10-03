@@ -1,0 +1,96 @@
+=== Page 1 ===
+AccessDrift
+USER GUIDE & FEATURE OVERVIEW · V2 (FINAL EXAM SUBMISSION)
+Find, Fix & Monitor Web Accessibility — Automatically
+Paste a URL. AccessDrift launches a real headless Chrome, runs axe-core against the live page(s) across the full
+WCAG 2.0/2.1/2.2 A & AA ruleset, and diffs the result against the last saved scan of that domain — so you find out
+about the exact release that made things worse, not just today's score. 
+Live: accessdrift-z1eh.onrender.com
+01
+Scan
+Paste any URL (or pick a preset:
+example.com, this app). Crawl depth 1–
+20 pages.
+02
+Read the diff
+New / persisting / resolved violations,
+plus a severity-weighted score and the
+delta since last scan.
+03
+Apply the fix
+Rule-based fix suggestions by default;
+set ANTHROPIC_API_KEY to get Claude-
+written fixes for critical/serious findings.
+Core Features
+FEATURE
+DETAIL
+Live WCAG audit
+System Chrome + axe-core, full A/AA
+ruleset
+Multi-page crawl
+Follows same-origin links, 1–20 pages
+Diff / score engine
+New vs. persisting vs. resolved, severity-
+weighted
+Time-series
+tracking
+Each scan diffs against the domain's last
+saved scan
+Element
+screenshots
+Top violations captured with a highlight
+box
+Confidence
+warnings
+Flags likely consent/bot walls — never
+silently wrong
+Auto-fix mode
+Deterministically repairs alt text, labels,
+lang, names
+Scheduled
+monitoring
+Re-scans watched sites, alerts only on
+regression
+HTTP API
+METHOD
+PATH
+PURPOSE
+POST
+/scan
+Scan a URL, diff vs. history,
+persist
+POST
+/fix
+Auto-repair a pasted HTML
+string
+GET
+/api/scans
+List saved scans
+GET
+/api/trends
+Cross-domain trends
+dashboard
+GET/POST
+/api/watches
+List / add a monitored site
+GET
+/preset/:name
+Load demo data (no live scan
+needed)
+The Drift Signal Framework
+New — introduced this release, act now
+Persisting — known, still open
+Resolved — fixed and verified gone
+Watch — model isn't confident; human-verify
+Known Limitations (Honest)
+No persistent disk on the live deployment — the free Render plan has no attached disk, so scan history resets on redeploy. Fine
+for demoing one scan; not durable for long-term monitoring without a paid plan.
+One DOM snapshot per page — axe audits the rendered DOM; it can't catch keyboard-trap or screen-reader-only issues that
+need interaction.
+Consent / bot walls — some sites (e.g. heavily CDN-protected domains) return an HTTP error to headless Chrome; the tool warns
+rather than silently misreporting.
+Score is a heuristic, not an official conformance grade — useful for tracking trends release over release.
+AI fixes are optional — without ANTHROPIC_API_KEY set, every fix still works via the rule-based knowledge base; it just isn't
+Claude-written.
+AccessDrift — User Guide & Feature Overview · Kanishk Singh · INFO 7375
+Final Exam — Brand Portfolio Presentation

@@ -1,0 +1,55 @@
+<!--
+  The STP sequence
+  Book: Branding and AI
+  Chapter: 04-the-brand-audience
+  Figure: 02
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/04-the-brand-audience-cajal.md
+-->
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04-02">
+  <title id="fig-title-04-02">The STP sequence</title>
+  <desc>Segmentation, Targeting, Positioning shown as three dependent stages left to right, with the rule that you cannot position for everyone because there is no mental slot for everything.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="04-the-brand-audience"
+      figure-number="02" figure-title="The STP sequence" figure-slug="the-stp-sequence"
+      figure-type="process flowchart" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/04-the-brand-audience-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="360" fill="#FFFFFF"/>
+  <defs><marker id="arrow0402" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker></defs>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">STP: the sequence that turns a market into a chosen audience</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each step depends on the one before it. The order is not optional.</text>
+
+  <!-- Box 1 -->
+  <rect x="32" y="100" width="180" height="120" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="48" y="128" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="14" font-weight="700" fill="#121212">Segmentation</text>
+  <text x="48" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Divide the market into</text>
+  <text x="48" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">groups with genuinely</text>
+  <text x="48" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">different needs.</text>
+
+  <!-- Box 2 -->
+  <rect x="260" y="100" width="180" height="120" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="276" y="128" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="14" font-weight="700" fill="#121212">Targeting</text>
+  <text x="276" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Choose which segment</text>
+  <text x="276" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">to serve, on fit and</text>
+  <text x="276" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">winnability.</text>
+
+  <!-- Box 3 -->
+  <rect x="488" y="100" width="180" height="120" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="504" y="128" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="14" font-weight="700" fill="#121212">Positioning</text>
+  <text x="504" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Claim a specific place</text>
+  <text x="504" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">in the target's mind:</text>
+  <text x="504" y="188" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">what, who for, why you.</text>
+
+  <line x1="212" y1="160" x2="256" y2="160" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0402)"/>
+  <line x1="440" y1="160" x2="484" y2="160" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0402)"/>
+
+  <!-- Dependency note -->
+  <line x1="32" y1="252" x2="668" y2="252" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="32" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#545454">Positioning is built on top of targeting, which is built on top of segmentation.</text>
+  <text x="32" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#545454">You cannot position for "everyone" — there is no mental slot for "everything."</text>
+
+  <text x="32" y="336" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 4, SEGMENTATION, TARGETING, POSITIONING</text>
+</svg>

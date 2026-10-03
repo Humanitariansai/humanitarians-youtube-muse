@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "title": "The Creative Engineer",
+    "short": "BRANDING · CH01",
+    "course": "Branding and AI · Chapter 01",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/01-the-creative-engineer.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 01",
+      "title": "The Creative Engineer",
+      "subtitle": "When the cost of building collapses, the value of knowing what to build rises.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the result",
+      "title": "161 minutes against 71",
+      "lead": "In 2022 a team at Microsoft Research ran a randomized controlled experiment on professional developers. One task: write an HTTP server in JavaScript. Half got GitHub Copilot.",
+      "why": "the chapter opens with two measured magnitudes on one axis — 'The control group finished in 161 minutes. The treatment group finished in 71 minutes. That is a 56% reduction in task completion time.'",
+      "archetype": "scaleAxis",
+      "duration": 7.0,
+      "data": {
+        "axis": { "min": 0, "max": 180, "unit": "minutes to finish the task", "log": false },
+        "band": { "from": 71, "to": 161, "label": "a 56% reduction" },
+        "items": [
+          { "label": "control group", "value": 161 },
+          { "label": "Copilot group", "value": 71, "hot": true },
+          { "label": "your own bounded task", "value": 0, "pending": true }
+        ]
+      }
+    },
+    {
+      "id": "S03", "section": "the question",
+      "title": "Wrong reaction: \"engineers got more productive\"",
+      "lead": "That is a question about individual performance. I want you to sit with a different one.",
+      "bullets": [
+        "*What exactly got cheaper, and what does that do to the market?*",
+        "The first question is about performance. The second is about **market structure**.",
+        "This chapter is about the second — and to answer it I have to take you to a **1973 paper in labor economics** that has almost nothing to do with software and almost everything to do with your career."
+      ]
+    },
+    {
+      "id": "S04", "section": "the machinery",
+      "title": "Spence: a signal works only as long as its cost-structure holds",
+      "lead": "Employers cannot observe productivity. So they use signals — things that correlate with the thing they cannot see.",
+      "bullets": [
+        "A degree signals productive capacity **not** because the courses cause it, but because getting one is *costly* in a way that correlates with capacity.",
+        "The signal carries information **because it is hard to fake cheaply.**",
+        "Good state — a **separating equilibrium**: the signal sorts high-productivity candidates from lower.",
+        "Cost-structure collapses — a **pooling equilibrium**: everyone looks the same on the credential, and the employer is back to guessing."
+      ]
+    },
+    {
+      "id": "S05", "section": "what it used to cost",
+      "title": "The signal did not vanish. It pooled.",
+      "lead": "In 2010, \"I have a working app on GitHub\" cost you version control, a language, a framework, a deployment environment, and something that broke at 11pm — six weekends of genuine work.",
+      "bullets": [
+        "That cost correlated with productive engineering capacity. Recruiters used GitHub the way they used GPA.",
+        "The **2024 Stack Overflow Developer Survey** found **82%** of developers using AI tools for code. These are not early adopters at the frontier. **They are the population.**",
+        "GitHub launched in **2004**. Copilot in **2021**. Peng et al. published in **2023**. The collapse compressed fast.",
+        "A repository no longer tells a recruiter whether they are looking at six weekends of craft or a Tuesday afternoon with an LLM."
+      ]
+    },
+    {
+      "id": "S06", "section": "the unavoidable question",
+      "title": "What is still costly after AI tooling?",
+      "lead": "Sort the work honestly. The chapter names which side each falls on — it never counts them, and neither will this slide.",
+      "why": "the chapter asks 'what is still costly after AI tooling?' and sorts the work into two named buckets — the threshold demonstration that cheapened, against identifying a problem worth solving, positioning for an audience, and shipping to real users",
+      "archetype": "tallySplit",
+      "duration": 8.0,
+      "data": {
+        "left": { "label": "Cheapened", "pending": true },
+        "right": { "label": "Still costly", "pending": true },
+        "items": [
+          { "label": "an HTTP server in an afternoon", "side": "left" },
+          { "label": "a working app on GitHub", "side": "left" },
+          { "label": "the threshold demonstration", "side": "left" },
+          { "label": "a CS degree as a sorting credential", "side": "left" },
+          { "label": "identifying a problem worth solving", "side": "right" },
+          { "label": "positioning for a specific audience", "side": "right" },
+          { "label": "shipping to real users with feedback", "side": "right" },
+          { "label": "judgment that survives the edge cases", "side": "right" },
+          { "label": "your own strongest signal", "side": "pending" }
+        ],
+        "note": "These require human contact with reality. They cannot be prompted away."
+      }
+    },
+    {
+      "id": "S07", "section": "the market is repricing",
+      "title": "The new separating signals are the ones AI did not make cheap",
+      "lead": "The labor-market evidence is consistent with the mechanism.",
+      "bullets": [
+        "Recent analyses of AI engineering salaries report base compensation averaging around **$206,000**.",
+        "Specialists pull **30–50% above generalists** at the same seniority level.",
+        "That is a market paying for what stayed expensive — not for the ability to produce the pooled signal faster."
+      ]
+    },
+    {
+      "id": "S08", "section": "the four verbs",
+      "title": "Ideate · Build · Brand · Ship",
+      "lead": "The Creative Engineer is an engineer who has noticed the costly signals shifted, and has invested accordingly.",
+      "bullets": [
+        "**Ideate** — the hardest move, and the one generative AI cannot do for you. It will build any specification; it cannot decide whether the specification is worth building.",
+        "**Build** — the verb AI cheapened. Necessary. *Not sufficient.* Production systems still need deep technical judgment; what stopped separating is the repo as demonstration.",
+        "**Brand** — audience, positioning, archetype, voice, visual identity: whether a stranger in your target audience can find your work and recognize why it is for them.",
+        "**Ship** — a public URL, an audience that found it, feedback from real use. Not committed. Not published. Not demoed in class."
+      ]
+    },
+    {
+      "id": "S09", "section": "the objection",
+      "title": "An API without documentation is technically complete",
+      "lead": "Brand is where the most resistance lives among technically trained students. Here is the engineering analogy.",
+      "bullets": [
+        "It does the computation. It returns the right values. But if the developer who needs it cannot understand what it is for, **it is useless**.",
+        "Documentation is not decoration on the API — it is the part that makes the API connectable to the world that needs it.",
+        "**Brand is documentation for your career.**",
+        "The common objection is that your work should speak for itself. The honest response: *your work cannot speak at all if the person it is for cannot find it.*"
+      ]
+    },
+    {
+      "id": "S10", "section": "score yourself",
+      "title": "The rubric has a direction, and it ends at an artifact",
+      "lead": "One to five, per verb. A score of 4 on Build with no deployed product is not valid — the score must reflect observable artifacts.",
+      "why": "the chapter's rubric is an explicitly ordered scale: 'Score 1 — no evidence · Score 3 — some evidence · Score 5 — clear public artifact', with the reader's own score left to them",
+      "archetype": "ladder",
+      "duration": 7.0,
+      "data": {
+        "lowLabel": "no evidence",
+        "highLabel": "a stranger can open it",
+        "rungs": [
+          { "label": "Score 1", "note": "no evidence in your public work" },
+          { "label": "Score 3", "note": "some evidence, not tied to external validation" },
+          { "label": "Score 5", "note": "a clear public artifact — user research, deployment, real users" }
+        ]
+      }
+    },
+    {
+      "id": "S11", "section": "the firm-level case",
+      "title": "Two labs, overlapping technical work, opposite brands",
+      "lead": "Anthropic was started by former OpenAI researchers. Both publish frontier research. Both hit competitive capability benchmarks. What is radically different is Brand.",
+      "why": "the chapter states a shared origin that separates at a named moment — 'Two companies, similar technical work, very different market positions. Brand carved out two audiences that could each sustain a viable company.'",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "similar technical work",
+        "splitLabel": "the brand decision",
+        "tracks": [
+          {
+            "label": "Anthropic · safety as the front door", "outcome": "enterprise, regulated", "tone": "accent", "path": "up",
+            "notes": ["\"honest, harmless, helpful\"", "Constitutional AI as flagship signal", "compliance-sensitive accounts"]
+          },
+          {
+            "label": "OpenAI · frontier capability first", "outcome": "consumer, developer", "tone": "ink", "path": "down",
+            "notes": ["AGI proximity as the primary signal", "capability announcements", "consumer mindshare"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S12", "section": "the twelve",
+      "title": "Every archetype comes with a shadow",
+      "lead": "Mark and Pearson adapted Jung into twelve: Hero, Sage, Explorer, Innocent, Creator, Ruler, Caregiver, Magician, Lover, Jester, Everyman, Rebel. Two things going for it here.",
+      "bullets": [
+        "It answers the question you are actually trying to answer — *who am I to the people I am trying to reach?* Not \"what can I do.\" That is skill.",
+        "**Hero** → recklessness dressed as determination. **Sage** → analysis without action. **Creator** → perfectionism that never ships. **Explorer** → unfinished repositories.",
+        "The shadows are **predictive**: once you identify your archetype, the shadow tells you which failure mode to watch for.",
+        "What the framework does *not* do is tell you which to choose. The archetype is **descriptive before it is prescriptive** — you are identifying one already latent in how you work."
+      ]
+    },
+    {
+      "id": "S13", "section": "the method",
+      "title": "Evidence-based, not introspective",
+      "lead": "You are not trying to decide what you wish you were. You are looking at work you have already produced and finding the pattern. Four lenses.",
+      "bullets": [
+        "**Read your public writing.** The archetype is audible in the voice before it is legible in the content.",
+        "**Look at the projects you chose** — not what you built for class, but what you built because you wanted to. Project choices reveal motivation.",
+        "**Find the negative space.** What is absent tells you as much as what is present. The Sage does not post hot takes; the Rebel rarely posts polished tutorials.",
+        "**Name the shadow.** Look for it in your own work history, not in your self-description."
+      ]
+    },
+    {
+      "id": "S14", "section": "two worked cases",
+      "title": "Two engineers, read from evidence",
+      "lead": "Engineer A reads as Rebel — drawn to what is broken, competent through critique, no teaching anywhere. Engineer B reads as Everyman — accessibility framing consistent across every channel.",
+      "why": "the chapter applies its four evidence lenses across two named cases and then hands the same method to the reader; it names A's negative space explicitly but never names B's, and it never runs the method on you",
+      "archetype": "matrixGrid",
+      "duration": 8.5,
+      "data": {
+        "rows": [
+          { "label": "Public writing" },
+          { "label": "Project choices" },
+          { "label": "Negative space" },
+          { "label": "The shadow" }
+        ],
+        "cols": [
+          { "label": "Engineer A" },
+          { "label": "Engineer B" },
+          { "label": "You" }
+        ],
+        "cells": [
+          ["hit", "hit", "pending"],
+          ["hit", "hit", "pending"],
+          ["hit", "pending", "pending"],
+          ["hit", "hit", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S15", "section": "the synthesis",
+      "title": "Three frames, one argument",
+      "lead": "Spence, the four verbs, and the archetypes are not three independent frameworks. They are one argument at three levels of resolution.",
+      "why": "the chapter states an explicit dependency stack — Spence explains *why* the market shifted, the four verbs explain *what* the new costly signals are, the archetype explains *how* to execute Brand — and names what breaks without each",
+      "archetype": "graph",
+      "duration": 7.5,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          { "id": "spence", "label": "Spence mechanism", "tone": "ink", "layer": 0 },
+          { "id": "verbs", "label": "four verbs", "tone": "accent", "layer": 1 },
+          { "id": "arch", "label": "archetype system", "tone": "ink", "layer": 2 },
+          { "id": "port", "label": "one legible identity", "tone": "good", "layer": 3 }
+        ],
+        "edges": [
+          { "from": "spence", "to": "verbs", "label": "why the market shifted" },
+          { "from": "verbs", "to": "arch", "label": "how to execute Brand" },
+          { "from": "arch", "to": "port", "label": "a role, not a style choice" },
+          { "from": "verbs", "to": "port", "label": "what the portfolio must prove" }
+        ]
+      }
+    },
+    {
+      "id": "S16", "section": "the bet, stated as a bet",
+      "title": "What would change my mind",
+      "lead": "A controlled study showing that, holding technical skill constant, brand-strategy and positioning skills do *not* predict career outcomes for AI engineers.",
+      "why": "the chapter registers a commitment before the evidence arrives and says so outright — 'The data is not there yet in either direction. The bet here is that the current trajectory continues. That is a bet, not a proof.'",
+      "archetype": "lockTimeline",
+      "duration": 7.0,
+      "data": {
+        "commit": { "at": 0.15, "label": "the bet is registered" },
+        "marks": [
+          { "at": 0.38, "label": "Peng et al. 2023" },
+          { "at": 0.54, "label": "82% survey 2024" },
+          { "at": 0.7, "label": "salary analyses" }
+        ],
+        "resolve": { "at": 0.9, "label": "skill held constant", "pending": true },
+        "axisLabel": "the falsification test — designed, not run"
+      }
+    },
+    {
+      "id": "S17", "section": "AI+1",
+      "title": "Madison drafts the baseline. You assign the scores.",
+      "lead": "Pull your public footprint into one table. Draft the scoring scaffold. Surface which verb your evidence is thinnest on. Then stop.",
+      "why": "the chapter's AI+1 block enumerates a permission boundary directly — three things AI does well, and three named crossings under 'When NOT to Use AI', each with a stated failure reason",
+      "archetype": "containment",
+      "duration": 8.0,
+      "data": {
+        "boundary": { "label": "WHAT MADISON MAY DRAFT" },
+        "inside": [
+          { "label": "pulls your footprint" },
+          { "label": "drafts the scaffold" },
+          { "label": "spots the thin verb" }
+        ],
+        "attempts": [
+          { "label": "assign your scores", "blocked": true, "from": "left" },
+          { "label": "judge what's copyable", "blocked": true, "from": "right" },
+          { "label": "claim what you can't verify", "blocked": true, "from": "top" },
+          { "label": "hand you a draft to check", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S18", "section": "still puzzling",
+      "title": "Why brand work feels like a category violation",
+      "lead": "Technically excellent practitioners refuse this work even when shown the labor-market evidence.",
+      "bullets": [
+        "Some of it is identity — *\"I am an engineer, not a marketer.\"* Some of it is sunk cost — years of training for signals that are now depreciating.",
+        "But there is a third thing I do not fully understand. Project management does not trigger this. Brand does.",
+        "I suspect it has to do with the difference between **making** something and **claiming** something — and a specific anxiety that claiming distorts the making.",
+        "The violation feeling is real even when the resistance is unjustified. *That is worth more thought than I have given it here.*"
+      ]
+    },
+    {
+      "id": "S19", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Score yourself. Then open the artifact you cited.",
+      "lead": "Every grey slot on this deck is yours: which verb your evidence is thinnest on, which archetype your negative space actually confirms, and whether the bet in this chapter survives a study nobody has run yet. Treat an unverifiable claim as false — including your own."
+    }
+  ]
+}

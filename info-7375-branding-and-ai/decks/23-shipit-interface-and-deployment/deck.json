@@ -1,0 +1,548 @@
+{
+  "meta": {
+    "title": "Appendix S4 — Interface Design and Deployment",
+    "short": "BRANDING · CH23",
+    "course": "Branding and AI · Chapter 23",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/23-shipit-interface-and-deployment.md"
+  },
+  "slides": [
+    {
+      "id": "S01",
+      "kind": "title",
+      "kicker": "Branding and AI · Chapter 23 · Appendix S4",
+      "title": "Interface Design and Deployment",
+      "subtitle": "The interface is not a finishing layer. It is a contract. Every session, the user checks whether you kept it.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02",
+      "section": "the cold open",
+      "title": "Three confident bullet points",
+      "lead": "On **February 6, 2023**, Google announced Bard at a press event and released a promotional video.",
+      "bullets": [
+        "Bard answered a question about the James Webb Space Telescope. The third bullet claimed JWST had taken the first images of a planet outside our solar system.",
+        "The first exoplanet images were taken by the European Southern Observatory's Very Large Telescope in **2004** — nearly two decades before JWST launched.",
+        "Journalists noticed within hours. Reuters ran the story on **February 8**. By close of trading that day, Alphabet had lost approximately **$100 billion** in market capitalization."
+      ]
+    },
+    {
+      "id": "S03",
+      "section": "the promise",
+      "title": "The interface made the promise before anyone could check it",
+      "lead": "A polished, Google-branded video presenting the output as confident, authoritative, Google-quality information.",
+      "why": "chapter registers a commitment (the promo video's confident claim) and then a public check that resolves against it: 'The interface made a promise. The system broke it in a domain where anyone with internet access could check. The market priced the gap.'",
+      "archetype": "lockTimeline",
+      "duration": 7.5,
+      "data": {
+        "commit": {
+          "at": 0.12,
+          "label": "Feb 6 · the promo video ships the claim"
+        },
+        "marks": [
+          {
+            "at": 0.38,
+            "label": "journalists notice within hours"
+          },
+          {
+            "at": 0.62,
+            "label": "Feb 8 · Reuters runs the story"
+          }
+        ],
+        "resolve": {
+          "at": 0.88,
+          "label": "≈$100 billion in market cap",
+          "verdict": "miss"
+        },
+        "axisLabel": "the gap between the promise and the check"
+      }
+    },
+    {
+      "id": "S04",
+      "section": "the diagnosis",
+      "title": "The error was not the cause. The interface was.",
+      "lead": "Research-preview AI systems make errors. This one was disclosed.",
+      "bullets": [
+        "The cause was the presentation: confident assertions, no citations, no hedging, from a source the viewer had every reason to trust.",
+        "**The interface made a promise. The system broke it — in a domain where anyone with internet access could check.** The market priced the gap.",
+        "Your tool will not lose $100 billion if the interface overpromises. But it will lose users, and the mechanism is identical."
+      ]
+    },
+    {
+      "id": "S05",
+      "section": "the vocabulary",
+      "title": "\"Interface\" is doing at least four different jobs",
+      "lead": "Each job is real. None can substitute for the others. Engineers who think \"interface\" means \"UI\" consistently underinvest in the layers that damage brand.",
+      "why": "chapter enumerates Layer 1 through Layer 4 and names what sits inside each — buttons/forms/type; chat/search/form/dashboard; URL/login wall/latency; error messages/empty states/confidence/tone — and marks Layer 4 as where Bard failed",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "INTERFACE",
+        "centerShort": "INTERFACE",
+        "groups": [
+          {
+            "label": "1 · Visual",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "buttons"
+              },
+              {
+                "label": "forms"
+              },
+              {
+                "label": "layout"
+              },
+              {
+                "label": "type"
+              }
+            ]
+          },
+          {
+            "label": "2 · Interaction",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "chat"
+              },
+              {
+                "label": "search"
+              },
+              {
+                "label": "form"
+              },
+              {
+                "label": "dashboard"
+              }
+            ]
+          },
+          {
+            "label": "3 · Deployment",
+            "tone": "ink",
+            "children": [
+              {
+                "label": "the URL"
+              },
+              {
+                "label": "login wall"
+              },
+              {
+                "label": "latency"
+              }
+            ]
+          },
+          {
+            "label": "4 · Brand",
+            "tone": "accent",
+            "children": [
+              {
+                "label": "error messages"
+              },
+              {
+                "label": "empty states"
+              },
+              {
+                "label": "confidence"
+              },
+              {
+                "label": "tone"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "section": "the failure modes",
+      "title": "Three faces of misalignment",
+      "lead": "Each has a different cause and a different fix. You need them precisely enough to design against them.",
+      "bullets": [
+        "**Confidence misalignment** — the interface presents output as more certain than the system is. The most common failure for interfaces built by engineers, and it is structural: you have been running the thing for weeks, so the output looks reasonable *to you*.",
+        "**Capability misalignment** — the interface implies the tool can do things it cannot reliably do. \"Summarize PDFs up to **20** pages\" is less exciting than \"summarize any document\" and far more trustworthy when the user uploads a **50**-page PDF.",
+        "**Tone misalignment** — the interface speaks in a voice the system cannot maintain. The subtlest of the three, because it operates below the level of explicit claims. The user feels something is off without being able to say what.",
+        "The fix for the first is never *make the system more accurate*. It is **make the interface honest about the system's accuracy**."
+      ]
+    },
+    {
+      "id": "S07",
+      "section": "at scale",
+      "title": "Three cases, three misalignments — and one column that is yours",
+      "lead": "Each case reveals how fast the brand consequence arrives.",
+      "why": "chapter states 'These three cases represent the three misalignment types at scale' and maps each case to exactly one type; it never assesses the other cells, and it never assesses yours",
+      "archetype": "matrixGrid",
+      "duration": 9.0,
+      "data": {
+        "rows": [
+          {
+            "label": "Confidence"
+          },
+          {
+            "label": "Capability"
+          },
+          {
+            "label": "Tone"
+          }
+        ],
+        "cols": [
+          {
+            "label": "Bard '23"
+          },
+          {
+            "label": "Snapchat '18"
+          },
+          {
+            "label": "Tay '16"
+          },
+          {
+            "label": "YOUR TOOL"
+          }
+        ],
+        "cells": [
+          [
+            "hit",
+            "pending",
+            "pending",
+            "pending"
+          ],
+          [
+            "pending",
+            "pending",
+            "hit",
+            "pending"
+          ],
+          [
+            "pending",
+            "hit",
+            "pending",
+            "pending"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "section": "the other two",
+      "title": "Interface changes are brand changes",
+      "lead": "Neither of these was a technical failure. Both redesigns worked exactly as designed.",
+      "bullets": [
+        "**Snapchat, February 2018.** A petition demanding a revert gathered **1.2 million** signatures in the first week. Kylie Jenner tweeted she had stopped using the app; the stock dropped roughly **7%** the following day.",
+        "The redesign signaled *content platform* to users who had chosen Snapchat precisely because it was not one. **Users hold the interface to the promise the previous version made.**",
+        "**Microsoft Tay, March 2016.** Within sixteen hours, coordinated trolls had pushed inputs that made Tay produce offensive output. The interface implied a system that could safely learn from arbitrary public input. The system could not.",
+        "Microsoft had tested with a small, non-adversarial group. **Test the interface against the population that will actually use it, not the population you wish would use it.**"
+      ]
+    },
+    {
+      "id": "S09",
+      "section": "the framework",
+      "title": "Streamlit or Gradio is an interaction-model decision",
+      "lead": "Not a preference decision. The question is: what is the user's primary job when they use this tool?",
+      "why": "chapter splits one build decision at one named question — 'do work' vs 'try the model' — into two frameworks with two implied interaction models and two deploy platforms",
+      "archetype": "divergence",
+      "duration": 8.5,
+      "data": {
+        "startLabel": "your Python tool",
+        "splitLabel": "what is the user's job?",
+        "tracks": [
+          {
+            "label": "Streamlit · do work",
+            "outcome": "\"a tool you use\"",
+            "tone": "accent",
+            "path": "up",
+            "notes": [
+              "configure, run, inspect, iterate",
+              "structured inputs, inspectable state",
+              "Streamlit Community Cloud"
+            ]
+          },
+          {
+            "label": "Gradio · try the model",
+            "outcome": "\"a model you probe\"",
+            "tone": "ink",
+            "path": "down",
+            "notes": [
+              "submit an input, see an output",
+              "feels like a demo",
+              "Hugging Face Spaces"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "section": "the mismatch",
+      "title": "Minimum viable is not minimum effort",
+      "lead": "Minimum effort produces a bare form that works and makes no commitments. Minimum viable produces the smallest interface that accurately represents what the tool does.",
+      "bullets": [
+        "The mismatch to avoid: **an orchestrated multi-agent system deployed behind a Gradio \"type a prompt, get a result\" box.**",
+        "The architecture implies structured, reliable, inspectable behaviour. The free-form box implies exploration. The two are making different promises about the same system.",
+        "If your pipeline architecture is orchestrated, your interface should be structured — visible inputs, visible outputs, inspectable state."
+      ]
+    },
+    {
+      "id": "S11",
+      "section": "what goes in",
+      "title": "Three components in. Three claims out.",
+      "lead": "The smallest interface that makes the right commitments — and does not make the wrong ones.",
+      "why": "chapter names 'Three components every minimum viable AI tool interface needs' and then 'What the minimum viable interface should not have' — an explicit in/out boundary",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": {
+          "label": "MINIMUM VIABLE INTERFACE"
+        },
+        "inside": [
+          {
+            "label": "input affordance that matches the real inputs"
+          },
+          {
+            "label": "a visible processing state"
+          },
+          {
+            "label": "an output surface that shows confidence"
+          }
+        ],
+        "attempts": [
+          {
+            "label": "unsupported features",
+            "blocked": true,
+            "from": "left"
+          },
+          {
+            "label": "input types it can't handle",
+            "blocked": true,
+            "from": "top"
+          },
+          {
+            "label": "claims it can't keep",
+            "blocked": true,
+            "from": "right"
+          },
+          {
+            "label": "your own copy",
+            "blocked": null,
+            "from": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "section": "the audit",
+      "title": "The alignment audit is a two-column exercise",
+      "lead": "Run it before you deploy. Left column: every implicit promise your interface makes. Right column: can the system keep it, reliably, for the people who will actually use it?",
+      "bullets": [
+        "The promises are not what you wrote in the README. They are what a user will *infer* from the visual surface, the interaction model, the deployment surface and the brand surface.",
+        "Some are obvious — \"the tool can analyze any RSS feed.\" Some are subtle — \"the tool produces professional-quality output.\" Some are tone — \"this is from a team that cares.\"",
+        "For every row where the answer is no, or sometimes, or not-for-this-kind-of-user: **fix the interface before you ship**. Remove the claim, add a qualifier, narrow the input, add an uncertainty signal.",
+        "**Do not fix the system.** That comes later, in the Build-Measure-Learn loop."
+      ]
+    },
+    {
+      "id": "S13",
+      "section": "worked",
+      "title": "None of the fixes required changing the system",
+      "lead": "The audit on a sentiment pipeline. Every fix was a sentence, not a sprint.",
+      "why": "chapter runs the audit on five named interface claims and marks each ✓ or ✗ against system reality — but the pass/fix counts are a property of *your* interface, not a number to copy",
+      "archetype": "tallySplit",
+      "duration": 8.0,
+      "data": {
+        "left": {
+          "label": "Held as written",
+          "pending": true
+        },
+        "right": {
+          "label": "Needed narrowing",
+          "pending": true
+        },
+        "items": [
+          {
+            "label": "\"Up to 10 RSS feeds\"",
+            "side": "left"
+          },
+          {
+            "label": "\"Analyzes your competitor news\"",
+            "side": "right"
+          },
+          {
+            "label": "\"Scores articles for sentiment\"",
+            "side": "right"
+          },
+          {
+            "label": "\"Delivers daily to your Sheet\"",
+            "side": "right"
+          },
+          {
+            "label": "\"Results in under 3 minutes\"",
+            "side": "right"
+          },
+          {
+            "label": "your first claim",
+            "side": "pending"
+          },
+          {
+            "label": "your second claim",
+            "side": "pending"
+          },
+          {
+            "label": "your third claim",
+            "side": "pending"
+          }
+        ],
+        "note": "Your own column counts are something you run, not something you copy."
+      }
+    },
+    {
+      "id": "S14",
+      "section": "shipping",
+      "title": "Deployment is not the interesting part. It is the gate.",
+      "lead": "The deliverable is a URL that someone other than you can visit and use.",
+      "why": "chapter names four ordered concrete steps, each with a named failure, ending at a public URL — and every verdict belongs to the reader's own deploy",
+      "archetype": "gatePipeline",
+      "duration": 8.0,
+      "data": {
+        "input": {
+          "label": "working code on your machine"
+        },
+        "gates": [
+          {
+            "label": "Choose a host",
+            "rule": "Streamlit Cloud or HF Spaces · both need GitHub",
+            "pass": null
+          },
+          {
+            "label": "requirements.txt",
+            "rule": "pip freeze in a *clean* venv, not your dev env",
+            "pass": null
+          },
+          {
+            "label": "Secrets",
+            "rule": "keys in secrets management, never in the repo",
+            "pass": null
+          },
+          {
+            "label": "Test the URL",
+            "rule": "walk it as someone who has never seen it",
+            "pass": null
+          }
+        ],
+        "output": {
+          "label": "a URL someone else can use",
+          "pending": true
+        }
+      }
+    },
+    {
+      "id": "S15",
+      "section": "the last layer",
+      "title": "The README is not documentation. It is the last interface layer.",
+      "lead": "It is what the user meets when they are deciding whether to use the tool at all — or trying to understand what they just used.",
+      "bullets": [
+        "**The deployed URL, at the top, before anything else.** Nobody should read four paragraphs to find the link.",
+        "**What it does** — one paragraph, no marketing language: input, output, who it is for.",
+        "**How to use it** — step by step, assuming the reader has never seen it.",
+        "**What its limits are** — explicit. What it does not do, what it handles poorly, how confident the output is. This is the README-level alignment audit. Then the architecture diagram, then the stack."
+      ]
+    },
+    {
+      "id": "S16",
+      "section": "the arc",
+      "title": "The interface closes the loop the PRD opened",
+      "lead": "The PRD specified what the tool would do and would not. The pipeline implemented the what. The architecture decided how reliably it runs. The interface is where the user meets all three — every session.",
+      "why": "chapter: 'The alignment audit is the mechanism that connects all four' — and names each dependency: an out-of-scope PRD line should produce a missing input field, a variable-confidence pipeline should produce a confidence indicator",
+      "archetype": "graph",
+      "duration": 8.5,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          {
+            "id": "prd",
+            "label": "the PRD",
+            "tone": "ink",
+            "layer": 0
+          },
+          {
+            "id": "pipe",
+            "label": "the pipeline",
+            "tone": "ink",
+            "layer": 1
+          },
+          {
+            "id": "arch",
+            "label": "the architecture",
+            "tone": "ink",
+            "layer": 1
+          },
+          {
+            "id": "audit",
+            "label": "alignment audit",
+            "tone": "accent",
+            "layer": 2
+          },
+          {
+            "id": "ui",
+            "label": "the interface",
+            "tone": "accent",
+            "layer": 3
+          },
+          {
+            "id": "user",
+            "label": "the user",
+            "tone": "good",
+            "layer": 4
+          }
+        ],
+        "edges": [
+          {
+            "from": "prd",
+            "to": "pipe",
+            "label": "the what"
+          },
+          {
+            "from": "prd",
+            "to": "arch",
+            "label": "the scope"
+          },
+          {
+            "from": "pipe",
+            "to": "audit",
+            "label": "the outputs"
+          },
+          {
+            "from": "arch",
+            "to": "audit",
+            "label": "reliability"
+          },
+          {
+            "from": "audit",
+            "to": "ui"
+          },
+          {
+            "from": "ui",
+            "to": "user"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S17",
+      "section": "the coherence test",
+      "title": "The interface should *be* the archetype, not just the tool",
+      "lead": "The interface is where the archetype becomes visible to the user. Everything else is invisible to them.",
+      "bullets": [
+        "A **Sage** builds tools that provide insight — surface it clearly, attribute it honestly, signal where it is uncertain.",
+        "A **Creator** builds tools that produce things — make the output the hero of the page, offer variants, make iteration fast.",
+        "A **Caregiver** builds tools that help people — warm, patient, forgiving of input errors, generous with guidance.",
+        "A Sage tool with a splashy entertainment-forward interface loses brand coherence, and the user picks up on the mismatch before they can name it."
+      ]
+    },
+    {
+      "id": "S18",
+      "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Write down every promise your interface makes. Then check whether your system can keep it.",
+      "lead": "Build the three components. Draft the empty, loading and error states in your own voice. Run the alignment audit and narrow the claims it fails. Then deploy, and walk the URL as a stranger. The interface is the only part of your system the user experiences directly — make every layer of it a promise the system can keep."
+    }
+  ]
+}

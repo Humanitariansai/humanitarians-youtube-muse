@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scope discipline compounds; accepted feature requests degrade coherence</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:240px; }
+.title { font-family:'EB Garamond', Georgia, serif; font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-family:'EB Garamond', Georgia, serif; font-size:11px; fill:var(--color-secondary); } .axis-label { font-family:'IBM Plex Mono','JetBrains Mono',monospace; font-size:10px; fill:var(--color-secondary); }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+// coherence index 0-100 over 6 time steps
+const disciplined=[{t:0,v:40,note:"v1 ships"},{t:1,v:48,note:"sharp no"},{t:2,v:60,note:""},{t:3,v:72,note:"sharp no"},{t:4,v:84,note:""},{t:5,v:94,note:"identity strengthens"}];
+const accepting=[{t:0,v:78,note:"v1 ships"},{t:1,v:70,note:"yes"},{t:2,v:58,note:"yes"},{t:3,v:44,note:"yes"},{t:4,v:32,note:""},{t:5,v:22,note:"\"another Jira\""}];
+const titleText='Scope discipline compounds — and so does its absence';
+const descText='Two coherence-index trajectories over time: scope discipline (red, rising) versus accepting feature requests (ink, falling).';
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,700);
+ const totalHeight=440; const margin={top:80,right:160,bottom:56,left:64};
+ const chartWidth=totalWidth-margin.left-margin.right, chartHeight=totalHeight-margin.top-margin.bottom;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight)
+   .attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text('Coherence index over time. Each refusal raises coherence; each accepted request lowers it.');
+ const g=svg.append('g').attr('transform','translate('+margin.left+','+margin.top+')');
+ g.append('rect').attr('width',chartWidth).attr('height',chartHeight).attr('fill','var(--color-fill)').attr('stroke','var(--color-border)').attr('stroke-width',0.75);
+ const x=d3.scaleLinear().domain([0,5]).range([0,chartWidth]);
+ const y=d3.scaleLinear().domain([0,100]).range([chartHeight,0]);
+ const yAxis=d3.axisLeft(y).ticks(5).tickSize(-chartWidth);
+ g.append('g').call(yAxis).call(s=>s.selectAll('.domain').remove()).call(s=>s.selectAll('line').attr('stroke','var(--color-border)').attr('stroke-dasharray','2 4')).call(s=>s.selectAll('text').attr('class','axis-label'));
+ g.append('text').attr('x',0).attr('y',chartHeight+30).attr('class','axis-label').text('time →');
+ g.append('text').attr('transform','rotate(-90)').attr('x',-chartHeight/2).attr('y',-46).attr('text-anchor','middle').attr('class','axis-label').text('coherence index');
+ const line=d3.line().x(d=>x(d.t)).y(d=>y(d.v));
+ g.append('path').datum(disciplined).attr('d',line).attr('fill','none').attr('stroke','var(--color-red)').attr('stroke-width',2).attr('aria-hidden','true');
+ g.append('path').datum(accepting).attr('d',line).attr('fill','none').attr('stroke','var(--color-ink)').attr('stroke-width',2).attr('aria-hidden','true');
+ function pts(data,color,name){
+   g.selectAll('.p-'+name).data(data).join('circle').attr('class','p-'+name).attr('cx',d=>x(d.t)).attr('cy',d=>y(d.v)).attr('r',4)
+     .attr('fill',color).attr('stroke','var(--color-white)').attr('stroke-width',1).attr('tabindex',0)
+     .attr('aria-label',name+' at step '+(d=>d.t))
+     .on('mouseover',function(event,d){d3.select(this).attr('r',6); showTooltip(event,'<strong>'+name+'</strong><br>step '+d.t+': coherence '+d.v+(d.note?'<br><em>'+d.note+'</em>':''));})
+     .on('mousemove',moveTooltip).on('mouseout',function(){d3.select(this).attr('r',4); hideTooltip();});
+ }
+ pts(disciplined,'var(--color-red)','Scope discipline held');
+ pts(accepting,'var(--color-ink)','Feature requests accepted');
+ // ochre "no" ticks for disciplined notable points
+ disciplined.filter(d=>d.note==='sharp no').forEach(d=>{ g.append('text').attr('x',x(d.t)).attr('y',y(d.v)-10).attr('text-anchor','middle').attr('font-size',9).attr('fill','var(--color-ochre)').attr('font-family',"'EB Garamond', Georgia, serif").text('no'); });
+ // legend
+ const lx=chartWidth+24;
+ g.append('line').attr('x1',lx).attr('y1',40).attr('x2',lx+22).attr('y2',40).attr('stroke','var(--color-red)').attr('stroke-width',2);
+ g.append('text').attr('x',lx+28).attr('y',44).attr('font-size',11).attr('fill','var(--color-ink)').attr('font-family',"'EB Garamond', Georgia, serif").text('Discipline held');
+ g.append('line').attr('x1',lx).attr('y1',64).attr('x2',lx+22).attr('y2',64).attr('stroke','var(--color-ink)').attr('stroke-width',2);
+ g.append('text').attr('x',lx+28).attr('y',68).attr('font-size',11).attr('fill','var(--color-ink)').attr('font-family',"'EB Garamond', Georgia, serif").text('Requests accepted');
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

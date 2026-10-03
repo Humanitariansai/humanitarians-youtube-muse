@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "slug": "ogilvy-hammad",
+    "title": "An Ogilvy Lens on SentinelGRC — Hammad",
+    "topic": "INFO 7375 · OGILVY LENS",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Teardown",
+    "style": "ogilvy",
+    "source_pitch": "branding-and-ai/info-7375/submissions/Hammad_MadisonPitch.mp4",
+    "ogilvy_note": "Food for thought — not a grade. Ogilvy is one lens among several, running alongside the course rubric. The maker decides.",
+    "total_estimated_duration_seconds": 194,
+    "build": {
+      "at": "2026-08-01T15:53:15",
+      "cut": "master",
+      "filled": 10,
+      "of": 10,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Hammad's SentinelGRC pitch. AI-powered compliance intelligence for the modern GRC analyst — it maps live CISA advisories to your compliance frameworks automatically, in seconds. The live MVP is already running on HuggingFace. What would David Ogilvy ask about it?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · OGILVY LENS",
+            "segment": "SentinelGRC — Hammad",
+            "command": "I just watched Hammad's SentinelGRC pitch — AI-powered compliance intelligence for the modern GRC analyst. It maps live CISA cybersecurity advisories to ISO 27001, SOC 2, and GDPR compliance frameworks automatically, in seconds. The live MVP is running on HuggingFace today. What do David Ogilvy's principles say about how this pitch frames the work? Not a score. Just the questions a great ad man would ask.",
+            "runningText": "reading the pitch...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 16.21,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:53:15"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "RECONSTRUCT — Slide 1: The Buried Badge",
+      "role_note": "Show Slide 1 (title), rebuild. 'LIVE MVP' is a badge — it should be the headline.",
+      "narration_text": "Slide 1 — the title. SentinelGRC. AI-Powered Compliance Intelligence for the Modern GRC Analyst. There is a badge in the top left of this slide. It reads: live MVP. That label is what separates this pitch from every deck that says coming soon. Ogilvy would ask: why is your most powerful fact a version tag? Live MVP is the headline. Everything else is the subhead.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B01_LiveMVP",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 20.74,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim:B01_LiveMVP",
+        "at": "2026-08-01T15:53:15"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "LENS 1 — The 0 Time",
+      "role_note": "Show Slide 2 (problem), rebuild. '0 Time to react before vulnerabilities are exploited' is the human cost.",
+      "narration_text": "Slide 2 — the problem. Every Monday morning, GRC analysts face this. Two to three hours of manual review. Enterprise platforms at twenty thousand to two hundred thousand dollars per year. And then the third stat: zero time. Zero time to react before vulnerabilities are exploited. That is the one. Ogilvy: always find the human cost behind the time cost. Two to three hours is the input. Zero time is what it costs the person sitting at the desk.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B02_ZeroTime",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 22.27,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim:B02_ZeroTime",
+        "at": "2026-08-01T15:53:15"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "LENS 2 — The Buried Lead: Live on HuggingFace",
+      "role_note": "Show demo frame (slide 9), rebuild. The product is live and running — this is the buried lead.",
+      "narration_text": "The product is live on HuggingFace. One slider for how many advisories to fetch. One dropdown to pick your compliance framework — SOC 2, ISO 27001, GDPR. One button: run analysis. Real output in seconds. Ogilvy's second most powerful word, after free, is now. This product runs now. That is the headline of the pitch. It is on a late slide. The question worth sitting with: what if it opened the pitch instead?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B03_LiveOnHuggingFace",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 22.4,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim:B03_LiveOnHuggingFace",
+        "at": "2026-08-01T15:53:15"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "LENS 3 — We Own the White Space",
+      "role_note": "Show Slide 7 (competition), rebuild. The three-sentence competitive claim is precise and earns its place.",
+      "narration_text": "Slide 7 — competition. We own the white space. Enterprise vendors can't hit our price point. Automation tools don't have the compliance intelligence. We have both. That is three sentences and the whole competitive story. ServiceNow GRC starts at fifty thousand a year. Drata requires integration. Tines does alerts only — no mapping. Ogilvy: specifics in a competitive claim always outperform generalities. This slide earns its place.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B04_WhiteSpace",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 22.46,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim:B04_WhiteSpace",
+        "at": "2026-08-01T15:53:15"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "LENS 4 — Free Is the Most Powerful Word",
+      "role_note": "No slide needed. Free tier + live MVP + anyone can use it today.",
+      "narration_text": "There is a free tier. Zero dollars, live MVP, no setup required. And the product runs on HuggingFace right now — anyone watching this could open the link and run an analysis. Ogilvy was explicit: free is the most powerful word in advertising. The ask slide offers a co-op partnership or a seed check. Both useful. But the most direct ask in this pitch is the one not stated: go run your first CISA advisory analysis today. Why is that not the last line?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B05_FreeAndLive",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 24.6,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim:B05_FreeAndLive",
+        "at": "2026-08-01T15:53:15"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "LENS 5 — The Close: One Door",
+      "role_note": "Show Slide 10 (ask), rebuild. Two asks (co-op vs seed) for two different audiences — Ogilvy: one door.",
+      "narration_text": "Slide 10 — the ask. Let's build this together. Co-op or internship partnership to pilot SentinelGRC — or one hundred fifty thousand dollars seed to onboard the first ten customers in six months. Specific and right-sized on both counts. But Ogilvy: a close should give the reader one door to walk through. This slide has two: the student and the investor are the same door in one pitch. The question worth sitting with: do they need separate rooms?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B06_TheClose",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 21.93,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim:B06_TheClose",
+        "at": "2026-08-01T15:53:15"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT ARTIFACT — The Lens Set",
+      "role_note": "Not a verdict: four questions for the next draft.",
+      "narration_text": "Not a verdict — a lens set. Four questions for the next draft. One: live MVP is a badge on the title — what if it was the headline? Two: zero time to react before exploitation — that's the human cost, does the slide show the person? Three: the product is live on HuggingFace today — why is that on a late slide? Four: co-op or seed — are those the same door? These are Ogilvy's questions. The pitch decides which ones matter.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "CARD",
+        "source": "remotion",
+        "motion": "hold",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Four Ogilvy questions for the next draft",
+            "artifactHeading": "The lens set — not the verdict",
+            "artifactLines": [
+              "'LIVE MVP' is a badge on the title — make it the lead.",
+              "0 Time to react — that's the human cost. Who is missed?",
+              "Live on HuggingFace today — why is that a late slide?",
+              "Co-op or $150K seed — are those the same door?"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "actual_duration_s": 20.95,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:53:15"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Scaffolded prompt for Hammad to run on his own next draft.",
+      "narration_text": "Your turn. Take your deck into Claude and try this: here are four Ogilvy questions about my pitch. For each one — which specific slide is most in play, and what is one alternative frame to consider? Not a correction, just another angle. The goal is not to score the pitch. Ogilvy is one lens. The course rubric is another.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375 · OGILVY LENS",
+            "segment": "Run this on your next draft",
+            "command": "Here are four Ogilvy questions about my pitch. For each one: (1) which slide is most directly in play, and (2) give me one alternative frame to consider — not a correction, just another angle. Goal: not to score the pitch. One more lens.",
+            "runningText": "thinking...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 16.7,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:53:15"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "OUTRO-LOCK — ClaudeTitleOutro.",
+      "narration_text": "An Ogilvy Lens on SentinelGRC — Hammad. I'm Liam, in for Bear.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 6,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "An Ogilvy Lens on SentinelGRC — Hammad",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 4.97,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T15:53:15"
+      }
+    }
+  ]
+}

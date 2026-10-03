@@ -1,0 +1,71 @@
+<!--
+  The Irreducibly Human taxonomy
+  Book: Branding and AI
+  Chapter: 97-fundamental-themes
+  Figure: 03
+  Type: hierarchy
+  Generated: 2026-06-18
+  Source: pantry/97-fundamental-themes-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-97-03">
+  <title id="fig-title-97-03">The Irreducibly Human taxonomy</title>
+  <desc>A tier ladder from machine territory to irreducibly human capacities: Tier 1 pattern and association (machines win), Tier 2 embodied, Tier 4 metacognitive, Tier 5 causal, Tier 6 collective, Tier 7 existential. A phase-gate boundary is drawn between Tier 1 and Tier 4.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="97-fundamental-themes"
+      figure-number="03" figure-title="The Irreducibly Human taxonomy" figure-slug="irreducibly-human-taxonomy"
+      figure-type="hierarchy" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/97-fundamental-themes-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The taxonomy: where machines win and where humans are irreducible</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Bottom is machine territory; the higher the tier, the more irreducibly human.</text>
+
+  <!-- direction label -->
+  <text x="660" y="80" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">more irreducibly human &#9650;</text>
+
+  <!-- Tier 7 (top) -->
+  <rect x="120" y="86" width="548" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="132" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Tier 7 &#183; Existential &amp; Wisdom</text>
+  <text x="132" y="122" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Values, accountability, knowing what question is worth asking</text>
+  <text x="656" y="112" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">AI absent</text>
+
+  <!-- Tier 6 -->
+  <rect x="120" y="134" width="548" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="132" y="154" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Tier 6 &#183; Collective &amp; Distributed</text>
+  <text x="132" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Productive disagreement, synthesis, institutional judgment</text>
+  <text x="656" y="160" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">AI absent</text>
+
+  <!-- Tier 5 -->
+  <rect x="120" y="182" width="548" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="132" y="202" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Tier 5 &#183; Causal &amp; Counterfactual</text>
+  <text x="132" y="218" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Identification, confounding, counterfactuals &#8212; not pattern-matching</text>
+  <text x="656" y="208" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">AI unreliable</text>
+
+  <!-- Tier 4 -->
+  <rect x="120" y="230" width="548" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="132" y="250" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Tier 4 &#183; Metacognitive &amp; Supervisory</text>
+  <text x="132" y="266" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Plausibility audit, problem formulation, knowing when to distrust the machine</text>
+  <text x="656" y="256" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">AI weak</text>
+
+  <!-- RED PHASE GATE between Tier 4 and Tier 1 -->
+  <line x1="120" y1="282" x2="668" y2="282" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="124" y="297" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#C8102E">PHASE GATE &#8212; AI stops here, human cognition begins above</text>
+
+  <!-- Tier 2 -->
+  <rect x="120" y="304" width="548" height="44" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="132" y="324" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Tier 2 &#183; Embodied &amp; Sensorimotor</text>
+  <text x="132" y="340" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Knowledge that lives in physical practice (Tier 3 referenced, not series focus)</text>
+  <text x="656" y="330" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">bounded by physics</text>
+
+  <!-- Tier 1 (bottom) -->
+  <rect x="120" y="352" width="548" height="44" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <text x="132" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Tier 1 &#183; Pattern &amp; Association</text>
+  <text x="132" y="388" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Statistical pattern-finding, retrieval, structure, calibrated feedback</text>
+  <text x="656" y="378" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">machines win</text>
+
+  <text x="660" y="416" text-anchor="end" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">&#9660; machine territory</text>
+
+  <text x="32" y="446" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">The gate is not where you trust the AI less &#8212; it is where the human cognitive work is irreducible, and where doing it</text>
+  <text x="32" y="460" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">produces the capability that makes AI safe to use in the first place.</text>
+</svg>

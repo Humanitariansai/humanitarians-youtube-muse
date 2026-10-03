@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The three storytelling frameworks as telescoping rings</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; } .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-size:13px; max-width:240px; } .title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); } .ring-label { font-size:11px; font-weight:700; } .ring-sub { font-size:9px; fill:var(--color-secondary); } @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const rings=[
+ {r:160,label:"Campbell",sub:"universal architecture",gloss:"Deep architecture that recurs across cultures (1949)."},
+ {r:116,label:"Booker",sub:"seven basic plots",gloss:"The plot shapes available and what each does (2004)."},
+ {r:72,label:"Miller",sub:"customer-as-hero",gloss:"Brand application: customer is hero, brand is guide (2017)."}
+];
+const center={r:30,label:"Archetype",gloss:"The filter — determines which of Booker's plots a brand can credibly tell."};
+const titleText="The three storytelling frameworks as telescoping rings";
+const descText="Concentric rings — Campbell, Booker, Miller — with Archetype at the center as the filter. The frameworks telescope by specificity, they do not compete.";
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+  d3.select('#chart').selectAll('*').remove();
+  const container=document.getElementById('chart');
+  const totalWidth=Math.max(container.clientWidth-48,640);
+  const totalHeight=480;
+  const cx=Math.min(300,totalWidth*0.42), cy=280;
+  const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+  svg.append('title').attr('id','chart-title').text(titleText);
+  svg.append('desc').attr('id','chart-desc').text(descText);
+  svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+  svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText);
+  rings.forEach((r,i)=>{
+    const g=svg.append('g').attr('opacity',0);
+    g.append('circle').attr('cx',cx).attr('cy',cy).attr('r',r.r).attr('fill','var(--color-white)').attr('stroke','var(--color-ink)').attr('stroke-width',1.25).attr('tabindex',0).attr('aria-label',r.label+': '+r.gloss)
+      .on('mouseover',(e)=>showTooltip(e,'<strong>'+r.label+'</strong><br>'+r.gloss)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    g.append('text').attr('x',cx).attr('y',cy-r.r+24).attr('text-anchor','middle').attr('class','ring-label').attr('fill','var(--color-ink)').text(r.label);
+    g.append('text').attr('x',cx).attr('y',cy-r.r+40).attr('text-anchor','middle').attr('class','ring-sub').text(r.sub);
+    g.transition().delay(i*150).duration(320).attr('opacity',1);
+  });
+  const gc=svg.append('g').attr('opacity',0);
+  gc.append('circle').attr('cx',cx).attr('cy',cy).attr('r',center.r).attr('fill','var(--color-red)').attr('tabindex',0).attr('aria-label',center.label+': '+center.gloss)
+    .on('mouseover',(e)=>showTooltip(e,'<strong>'+center.label+'</strong><br>'+center.gloss)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+  gc.append('text').attr('x',cx).attr('y',cy-2).attr('text-anchor','middle').attr('font-size',10).attr('font-weight',700).attr('fill','var(--color-white)').text('Arche-');
+  gc.append('text').attr('x',cx).attr('y',cy+10).attr('text-anchor','middle').attr('font-size',10).attr('font-weight',700).attr('fill','var(--color-white)').text('type');
+  gc.transition().delay(rings.length*150).duration(320).attr('opacity',1);
+  // right gloss list if room
+  if(totalWidth>620){
+    const gx=cx+170; let gy=140;
+    [...rings,{label:center.label,gloss:center.gloss,primary:true}].forEach((r)=>{
+      svg.append('text').attr('x',gx).attr('y',gy).attr('font-size',10.5).attr('font-weight',700).attr('fill',r.primary?'var(--color-red)':'var(--color-ink)').text(r.label);
+      const words=r.gloss.split(' '); let line='', yy=gy+14;
+      words.forEach(w=>{ if((line+w).length>30){ svg.append('text').attr('x',gx).attr('y',yy).attr('class','ring-sub').text(line); line=w+' '; yy+=12; } else line+=w+' '; });
+      svg.append('text').attr('x',gx).attr('y',yy).attr('class','ring-sub').text(line);
+      gy=yy+24;
+    });
+  }
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

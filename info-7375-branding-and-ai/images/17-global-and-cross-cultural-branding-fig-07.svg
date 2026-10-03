@@ -1,0 +1,94 @@
+<!--
+  The three-stage market-entry plan, with the AI+1 boundary
+  Book: Branding and AI
+  Chapter: 17-global-and-cross-cultural-branding
+  Figure: 07
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/17-global-and-cross-cultural-branding-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-17-07">
+  <title id="fig-title-17-07">The three-stage market-entry plan, with the AI+1 boundary</title>
+  <desc>Three stages — keep-global/localize split, transcreation, risk audit. A dashed AI+1 boundary runs through all three: AI drafts and flags above the line; a native speaker verifies below it. Cultural judgment lives in communities, not models.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="17-global-and-cross-cultural-branding" figure-number="07"
+      figure-title="The three-stage market-entry plan, with the AI+1 boundary"
+      figure-slug="three-stage-market-entry-plan"
+      figure-type="process flowchart" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/17-global-and-cross-cultural-branding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The three-stage market-entry plan, with the AI+1 boundary</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">AI generates, flags, and asks better questions. The native speaker verifies.</text>
+  <text x="32" y="72" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The line between is non-delegable.</text>
+
+  <defs>
+    <marker id="arrow-17-07" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- side band labels -->
+  <text x="32" y="116" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">AI</text>
+  <text x="32" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454">+1</text>
+
+  <!-- Stage 1 -->
+  <text x="118" y="86" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Stage 1 · Split</text>
+  <rect x="60" y="96" width="116" height="80" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="118" y="120" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">AI + Hofstede</text>
+  <text x="118" y="135" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">lens drafts a</text>
+  <text x="118" y="150" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">keep/localize</text>
+  <text x="118" y="165" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">split per element</text>
+
+  <rect x="60" y="296" width="116" height="68" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="118" y="320" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">native confirms</text>
+  <text x="118" y="335" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">the rationale per</text>
+  <text x="118" y="350" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">element</text>
+
+  <line x1="118" y1="176" x2="118" y2="294" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-17-07)"/>
+
+  <!-- Stage 2 -->
+  <text x="350" y="86" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Stage 2 · Transcreate</text>
+  <rect x="292" y="96" width="116" height="80" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="124" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">AI drafts the</text>
+  <text x="350" y="139" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">tagline + one</text>
+  <text x="350" y="154" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">message for the</text>
+  <text x="350" y="169" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">target market</text>
+
+  <rect x="292" y="296" width="116" height="68" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="320" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">native verifies it</text>
+  <text x="350" y="335" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">actually lands —</text>
+  <text x="350" y="350" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">reads the subtext</text>
+
+  <line x1="350" y1="176" x2="350" y2="294" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-17-07)"/>
+
+  <!-- Stage 3 -->
+  <text x="582" y="86" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Stage 3 · Risk audit</text>
+  <rect x="524" y="96" width="116" height="80" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="582" y="124" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">AI flags name,</text>
+  <text x="582" y="139" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">color, imagery,</text>
+  <text x="582" y="154" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">number / symbol</text>
+  <text x="582" y="169" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">risks</text>
+
+  <rect x="524" y="296" width="116" height="68" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="582" y="320" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">native verifies</text>
+  <text x="582" y="335" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">each flag — real</text>
+  <text x="582" y="350" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">or theoretical?</text>
+
+  <line x1="582" y1="176" x2="582" y2="294" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-17-07)"/>
+
+  <!-- stage progression arrows -->
+  <line x1="176" y1="136" x2="290" y2="136" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-17-07)"/>
+  <line x1="408" y1="136" x2="522" y2="136" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-17-07)"/>
+
+  <!-- AI+1 boundary (the one red element) -->
+  <line x1="48" y1="236" x2="668" y2="236" stroke="#C8102E" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="222" y="222" width="256" height="28" fill="#FFFFFF"/>
+  <text x="350" y="241" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#C8102E">AI+1 boundary — non-delegable</text>
+
+  <text x="32" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Cultural judgment — authentic or tone-deaf, real risk or theoretical —</text>
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">lives in communities, not in the model. That is the +1.</text>
+</svg>

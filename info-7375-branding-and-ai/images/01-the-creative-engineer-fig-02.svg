@@ -1,0 +1,64 @@
+<!--
+  Spence's signal: separating vs. pooling equilibrium
+  Book: Branding and AI
+  Chapter: 01-the-creative-engineer
+  Figure: 02
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/01-the-creative-engineer-cajal.md
+-->
+<svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01-02">
+  <title id="fig-title-01-02">Spence's signal: separating vs. pooling equilibrium</title>
+  <desc>Two panels: a separating equilibrium where a costly signal sorts the candidate pool into high and low productivity, and a pooling equilibrium where a cheapened signal stops sorting.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="420" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">When a signal is costly it sorts; when its cost collapses it pools</text>
+
+  <!-- LEFT: separating -->
+  <rect x="40" y="64" width="300" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="90" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Separating equilibrium</text>
+  <text x="56" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">costly signal — only high capacity produces it</text>
+
+  <!-- mixed pool -->
+  <text x="80" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">pool</text>
+  <g fill="#121212"><circle cx="72" cy="170" r="5"/><circle cx="88" cy="186" r="5"/><circle cx="72" cy="202" r="5"/></g>
+  <g fill="#ADADAD"><circle cx="88" cy="170" r="5"/><circle cx="72" cy="186" r="5"/><circle cx="88" cy="202" r="5"/></g>
+
+  <line x1="110" y1="186" x2="160" y2="150" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="110" y1="186" x2="160" y2="222" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- sorted high -->
+  <rect x="170" y="128" width="150" height="48" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="245" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212" text-anchor="middle">high productivity</text>
+  <g fill="#121212"><circle cx="220" cy="164" r="4"/><circle cx="245" cy="164" r="4"/><circle cx="270" cy="164" r="4"/></g>
+  <!-- sorted low -->
+  <rect x="170" y="200" width="150" height="48" fill="#FFFFFF" stroke="#ADADAD" stroke-width="1"/>
+  <text x="245" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454" text-anchor="middle">lower productivity</text>
+  <g fill="#ADADAD"><circle cx="220" cy="236" r="4"/><circle cx="245" cy="236" r="4"/><circle cx="270" cy="236" r="4"/></g>
+
+  <text x="190" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">Employer infers correctly</text>
+  <text x="190" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">the credential is informative</text>
+
+  <!-- RIGHT: pooling -->
+  <rect x="380" y="64" width="300" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="396" y="90" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Pooling equilibrium</text>
+  <text x="396" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">cheap signal — everyone produces it</text>
+
+  <g fill="#121212"><circle cx="412" cy="170" r="5"/><circle cx="428" cy="186" r="5"/><circle cx="412" cy="202" r="5"/></g>
+  <g fill="#ADADAD"><circle cx="428" cy="170" r="5"/><circle cx="412" cy="186" r="5"/><circle cx="428" cy="202" r="5"/></g>
+
+  <line x1="450" y1="186" x2="500" y2="186" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- one undifferentiated box -->
+  <rect x="510" y="148" width="150" height="76" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="585" y="172" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#545454" text-anchor="middle">everyone looks alike</text>
+  <g><circle cx="545" cy="196" r="4" fill="#121212"/><circle cx="565" cy="196" r="4" fill="#ADADAD"/><circle cx="585" cy="196" r="4" fill="#121212"/><circle cx="605" cy="196" r="4" fill="#ADADAD"/><circle cx="625" cy="196" r="4" fill="#121212"/></g>
+
+  <text x="530" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">Employer is back to guessing</text>
+  <text x="530" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">the credential stops sorting</text>
+
+  <text x="32" y="396" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A signal carries information only while its cost-structure holds.</text>
+  <text x="32" y="412" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">When producing it gets cheap, it ceases to inform.</text>
+</svg>

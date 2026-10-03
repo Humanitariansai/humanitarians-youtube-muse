@@ -1,0 +1,67 @@
+<!--
+  The three failure modes of "everyone"
+  Book: Branding and AI
+  Chapter: 04-the-brand-audience
+  Figure: 01
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/04-the-brand-audience-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04-01">
+  <title id="fig-title-04-01">The three failure modes of "everyone"</title>
+  <desc>Three panels — diluted message, wasted budget, corrupted roadmap — each with a mechanism and consequence, converging on a single outcome: the brand becomes illegible.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="04-the-brand-audience"
+      figure-number="01" figure-title="The three failure modes of everyone"
+      figure-slug="three-failure-modes-of-everyone" figure-type="comparison panels"
+      priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/04-the-brand-audience-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">When the audience is "everyone," three things fail at once</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A signal that discriminates nothing predicts nothing. Each failure mode feeds one outcome.</text>
+
+  <!-- Panel 1 -->
+  <rect x="32" y="86" width="200" height="190" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="32" y="86" width="200" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Diluted message</text>
+  <text x="44" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">MECHANISM</text>
+  <text x="44" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">You say something broad</text>
+  <text x="44" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">enough for all.</text>
+  <text x="44" y="218" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">CONSEQUENCE</text>
+  <text x="44" y="238" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">It moves no one.</text>
+
+  <!-- Panel 2 -->
+  <rect x="250" y="86" width="200" height="190" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="250" y="86" width="200" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="262" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Wasted budget</text>
+  <text x="262" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">MECHANISM</text>
+  <text x="262" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">You pay to reach people</text>
+  <text x="262" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">who never convert.</text>
+  <text x="262" y="218" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">CONSEQUENCE</text>
+  <text x="262" y="238" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Spend buys no traction.</text>
+
+  <!-- Panel 3 -->
+  <rect x="468" y="86" width="200" height="190" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="468" y="86" width="200" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="480" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Corrupted roadmap</text>
+  <text x="480" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">MECHANISM</text>
+  <text x="480" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Every feature request</text>
+  <text x="480" y="182" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">looks equally valid.</text>
+  <text x="480" y="218" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">CONSEQUENCE</text>
+  <text x="480" y="238" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">No basis for whose</text>
+  <text x="480" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">request matters most.</text>
+
+  <defs><marker id="arrow0401" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker></defs>
+  <line x1="132" y1="276" x2="132" y2="320" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0401)"/>
+  <line x1="350" y1="276" x2="350" y2="320" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0401)"/>
+  <line x1="568" y1="276" x2="568" y2="320" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0401)"/>
+
+  <!-- Outcome band -->
+  <rect x="32" y="328" width="636" height="56" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="354" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">The brand becomes illegible</text>
+  <text x="350" y="373" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#545454">Choosing an audience is choosing whom to disappoint — the refusal is what makes the brand legible.</text>
+
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 4, THE COST OF "EVERYONE"</text>
+</svg>

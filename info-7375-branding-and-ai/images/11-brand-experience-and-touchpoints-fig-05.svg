@@ -1,0 +1,59 @@
+<!--
+  Brand constants vs. variables
+  Book: Branding and AI
+  Chapter: 11-brand-experience-and-touchpoints
+  Figure: 05
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/11-brand-experience-and-touchpoints-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-11-05">
+  <title id="fig-title-11-05">Brand constants vs. variables</title>
+  <desc>Constants never change across channels: archetype commitments, tone of voice, visual identity. Variables adapt to the medium: length, formality, personality density, visual density. A Sage brand holds the constants while flexing across homepage, support chat, and error message.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Consistency is not uniformity: hold the core, flex the expression</text>
+
+  <!-- constants -->
+  <rect x="40" y="60" width="290" height="180" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Constants — never change</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">
+    <text x="56" y="120">Archetype commitments</text>
+    <text x="56" y="152">Tone of voice (the register)</text>
+    <text x="56" y="184">Visual identity (logo, color, type)</text>
+  </g>
+  <text x="56" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the core that makes it feel like itself</text>
+
+  <!-- variables -->
+  <rect x="370" y="60" width="290" height="180" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="386" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Variables — adapt to medium</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">
+    <text x="386" y="116">Length</text>
+    <text x="386" y="140">Formality</text>
+    <text x="386" y="164">Degree of personality in copy</text>
+    <text x="386" y="188">Visual density · channel conventions</text>
+  </g>
+  <text x="386" y="220" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the expression that fits the surface</text>
+
+  <!-- channel strip: one Sage brand across three channels -->
+  <text x="40" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" font-weight="700">One Sage brand, three channels — same register, adapted expression</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11">
+    <rect x="40" y="282" width="195" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="54" y="304" fill="#121212" font-weight="700">Homepage</text>
+    <text x="54" y="326" fill="#545454">measured, evidence-led;</text>
+    <text x="54" y="342" fill="#545454">longer form, full restraint.</text>
+
+    <rect x="252" y="282" width="195" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="266" y="304" fill="#121212" font-weight="700">Support chat</text>
+    <text x="266" y="326" fill="#545454">still calm and precise;</text>
+    <text x="266" y="342" fill="#545454">shorter, more conversational.</text>
+
+    <rect x="464" y="282" width="196" height="100" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="478" y="304" fill="#121212" font-weight="700">Error message</text>
+    <text x="478" y="326" fill="#545454">honest, specific, brief;</text>
+    <text x="478" y="342" fill="#545454">points to the resolution.</text>
+  </g>
+
+  <text x="32" y="412" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">The failure mode: warm in marketing, cold in operations. The customer receives both</text>
+  <text x="32" y="428" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">from the same entity — the seam is the real voice.</text>
+  <text x="32" y="448" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Omnichannel consistency is equity protection, not an aesthetic aspiration.</text>
+</svg>

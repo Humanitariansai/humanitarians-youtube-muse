@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Literal vs. brand-strategy reading of three archetype names</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; }
+.tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-family:'EB Garamond', Georgia, serif; font-size:13px; max-width:260px; }
+.title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); }
+.panel-title { font-size:14px; font-weight:700; fill:var(--color-white); } .lbl { font-size:11px; fill:var(--color-secondary); } .body { font-size:11px; fill:var(--color-ink); } .ex { font-size:10px; fill:var(--color-secondary); }
+@media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const titleText="Read the name as a relationship to the customer, not a personality";
+const descText="The literal reading misleads; the brand-strategy reading is what the archetype commits to. Hero: the customer is the hero, the brand is the equipment. Outlaw: a challenger to an establishment. Caregiver: organized around protecting others.";
+const panels=[
+ {name:"Hero",literal:"noble warrior",strategy:["the customer is","the hero; the brand","is the equipment."],ex:["Nike: you push past","your own limit."]},
+ {name:"Outlaw",literal:"criminal",strategy:["a challenger to an","establishment worth","disrupting."],ex:["Harley: step outside","the system."]},
+ {name:"Caregiver",literal:"a nurse",strategy:["organized around","protecting and","serving others."],ex:["J&J: protect those","who cannot."]}
+];
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,d){tooltip.html('<strong>'+d.name+'</strong><br>Literal: '+d.literal+'<br>Strategy: '+d.strategy.join(' ')).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+ d3.select('#chart').selectAll('*').remove();
+ const container=document.getElementById('chart');
+ const totalWidth=Math.max(container.clientWidth-48,640);
+ const totalHeight=340;
+ const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+ svg.append('title').attr('id','chart-title').text(titleText);
+ svg.append('desc').attr('id','chart-desc').text(descText);
+ svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+ svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text("The literal reading (struck out) misleads; the brand-strategy reading is the commitment.");
+ const gap=18, left=24, top=80;
+ const pw=(totalWidth-left*2-gap*2)/3, ph=232;
+ const g=svg.selectAll('.panel').data(panels).join('g').attr('transform',(d,i)=>'translate('+(left+i*(pw+gap))+','+top+')')
+   .attr('tabindex',0).attr('aria-label',d=>d.name+': not '+d.literal+', but '+d.strategy.join(' '));
+ g.append('rect').attr('width',pw).attr('height',ph).attr('fill','var(--color-fill)').attr('stroke','var(--color-border)');
+ g.append('rect').attr('width',pw).attr('height',30).attr('fill','var(--color-red)').attr('opacity',0).transition().duration(320).attr('opacity',1);
+ g.append('text').attr('class','panel-title').attr('x',pw/2).attr('y',20).attr('text-anchor','middle').text(d=>d.name);
+ g.append('text').attr('class','lbl').attr('x',14).attr('y',56).text('Literal:');
+ g.append('text').attr('class','body').attr('x',14).attr('y',74).text(d=>d.literal);
+ g.append('line').attr('x1',12).attr('x2',d=>12+d.literal.length*6.2).attr('y1',70).attr('y2',70).attr('stroke','var(--color-red)').attr('stroke-width',1.5);
+ g.append('text').attr('class','body').attr('x',14).attr('y',116).attr('font-weight',700).text('Brand strategy:');
+ g.each(function(d){
+  const sel=d3.select(this);
+  d.strategy.forEach((line,i)=>sel.append('text').attr('class','body').attr('x',14).attr('y',136+i*16).text(line));
+  d.ex.forEach((line,i)=>sel.append('text').attr('class','ex').attr('x',14).attr('y',196+i*14).text(line));
+ });
+ g.append('rect').attr('width',pw).attr('height',ph).attr('fill','transparent')
+   .on('mouseover',(event,d)=>showTooltip(event,d)).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!--
+  Three mismatch failure pathways
+  Book: Branding and AI
+  Chapter: 10-brand-voice-and-storytelling
+  Figure: 04
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/10-brand-voice-and-storytelling-cajal.md
+-->
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-10-04">
+  <title id="fig-title-10-04">Three archetype-narrative mismatch pathways</title>
+  <desc>A diagnostic matrix of the three ways a story shape can fail against a brand's archetype, each paired with what goes wrong and the question to ask before publishing.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="10-brand-voice-and-storytelling" figure-number="04"
+      figure-title="Three mismatch failure pathways"
+      figure-slug="three-mismatch-failure-pathways"
+      figure-type="matrix" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/10-brand-voice-and-storytelling-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="380" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three failure pathways for an archetype-narrative mismatch</text>
+
+  <!-- Header -->
+  <rect x="32" y="56" width="170" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="202" y="56" width="240" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="442" y="56" width="226" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="40" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Pathway</text>
+  <text x="210" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">What goes wrong</text>
+  <text x="450" y="77" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Diagnostic question</text>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <!-- Row 1 -->
+    <rect x="32" y="90" width="170" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="202" y="90" width="240" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="442" y="90" width="226" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="116" font-weight="700">1 — Emotional register</text>
+    <text x="40" y="134" fill="#545454">the archetype cannot</text>
+    <text x="40" y="148" fill="#545454">deliver authentically</text>
+    <text x="210" y="116">Shape needs stakes,</text>
+    <text x="210" y="132">conflict, or shadow the</text>
+    <text x="210" y="148">brand's language is not</text>
+    <text x="210" y="164">built to hold.</text>
+    <text x="450" y="116">Can my archetype hold</text>
+    <text x="450" y="132">the emotions this shape</text>
+    <text x="450" y="148">demands without</text>
+    <text x="450" y="164">performing them?</text>
+
+    <!-- Row 2 -->
+    <rect x="32" y="178" width="170" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="202" y="178" width="240" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="442" y="178" width="226" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="204" font-weight="700">2 — Inconsistent role</text>
+    <text x="40" y="222" fill="#545454">story casts the brand</text>
+    <text x="40" y="236" fill="#545454">against its archetype</text>
+    <text x="210" y="204">The brand's position —</text>
+    <text x="210" y="220">hero, guide, transformer —</text>
+    <text x="210" y="236">contradicts a foundational</text>
+    <text x="210" y="252">commitment.</text>
+    <text x="450" y="204">Does the role this story</text>
+    <text x="450" y="220">assigns the brand match</text>
+    <text x="450" y="236">what the archetype</text>
+    <text x="450" y="252">already promises?</text>
+
+    <!-- Row 3 -->
+    <rect x="32" y="266" width="170" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="202" y="266" width="240" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="442" y="266" width="226" height="88" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="292" font-weight="700">3 — Borrowed content</text>
+    <text x="40" y="310" fill="#545454">cultural material owned</text>
+    <text x="40" y="324" fill="#545454">by another archetype</text>
+    <text x="210" y="292">Subject matter belongs to</text>
+    <text x="210" y="308">an archetype the brand</text>
+    <text x="210" y="324">does not inhabit; reads as</text>
+    <text x="210" y="340">exploitation.</text>
+    <text x="450" y="292">What cultural content does</text>
+    <text x="450" y="308">this use, and which</text>
+    <text x="450" y="324">archetype owns it?</text>
+  </g>
+</svg>

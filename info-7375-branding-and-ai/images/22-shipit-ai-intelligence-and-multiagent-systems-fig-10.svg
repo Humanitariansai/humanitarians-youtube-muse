@@ -1,0 +1,77 @@
+<!--
+  The AI layer inside a deterministic pipeline
+  Book: Branding and AI
+  Chapter: 22-shipit-ai-intelligence-and-multiagent-systems
+  Figure: 10
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md
+-->
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-22-10">
+  <title id="fig-title-22-10">The AI layer inside a deterministic pipeline</title>
+  <desc>A horizontal pipeline: fetch prepares input, the AI step processes it, format normalizes the output, validate checks the schema, write stores the result. A branch off validate routes to an error handler when the schema is invalid — the error is surfaced, not propagated.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="22-shipit-ai-intelligence-and-multiagent-systems"
+      figure-number="10" figure-title="The AI layer inside a deterministic pipeline" figure-slug="ai-layer-deterministic-pipeline"
+      figure-type="process flowchart" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/22-shipit-ai-intelligence-and-multiagent-systems-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="360" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The AI node is embedded, not floating</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Wrap AI in deterministic neighbours; validate output before any downstream use.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#C8102E"/>
+    </marker>
+  </defs>
+
+  <!-- main row of nodes, y ~ 120, h 56 -->
+  <!-- Fetch -->
+  <rect x="32" y="120" width="104" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="84" y="146" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Fetch</text>
+  <text x="84" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">prepare input</text>
+  <line x1="136" y1="148" x2="160" y2="148" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- AI step -->
+  <rect x="162" y="120" width="104" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <text x="214" y="146" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">AI step</text>
+  <text x="214" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">process / judge</text>
+  <line x1="266" y1="148" x2="290" y2="148" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Format -->
+  <rect x="292" y="120" width="104" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="344" y="146" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Format</text>
+  <text x="344" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">normalize output</text>
+  <line x1="396" y1="148" x2="420" y2="148" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Validate -->
+  <rect x="422" y="120" width="104" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="474" y="146" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Validate</text>
+  <text x="474" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">schema check</text>
+  <line x1="526" y1="148" x2="550" y2="148" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="538" y="136" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">valid</text>
+
+  <!-- Write -->
+  <rect x="552" y="120" width="104" height="56" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="604" y="146" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Write</text>
+  <text x="604" y="162" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">store result</text>
+
+  <!-- RED error-handler branch off Validate going down -->
+  <line x1="474" y1="176" x2="474" y2="244" stroke="#C8102E" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  <text x="482" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#C8102E">invalid schema</text>
+  <rect x="402" y="246" width="144" height="50" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="474" y="270" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Error handler</text>
+  <text x="474" y="286" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" fill="#545454">surfaced, not propagated</text>
+
+  <!-- annotation band -->
+  <text x="32" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Deterministic neighbours surround the AI node &#8212; the AI never floats in isolation.</text>
+
+  <!-- bottom note -->
+  <text x="32" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">Minimum viable discipline for production AI pipelines, regardless of which pattern you chose: validate before downstream use,</text>
+  <text x="32" y="342" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">and route invalid output to an error handler rather than to the next processing step.</text>
+</svg>

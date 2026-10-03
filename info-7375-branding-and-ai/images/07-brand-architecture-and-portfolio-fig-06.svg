@@ -1,0 +1,48 @@
+<!--
+  Portfolio value vs. number of brands
+  Book: Branding and AI
+  Chapter: 07-brand-architecture-and-portfolio
+  Figure: 06
+  Type: bar/quant chart (schematic curve)
+  Generated: 2026-06-18
+  Source: pantry/07-brand-architecture-and-portfolio-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-07-06">
+  <title id="fig-title-07-06">Portfolio value vs. number of brands</title>
+  <desc>Schematic inverted-U curve. Total portfolio value rises with early brand additions, peaks at a concentration optimum, then declines as portfolio bloat splits attention and budget and dilutes equity.</desc>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">More brands usually means less value: the portfolio concentration curve</text>
+
+  <!-- plot region -->
+  <rect x="80" y="64" width="540" height="300" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- axes -->
+  <line x1="80" y1="364" x2="620" y2="364" stroke="#121212" stroke-width="1"/>
+  <line x1="80" y1="64" x2="80" y2="364" stroke="#121212" stroke-width="1"/>
+
+  <!-- the curve: rise to peak then decline -->
+  <path d="M 80 350 Q 200 80 300 110 Q 420 150 620 320" fill="none" stroke="#121212" stroke-width="2"/>
+
+  <!-- peak marker -->
+  <line x1="300" y1="110" x2="300" y2="364" stroke="#ADADAD" stroke-width="0.75" stroke-dasharray="4 3"/>
+  <circle cx="300" cy="110" r="4" fill="#121212"/>
+  <text x="300" y="100" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">concentration optimum</text>
+
+  <!-- bloat tail annotation -->
+  <text x="500" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">bloat zone:</text>
+  <text x="500" y="296" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">free-riding, equity</text>
+  <text x="500" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">depreciating</text>
+
+  <!-- early gains annotation -->
+  <text x="150" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">early adds:</text>
+  <text x="150" y="336" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="middle">coverage, targeting</text>
+
+  <!-- axis titles -->
+  <text x="350" y="396" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" text-anchor="middle">Number of brands in portfolio</text>
+  <text x="100" y="375" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">few</text>
+  <text x="600" y="375" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454" text-anchor="end">many</text>
+  <text x="40" y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212" transform="rotate(-90 40 214)" text-anchor="middle">Total portfolio value</text>
+
+  <text x="32" y="424" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Directional: Unilever's Brand Imprint cut roughly 1,600 brands to 400 — and revenue per brand rose.</text>
+  <text x="32" y="440" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The most significant moves are subtractions.</text>
+</svg>

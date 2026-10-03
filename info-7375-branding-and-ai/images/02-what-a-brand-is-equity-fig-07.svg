@@ -1,0 +1,48 @@
+<!--
+  The equity audit: machine gathers, human judges
+  Book: Branding and AI
+  Chapter: 02-what-a-brand-is-equity
+  Figure: 07
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/02-what-a-brand-is-equity-cajal.md
+-->
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02-07">
+  <title id="fig-title-02-07">The equity audit: machine gathers, human judges</title>
+  <desc>A two-layer audit: AI gathers the signal, then a human gate grades it against the Keller and Aaker models — sentiment is not equity.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="360" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Machine gathers, human judges — the pattern that repeats</text>
+
+  <!-- Layer 1 AI -->
+  <rect x="40" y="100" width="220" height="120" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="150" y="128" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212" text-anchor="middle">AI: gather the signal</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">
+    <text x="56" y="154">— associations and themes</text>
+    <text x="56" y="176">— sentiment read</text>
+    <text x="56" y="198">— competitor contrast</text>
+  </g>
+
+  <!-- human gate (RED focal) -->
+  <rect x="320" y="100" width="80" height="120" fill="#C8102E"/>
+  <text x="360" y="150" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">human</text>
+  <text x="360" y="168" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">gate</text>
+  <text x="360" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">+1</text>
+
+  <!-- Layer 2 human judgment -->
+  <rect x="460" y="100" width="220" height="120" fill="#FFFFFF" stroke="#121212" stroke-width="1.25"/>
+  <text x="570" y="128" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212" text-anchor="middle">Grade against the models</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">
+    <text x="476" y="154">— which Keller level?</text>
+    <text x="476" y="176">— weakest Aaker lever?</text>
+    <text x="476" y="198">— identity–image gap?</text>
+  </g>
+
+  <line x1="260" y1="160" x2="318" y2="160" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <line x1="402" y1="160" x2="458" y2="160" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <text x="40" y="280" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Sentiment is not equity. Positive sentiment at the salience level can coexist with no resonance —</text>
+  <text x="40" y="298" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">and deep loyalty can coexist with negative press. Grading requires a human who understands the models.</text>
+</svg>

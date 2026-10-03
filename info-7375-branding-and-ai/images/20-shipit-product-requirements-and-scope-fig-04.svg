@@ -1,0 +1,64 @@
+<!--
+  MVP boundary — the in/out ledger
+  Book: Branding and AI
+  Chapter: 20-shipit-product-requirements-and-scope
+  Figure: 04
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/20-shipit-product-requirements-and-scope-cajal.md
+-->
+<svg viewBox="0 0 700 516" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-20-04">
+  <title id="fig-title-20-04">MVP boundary — the in/out ledger</title>
+  <desc>A two-column ledger: five in-scope items versus eight named exclusions, with the $100,000 no pinned at the head of the out column.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="20-shipit-product-requirements-and-scope"
+      figure-number="04" figure-title="MVP boundary — the in/out ledger"
+      figure-slug="mvp-boundary-in-out-ledger" figure-type="comparison panels"
+      priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/20-shipit-product-requirements-and-scope-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="500" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The MVP boundary — and the $100,000 no at its head</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Every PRD has an "in" list. The "out" list is what takes discipline —</text>
+  <text x="32" y="76" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">each item is a thing someone wanted.</text>
+
+  <!-- IN column header -->
+  <rect x="32" y="80" width="306" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">IN SCOPE — v1</text>
+  <!-- IN body -->
+  <rect x="32" y="114" width="306" height="338" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="48" y="146" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Up to 10 RSS feeds (YAML config)</text>
+  <text x="48" y="178" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— MD5 title deduplication</text>
+  <text x="48" y="210" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Sentiment scoring + 1-line summary</text>
+  <text x="48" y="242" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Daily write to one Google Sheet</text>
+  <text x="48" y="274" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Email notice when the sheet updates</text>
+  <text x="48" y="430" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">5 items — the smallest thing that tests the bet.</text>
+
+  <!-- OUT column header -->
+  <rect x="362" y="80" width="306" height="34" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="378" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">OUT OF SCOPE — v1</text>
+  <!-- OUT body -->
+  <rect x="362" y="114" width="306" height="338" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- $100k no row — RED, the focal point -->
+  <rect x="370" y="122" width="290" height="56" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="382" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#C8102E">Multi-user accounts / team sharing</text>
+  <text x="382" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the $100,000 no — changes the</text>
+  <text x="382" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">product's point of view</text>
+
+  <text x="378" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Social media monitoring</text>
+  <text x="378" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Custom dashboards / visualizations</text>
+  <text x="378" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Slack or Teams integration</text>
+  <text x="378" y="296" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Mobile app / browser extension</text>
+  <text x="378" y="328" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Real-time / on-demand triggering</text>
+  <text x="378" y="360" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Third-party API access</text>
+  <text x="378" y="392" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">— Trend analysis beyond 30 days</text>
+  <text x="378" y="430" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">8 doors that will not be opened in v1.</text>
+
+  <!-- Footer band -->
+  <rect x="32" y="464" width="636" height="24" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="350" y="481" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">The out list is longer than the in list. The refusal is the act of design.</text>
+
+  <text x="32" y="508" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 20, A WORKED EXAMPLE</text>
+</svg>

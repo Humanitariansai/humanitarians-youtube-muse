@@ -1,0 +1,66 @@
+<!--
+  Picking your archetype — three tests
+  Book: Branding and AI
+  Chapter: 05-brand-archetypes-as-a-system
+  Figure: 09
+  Type: checklist panels
+  Generated: 2026-06-18
+  Source: pantry/05-brand-archetypes-as-a-system-cajal.md
+-->
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05-09">
+  <title id="fig-title-05-09">Picking your archetype — three tests</title>
+  <desc>Three gates a candidate archetype must clear: authenticity, differentiation, stress. Each with its pass question and what failure looks like.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="05-brand-archetypes-as-a-system"
+      figure-number="09" figure-title="Picking your archetype three tests" figure-slug="picking-archetype-three-tests"
+      figure-type="checklist panels" priority="Important" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/05-brand-archetypes-as-a-system-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="360" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three tests a committed archetype must pass</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">You are choosing a set of constraints you can maintain for years under pressure.</text>
+
+  <!-- Panel 1 Authenticity -->
+  <rect x="32" y="86" width="200" height="210" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="32" y="86" width="200" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Authenticity</text>
+  <text x="44" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">PASS QUESTION</text>
+  <text x="44" y="168" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Does it match how you</text>
+  <text x="44" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">behave when you are</text>
+  <text x="44" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">not performing?</text>
+  <text x="44" y="234" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">FAILURE LOOKS LIKE</text>
+  <text x="44" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">A forced archetype,</text>
+  <text x="44" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">exhausting to hold;</text>
+  <text x="44" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">customers feel strain.</text>
+
+  <!-- Panel 2 Differentiation -->
+  <rect x="250" y="86" width="200" height="210" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="250" y="86" width="200" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="262" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Differentiation</text>
+  <text x="262" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">PASS QUESTION</text>
+  <text x="262" y="168" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Does it stand apart</text>
+  <text x="262" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">from competitors in</text>
+  <text x="262" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">your market?</text>
+  <text x="262" y="234" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">FAILURE LOOKS LIKE</text>
+  <text x="262" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Another Sage in a</text>
+  <text x="262" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Sage-crowded field —</text>
+  <text x="262" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">competing on execution.</text>
+
+  <!-- Panel 3 Stress -->
+  <rect x="468" y="86" width="200" height="210" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="468" y="86" width="200" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="480" y="110" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Stress (×10)</text>
+  <text x="480" y="148" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">PASS QUESTION</text>
+  <text x="480" y="168" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Does it still fit at</text>
+  <text x="480" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">10× scale, against a</text>
+  <text x="480" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">funded copycat?</text>
+  <text x="480" y="234" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">FAILURE LOOKS LIKE</text>
+  <text x="480" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">The archetype breaks</text>
+  <text x="480" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">at scale or stops</text>
+  <text x="480" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">differentiating you.</text>
+
+  <text x="350" y="324" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">The archetype that survives all three is the one to commit to.</text>
+
+  <text x="32" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 5, PICKING YOUR ARCHETYPE</text>
+</svg>

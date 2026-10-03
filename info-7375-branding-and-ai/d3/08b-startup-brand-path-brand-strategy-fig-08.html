@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The one-page brand strategy document — blank template</title>
+<style>
+:root { --color-white:#FFFFFF; --color-fill:#F5F5F5; --color-ink:#2a1a0e; --color-red:#C8102E; --color-secondary:#545454; --color-border:#D4D4D4; --color-ochre:#C8860E; }
+@media (prefers-color-scheme: dark) { :root { --color-white:#111111; --color-fill:#1B1713; --color-ink:#F0EBE3; --color-red:#E8243A; --color-secondary:#A0978C; --color-border:#2E2E2E; --color-ochre:#D49A30; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--color-white); color:var(--color-ink); font-family:'EB Garamond', Georgia, serif; } #chart { min-height:100vh; padding:24px; } .tooltip { position:absolute; pointer-events:none; opacity:0; background:var(--color-ink); color:var(--color-white); border:1px solid var(--color-border); padding:8px 10px; font-size:13px; max-width:260px; } .title { font-size:17px; font-weight:700; fill:var(--color-ink); } .subtitle { font-size:11px; fill:var(--color-secondary); } .sec-title { font-size:11px; font-weight:700; } .sec-limit { font-size:9.5px; fill:var(--color-secondary); } @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+</head>
+<body>
+<div id="chart" role="main"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const sections=[
+ {t:"Mission",limit:["1 sentence — testable, theory-","driven, tech-agnostic"],col:0,h:44},
+ {t:"Vision",limit:["1–2 sentences — the changed","world, not your position"],col:1,h:44},
+ {t:"Values",limit:["3–5 bullets — each implies","2 traceable decisions"],col:0,h:56},
+ {t:"UVP",limit:["1 sentence — specific,","falsifiable, scoped to audience"],col:1,h:56},
+ {t:"Archetype",limit:["named + 2 sentences +","1 sentence on the shadow"],col:0,h:48},
+ {t:"Voice",limit:["3–5 bullets — rhythm,","vocabulary, formats"],col:1,h:48},
+ {t:"Positioning",limit:["1 paragraph — competitive","set + switching trigger"],col:0,h:48},
+ {t:"Negative space",limit:["5+ entries — the most load-bearing","box. Declined thing, archetype","reason, competitor who differed."],col:1,h:100,primary:true}
+];
+const titleText="The one-page brand strategy document — blank template";
+const descText="Eight sections, each with its length limit. Negative space is the largest box; every section competes for the same finite page.";
+const tooltip=d3.select('body').append('div').attr('class','tooltip');
+function showTooltip(event,html){tooltip.html(html).style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px').transition().duration(150).style('opacity',1);}
+function moveTooltip(event){tooltip.style('left',(event.pageX+12)+'px').style('top',(event.pageY-28)+'px');}
+function hideTooltip(){tooltip.transition().duration(100).style('opacity',0);}
+function draw(){
+  d3.select('#chart').selectAll('*').remove();
+  const container=document.getElementById('chart');
+  const totalWidth=Math.max(container.clientWidth-48,640);
+  const totalHeight=500;
+  const padX=24; const colGap=10;
+  const colW=(totalWidth-padX*2-colGap)/2;
+  const x0=padX, x1=padX+colW+colGap;
+  const svg=d3.select('#chart').append('svg').attr('width',totalWidth).attr('height',totalHeight).attr('role','img').attr('aria-labelledby','chart-title chart-desc');
+  svg.append('title').attr('id','chart-title').text(titleText);
+  svg.append('desc').attr('id','chart-desc').text(descText);
+  svg.append('text').attr('class','title').attr('x',24).attr('y',32).text(titleText);
+  svg.append('text').attr('class','subtitle').attr('x',24).attr('y',54).text(descText);
+  // name/tagline
+  svg.append('rect').attr('x',x0).attr('y',68).attr('width',totalWidth-padX*2).attr('height',40).attr('fill','var(--color-fill)').attr('stroke','var(--color-red)').attr('stroke-width',1.5);
+  svg.append('text').attr('x',x0+12).attr('y',85).attr('class','sec-title').attr('fill','var(--color-red)').text('Name + tagline');
+  svg.append('text').attr('x',x0+12).attr('y',101).attr('class','sec-limit').text('Name chosen, trademark + domain status noted · tagline: 1 sentence, archetype-aligned');
+  // sections in two columns
+  let yL=116, yR=116;
+  sections.forEach((s,i)=>{
+    const x=s.col===0?x0:x1;
+    let y=s.col===0?yL:yR;
+    const stroke=s.primary?'var(--color-red)':'var(--color-ink)';
+    const sw=s.primary?1.5:1; const fill=s.primary?'var(--color-fill)':'var(--color-white)';
+    const g=svg.append('g').attr('opacity',0);
+    g.append('rect').attr('x',x).attr('y',y).attr('width',colW).attr('height',s.h).attr('fill',fill).attr('stroke',stroke).attr('stroke-width',sw).attr('tabindex',0).attr('aria-label',s.t+': '+s.limit.join(' '))
+      .on('mouseover',(e)=>showTooltip(e,'<strong>'+s.t+'</strong><br>'+s.limit.join(' '))).on('mousemove',moveTooltip).on('mouseout',hideTooltip);
+    g.append('text').attr('x',x+12).attr('y',y+18).attr('class','sec-title').attr('fill',s.primary?'var(--color-red)':'var(--color-ink)').text(s.t);
+    s.limit.forEach((ln,j)=>g.append('text').attr('x',x+12).attr('y',y+34+j*13).attr('class','sec-limit').text(ln));
+    g.transition().delay(i*90).duration(320).attr('opacity',1);
+    if(s.col===0) yL=y+s.h+8; else yR=y+s.h+8;
+  });
+}
+draw();
+const ro=new ResizeObserver(()=>draw()); ro.observe(document.getElementById('chart'));
+</script>
+</body>
+</html>

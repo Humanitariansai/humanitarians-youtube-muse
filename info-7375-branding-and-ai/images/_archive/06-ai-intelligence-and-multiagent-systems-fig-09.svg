@@ -1,0 +1,45 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-6-9 desc-6-9">
+<title id="title-6-9">Role, goal, and backstory each narrow the LLM's behavior space</title>
+<desc id="desc-6-9">A funnel wide at the top labeled "LLM's full behavior space," narrowing through three bands — Role activates domain associations from training data, Goal encodes the task and constraints, Backstory resolves ambiguous edge cases — to a narrow bottom labeled "agent's actual operating range." Beside it, a before/after example contrasts a vague spec ("Write content") with a specific role plus goal plus backstory, showing the behavioral difference.</desc>
+<rect width="700" height="420" fill="#FFFFFF"/>
+<text x="48" y="44" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#2a1a0e">Each component does successive narrowing work</text>
+<text x="48" y="64" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="11" fill="#545454">Role, goal, and backstory are not interchangeable labels &#8212; each constrains the agent further.</text>
+
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif" text-anchor="middle">
+<!-- funnel bands (trapezoids) on left -->
+<g text-anchor="middle">
+<text x="190" y="96" font-size="11" fill="#545454">LLM's full behavior space</text>
+<polygon points="60,104 320,104 286,154 94,154" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<polygon points="94,154 286,154 252,204 128,204" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="190" y="174" font-size="12" fill="#2a1a0e" font-weight="bold">Role</text>
+<text x="190" y="190" font-size="9" fill="#545454">activates associations</text>
+<polygon points="128,204 252,204 218,254 162,254" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="190" y="224" font-size="12" fill="#2a1a0e" font-weight="bold">Goal</text>
+<text x="190" y="240" font-size="9" fill="#545454">task + constraints</text>
+<polygon points="162,254 218,254 198,304 182,304" fill="#C8102E" stroke="#D4D4D4" stroke-width="1"/>
+<text x="190" y="282" font-size="11" fill="#FFFFFF" font-weight="bold">Backstory</text>
+<text x="190" y="324" font-size="9" fill="#545454">resolves edge cases</text>
+<text x="190" y="342" font-size="10" fill="#C8102E" font-weight="bold">agent's operating range</text>
+</g>
+</g>
+
+<!-- before/after example on right -->
+<g font-family="'EB Garamond', Georgia, 'Times New Roman', serif">
+<rect x="392" y="104" width="260" height="92" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+<text x="404" y="124" font-size="11" font-weight="bold" fill="#2a1a0e">Vague spec</text>
+<text x="404" y="146" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" fill="#545454">role: "Write content"</text>
+<text x="404" y="172" font-size="10" fill="#2a1a0e">Wanders. Calls unintended tools.</text>
+<text x="404" y="186" font-size="10" fill="#2a1a0e">Output satisfies prompt, fails need.</text>
+
+<rect x="392" y="212" width="260" height="124" fill="#F5F5F5" stroke="#C8102E" stroke-width="1.5"/>
+<text x="404" y="232" font-size="11" font-weight="bold" fill="#C8102E">Specific spec</text>
+<text x="404" y="252" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">role: Competitive Intel. Analyst</text>
+<text x="404" y="266" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">goal: structured JSON, cite or null</text>
+<text x="404" y="280" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="9" fill="#545454">backstory: evidence over guessing</text>
+<text x="404" y="306" font-size="10" fill="#2a1a0e">Sources claims. Notes uncertainty.</text>
+<text x="404" y="320" font-size="10" fill="#2a1a0e">Consistent, debuggable behavior.</text>
+</g>
+
+<line x1="48" y1="392" x2="652" y2="392" stroke="#D4D4D4" stroke-width="1"/>
+<text x="48" y="410" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="10" letter-spacing="0.08em" fill="#545454">FIGURE 6.9</text>
+</svg>

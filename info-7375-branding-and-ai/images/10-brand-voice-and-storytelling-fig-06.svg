@@ -1,0 +1,83 @@
+<!--
+  Cross-case mismatch comparison
+  Book: Branding and AI
+  Chapter: 10-brand-voice-and-storytelling
+  Figure: 06
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/10-brand-voice-and-storytelling-cajal.md
+-->
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-10-06">
+  <title id="fig-title-10-06">Cross-case mismatch comparison</title>
+  <desc>Three real cases — Pepsi, Bud Light, Jaguar — across actual archetype, story shape attempted, failure pathways activated, and the outcome, sharing one structural failure.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="10-brand-voice-and-storytelling" figure-number="06"
+      figure-title="Cross-case mismatch comparison"
+      figure-slug="cross-case-mismatch-comparison"
+      figure-type="matrix" priority="Important"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/10-brand-voice-and-storytelling-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="320" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three cases, one structural failure</text>
+
+  <!-- Header -->
+  <rect x="32" y="56" width="110" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="142" y="56" width="120" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="262" y="56" width="160" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="422" y="56" width="90" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="512" y="56" width="156" height="34" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">
+    <text x="40" y="77">Brand</text>
+    <text x="150" y="77">Archetype</text>
+    <text x="270" y="77">Shape attempted</text>
+    <text x="430" y="77">Pathways</text>
+    <text x="520" y="77">Outcome</text>
+  </g>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <!-- Row 1 Pepsi -->
+    <rect x="32" y="90" width="110" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="90" width="120" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="262" y="90" width="160" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="422" y="90" width="90" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="512" y="90" width="156" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="127" font-weight="700">Pepsi</text>
+    <text x="150" y="127">Innocent</text>
+    <text x="270" y="127">Hero's Journey</text>
+    <text x="430" y="127">1 + 2 + 3</text>
+    <text x="520" y="121">pulled within</text>
+    <text x="520" y="135">24 hours</text>
+
+    <!-- Row 2 Bud Light -->
+    <rect x="32" y="156" width="110" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="156" width="120" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="262" y="156" width="160" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="422" y="156" width="90" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="512" y="156" width="156" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="193" font-weight="700">Bud Light</text>
+    <text x="150" y="193">Everyman</text>
+    <text x="270" y="193">Transformation</text>
+    <text x="430" y="193">2</text>
+    <text x="520" y="187">lost #1 beer</text>
+    <text x="520" y="201">position (US)</text>
+
+    <!-- Row 3 Jaguar -->
+    <rect x="32" y="222" width="110" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="142" y="222" width="120" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="262" y="222" width="160" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="422" y="222" width="90" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="512" y="222" width="156" height="66" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="40" y="259" font-weight="700">Jaguar</text>
+    <text x="150" y="259">Ruler</text>
+    <text x="270" y="253">Magician /</text>
+    <text x="270" y="267">Outlaw</text>
+    <text x="430" y="259">2</text>
+    <text x="520" y="253">no cars to</text>
+    <text x="520" y="267">deliver act 2</text>
+  </g>
+
+  <text x="32" y="308" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Different industries, different pathways — the same root failure: shape did not match archetype.</text>
+</svg>

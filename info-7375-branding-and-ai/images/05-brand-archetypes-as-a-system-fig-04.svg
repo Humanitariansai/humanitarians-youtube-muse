@@ -1,0 +1,89 @@
+<!--
+  The archetype as forcing function
+  Book: Branding and AI
+  Chapter: 05-brand-archetypes-as-a-system
+  Figure: 04
+  Type: decision tree
+  Generated: 2026-06-18
+  Source: pantry/05-brand-archetypes-as-a-system-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-05-04">
+  <title id="fig-title-05-04">The archetype as forcing function</title>
+  <desc>One brand decision — what tone the error message should use — resolved differently across five archetypes: Sage, Jester, Hero, Caregiver, Ruler. A committed archetype makes the choice decidable.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="05-brand-archetypes-as-a-system"
+      figure-number="04" figure-title="The archetype as forcing function" figure-slug="archetype-forcing-function"
+      figure-type="decision tree" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/05-brand-archetypes-as-a-system-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <defs><marker id="arrow0504" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker></defs>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">One decision, five archetypes, five decidable answers</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The archetype is the constraint that makes brand assets cohere — not an asset itself.</text>
+
+  <!-- root question -->
+  <rect x="230" y="84" width="240" height="48" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="106" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">What tone should the</text>
+  <text x="350" y="122" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">error message use?</text>
+
+  <!-- connector -->
+  <line x1="350" y1="132" x2="350" y2="160" stroke="#D4D4D4" stroke-width="1"/>
+  <line x1="100" y1="160" x2="600" y2="160" stroke="#D4D4D4" stroke-width="1"/>
+
+  <!-- five leaves at x=100,225,350,475,600 width 110 -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif">
+    <!-- Sage -->
+    <line x1="100" y1="160" x2="100" y2="184" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="44" y="184" width="112" height="150" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="100" y="208" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Sage</text>
+    <text x="100" y="234" text-anchor="middle" font-size="11" fill="#121212">Plain language:</text>
+    <text x="100" y="250" text-anchor="middle" font-size="11" fill="#121212">what went</text>
+    <text x="100" y="266" text-anchor="middle" font-size="11" fill="#121212">wrong, what to</text>
+    <text x="100" y="282" text-anchor="middle" font-size="11" fill="#121212">do next. No</text>
+    <text x="100" y="298" text-anchor="middle" font-size="11" fill="#121212">apology.</text>
+
+    <!-- Jester -->
+    <line x1="225" y1="160" x2="225" y2="184" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="169" y="184" width="112" height="150" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="225" y="208" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Jester</text>
+    <text x="225" y="234" text-anchor="middle" font-size="11" fill="#121212">A light, self-</text>
+    <text x="225" y="250" text-anchor="middle" font-size="11" fill="#121212">deprecating</text>
+    <text x="225" y="266" text-anchor="middle" font-size="11" fill="#121212">quip that keeps</text>
+    <text x="225" y="282" text-anchor="middle" font-size="11" fill="#121212">it enjoyable.</text>
+
+    <!-- Hero -->
+    <line x1="350" y1="160" x2="350" y2="184" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="294" y="184" width="112" height="150" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="350" y="208" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Hero</text>
+    <text x="350" y="234" text-anchor="middle" font-size="11" fill="#121212">A challenge:</text>
+    <text x="350" y="250" text-anchor="middle" font-size="11" fill="#121212">we will fix</text>
+    <text x="350" y="266" text-anchor="middle" font-size="11" fill="#121212">this, and</text>
+    <text x="350" y="282" text-anchor="middle" font-size="11" fill="#121212">here is how.</text>
+
+    <!-- Caregiver -->
+    <line x1="475" y1="160" x2="475" y2="184" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="419" y="184" width="112" height="150" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="475" y="208" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Caregiver</text>
+    <text x="475" y="234" text-anchor="middle" font-size="11" fill="#121212">Reassuring:</text>
+    <text x="475" y="250" text-anchor="middle" font-size="11" fill="#121212">nothing is</text>
+    <text x="475" y="266" text-anchor="middle" font-size="11" fill="#121212">lost, we have</text>
+    <text x="475" y="282" text-anchor="middle" font-size="11" fill="#121212">you covered.</text>
+
+    <!-- Ruler -->
+    <line x1="600" y1="160" x2="600" y2="184" stroke="#D4D4D4" stroke-width="1"/>
+    <rect x="544" y="184" width="112" height="150" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="600" y="208" text-anchor="middle" font-size="12" font-weight="700" fill="#121212">Ruler</text>
+    <text x="600" y="234" text-anchor="middle" font-size="11" fill="#121212">Authoritative:</text>
+    <text x="600" y="250" text-anchor="middle" font-size="11" fill="#121212">a precise code</text>
+    <text x="600" y="266" text-anchor="middle" font-size="11" fill="#121212">and the correct</text>
+    <text x="600" y="282" text-anchor="middle" font-size="11" fill="#121212">procedure.</text>
+  </g>
+
+  <rect x="32" y="360" width="636" height="58" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="350" y="380" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Each choice can be checked against the archetype and passed or rejected.</text>
+  <text x="350" y="398" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Without it, the loudest voice or the cheapest option decides —</text>
+  <text x="350" y="412" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">and the brand looks designed by a committee that never met.</text>
+
+  <text x="32" y="452" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 5, WHY AN ARCHETYPE IS A FORCING FUNCTION</text>
+</svg>

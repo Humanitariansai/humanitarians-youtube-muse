@@ -1,0 +1,73 @@
+[WARNING] Could not fetch resource '../images/joan-robinson.jpg': PandocResourceNotFound "../images/joan-robinson.jpg"
+[WARNING] Could not fetch resource '../images/herbert-simon.jpg': PandocResourceNotFound "../images/herbert-simon.jpg"
+[WARNING] Could not determine image size for 'cover.jpg': could not determine image type
+[WARNING] Could not fetch resource '../images/joan-robinson.jpg': replacing image with description
+[WARNING] Could not fetch resource '../images/herbert-simon.jpg': replacing image with description
+
+kpathsea: Running mktextfm Georgia
+/usr/share/texlive/texmf-dist/web2c/mktexnam: Could not map source abbreviation G for Georgia.
+/usr/share/texlive/texmf-dist/web2c/mktexnam: Need to update /usr/share/texlive/texmf-dist/fonts/map/fontname/special.map?
+mktextfm: Running mf-nowin -progname=mf \mode:=ljfour; mag:=1; ; nonstopmode; input Georgia
+This is METAFONT, Version 2.71828182 (TeX Live 2022/dev/Debian) (preloaded base=mf)
+
+kpathsea: Running mktexmf Georgia
+
+! I can't find file `Georgia'.
+<*> ...jfour; mag:=1; ; nonstopmode; input Georgia
+                                                  
+Please type another input file name
+! Emergency stop.
+<*> ...jfour; mag:=1; ; nonstopmode; input Georgia
+                                                  
+Transcript written on mfput.log.
+grep: Georgia.log: No such file or directory
+mktextfm: `mf-nowin -progname=mf \mode:=ljfour; mag:=1; ; nonstopmode; input Georgia' failed to make Georgia.tfm.
+kpathsea: Appending font creation commands to missfont.log.
+
+kpathsea: Running mktextfm Georgia
+/usr/share/texlive/texmf-dist/web2c/mktexnam: Could not map source abbreviation G for Georgia.
+/usr/share/texlive/texmf-dist/web2c/mktexnam: Need to update /usr/share/texlive/texmf-dist/fonts/map/fontname/special.map?
+mktextfm: Running mf-nowin -progname=mf \mode:=ljfour; mag:=1; ; nonstopmode; input Georgia
+This is METAFONT, Version 2.71828182 (TeX Live 2022/dev/Debian) (preloaded base=mf)
+
+kpathsea: Running mktexmf Georgia
+
+! I can't find file `Georgia'.
+<*> ...jfour; mag:=1; ; nonstopmode; input Georgia
+                                                  
+Please type another input file name
+! Emergency stop.
+<*> ...jfour; mag:=1; ; nonstopmode; input Georgia
+                                                  
+Transcript written on mfput.log.
+grep: Georgia.log: No such file or directory
+mktextfm: `mf-nowin -progname=mf \mode:=ljfour; mag:=1; ; nonstopmode; input Georgia' failed to make Georgia.tfm.
+kpathsea: Appending font creation commands to missfont.log.
+
+kpathsea: Running mktextfm Georgia
+/usr/share/texlive/texmf-dist/web2c/mktexnam: Could not map source abbreviation G for Georgia.
+/usr/share/texlive/texmf-dist/web2c/mktexnam: Need to update /usr/share/texlive/texmf-dist/fonts/map/fontname/special.map?
+mktextfm: Running mf-nowin -progname=mf \mode:=ljfour; mag:=1; ; nonstopmode; input Georgia
+This is METAFONT, Version 2.71828182 (TeX Live 2022/dev/Debian) (preloaded base=mf)
+
+kpathsea: Running mktexmf Georgia
+
+! I can't find file `Georgia'.
+<*> ...jfour; mag:=1; ; nonstopmode; input Georgia
+                                                  
+Please type another input file name
+! Emergency stop.
+<*> ...jfour; mag:=1; ; nonstopmode; input Georgia
+                                                  
+Transcript written on mfput.log.
+grep: Georgia.log: No such file or directory
+mktextfm: `mf-nowin -progname=mf \mode:=ljfour; mag:=1; ; nonstopmode; input Georgia' failed to make Georgia.tfm.
+kpathsea: Appending font creation commands to missfont.log.
+Error producing PDF.
+! Package fontspec Error: The font "Georgia" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.22 \fi
+

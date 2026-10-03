@@ -1,0 +1,84 @@
+<!--
+  The crisis playbook: four components
+  Book: Branding and AI
+  Chapter: 16-crisis-and-reputation-management
+  Figure: 04
+  Type: hierarchy / structural diagram
+  Generated: 2026-06-18
+  Source: pantry/16-crisis-and-reputation-management-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-16-04">
+  <title id="fig-title-16-04">The crisis playbook: four components</title>
+  <desc>The playbook is written before the crisis, in four components: monitoring and alert thresholds, severity triage, holding statements, and an escalation path. Each lists what it contains, who owns it, and when it is used. The slow decisions are made in advance so the fast moment is execution.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="16-crisis-and-reputation-management" figure-number="04"
+      figure-title="The crisis playbook: four components"
+      figure-slug="crisis-playbook-four-components"
+      figure-type="hierarchy / structural diagram" priority="Important"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/16-crisis-and-reputation-management-cajal.md"/>
+  </metadata>
+  <defs>
+    <marker id="arrow-16-04" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="700" height="460" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The crisis playbook is written before the fire</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Four components. Make the slow decisions in advance so the fast moment is execution, not judgment.</text>
+
+  <!-- pre-crisis → live-moment axis on the left -->
+  <line x1="56" y1="84" x2="56" y2="374" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow-16-04)"/>
+  <text x="44" y="96" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" transform="rotate(-90 44 230)">pre-crisis preparation → live-moment execution</text>
+
+  <!-- column header row -->
+  <rect x="80" y="72" width="588" height="24" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="92"  y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#545454">Playbook component</text>
+  <text x="386" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#545454">Who owns it</text>
+  <text x="532" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#545454">When used</text>
+
+  <!-- column separator lines (full height) -->
+  <line x1="378" y1="72" x2="378" y2="372" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="524" y1="72" x2="524" y2="372" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 1: Monitoring (y=96, h=78) -->
+  <rect x="80" y="96" width="588" height="70" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="92" y="114" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">1 · Monitoring &amp; alert thresholds</text>
+  <text x="92" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">what you watch — brand name, products, key people,</text>
+  <text x="92" y="144" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">category keywords; what level separates noise from</text>
+  <text x="92" y="158" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">a signal worth investigating</text>
+  <text x="386" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">comms / founder</text>
+  <text x="532" y="130" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">continuous</text>
+
+  <!-- Row 2: Severity triage (y=166, h=78) -->
+  <rect x="80" y="166" width="588" height="70" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="92" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">2 · Severity triage</text>
+  <text x="92" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">first question — which SCCT type is this? Victim,</text>
+  <text x="92" y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">accidental, or preventable? The single most important</text>
+  <text x="92" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">judgment; every later decision follows from it</text>
+  <text x="386" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">designated lead</text>
+  <text x="532" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">on alert</text>
+
+  <!-- Row 3: Holding statements (y=236, h=78) -->
+  <rect x="80" y="236" width="588" height="70" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+  <text x="92" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">3 · Holding statements</text>
+  <text x="92" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">brief pre-drafted message per crisis category —</text>
+  <text x="92" y="284" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">acknowledges, commits to nothing unsustainable;</text>
+  <text x="92" y="298" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">buys time for the real response. Content decided in advance</text>
+  <text x="386" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">comms (pre-drafted)</text>
+  <text x="532" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">first hour</text>
+
+  <!-- Row 4: Escalation path (y=306, h=78) -->
+  <rect x="80" y="306" width="588" height="70" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="92" y="324" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">4 · Escalation path</text>
+  <text x="92" y="340" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">who decides, who speaks, who approves;</text>
+  <text x="92" y="354" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">primary + backup; is legal review required</text>
+  <text x="92" y="368" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">before any public statement?</text>
+  <text x="386" y="340" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">named in advance</text>
+  <text x="532" y="340" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">before publishing</text>
+
+  <text x="32" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">For a startup or personal brand the alert threshold sits lower — less buffer equity,</text>
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">a smaller audience, so a smaller absolute signal is a larger proportional threat.</text>
+</svg>

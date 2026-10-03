@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "slug": "ogilvy-xinchen",
+    "title": "An Ogilvy Lens on Marketing Intelligence Brief — Xinchen",
+    "topic": "INFO 7375 · OGILVY LENS",
+    "channel": "claude-liam",
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "palette": "claude",
+    "register": "Teardown",
+    "style": "ogilvy",
+    "source_pitch": "branding-and-ai/info-7375/submissions/Xinchen_MadisonPitch.pdf",
+    "ogilvy_note": "Food for thought — not a grade. Ogilvy is one lens among several, running alongside the course rubric. The maker decides.",
+    "total_estimated_duration_seconds": 190,
+    "build": {
+      "at": "2026-08-01T04:49:13",
+      "cut": "master",
+      "filled": 10,
+      "of": 10,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "INTRO",
+      "role_note": "COLD OPEN — ClaudeComposerAsk.",
+      "narration_text": "Xinchen's Marketing Intelligence Brief pitch. AI-powered marketing intelligence for technology consultants — it aggregates articles from five sources, runs AI analysis, and delivers a client-ready briefing. A working Streamlit prototype is already validated with three consultants. What would David Ogilvy ask about it?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hey Claude,",
+            "topic": "INFO 7375 · OGILVY LENS",
+            "segment": "Marketing Intelligence Brief — Xinchen",
+            "command": "I just watched Xinchen's Marketing Intelligence Brief pitch — AI-powered marketing intelligence for technology consultants. It aggregates 135 articles from 5 sources, runs AI analysis with priority and recommendations, and delivers a client-ready brief. Working Streamlit prototype validated with 3 consultants. What do David Ogilvy's principles say about how this pitch frames the work? Not a score. Just the questions a great ad man would ask.",
+            "runningText": "reading the pitch...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 18.09,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T04:49:13"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "RECONSTRUCT — Slide 1: The Tagline",
+      "role_note": "Show Slide 1, rebuild. The tagline is functional — but Slide 7 has the real headline.",
+      "narration_text": "Slide 1 — the tagline. Marketing Intelligence Brief. Turning marketing information into client-ready insights. That is a job description. Ogilvy would read it and ask: what does the consultant get? Further into the deck — Slide 7 — there is a line that answers it better: competitors find information. We prepare it for client conversations. Nine words. That is the pitch. The question is where it lives.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B01_TheTagline",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 19.61,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim:B01_TheTagline",
+        "at": "2026-08-01T04:49:13"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "LENS 1 — The Consultant in the Room",
+      "role_note": "Show Slide 2 (problem), rebuild. 135 articles is the problem's scale — but who is the consultant?",
+      "narration_text": "Slide 2 — the problem. One workflow run collected one hundred thirty-five marketing articles from five distinct sources. Far more than a consultant can review manually. Ogilvy: always find the person. One hundred thirty-five articles is the scale of the problem. But who is the consultant who walked into the client meeting with the wrong information because they only had time to read ten? Show that person. Name what they missed.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B02_ConsultantInRoom",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 21.4,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim:B02_ConsultantInRoom",
+        "at": "2026-08-01T04:49:13"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "LENS 2 — The Buried Lead: Working Prototype",
+      "role_note": "Show Slide 9 (POC), rebuild. Validated with 3 consultants — that's the most powerful fact, on Slide 9.",
+      "narration_text": "Slide 9 — proof of concept. A working Streamlit prototype, validated with three technology consultants. Real feedback: strong potential for a software-as-a-service offering. Ogilvy: the most powerful word after free is now. This prototype works today. That is the headline. It is on Slide 9. The question worth sitting with: what if three working users opened this pitch — not closed it?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B03_WorkingPrototype",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 20.69,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim:B03_WorkingPrototype",
+        "at": "2026-08-01T04:49:13"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "LENS 3 — Competitors Find. We Prepare.",
+      "role_note": "Show Slide 7 (competition), rebuild. The competitive distinction in nine words earns its place.",
+      "narration_text": "Slide 7 — competition. Feedly, BuzzSumo, Exploding Topics — all find information. Then the headline: competitors find information. We prepare it for client conversations. Nine words and the whole pitch. Ogilvy: specifics in a competitive claim always outperform generalities. This line is specific, it names the category, it names the distinction. The question is whether it stays here, on Slide 7, or whether it leads.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B04_CompetitorsFindWePrepare",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 22.21,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim:B04_CompetitorsFindWePrepare",
+        "at": "2026-08-01T04:49:13"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "LENS 4 — Honest Signals",
+      "role_note": "No slide needed. 'Proposed — not current revenue' is Ogilvy-level honesty. Does the pitch earn it?",
+      "narration_text": "The business model slide has a label that reads: proposed — not current revenue. These figures are illustrative only. That is an unusual signal for a pitch. Ogilvy approved of honest advertising — he believed it built more trust than puffery. But honesty in a pitch also needs a frame. The question is whether this disclaimer reads as intellectual integrity or as hedging the ask. There is a difference, and the audience decides which one they hear.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B05_HonestSignals",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 21.27,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim:B05_HonestSignals",
+        "at": "2026-08-01T04:49:13"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "LENS 5 — The Close: From Prototype to Product",
+      "role_note": "Show Slide 10 (ask), rebuild. Three specific asks — pilot participants, guidance, technical support.",
+      "narration_text": "Slide 10 — the ask. Help us turn a working prototype into a stronger consulting product. Three asks: pilot participants, product guidance, technical and early-stage support. Specific and right-sized. Ogilvy: a close should end on something the audience carries out of the room. The closing banner is: from marketing information to client-ready insight. That is the promise. The question worth sitting with: does the person reading this know they are the pilot participant?",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "manim",
+        "motion": "fade",
+        "manim": {
+          "scene_class": "B06_TheClose",
+          "file": "scenes.py"
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 22.23,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim:B06_TheClose",
+        "at": "2026-08-01T04:49:13"
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "VERDICT ARTIFACT — The Lens Set",
+      "role_note": "Not a verdict: four questions for the next draft.",
+      "narration_text": "Not a verdict — a lens set. Four questions for the next draft. One: competitors find information, we prepare it — why isn't that Slide 1? Two: one hundred thirty-five articles, one run — who is the consultant in the room? Three: working prototype validated with three users — why is that on Slide 9? Four: proposed revenue, not current — is that honest framing or a hedge? These are Ogilvy's questions. The pitch decides which ones matter.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "CARD",
+        "source": "remotion",
+        "motion": "hold",
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Four Ogilvy questions for the next draft",
+            "artifactHeading": "The lens set — not the verdict",
+            "artifactLines": [
+              "'Competitors find information' — why isn't that Slide 1?",
+              "135 articles, 1 run — who is the consultant in the room?",
+              "Working prototype validated — why is that on Slide 9?",
+              "'Proposed revenue' — honest flag or confidence hedge?"
+            ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "actual_duration_s": 21.38,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T04:49:13"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "YOUR TURN",
+      "role_note": "Scaffolded prompt for Xinchen to run on her own next draft.",
+      "narration_text": "Your turn. Take your deck into Claude and try this: here are four Ogilvy questions about my pitch. For each one — which specific slide is most in play, and what is one alternative frame to consider? Not a correction, just another angle. The goal is not to score the pitch. Ogilvy is one lens. The course rubric is another.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "REMOTION",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "YOUR TURN · INFO 7375 · OGILVY LENS",
+            "segment": "Run this on your next draft",
+            "command": "Here are four Ogilvy questions about my pitch. For each one: (1) which slide is most directly in play, and (2) give me one alternative frame to consider — not a correction, just another angle. Goal: not to score the pitch. One more lens.",
+            "runningText": "thinking...",
+            "output": [],
+            "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "actual_duration_s": 16.7,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T04:49:13"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "OUTRO",
+      "role_note": "OUTRO-LOCK — ClaudeTitleOutro.",
+      "narration_text": "An Ogilvy Lens on Marketing Intelligence Brief — Xinchen. I'm Liam, in for Bear.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "estimated_duration_s": 6,
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "remotion",
+        "motion": "fade",
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "An Ogilvy Lens on Marketing Intelligence Brief — Xinchen",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": ""
+          }
+        }
+      },
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "actual_duration_s": 5.44,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "media",
+        "at": "2026-08-01T04:49:13"
+      }
+    }
+  ]
+}

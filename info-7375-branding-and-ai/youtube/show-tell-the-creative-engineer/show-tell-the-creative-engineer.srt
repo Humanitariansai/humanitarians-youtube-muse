@@ -1,0 +1,167 @@
+1
+00:00:00,000 --> 00:00:04,472
+Sawasdee. This is Liam, in for Bear, with a short film for INFO seventy-three
+
+2
+00:00:04,492 --> 00:00:08,965
+seventy-five, Branding and AI. People ask who wins now that AI can code: the
+
+3
+00:00:08,984 --> 00:00:12,815
+designer, or the engineer. The answer is the one who is both.
+
+4
+00:00:12,885 --> 00:00:17,276
+Three terms. Agentic AI: AI that carries out multi-step work for you, like Claude
+
+5
+00:00:17,296 --> 00:00:21,687
+Code building an app. Judgment: deciding what to make, for whom, and whether it's
+
+6
+00:00:21,707 --> 00:00:26,414
+good. And a creative engineer: someone who can both build a thing and decide it's
+
+7
+00:00:26,434 --> 00:00:27,044
+worth building.
+
+8
+00:00:27,114 --> 00:00:31,899
+Start with one experiment. In 2022, researchers from GitHub, Microsoft and MIT asked
+
+9
+00:00:31,919 --> 00:00:36,704
+professional programmers to build the same small web server. The ones working alone
+
+10
+00:00:36,724 --> 00:00:42,249
+took about a hundred and sixty minutes. The ones with GitHub Copilot, an AI coding
+
+11
+00:00:42,269 --> 00:00:44,836
+assistant, took about seventy. Building got cheap.
+
+12
+00:00:44,906 --> 00:00:49,106
+When building is cheap, the expensive part moves. Anyone can make the box now. The
+
+13
+00:00:49,126 --> 00:00:53,888
+hard part is deciding what should go in it, who it's for, and whether it's any good.
+
+14
+00:00:53,908 --> 00:00:56,420
+That's judgment, and no tool decides it for you.
+
+15
+00:00:56,490 --> 00:01:01,261
+So designers need the tools. With Claude Code and agentic AI, a designer can turn a
+
+16
+00:01:01,281 --> 00:01:06,052
+sketch into a working thing in an afternoon. Try it, throw it out, and try again.
+
+17
+00:01:06,072 --> 00:01:09,945
+Producing at that speed used to be the engineer's job. Now it's everyone's.
+
+18
+00:01:10,015 --> 00:01:14,361
+And engineers need design. For routine code, the tools already do in minutes what
+
+19
+00:01:14,381 --> 00:01:19,350
+used to take hours, and they keep improving. A good coder who never decides what to
+
+20
+00:01:19,370 --> 00:01:22,468
+build is competing with the machine, on the machine's ground.
+
+21
+00:01:22,538 --> 00:01:26,880
+Cheap building changes the loop. You can have an idea, build it, try it, and go
+
+22
+00:01:26,900 --> 00:01:31,241
+again, ten times in a day. The tool will happily make every version. It can't tell
+
+23
+00:01:31,261 --> 00:01:33,967
+you which one is worth keeping. That choice is yours.
+
+24
+00:01:34,037 --> 00:01:37,485
+The course names four kinds of work. Ideate: deciding what's worth making. Build:
+
+25
+00:01:37,505 --> 00:01:41,752
+making it. Brand: making sure the people it's for can find it, and know it's for
+
+26
+00:01:41,772 --> 00:01:46,287
+them. Ship: putting it in front of real users. Build is the one that got cheap. The
+
+27
+00:01:46,307 --> 00:01:48,154
+other three are where the value moved.
+
+28
+00:01:48,224 --> 00:01:52,474
+It changes how people get noticed, too. A working app on GitHub used to take weeks,
+
+29
+00:01:52,494 --> 00:01:57,012
+so having one said something about you. Now an AI can help anyone make one in an
+
+30
+00:01:57,032 --> 00:02:01,282
+afternoon, and they all start to look the same. What still sets you apart is what
+
+31
+00:02:01,302 --> 00:02:04,218
+the tools can't supply: what you chose to make, and why.
+
+32
+00:02:04,288 --> 00:02:08,416
+That's the creative engineer: a designer who can build, or an engineer who can
+
+33
+00:02:08,436 --> 00:02:12,564
+design. Either way, what you really bring is your creative sense and your judgment.
+
+34
+00:02:12,584 --> 00:02:15,823
+When building is this cheap, those are worth more, not less.
+
+35
+00:02:15,893 --> 00:02:19,317
+Your turn. Pick something you want to build, and paste this into Claude: Here's
+
+36
+00:02:19,337 --> 00:02:22,762
+something I'm planning to build: one line. Before I build anything, act as a
+
+37
+00:02:22,782 --> 00:02:26,206
+skeptical design lead. Ask me five questions about who it's for, what problem it
+
+38
+00:02:26,226 --> 00:02:30,389
+solves for them, and how I'll know it worked. Then tell me which of my answers are
+
+39
+00:02:30,409 --> 00:02:34,079
+guesses I should test with a real person first. Then check two things yourself. Can
+
+40
+00:02:34,099 --> 00:02:38,262
+you name one real person it's for? And which of your answers did you have to guess?
+
+41
+00:02:38,282 --> 00:02:39,738
+Test that one before you build.
+
+42
+00:02:39,808 --> 00:02:43,767
+The Creative Engineer. At Nik Bear Brown.

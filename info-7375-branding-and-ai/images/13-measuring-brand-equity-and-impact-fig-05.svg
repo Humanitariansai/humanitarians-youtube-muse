@@ -1,0 +1,73 @@
+<!--
+  Vanity vs. value metrics (the Farris test)
+  Book: Branding and AI
+  Chapter: 13-measuring-brand-equity-and-impact
+  Figure: 05
+  Type: comparison panels / classification
+  Generated: 2026-06-18
+  Source: pantry/13-measuring-brand-equity-and-impact-cajal.md
+-->
+<svg viewBox="0 0 700 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-13-05">
+  <title id="fig-title-13-05">Vanity vs. value metrics: the Farris test</title>
+  <desc>Paul Farris's test sorts metrics: if this number changed tomorrow, would you do anything differently? No means vanity. The left panel lists vanity metrics — raw impressions, follower count, raw pageviews, raw video plays — and the right panel lists value metrics — qualified conversion, retention, price premium, referral rate.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="13-measuring-brand-equity-and-impact" figure-number="05"
+      figure-title="Vanity vs. value metrics (the Farris test)"
+      figure-slug="vanity-vs-value-farris-test"
+      figure-type="comparison panels / classification" priority="Important"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/13-measuring-brand-equity-and-impact-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The Farris test: vanity or value?</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">"If this number changed tomorrow, would you do anything differently?"  —  No → vanity.  Yes → value.</text>
+
+  <!-- left panel: vanity -->
+  <rect x="32" y="78" width="306" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Vanity — flatters, informs no decision</text>
+
+  <rect x="48" y="118" width="274" height="50" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="58" y="138" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Raw impressions</text>
+  <text x="58" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">100k who scroll past = zero impact</text>
+
+  <rect x="48" y="176" width="274" height="50" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="58" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Follower count</text>
+  <text x="58" y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">optimizable with tactics, not audience</text>
+
+  <rect x="48" y="234" width="274" height="50" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="58" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Raw pageviews</text>
+  <text x="58" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">traffic without intent or segment</text>
+
+  <rect x="48" y="292" width="274" height="50" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="58" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Raw video plays / downloads</text>
+  <text x="58" y="330" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">no activation = no signal</text>
+
+  <!-- dividing rule -->
+  <line x1="350" y1="78" x2="350" y2="358" stroke="#121212" stroke-width="1"/>
+
+  <!-- right panel: value -->
+  <rect x="362" y="78" width="306" height="280" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="374" y="102" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#121212">Value — connects to a decision or a dollar</text>
+
+  <rect x="378" y="118" width="274" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="388" y="138" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Qualified conversion rate</text>
+  <text x="388" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">conversion among the right segment</text>
+
+  <rect x="378" y="176" width="274" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="388" y="196" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Retention rate</text>
+  <text x="388" y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">did the value bring them back</text>
+
+  <rect x="378" y="234" width="274" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="388" y="254" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Price premium</text>
+  <text x="388" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">the economic outcome of equity</text>
+
+  <rect x="378" y="292" width="274" height="50" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="388" y="312" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Referral rate</text>
+  <text x="388" y="330" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">organic distribution working</text>
+
+  <text x="32" y="384" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The split is not fixed by metric type: impressions against a defined target</text>
+  <text x="32" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">audience can be value; impressions in a budget-justifying deck are vanity.</text>
+  <text x="32" y="416" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The decision being informed matters as much as the metric itself.</text>
+</svg>

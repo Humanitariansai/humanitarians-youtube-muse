@@ -1,0 +1,99 @@
+<!--
+  The keep-global / localize split, element by element
+  Book: Branding and AI
+  Chapter: 17-global-and-cross-cultural-branding
+  Figure: 02
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/17-global-and-cross-cultural-branding-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-17-02">
+  <title id="fig-title-17-02">The keep-global / localize split, element by element</title>
+  <desc>Glocalization is decided per element. Eight brand elements — name, visual identity, tagline, product formulation, channel mix, pricing, imagery, humor — each marked as typically global or typically local, with the deciding question.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="17-global-and-cross-cultural-branding" figure-number="02"
+      figure-title="The keep-global / localize split, element by element"
+      figure-slug="keep-global-localize-split"
+      figure-type="matrix" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/17-global-and-cross-cultural-branding-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The keep-global / localize split, element by element</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The decision is made per element, not once for the whole brand. Each split needs its own rationale.</text>
+
+  <!-- column headers -->
+  <text x="32" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Brand element</text>
+  <text x="200" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Global</text>
+  <text x="278" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Local</text>
+  <text x="356" y="86" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Deciding question</text>
+  <line x1="32" y1="94" x2="668" y2="94" stroke="#121212" stroke-width="1"/>
+
+  <!-- rows: y baselines at 122,158,194,230,266,302,338,374 ; lean dot column at x=210 global / x=288 local -->
+  <!-- helper: filled dot = the lean -->
+  <!-- Row 1 brand name -->
+  <text x="32" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Brand name</text>
+  <circle cx="210" cy="116" r="4" fill="#121212"/>
+  <circle cx="288" cy="116" r="4" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <text x="356" y="120" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Does it carry an unfortunate meaning here?</text>
+  <line x1="32" y1="132" x2="668" y2="132" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 2 visual identity -->
+  <text x="32" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Visual identity</text>
+  <circle cx="210" cy="152" r="4" fill="#121212"/>
+  <circle cx="288" cy="152" r="4" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <text x="356" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Do colors signal what we intend in this market?</text>
+  <line x1="32" y1="168" x2="668" y2="168" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 3 tagline -->
+  <text x="32" y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Tagline</text>
+  <circle cx="210" cy="188" r="4" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <circle cx="288" cy="188" r="4" fill="#121212"/>
+  <text x="356" y="192" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Does the feeling survive, or only the words?</text>
+  <line x1="32" y1="204" x2="668" y2="204" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 4 product formulation -->
+  <text x="32" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Product formulation</text>
+  <circle cx="210" cy="224" r="4" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <circle cx="288" cy="224" r="4" fill="#121212"/>
+  <text x="356" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Do local tastes and regulations demand a change?</text>
+  <line x1="32" y1="240" x2="668" y2="240" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 5 channel mix -->
+  <text x="32" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Channel mix</text>
+  <circle cx="210" cy="260" r="4" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <circle cx="288" cy="260" r="4" fill="#121212"/>
+  <text x="356" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Where does this audience actually spend attention?</text>
+  <line x1="32" y1="276" x2="668" y2="276" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 6 pricing -->
+  <text x="32" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Pricing</text>
+  <circle cx="210" cy="296" r="4" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <circle cx="288" cy="296" r="4" fill="#121212"/>
+  <text x="356" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">What does local purchasing power support?</text>
+  <line x1="32" y1="312" x2="668" y2="312" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 7 imagery -->
+  <text x="32" y="336" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Imagery</text>
+  <circle cx="210" cy="332" r="4" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <circle cx="288" cy="332" r="4" fill="#121212"/>
+  <text x="356" y="336" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Do the people and places read as familiar here?</text>
+  <line x1="32" y1="348" x2="668" y2="348" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- Row 8 humor -->
+  <text x="32" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Humor</text>
+  <circle cx="210" cy="368" r="4" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <circle cx="288" cy="368" r="4" fill="#121212"/>
+  <text x="356" y="372" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Are the shared assumptions the joke needs present?</text>
+  <line x1="32" y1="384" x2="668" y2="384" stroke="#121212" stroke-width="1"/>
+
+  <!-- legend -->
+  <circle cx="40" cy="414" r="4" fill="#121212"/>
+  <text x="52" y="418" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">filled = the element's typical lean</text>
+  <circle cx="280" cy="414" r="4" fill="none" stroke="#ADADAD" stroke-width="1"/>
+  <text x="292" y="418" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">open = the other pole, available where the question says so</text>
+
+  <text x="32" y="452" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The core (name, visual identity) tends to hold; the expression (tagline, imagery, humor) tends to flex.</text>
+</svg>

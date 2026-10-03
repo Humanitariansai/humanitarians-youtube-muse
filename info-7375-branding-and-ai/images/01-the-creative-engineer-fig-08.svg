@@ -1,0 +1,55 @@
+<!--
+  Two GitHub profiles, two archetypes
+  Book: Branding and AI
+  Chapter: 01-the-creative-engineer
+  Figure: 08
+  Type: annotated example
+  Generated: 2026-06-18
+  Source: pantry/01-the-creative-engineer-cajal.md
+-->
+<svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01-08">
+  <title id="fig-title-01-08">Two GitHub profiles, two archetypes</title>
+  <desc>Two engineer profiles read from evidence: Engineer A reads as Rebel, Engineer B reads as Everyman, each with its shadow failure mode.</desc>
+  <rect x="0" y="0" width="720" height="420" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Reading archetype from the evidence already in the work</text>
+
+  <!-- Card A -->
+  <rect x="40" y="60" width="300" height="320" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Engineer A</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <text x="56" y="116">GitHub: 17 repos, 14 unfinished;</text>
+    <text x="56" y="132">3 complete, tight code, clean commits</text>
+    <text x="56" y="156">LinkedIn: "I like solving problems</text>
+    <text x="56" y="172">the right way."</text>
+    <text x="56" y="196">Writing: critiques of bad APIs and</text>
+    <text x="56" y="212">framework antipatterns</text>
+    <text x="56" y="236" fill="#545454">Negative space: no tutorials, no guides</text>
+  </g>
+  <line x1="56" y1="252" x2="324" y2="252" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="56" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Archetype: Rebel</text>
+  <text x="56" y="298" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">competence shown through critique</text>
+  <text x="56" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Shadow</text>
+  <text x="56" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">14 unfinished repos — destruction</text>
+  <text x="56" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">without construction</text>
+
+  <!-- Card B -->
+  <rect x="380" y="60" width="300" height="320" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="396" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Engineer B</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <text x="396" y="116">GitHub: 4 complete repos; 2 with</text>
+    <text x="396" y="132">tutorial-style READMEs</text>
+    <text x="396" y="156">LinkedIn: "making complex systems</text>
+    <text x="396" y="172">accessible to people who use them"</text>
+    <text x="396" y="196">Stack Overflow: 200 answers, meeting</text>
+    <text x="396" y="212">questioners where they are</text>
+    <text x="396" y="236" fill="#545454">Pattern: accessibility framing everywhere</text>
+  </g>
+  <line x1="396" y1="252" x2="664" y2="252" stroke="#D4D4D4" stroke-width="0.75"/>
+  <text x="396" y="278" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Archetype: Everyman</text>
+  <text x="396" y="298" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">belonging, removing barriers</text>
+  <text x="396" y="332" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Shadow</text>
+  <text x="396" y="350" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">universal-approval trap — avoids the</text>
+  <text x="396" y="366" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">sharp choices that alienate some</text>
+
+  <text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">ARCHETYPE IS DESCRIPTIVE BEFORE PRESCRIPTIVE — IDENTIFY THE PATTERN ALREADY LATENT IN THE WORK</text>
+</svg>

@@ -1,0 +1,79 @@
+<!--
+  The claim-proof map
+  Book: Branding and AI
+  Chapter: 15-brand-ethics-purpose-and-sustainability
+  Figure: 02
+  Type: reference table / process
+  Generated: 2026-06-18
+  Source: pantry/15-brand-ethics-purpose-and-sustainability-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-15-02">
+  <title id="fig-title-15-02">The claim-proof map</title>
+  <desc>Every ethics or sustainability claim is paired with evidence in a table: the claim, the evidence required, the evidence actually held, and a status of HAVE, NEED, or CANNOT SUBSTANTIATE. Cannot substantiate is a failure of the claim, not the brand — the fix is to remove the claim, not manufacture evidence.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="15-brand-ethics-purpose-and-sustainability" figure-number="02"
+      figure-title="The claim-proof map"
+      figure-slug="claim-proof-map"
+      figure-type="reference table / process" priority="Critical"
+      author="Nik Bear Brown &amp; Nina Harris" date-generated="2026-06-18"
+      source-file="pantry/15-brand-ethics-purpose-and-sustainability-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="36" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The claim–proof map</text>
+  <text x="32" y="54" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Pair every public claim with its evidence. The status column is the honest reckoning.</text>
+
+  <!-- header -->
+  <rect x="32" y="72" width="636" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42"  y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Claim</text>
+  <text x="232" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Evidence required</text>
+  <text x="420" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Evidence we have</text>
+  <text x="592" y="92" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Status</text>
+
+  <!-- column separators -->
+  <line x1="224" y1="72" x2="224" y2="320" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="412" y1="72" x2="412" y2="320" stroke="#D4D4D4" stroke-width="0.75"/>
+  <line x1="560" y1="72" x2="560" y2="320" stroke="#D4D4D4" stroke-width="0.75"/>
+
+  <!-- row 1: HAVE -->
+  <rect x="32" y="104" width="636" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42"  y="128" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">"We run quarterly</text>
+  <text x="42"  y="142" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">bias audits"</text>
+  <text x="232" y="128" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">published audit:</text>
+  <text x="232" y="142" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">method, test set,</text>
+  <text x="232" y="156" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">results, auditor</text>
+  <text x="420" y="128" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">model card +</text>
+  <text x="420" y="142" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">results at a URL</text>
+  <text x="592" y="135" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">HAVE</text>
+
+  <!-- row 2: NEED -->
+  <rect x="32" y="176" width="636" height="72" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42"  y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">"Certified-organic</text>
+  <text x="42"  y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">cotton supply"</text>
+  <text x="232" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">certificate from a</text>
+  <text x="232" y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">recognized body,</text>
+  <text x="232" y="228" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">audited chain</text>
+  <text x="420" y="200" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">supplier claim,</text>
+  <text x="420" y="214" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">audit pending</text>
+  <text x="592" y="207" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">NEED</text>
+
+  <!-- row 3: CANNOT SUBSTANTIATE — RED focal -->
+  <rect x="32" y="248" width="636" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="42"  y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">"Eco-friendly,</text>
+  <text x="42"  y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#121212">sustainable" (generic)</text>
+  <text x="232" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">recognized</text>
+  <text x="232" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">substantiation /</text>
+  <text x="232" y="300" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">methodology</text>
+  <text x="420" y="272" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">none — a feeling,</text>
+  <text x="420" y="286" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#121212">not a measure</text>
+  <!-- red status chip -->
+  <rect x="566" y="266" width="92" height="38" fill="#C8102E" stroke="#121212" stroke-width="1"/>
+  <text x="612" y="282" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">CANNOT</text>
+  <text x="612" y="296" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">SUBSTANTIATE</text>
+
+  <text x="32" y="346" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">"Cannot substantiate" is a failure of the claim, not the brand.</text>
+  <text x="32" y="362" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">The fix is to remove the claim — not manufacture the evidence.</text>
+  <text x="32" y="378" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">The map serves twice: as a brand-integrity check before publication,</text>
+  <text x="32" y="394" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">and as the compliance documentation a regulator can demand for any environmental claim.</text>
+</svg>

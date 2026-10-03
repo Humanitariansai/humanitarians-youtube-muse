@@ -1,0 +1,73 @@
+<!--
+  The PESO model
+  Book: Branding and AI
+  Chapter: 12-content-media-and-campaigns
+  Figure: 02
+  Type: systems diagram
+  Generated: 2026-06-18
+  Source: pantry/12-content-media-and-campaigns-cajal.md
+-->
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-12-02">
+  <title id="fig-title-12-02">The PESO media model</title>
+  <desc>Four kinds of media — paid, earned, shared, owned — each a different economics, linked by arrows showing each feeds the others. The power is in integration, not in any single quadrant.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="12-content-media-and-campaigns" figure-number="02"
+      figure-title="The PESO model"
+      figure-slug="peso-model"
+      figure-type="systems diagram" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/12-content-media-and-campaigns-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="480" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The PESO model: four kinds of media</text>
+  <text x="32" y="58" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">The power is in integration, not in any single quadrant.</text>
+
+  <defs>
+    <marker id="arrow-12-02" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- Quadrant boxes — P E / S O order to match the PESO acronym -->
+  <!-- Paid top-left -->
+  <rect x="64" y="92" width="250" height="120" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="80" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Paid</text>
+  <text x="80" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">advertising you buy</text>
+  <text x="80" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">search, social, display ads</text>
+  <text x="80" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">controlled · transactional</text>
+
+  <!-- Earned top-right -->
+  <rect x="386" y="92" width="250" height="120" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="402" y="118" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Earned</text>
+  <text x="402" y="140" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">coverage others give you</text>
+  <text x="402" y="162" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">press, reviews, citations</text>
+  <text x="402" y="184" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">credible · uncontrolled</text>
+
+  <!-- Shared bottom-left -->
+  <rect x="64" y="288" width="250" height="120" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="80" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Shared</text>
+  <text x="80" y="336" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">social and community spread</text>
+  <text x="80" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">LinkedIn, X, Reddit, Slack</text>
+  <text x="80" y="380" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">scalable · audience-controlled</text>
+
+  <!-- Owned bottom-right -->
+  <rect x="386" y="288" width="250" height="120" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="402" y="314" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Owned</text>
+  <text x="402" y="336" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">surfaces you control fully</text>
+  <text x="402" y="358" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">site, blog, email, docs</text>
+  <text x="402" y="380" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">durable · slow to build</text>
+
+  <!-- Integration arrows between all four (cross pattern via center) -->
+  <line x1="314" y1="152" x2="384" y2="152" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-02)"/>
+  <line x1="386" y1="168" x2="316" y2="168" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-02)"/>
+  <line x1="189" y1="212" x2="189" y2="286" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-02)"/>
+  <line x1="205" y1="288" x2="205" y2="214" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-02)"/>
+  <line x1="511" y1="212" x2="511" y2="286" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-02)"/>
+  <line x1="527" y1="288" x2="527" y2="214" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-02)"/>
+  <line x1="314" y1="356" x2="384" y2="356" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-02)"/>
+  <line x1="386" y1="340" x2="316" y2="340" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-12-02)"/>
+
+  <text x="350" y="445" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A campaign that uses only one channel leaves three of the four on the table.</text>
+</svg>

@@ -1,0 +1,105 @@
+<!--
+  The Airbnb argument chain
+  Book: Branding and AI
+  Chapter: 19-professional-presence-and-launch
+  Figure: 01
+  Type: process flowchart
+  Generated: 2026-06-18
+  Source: pantry/19-professional-presence-and-launch-cajal.md
+-->
+<svg viewBox="0 0 700 432" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-19-01">
+  <title id="fig-title-19-01">The Airbnb argument chain</title>
+  <desc>The 2009 ten-slide deck worked because every slide leaned on the previous one — one argument, not ten facts. Problem implies solution, solution implies market, market implies model, model implies team, team implies the ask.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai"
+      chapter="19-professional-presence-and-launch" figure-number="01"
+      figure-title="The Airbnb argument chain"
+      figure-slug="airbnb-argument-chain"
+      figure-type="process flowchart" priority="Critical"
+      author="Nik Bear Brown" date-generated="2026-06-18"
+      source-file="pantry/19-professional-presence-and-launch-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="432" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">The Airbnb argument chain</text>
+  <text x="32" y="56" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Each slide leans on the one before it. One continuous argument across ten slides —</text>
+  <text x="32" y="72" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">not ten separate pleas.</text>
+
+  <defs>
+    <marker id="arrow-19-01" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- Row 1: slides 1-5 -->
+  <!-- node template width 110 height 56 -->
+  <rect x="32" y="92" width="110" height="56" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="87" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Problem</text>
+  <text x="87" y="132" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">price + no local tie</text>
+
+  <rect x="172" y="92" width="110" height="56" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="227" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Solution</text>
+  <text x="227" y="132" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">host–traveler match</text>
+
+  <rect x="312" y="92" width="110" height="56" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="367" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Validation</text>
+  <text x="367" y="132" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">SF + Denver beta</text>
+
+  <rect x="452" y="92" width="110" height="56" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="507" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Market size</text>
+  <text x="507" y="132" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">calibrated, not wild</text>
+
+  <rect x="592" y="92" width="76" height="56" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="630" y="116" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Product</text>
+  <text x="630" y="132" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">real prototype</text>
+
+  <line x1="142" y1="120" x2="170" y2="120" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-19-01)"/>
+  <line x1="282" y1="120" x2="310" y2="120" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-19-01)"/>
+  <line x1="422" y1="120" x2="450" y2="120" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-19-01)"/>
+  <line x1="562" y1="120" x2="590" y2="120" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-19-01)"/>
+
+  <!-- "implies" labels row 1 — above the boxes -->
+  <text x="156" y="88" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" font-style="italic" fill="#545454">implies</text>
+  <text x="296" y="88" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" font-style="italic" fill="#545454">implies</text>
+  <text x="436" y="88" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" font-style="italic" fill="#545454">implies</text>
+  <text x="576" y="88" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" font-style="italic" fill="#545454">implies</text>
+
+  <!-- wrap connector down -->
+  <path d="M630 148 L630 178 L87 178 L87 208" fill="none" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-19-01)"/>
+
+  <!-- Row 2: slides 6-10 -->
+  <rect x="32" y="212" width="110" height="56" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="87" y="236" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Business model</text>
+  <text x="87" y="252" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">10% commission</text>
+
+  <rect x="172" y="212" width="110" height="56" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="227" y="236" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Adoption</text>
+  <text x="227" y="252" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">specific channels</text>
+
+  <rect x="312" y="212" width="110" height="56" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="367" y="236" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Competition</text>
+  <text x="367" y="252" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">named honestly</text>
+
+  <rect x="452" y="212" width="110" height="56" fill="#F5F5F5" stroke="#121212" stroke-width="1"/>
+  <text x="507" y="236" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">Team</text>
+  <text x="507" y="252" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">three, named</text>
+
+  <rect x="592" y="212" width="76" height="56" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <text x="630" y="236" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">The ask</text>
+  <text x="630" y="252" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454">spend + need</text>
+
+  <line x1="142" y1="240" x2="170" y2="240" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-19-01)"/>
+  <line x1="282" y1="240" x2="310" y2="240" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-19-01)"/>
+  <line x1="422" y1="240" x2="450" y2="240" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-19-01)"/>
+  <line x1="562" y1="240" x2="590" y2="240" stroke="#121212" stroke-width="1.5" marker-end="url(#arrow-19-01)"/>
+
+  <text x="156" y="208" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" font-style="italic" fill="#545454">implies</text>
+  <text x="296" y="208" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" font-style="italic" fill="#545454">implies</text>
+  <text x="436" y="208" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" font-style="italic" fill="#545454">implies</text>
+  <text x="576" y="208" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="9" font-style="italic" fill="#545454">implies</text>
+
+  <text x="32" y="320" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">No architecture slide. No values slide. No feature roadmap.</text>
+  <text x="32" y="336" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">A ten-slide argument, not a briefing document.</text>
+  <text x="32" y="352" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">It raised $600,000. The audience left with one thing in their heads</text>
+  <text x="32" y="368" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">because there was only one thing to hold.</text>
+</svg>

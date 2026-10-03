@@ -1,0 +1,82 @@
+<!--
+  Personal brand architecture map
+  Book: Branding and AI
+  Chapter: 07-brand-architecture-and-portfolio
+  Figure: 07
+  Type: hierarchy / taxonomy
+  Generated: 2026-06-18
+  Source: pantry/07-brand-architecture-and-portfolio-cajal.md
+-->
+<svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-07-07">
+  <title id="fig-title-07-07">Personal brand architecture map</title>
+  <desc>A master personal brand with four offerings — newsletter, course, consulting, and an open-source library — each tagged with its relationship to the master, the equity it borrows, and the overlap risk. The library is pulled out as endorsed because it reaches a different audience.</desc>
+  <rect x="0" y="0" width="700" height="470" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Mapping a personal portfolio: relationship, equity borrowed, overlap risk</text>
+
+  <defs>
+    <marker id="arrow0707" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- master node -->
+  <rect x="250" y="60" width="200" height="44" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+  <text x="350" y="87" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" fill="#121212" text-anchor="middle">Personal master brand</text>
+
+  <!-- connectors to three branded offerings + one endorsed -->
+  <line x1="350" y1="104" x2="130" y2="150" stroke="#121212" stroke-width="1" fill="none" marker-end="url(#arrow0707)"/>
+  <line x1="350" y1="104" x2="305" y2="150" stroke="#121212" stroke-width="1" fill="none" marker-end="url(#arrow0707)"/>
+  <line x1="350" y1="104" x2="475" y2="150" stroke="#121212" stroke-width="1" fill="none" marker-end="url(#arrow0707)"/>
+  <line x1="350" y1="104" x2="610" y2="150" stroke="#ADADAD" stroke-width="1" stroke-dasharray="4 3" fill="none" marker-end="url(#arrow0707)"/>
+
+  <!-- offering columns -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12">
+    <!-- Newsletter -->
+    <rect x="50" y="152" width="150" height="200" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="62" y="174" fill="#121212" font-weight="700">Newsletter</text>
+    <text x="62" y="200" fill="#545454" font-size="11">Relationship</text>
+    <text x="62" y="216" fill="#121212" font-size="11">branded</text>
+    <text x="62" y="244" fill="#545454" font-size="11">Equity borrowed</text>
+    <text x="62" y="260" fill="#121212" font-size="11">full master pool</text>
+    <text x="62" y="288" fill="#545454" font-size="11">Overlap risk</text>
+    <text x="62" y="304" fill="#121212" font-size="11">low</text>
+
+    <!-- Course -->
+    <rect x="212" y="152" width="150" height="200" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="224" y="174" fill="#121212" font-weight="700">Course</text>
+    <text x="224" y="200" fill="#545454" font-size="11">Relationship</text>
+    <text x="224" y="216" fill="#121212" font-size="11">branded / sub</text>
+    <text x="224" y="244" fill="#545454" font-size="11">Equity borrowed</text>
+    <text x="224" y="260" fill="#121212" font-size="11">full master pool</text>
+    <text x="224" y="288" fill="#545454" font-size="11">Overlap risk</text>
+    <text x="224" y="304" fill="#C8102E" font-size="11">high — same audience</text>
+    <text x="224" y="320" fill="#C8102E" font-size="11">as newsletter</text>
+
+    <!-- Consulting -->
+    <rect x="374" y="152" width="150" height="200" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+    <text x="386" y="174" fill="#121212" font-weight="700">Consulting</text>
+    <text x="386" y="200" fill="#545454" font-size="11">Relationship</text>
+    <text x="386" y="216" fill="#121212" font-size="11">branded</text>
+    <text x="386" y="244" fill="#545454" font-size="11">Equity borrowed</text>
+    <text x="386" y="260" fill="#121212" font-size="11">master credibility</text>
+    <text x="386" y="288" fill="#545454" font-size="11">Overlap risk</text>
+    <text x="386" y="304" fill="#121212" font-size="11">couples failure to</text>
+    <text x="386" y="320" fill="#121212" font-size="11">education brand</text>
+
+    <!-- Library (endorsed) -->
+    <rect x="536" y="152" width="150" height="200" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="548" y="174" fill="#121212" font-weight="700">OSS library</text>
+    <text x="548" y="200" fill="#545454" font-size="11">Relationship</text>
+    <text x="548" y="216" fill="#121212" font-size="11">endorsed / indep.</text>
+    <text x="548" y="244" fill="#545454" font-size="11">Equity borrowed</text>
+    <text x="548" y="260" fill="#121212" font-size="11">little — own audience</text>
+    <text x="548" y="288" fill="#545454" font-size="11">Overlap risk</text>
+    <text x="548" y="304" fill="#121212" font-size="11">low — different</text>
+    <text x="548" y="320" fill="#121212" font-size="11">users, associations</text>
+  </g>
+
+  <text x="32" y="384" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Dashed = endorsed ("DataPrep, from ...") because it reaches a different audience.</text>
+  <text x="32" y="400" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Solid = branded under the master.</text>
+  <text x="32" y="406" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">Prune candidate: the offering with the highest overlap and least distinct equity —</text>
+  <text x="32" y="422" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">here, the course relative to the newsletter.</text>
+</svg>

@@ -1,0 +1,49 @@
+<!--
+  Aaker's four levers of brand equity
+  Book: Branding and AI
+  Chapter: 02-what-a-brand-is-equity
+  Figure: 03
+  Type: matrix
+  Generated: 2026-06-18
+  Source: pantry/02-what-a-brand-is-equity-cajal.md
+-->
+<svg viewBox="0 0 760 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02-03">
+  <title id="fig-title-02-03">Aaker's four levers of brand equity</title>
+  <desc>The four Aaker dimensions — awareness, perceived quality, associations, loyalty — with definition, high signal, low signal, and a diagnostic question for each.</desc>
+  <rect x="0" y="0" width="760" height="400" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Four levers — find the weakest, intervene there</text>
+
+  <!-- column headers -->
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" font-weight="700" fill="#121212">
+    <rect x="30" y="60" width="140" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="42" y="80">Dimension</text>
+    <rect x="170" y="60" width="180" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="182" y="80">Definition</text>
+    <rect x="350" y="60" width="180" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="362" y="80">High looks like</text>
+    <rect x="530" y="60" width="200" height="32" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/><text x="542" y="80">Diagnostic question</text>
+  </g>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">
+    <!-- Awareness -->
+    <rect x="30" y="92" width="140" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="42" y="132" font-weight="700">Awareness</text>
+    <rect x="170" y="92" width="180" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="182" y="120" fill="#545454">recognition and recall</text><text x="182" y="136" fill="#545454">in the category</text>
+    <rect x="350" y="92" width="180" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="362" y="120" fill="#545454">top-of-mind, unaided</text><text x="362" y="136" fill="#545454">recall</text>
+    <rect x="530" y="92" width="200" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="542" y="120" fill="#545454">do they name us first</text><text x="542" y="136" fill="#545454">in the category?</text>
+
+    <!-- Perceived quality -->
+    <rect x="30" y="164" width="140" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="42" y="196" font-weight="700">Perceived</text><text x="42" y="212" font-weight="700">quality</text>
+    <rect x="170" y="164" width="180" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="182" y="192" fill="#545454">overall quality</text><text x="182" y="208" fill="#545454">judgment (a brand effect)</text>
+    <rect x="350" y="164" width="180" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="362" y="192" fill="#545454">trusted regardless of</text><text x="362" y="208" fill="#545454">objective specs</text>
+    <rect x="530" y="164" width="200" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="542" y="192" fill="#545454">do they expect quality</text><text x="542" y="208" fill="#545454">before testing it?</text>
+
+    <!-- Associations -->
+    <rect x="30" y="236" width="140" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="42" y="276" font-weight="700">Associations</text>
+    <rect x="170" y="236" width="180" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="182" y="264" fill="#545454">the network linked to</text><text x="182" y="280" fill="#545454">the name in memory</text>
+    <rect x="350" y="236" width="180" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="362" y="264" fill="#545454">coherent nodes that</text><text x="362" y="280" fill="#545454">reinforce each other</text>
+    <rect x="530" y="236" width="200" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="542" y="264" fill="#545454">do the associations</text><text x="542" y="280" fill="#545454">cohere or cancel?</text>
+
+    <!-- Loyalty -->
+    <rect x="30" y="308" width="140" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="42" y="348" font-weight="700">Loyalty</text>
+    <rect x="170" y="308" width="180" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="182" y="336" fill="#545454">behavioral and</text><text x="182" y="352" fill="#545454">attitudinal stickiness</text>
+    <rect x="350" y="308" width="180" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="362" y="336" fill="#545454">stays when a rival</text><text x="362" y="352" fill="#545454">improves or discounts</text>
+    <rect x="530" y="308" width="200" height="72" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="542" y="336" fill="#545454">would they leave if</text><text x="542" y="352" fill="#545454">switching cost dropped?</text>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<!--
+  Three-pass naming funnel
+  Book: Branding and AI
+  Chapter: 08-naming-trademark-and-brand-protection
+  Figure: 07
+  Type: process flowchart (funnel)
+  Generated: 2026-06-18
+  Source: pantry/08-naming-trademark-and-brand-protection-cajal.md
+-->
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-08-07">
+  <title id="fig-title-08-07">Three-pass naming funnel</title>
+  <desc>A narrowing funnel: Pass 1 generative produces about 40 candidates, Pass 2 screening narrows to 3 to 5 with an archetype filter and preliminary scans, Pass 3 commitment selects 1 name routed to counsel and registration. The AI+1 boundary sits between Pass 2 and Pass 3.</desc>
+  <rect x="0" y="0" width="700" height="440" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Three passes from forty candidates to one cleared name</text>
+
+  <defs>
+    <marker id="arrow0807" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#121212"/>
+    </marker>
+  </defs>
+
+  <!-- Pass 1 -->
+  <rect x="40" y="80" width="180" height="220" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="106" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Pass 1 · Generative</text>
+  <text x="56" y="150" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="34" fill="#121212">40</text>
+  <text x="56" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">candidates across</text>
+  <text x="56" y="186" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">the strength spectrum</text>
+  <text x="56" y="232" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">AI does genuine work:</text>
+  <text x="56" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">tedious for a human,</text>
+  <text x="56" y="264" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">trivial for a model.</text>
+
+  <!-- Pass 2 -->
+  <rect x="260" y="110" width="180" height="160" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="276" y="136" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Pass 2 · Screening</text>
+  <text x="276" y="178" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="30" fill="#121212">3–5</text>
+  <text x="276" y="198" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">shortlisted</text>
+  <text x="276" y="226" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">AI + archetype filter,</text>
+  <text x="276" y="242" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">basic web + preliminary</text>
+  <text x="276" y="258" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">USPTO scan.</text>
+
+  <!-- Pass 3 -->
+  <rect x="480" y="140" width="180" height="100" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="496" y="166" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Pass 3 · Commitment</text>
+  <text x="496" y="206" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="26" fill="#121212">1</text>
+  <text x="520" y="206" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">name → counsel →</text>
+  <text x="520" y="222" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">register, domain, entity</text>
+
+  <!-- arrows -->
+  <line x1="220" y1="190" x2="260" y2="190" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0807)"/>
+  <line x1="440" y1="190" x2="480" y2="190" stroke="#121212" stroke-width="1.5" fill="none" marker-end="url(#arrow0807)"/>
+
+  <!-- AI+1 boundary dashed reference between Pass 2 and Pass 3 -->
+  <line x1="460" y1="64" x2="460" y2="320" stroke="#121212" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="460" y="340" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle" font-weight="700">AI+1 boundary</text>
+
+  <text x="56" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">AI + your judgment</text>
+  <text x="500" y="316" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">counsel + you</text>
+
+  <text x="32" y="380" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212">The commitment pass is not optional and not something to abbreviate.</text>
+  <text x="32" y="402" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">AI owns generation; you own the decision; counsel owns the clearance.</text>
+</svg>

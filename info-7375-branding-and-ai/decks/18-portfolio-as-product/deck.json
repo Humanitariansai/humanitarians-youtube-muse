@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "title": "Portfolio as Product",
+    "short": "BRANDING · CH18",
+    "course": "Branding and AI · Chapter 18",
+    "by": "Nik Bear Brown",
+    "source": "books/branding-and-ai/chapters/18-portfolio-as-product.md"
+  },
+  "slides": [
+    {
+      "id": "S01", "kind": "title",
+      "kicker": "Branding and AI · Chapter 18",
+      "title": "Portfolio as Product",
+      "subtitle": "The artifact you build once and the returns that compound for a decade.",
+      "by": "Nik Bear Brown"
+    },
+    {
+      "id": "S02", "section": "the case",
+      "title": "In 2017 she shipped a website. It is still working for her.",
+      "lead": "Brittany Chiang published a redesign of her personal portfolio. Clean, minimal, dark-themed. The code was open.",
+      "bullets": [
+        "The GitHub repo for its fourth iteration accumulated over **9,000 stars and 6,000 forks**.",
+        "Generations of developers used her design as the foundation of their first portfolio. Her name traveled into commit histories and footer credits of sites she had never seen.",
+        "The engineering work was excellent, the network strong, the timing good. But the portfolio did something none of those could do on their own: **it compounded.**",
+        "Built once. Still generating brand impressions, name recognition, implicit credibility — years after the work was done."
+      ]
+    },
+    {
+      "id": "S03", "section": "the real failure mode",
+      "title": "Most graduate portfolios fail from under-ambition, not inadequacy",
+      "lead": "An adequate portfolio gets through a hiring funnel. A designed portfolio compounds.",
+      "why": "chapter states two portfolios with the same origin that separate on one decision — 'An adequate portfolio gets through a hiring funnel. A designed portfolio compounds. The gap between them is roughly twenty hours of deliberate work. The return differential is a decade.'",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "the same body of work",
+        "splitLabel": "deliberate design work",
+        "tracks": [
+          {
+            "label": "Designed · scoped, curated, crafted", "outcome": "compounds", "tone": "good", "path": "up",
+            "notes": ["worth referencing", "clean enough to clone", "reads as one engineer"]
+          },
+          {
+            "label": "Adequate · recruiter-ready, by the numbers", "outcome": "clears the filter", "tone": "warn", "path": "down",
+            "notes": ["indistinguishable from ten thousand others", "Channel 1 only", "no second life"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S04", "section": "definitions",
+      "title": "The word \"portfolio\" is doing five different jobs",
+      "lead": "Conflating them is the first mistake most graduates make. Four surfaces, and a fifth thing that binds them.",
+      "bullets": [
+        "**Résumé** — text, optimized for ATS systems and the thirty-second human skim.",
+        "**Portfolio website** — a designed presentation of selected work, optimized for the two-to-five-minute deep read.",
+        "**GitHub profile** — a technical-evidence surface, indexed and inspectable by engineers. **LinkedIn** — the recruiter-discovery surface.",
+        "**Portfolio-as-product** — the fifth thing, in which the first four tell the same story from four angles: same archetype, same voice, same projects, same positioning sentence.",
+        "Convergence is not uniformity. Different reading speeds, different audiences — but a recruiter who reads both should have no doubt they are about the same person."
+      ]
+    },
+    {
+      "id": "S05", "section": "the mechanism",
+      "title": "Three channels. You are designing for one of them.",
+      "lead": "The second and third are where the compounding lives.",
+      "why": "chapter names three channels and, inside each, its own named sequence of moves — 'Direct hiring… Indirect reference… Template effects' each with sub-mechanics spelled out",
+      "archetype": "sunburst",
+      "duration": 9.0,
+      "data": {
+        "center": "PORTFOLIO",
+        "centerShort": "PORTFOLIO",
+        "groups": [
+          {
+            "label": "Direct hiring", "tone": "ink",
+            "children": [
+              { "label": "search or referral" },
+              { "label": "pulls up résumé" },
+              { "label": "next stage" }
+            ]
+          },
+          {
+            "label": "Indirect reference", "tone": "accent",
+            "children": [
+              { "label": "someone shares it" },
+              { "label": "they remember the name" },
+              { "label": "months later, a role opens" },
+              { "label": "\"I heard about you from…\"" }
+            ]
+          },
+          {
+            "label": "Template effects", "tone": "ink",
+            "children": [
+              { "label": "they clone the repo" },
+              { "label": "footer credit" },
+              { "label": "your name in commit history" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06", "section": "the design implication",
+      "title": "Channel 1 is not wrong. It is under-optimizing.",
+      "lead": "Not because the direct-hiring return is insufficient — it may be sufficient for the immediate goal.",
+      "bullets": [
+        "Because you are leaving **Channels 2 and 3 on the table with no additional investment**.",
+        "Channel 2 is impossible to optimize for directly and impossible to ignore. The portfolio that performs there is the one *worth referencing*.",
+        "Channel 3 operates at scale and on autopilot — a case study structure gets borrowed, a README format gets copied.",
+        "A portfolio designed for all three is built with the discipline you brought to the AI tool: scope, craft, archetype alignment, negative space as intentional as positive space."
+      ]
+    },
+    {
+      "id": "S07", "section": "curation",
+      "title": "What you decline to include defines the point of view",
+      "lead": "A portfolio's power comes as much from what is absent as from what is present. Every item that is not archetype-reinforcing is a tax on two to five minutes of attention.",
+      "why": "chapter draws an explicit boundary and then lists the things that must not cross it — 'What does not belong: a screenshot wall of every project. A skills section listing fifty technologies as icons. Personal hobbies unrelated to the archetype…'",
+      "archetype": "containment",
+      "duration": 8.5,
+      "data": {
+        "boundary": { "label": "WHAT EARNS A PLACE" },
+        "inside": [
+          { "label": "three to six excellent projects" },
+          { "label": "the centerpiece case study" },
+          { "label": "archetype-aligned work" },
+          { "label": "the positioning sentence" }
+        ],
+        "attempts": [
+          { "label": "screenshot wall of everything", "blocked": true, "from": "left" },
+          { "label": "fifty tech icons", "blocked": true, "from": "top" },
+          { "label": "unrelated hobbies", "blocked": true, "from": "right" },
+          { "label": "\"currently learning X\"", "blocked": true, "from": "right" },
+          { "label": "the archetype-aligned project", "blocked": false, "from": "bottom" }
+        ]
+      }
+    },
+    {
+      "id": "S08", "section": "the operational test",
+      "title": "Name the project you left out, and why",
+      "lead": "Three to six projects is the right number. Three is better than six if the three are excellent and the six would include mediocre work.",
+      "bullets": [
+        "Most graduates put ten projects on the portfolio and reduce each to a thumbnail. The recruiter sees ten small things instead of three large things.",
+        "It reads as *\"I have done things\"* rather than *\"I am this kind of engineer.\"*",
+        "The criterion is not technical difficulty and not recency. It is: **which projects, combined, make the strongest case for the archetype and the positioning claim?**",
+        "The test: for every project on the portfolio, name one that is not on it and write one sentence explaining the exclusion. If you cannot write that sentence, the portfolio has no point of view."
+      ]
+    },
+    {
+      "id": "S09", "section": "the centerpiece",
+      "title": "One case study, four jobs, simultaneously",
+      "lead": "The tool you built is the centerpiece. Most engineering case studies perform one or two of these. Performing all four is what sets it apart.",
+      "bullets": [
+        "**Frame the problem.** A specific user, a specific pain, a specific frequency, a specific cost — recognizable enough that the reader can name ten people who fit.",
+        "**Show the technical work.** Architecture, model choices, data flow, key decisions with one-sentence justifications — and the piece students skip, specific metrics.",
+        "**Connect to the brand.** Archetype, voice, visual choices, what the alignment audit revealed. The section most engineering case studies omit entirely.",
+        "**Be honest about limits.** What the MVP excluded and why. What a v2 would add. Honesty about limits is a Feynman move."
+      ]
+    },
+    {
+      "id": "S10", "section": "the metrics",
+      "title": "A marketing claim and a case study can describe the same tool",
+      "lead": "The absence of metrics is the most common case study failure mode. The difference is not the tool. It is whether you measured.",
+      "why": "chapter sets the same claim about the same tool in two versions that separate on one act — 'A case study that says \"the tool processes articles quickly and accurately\" is not a case study; it is a marketing claim'",
+      "archetype": "divergence",
+      "duration": 8.0,
+      "data": {
+        "startLabel": "the same deployed tool",
+        "splitLabel": "did you measure it?",
+        "tracks": [
+          {
+            "label": "Measured · \"870 articles in under three minutes\"", "outcome": "a case study", "tone": "good", "path": "up",
+            "notes": ["approximately $0.80 per run", "90% deduplication efficiency", "verifiable, so it builds trust"]
+          },
+          {
+            "label": "Asserted · \"quickly and accurately\"", "outcome": "a marketing claim", "tone": "warn", "path": "down",
+            "notes": ["nothing to check", "no throughput, latency or cost", "trust has no purchase"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S11", "section": "tooling",
+      "title": "v0, Framer, hand-coded React — pick the tradeoff, not the tool",
+      "lead": "Three tools get you to a deployed portfolio at a fraction of hand-coded time. The chapter recommends none of them absolutely; the archetype decides.",
+      "why": "chapter compares three named tools across the same set of tradeoffs — control level, technical signal sent, visual control, and time to a deployed draft",
+      "archetype": "matrixGrid",
+      "duration": 9.0,
+      "data": {
+        "rows": [
+          { "label": "Technical signal to engineers" },
+          { "label": "Visual control / distinction" },
+          { "label": "Time to a deployed draft" }
+        ],
+        "cols": [
+          { "label": "v0" },
+          { "label": "Framer" },
+          { "label": "Hand-coded" }
+        ],
+        "cells": [
+          ["hit", "miss", "hit"],
+          ["miss", "hit", "hit"],
+          ["hit", "pending", "miss"]
+        ]
+      }
+    },
+    {
+      "id": "S12", "section": "deploy",
+      "title": "Three decisions before the URL goes live",
+      "lead": "Deployment for a v0 portfolio is one click. That is not the hard part. These are.",
+      "why": "chapter names three deployment decisions each with a stated threshold, then a coherence audit that must be run before sharing the URL — and every verdict belongs to the reader's own run",
+      "archetype": "gatePipeline",
+      "duration": 8.5,
+      "data": {
+        "input": { "label": "a built portfolio" },
+        "gates": [
+          { "label": "Domain", "rule": "yourname.dev — under $20 per year", "pass": null },
+          { "label": "Accessibility", "rule": "WCAG AA · contrast above 4.5:1", "pass": null },
+          { "label": "Performance", "rule": "Lighthouse above 90 on the deployed version", "pass": null },
+          { "label": "Coherence audit", "rule": "one reader, three surfaces, one question", "pass": null }
+        ],
+        "output": { "label": "the public URL", "pending": true }
+      }
+    },
+    {
+      "id": "S13", "section": "the audit",
+      "title": "Does this feel like the same person from three angles?",
+      "lead": "Send your portfolio URL, your LinkedIn URL and your résumé to one person who has not seen them. Ask one question. Every cell here is yours to fill.",
+      "why": "chapter specifies four coherence checks applied across three named surfaces — 'does the positioning sentence match the LinkedIn headline? Is the archetype legible in all three? Are the same projects featured? Is the voice consistent?'",
+      "archetype": "matrixGrid",
+      "duration": 9.0,
+      "data": {
+        "rows": [
+          { "label": "Positioning sentence" },
+          { "label": "Archetype legible" },
+          { "label": "Same projects featured" },
+          { "label": "Voice read aloud" }
+        ],
+        "cols": [
+          { "label": "Portfolio" },
+          { "label": "LinkedIn" },
+          { "label": "Résumé" }
+        ],
+        "cells": [
+          ["pending", "pending", "pending"],
+          ["pending", "pending", "pending"],
+          ["pending", "pending", "pending"],
+          ["pending", "pending", "pending"]
+        ]
+      }
+    },
+    {
+      "id": "S14", "section": "the underused surface",
+      "title": "LinkedIn is where recruiters meet you first, and most graduates leave it on default",
+      "lead": "The minimum changes for archetypal alignment take two to three hours and have compounding returns.",
+      "bullets": [
+        "**Headline** — not the default job title. The positioning sentence that matches the above-the-fold line on your site. It appears in search results, messages, connection suggestions. It should do work.",
+        "**About** — two to four short paragraphs, same voice as the portfolio, slightly more personal. Read it aloud; if it sounds like a corporate bio, rewrite it.",
+        "**Featured** — pin three things: the portfolio URL, the deployed tool, the best published piece. The brand surface, the technical surface, the narrative surface.",
+        "**Skills** — prune to the archetype. A wall of fifty technologies signals lack of focus."
+      ]
+    },
+    {
+      "id": "S15", "section": "convergence",
+      "title": "The portfolio closes a loop that opened in Chapter 1",
+      "lead": "The convergence is not automatic. Without the explicit work, the artifacts stay separate — a strategy document, a visual brief, a few case studies — and the compounding does not happen.",
+      "why": "chapter's closing argument is a dependency chain: 'Chapter 1 gave you an archetype… the chapters that followed gave you a deployed tool, a brand strategy, a visual identity, and a narrative voice. The portfolio is where all of those converge'",
+      "archetype": "graph",
+      "duration": 8.5,
+      "data": {
+        "layout": "layers",
+        "nodes": [
+          { "id": "arch", "label": "archetype", "tone": "ink", "layer": 0 },
+          { "id": "tool", "label": "deployed tool", "tone": "ink", "layer": 0 },
+          { "id": "strat", "label": "brand strategy", "tone": "ink", "layer": 1 },
+          { "id": "vis", "label": "visual identity", "tone": "ink", "layer": 1 },
+          { "id": "narr", "label": "narrative voice", "tone": "ink", "layer": 1 },
+          { "id": "port", "label": "the portfolio", "tone": "accent", "layer": 2 }
+        ],
+        "edges": [
+          { "from": "arch", "to": "strat", "label": "sets the theory of value" },
+          { "from": "arch", "to": "port", "label": "expressed, not reinvented" },
+          { "from": "tool", "to": "port", "label": "the centerpiece case study" },
+          { "from": "strat", "to": "port", "label": "becomes physical form" },
+          { "from": "vis", "to": "port" },
+          { "from": "narr", "to": "port" }
+        ]
+      }
+    },
+    {
+      "id": "S16", "kind": "section",
+      "eyebrow": "your turn",
+      "title": "Build it once. Build it well.",
+      "lead": "A portfolio is not a résumé with images. It is the physical form of a brand strategy — the artifact where the theory of who you are becomes visible, navigable, and shareable. Pick your three to six. Name what you left out and why. Then run the coherence audit and fill in every grey slot on this deck yourself. The returns are non-linear."
+    }
+  ]
+}

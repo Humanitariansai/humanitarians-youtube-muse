@@ -1,0 +1,53 @@
+<!--
+  Five roles vs. one mega-agent
+  Book: Branding and AI
+  Chapter: 03-the-ai-toolchain-cowork-codex-madison
+  Figure: 03
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/03-the-ai-toolchain-cowork-codex-madison-cajal.md
+-->
+<svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03-03">
+  <title id="fig-title-03-03">Five roles vs. one mega-agent</title>
+  <desc>Left: five named, inspectable layers through an orchestration node. Right: one opaque mega-agent that balloons token costs, blurs failures, and exposes no product surfaces.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#121212"/></marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="420" fill="#FFFFFF"/>
+  <text x="32" y="38" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">Same capability, two architectures, two products</text>
+
+  <!-- LEFT panel: layered -->
+  <rect x="40" y="60" width="300" height="320" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="56" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">Five layers + orchestration</text>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#121212" text-anchor="middle">
+    <rect x="60" y="104" width="120" height="40" fill="#FFFFFF" stroke="#121212" stroke-width="1"/><text x="120" y="128">Intelligence</text>
+    <rect x="200" y="104" width="120" height="40" fill="#FFFFFF" stroke="#121212" stroke-width="1"/><text x="260" y="128">Content</text>
+    <rect x="60" y="156" width="120" height="40" fill="#FFFFFF" stroke="#121212" stroke-width="1"/><text x="120" y="180">Research</text>
+    <rect x="200" y="156" width="120" height="40" fill="#FFFFFF" stroke="#121212" stroke-width="1"/><text x="260" y="180">Experience</text>
+    <rect x="130" y="208" width="120" height="40" fill="#F5F5F5" stroke="#121212" stroke-width="1.25"/><text x="190" y="232">Orchestration</text>
+    <rect x="130" y="260" width="120" height="40" fill="#FFFFFF" stroke="#121212" stroke-width="1"/><text x="190" y="284">Performance</text>
+  </g>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">
+    <text x="56" y="332">+ fault-locatable</text>
+    <text x="56" y="350">+ versionable and named</text>
+    <text x="56" y="368">+ saleable as tiers</text>
+  </g>
+
+  <!-- RIGHT panel: mega-agent (RED focal opaque box) -->
+  <rect x="380" y="60" width="300" height="320" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="396" y="88" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">One mega-agent</text>
+
+  <rect x="450" y="110" width="160" height="120" fill="#C8102E"/>
+  <text x="530" y="170" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">opaque model</text>
+  <text x="530" y="190" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">no seams</text>
+
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">
+    <text x="396" y="268">— token costs balloon</text>
+    <text x="412" y="284" font-size="10">(re-reads all context every run)</text>
+    <text x="396" y="312">— failure modes blur</text>
+    <text x="412" y="328" font-size="10">(fault is "somewhere in the model")</text>
+    <text x="396" y="356">— no product surfaces</text>
+    <text x="412" y="372" font-size="10">(nothing to name, version, or sell)</text>
+  </g>
+</svg>

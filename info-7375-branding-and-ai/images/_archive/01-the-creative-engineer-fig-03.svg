@@ -1,0 +1,35 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Separating vs. Pooling Equilibrium</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">A signal works only when its cost differs by type. When tooling makes the signal cheap for everyone, separation collapses into pooling.</text>
+<rect x="56" y="80" width="272" height="280" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="72" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.5">SEPARATING EQUILIBRIUM</text>
+<line x1="72" y1="108" x2="312" y2="108" stroke="#8a8480" stroke-width="0.75"/>
+<text x="72" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">High-productivity candidate</text>
+<text x="72" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Signal cost: low (relative to ability)</text>
+<text x="72" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Sends the signal</text>
+<text x="72" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">Low-productivity candidate</text>
+<text x="72" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Signal cost: high (relative to ability)</text>
+<text x="72" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Cannot afford the signal</text>
+<text x="72" y="268" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">Employer</text>
+<text x="72" y="284" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Observes the signal — and learns who is who</text>
+<text x="192" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">The signal sorts. Hiring works.</text>
+<rect x="372" y="80" width="272" height="280" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="388" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" letter-spacing="1.5">POOLING EQUILIBRIUM</text>
+<line x1="388" y1="108" x2="628" y2="108" stroke="#8a8480" stroke-width="0.75"/>
+<text x="388" y="124" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">High-productivity candidate</text>
+<text x="388" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Signal cost: low</text>
+<text x="388" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Sends the signal</text>
+<text x="388" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">Low-productivity candidate</text>
+<text x="388" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Signal cost: low (AI tooling)</text>
+<text x="388" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Also sends the signal</text>
+<text x="388" y="268" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714">Employer</text>
+<text x="388" y="284" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540">Observes the signal — and learns nothing</text>
+<text x="508" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">The signal pools. Hiring stops working from this signal.</text>
+<text x="350.0" y="394" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">When the cost-structure of a signal collapses, the signal collapses with it. The fix is not a louder signal — it is a different signal.</text>
+</svg>

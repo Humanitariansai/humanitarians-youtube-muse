@@ -1,0 +1,56 @@
+<!--
+  The Stripe inversion
+  Book: Branding and AI
+  Chapter: 06-brand-strategy-and-positioning
+  Figure: 04
+  Type: comparison panels
+  Generated: 2026-06-18
+  Source: pantry/06-brand-strategy-and-positioning-cajal.md
+-->
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-06-04">
+  <title id="fig-title-06-04">The Stripe inversion</title>
+  <desc>Two columns of equal weight: what Stripe built on the left, what Stripe declined on the right. The sustained pattern of refusals is what produced the legible brand.</desc>
+  <metadata>
+    <cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0"
+      book="Branding and AI" book-slug="branding-and-ai" chapter="06-brand-strategy-and-positioning"
+      figure-number="04" figure-title="The Stripe inversion" figure-slug="the-stripe-inversion"
+      figure-type="comparison panels" priority="Critical" author="Nik Bear Brown &amp; Nina Harris"
+      date-generated="2026-06-18" source-file="pantry/06-brand-strategy-and-positioning-cajal.md"/>
+  </metadata>
+  <rect x="0" y="0" width="700" height="420" fill="#FFFFFF"/>
+  <text x="32" y="40" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#121212">A brand is defined more by what it declines than by what it does</text>
+  <text x="32" y="60" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Both columns are load-bearing. Any one refusal is a choice; the pattern is the brand.</text>
+
+  <!-- Built column -->
+  <rect x="32" y="84" width="304" height="280" fill="#F5F5F5" stroke="#D4D4D4" stroke-width="1"/>
+  <rect x="32" y="84" width="304" height="36" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/>
+  <text x="44" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#121212">What Stripe built</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">
+    <text x="44" y="152">Clean payment APIs.</text>
+    <text x="44" y="186">Developer-first infrastructure.</text>
+    <text x="44" y="220">Documentation that ships as</text>
+    <text x="44" y="236">a product.</text>
+    <text x="44" y="270">Global coverage.</text>
+    <text x="44" y="304">Slow, deliberate expansion</text>
+    <text x="44" y="320">(Atlas '16, Issuing '18).</text>
+  </g>
+
+  <!-- Declined column RED header -->
+  <rect x="364" y="84" width="304" height="280" fill="#F5F5F5" stroke="#C8102E" stroke-width="2"/>
+  <rect x="364" y="84" width="304" height="36" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  <text x="376" y="108" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="13" font-weight="700" fill="#C8102E">What Stripe declined</text>
+  <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">
+    <text x="376" y="152">Enterprise sales processes</text>
+    <text x="376" y="168">(early years).</text>
+    <text x="376" y="202">Broad small-business</text>
+    <text x="376" y="218">marketing to non-developers.</text>
+    <text x="376" y="252">Competing with PayPal on</text>
+    <text x="376" y="268">consumer trust signals.</text>
+    <text x="376" y="302">Rapid product proliferation.</text>
+    <text x="376" y="336">Competitor-bashing content.</text>
+  </g>
+
+  <text x="350" y="394" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#121212">Each declination is consistent with the Sage archetype — the sustained pattern produced the legibility.</text>
+
+  <text x="32" y="412" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#545454" letter-spacing="0.08em">SOURCE: CH. 6, NEGATIVE SPACE — WHAT YOU DECLINE</text>
+</svg>

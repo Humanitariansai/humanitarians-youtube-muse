@@ -1,0 +1,225 @@
+=== Slide 1 ===
+MENTIONMAP
+INFO 7375 · BRANDING & AI
+BrandPulse
+Your brand's morning briefing, powered by AI
+Tanaka Brian Manyara  ·  Software and AI Engineer  ·  Northeastern University  ·  August 2026
+
+=== Slide 2 ===
+ABOUT ME
+Tanaka Manyara
+Software and AI Engineer
+I build tools that turn thousands of online brand conversations into clear, actionable intelligence -- for the founders and marketers who need it most.
+Intelligence by Design
+AI is an architecture, not an add-on
+Brand-First
+Every output knows who your brand is
+Built for Real People
+No IT department required
+Ships to Production
+Real products -- not just demos
+Always Improving
+Every mistake makes the system smarter
+
+=== Slide 3 ===
+THE PROBLEM
+4.9 billion voices.
+Zero signal.
+Solo founders and small teams get hundreds of brand mentions every week -- and have no idea what's being said. By the time they find out, the damage is done.
+By the time you notice a brand crisis, it's already gone viral.
+4.9B
+active social media users daily
+$3K
+per month for enterprise monitoring
+$0
+what most small teams spend -- and learn
+
+=== Slide 4 ===
+WHO IT'S FOR
+Two people who need this most.
+THE STARTUP FOUNDER
+•  Running everything -- product, sales, and brand -- alone
+•  No dedicated team to track what people say online
+•  Finds out about brand problems after they go viral
+•  Needs AI that thinks brand-first so they do not have to
+THE GROWTH MARKETER
+•  Drowning in dashboards that show numbers, not meaning
+•  Three monitoring tools that do not talk to each other
+•  Spends hours in spreadsheets instead of making decisions
+•  Needs one clear briefing -- not more raw data to interpret
+Both are at the intersection of brand and AI -- and no existing tool was built specifically for them. MentionMap was.
+
+=== Slide 5 ===
+THE SOLUTION
+Paste mentions. Get your morning brief.
+1
+Collect
+Copy comments, reviews, or tweets about your brand and paste them into MentionMap
+→
+2
+Analyze
+AI reads the mood, spots unusual spikes, and identifies the personality your audience projects onto your brand
+→
+3
+Act
+Wake up to a plain-English briefing with draft responses ready to copy and post
+No account. No setup. No analyst. Just answers.
+
+=== Slide 6 ===
+THE SECRET SAUCE
+"We use AI to understand
+brand personality
+not just count mentions."
+Mood Reader
+Smart AI that learns patterns in how people feel about your brand -- not just what they say
+Brand Personality
+Identifies which of 12 archetypes your audience projects onto your brand -- Hero, Creator, Caregiver, and more
+Early Warning
+Spots unusual spikes before a crisis goes viral. Think of it as a smoke alarm for your brand reputation
+
+=== Slide 7 ===
+BRAND IDENTITY
+The look and feel.
+Navy
+#1A2B4A
+60% -- Authority
+Teal
+#1E8C8C
+25% -- Intelligence
+Gold
+#F4A827
+15% -- Accent
+TYPOGRAPHY
+Cambria
+Headings -- authority and permanence
+Calibri -- body copy, clean and modern
+BRAND TAGLINE
+Intelligence
+by Design
+M E N T I O N M A P
+
+=== Slide 8 ===
+BRAND PRESENCE
+Three channels. One brand voice.
+WEBSITE
+https://splitwolf-brandpulse.hf.space/?
+Fully deployed, live in production. The complete brand experience -- navy, teal, gold -- in one URL.
+LIVE NOW
+LINKEDIN
+37,706
+post impressions
+91 profile viewers
+"Most developers add AI like a dependency. They're wrong." -- top-performing hook
+SUBSTACK
+Intelligence
+by Design
+Newsletter for builders at the intersection of AI and brand strategy.
+Launched August 2026
+tanakamanyarab.substack.com
+
+=== Slide 9 ===
+COMPETITION
+Nobody owns this corner.
+DEEP REPORTS
+BASIC ALERTS
+EASY
+HARD
+OUR ZONE
+MentionMap ★
+Brandwatch
+Sprout Social
+Mention.com
+Tool
+Their weakness
+Our edge
+Brandwatch
+$800-3K/mo, needs analyst
+10x cheaper
+Sprout Social
+Scheduling tool, not intel
+Pure insight
+Mention.com
+Keyword alerts only
+Full depth
+BrandPulse
+Free · Instant · Complete
+✓ Ours
+The only tool that is both easy AND deep. That's the unfair advantage.
+
+=== Slide 10 ===
+THE BRAND STORY
+Why I built this.
+THE PROBLEM
+Every AI tool I worked with had the same failure mode. It was not wrong -- it was hollow. The output came back and something felt off. The AI did not know who it was talking to.
+THE AGITATION
+I started recognizing the pattern everywhere: the prompts were afterthoughts. The fallbacks did not exist. Nobody had designed how the AI should reason -- they just bolted it on and hoped.
+THE SOLUTION
+MentionMap was built on a different principle. Before the AI touches anything, it already knows your brand -- your history, your voice, your audience. The result is not just an answer. It is your brand's answer.
+
+=== Slide 11 ===
+It's live. Right now.
+splitwolf-brandpulse.hf.space
+Paste any brand mentions
+Tweets, reviews, Reddit posts -- paste raw text and hit submit
+Instant mood score
+Smart AI reads tone -- positive, negative, everything in between
+Brand personality detected
+Identifies which of 12 archetypes your audience projects onto your brand
+Response drafts ready
+Platform-specific replies generated -- copy, tweak, and post
+
+=== Slide 12 ===
+BUSINESS MODEL
+Free to start. $29 to grow.
+FREE
+$0
+/ forever
+✓  Paste text, instant report
+✓  Mood score + brand archetype
+✓  No account needed
+Most Popular
+PRO
+$29
+/ month
+✓  Live social media feed
+✓  Team sharing
+✓  90-day history
+✓  Slack alerts
+AGENCY
+$99
+/ month
+✓  Multi-brand dashboard
+✓  White-label reports
+✓  Client access
+✓  Priority support
+500 Pro users = $174,000 ARR  ·  Year 2 target: 2,000 users = $840K ARR
+
+=== Slide 13 ===
+THE ROADMAP
+Working today. Growing this fall.
+✓  Live and running right now at mentionmap.vercel.app
+NOW
+Live Tool
+Mood analysis, brand personality, anomaly alerts, draft responses -- all running in production.
+AUG 2026
+Live Data
+Connect directly to social media -- no more manual pasting. Pulls your mentions automatically.
+SEP 2026
+Team Dashboard
+Multi-user access, 90-day history, and Slack alerts when something unusual happens.
+OCT 2026
+Public Launch
+Product Hunt launch and paid Pro tier opens. Target: first 100 paying customers.
+Target: 100 paying customers by December 2026
+
+=== Slide 14 ===
+In one semester,
+I built a complete brand system from the ground up.
+✓  A brand strategy with a position nobody else owns
+✓  A visual identity consistent across three channels
+✓  A brand story that explains exactly why this exists
+✓  A live AI tool proving it works in the real world
+splitwolf-brandpulse.hf.space
+That's not a prototype. That's a brand system.
+Thank you.
+brianlite13@gmail.com  ·  splitwolf-brandpulse.hf.space
