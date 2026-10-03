@@ -1,0 +1,848 @@
+{
+  "metadata": {
+    "slug": "claude-liam-lecture-a4-part1-opportunity-matcher",
+    "title": "Muse builds the opportunity matcher",
+    "topic": "A4 · PART 1",
+    "skill": "lecture",
+    "style_preset": "lecture",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "audience": "anyone evaluating the Assignment 4 Part 1 build — and Muse doing it",
+    "source_doc": "assignment-4/FRICTIONAL.md and the files it cites",
+    "playlist": "INFO 7375",
+    "chapter_number": 0,
+    "tags": [
+      "INFO 7375",
+      "opportunity matcher",
+      "n8n",
+      "Muse",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. Assignment 3 built a machine that collects jobs — a job scraper. Assignment 4 asked it to judge them — a job judge. This is the film of that build. And it's also, on purpose, an evaluation of Muse doing this kind of work.",
+      "estimated_duration_s": 20.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'I built'"
+          },
+          {
+            "at": 0.5,
+            "event": "backspaces 'a job scraper' → 'a job judge' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "I built\na job scraper",
+            "triggerWords": "a job scraper",
+            "replacementWords": "a job judge",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "claude-liam-lecture-a4-part1-opportunity-matcher",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the collector framing and corrects it to the judge framing.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Five terms. Matcher: the program that scores postings. Fit score: one number from five dimensions. PURSUE: the top routing decision — draft the application. Pairing rule: weak title words need confirmation. Quarantine: where malformed records go, never crashing the run.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'matcher' lands"
+          },
+          {
+            "at": 0.32,
+            "event": "'fit score' lands"
+          },
+          {
+            "at": 0.52,
+            "event": "'PURSUE' lands"
+          },
+          {
+            "at": 0.68,
+            "event": "'pairing rule' lands"
+          },
+          {
+            "at": 0.84,
+            "event": "'quarantine' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Lecture",
+            "terms": [
+              {
+                "term": "matcher",
+                "meaning": "the program that scores postings"
+              },
+              {
+                "term": "fit score",
+                "meaning": "one number from five dimensions"
+              },
+              {
+                "term": "PURSUE",
+                "meaning": "the top routing decision"
+              },
+              {
+                "term": "pairing rule",
+                "meaning": "weak words need confirmation"
+              },
+              {
+                "term": "quarantine",
+                "meaning": "where malformed records go"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: five prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "the problem",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Assignment 3 collected: three thousand four hundred forty-six postings across eighteen boards. Ninety-seven kept. But collecting isn't judging — of those ninety-seven, which ones actually matter?",
+      "estimated_duration_s": 10.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A big pile of posting marks shrinks to 97; a question mark rises over them.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "pile shrinks to 97"
+          },
+          {
+            "at": 0.55,
+            "event": "question mark rises"
+          }
+        ],
+        "manim": {
+          "class": "M01_WhichMatter"
+        },
+        "motion_claim": "The shrinking pile is the funnel; the '?' is the unanswered question."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "the problem",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Assignment 4, Part 1 demands real intelligence. Not more storage — decisions. The machine must go from 'here are the postings' to 'here is what to do about them.' Collect, then judge.",
+      "estimated_duration_s": 12.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A box labeled 'collect' hands a posting to a box labeled 'judge'; a verdict stamp lands.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "handoff from collect to judge"
+          },
+          {
+            "at": 0.6,
+            "event": "verdict stamp lands"
+          }
+        ],
+        "manim": {
+          "class": "M02_CollectJudge"
+        },
+        "motion_claim": "The handoff plus the stamp is the assignment's demand in motion."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "the design",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The design: five dimensions, one fit score. The title's role words count most — thirty percent. A named audience and a materials signal, twenty each. Whether it rewards a gap in the CV, fifteen. And the company's education demand, fifteen. The weights are judgment — labeled in the code, not hidden.",
+      "estimated_duration_s": 20.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Five bars labeled with weights 0.30/0.20/0.20/0.15/0.15 merge into one number.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "five weighted bars"
+          },
+          {
+            "at": 0.55,
+            "event": "bars merge into one number"
+          }
+        ],
+        "manim": {
+          "class": "M03_FiveDimensions"
+        },
+        "motion_claim": "Bars merging into one number IS the fit score."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "the design",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And routing, not just scoring. Zero point six five or higher: PURSUE — draft the application. Zero point four five: NETWORK — find the human first. Zero point two five: WATCH. Below that: SKIP. Decisions a person can act on.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A vertical gauge; lines draw at 0.65, 0.45, 0.25; zones label PURSUE, NETWORK, WATCH, SKIP.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "gauge"
+          },
+          {
+            "at": 0.4,
+            "event": "threshold lines draw"
+          },
+          {
+            "at": 0.7,
+            "event": "zones label"
+          }
+        ],
+        "manim": {
+          "class": "M04_Routing"
+        },
+        "motion_claim": "The gauge with zones is the decision, not just the number."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "the design",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Every score carries its evidence. The rationale quotes what fired: 'title matches developer education,' 'rewards CV gap: certification.' A number you can't audit is a rumor.",
+      "estimated_duration_s": 10.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A score card; evidence lines type in beneath it, each quoted.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "score card"
+          },
+          {
+            "at": 0.45,
+            "event": "evidence lines type in"
+          }
+        ],
+        "manim": {
+          "class": "M05_Rationale"
+        },
+        "motion_claim": "The typing evidence lines are the 'why'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "two implementations, new coverage",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Implementation one: matcher.py. Plain Python, runs anywhere. Seven hundred fourteen postings scored in three point one seconds.",
+      "estimated_duration_s": 6.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A script mark; posting marks fly through it; a stopwatch spins to 3.1s.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "postings fly through the script"
+          },
+          {
+            "at": 0.55,
+            "event": "stopwatch spins to 3.1s"
+          }
+        ],
+        "manim": {
+          "class": "M06_MatcherPy"
+        },
+        "motion_claim": "Speed in motion; the stopwatch is the scale claim."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "two implementations, new coverage",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Implementation two: the n8n equivalent. Schedule, fetch the boards, normalize, score, route, write the briefs, email the digest. Same weights, same thresholds, same decisions — eleven nodes, validated. Two implementations, one spec.",
+      "estimated_duration_s": 12.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Node boxes link left to right: schedule, fetch, normalize, score, route, briefs, email.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "nodes appear"
+          },
+          {
+            "at": 0.45,
+            "event": "links draw left to right"
+          }
+        ],
+        "manim": {
+          "class": "M07_N8n"
+        },
+        "motion_claim": "The linked chain is the workflow."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "two implementations, new coverage",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "New coverage: Anthropic's board is live. Six hundred forty postings pulled today. The equivalents are real — Developer Education Lead for the Claude Platform, fit zero point nine one. The direct equivalent of the Figma target.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A board fills with posting marks; one rises to the top labeled 0.91.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "board fills"
+          },
+          {
+            "at": 0.55,
+            "event": "one posting rises, labeled 0.91"
+          }
+        ],
+        "manim": {
+          "class": "M08_AnthropicLive"
+        },
+        "motion_claim": "The rising posting is the equivalent found."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "two implementations, new coverage",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Meta's board is unreadable — a JavaScript shell on private GraphQL, no public feed. Recorded honestly, the way Google was. And a hand search found no 'Muse for education' role. Absence is a measurement gap, not evidence of no demand.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A browser window; the page renders as an empty shell; a 'no feed' mark.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "browser window"
+          },
+          {
+            "at": 0.5,
+            "event": "empty shell, no-feed mark"
+          }
+        ],
+        "manim": {
+          "class": "M09_MetaUnreadable"
+        },
+        "motion_claim": "The empty shell is the honest finding."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "what went wrong",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "What went wrong, first: the first run put six hundred thirty-three of seven hundred fourteen postings in WATCH. Noise — generic business words like 'partner' and 'customer' counted as audience.",
+      "estimated_duration_s": 12.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Postings pour into four buckets; the WATCH bucket overflows.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "postings pour"
+          },
+          {
+            "at": 0.5,
+            "event": "WATCH bucket overflows"
+          }
+        ],
+        "manim": {
+          "class": "M10_WatchFlood"
+        },
+        "motion_claim": "The overflowing bucket is the failure, shown."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "what went wrong",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The fix: the pairing rule. Discounted title words — training, enablement, education — only count when the text confirms them with a named audience or a materials phrase. It operationalizes Bear's own reversal: training your own people counts; pure process doesn't.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A weak word mark ('training') alone fades; paired with an audience mark it lights up.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "weak word alone fades"
+          },
+          {
+            "at": 0.55,
+            "event": "paired, it lights up"
+          }
+        ],
+        "manim": {
+          "class": "M11_PairingRule"
+        },
+        "motion_claim": "Fading versus lighting IS the rule."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "what went wrong",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then the bullseye failed. The Claude Docs role — the perfect materials-maker job — scored zero point four six. The materials vocabulary had no phrase for 'own the documentation.' Measured across seven hundred thirty-seven postings: two hits, both right. Added. Now zero point six six — PURSUE. And 'documentation for' measured eight hits, mostly boilerplate — rejected.",
+      "estimated_duration_s": 22.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A gauge needle sits at 0.46; the phrase 'own the documentation' drops in; the needle swings to 0.66, past the PURSUE line.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "needle at 0.46"
+          },
+          {
+            "at": 0.45,
+            "event": "phrase drops in"
+          },
+          {
+            "at": 0.7,
+            "event": "needle swings past PURSUE"
+          }
+        ],
+        "manim": {
+          "class": "M12_Bullseye"
+        },
+        "motion_claim": "The swinging needle is the fix, measured."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B13",
+      "act": "results, and when things break",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Final: twenty-two PURSUE, thirty-seven NETWORK, three hundred twenty-five WATCH, three hundred thirty SKIP. Zero quarantined. Top of the list: the Anthropic education lead, Figma's Designer Advocate for Partnerships, Webflow's Senior Developer Educator.",
+      "estimated_duration_s": 12.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Four buckets fill to proportion: 22, 37, 325, 330.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "buckets fill to proportion"
+          }
+        ],
+        "manim": {
+          "class": "M13_Final"
+        },
+        "motion_claim": "Proportions shown honestly — most of the board is not actionable."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B14",
+      "act": "results, and when things break",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And outputs a human can open: the digest as markdown and HTML, fifteen per-role briefs, the run report with timings. Not JSON — files.",
+      "estimated_duration_s": 9.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Files land in a row: digest.md, digest.html, fifteen briefs, run report.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "files land one by one"
+          }
+        ],
+        "manim": {
+          "class": "M14_Outputs"
+        },
+        "motion_claim": "The landing files are the deliverable."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B15",
+      "act": "results, and when things break",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "When things break: fetches retry with backoff, then fall back to cached data — the digest still ships, flagged. Malformed records go to quarantine, counted and named. The run never dies silently.",
+      "estimated_duration_s": 12.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A fetch fails (X mark), retries loop, then falls back to a cached file; a malformed record drops into quarantine.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "fetch fails, retries loop"
+          },
+          {
+            "at": 0.5,
+            "event": "fallback to cached"
+          },
+          {
+            "at": 0.75,
+            "event": "bad record quarantined"
+          }
+        ],
+        "manim": {
+          "class": "M15_Errors"
+        },
+        "motion_claim": "The loop and the fallback are the promise."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B16",
+      "act": "the evaluation",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now the evaluation. This film is also a test of Muse doing agentic work: it wrote the scripts, pulled the boards, ran the analysis, tuned from measured evidence, and pushed everything to the repo where Bear can see it.",
+      "estimated_duration_s": 15.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A checklist ticks: wrote scripts, ran analysis, tuned from evidence, pushed to repo.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "checklist ticks through"
+          }
+        ],
+        "manim": {
+          "class": "M16_Evaluation"
+        },
+        "motion_claim": "The ticking checklist is the evaluation so far."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "B17",
+      "act": "the evaluation",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "What failed: my own push script had a scoping bug. Twenty-five files failed; zero went up. Fixed it, re-ran, all twenty-five landed. Logged, not hidden. That is the standard being demonstrated.",
+      "estimated_duration_s": 12.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Twenty-five file marks try to rise to a cloud; all fall back; a wrench turns; all twenty-five rise.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "files fall back"
+          },
+          {
+            "at": 0.5,
+            "event": "wrench turns"
+          },
+          {
+            "at": 0.7,
+            "event": "all twenty-five rise"
+          }
+        ],
+        "manim": {
+          "class": "M17_PushBug"
+        },
+        "motion_claim": "Falling then rising is the honest failure and fix."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "recap",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Let's recap. Assignment 3 collected 3,446 postings; Part 1 judges them — five dimensions, one fit score, four decisions. Two implementations, one spec: matcher.py and the n8n workflow. Anthropic's board is live with real equivalents; Meta's is unreadable, honestly recorded. What went wrong got measured and fixed: the pairing rule, the bullseye at 0.66. Twenty-two PURSUE, zero quarantined — everything pushed to GitHub, failures included.",
+      "estimated_duration_s": 26.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "line 1 lands"
+          },
+          {
+            "at": 0.28,
+            "event": "line 2 lands"
+          },
+          {
+            "at": 0.46,
+            "event": "line 3 lands"
+          },
+          {
+            "at": 0.62,
+            "event": "line 4 lands"
+          },
+          {
+            "at": 0.78,
+            "event": "line 5 lands"
+          },
+          {
+            "at": 0.9,
+            "event": "line 6 lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "The Opportunity Matcher",
+            "artifactHeading": "Recap",
+            "brandLabel": "@NikBearBrown",
+            "artifactLines": [
+              "3,446 postings collected; Part 1 judges them — five dimensions, one score.",
+              "Routing, not just scoring: PURSUE, NETWORK, WATCH, SKIP.",
+              "Two implementations, one spec: matcher.py and the n8n workflow.",
+              "Anthropic live with real equivalents; Meta unreadable, honestly recorded.",
+              "Measured fixes: the pairing rule, the bullseye at 0.66.",
+              "22 PURSUE, 0 quarantined — everything on GitHub, failures included."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Pick one kept posting and score it by hand on the five dimensions — role, audience, materials, gap, company. Then compare with the machine's routing. Check two things yourself. Is your score within zero point one of the machine's? And can you name the single signal that decided it?",
+      "estimated_duration_s": 20.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "MATCHER · YOUR TURN",
+            "segment": "Score One By Hand",
+            "command": "Pick a kept posting; score role/audience/materials/gap/company",
+            "runningText": "scoring by hand…",
+            "output": [
+              "Check: your score is within 0.1 of the machine's.",
+              "Check: you can name the deciding signal."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Muse Spark",
+            "effortLabel": "Low"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Muse builds the opportunity matcher. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Muse builds the opportunity matcher",
+            "slug": "claude-liam-lecture-a4-part1-opportunity-matcher",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
