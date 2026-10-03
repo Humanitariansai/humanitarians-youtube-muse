@@ -1,0 +1,123 @@
+{
+  "title": "ChatGPT or Claude?",
+  "film": "everyone-wants-one-ai",
+  "series": "Humanitarians AI \u2014 how-to-use-ai (general-audience redos)",
+  "skill": "ai-explainer",
+  "channel": "claude-liam",
+  "persona": "Liam",
+  "in_for_bear": true,
+  "voice_kokoro": "am_onyx",
+  "register": "Teardown",
+  "watermark": "@NikBearBrown",
+  "greeting": "Hola, Liam",
+  "beats": [
+    {
+      "id": "B00",
+      "scene": "M01",
+      "dur_s": 18,
+      "act": "hook",
+      "voice": "Liam",
+      "line": "Hola. This is Liam, in for Bear. Everyone wants one AI \u2014 one subscription, one app, done. So which is it: ChatGPT or Claude? I typed that exact question into Claude. Here\u2019s what came back \u2014 and the part it got right.",
+      "screen": "Composer sketch: window, 'Hola, Liam', typed question, three answer lines fade in."
+    },
+    {
+      "id": "B01",
+      "scene": "M02",
+      "dur_s": 26,
+      "act": "hook",
+      "voice": "Liam",
+      "line": "Here\u2019s the whole film in one breath. Stop shopping for the smartest AI on a leaderboard. The question isn\u2019t which one is best on a chart \u2014 it\u2019s which one fits the work you actually do. And the only honest test is running your own real tasks through it. That\u2019s the film. Now the details.",
+      "screen": "Writer types 'The question isn't which is smartest.' \u2014 'smartest' struck, replaced by 'best on a chart'."
+    },
+    {
+      "id": "B02",
+      "scene": "M03",
+      "dur_s": 23,
+      "act": "1",
+      "voice": "Liam",
+      "line": "Four words you\u2019ll hear, in plain English. A model: the AI engine under the hood \u2014 you never see it directly. A prompt: what you type into the chat box. Context: what the AI already knows about you when a chat starts. And a benchmark: a test score on a chart. Useful for labs. Not for you.",
+      "screen": "Four term cards land one by one: model / prompt / context / benchmark."
+    },
+    {
+      "id": "B03",
+      "scene": "M04",
+      "dur_s": 26,
+      "act": "1",
+      "voice": "Liam",
+      "line": "The one rule, before anything else. If your company pays for one of these, use it properly \u2014 learn the thing you\u2019re already paying for instead of shopping for a better one. If you can afford both, get both. That\u2019s not a dodge. It\u2019s the honest answer. And the real benchmark isn\u2019t a chart online \u2014 it\u2019s your own work, run through the thing.",
+      "screen": "Two doors: 'the one you have' / 'both'; a bar-chart card gets a red X."
+    },
+    {
+      "id": "B04",
+      "scene": "M05",
+      "dur_s": 20,
+      "act": "2",
+      "voice": "Liam",
+      "line": "Why not the chart? Because a benchmark measures what the lab wanted measured \u2014 tidy test questions with right answers. Your job isn\u2019t a tidy test question. The chart tells you which engine is fastest on a track. It can\u2019t tell you which car fits your driveway.",
+      "screen": "Leaderboard bars with trophy get a big red X; a car settles into a driveway."
+    },
+    {
+      "id": "B05",
+      "scene": "M06",
+      "dur_s": 26,
+      "act": "2",
+      "voice": "Liam",
+      "line": "Here\u2019s why Claude makes a default work brain, and it\u2019s boring: it remembers. You keep a folder of files \u2014 who you are, what your company does, how you like things written \u2014 and Claude reads them at the start of every session. No more retyping your background in every chat. One folder, written once, beats a hundred clever prompts you saved and never used.",
+      "screen": "Left: chat window, same background line retyped 3x. Right: folder of 3 files feeds the session once."
+    },
+    {
+      "id": "B06",
+      "scene": "M07",
+      "dur_s": 23,
+      "act": "2",
+      "voice": "Liam",
+      "line": "Meanwhile ChatGPT earned its tab back. Describe an image change in plain words and it edits the picture, right in the chat. It opens your spreadsheets and documents and works on them with you, no switching apps. And when a question needs real digging, its search goes deeper. Three jobs where it\u2019s genuinely the better pick.",
+      "screen": "Three tiles land: image with edit arrow, spreadsheet grid, magnifier."
+    },
+    {
+      "id": "B07",
+      "scene": "M08",
+      "dur_s": 23,
+      "act": "2",
+      "voice": "Liam",
+      "line": "Two shortcuts, if you want the decision made for you. If most of your job is writing \u2014 reports, briefs, emails, anything long \u2014 start with Claude and its memory folder. If your week lives in images, spreadsheets, and deep research \u2014 start with ChatGPT. Those are the two exits. Pick one, and then test it.",
+      "screen": "Two columns, held: writing -> Claude (+ memory folder) / images, sheets, research -> ChatGPT."
+    },
+    {
+      "id": "B08",
+      "scene": "M09",
+      "dur_s": 21,
+      "act": "3",
+      "voice": "Liam",
+      "line": "The test takes thirty minutes, not thirty days. One real task from your week. Run it in both \u2014 same task, same afternoon. Put the two answers side by side and compare. Whichever one earned the tab, that\u2019s your answer. Charts measure what labs want measured. You measure what you need.",
+      "screen": "Stopwatch '30:00'; two output cards side by side; green check lands on one."
+    },
+    {
+      "id": "BVDT",
+      "scene": "M10",
+      "dur_s": 30,
+      "act": "recap",
+      "voice": "Liam",
+      "line": "So the verdict. One AI is a fantasy \u2014 the stack is the answer. Claude for the long-form work, kept sharp by a folder of context you write once. ChatGPT for images, spreadsheets, and deep search. There are specialists beyond those two, and they\u2019re fine. But nothing outranks the test: your work, your tasks, your judgment. If the test ever says the chart was right, believe the chart \u2014 but run the test first.",
+      "screen": "Four verdict lines with dot bullets, revealed one by one."
+    },
+    {
+      "id": "BHTF",
+      "scene": "M10",
+      "dur_s": 25,
+      "act": "do_today",
+      "voice": "Liam",
+      "line": "Your turn. Paste this into Claude: \u2018Interview me about my work week \u2014 my writing, my spreadsheets, my images \u2014 then tell me which AI should be my default, and name one task I should test in both this week.\u2019 Answer it honestly and see what it prescribes. Then run the test it suggests. That\u2019s this whole film, applied to you.",
+      "screen": "Prompt card: the paste-into-Claude interview prompt."
+    },
+    {
+      "id": "BOUT",
+      "scene": "M10",
+      "dur_s": 12,
+      "act": "outro",
+      "voice": "Liam",
+      "line": "ChatGPT or Claude? Liam, in for Bear. Thanks for watching.",
+      "screen": "Title card: 'ChatGPT or Claude?' + @NikBearBrown."
+    }
+  ]
+}
