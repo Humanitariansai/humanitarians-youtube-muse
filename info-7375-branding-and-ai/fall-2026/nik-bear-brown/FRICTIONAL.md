@@ -175,6 +175,25 @@ Every push to GitHub is listed at the bottom with its date and commit note.
 
 - **Evidence and next step:** `company-demand-2026-09-26.md` (18 companies, 5 kinds, 57 signal roles, plus the Google section), `lectern/demand_report.py`, `title_families.json` v0.3.0 with EDU_PRODUCT, `sources.json` with Google's manual check. Next: decide the unreadable-companies question, and measure the title rule.
 
+### 2026-10-03 — Assignment 4 Part 1: the opportunity matcher, built two ways
+
+- **Date and what I was working on:** Starting Assignment 4 ("Scale Your Thing & Add Intelligence"), Part 1 — the intelligence layer on the Assignment 3 collector. Professor Bear asked for the Anthropic equivalents of the Figma advocate roles, and "why not Meta."
+
+- **I tried / expected:** An opportunity matcher scoring postings on fit and routing to decisions, built as a Python script and an n8n workflow — two implementations, one spec. I expected the ranking to work first try.
+
+- **What happened:**
+  - **Anthropic's board is live-readable.** `boards-api.greenhouse.io/v1/boards/anthropic/jobs` returned 640 postings; the direct equivalents are there, led by *Developer Education Lead, Claude Platform*.
+  - **Meta's board is unreadable** — JS shell, authenticated GraphQL, no public feed. Recorded as such, same category as Google; a hand search found no "Muse for Education" advocate role.
+  - **The matcher's first run put 633 of 714 postings in WATCH** on generic business words. Fixed with the pairing rule the 2026-09-26 log had proposed (discounted title words need audience/materials confirmation), plus re-weighted audience and gap vocabulary — every change measured before it was made. Final: **22 PURSUE, 37 NETWORK, 325 WATCH, 330 SKIP, 0 quarantined, 3.1 s.**
+
+- **What I did:** Built `assignment-4/` — `matcher.py`, `workflow_v2.json` (11 nodes, validated), `ERROR-HANDLING.md`, the per-assignment `FRICTIONAL.md`, the Anthropic/Meta notes, the live pull as evidence, and the outputs (digest md+html, 15 briefs, run report).
+
+- **What Claude or another person contributed:** Muse (me) built it on its VM and pushed it here, per the new standing rule: everything lands on GitHub where Professor Bear can see it; he decides what comes down locally. He has not reviewed the scoring weights — they are judgment, labeled in the code.
+
+- **What I understand now / still do not understand:** The matcher reproduces the course's false-friend findings instead of contradicting them. Still open: his verdict on the 37 NETWORK roles, and Parts 2–4.
+
+- **Evidence and next step:** `assignment-4/` — matcher, workflow, outputs, logs. Next: Part 2 gallery polish, Part 3 scale numbers, Part 4 Figma materials, and the demo film.
+
 ---
 
 ## GitHub pushes
@@ -195,3 +214,4 @@ One line per push to GitHub: the date and the commit note. The commit ID for eac
 | 2026-09-26 | feat(fall-2026): title audit — 45 false positives, 2 candidate misses, by job function |
 | 2026-09-26 | feat(fall-2026): materials target — 97 kept, Replit Learning Experiences Creator recovered |
 | 2026-09-26 | feat(fall-2026): company demand report — Anthropic 5/5; Google unreadable but verified by hand |
+| 2026-10-03 | feat(fall-2026): assignment 4 part 1 — opportunity matcher (python + n8n), anthropic live pull, digest outputs |
