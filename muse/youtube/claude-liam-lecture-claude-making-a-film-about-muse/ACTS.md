@@ -86,7 +86,7 @@ SOURCES.md.
 
 ## ACT IV — Security concerns (doc §5)
 
-Twelve subsections, grouped into seven beats. All presented as Bear and
+Twelve subsections, grouped into eight beats. All presented as Bear and
 Claude's critique; third-party findings attributed.
 
 1. Full Disk Access instead of folder-level (5.1): the whole disk; Meta's
@@ -112,11 +112,12 @@ Claude's critique; third-party findings attributed.
 6. Trust by design (5.9): the mascot/persona as trust shortcuts; a cute
    character reads as safe before earning it; "superintelligence" branding
    overpromises for an errand agent.
-7. Business conflicts (5.10) + platform dependence (5.11) + phone exposure
-   (5.12): affordability advice from the company selling the ads;
-   self-graded attribution; Meta-inventory-only spend advice; lock-in;
-   shopper-optimized roadmap (developer features can vanish); mobile
-   permissions (contacts, messages, health) — Nik won't use it.
+7. Business conflicts (5.10) + platform dependence (5.11): affordability
+   advice from the company selling the ads; self-graded attribution;
+   Meta-inventory-only spend advice; lock-in; shopper-optimized roadmap
+   (developer features can vanish).
+8. Phone exposure (5.12): mobile permissions (contacts, messages, health) —
+   Nik won't use it.
 
 ## ACT V — How Bear resolved it (doc §6)
 
@@ -154,5 +155,5 @@ guarantees; how long the free tier stays generous; whether ads come to Muse.
 
 ## Runtime estimate (information only)
 
-~22 body beats × ~10 s ≈ 220 s + bookends ≈ 70 s → roughly 5 minutes.
+23 body beats, ~444 s estimated (~7.4 min).
 Length is an output; no target.
