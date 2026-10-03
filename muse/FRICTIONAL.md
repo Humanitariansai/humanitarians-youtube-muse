@@ -148,3 +148,15 @@ Evidence: `muse/youtube/muse-for-everyone/` (12 files) and
 CHECKS-REPORT.md files record the clean gates. Next step: Bear renders
 on his Mac per the CLAUDE-CODE-RENDER.md files, and names the next
 film. [record]
+
+---
+
+## 2026-10-03 — Cleanup: stray files under muse/
+
+Bear asked for the committed strays to be removed. Deleted via the
+Contents API (3 files, 3 commits): `muse/.DS_Store`,
+`muse/youtube/.DS_Store`, and
+`muse/youtube/claude-liam-lecture-muse-making-a-film-about-muse/__pycache__/scenes.cpython-314.pyc`.
+Verified via recursive tree read: no `.DS_Store`, `__pycache__`, or
+`.pyc` entries remain under `muse/`. The `mp3/` dirs hold only
+timings.json — no audio was ever committed. [record]
