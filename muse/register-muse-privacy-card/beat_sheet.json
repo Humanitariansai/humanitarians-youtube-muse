@@ -1,0 +1,142 @@
+{
+  "title": "Register for Muse with a privacy.com card",
+  "film": 1,
+  "series": "Humanitarians AI \u2014 Muse films",
+  "beats": [
+    {
+      "id": "BIDEA",
+      "scene": "M01",
+      "dur_s": 18,
+      "act": "hook",
+      "voice": "Muse",
+      "line": "You want to try Muse, Meta's personal AI agent. But signup asks for a credit card, and you don't want your real card on yet another form. Here's the workaround: a virtual card with a ten-dollar limit. This film shows you the whole path.",
+      "screen": "Signup form sketch; card field circled; $10-limit virtual card slides in."
+    },
+    {
+      "id": "BDEFS",
+      "scene": "M02",
+      "dur_s": 22,
+      "act": "hook",
+      "voice": "Muse",
+      "line": "Four terms. Muse: Meta's personal AI agent, free to start. Meta account: your Instagram or Facebook login \u2014 it changes the signup. Authorization hold: a one-dollar card check, not a charge, released in about a week. Virtual card: a privacy.com card number with its own spending limit.",
+      "screen": "Four terms appear: Muse / Meta account / authorization hold / virtual card."
+    },
+    {
+      "id": "B01",
+      "scene": "M03",
+      "dur_s": 22,
+      "act": "1",
+      "voice": "Muse",
+      "line": "First, what you're signing up for. Muse is Meta's personal AI agent \u2014 your own agent on its own computer. It launched in September 2026 for the US and Canada. Free to start, with a usage limit, and paid monthly plans if you want more. Use it on the web at muse.ai, or the phone and Mac apps.",
+      "screen": "Three panels grow: muse.ai window, phone, Mac; US + Canada tag."
+    },
+    {
+      "id": "B02",
+      "scene": "M04",
+      "dur_s": 18,
+      "act": "1",
+      "voice": "Muse",
+      "line": "Now the fork. If you already have an Instagram, Facebook, or other Meta account, sign in with it. Meta already knows you, so it probably won't ask for a credit card at all. That's the easy path \u2014 most people take it.",
+      "screen": "Fork diagram; YES path (have Meta account) gets the checkmark."
+    },
+    {
+      "id": "B03",
+      "scene": "M05",
+      "dur_s": 20,
+      "act": "1",
+      "voice": "Muse",
+      "line": "No Meta account? Then signup asks for a card. It places a one-dollar authorization hold \u2014 a card validity check, not a charge \u2014 and releases it in about a week. Standard practice. But if you'd rather not hand over your real card, here's the workaround.",
+      "screen": "$1 coin drops on a card; 'hold, not a charge'; release timeline fills."
+    },
+    {
+      "id": "B04",
+      "scene": "M06",
+      "dur_s": 20,
+      "act": "2",
+      "voice": "Muse",
+      "line": "privacy.com makes virtual debit cards \u2014 real card numbers that draw from your bank, each with its own spending limit. There's a free tier. One catch: it's US-only. If you're in the US, this is the workaround.",
+      "screen": "Virtual card mockup; US-only tag; free tier tag."
+    },
+    {
+      "id": "B05",
+      "scene": "M07",
+      "dur_s": 22,
+      "act": "2",
+      "voice": "Muse",
+      "line": "Step one: make a privacy.com account. Link your bank account or debit card as the funding source and verify your identity \u2014 that's the KYC check. Step two: hit New Card, name it something like Muse signup, and you get a fresh sixteen-digit number, expiry, and CVV.",
+      "screen": "Two-step flow: account card (bank link + ID check) \u2192 new card with fresh number."
+    },
+    {
+      "id": "B06",
+      "scene": "M08",
+      "dur_s": 20,
+      "act": "2",
+      "voice": "Muse",
+      "line": "Step three: set the limit. Click Spend Limit on the card, type ten dollars, and pick per-transaction or total. Anything over ten dollars is declined automatically. The one-dollar hold clears easily inside a ten-dollar limit \u2014 and nothing bigger can ever go through.",
+      "screen": "Limit slider animates to $10; $1 coin fits under the limit bar."
+    },
+    {
+      "id": "B07",
+      "scene": "M09",
+      "dur_s": 20,
+      "act": "2",
+      "voice": "Muse",
+      "line": "Step four: use it at Muse signup. Enter the virtual card number, expiry, and CVV where it asks for a card. The one-dollar hold goes through, signup completes. After that, pause or close the card \u2014 it locks to the first merchant anyway, so it can't be used anywhere else.",
+      "screen": "Card details fly into the signup form; hold clears; pause icon lands."
+    },
+    {
+      "id": "B08",
+      "scene": "M10",
+      "dur_s": 18,
+      "act": "3",
+      "voice": "Muse",
+      "line": "Card accepted \u2014 now setup. Muse asks your name, then what to call your agent. Pick something you'll like saying. This is your personal agent, not a shared chatbot: every conversation is between you and it.",
+      "screen": "Two name fields type in; 'personal, not shared' bubble."
+    },
+    {
+      "id": "B09",
+      "scene": "M11",
+      "dur_s": 20,
+      "act": "3",
+      "voice": "Muse",
+      "line": "Then it offers to connect your apps \u2014 Gmail and Google Calendar. This is optional, and it's what makes the agent useful: it can read your inbox and manage your schedule, with your approval. Connect now, or skip and do it later.",
+      "screen": "Gmail and Calendar connect cards; toggles flip on; 'optional' tag."
+    },
+    {
+      "id": "B10",
+      "scene": "M12",
+      "dur_s": 20,
+      "act": "3",
+      "voice": "Muse",
+      "line": "And you're in. Free access with a usage limit gets you started; paid monthly plans add more. Your agent has its own computer, so it can keep working while you're away. The whole signup cost you one virtual card \u2014 your real card number never touched the form.",
+      "screen": "Agent at its own computer; usage-limit gauge; 'real card never touched the form' stamp."
+    },
+    {
+      "id": "BVDT",
+      "scene": "M13",
+      "dur_s": 24,
+      "act": "recap",
+      "voice": "Muse",
+      "line": "So: act one, the signup fork \u2014 a Meta account probably skips the card; without one, expect a one-dollar hold, released in about a week. Act two, the workaround \u2014 a privacy.com virtual card with a ten-dollar limit clears the hold and caps your exposure. Act three, setup \u2014 name yourself, name your agent, connect your apps, and you're in.",
+      "screen": "Three recap lines, one per act."
+    },
+    {
+      "id": "BHTF",
+      "scene": "M13",
+      "dur_s": 18,
+      "act": "do_today",
+      "voice": "Muse",
+      "line": "Your turn. Today: open privacy.com, create the card, set the ten-dollar limit. Then go to muse.ai and register. Tell me what you named your agent.",
+      "screen": "Do-today card: 1. privacy.com \u2192 new card \u2192 $10 limit. 2. muse.ai \u2192 register."
+    },
+    {
+      "id": "BOUT",
+      "scene": "M13",
+      "dur_s": 14,
+      "act": "outro",
+      "voice": "Muse",
+      "line": "Muse, in for Bear. Thanks for watching. Next film: connecting Gmail without the mess.",
+      "screen": "Nik Bear Brown watermark card."
+    }
+  ]
+}
