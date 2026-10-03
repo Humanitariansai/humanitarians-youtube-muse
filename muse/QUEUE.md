@@ -1,0 +1,60 @@
+# Film queue — "How to AI"
+
+Useful AI tips for somebody who wants to learn AI. Smart general
+audience, not AI experts. Every film: Liam persona, Kokoro `am_onyx`,
+Teardown register, channel `claude-liam`, watermark `@NikBearBrown`.
+
+**How this queue works:** Bear picks the next film(s) from the top.
+Completed films move to `muse/README.md`. Sources marked REFACTOR get
+copied from the mirror repo (`nikbearbrown/humanitarians-youtube-muse`)
+and rewritten; NEW films are built from scratch.
+
+## Wave 1 — Prompting fundamentals (refactors)
+
+The existing prompt-tutorial lessons, rewritten for a general audience.
+
+| # | Working title | Pitch | Source | Skill |
+|---|---|---|---|---|
+| 1 | Say what you want, plainly | Be clear and direct: the single highest-leverage prompting habit. | REFACTOR `claude/claude-for-education/claude-liam-prompt-tutorial-lesson-02-clear-and-direct` | show-tell |
+| 2 | Tell the AI who to be | Role prompting: "act as a …" and why it works. | REFACTOR `claude/claude-for-education/claude-liam-prompt-tutorial-lesson-03-role-prompting` | show-tell |
+| 3 | Show it an example | Few-shot: one example beats a paragraph of instructions. | REFACTOR `claude/claude-for-education/claude-liam-prompt-tutorial-lesson-07-few-shot-prompting` | show-tell |
+| 4 | Ask for the shape you want back | Formatting output: tables, bullets, length, tone. | REFACTOR `claude/claude-for-education/claude-liam-prompt-tutorial-lesson-05-formatting-output` | show-tell |
+| 5 | Keep instructions and data apart | Separating data: why pasted content confuses the AI and how to fence it. | REFACTOR `claude/claude-for-education/prompt-tutorial-lesson-04-separating-data` | ai-explainer |
+| 6 | Think one step ahead | Precognition: ask for what you'll need next, not just now. | REFACTOR `claude/claude-for-education/claude-liam-prompt-tutorial-lesson-06-precognition` | show-tell |
+| 7 | Don't get fooled | Avoiding hallucinations: the habits that keep you safe. | REFACTOR `claude/claude-for-education/prompt-avoiding-hallucinations` | ai-explainer |
+
+## Wave 2 — Working habits (new)
+
+| # | Working title | Pitch | Source | Skill |
+|---|---|---|---|---|
+| 8 | The first answer is a draft | Iterate: how to push back, refine, and steer to a good result. | NEW | show-tell |
+| 9 | Make it interview you first | Ask the AI to ask *you* questions before it starts — better briefs, better answers. | NEW | show-tell |
+| 10 | Make it check its own work | Self-critique: "find the flaws in your answer" and similar moves. | NEW | ai-explainer |
+| 11 | Small steps, big jobs | Break big tasks into steps instead of one giant prompt. | NEW | show-tell |
+| 12 | When it's confidently wrong | The recovery playbook: what to do when the AI insists. | NEW | deep-explainer |
+
+## Wave 3 — Real uses (mixed)
+
+| # | Working title | Pitch | Source | Skill |
+|---|---|---|---|---|
+| 13 | Learn anything faster | AI as tutor: explanations, quizzes, Socratic mode. | NEW | show-tell |
+| 14 | Write with AI, still sound like you | Drafting with AI without the robotic aftertaste. | NEW | show-tell |
+| 15 | Tame your spreadsheets | Formulas, cleanup, and analysis without fear. | REFACTOR `claude/claude-for-education/claude-liam-how-to-make-perfect-spreadsheets` | show-tell |
+| 16 | Meetings into notes | Turn rambling meetings into summaries and action items. | NEW | show-tell |
+| 17 | Plan anything | Trips, projects, budgets: AI as planning partner. | NEW | show-tell |
+| 18 | Just talk to it | Voice mode basics: when talking beats typing. | NEW | show-tell |
+| 19 | Pictures from words | Image generation basics for non-designers. | NEW (see also `fellows/rohan-v/2026-09-25-how-ai-image-generators-turn-noise-into-a-picture` — how-it-works version) | ai-explainer |
+
+## Wave 4 — Staying safe and smart (mixed)
+
+| # | Working title | Pitch | Source | Skill |
+|---|---|---|---|---|
+| 20 | What never to paste into AI | Privacy rules of thumb for everyday use. | NEW (companion to `personal-ai-at-work`) | cc-explainer |
+| 21 | Trust, but verify | How to check AI claims: a verification habit. | REFACTOR `fellows/aujaswi-a/2026-08-19-how-to-spot-unreliable-ai-research` | ai-explainer |
+| 22 | Free vs paid: when to pay | What the paid tiers actually buy you, and when it matters. | NEW | cc-explainer |
+| 23 | Set it up once | Custom instructions: teach the AI your preferences a single time. | NEW | show-tell |
+| 24 | One AI or many? | How to pick between tools without obsessing. | NEW (companion to `everyone-wants-one-ai`) | cc-explainer |
+
+## Done
+
+Moved to `muse/README.md` as films ship.
