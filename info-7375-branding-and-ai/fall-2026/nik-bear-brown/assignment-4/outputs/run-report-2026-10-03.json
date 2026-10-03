@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-03",
+  "scored": 714,
+  "live_added": 640,
+  "decisions": {
+    "PURSUE": 22,
+    "NETWORK": 37,
+    "WATCH": 325,
+    "SKIP": 330
+  },
+  "quarantined": 0,
+  "errors": [],
+  "elapsed_s": 3.1,
+  "weights": {
+    "role_fit": 0.3,
+    "audience_fit": 0.2,
+    "materials": 0.2,
+    "gap_close": 0.15,
+    "company": 0.15
+  },
+  "thresholds": {
+    "PURSUE": 0.65,
+    "NETWORK": 0.45,
+    "WATCH": 0.25
+  }
+}
