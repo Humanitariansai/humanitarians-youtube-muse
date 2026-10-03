@@ -1,0 +1,301 @@
+{
+ "metadata": {
+  "title": "You can't beat AI.",
+  "slug": "you-cant-beat-ai",
+  "series": "Humanitarians AI - Muse films (general-audience redos)",
+  "write_path": "muse/youtube/how-to-use-ai/you-cant-beat-ai/",
+  "derived_from": "nikbearbrown/humanitarians-youtube-muse/claude-for-artificial-intelligence/how-to-beat-ai-once-it-inevitably/beat_sheet.json",
+  "brand": "claude-liam",
+  "persona": "Liam (in for Bear)",
+  "engine": "kokoro",
+  "voice_kokoro": "am_onyx",
+  "register": "Teardown",
+  "folder_label": "@NikBearBrown",
+  "audience": "smart, pragmatic general audience; not necessarily AI experts",
+  "palette": {
+   "page": "#F2F0E9",
+   "ink": "#3D3929",
+   "accent": "#D97757",
+   "warn": "#A44A32"
+  }
+ },
+ "beats": [
+  {
+   "id": "B00",
+   "scene": "S01",
+   "dur_s": 26,
+   "act": "cold-open",
+   "voice": "Liam",
+   "line": "Hallo. This is Liam, in for Bear. Here's what losing to AI looks like. You paste your problem into the app. It answers in seconds - confident, polished, complete. And you ship it. That feels like winning. It isn't. This film is about how to work with AI without letting it make you worse at your own job.",
+   "screen": "Chat window: user pastes a problem, AI answers instantly with a big polished document. 'That feels like winning.' Arrow bends down: 'It isn't.'",
+   "show": [
+    {
+     "at": "composer",
+     "event": "chat window; user question line types in"
+    },
+    {
+     "at": "AI answers",
+     "event": "answer bar rushes out; big polished document icon lands"
+    },
+    {
+     "at": "feels like winning",
+     "event": "checkmark pulse; then document slides down as the verdict arrow bends"
+    }
+   ],
+   "word_count": 57
+  },
+  {
+   "id": "B01",
+   "scene": "S02",
+   "dur_s": 20,
+   "act": "overview",
+   "voice": "Liam",
+   "line": "You cannot beat AI at producing work. So stop competing with it. Outsource the work, never the understanding. The document, the draft, the polish - hand them over. The thinking that should have happened before you opened the app - that stays yours.",
+   "screen": "Hesitant writer on paper: 'You can't beat AI at making things' - struck through - replaced with 'You can't beat AI. So stop competing. Keep the thinking for yourself.'",
+   "show": [
+    {
+     "at": "open",
+     "event": "paper; writer types 'You can't beat AI at making things'"
+    },
+    {
+     "at": "stop competing",
+     "event": "strike-through lands; correction types in"
+    }
+   ],
+   "lead_silence_s": 0.8,
+   "word_count": 41
+  },
+  {
+   "id": "B02",
+   "scene": "S03",
+   "dur_s": 23,
+   "act": "body",
+   "voice": "Liam",
+   "line": "Here's how most people use AI, and why it fails them. You hit a problem. You open the app. You paste it in and hope the machine understands what you meant. It doesn't. Not exactly. Hope is not a method - and every vague instruction is a bet that the machine guesses your intent correctly.",
+   "screen": "Stick figure with a question mark; arrow into an AI box; mushy document comes out; user shrugs. 'Hope is not a method.'",
+   "show": [
+    {
+     "at": "paste it in",
+     "event": "figure -> arrow -> AI box"
+    },
+    {
+     "at": "It doesn't. Not exactly.",
+     "event": "mushy document out; shrug marks"
+    }
+   ],
+   "word_count": 54
+  },
+  {
+   "id": "B03",
+   "scene": "S04",
+   "dur_s": 26,
+   "act": "body",
+   "voice": "Liam",
+   "line": "Think of AI like GPS in your car. It gets you there. But every trip, you stop looking up. You stop learning the terrain. And the day you have to navigate without it - a dead phone, a client asking why - you're lost in your own city. The tool didn't fail. Your skill did.",
+   "screen": "Map with dashed route A->B; driver dot, head down; terrain greys out trip by trip; final panel: no route, confused squiggle. 'The tool didn't fail. Your skill did.'",
+   "show": [
+    {
+     "at": "like GPS",
+     "event": "map; dashed route A to B"
+    },
+    {
+     "at": "stop learning the terrain",
+     "event": "terrain layer fades to ghost grey"
+    },
+    {
+     "at": "lost in your own city",
+     "event": "route vanishes; squiggle of confusion"
+    }
+   ],
+   "word_count": 53
+  },
+  {
+   "id": "B04",
+   "scene": "S05",
+   "dur_s": 26,
+   "act": "body",
+   "voice": "Liam",
+   "line": "So the method draws one line. You can outsource work to AI. You cannot outsource understanding. Producing the document - fine. Skipping the thinking that should have happened before you typed your instruction - that's where the rot starts. The question is whether you arrive at the prompt with clear intent, or just hoping the machine figures it out.",
+   "screen": "Two columns: 'OUTSOURCE THE WORK' with a green check stack of document icons; 'OUTSOURCE THE UNDERSTANDING' with a red cross over a thinking bubble. One line between them.",
+   "show": [
+    {
+     "at": "one line",
+     "event": "terracotta divider drops; two column heads type"
+    },
+    {
+     "at": "outsource work",
+     "event": "document stack; green check"
+    },
+    {
+     "at": "outsource understanding",
+     "event": "thinking bubble; red cross"
+    }
+   ],
+   "word_count": 57
+  },
+  {
+   "id": "B05",
+   "scene": "S06",
+   "dur_s": 30,
+   "act": "body",
+   "voice": "Liam",
+   "line": "An illustration. A chief of staff at a two-hundred-forty-person company gets the job of rolling out AI across the whole org. By Friday she owes three things: a ninety-day adoption roadmap, a one-page pricing breakdown, and an email to her exec team. Her credibility is partly on the line. This is exactly the job you'd hand to AI - and exactly where the method matters.",
+   "screen": "Desk card: calendar with Friday circled; three document icons - roadmap, pricing, email. Tag: 'Illustrative example'.",
+   "show": [
+    {
+     "at": "Friday",
+     "event": "calendar; Friday circled in terracotta"
+    },
+    {
+     "at": "three things",
+     "event": "three document icons land: roadmap / pricing / email"
+    },
+    {
+     "at": "illustration",
+     "event": "'Illustrative example' tag plate"
+    }
+   ],
+   "illustrative": true,
+   "word_count": 69
+  },
+  {
+   "id": "B06",
+   "scene": "S07",
+   "dur_s": 30,
+   "act": "body",
+   "voice": "Liam",
+   "line": "The method is five steps. One: before touching the app, write your constraints - the format, the audience, what's excluded. Two: write your first draft yourself, even a bad one. Three: paste your draft plus your constraints. Four: ask for three versions. Five: pick one, edit it, call it yours. Two extra minutes of thinking. The work that comes out is yours.",
+   "screen": "Five numbered plates in a pipeline with arrows; step two 'write your first draft' highlighted in terracotta. Each plate lights as its step is spoken.",
+   "show": [
+    {
+     "at": "five steps",
+     "event": "five plates + arrows draw in"
+    },
+    {
+     "at": "each step",
+     "event": "plate lights in narration order"
+    },
+    {
+     "at": "draft yourself",
+     "event": "step two plate takes the terracotta accent"
+    }
+   ],
+   "word_count": 61
+  },
+  {
+   "id": "B07",
+   "scene": "S08",
+   "dur_s": 22,
+   "act": "body",
+   "voice": "Liam",
+   "line": "The tell is the draft. If you can't state what you want before you open the app - no format, no draft, no constraints - you're not prompting. You're outsourcing understanding. The prompt is just the instructions you type. A clear-intent prompt starts with your words already on the page.",
+   "screen": "Two prompt cards side by side: blank card with a question mark (hope) vs. filled card with constraints lines and a check (intent). 'The prompt is the instructions you type.'",
+   "show": [
+    {
+     "at": "hope",
+     "event": "blank card; '?' pulse"
+    },
+    {
+     "at": "clear intent",
+     "event": "filled card; check; needle swings to 'intent'"
+    }
+   ],
+   "word_count": 49
+  },
+  {
+   "id": "B08",
+   "scene": "S09",
+   "dur_s": 24,
+   "act": "body",
+   "voice": "Liam",
+   "line": "The trap is subtle. The rot doesn't feel like getting dumb. It feels like getting fast. You ship faster, answer faster, produce more. Until someone asks you to explain the reasoning behind the document - and you can't. You used AI to think so you don't have to. And now the understanding is gone.",
+   "screen": "Speedometer climbs (terracotta needle); an 'understanding' bar drains beside it; final panel: a question bubble, and an empty head. 'Feels like getting fast.'",
+   "show": [
+    {
+     "at": "getting fast",
+     "event": "speedometer arc; needle climbs"
+    },
+    {
+     "at": "explain the reasoning",
+     "event": "'understanding' bar drains to zero"
+    },
+    {
+     "at": "you can't",
+     "event": "question bubble; empty-head dot"
+    }
+   ],
+   "word_count": 53
+  },
+  {
+   "id": "B09",
+   "scene": "S10",
+   "dur_s": 24,
+   "act": "verdict",
+   "voice": "Liam",
+   "line": "The verdict. You can't beat AI at making things, so stop racing it. Outsource the work - the documents, the drafts, the polish. Never outsource the thinking. Write the constraints, draft first, paste, ask for three, pick and edit. Two minutes of your own thought keeps the machine working for you instead of replacing you.",
+   "screen": "The chat window from the opening returns; the five step dots stamp across it; a terracotta 'YOURS' seal lands on the document. 'The machine works for you.'",
+   "show": [
+    {
+     "at": "verdict",
+     "event": "S01 chat window returns, faded"
+    },
+    {
+     "at": "five steps",
+     "event": "five dots stamp across the document"
+    },
+    {
+     "at": "keeps the machine",
+     "event": "'YOURS' seal in terracotta"
+    }
+   ],
+   "word_count": 54
+  },
+  {
+   "id": "B10",
+   "scene": "S11",
+   "dur_s": 34,
+   "act": "handoff",
+   "voice": "Liam",
+   "line": "Your turn. Pick one deliverable you're working on this week. Before you open the app, write your constraints and your rough intent. Then paste this into Claude: 'Here are my constraints and my rough draft. Work within my thinking - do not replace it. Give me three versions that each take a different approach, and tell me which assumption of mine each one challenges.' Run it, and watch how different the result is when the thinking was yours first.",
+   "screen": "Claude composer, greeting 'Your turn.': the suggested prompt typed in; the narration reads it aloud, then discusses what to watch for in the answer.",
+   "show": [
+    {
+     "at": "Your turn",
+     "event": "composer; 'Your turn.' greeting"
+    },
+    {
+     "at": "the prompt",
+     "event": "prompt types in; send button arms"
+    },
+    {
+     "at": "run it",
+     "event": "spark line: 'watch what it challenges'"
+    }
+   ],
+   "handoff_prompt": "Here are my constraints and my rough draft. Work within my thinking - do not replace it. Give me three versions that each take a different approach, and tell me which assumption of mine each one challenges.",
+   "word_count": 79
+  },
+  {
+   "id": "B11",
+   "scene": "S12",
+   "dur_s": 10,
+   "act": "outro",
+   "voice": "Liam",
+   "line": "You can't beat AI. From Humanitarians AI - Liam, in for Bear.",
+   "screen": "Poster: 'You can't beat AI.' serif with terracotta period; handle @NikBearBrown beneath.",
+   "show": [
+    {
+     "at": "title",
+     "event": "title restate; terracotta period"
+    },
+    {
+     "at": "handle",
+     "event": "@NikBearBrown beneath"
+    }
+   ],
+   "word_count": 11
+  }
+ ],
+ "runtime_s": 295,
+ "runtime_min": 4.92
+}
