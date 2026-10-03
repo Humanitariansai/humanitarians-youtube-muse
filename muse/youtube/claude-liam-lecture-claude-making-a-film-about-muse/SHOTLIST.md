@@ -45,7 +45,8 @@ established fact.
 | B15 | Policy, not crypto | Manim (M15): a paper shield labeled "policy" tears; a steel lock labeled "crypto" holds | Text card | The tearing paper is the argument |
 | B16 | Prompt injection + approval fatigue | Manim (M16): a page with hidden terracotta text steers the agent dot; then approval cards get rubber-stamped faster and faster | Text card | Steering + the accelerating stamp are both motions |
 | B17 | Trust by design: the mascot | Manim (M17): a cute mascot face; hearts rise from it — then a price tag drops onto it | Text card | The price tag landing on the cute face is the critique |
-| B18 | Conflicts, dependence, phone | Manim diagram (M18): three panels — a scale tipping toward ads; a roadmap shrinking; a phone with all toggles on | Three cards | Three critiques, one triptych |
+| B18 | Business conflicts + platform dependence | Manim diagram (M18): two panels — a scale tipping toward ads; a roadmap shrinking | Two cards | The tipping scale and the shrinking roadmap are the two critiques |
+| B19 | Phone exposure | Manim (M19): a phone mark; permission toggles flip on — contacts, messages, health | Text card | The flipping toggles are the exposure |
 | B19 | Removed the Mac app; web-only | Manim (M19): a Mac app icon drops into a trash can; a browser window stays lit | Text card | Removal in motion; what remains is the answer |
 | B20 | The VM → PR → review → merge → burner pipeline | Manim diagram (M20): five stations; a dot travels the pipeline left to right | Text card | The traveling dot is the workflow |
 | B21 | General rules; protect the short list | Manim diagram (M21): a wall; behind it four marks — email, money, credentials, voice | Text card | The wall with the valuables behind it is "bound the blast radius" |
@@ -53,9 +54,9 @@ established fact.
 
 ## Lane histogram (information)
 
-Manim diagram ×12, Manim chart ×1, Manim misc ×9. No quota; every pick won
+Manim diagram ×12, Manim chart ×1, Manim misc ×10. No quota; every pick won
 on motion-carries-the-claim.
 
 ## Estimated runtime (information)
 
-22 body beats × ~10 s ≈ 220 s + bookends ≈ 70 s → roughly 5 minutes.
+23 body beats, ~444 s estimated (~7.4 min).
