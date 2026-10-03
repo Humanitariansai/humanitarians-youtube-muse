@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-duc/media/videos/scenes/2160p24/partial_movie_files/B04_NameClarity/1545932810_3161435139_1007840309.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-duc/media/videos/scenes/2160p24/partial_movie_files/B04_NameClarity/2302614357_3142935987_3587216460.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-duc/media/videos/scenes/2160p24/partial_movie_files/B04_NameClarity/2302614357_335292254_1322861956.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-duc/media/videos/scenes/2160p24/partial_movie_files/B04_NameClarity/2302614357_2985545425_1662182567.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-duc/media/videos/scenes/2160p24/partial_movie_files/B04_NameClarity/2302614357_2393742028_2332138605.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-duc/media/videos/scenes/2160p24/partial_movie_files/B04_NameClarity/2302614357_4079250704_2047131604.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-duc/media/videos/scenes/2160p24/partial_movie_files/B04_NameClarity/2302614357_244104506_75672173.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-duc/media/videos/scenes/2160p24/partial_movie_files/B04_NameClarity/2302614357_95173422_3177798919.mp4'

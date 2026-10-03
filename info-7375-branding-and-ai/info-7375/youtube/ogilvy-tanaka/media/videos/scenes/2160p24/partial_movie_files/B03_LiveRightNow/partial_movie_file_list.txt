@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/1545932810_1829641508_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_228551391_3798317106.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_1825899279_3193100804.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_1021490106_3778450423.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_2752519501_1666280314.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_886985974_2080666334.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_2091703574_535220474.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_1129705051_635871032.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_2249253305_92544004.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_4079250704_891116987.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_2843316402_3019562980.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-tanaka/media/videos/scenes/2160p24/partial_movie_files/B03_LiveRightNow/2302614357_2574473371_3063941248.mp4'

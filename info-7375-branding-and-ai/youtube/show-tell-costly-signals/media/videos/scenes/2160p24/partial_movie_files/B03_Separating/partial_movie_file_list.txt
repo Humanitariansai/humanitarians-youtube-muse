@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B03_Separating/1697911619_2311300054_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B03_Separating/1167814662_2575144164_2871671549.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B03_Separating/1167814662_2710023968_3055660284.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B03_Separating/1167814662_653604813_1471615097.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B03_Separating/1167814662_2505552302_2561949988.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B03_Separating/1167814662_1700898466_1655253314.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B03_Separating/1167814662_4230320780_886136835.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B03_Separating/1167814662_3770872047_3740655996.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B03_Separating/1167814662_4209911024_1101136124.mp4'

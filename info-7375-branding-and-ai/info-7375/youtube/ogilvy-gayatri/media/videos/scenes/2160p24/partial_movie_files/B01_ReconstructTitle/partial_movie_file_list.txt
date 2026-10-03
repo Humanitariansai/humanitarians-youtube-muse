@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/1545932810_2462436915_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/2302614357_502345512_2927594604.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/2302614357_1825899279_4224169300.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/2302614357_2605611395_662505039.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/2302614357_2693925828_1666280314.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/2302614357_2906365015_2685749608.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/2302614357_1116776442_4067789294.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/2302614357_4079250704_4229688469.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/2302614357_3165255188_2842157049.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/2302614357_1589358794_3399068480.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B01_ReconstructTitle/2302614357_1105215870_3930783871.mp4'

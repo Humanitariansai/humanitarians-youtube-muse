@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B01_Judgment/1697911619_3746396332_2704039988.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B01_Judgment/1167814662_3698598223_2873729818.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B01_Judgment/1167814662_2135384714_2265402531.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B01_Judgment/1167814662_2059149540_3090311214.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B01_Judgment/1167814662_3681176743_4272024322.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B01_Judgment/1167814662_3474248072_2106636481.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B01_Judgment/1167814662_1811288276_3692012098.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B01_Judgment/1167814662_1652365371_1730292496.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B01_Judgment/1167814662_3419045611_4234460948.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B01_Judgment/1167814662_4216115126_1687810060.mp4'

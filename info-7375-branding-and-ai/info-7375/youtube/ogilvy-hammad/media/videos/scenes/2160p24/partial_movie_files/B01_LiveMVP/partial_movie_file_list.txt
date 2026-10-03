@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/1545932810_1829641508_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_2497925853_3798317106.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_1825899279_3905187825.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_3723499981_2169582029.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_834460090_1666280314.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_3592196404_2472899979.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_3755386402_263960779.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_548708818_4186984478.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_1385142314_2562160811.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_4079250704_4033692336.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_1031388960_3787192894.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B01_LiveMVP/2302614357_2574473371_974700155.mp4'

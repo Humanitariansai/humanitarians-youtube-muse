@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/1545932810_1803890780_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_3083182328_2948103433.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_1825899279_1523166409.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_3059777153_1350115323.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_1668810412_1666280314.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_393726159_3535488202.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_562482570_3449748355.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_3361642156_1583183119.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_4079250704_2593142883.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_464328011_2395075125.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_1646798028_2915917082.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B04_PriceComparison/2302614357_2574473371_1979655165.mp4'

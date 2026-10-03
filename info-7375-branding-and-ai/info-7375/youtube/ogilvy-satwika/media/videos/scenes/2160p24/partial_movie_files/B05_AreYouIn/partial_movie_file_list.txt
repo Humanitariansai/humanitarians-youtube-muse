@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/1545932810_1320309924_2572742494.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/2302614357_3142935987_1240872946.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/2302614357_810948278_1228966180.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/2302614357_664425365_1211105600.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/2302614357_912930540_2265463649.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/2302614357_1273537049_1202085862.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/2302614357_4079250704_1064971875.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/2302614357_1576018162_4075636327.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/2302614357_1746142970_379470065.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/2302614357_138040635_1626165147.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-satwika/media/videos/scenes/2160p24/partial_movie_files/B05_AreYouIn/2302614357_1105215870_4256032856.mp4'

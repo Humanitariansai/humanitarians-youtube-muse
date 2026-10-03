@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/1545932810_2043926000_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/2302614357_2380608955_2522443489.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/2302614357_1825899279_3544203346.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/2302614357_785235517_2113108592.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/2302614357_915781191_1666280314.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/2302614357_1057728865_2320787419.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/2302614357_3503618675_1874963754.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/2302614357_4079250704_1407847621.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/2302614357_3776598315_3690009637.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/2302614357_891114658_1772973821.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/2302614357_1105215870_609733220.mp4'

@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/humanitarians-youtube-muse/muse/youtube/claude-liam-lecture-muse-making-a-film-about-muse/media/videos/scenes/2160p24/partial_movie_files/M15_FreeTier/1080426592_3097584606_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/humanitarians-youtube-muse/muse/youtube/claude-liam-lecture-muse-making-a-film-about-muse/media/videos/scenes/2160p24/partial_movie_files/M15_FreeTier/1453448855_3748314802_2098715067.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/humanitarians-youtube-muse/muse/youtube/claude-liam-lecture-muse-making-a-film-about-muse/media/videos/scenes/2160p24/partial_movie_files/M15_FreeTier/1453448855_4249962244_2940140599.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/humanitarians-youtube-muse/muse/youtube/claude-liam-lecture-muse-making-a-film-about-muse/media/videos/scenes/2160p24/partial_movie_files/M15_FreeTier/1453448855_3300578294_3177766553.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/humanitarians-youtube-muse/muse/youtube/claude-liam-lecture-muse-making-a-film-about-muse/media/videos/scenes/2160p24/partial_movie_files/M15_FreeTier/1453448855_1913225334_269274976.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/humanitarians-youtube-muse/muse/youtube/claude-liam-lecture-muse-making-a-film-about-muse/media/videos/scenes/2160p24/partial_movie_files/M15_FreeTier/1453448855_4056886033_3086890323.mp4'

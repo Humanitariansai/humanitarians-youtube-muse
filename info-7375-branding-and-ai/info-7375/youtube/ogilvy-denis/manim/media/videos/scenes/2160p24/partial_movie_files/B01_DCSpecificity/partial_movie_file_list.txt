@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00000.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00001.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00002.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00003.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00004.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00005.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00006.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00007.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00008.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00009.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/manim/media/videos/scenes/2160p24/partial_movie_files/B01_DCSpecificity/uncached_00010.mp4'

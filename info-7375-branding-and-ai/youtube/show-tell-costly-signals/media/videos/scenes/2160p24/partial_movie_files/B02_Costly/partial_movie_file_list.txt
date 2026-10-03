@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B02_Costly/1697911619_2729705118_2358810818.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B02_Costly/1167814662_2287899348_620228334.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B02_Costly/1167814662_1074374373_2931094018.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B02_Costly/1167814662_3004027877_3972399176.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B02_Costly/1167814662_1564240938_4008130199.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B02_Costly/1167814662_266221327_4008130199.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B02_Costly/1167814662_3737894226_3629851116.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B02_Costly/1167814662_1788825618_3077707915.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B02_Costly/1167814662_1652052759_758852423.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B02_Costly/1167814662_1606313033_3477768132.mp4'

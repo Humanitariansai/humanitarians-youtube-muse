@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/1545932810_2043926000_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_2377002407_2522443489.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_1825899279_62804203.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_3599575912_304124842.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_2600275478_1666280314.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_4125746183_1427517792.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_2493999524_1156325461.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_1827479217_2123855045.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_4079250704_783439844.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_2399714358_2753472184.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_2642718489_817514158.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-denis/media/videos/scenes/2160p24/partial_movie_files/B04_MultiAgentJudgment/2302614357_2574473371_3367933899.mp4'

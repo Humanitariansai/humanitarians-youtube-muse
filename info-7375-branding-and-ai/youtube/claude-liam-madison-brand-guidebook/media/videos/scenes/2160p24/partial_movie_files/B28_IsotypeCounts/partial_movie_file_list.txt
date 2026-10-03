@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B28_IsotypeCounts/1545932810_366922798_743892557.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B28_IsotypeCounts/2302614357_3718403691_502567730.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B28_IsotypeCounts/2302614357_292917663_661072140.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B28_IsotypeCounts/2302614357_363817702_1998149711.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B28_IsotypeCounts/2302614357_999634072_3654786289.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B28_IsotypeCounts/2302614357_1154843107_1753546087.mp4'

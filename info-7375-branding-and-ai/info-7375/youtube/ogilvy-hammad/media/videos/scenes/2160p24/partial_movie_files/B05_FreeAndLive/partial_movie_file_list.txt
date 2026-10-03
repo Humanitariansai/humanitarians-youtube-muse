@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B05_FreeAndLive/1545932810_3433813239_3649697016.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B05_FreeAndLive/2302614357_3142935987_3684255708.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B05_FreeAndLive/2302614357_3513145931_3998917446.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B05_FreeAndLive/2302614357_1175665_3676024393.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B05_FreeAndLive/2302614357_3194058615_3646736292.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B05_FreeAndLive/2302614357_4079250704_2631230255.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B05_FreeAndLive/2302614357_628080224_1688208622.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B05_FreeAndLive/2302614357_1875112079_3127688227.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-hammad/media/videos/scenes/2160p24/partial_movie_files/B05_FreeAndLive/2302614357_1105215870_1321606660.mp4'

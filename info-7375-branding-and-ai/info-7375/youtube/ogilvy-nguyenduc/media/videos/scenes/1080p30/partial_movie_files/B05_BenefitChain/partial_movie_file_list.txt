@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/698527656_3720818074_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/3968585819_307032623_4081576282.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/3968585819_1346860429_1448267205.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/3968585819_1985109552_1827902440.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/3968585819_1891272278_774142228.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/3968585819_2918806619_1901704188.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/3968585819_4079250704_2194935589.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/3968585819_2343170248_298714292.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/3968585819_3142935987_3160744200.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/3968585819_3631535598_2169251022.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B05_BenefitChain/3968585819_3390139927_2722139229.mp4'

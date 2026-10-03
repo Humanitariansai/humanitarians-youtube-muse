@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/1545932810_2393011270_495176909.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_3087065400_3448551851.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_3691911093_1127361083.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_112543096_1890299344.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_1105215870_2423319653.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_2043996377_762134597.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_1181463765_3512288370.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_2073127483_584264621.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_1326272191_3609575447.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_3596814753_1479893666.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_2302081452_376656075.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B36_BeforeAfter/2302614357_129334623_396070295.mp4'

@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B03_CoderCompetes/1697911619_1682058296_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B03_CoderCompetes/1167814662_1890679109_2179204459.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B03_CoderCompetes/1167814662_1208574424_4124312310.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B03_CoderCompetes/1167814662_1355133358_2819884337.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B03_CoderCompetes/1167814662_637228543_2369603374.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B03_CoderCompetes/1167814662_2602560021_3855489814.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B03_CoderCompetes/1167814662_3085892248_1114180382.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B03_CoderCompetes/1167814662_1867635724_4112881033.mp4'

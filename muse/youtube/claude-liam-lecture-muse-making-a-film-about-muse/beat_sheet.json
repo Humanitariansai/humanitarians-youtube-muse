@@ -29,7 +29,17 @@
       "personal AI agent",
       "Muse Spark",
       "Nik Bear Brown"
-    ]
+    ],
+    "build": {
+      "at": "2026-10-03T13:52:45",
+      "cut": "review",
+      "filled": 22,
+      "of": 22,
+      "slates": [],
+      "skin_warnings": [
+        "BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' — COLD OPEN LAW wants ClaudeComposerAsk"
+      ]
+    }
   },
   "beats": [
     {
@@ -68,6 +78,10 @@
             "jitter": 20,
             "seed": "claude-liam-lecture-muse-making-a-film-about-muse",
             "banner": ""
+          },
+          "rendered": {
+            "out": "media/BIDEA.mp4",
+            "at": "2026-10-03T17:36:32.631396+00:00"
           }
         }
       },
@@ -76,6 +90,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      },
+      "actual_duration_s": 9.73,
+      "audio_file": "mp3/beat-BIDEA.mp3",
+      "render_duration_s": 9.75,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BIDEA.mp4",
+        "filled_by": "remotion:BrutalistHesitantWriter",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -131,12 +154,25 @@
               }
             ],
             "folderLabel": "@NikBearBrown"
+          },
+          "rendered": {
+            "out": "media/BDEFS.mp4",
+            "at": "2026-10-03T17:37:03.384199+00:00"
           }
         }
       },
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "TERMS card: four prerequisites, one line each."
+      },
+      "actual_duration_s": 11.67,
+      "audio_file": "mp3/beat-BDEFS.mp3",
+      "render_duration_s": 11.708333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BDEFS.mp4",
+        "filled_by": "remotion:ClaudeDefinitions",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -170,6 +206,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 9.71,
+      "audio_file": "mp3/beat-B01.mp3",
+      "render_duration_s": 9.75,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -203,6 +248,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 7.57,
+      "audio_file": "mp3/beat-B02.mp3",
+      "render_duration_s": 7.583333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -244,6 +298,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 4.74,
+      "audio_file": "mp3/beat-B03.mp3",
+      "render_duration_s": 4.75,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -281,6 +344,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 6.17,
+      "audio_file": "mp3/beat-B04.mp3",
+      "render_duration_s": 6.208333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -314,6 +386,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 6.72,
+      "audio_file": "mp3/beat-B05.mp3",
+      "render_duration_s": 6.75,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -347,6 +428,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 7.06,
+      "audio_file": "mp3/beat-B06.mp3",
+      "render_duration_s": 7.083333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -380,6 +470,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 8.28,
+      "audio_file": "mp3/beat-B07.mp3",
+      "render_duration_s": 8.291666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -417,6 +516,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 5.44,
+      "audio_file": "mp3/beat-B08.mp3",
+      "render_duration_s": 5.458333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B08.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -450,6 +558,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 5.12,
+      "audio_file": "mp3/beat-B09.mp3",
+      "render_duration_s": 5.125,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -483,6 +600,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 6.68,
+      "audio_file": "mp3/beat-B10.mp3",
+      "render_duration_s": 6.708333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B10.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -516,6 +642,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 5.95,
+      "audio_file": "mp3/beat-B11.mp3",
+      "render_duration_s": 5.958333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B11.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -549,6 +684,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 5.4,
+      "audio_file": "mp3/beat-B12.mp3",
+      "render_duration_s": 5.416666666666667,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B12.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -582,6 +726,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 5.97,
+      "audio_file": "mp3/beat-B13.mp3",
+      "render_duration_s": 6.0,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B13.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -615,6 +768,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 5.89,
+      "audio_file": "mp3/beat-B14.mp3",
+      "render_duration_s": 5.916666666666667,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B14.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -648,6 +810,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 4.95,
+      "audio_file": "mp3/beat-B15.mp3",
+      "render_duration_s": 4.958333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B15.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -681,6 +852,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 4.44,
+      "audio_file": "mp3/beat-B16.mp3",
+      "render_duration_s": 4.458333333333333,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B16.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -714,6 +894,15 @@
       "qc": {
         "sparse_by_design": true,
         "sparse_reason": "lecture style: one drawn scene on a cream stage per beat, minimal labels, voice carries the explanation."
+      },
+      "actual_duration_s": 6.72,
+      "audio_file": "mp3/beat-B17.mp3",
+      "render_duration_s": 6.75,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B17.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -758,8 +947,21 @@
               "You reach it on the web, your phone, your Mac, or WhatsApp.",
               "It's free with a usage limit — or a monthly subscription for more."
             ]
+          },
+          "rendered": {
+            "out": "media/BVDT.mp4",
+            "at": "2026-10-03T17:38:07.014387+00:00"
           }
         }
+      },
+      "actual_duration_s": 14.89,
+      "audio_file": "mp3/beat-BVDT.mp3",
+      "render_duration_s": 14.916666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BVDT.mp4",
+        "filled_by": "remotion:ClaudeVerdictArtifact",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -803,8 +1005,21 @@
             "folderLabel": "@NikBearBrown",
             "modelLabel": "Muse Spark",
             "effortLabel": "Low"
+          },
+          "rendered": {
+            "out": "media/BHTF.mp4",
+            "at": "2026-10-03T17:39:03.810375+00:00"
           }
         }
+      },
+      "actual_duration_s": 15.83,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "render_duration_s": 15.833333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BHTF.mp4",
+        "filled_by": "remotion:ClaudeComposerAsk",
+        "at": "2026-10-03T13:52:45"
       }
     },
     {
@@ -832,11 +1047,24 @@
             "slug": "claude-liam-lecture-muse-making-a-film-about-muse",
             "handle": "@NikBearBrown",
             "subline": ""
+          },
+          "rendered": {
+            "out": "media/BOUT.mp4",
+            "at": "2026-10-03T17:39:19.426347+00:00"
           }
         }
       },
       "kind": "outro_voice",
-      "tail_silence_s": 1.0
+      "tail_silence_s": 1.0,
+      "actual_duration_s": 3.63,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "render_duration_s": 3.6666666666666665,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/BOUT.mp4",
+        "filled_by": "remotion:ClaudeTitleOutro",
+        "at": "2026-10-03T13:52:45"
+      }
     }
   ]
 }

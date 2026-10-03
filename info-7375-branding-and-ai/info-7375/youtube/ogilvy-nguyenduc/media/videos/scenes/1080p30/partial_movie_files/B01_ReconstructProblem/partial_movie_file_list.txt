@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B01_ReconstructProblem/698527656_2871591002_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B01_ReconstructProblem/3968585819_3865756429_230913933.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B01_ReconstructProblem/3968585819_2574473371_1668245812.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B01_ReconstructProblem/3968585819_4014232308_990973946.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B01_ReconstructProblem/3968585819_3506589752_3176542020.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B01_ReconstructProblem/3968585819_4188861262_2636733668.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B01_ReconstructProblem/3968585819_1878396534_4255426757.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B01_ReconstructProblem/3968585819_2388464711_858763036.mp4'

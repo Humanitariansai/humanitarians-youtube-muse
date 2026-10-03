@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B06_HeadlineWork/698527656_1727158976_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B06_HeadlineWork/3968585819_2060826584_3499890562.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B06_HeadlineWork/3968585819_3767889083_1765940218.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B06_HeadlineWork/3968585819_4079250704_2975873874.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B06_HeadlineWork/3968585819_315746689_114541034.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B06_HeadlineWork/3968585819_4079250704_2610032597.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B06_HeadlineWork/3968585819_3753032215_751501936.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B06_HeadlineWork/3968585819_2574473371_2866474325.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B06_HeadlineWork/3968585819_1720787155_3623936515.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B06_HeadlineWork/3968585819_2388464711_875536754.mp4'

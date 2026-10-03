@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p60/partial_movie_files/B12_PrimarySecondary/uncached_00000.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p60/partial_movie_files/B12_PrimarySecondary/uncached_00001.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p60/partial_movie_files/B12_PrimarySecondary/uncached_00002.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p60/partial_movie_files/B12_PrimarySecondary/uncached_00003.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p60/partial_movie_files/B12_PrimarySecondary/uncached_00004.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p60/partial_movie_files/B12_PrimarySecondary/uncached_00005.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p60/partial_movie_files/B12_PrimarySecondary/uncached_00006.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p60/partial_movie_files/B12_PrimarySecondary/uncached_00007.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p60/partial_movie_files/B12_PrimarySecondary/uncached_00008.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p60/partial_movie_files/B12_PrimarySecondary/uncached_00009.mp4'

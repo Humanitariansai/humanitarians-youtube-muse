@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/1545932810_1829641508_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_2558825032_3798317106.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_1825899279_497235890.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_2348486921_2791555049.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_2404058178_1666280314.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_3220765092_320552234.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_3385043875_878910410.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_3067016561_4256309514.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_1251047913_3863858204.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_4079250704_4247404081.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_3704339264_1329080493.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B04_TheHeadline/2302614357_2574473371_1660513194.mp4'

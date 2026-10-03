@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B06_Signal/1697911619_603623549_2358810818.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B06_Signal/1167814662_853032793_3049105632.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B06_Signal/1167814662_3730896780_1566451194.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B06_Signal/1167814662_3695494347_4215443846.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B06_Signal/1167814662_927490355_2865893809.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B06_Signal/1167814662_4000800012_4065876310.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B06_Signal/1167814662_4140094533_2936066934.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B06_Signal/1167814662_1119255182_2169405537.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B06_Signal/1167814662_2487205166_2282620746.mp4'

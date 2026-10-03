@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B07_Both/1697911619_2799134788_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B07_Both/1167814662_532770049_887473221.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B07_Both/1167814662_1905497751_516492795.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B07_Both/1167814662_2523725212_4277395013.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B07_Both/1167814662_3268354910_4167630650.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B07_Both/1167814662_842403115_2824429397.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B07_Both/1167814662_4290312509_1677596206.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B07_Both/1167814662_4059033718_3509614345.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-the-creative-engineer/media/videos/scenes/2160p24/partial_movie_files/B07_Both/1167814662_2599079332_2722764929.mp4'

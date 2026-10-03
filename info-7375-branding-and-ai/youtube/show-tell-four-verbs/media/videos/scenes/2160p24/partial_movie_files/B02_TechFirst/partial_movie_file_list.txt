@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B02_TechFirst/1697911619_966274805_2023860264.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B02_TechFirst/1167814662_4019380379_2597810825.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B02_TechFirst/1167814662_1929988275_2152204346.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B02_TechFirst/1167814662_254220067_3674961108.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B02_TechFirst/1167814662_2084721052_2999616431.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B02_TechFirst/1167814662_2254802622_2833147002.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B02_TechFirst/1167814662_4025046173_911069907.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B02_TechFirst/1167814662_2901569701_9312944.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B02_TechFirst/1167814662_2358509109_4175547436.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B02_TechFirst/1167814662_2111690146_361342978.mp4'

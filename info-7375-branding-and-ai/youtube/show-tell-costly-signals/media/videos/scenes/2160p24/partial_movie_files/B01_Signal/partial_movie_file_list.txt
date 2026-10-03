@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B01_Signal/1697911619_1817327625_2307521217.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B01_Signal/1167814662_4036674222_3187999392.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B01_Signal/1167814662_1469449614_3605090795.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B01_Signal/1167814662_3939947168_3514198085.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B01_Signal/1167814662_1965354036_816793210.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-costly-signals/media/videos/scenes/2160p24/partial_movie_files/B01_Signal/1167814662_4079250704_2754860969.mp4'

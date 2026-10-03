@@ -1,0 +1,292 @@
+{
+  "video": "claude-liam-lecture-muse-making-a-film-about-muse",
+  "metadata": {
+    "slug": "claude-liam-lecture-muse-making-a-film-about-muse",
+    "title": "Muse making a film about Muse",
+    "topic": "MUSE \u00b7 WHAT IT IS",
+    "skill": "lecture",
+    "style_preset": "lecture",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "audience": "anyone who has heard the name Muse and wants the plain version",
+    "source_doc": "~/docs/muse.md (primary); ~/docs/client-surfaces.md; ~/docs/data-handling.md",
+    "playlist": "Muse",
+    "chapter_number": 0,
+    "tags": [
+      "Muse",
+      "Meta",
+      "personal AI agent",
+      "Muse Spark",
+      "Nik Bear Brown"
+    ],
+    "build": {
+      "at": "2026-10-03T13:52:45",
+      "cut": "review",
+      "filled": 22,
+      "of": 22,
+      "slates": [],
+      "skin_warnings": [
+        "BIDEA: palette=claude but the cold open is 'BrutalistHesitantWriter' \u2014 COLD OPEN LAW wants ClaudeComposerAsk"
+      ]
+    }
+  },
+  "source_of_truth": "beat_sheet.json \u2014 edit the sheet, not this file",
+  "beats_total": 22,
+  "beats_open": 0,
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "status": "filled",
+      "on_disk": "media/BIDEA.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BIDEA.mp4",
+      "label": "Hallo. This is Liam, in for Bear. You've heard the name Muse. But what is it \u2014 just another chatbot?"
+    },
+    {
+      "beat_id": "BDEFS",
+      "status": "filled",
+      "on_disk": "media/BDEFS.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BDEFS.mp4",
+      "label": "Four terms. Agent: a program that works for you on its own. Memory: what it keeps about you between "
+    },
+    {
+      "beat_id": "B01",
+      "status": "filled",
+      "on_disk": "manim/B01.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B01.mp4",
+      "label": "Muse is a personal AI agent. Everyone gets their own \u2014 you get an agent, and it runs on its own dedi"
+    },
+    {
+      "beat_id": "B02",
+      "status": "filled",
+      "on_disk": "manim/B02.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B02.mp4",
+      "label": "And it's strictly personal. Every conversation is between you and your own agent. No group chats, no"
+    },
+    {
+      "beat_id": "B03",
+      "status": "filled",
+      "on_disk": "manim/B03.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B03.mp4",
+      "label": "Under the hood, it's powered by Muse Spark \u2014 from Meta's Muse model family."
+    },
+    {
+      "beat_id": "B04",
+      "status": "filled",
+      "on_disk": "manim/B04.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B04.mp4",
+      "label": "Muse went live on September 8th, 2026, and it's available in the US and Canada."
+    },
+    {
+      "beat_id": "B05",
+      "status": "filled",
+      "on_disk": "manim/B05.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B05.mp4",
+      "label": "Chat is the front door. Every surface opens on a conversation \u2014 you talk, it answers, and the thread"
+    },
+    {
+      "beat_id": "B06",
+      "status": "filled",
+      "on_disk": "manim/B06.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B06.mp4",
+      "label": "It remembers. Your conversations, your preferences, your files \u2014 they carry from one chat to the nex"
+    },
+    {
+      "beat_id": "B07",
+      "status": "filled",
+      "on_disk": "manim/B07.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B07.mp4",
+      "label": "It uses tools. Skills and connectors plug it into mail, calendar, shopping, media, and your paired d"
+    },
+    {
+      "beat_id": "B08",
+      "status": "filled",
+      "on_disk": "manim/B08.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B08.mp4",
+      "label": "It builds things. Artifacts \u2014 documents, web pages, apps \u2014 that you keep, and keep using."
+    },
+    {
+      "beat_id": "B09",
+      "status": "filled",
+      "on_disk": "manim/B09.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B09.mp4",
+      "label": "It keeps your stuff. Files you hand it land in your Library \u2014 organized, and findable."
+    },
+    {
+      "beat_id": "B10",
+      "status": "filled",
+      "on_disk": "manim/B10.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B10.mp4",
+      "label": "And it works while you're away. Scheduled checks, Feed posts, Ideas, Goals \u2014 the work goes on when y"
+    },
+    {
+      "beat_id": "B11",
+      "status": "filled",
+      "on_disk": "manim/B11.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B11.mp4",
+      "label": "On the web, at muse.ai \u2014 the full app in your browser: chat, feed, ideas, goals, library."
+    },
+    {
+      "beat_id": "B12",
+      "status": "filled",
+      "on_disk": "manim/B12.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B12.mp4",
+      "label": "On your phone \u2014 native iPhone and Android apps, with the same tabs and the same agent."
+    },
+    {
+      "beat_id": "B13",
+      "status": "filled",
+      "on_disk": "manim/B13.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B13.mp4",
+      "label": "On your Mac \u2014 a chat app that also pairs your Mac as one of its devices, so it can work with what's "
+    },
+    {
+      "beat_id": "B14",
+      "status": "filled",
+      "on_disk": "manim/B14.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B14.mp4",
+      "label": "And over WhatsApp \u2014 Muse as a messaging channel. The same agent, in the chat app you already use."
+    },
+    {
+      "beat_id": "B15",
+      "status": "filled",
+      "on_disk": "manim/B15.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B15.mp4",
+      "label": "It's free to start. Free access comes with a usage limit \u2014 enough to put it to work."
+    },
+    {
+      "beat_id": "B16",
+      "status": "filled",
+      "on_disk": "manim/B16.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B16.mp4",
+      "label": "And there's a paid monthly subscription for more usage, whenever you need it."
+    },
+    {
+      "beat_id": "B17",
+      "status": "filled",
+      "on_disk": "manim/B17.mp4",
+      "method": "manim",
+      "who": "pipeline",
+      "scene_hint": "animated_graphics",
+      "prompt": null,
+      "slot": "manim/B17.mp4",
+      "label": "You subscribe at muse.ai, or through the Apple App Store and Google Play. It renews monthly, unless "
+    },
+    {
+      "beat_id": "BVDT",
+      "status": "filled",
+      "on_disk": "media/BVDT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BVDT.mp4",
+      "label": "Let's recap with Claude. Muse is your own personal AI agent, on its own computer. It talks, remember"
+    },
+    {
+      "beat_id": "BHTF",
+      "status": "filled",
+      "on_disk": "media/BHTF.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BHTF.mp4",
+      "label": "Your turn. Paste this into Muse: Remember one preference about me: I take my coffee black. Then, in "
+    },
+    {
+      "beat_id": "BOUT",
+      "status": "filled",
+      "on_disk": "media/BOUT.mp4",
+      "method": "remotion",
+      "who": "pipeline",
+      "scene_hint": null,
+      "prompt": null,
+      "slot": "media/BOUT.mp4",
+      "label": "Muse making a film about Muse. At Nik Bear Brown."
+    }
+  ]
+}

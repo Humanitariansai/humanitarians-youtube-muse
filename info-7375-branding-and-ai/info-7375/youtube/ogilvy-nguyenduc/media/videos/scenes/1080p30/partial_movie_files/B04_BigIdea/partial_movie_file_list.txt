@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B04_BigIdea/698527656_3546083795_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B04_BigIdea/3968585819_2296647777_1644253972.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B04_BigIdea/3968585819_2688117245_2863950043.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B04_BigIdea/3968585819_3506589752_323850510.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B04_BigIdea/3968585819_2948375506_1649333727.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B04_BigIdea/3968585819_3142935987_3499547962.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B04_BigIdea/3968585819_1020148923_3923538040.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B04_BigIdea/3968585819_3506589752_2431579787.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B04_BigIdea/3968585819_3669703227_3971460464.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B04_BigIdea/3968585819_2388464711_1438260082.mp4'

@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B02_ReconstructSolution/698527656_2512557835_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B02_ReconstructSolution/3968585819_2748743021_1850728516.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B02_ReconstructSolution/3968585819_1539230_3424173853.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B02_ReconstructSolution/3968585819_4079250704_596195430.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B02_ReconstructSolution/3968585819_2078629266_2338302867.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B02_ReconstructSolution/3968585819_770480136_2478320250.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B02_ReconstructSolution/3968585819_2882458775_1729902457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B02_ReconstructSolution/3968585819_4079250704_1404907757.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B02_ReconstructSolution/3968585819_1192408940_960213180.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-nguyenduc/media/videos/scenes/1080p30/partial_movie_files/B02_ReconstructSolution/3968585819_310540274_712890621.mp4'

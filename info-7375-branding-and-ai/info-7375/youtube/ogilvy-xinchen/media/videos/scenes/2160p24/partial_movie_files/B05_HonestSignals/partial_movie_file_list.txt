@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B05_HonestSignals/1545932810_2323887920_4042909718.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B05_HonestSignals/2302614357_3142935987_3510359646.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B05_HonestSignals/2302614357_2734964347_1909968844.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B05_HonestSignals/2302614357_3017036255_2952672913.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B05_HonestSignals/2302614357_1474433750_1525636903.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B05_HonestSignals/2302614357_4079250704_924596636.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B05_HonestSignals/2302614357_421556521_131717265.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B05_HonestSignals/2302614357_2461702204_3882383615.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B05_HonestSignals/2302614357_1684162975_1941139611.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B05_HonestSignals/2302614357_1105215870_3271069219.mp4'

@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B05_FreeIsTheMostPowerfulWord/1545932810_3433813239_3649697016.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B05_FreeIsTheMostPowerfulWord/2302614357_3142935987_3684255708.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B05_FreeIsTheMostPowerfulWord/2302614357_3513145931_3998917446.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B05_FreeIsTheMostPowerfulWord/2302614357_1515528396_3676024393.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B05_FreeIsTheMostPowerfulWord/2302614357_2837693788_1087059502.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B05_FreeIsTheMostPowerfulWord/2302614357_4079250704_2935082949.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B05_FreeIsTheMostPowerfulWord/2302614357_628080224_545151460.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B05_FreeIsTheMostPowerfulWord/2302614357_448517035_1112043247.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-kanishk/media/videos/scenes/2160p24/partial_movie_files/B05_FreeIsTheMostPowerfulWord/2302614357_1105215870_1588827921.mp4'

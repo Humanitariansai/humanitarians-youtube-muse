@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B18_ThreeToOne/1545932810_1023337481_2907557126.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B18_ThreeToOne/2302614357_3091375165_1886872546.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B18_ThreeToOne/2302614357_4018790568_493828494.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B18_ThreeToOne/2302614357_756041915_626888916.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B18_ThreeToOne/2302614357_2688965532_2842785732.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B18_ThreeToOne/2302614357_1890617282_3699925010.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B18_ThreeToOne/2302614357_1895200197_3652147174.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B18_ThreeToOne/2302614357_3033738517_2398992709.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/youtube/claude-liam-madison-brand-guidebook/media/videos/scenes/2160p24/partial_movie_files/B18_ThreeToOne/2302614357_807072852_3015691448.mp4'

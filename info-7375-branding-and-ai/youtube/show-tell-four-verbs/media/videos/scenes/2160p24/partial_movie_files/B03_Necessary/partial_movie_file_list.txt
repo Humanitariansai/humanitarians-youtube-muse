@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B03_Necessary/1697911619_308376068_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B03_Necessary/1167814662_844819162_1861373958.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B03_Necessary/1167814662_2604988321_3545213418.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B03_Necessary/1167814662_2621078588_2455631179.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B03_Necessary/1167814662_418414298_1732300148.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B03_Necessary/1167814662_2446141843_1990381654.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B03_Necessary/1167814662_1763911453_3159413388.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/info-7375-branding-and-ai/youtube/show-tell-four-verbs/media/videos/scenes/2160p24/partial_movie_files/B03_Necessary/1167814662_2128283433_796145146.mp4'

@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/1545932810_2462436915_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_1822323111_2927594604.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_1825899279_1073445508.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_565761687_2541106493.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_2752519501_1666280314.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_3413670144_2080666334.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_1221792809_2122153605.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_1594965427_1053924181.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_3451094795_4001284403.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_4079250704_3535463006.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_2338070165_2046195880.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-gayatri/media/videos/scenes/2160p24/partial_movie_files/B03_BuriedLead/2302614357_2574473371_3361472719.mp4'

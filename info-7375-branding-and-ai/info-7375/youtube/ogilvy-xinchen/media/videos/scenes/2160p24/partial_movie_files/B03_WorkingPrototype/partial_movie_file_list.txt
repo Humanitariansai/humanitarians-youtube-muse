@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/1545932810_1829641508_223132457.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_2820057126_3798317106.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_1825899279_2901083748.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_2175766545_1955850622.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_2752519501_1666280314.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_3413670144_2080666334.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_1221792809_2122153605.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_1116955664_1053924181.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_1323878793_3918889485.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_4079250704_2903937010.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_2843316402_1700303886.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-xinchen/media/videos/scenes/2160p24/partial_movie_files/B03_WorkingPrototype/2302614357_2574473371_1946495514.mp4'

@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/media/videos/scenes/2160p24/partial_movie_files/B05_OpenSourceFree/1545932810_3433813239_27872625.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/media/videos/scenes/2160p24/partial_movie_files/B05_OpenSourceFree/2302614357_3142935987_2753799142.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/media/videos/scenes/2160p24/partial_movie_files/B05_OpenSourceFree/2302614357_3513145931_1276893495.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/media/videos/scenes/2160p24/partial_movie_files/B05_OpenSourceFree/2302614357_1606698459_3255588786.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/media/videos/scenes/2160p24/partial_movie_files/B05_OpenSourceFree/2302614357_2517107776_661631136.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/media/videos/scenes/2160p24/partial_movie_files/B05_OpenSourceFree/2302614357_4079250704_1836134035.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/media/videos/scenes/2160p24/partial_movie_files/B05_OpenSourceFree/2302614357_628080224_4098450749.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/media/videos/scenes/2160p24/partial_movie_files/B05_OpenSourceFree/2302614357_1236508424_3255218674.mp4'
+file 'file:/Users/bear/Documents/CoWork/bear-textbooks/books/branding-and-ai/info-7375/youtube/ogilvy-vaibhav/media/videos/scenes/2160p24/partial_movie_files/B05_OpenSourceFree/2302614357_1105215870_978866351.mp4'

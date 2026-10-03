@@ -124,7 +124,7 @@ class M02_StrictlyPersonal(Scene):
 
         at(self, 0.35)
         c = Dot([0, 2.0, 0], radius=0.28, color=SOFT)
-        lc = _label("anyone else", size=30, color=SOFT).move_to([0, 2.8, 0])
+        lc = _label("anyone else", size=30, color=SOFT).move_to([1.3, 2.0, 0])
         clink = Line([-0.12, 1.72, 0], [-1.7, 0.5, 0], color=SOFT, stroke_width=3)
         self.play(FadeIn(c), FadeIn(lc), Create(clink), run_time=0.7)
 
@@ -150,7 +150,7 @@ class M03_MuseSpark(Scene):
         prev_y = None
         for name, y, col in levels:
             d = Dot([-2.8, y, 0], radius=0.22, color=col)
-            l = _label(name, size=30, color=col).move_to([0.4, y, 0])
+            l = _label(name, size=30, color=INK if col == ACC else col).move_to([0.4, y, 0])
             self.play(FadeIn(d), FadeIn(l), run_time=0.35)
             if prev_y is not None:
                 ln = Line([-2.8, prev_y, 0], [-2.8, y, 0],
@@ -201,7 +201,7 @@ class M05_ChatFrontDoor(Scene):
         marks = []
         for (x, y, _), name in spots:
             m = Circle(radius=0.3, color=SOFT, stroke_width=2.5).move_to([x, y, 0])
-            l = _label(name, size=26, color=SOFT).move_to([x, y - 0.62, 0])
+            l = _label(name, size=28, color=SOFT).move_to([x, y - 0.62, 0])
             marks.append((m, l))
         self.play(FadeIn(agent), FadeIn(albl),
                   *[FadeIn(m) for pair in marks for m in pair], run_time=0.8)
@@ -265,7 +265,7 @@ class M07_UsesTools(Scene):
         self.play(Write(title), run_time=0.7)
 
         hub = Dot([0, 0.2, 0], radius=0.34, color=INK)
-        hlbl = _label("Muse", size=30).move_to([0, -0.55, 0])
+        hlbl = _label("Muse", size=30).move_to([0, 0.8, 0])
         self.play(FadeIn(hub), FadeIn(hlbl), run_time=0.5)
 
         tools = [("mail", -4.4, 1.9), ("calendar", 4.4, 1.9),
@@ -397,7 +397,7 @@ class M11_WebApp(Scene):
         win = Rectangle(width=7.0, height=4.0, color=INK, stroke_width=2.5,
                         fill_color=CARD, fill_opacity=1).move_to([0, -0.4, 0])
         bar = Line([-3.5, 1.1, 0], [3.5, 1.1, 0], color=INK, stroke_width=2)
-        url = _label("muse.ai", size=28, color=SOFT).move_to([0, 1.55, 0])
+        url = _label("muse.ai", size=28, color=SOFT).move_to([0, 1.3, 0])
         self.play(FadeIn(win), Create(bar), FadeIn(url), run_time=0.8)
 
         at(self, 0.35)
@@ -512,7 +512,7 @@ class M15_FreeTier(Scene):
         fill = Rectangle(width=0.1, height=0.5, color=ACC, stroke_width=0,
                          fill_color=ACC, fill_opacity=1
                          ).move_to([-3.9, -0.5, 0])
-        limit = Line([1.0, -1.0, 0], [1.0, 0.0, 0], color=ACC, stroke_width=5)
+        limit = Line([1.0, -1.0, 0], [1.0, 0.0, 0], color=INK, stroke_width=5)
         llim = _label("usage limit", size=30, color=SOFT).move_to([1.0, 0.55, 0])
         lfree = _label("free", size=30, color=SOFT).move_to([-3.9, 0.55, 0])
         self.play(FadeIn(track), FadeIn(limit), FadeIn(llim), FadeIn(lfree),
@@ -541,13 +541,13 @@ class M16_Subscription(Scene):
                           fill_color=CARD, fill_opacity=1).move_to([0, -0.5, 0])
         fill = Rectangle(width=4.9, height=0.5, color=ACC, stroke_width=0,
                          fill_color=ACC, fill_opacity=1).move_to([-1.5, -0.5, 0])
-        limit = Line([1.0, -1.0, 0], [1.0, 0.0, 0], color=ACC, stroke_width=5)
+        limit = Line([1.0, -1.0, 0], [1.0, 0.0, 0], color=INK, stroke_width=5)
         llim = _label("old limit", size=30, color=SOFT).move_to([1.0, 0.55, 0])
         self.play(FadeIn(track), FadeIn(fill), FadeIn(limit), FadeIn(llim),
                   run_time=0.7)
 
         at(self, 0.4)
-        limit2 = Line([3.2, -1.0, 0], [3.2, 0.0, 0], color=ACC, stroke_width=5)
+        limit2 = Line([3.2, -1.0, 0], [3.2, 0.0, 0], color=INK, stroke_width=5)
         llim2 = _label("new limit", size=30, color=SOFT).move_to([3.2, 0.55, 0])
         fill2 = Rectangle(width=7.1, height=0.5, color=ACC, stroke_width=0,
                           fill_color=ACC, fill_opacity=1).move_to([-0.4, -0.5, 0])
@@ -573,18 +573,18 @@ class M17_WhereToSubscribe(Scene):
         for x, name in spots:
             r = Rectangle(width=2.2, height=1.1, color=INK, stroke_width=2.5,
                           fill_color=CARD, fill_opacity=1).move_to([x, -0.9, 0])
-            l = _label(name, size=28).move_to([x, -0.9, 0])
+            l = _label(name, size=28).move_to([x, -1.65, 0])
             marks.append((r, l))
         self.play(*[FadeIn(m) for pair in marks for m in pair], run_time=0.8)
 
         arc = Arc(radius=1.1, start_angle=PI / 2, angle=-TAU * 0.85,
-                  color=ACC, stroke_width=6).move_to([0, 1.5, 0])
+                  color=ACC, stroke_width=6).move_to([0, 0.8, 0])
         arrow = Triangle(color=ACC, fill_opacity=1, stroke_width=0
-                         ).scale(0.14).move_to([0, 1.5, 0])
-        albl = _label("monthly", size=28, color=SOFT).move_to([0, 2.95, 0])
+                         ).scale(0.14).move_to([0, 0.8, 0])
+        albl = _label("monthly", size=28, color=SOFT).move_to([0, 2.35, 0])
         self.play(FadeIn(albl), Create(arc), FadeIn(arrow), run_time=0.7)
         at(self, 0.55)
-        self.play(Rotate(VGroup(arc, arrow), -TAU * 0.5, about_point=[0, 1.5, 0]),
+        self.play(Rotate(VGroup(arc, arrow), -TAU * 0.5, about_point=[0, 0.8, 0]),
                   run_time=1.0, rate_func=rate_functions.linear)
         at(self, 0.9)
         finish(self)
