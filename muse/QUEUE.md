@@ -57,4 +57,29 @@ The existing prompt-tutorial lessons, rewritten for a general audience.
 
 ## Done
 
-Moved to `muse/README.md` as films ship.
+All 24 films completed 2026-10-03 and moved to `muse/README.md`:
+
+- #1 [Say what you want, plainly](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/say-what-you-want-plainly) — `muse/youtube/how-to-use-ai/say-what-you-want-plainly/`
+- #2 [Tell the AI who to be](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/tell-the-ai-who-to-be) — `muse/youtube/how-to-use-ai/tell-the-ai-who-to-be/`
+- #3 [Show It an Example](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/show-it-an-example) — `muse/youtube/how-to-use-ai/show-it-an-example/`
+- #4 [Ask for the Shape You Want Back](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/ask-for-the-shape-you-want-back) — `muse/youtube/how-to-use-ai/ask-for-the-shape-you-want-back/`
+- #5 [Keep instructions and data apart](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/keep-instructions-and-data-apart) — `muse/youtube/how-to-use-ai/keep-instructions-and-data-apart/`
+- #6 [Think one step ahead](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/think-one-step-ahead) — `muse/youtube/how-to-use-ai/think-one-step-ahead/`
+- #7 [Don't get fooled.](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/dont-get-fooled) — `muse/youtube/how-to-use-ai/dont-get-fooled/`
+- #8 [The first answer is a draft](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/the-first-answer-is-a-draft) — `muse/youtube/how-to-use-ai/the-first-answer-is-a-draft/`
+- #9 [Make It Interview You First](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/make-it-interview-you-first) — `muse/youtube/how-to-use-ai/make-it-interview-you-first/`
+- #10 [Make It Check Its Own Work.](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/make-it-check-its-own-work) — `muse/youtube/how-to-use-ai/make-it-check-its-own-work/`
+- #11 [Small steps, big jobs](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/small-steps-big-jobs) — `muse/youtube/how-to-use-ai/small-steps-big-jobs/`
+- #12 [When it's confidently wrong.](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/when-its-confidently-wrong) — `muse/youtube/how-to-use-ai/when-its-confidently-wrong/`
+- #13 [Learn Anything Faster](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/learn-anything-faster) — `muse/youtube/how-to-use-ai/learn-anything-faster/`
+- #14 [Write with AI, Still Sound Like You](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/write-with-ai-sound-like-you) — `muse/youtube/how-to-use-ai/write-with-ai-sound-like-you/`
+- #15 [Tame Your Spreadsheets](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/tame-your-spreadsheets) — `muse/youtube/how-to-use-ai/tame-your-spreadsheets/`
+- #16 [Meetings into Notes](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/meetings-into-notes) — `muse/youtube/how-to-use-ai/meetings-into-notes/`
+- #17 [Plan anything.](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/plan-anything) — `muse/youtube/how-to-use-ai/plan-anything/`
+- #18 [Just talk to it](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/just-talk-to-it) — `muse/youtube/how-to-use-ai/just-talk-to-it/`
+- #19 [Pictures from Words](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/pictures-from-words) — `muse/youtube/how-to-use-ai/pictures-from-words/`
+- #20 [What never to paste into AI](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/what-never-to-paste-into-ai) — `muse/youtube/how-to-use-ai/what-never-to-paste-into-ai/`
+- #21 [Trust, but verify](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/trust-but-verify) — `muse/youtube/how-to-use-ai/trust-but-verify/`
+- #22 [Free vs paid: when to pay](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/free-vs-paid-when-to-pay) — `muse/youtube/how-to-use-ai/free-vs-paid-when-to-pay/`
+- #23 [Set it up once](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/set-it-up-once) — `muse/youtube/how-to-use-ai/set-it-up-once/`
+- #24 [One AI or many?](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/one-ai-or-many) — `muse/youtube/how-to-use-ai/one-ai-or-many/`
