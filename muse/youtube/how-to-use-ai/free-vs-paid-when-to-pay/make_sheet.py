@@ -1,0 +1,445 @@
+#!/usr/bin/env python3
+"""make_sheet.py — Free vs paid: when to pay. (Humanitarians AI YouTube film)
+
+Generates beat_sheet.json and asserts the package contract:
+  - 13-22 beats, 6-12 body beats (acts 1-3), total 180-360 s (3-6 min)
+  - BIDEA names the voice ("Liam, in for Bear")
+  - BVDT covers the whole framework: the four things money buys, the
+    sharper-model test, the limit arithmetic, the two-question test, and
+    the one-month-before-annual rule
+  - BHTF carries the viewer prompt
+  - every beat has a MANIM shot whose class is named M<NN>_<Beat>
+"""
+
+import json
+import os
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+BEATS = [
+    {
+        "id": "BIDEA", "scene": "M01", "dur_s": 24, "act": "hook",
+        "voice": "Muse", "greeting": "Ciao",
+        "line": (
+            "Ciao. This is Liam, in for Bear. Paid AI is for AI people — "
+            "no. Paid AI is for people who keep hitting the free tier's "
+            "wall. That's what this film is about — what the paid tier "
+            "actually buys you, and the two questions that tell you "
+            "whether it's worth it."
+        ),
+        "screen": (
+            "Hesitant writer: a hand writes 'Paid AI is for AI people.', "
+            "strikes through 'AI people', and corrects it to 'Paid AI is "
+            "for people who keep hitting the wall.'"
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M01_Bidea"},
+            "show": [
+                {"at": "0.05", "event": "paper card fades in; hand cursor writes the naive line"},
+                {"at": "0.45", "event": "terracotta strike-through crosses 'AI people'"},
+                {"at": "0.65", "event": "'for people who keep hitting the wall.' writes in beside it"},
+            ],
+            "qc": {"sparse_by_design": True,
+                   "sparse_reason": "ai-explainer bookend beat: one card, one correction"},
+        },
+    },
+    {
+        "id": "BDEFS", "scene": "M02", "dur_s": 20, "act": "hook",
+        "voice": "Muse",
+        "line": (
+            "Four terms. Free tier: the no-cost plan — real, but capped. "
+            "Usage limit: how much you can ask before it slows down or "
+            "stops you. Model: the AI engine under the hood — the bigger "
+            "ones think sharper. Context: how much of your conversation "
+            "the AI can hold in its head at once."
+        ),
+        "screen": (
+            "Four term cards land one by one: free tier / usage limit / "
+            "model / context."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M02_Bdefs"},
+            "show": [
+                {"at": "0.05", "event": "card 1 'free tier' lands"},
+                {"at": "0.30", "event": "card 2 'usage limit' lands"},
+                {"at": "0.55", "event": "card 3 'model' lands"},
+                {"at": "0.78", "event": "card 4 'context' lands, terracotta edge"},
+            ],
+            "qc": {"sparse_by_design": True,
+                   "sparse_reason": "ai-explainer bookend beat: four cards on cream"},
+        },
+    },
+    {
+        "id": "B00", "scene": "M03", "dur_s": 28, "act": "1",
+        "voice": "Muse",
+        "line": (
+            "Meet the free tier. It's the real thing — the same chat "
+            "window, the same conversation. For a few questions a day, a "
+            "recipe, a draft email, it is completely enough. But it comes "
+            "with a meter. Ask enough in one day, and the meter empties: "
+            "fewer answers, slower answers, then a little note — you've "
+            "reached your limit, come back tomorrow. That's not a bug. "
+            "It's the whole business model."
+        ),
+        "screen": (
+            "A chat card fills with message lines; the meter below drains "
+            "to empty; a 'limit reached — come back tomorrow' note lands."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M03_FreeTier"},
+            "show": [
+                {"at": "0.05", "event": "chat card fades in with two message lines"},
+                {"at": "0.35", "event": "the free meter drains as more lines arrive"},
+                {"at": "0.70", "event": "meter hits empty; 'limit reached — come back tomorrow' note stamps on"},
+            ],
+        },
+    },
+    {
+        "id": "B01", "scene": "M04", "dur_s": 26, "act": "1",
+        "voice": "Muse",
+        "line": (
+            "Why the wall? Every answer costs the company real money — "
+            "electricity, chips, engineers. The free tier is a sample tray "
+            "at a bakery: generous, real, but nobody gives away the whole "
+            "bakery. So the limit is the price of free. When you slam into "
+            "it mid-task, that frustration you feel — that is the exact "
+            "moment the company wants you to ask: should I be paying?"
+        ),
+        "screen": (
+            "Each answer card drops a coin into a cost gauge; the gauge "
+            "fills; the sample tray fills up and stops — the limit."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M04_Wall"},
+            "show": [
+                {"at": "0.05", "event": "answer card lands; a coin drops into the cost gauge"},
+                {"at": "0.35", "event": "second and third answers; the gauge fills higher"},
+                {"at": "0.65", "event": "the sample tray fills; the last coin bounces off — the limit"},
+            ],
+        },
+    },
+    {
+        "id": "B02", "scene": "M05", "dur_s": 30, "act": "2",
+        "voice": "Muse",
+        "line": (
+            "So what does the money buy? Four things, in every paid tier "
+            "I've ever seen. One: a sharper model — the flagship engine "
+            "instead of the economy one. Two: higher limits — the meter "
+            "gets much, much bigger. Three: longer memory — the AI holds "
+            "more of your conversation at once. Four: early features — the "
+            "new toys arrive first. That's the whole menu. No secret sauce. "
+            "Keep those four in your head — we're going to test each one."
+        ),
+        "screen": (
+            "Four cards unlock in a two-by-two grid: sharper model / "
+            "higher limits / longer memory / early features."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M05_FourThings"},
+            "show": [
+                {"at": "0.08", "event": "card 1 'a sharper model' unlocks, top left"},
+                {"at": "0.32", "event": "card 2 'higher limits' unlocks, top right"},
+                {"at": "0.55", "event": "card 3 'longer memory' unlocks, bottom left"},
+                {"at": "0.78", "event": "card 4 'early features' unlocks, bottom right"},
+            ],
+        },
+    },
+    {
+        "id": "B03", "scene": "M06", "dur_s": 24, "act": "2",
+        "voice": "Muse",
+        "line": (
+            "Test one: the sharper model. Give both engines a genuinely "
+            "hard question — the economy engine and the flagship — and the "
+            "flagship pulls ahead. Clearer, fewer mistakes. But hand them "
+            "something easy — 'what's a good subject line?' — and you'd "
+            "never tell them apart. The money doesn't buy better answers "
+            "to easy questions. It buys better answers to hard ones."
+        ),
+        "screen": (
+            "A hard question: the economy panel gets an X, the flagship "
+            "panel gets a check. An easy question: both panels get checks."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M06_SharpModel"},
+            "show": [
+                {"at": "0.10", "event": "hard-question card pins between two panels"},
+                {"at": "0.40", "event": "economy panel stamped X; flagship panel stamped check"},
+                {"at": "0.70", "event": "easy-question card swaps in; both panels stamped check"},
+            ],
+        },
+    },
+    {
+        "id": "B04", "scene": "M07", "dur_s": 30, "act": "2",
+        "voice": "Muse",
+        "line": (
+            "Test two: the limits. Here's the only arithmetic that matters. "
+            "The free tier doesn't cost money — it costs time. Those little "
+            "waits, those 'come back tomorrow' notes, those afternoons you "
+            "ration your questions. Add them up. If the wall steals, say, an "
+            "hour of your week, that is four hours a month — gone. What is "
+            "an hour of your time worth? The moment that number beats the "
+            "fee, paying is not spending. It's a refund."
+        ),
+        "screen": (
+            "A balance scale: the 'hours the wall steals' pan sinks against "
+            "the 'monthly fee' pan; the tag 'paying is a refund' lands."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M07_LimitMath"},
+            "show": [
+                {"at": "0.08", "event": "the balance scale builds; both pans hang level"},
+                {"at": "0.40", "event": "clock weights drop onto the 'hours the wall steals' pan"},
+                {"at": "0.70", "event": "that pan sinks low; the tag 'paying is a refund' lands"},
+            ],
+        },
+    },
+    {
+        "id": "B05", "scene": "M08", "dur_s": 24, "act": "3",
+        "voice": "Muse",
+        "line": (
+            "So — when is free enough? Three cases. One: casual questions — "
+            "a few a day, curiosity, recipes, trivia. Two: trying things out "
+            "— you're still learning what this stuff is for. Three: light "
+            "use — you have never once seen the limit note. If that's you, "
+            "free is not a compromise. It is the right answer. Stay free, "
+            "and spend the money on coffee."
+        ),
+        "screen": (
+            "Three rows land with checks: casual questions / trying things "
+            "out / light use; the tag 'stay free' lands."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M08_FreeEnough"},
+            "show": [
+                {"at": "0.10", "event": "row 1 'casual questions' lands with a check"},
+                {"at": "0.40", "event": "row 2 'trying things out' lands with a check"},
+                {"at": "0.65", "event": "row 3 'light use' lands with a check; 'stay free' tag lands"},
+            ],
+        },
+    },
+    {
+        "id": "B06", "scene": "M09", "dur_s": 26, "act": "3",
+        "voice": "Muse",
+        "line": (
+            "And when does paying pay off? Also four cases — the same four "
+            "from the menu, flipped. Daily professional use — the AI is "
+            "part of your job. Long documents — you need that longer "
+            "memory. Coding help — where the sharper model earns its keep. "
+            "And the honest one: you keep hitting the limit. If the wall "
+            "has a name in your house, it is already costing you."
+        ),
+        "screen": (
+            "Four rows land with checks: daily professional use / long "
+            "documents / coding help / you keep hitting the limit."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M09_Payoff"},
+            "show": [
+                {"at": "0.08", "event": "row 1 'daily professional use' lands with a check"},
+                {"at": "0.32", "event": "row 2 'long documents' lands with a check"},
+                {"at": "0.55", "event": "row 3 'coding help' lands with a check"},
+                {"at": "0.78", "event": "row 4 'you keep hitting the limit' lands with a terracotta check"},
+            ],
+        },
+    },
+    {
+        "id": "B07", "scene": "M10", "dur_s": 28, "act": "3",
+        "voice": "Muse",
+        "line": (
+            "Here's the whole film in two questions. One: do you hit the "
+            "wall at least weekly? Be honest — check your last month, not "
+            "your ambitions. No: stay free, and recheck in a few months. "
+            "Yes: question two. Is an hour of your time worth more than the "
+            "monthly fee? No: stay free. Yes: pay. Tastes change, usage "
+            "changes — the test is free, so run it again whenever you like."
+        ),
+        "screen": (
+            "A two-question flowchart: 'hit the wall weekly?' → no → 'stay "
+            "free'; yes → 'hour of your time > the fee?' → no → 'stay "
+            "free'; yes → 'pay', terracotta."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M10_TwoQuestions"},
+            "show": [
+                {"at": "0.08", "event": "question diamond 1 draws: 'hit the wall weekly?'"},
+                {"at": "0.35", "event": "'no' branch lights to 'stay free'; 'yes' branch leads down"},
+                {"at": "0.60", "event": "question diamond 2 draws; the 'yes' branch lights to 'pay' in terracotta"},
+            ],
+        },
+    },
+    {
+        "id": "B08", "scene": "M11", "dur_s": 28, "act": "3",
+        "voice": "Muse",
+        "line": (
+            "One trap, before you go. The only bad purchase is the tier you "
+            "forget to use. Sign up, get busy, and three quiet months later "
+            "you've donated to a tech company. So do this: take the "
+            "one-month option first — never the annual plan on day one. "
+            "Then check: did you actually use it? If the meter barely moved, "
+            "cancel with pride. You ran the experiment. That's the framework "
+            "working."
+        ),
+        "screen": (
+            "Three month cards cross off unused while a paid coin sits idle; "
+            "the tag 'one-month experiment first' lands."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M11_Trap"},
+            "show": [
+                {"at": "0.08", "event": "month card 1 lands with a paid coin on it"},
+                {"at": "0.35", "event": "month cards 2 and 3 land; gray X's cross the idle months"},
+                {"at": "0.70", "event": "the tag 'one-month experiment first' lands in terracotta"},
+            ],
+        },
+    },
+    {
+        "id": "BVDT", "scene": "M12", "dur_s": 37, "act": "recap",
+        "voice": "Muse",
+        "line": (
+            "Let's recap. The free tier is the real thing with a meter — the "
+            "limit is the price of free. The money buys four things: a "
+            "sharper model, higher limits, longer memory, early features. "
+            "The sharper model only matters on hard questions. The limit "
+            "question is arithmetic: is an hour of your time worth more than "
+            "the fee? And the test: do you hit the wall weekly, and is your "
+            "time worth more than the fee? Yes and yes — pay. Otherwise, "
+            "stay free. And never buy the annual plan before the one-month "
+            "experiment."
+        ),
+        "screen": (
+            "Five recap lines reveal with dot bullets: the meter / the four "
+            "things money buys / hard questions only / the time arithmetic "
+            "→ the two-question test / the one-month rule."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M12_Verdict"},
+            "show": [
+                {"at": "0.05", "event": "recap line 1 reveals with its dot"},
+                {"at": "0.28", "event": "recap line 2 reveals with its dot"},
+                {"at": "0.50", "event": "recap lines 3 and 4 reveal"},
+                {"at": "0.75", "event": "recap line 5 reveals; the two-question test frames it"},
+            ],
+            "qc": {"sparse_by_design": True,
+                   "sparse_reason": "ai-explainer bookend beat: five recap lines on cream"},
+        },
+    },
+    {
+        "id": "BHTF", "scene": "M13", "dur_s": 22, "act": "your-turn",
+        "voice": "Muse",
+        "line": (
+            "Your turn. Open the AI you use most and paste this in: 'Here is "
+            "what I used you for this week — then list your tasks — at what "
+            "point would paying make sense for someone like me?' Then grade "
+            "its answer against the two-question test: the weekly wall, your "
+            "time versus the fee. If it agrees with your test, you've got "
+            "your answer."
+        ),
+        "screen": (
+            "'Your turn.' The prompt card lands: ask your AI to judge your "
+            "own usage; the two-question test chips sit below it."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M13_YourTurn"},
+            "show": [
+                {"at": "0.05", "event": "'Your turn.' lands on the card"},
+                {"at": "0.30", "event": "the prompt card writes in, line by line"},
+                {"at": "0.70", "event": "the two-question test chips land below it"},
+            ],
+            "qc": {"sparse_by_design": True,
+                   "sparse_reason": "ai-explainer bookend beat: prompt card plus two chips"},
+        },
+    },
+    {
+        "id": "BOUT", "scene": "M14", "dur_s": 12, "act": "outro",
+        "voice": "Muse",
+        "line": (
+            "Free vs paid: when to pay. Liam, in for Bear. At Nik Bear "
+            "Brown. Thanks for watching."
+        ),
+        "screen": (
+            "The title restates poster-style; a terracotta rule draws under "
+            "it; '@NikBearBrown' lands below."
+        ),
+        "shot": {
+            "type": "MANIM", "manim": {"class": "M14_Outro"},
+            "show": [
+                {"at": "0.10", "event": "the title writes in"},
+                {"at": "0.50", "event": "the terracotta rule draws under the title"},
+                {"at": "0.75", "event": "'@NikBearBrown' lands below the rule"},
+            ],
+            "qc": {"sparse_by_design": True,
+                   "sparse_reason": "locked outro card: title, rule, handle"},
+        },
+    },
+]
+
+METADATA = {
+    "title": "Free vs paid: when to pay",
+    "slug": "free-vs-paid-when-to-pay",
+    "series": "Humanitarians AI — how to use AI",
+    "skill": "ai-explainer",
+    "style_preset": "ai-explainer",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "register": "Teardown",
+    "watermark": "@NikBearBrown",
+    "greeting": "Ciao",
+    "palette": {
+        "stage": "#F2F0E9",
+        "ink": "#3D3929",
+        "accent": "#D97757",
+        "dim": "#8B8F96",
+        "ghost": "#D9D4C7",
+        "card": "#FAF9F5",
+    },
+    "bookend_exempt": ["cold-open", "bvdt"],
+    "bookend_exempt_reason": (
+        "ai-explainer drops the composer cold open and the verdict card; "
+        "the film opens on the hesitant writer and recaps in BVDT."
+    ),
+    "playlist": "how-to-use-ai",
+    "tags": ["ai-explainer", "free-vs-paid", "pricing-tiers",
+             "decision-framework", "general-audience"],
+    "derived_from": "NEW — built from scratch; no mirror source",
+    "audience": "smart, pragmatic general audience; not necessarily AI experts",
+}
+
+SHEET = {"metadata": METADATA, "beats": BEATS}
+
+
+def main():
+    beats = SHEET["beats"]
+    n = len(beats)
+    assert 13 <= n <= 22, f"beat count {n} outside 13-22 band"
+    body = [b for b in beats if b["act"] in ("1", "2", "3")]
+    assert 6 <= len(body) <= 12, f"body beats {len(body)} outside 6-12 band"
+    total = sum(b["dur_s"] for b in beats)
+    assert 180 <= total <= 360, f"total {total}s outside 180-360 band (3-6 min)"
+    bidea = next(b for b in beats if b["id"] == "BIDEA")
+    assert "Liam, in for Bear" in bidea["line"], "BIDEA must name the voice"
+    bvdt = next(b for b in beats if b["id"] == "BVDT")
+    required = ["sharper model", "higher limits", "longer memory",
+                "early features", "wall", "fee", "one-month", "annual"]
+    missing = [p for p in required if p not in bvdt["line"].lower()]
+    assert not missing, f"BVDT missing framework terms: {missing}"
+    bhtf = next(b for b in beats if b["id"] == "BHTF")
+    assert "paste this in" in bhtf["line"], "BHTF must carry the viewer prompt"
+    for b in beats:
+        assert b["shot"]["type"] == "MANIM", f"{b['id']} is not MANIM"
+        cls = b["shot"]["manim"]["class"]
+        assert cls.startswith(b["scene"] + "_"), (
+            f"{b['id']}: class {cls} does not match scene {b['scene']}")
+        for k in ("id", "scene", "dur_s", "act", "voice", "line",
+                  "screen", "shot"):
+            assert k in b, f"{b['id']} missing key {k}"
+    out = os.path.join(HERE, "beat_sheet.json")
+    with open(out, "w") as f:
+        json.dump(SHEET, f, indent=1, ensure_ascii=False)
+        f.write("\n")
+    print(f"wrote {out}: {n} beats, {len(body)} body, {total}s")
+
+
+if __name__ == "__main__":
+    main()
