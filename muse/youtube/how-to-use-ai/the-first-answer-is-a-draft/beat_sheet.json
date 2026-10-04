@@ -1,0 +1,543 @@
+{
+  "metadata": {
+    "slug": "the-first-answer-is-a-draft",
+    "title": "The first answer is a draft",
+    "topic": "CLAUDE · HOW TO AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience, not AI experts",
+    "source_doc": "NEW — built from scratch from the film brief (see SOURCES.md)",
+    "playlist": "How to AI",
+    "chapter_number": 8,
+    "tags": [
+      "iterate",
+      "pushback",
+      "prompting",
+      "Claude",
+      "first draft",
+      "how to AI",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. Most people ask Claude for the perfect workout plan, read the answer, and stop there. But the first answer is not the answer. It's a draft.",
+      "estimated_duration_s": 13.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Give me the perfect workout plan for my week'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'perfect workout plan' → 'first draft of a workout plan' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Give me the perfect workout plan for my week",
+            "triggerWords": "perfect workout plan",
+            "replacementWords": "first draft of a workout plan",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "the-first-answer-is-a-draft",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive 'perfect' question and corrects it to a first draft.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Two terms. A first draft: the AI's first try at your answer — rough and generic, meant to be rewritten. And pushback: your corrections — shorter, more concrete, try again — the part that turns the draft into the answer.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'first draft' lands"
+          },
+          {
+            "at": 0.55,
+            "event": "'pushback' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "first draft",
+                "meaning": "the AI's first try at your answer — rough and generic, meant to be rewritten"
+              },
+              {
+                "term": "pushback",
+                "meaning": "your corrections that turn the draft into the answer"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: two prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Picture every AI answer as a page stamped draft one. Not the answer. Just the first try.",
+      "estimated_duration_s": 6.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A white draft page drops onto the stage; a DRAFT 1 tag clips onto its corner; the label 'draft one' lands beside it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "page drops in"
+          },
+          {
+            "at": 0.5,
+            "event": "DRAFT 1 tag clips on"
+          },
+          {
+            "at": 0.8,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B00_DraftOne"
+        },
+        "motion_claim": "A white draft page drops onto the stage; a DRAFT 1 tag clips onto its corner; the label 'draft one' lands beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Most people treat that page like it's final. They read it, nod, and move on. But that first answer is a rough guess — it doesn't know your life yet.",
+      "estimated_duration_s": 12.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A rubber stamp reading FINAL slams down onto the draft page from above, too early.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "page with DRAFT 1 tag"
+          },
+          {
+            "at": 0.45,
+            "event": "stamp descends"
+          },
+          {
+            "at": 0.6,
+            "event": "stamp lands"
+          }
+        ],
+        "manim": {
+          "class": "B01_TooEarly"
+        },
+        "motion_claim": "A rubber stamp reading FINAL slams down onto the draft page from above, too early."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Say you ask Claude: plan my dinners this week. Draft one comes back long and vague — full of dishes you'll never cook.",
+      "estimated_duration_s": 9.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A question pill 'plan dinners' sits above the page; six long pale ghost lines draw in one by one — the vague answer.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "question pill"
+          },
+          {
+            "at": 0.35,
+            "event": "ghost lines draw in"
+          }
+        ],
+        "manim": {
+          "class": "B02_FirstTry"
+        },
+        "motion_claim": "A question pill 'plan dinners' sits above the page; six long pale ghost lines draw in one by one — the vague answer."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now push back. Type one word: shorter. The page trims itself. Same plan, half the words.",
+      "estimated_duration_s": 6.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A pushback pill 'shorter' pops in; three of the six lines get ink X marks and fade out — the page trims itself.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "'shorter' pill pops in"
+          },
+          {
+            "at": 0.55,
+            "event": "X marks draw"
+          },
+          {
+            "at": 0.75,
+            "event": "lines fade"
+          }
+        ],
+        "manim": {
+          "class": "B03_Shorter"
+        },
+        "motion_claim": "A pushback pill 'shorter' pops in; three of the six lines get ink X marks and fade out — the page trims itself."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Push back again: more concrete. The vague lines sharpen into real dinners — taco night, soup, a stir-fry you'll actually buy for.",
+      "estimated_duration_s": 8.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A pushback pill 'more concrete' pops in; the three pale lines become solid ink lines, each labelled with a real dinner.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "'more concrete' pill pops in"
+          },
+          {
+            "at": 0.5,
+            "event": "lines sharpen"
+          },
+          {
+            "at": 0.7,
+            "event": "dinner labels land"
+          }
+        ],
+        "manim": {
+          "class": "B04_Concrete"
+        },
+        "motion_claim": "A pushback pill 'more concrete' pops in; the three pale lines become solid ink lines, each labelled with a real dinner."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then steer it: try again, but for a busy parent. Now each dinner gets a clock: fifteen minutes, twenty minutes. The plan fits your life, not a stranger's.",
+      "estimated_duration_s": 11.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A pushback pill 'for a busy parent' pops in; a clock drops in; '15 min' tags land beside each dinner.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "'for a busy parent' pill pops in"
+          },
+          {
+            "at": 0.5,
+            "event": "clock drops in"
+          },
+          {
+            "at": 0.7,
+            "event": "15 min tags land"
+          }
+        ],
+        "manim": {
+          "class": "B05_BusyParent"
+        },
+        "motion_claim": "A pushback pill 'for a busy parent' pops in; a clock drops in; '15 min' tags land beside each dinner."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Set draft one next to draft three. The first was generic. The last is yours. The AI didn't get smarter — you steered it.",
+      "estimated_duration_s": 9.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The greyed draft-one page slides left; a crisp page with a DRAFT 3 tag and an ink check drops in on the right.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "draft one slides left"
+          },
+          {
+            "at": 0.45,
+            "event": "draft three drops in"
+          },
+          {
+            "at": 0.8,
+            "event": "check draws"
+          }
+        ],
+        "manim": {
+          "class": "B06_SideBySide"
+        },
+        "motion_claim": "The greyed draft-one page slides left; a crisp page with a DRAFT 3 tag and an ink check drops in on the right."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Sometimes pushback goes too far, and the plan drifts off track. Fine. You're the boss. One line brings it back: keep it simple, stick to weeknights.",
+      "estimated_duration_s": 10.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A stray off-topic line wanders onto the page; a steering pill 'stick to weeknights' pops in; the stray line fades away.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "stray line drifts in"
+          },
+          {
+            "at": 0.55,
+            "event": "steering pill pops in"
+          },
+          {
+            "at": 0.8,
+            "event": "stray line fades"
+          }
+        ],
+        "manim": {
+          "class": "B07_Drift"
+        },
+        "motion_claim": "A stray off-topic line wanders onto the page; a steering pill 'stick to weeknights' pops in; the stray line fades away."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Three pushbacks do most of the work. Shorter: cut the fluff. More concrete: name the thing. For someone: say whose life this is for. Remember those three.",
+      "estimated_duration_s": 10.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three pills spring in left to right — 'shorter', 'more concrete', 'for someone' — with an ink arrow drawing beneath them.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "'shorter' pill"
+          },
+          {
+            "at": 0.4,
+            "event": "'more concrete' pill"
+          },
+          {
+            "at": 0.65,
+            "event": "'for someone' pill"
+          },
+          {
+            "at": 0.85,
+            "event": "arrow draws"
+          }
+        ],
+        "manim": {
+          "class": "B08_Recipe"
+        },
+        "motion_claim": "Three pills spring in left to right — 'shorter', 'more concrete', 'for someone' — with an ink arrow drawing beneath them."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: Plan my dinners for the coming week. Treat your first answer as draft one, then ask me for three rounds of pushback: shorter, more concrete, and rewritten for my exact life. Keep iterating until I'd actually cook every night. Then check two things yourself. Does draft three mention something true only for you? And would you actually cook every night it lists? If yes twice, keep it. If not, push back again.",
+      "estimated_duration_s": 31.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Run The Three-Pushback Drill",
+            "command": "Plan my dinners for the coming week. Treat your first answer as draft one, then ask me for three rounds of pushback: shorter, more concrete, and rewritten for my exact life. Keep iterating until I'd actually cook every night.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: draft three mentions something true only for you.",
+              "Check: you would actually cook every night."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "The first answer is a draft. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "The first answer is a draft",
+            "slug": "the-first-answer-is-a-draft",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
