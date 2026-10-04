@@ -1,0 +1,526 @@
+{
+  "metadata": {
+    "slug": "plan-anything",
+    "title": "Plan anything.",
+    "topic": "CLAUDE · HOW TO AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "English (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience — not necessarily AI experts",
+    "source_doc": "NEW — built from scratch; no mirror source. The demo arc (weekend trip: constraints → draft → revise → checklist) is the film's own fictional worked example. See SOURCES.md.",
+    "playlist": "How to Use AI",
+    "chapter_number": 17,
+    "tags": [
+      "Claude",
+      "AI planning",
+      "trip planning",
+      "productivity",
+      "AI fluency",
+      "itinerary",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. Don't ask the machine to plan everything in one go. Plan with it instead, step by step, like a partner that never gets tired of revising.",
+      "estimated_duration_s": 13.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Plan my whole weekend trip for me?'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'plan my whole weekend trip' -> 'help me plan it step by step' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Plan my whole weekend trip for me?",
+            "triggerWords": "Plan my whole weekend trip",
+            "replacementWords": "help me plan it step by step",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "plan-anything",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive one-shot planning request and corrects it to the film's real one: planning with the machine, step by step.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. A constraint: a limit the plan must respect, your budget, your dates, your interests. A draft: a first version built to be changed. An itinerary: the trip's day-by-day schedule.",
+      "estimated_duration_s": 12.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'constraint' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'draft' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'itinerary' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "constraint",
+                "meaning": "a limit the plan must respect: budget, dates, interests"
+              },
+              {
+                "term": "draft",
+                "meaning": "a first version, built to be changed"
+              },
+              {
+                "term": "itinerary",
+                "meaning": "the trip's day-by-day schedule"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "the loop",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Planning is where AI shines. It never gets tired of revising, so you can ask for ten versions instead of settling for the first one. Every good plan runs the same loop: constraints in, a draft out, revisions, then a checklist.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Four kraft blocks drop in one by one — constraints, draft, revise, checklist — while a terracotta arrow sweeps along the row.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "constraints block drops"
+          },
+          {
+            "at": 0.35,
+            "event": "draft block drops"
+          },
+          {
+            "at": 0.6,
+            "event": "revise block drops"
+          },
+          {
+            "at": 0.8,
+            "event": "checklist block drops; terracotta arrow sweeps"
+          }
+        ],
+        "manim": {
+          "class": "B00_TheLoop"
+        },
+        "motion_claim": "Four kraft blocks drop in one by one — constraints, draft, revise, checklist — while a terracotta arrow sweeps along the row."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "constraints",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Start with your constraints, not your dream trip. Say two days, a hundred and fifty dollars of spending money, and what you like: hiking, museums, cheap eats. Give the machine all of it, up front.",
+      "estimated_duration_s": 14.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three kraft chips — budget, dates, interests — drop into an open kraft box one by one, each labelled as it lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "open box; 'budget' chip drops"
+          },
+          {
+            "at": 0.45,
+            "event": "'dates' chip drops"
+          },
+          {
+            "at": 0.7,
+            "event": "'interests' chip drops"
+          }
+        ],
+        "manim": {
+          "class": "B01_Constraints"
+        },
+        "motion_claim": "Three kraft chips — budget, dates, interests — drop into an open kraft box one by one, each labelled as it lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "the draft",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now ask for a draft. 'Here are my budget, my dates, my interests: sketch a two-day trip.' Out comes an itinerary: day one, day two, a morning hike, a lunch stop, an evening at a museum. Not final. Raw material.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two itinerary pages drop in fast — 'day one', 'day two' — and a terracotta dot lands on the plan with the words 'raw material'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "'day one' page drops"
+          },
+          {
+            "at": 0.45,
+            "event": "'day two' page drops"
+          },
+          {
+            "at": 0.8,
+            "event": "terracotta dot; 'raw material' lands"
+          }
+        ],
+        "manim": {
+          "class": "B02_DraftItinerary"
+        },
+        "motion_claim": "Two itinerary pages drop in fast — 'day one', 'day two' — and a terracotta dot lands on the plan with the words 'raw material'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "revise",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now do the thing no travel book ever did: complain. 'Too rushed, slow it down, and drop the early start.' The whole plan rewrites itself in seconds. No sighing, no erasing. That is the superpower: the machine never gets tired of revising.",
+      "estimated_duration_s": 16.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An ink arc sweeps across the draft as the complaint lands; a terracotta dot marks the first stop, which fades out; the remaining stops spread apart; a terracotta check lands with the word 'slower'.",
+        "show": [
+          {
+            "at": 0.25,
+            "event": "arc sweeps the draft; dot marks the first stop"
+          },
+          {
+            "at": 0.55,
+            "event": "first stop fades; the rest spread apart"
+          },
+          {
+            "at": 0.8,
+            "event": "terracotta check; 'slower' lands"
+          }
+        ],
+        "manim": {
+          "class": "B03_Revise"
+        },
+        "motion_claim": "An ink arc sweeps across the draft as the complaint lands; a terracotta dot marks the first stop, which fades out; the remaining stops spread apart; a terracotta check lands with the word 'slower'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "the checklist",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Last step: turn the plan into a checklist. What to pack, what to book before you go, what to double-check the day before. A plan you can hold in your hand, and check off.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A plan page beside three pills — pack, book, day before — each getting a terracotta check as the voice names it.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "'pack' pill; terracotta check"
+          },
+          {
+            "at": 0.5,
+            "event": "'book' pill; terracotta check"
+          },
+          {
+            "at": 0.8,
+            "event": "'day before' pill; terracotta check"
+          }
+        ],
+        "manim": {
+          "class": "B04_Checklist"
+        },
+        "motion_claim": "A plan page beside three pills — pack, book, day before — each getting a terracotta check as the voice names it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "projects",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The pattern travels. Planning a project? Same loop. Constraints: your deadline, your team. A draft timeline. Revisions when the scope slips. And a launch checklist at the end.",
+      "estimated_duration_s": 11.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two chips drop into the constraint box; a project page with a three-bar timeline lands; one bar fades as the scope slips; a terracotta check lands with the word 'launch'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "chips drop into the constraint box"
+          },
+          {
+            "at": 0.4,
+            "event": "project page; three timeline bars"
+          },
+          {
+            "at": 0.7,
+            "event": "one bar fades; arc sweeps"
+          },
+          {
+            "at": 0.9,
+            "event": "terracotta check; 'launch' lands"
+          }
+        ],
+        "manim": {
+          "class": "B05_Projects"
+        },
+        "motion_claim": "Two chips drop into the constraint box; a project page with a three-bar timeline lands; one bar fades as the scope slips; a terracotta check lands with the word 'launch'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "budgets",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "A budget is a plan for money, and it runs the same loop. Constraints: your income, your goals. A draft: the first split of every dollar. Revisions when life happens. The checklist: payday, bills paid, savings moved, done.",
+      "estimated_duration_s": 15.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two chips drop into the constraint box; a budget page lands with one bar split into three grey segments; one segment fades as life happens; a terracotta check lands with the word 'payday'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "chips drop into the constraint box"
+          },
+          {
+            "at": 0.4,
+            "event": "budget page; bar split into three"
+          },
+          {
+            "at": 0.7,
+            "event": "one segment fades; arc sweeps"
+          },
+          {
+            "at": 0.9,
+            "event": "terracotta check; 'payday' lands"
+          }
+        ],
+        "manim": {
+          "class": "B06_Budgets"
+        },
+        "motion_claim": "Two chips drop into the constraint box; a budget page lands with one bar split into three grey segments; one segment fades as life happens; a terracotta check lands with the word 'payday'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "verify",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One rule never changes. AI prices and opening hours come from memory, and memory goes stale. Before you book anything, check it yourself. The machine plans. You verify.",
+      "estimated_duration_s": 11.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A magnifier appears over the plan page and sweeps it; a terracotta check lands; a small figure arrives with the words 'you verify'.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "magnifier appears over the plan"
+          },
+          {
+            "at": 0.5,
+            "event": "sweep; terracotta check"
+          },
+          {
+            "at": 0.8,
+            "event": "figure arrives; 'you verify' lands"
+          }
+        ],
+        "manim": {
+          "class": "B07_YouVerify"
+        },
+        "motion_claim": "A magnifier appears over the plan page and sweeps it; a terracotta check lands; a small figure arrives with the words 'you verify'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: I'm planning a weekend trip. My constraints are: two days, one hundred fifty dollars of spending money, and I like hiking, museums, and cheap eats. Give me a first draft itinerary, then I'll tell you what's wrong with it. Keep it simple. Then check two things yourself. Did it respect every constraint you gave it? And did it ask what it got wrong? If it didn't ask, invite the revision yourself: 'too rushed, slow it down.'",
+      "estimated_duration_s": 32.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Plan Your First Trip",
+            "command": "I'm planning a weekend trip. My constraints are: two days, one hundred fifty dollars of spending money, and I like hiking, museums, and cheap eats. Give me a first draft itinerary, then I'll tell you what's wrong with it. Keep it simple.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: it respected every constraint you gave it.",
+              "Check: nothing is booked until you verify it yourself."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Plan anything. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Plan anything.",
+            "slug": "plan-anything",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
