@@ -1,0 +1,414 @@
+{
+  "metadata": {
+    "slug": "learn-anything-faster",
+    "title": "Learn Anything Faster",
+    "topic": "AI · LEARNING",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience — not AI experts; every term explained plainly",
+    "source_doc": "NEW — built from scratch, no mirror source. Mortgage mechanics checked against CFPB/Federal Reserve glossaries and amortization references (see SOURCES.md); Socratic method checked against standard references.",
+    "playlist": "How to AI",
+    "chapter_number": 13,
+    "tags": [
+      "AI tutor",
+      "learn faster",
+      "Socratic method",
+      "quizzing",
+      "how mortgages work",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. Most of us open the AI the same way: we ask for the answer. But the fastest way to learn anything is to ask it to teach you. So the question is not give me the answer. It is teach me like a tutor.",
+      "estimated_duration_s": 20.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Give me the answer'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'Give me the answer' -> 'Teach me like a tutor' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Give me the answer\nabout mortgages",
+            "triggerWords": "Give me the answer",
+            "replacementWords": "Teach me like a tutor",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "learn-anything-faster",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive answer-ask and corrects it to the tutor ask.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms, plainly. Tutor mode: telling the AI to teach you, instead of doing the work for you. Quiz mode: the AI asks one question at a time, and waits until you get it. Socratic mode: the AI teaches by asking questions, never handing you the answer, named for Socrates, the Greek philosopher who taught that way.",
+      "estimated_duration_s": 22.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'tutor mode' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'quiz mode' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'Socratic mode' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "tutor mode",
+                "meaning": "the AI teaches you instead of doing the work for you"
+              },
+              {
+                "term": "quiz mode",
+                "meaning": "one question at a time, and it waits until you get it"
+              },
+              {
+                "term": "Socratic mode",
+                "meaning": "it asks questions instead of giving answers, named for Socrates"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Our demo topic: how a mortgage works. Almost everyone signs one, and almost no one feels they understand it. So it makes the perfect student. Here is the house. Watch what the three moves do to it.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A kraft isometric house drops onto the stage with a landing shadow; the label 'a mortgage' lands beside it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "landing shadow grows, house drops in"
+          },
+          {
+            "at": 0.35,
+            "event": "label 'a mortgage' lands"
+          }
+        ],
+        "manim": {
+          "class": "B00_House"
+        },
+        "motion_claim": "A kraft isometric house drops onto the stage with a landing shadow; the label 'a mortgage' lands beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Move one: explain it like I am smart but new to it. That one line changes everything the AI gives you. A mortgage, plainly: you borrow a large sum to buy the house. Interest is the price of borrowing, a little extra on top. And you pay it all back, bit by bit, over many years. Three blocks. That is the whole machine.",
+      "estimated_duration_s": 25.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The tutor card fades in; the house opens and three kraft blocks drop into a row beneath it, labelled 'borrow', 'interest', 'pay back'; a terracotta dot hops block to block as the voice walks the three.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "tutor card fades in"
+          },
+          {
+            "at": 0.3,
+            "event": "three blocks drop from the house"
+          },
+          {
+            "at": 0.55,
+            "event": "dot hops to 'borrow'"
+          },
+          {
+            "at": 0.7,
+            "event": "dot hops to 'interest'"
+          },
+          {
+            "at": 0.85,
+            "event": "dot hops to 'pay back'"
+          }
+        ],
+        "manim": {
+          "class": "B01_ExplainSimple"
+        },
+        "motion_claim": "The tutor card fades in; the house opens and three kraft blocks drop into a row beneath it, labelled 'borrow', 'interest', 'pay back'; a terracotta dot hops block to block as the voice walks the three."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Move two: quiz me, one question at a time, and do not move on until I get it. The AI asks: what is interest, in a mortgage? You answer, in your own words. It checks you, and only when you are right does the next question arrive. A wrong answer is not punished. It is just not yet. The AI stays on the question until the idea is yours.",
+      "estimated_duration_s": 27.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A '?' pill drops from the tutor to the learner; an answer line runs back; a terracotta check stamps it; only then does the second '?' pill arrive. Tag: 'one at a time'.",
+        "show": [
+          {
+            "at": 0.35,
+            "event": "'?' pill drops to the learner"
+          },
+          {
+            "at": 0.45,
+            "event": "answer line runs back"
+          },
+          {
+            "at": 0.65,
+            "event": "terracotta check stamps it"
+          },
+          {
+            "at": 0.85,
+            "event": "second '?' pill arrives"
+          }
+        ],
+        "manim": {
+          "class": "B02_QuizMode"
+        },
+        "motion_claim": "A '?' pill drops from the tutor to the learner; an answer line runs back; a terracotta check stamps it; only then does the second '?' pill arrive. Tag: 'one at a time'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Move three: Socratic mode. Do not give me the answer. Ask me leading questions. You ask: why does a little extra each month save so much? A plain answer would just tell you. A tutor asks back: when you pay, where does the money go first, the loan itself, or the interest on it? You answer. It asks a sharper question. And the insight lands, because you built it. The AI never hands you the answer. It walks you to it.",
+      "estimated_duration_s": 32.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two option pills, 'the loan' / 'the interest', land by the learner; the learner's terracotta answer dot taps 'the interest'; a sharper question arrow cycles; the 'aha' dot lands above the learner.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "option pills 'the loan' / 'the interest' land"
+          },
+          {
+            "at": 0.6,
+            "event": "answer dot taps 'the interest'"
+          },
+          {
+            "at": 0.8,
+            "event": "sharper question arrow cycles"
+          },
+          {
+            "at": 0.92,
+            "event": "'aha' dot lands above the learner"
+          }
+        ],
+        "manim": {
+          "class": "B03_Socratic"
+        },
+        "motion_claim": "Two option pills, 'the loan' / 'the interest', land by the learner; the learner's terracotta answer dot taps 'the interest'; a sharper question arrow cycles; the 'aha' dot lands above the learner."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The house was only the demo. The moves transfer to anything: the new rule at work, the tool everyone assumes you know, the topic you keep avoiding. Same three moves. Different house. Tonight, pick yours.",
+      "estimated_duration_s": 14.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The house slides aside and shrinks; a white card with '?' lands in its place, labelled 'your topic'; three terracotta dots pop in beside it.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "house slides aside, '?' card lands"
+          },
+          {
+            "at": 0.4,
+            "event": "label 'your topic' lands"
+          },
+          {
+            "at": 0.75,
+            "event": "three terracotta dots pop in"
+          }
+        ],
+        "manim": {
+          "class": "B04_YourTopic"
+        },
+        "motion_claim": "The house slides aside and shrinks; a white card with '?' lands in its place, labelled 'your topic'; three terracotta dots pop in beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into the AI, with your own topic where it says your topic. Be my tutor on your topic. First, explain it like I am smart but new to it. Then quiz me, one question at a time, and do not move on until I get it right. When I ask why, do not give me the answer. Ask me leading questions instead. Then check two things yourself. Did you answer in your own words, before looking? And did you let it stay on a question you got wrong, instead of rushing past it?",
+      "estimated_duration_s": 38.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the tutor prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "AI · YOUR TURN",
+            "segment": "Learn Anything Faster",
+            "command": "Be my tutor on [your topic]. First, explain it like I am smart but new to it. Then quiz me, one question at a time, and do not move on until I get it right. When I ask why, do not give me the answer - ask me leading questions instead.",
+            "runningText": "paste this into the AI…",
+            "output": [
+              "Check: you answered in your own words, before looking.",
+              "Check: you let it stay on a question you got wrong."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "any AI",
+            "effortLabel": "Low"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Learn Anything Faster. Liam, in for Bear. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Learn Anything Faster",
+            "slug": "learn-anything-faster",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
