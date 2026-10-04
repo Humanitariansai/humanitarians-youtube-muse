@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "slug": "write-with-ai-sound-like-you",
+    "title": "Write with AI, Still Sound Like You",
+    "topic": "CLAUDE · WRITING",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience — not AI experts; every term explained, show-don't-tell",
+    "source_doc": "Original script — no external source (2026-10-03)",
+    "playlist": "How to AI",
+    "chapter_number": 14,
+    "tags": [
+      "AI writing",
+      "prompting",
+      "voice",
+      "writing style",
+      "Claude",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. AI writing tools will draft anything you ask for. But if you have ever read what comes back and thought, that does not sound like me, you are not alone. The real question is not how you make the AI write better. It is how you make it sound like you.",
+      "estimated_duration_s": 23.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'How do I get AI to'"
+          },
+          {
+            "at": 0.5,
+            "event": "backspaces 'write better' → 'sound like me' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I get AI to\nwrite better for me?",
+            "triggerWords": "write better",
+            "replacementWords": "sound like me",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "write-with-ai-sound-like-you",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive writing question and corrects it to the real one: sounding like you.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms you will need. Voice: the way you sound on the page — your words, your rhythm. A prompt: the instruction you type before the AI writes anything. And a draft: a rough version that nobody is supposed to see.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'voice' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'prompt' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'draft' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "voice",
+                "meaning": "the way you sound on the page — your words, your rhythm"
+              },
+              {
+                "term": "prompt",
+                "meaning": "the instruction you type before the AI writes anything"
+              },
+              {
+                "term": "draft",
+                "meaning": "a rough version that nobody is supposed to see"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here is the problem. Most people type a prompt, take the first draft, and ship it. And every first draft comes out in the same voice — the AI's default voice. Polite, padded, a little bit robotic. It sounds like everyone. Which means it sounds like no one.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A dark AI block prints pages; three identical pages drop out in a row, all in the same grey voice; the words 'default voice' sit beside them.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "AI block on stage"
+          },
+          {
+            "at": 0.3,
+            "event": "first identical page drops"
+          },
+          {
+            "at": 0.6,
+            "event": "two more identical pages"
+          },
+          {
+            "at": 0.85,
+            "event": "'default voice' label"
+          }
+        ],
+        "manim": {
+          "class": "B00_RobotDraft"
+        },
+        "motion_claim": "A dark AI block prints pages; three identical pages drop out in a row, all in the same grey voice; the words 'default voice' sit beside them."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Why does that happen? Because the AI has nothing to copy. A draft is a guess, and with no sample of how you write, the AI falls back on its safest habit — the voice it learned from reading everything. And 'everything' is exactly what makes it sound like everyone.",
+      "estimated_duration_s": 20.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The same AI block with an empty input tray labelled 'no sample'; identical pages still roll out of it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "empty tray drops onto the block"
+          },
+          {
+            "at": 0.45,
+            "event": "'no sample' label"
+          },
+          {
+            "at": 0.65,
+            "event": "identical pages roll out anyway"
+          }
+        ],
+        "manim": {
+          "class": "B01_NoSample"
+        },
+        "motion_claim": "The same AI block with an empty input tray labelled 'no sample'; identical pages still roll out of it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Fix one. Give it something to copy. Take one email or paragraph you actually wrote — one that sounds like you — paste it into your prompt, and add the words: match this voice. Now the AI has your words, your rhythm, your sentence length. It is copying you now, not the internet.",
+      "estimated_duration_s": 21.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A white page labelled 'your email' slides into the AI block; a fresh page comes out carrying a terracotta check and the words 'sounds like you'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "'your email' page on stage"
+          },
+          {
+            "at": 0.45,
+            "event": "page slides into the block"
+          },
+          {
+            "at": 0.7,
+            "event": "new page comes out"
+          },
+          {
+            "at": 0.9,
+            "event": "check + 'sounds like you'"
+          }
+        ],
+        "manim": {
+          "class": "B02_MatchMyVoice"
+        },
+        "motion_claim": "A white page labelled 'your email' slides into the AI block; a fresh page comes out carrying a terracotta check and the words 'sounds like you'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Fix two. Ban the giveaways. AI drafts lean on the same telltale phrases — delve, in today's fast-paced world, and a forest of em-dashes. None of them are wrong. They are just the uniform. Add one line to your prompt: never use these words. The draft comes back plainer. Which is to say, more like a person.",
+      "estimated_duration_s": 22.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A page lists 'delve', \"in today's fast-paced world\" and a row of em-dashes; each is crossed out in turn; 'the giveaways' beside.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "page with the three phrases"
+          },
+          {
+            "at": 0.4,
+            "event": "'delve' crossed out"
+          },
+          {
+            "at": 0.6,
+            "event": "'fast-paced world' crossed out"
+          },
+          {
+            "at": 0.8,
+            "event": "em-dashes crossed out"
+          }
+        ],
+        "manim": {
+          "class": "B03_BanTheGiveaways"
+        },
+        "motion_claim": "A page lists 'delve', \"in today's fast-paced world\" and a row of em-dashes; each is crossed out in turn; 'the giveaways' beside."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Fix three. Stop starting from nothing. Instead of asking the AI to invent your thoughts, dictate your rough ones — talk it out, typos and all — and ask it to clean them up. It is easier to keep your ideas and borrow its sentences than to inject your ideas into its sentences.",
+      "estimated_duration_s": 21.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A speech bubble labelled 'rough thoughts' holds messy scribbled lines; a clean page drops beside it labelled 'cleaned up'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "speech bubble"
+          },
+          {
+            "at": 0.35,
+            "event": "messy scribbles"
+          },
+          {
+            "at": 0.7,
+            "event": "clean page drops"
+          }
+        ],
+        "manim": {
+          "class": "B04_DictateThenClean"
+        },
+        "motion_claim": "A speech bubble labelled 'rough thoughts' holds messy scribbled lines; a clean page drops beside it labelled 'cleaned up'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Fix four. Do the last pass yourself. Read the draft out loud, and anywhere it does not sound like something you would say, change it in your own words. The AI did the typing. But the voice at the end — that has to be yours.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A page with three lines; a pencil ellipse circles the middle line, which is swapped for a plainer one; a terracotta check lands; 'your pass' beside.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "draft page"
+          },
+          {
+            "at": 0.45,
+            "event": "line circled"
+          },
+          {
+            "at": 0.65,
+            "event": "line swapped"
+          },
+          {
+            "at": 0.85,
+            "event": "check + 'your pass'"
+          }
+        ],
+        "manim": {
+          "class": "B05_YourFinalPass"
+        },
+        "motion_claim": "A page with three lines; a pencil ellipse circles the middle line, which is swapped for a plainer one; a terracotta check lands; 'your pass' beside."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now watch all four fixes on a real email. The default draft says: I hope this email finds you well. Delving into our proposal dash dash. Nobody talks like that. The fixed version says: Hi Maya, here is the proposal. Page three has the price. Shout if anything looks off. Same facts. One of them sounds like a person.",
+      "estimated_duration_s": 23.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two pages side by side: the left labelled 'default' in grey, the right labelled 'your voice' with a terracotta check.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "'default' page"
+          },
+          {
+            "at": 0.45,
+            "event": "'your voice' page slides in"
+          },
+          {
+            "at": 0.8,
+            "event": "check lands"
+          }
+        ],
+        "manim": {
+          "class": "B06_TheEmail"
+        },
+        "motion_claim": "Two pages side by side: the left labelled 'default' in grey, the right labelled 'your voice' with a terracotta check."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: Here is a paragraph I wrote: [paste it]. Match this voice — my words, my rhythm, my sentence length. Never use these words: delve, leverage, game-changer, in today's fast-paced world. No em-dashes. Below are my rough thoughts, dictated. Clean them up without adding new ideas: [paste your thoughts]. Then check two things yourself. Read it out loud — does it sound like something you would actually say? And did you do your own final pass, in your own words?",
+      "estimated_duration_s": 34.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Make AI Write Like You",
+            "command": "Here is a paragraph I wrote: [paste it]. Match this voice — my words, my rhythm, my sentence length. Never use these words: delve, leverage, game-changer, in today's fast-paced world. No em-dashes. Below are my rough thoughts, dictated. Clean them up without adding new ideas: [paste your thoughts].",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: read it out loud — would you actually say that?",
+              "Check: do your own final pass, in your own words."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Write with AI, Still Sound Like You. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Write with AI, Still Sound Like You",
+            "slug": "write-with-ai-sound-like-you",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
