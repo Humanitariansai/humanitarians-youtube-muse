@@ -1,0 +1,521 @@
+{
+  "metadata": {
+    "slug": "make-it-interview-you-first",
+    "title": "Make It Interview You First",
+    "topic": "AI · ASK FIRST",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience — not AI experts; a viewer who has typed one-line requests into an AI chat tool",
+    "source_doc": "NEW — built from scratch for film #9 of the How-to-AI queue (2026-10-03). No mirror source.",
+    "playlist": "How to AI",
+    "chapter_number": 9,
+    "tags": [
+      "Claude",
+      "prompting",
+      "interview technique",
+      "context",
+      "AI tips",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. You want Claude to plan your trip. So the question isn't how to write the perfect prompt. It's how to make Claude interview you first.",
+      "estimated_duration_s": 12.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'How do I write the perfect prompt'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'write the perfect prompt' → 'make Claude interview me first' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I write the perfect prompt\nfor my trip?",
+            "triggerWords": "write the perfect prompt",
+            "replacementWords": "make Claude interview me first",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "make-it-interview-you-first",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive prompt question and corrects it to the real one: make Claude interview you first.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. A prompt: the instruction you type. An interview: Claude asks you questions before it starts. A brief: what Claude knows about your job — which is exactly what the interview builds.",
+      "estimated_duration_s": 13.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'prompt' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'interview' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'brief' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "prompt",
+                "meaning": "the instruction you type into the chat"
+              },
+              {
+                "term": "interview",
+                "meaning": "Claude asks you questions before it starts"
+              },
+              {
+                "term": "brief",
+                "meaning": "what Claude knows about your job"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Start here. You type 'plan my trip' and hit send. Claude answers straight away — and the answer is thin. A generic list that fits anyone. Nothing went in, so nothing much came out.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A composer with 'plan my trip' typed; a thin page with three short lines grows above it; the label 'generic answer' lands beside it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "composer + cursor"
+          },
+          {
+            "at": 0.3,
+            "event": "'plan my trip' types"
+          },
+          {
+            "at": 0.55,
+            "event": "thin answer page grows"
+          },
+          {
+            "at": 0.8,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B00_AskOnce"
+        },
+        "motion_claim": "A composer with 'plan my trip' typed; a thin page with three short lines grows above it; the label 'generic answer' lands beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now change one line. Before the task, you add: 'Ask me five questions first.' Claude stops guessing and starts asking. Five question bubbles drop in — and that is the whole trick. The interview, not the instruction.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The composer gains the line 'Ask me 5 questions first.'; five question bubbles drop in a row above it; the label 'the interview' lands beside.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "composer"
+          },
+          {
+            "at": 0.3,
+            "event": "'Ask me 5 questions first.' types"
+          },
+          {
+            "at": 0.6,
+            "event": "five question bubbles drop in"
+          },
+          {
+            "at": 0.85,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B01_AskFirst"
+        },
+        "motion_claim": "The composer gains the line 'Ask me 5 questions first.'; five question bubbles drop in a row above it; the label 'the interview' lands beside."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Watch what the questions do. Budget. Dates. Who is going. Fast or slow. One must-see. Each question names something Claude was about to guess — and would have guessed wrong. The interview doesn't make Claude smarter. It makes the brief complete.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Five question cards land in a row — budget, dates, who, pace, must-see — then a terracotta scan line sweeps under them.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "cards begin to land on each spoken word"
+          },
+          {
+            "at": 0.45,
+            "event": "all five cards down"
+          },
+          {
+            "at": 0.75,
+            "event": "scan line sweeps"
+          }
+        ],
+        "manim": {
+          "class": "B02_FiveQuestions"
+        },
+        "motion_claim": "Five question cards land in a row — budget, dates, who, pace, must-see — then a terracotta scan line sweeps under them."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now you answer — briefly. Tight budget. November. Two adults and a kid. Slow pace. The fish market at opening. Each answer lands as a chip in your brief. You skip what doesn't matter. In thirty seconds the brief holds everything the trip needs.",
+      "estimated_duration_s": 17.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An open iso brief box; five answer chips (tight, November, 2+1, slow, fish market) drop into it one by one; the label 'your brief' lands beside.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "brief box opens"
+          },
+          {
+            "at": 0.3,
+            "event": "chips drop in on each spoken answer"
+          },
+          {
+            "at": 0.85,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B03_BriefBuilt"
+        },
+        "motion_claim": "An open iso brief box; five answer chips (tight, November, 2+1, slow, fish market) drop into it one by one; the label 'your brief' lands beside."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now the plan comes back — and look at it. Not a generic list: slow mornings for the kid, free sights for the budget, the fish market on day two. Same AI, same task. The only thing that changed was the brief.",
+      "estimated_duration_s": 16.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The brief box feeds a full tailored plan page that grows line by line; the thin generic page from B00 sits dimmed beside it; a terracotta check stamps the tailored page.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "brief box + thin generic page"
+          },
+          {
+            "at": 0.35,
+            "event": "tailored page grows"
+          },
+          {
+            "at": 0.7,
+            "event": "check stamps"
+          }
+        ],
+        "manim": {
+          "class": "B04_TailoredPlan"
+        },
+        "motion_claim": "The brief box feeds a full tailored plan page that grows line by line; the thin generic page from B00 sits dimmed beside it; a terracotta check stamps the tailored page."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Second example — a difficult email. 'Help me apologise to my landlord.' Claude could draft straight away, and it would land wrong. So it asks first: who is it to? What went wrong? Firm or friendly? Three questions — and the draft lands, because it was aimed.",
+      "estimated_duration_s": 18.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An envelope card labelled 'difficult email'; three question bubbles land beside it; a finished letter page fades in with an ink check.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "envelope card"
+          },
+          {
+            "at": 0.4,
+            "event": "three question bubbles land"
+          },
+          {
+            "at": 0.7,
+            "event": "letter page + check"
+          }
+        ],
+        "manim": {
+          "class": "B05_SecondDemo"
+        },
+        "motion_claim": "An envelope card labelled 'difficult email'; three question bubbles land beside it; a finished letter page fades in with an ink check."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Sharpen the move: don't just ask for questions — ask for questions that would change your answer. A lazy question, like 'favourite colour', costs you time and changes nothing. A sharp one pays you back. That is also why you skip any question that wouldn't change your result.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two question cards side by side: a dimmed one ('favourite colour?') with a grey strike, and a highlighted one ('changes the answer?') with a terracotta dot and check.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "lazy card dims with strike"
+          },
+          {
+            "at": 0.45,
+            "event": "sharp card lands with dot + check"
+          },
+          {
+            "at": 0.8,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B06_SharpQuestions"
+        },
+        "motion_claim": "Two question cards side by side: a dimmed one ('favourite colour?') with a grey strike, and a highlighted one ('changes the answer?') with a terracotta dot and check."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The rule of thumb: use the interview whenever the answer depends on you. Your trip, your email, your judgment. And skip it when it doesn't — 'what time is it in Tokyo' needs no questions. Your context is the missing ingredient; the interview hands it over.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two mini task cards: 'needs you' (trip, email) with question bubbles and a check, and 'plain fact' (Tokyo time) with a straight arrow and the label 'skip'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "both cards land"
+          },
+          {
+            "at": 0.45,
+            "event": "bubbles + check on the left card"
+          },
+          {
+            "at": 0.7,
+            "event": "'skip' label on the right card"
+          }
+        ],
+        "manim": {
+          "class": "B07_TheRule"
+        },
+        "motion_claim": "Two mini task cards: 'needs you' (trip, email) with question bubbles and a check, and 'plain fact' (Tokyo time) with a straight arrow and the label 'skip'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: Here's a task I need help with: [describe it in one line]. Before you start, ask me up to five questions that would change your answer — one at a time, waiting for my reply after each one. Then do the task using my answers. Then check two things yourself. Did every answer change something in the result? If a question changed nothing, drop it next time.",
+      "estimated_duration_s": 29.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Interview Me First",
+            "command": "Here's a task I need help with: [describe it in one line]. Before you start, ask me up to five questions that would change your answer — one at a time, waiting for my reply after each one. Then do the task using my answers.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: every answer changed something in the result.",
+              "Check: questions that changed nothing get dropped next time."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Make It Interview You First. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Make It Interview You First",
+            "slug": "make-it-interview-you-first",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
