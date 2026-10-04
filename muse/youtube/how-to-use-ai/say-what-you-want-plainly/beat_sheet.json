@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "slug": "say-what-you-want-plainly",
+    "title": "Say what you want, plainly",
+    "topic": "HOW TO AI · PROMPTING",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience; not necessarily AI experts",
+    "source_doc": "REFACTOR of mirror-repo lesson claude/claude-for-education/claude-liam-prompt-tutorial-lesson-02-clear-and-direct (Anthropic Prompt Engineering Interactive Tutorial — Lesson 02: Being Clear and Direct), rewritten for a general audience. General-audience prompt guidance per Anthropic's public prompting documentation.",
+    "playlist": "how-to-use-ai",
+    "chapter_number": 0,
+    "tags": [
+      "prompting",
+      "prompt engineering",
+      "be clear and direct",
+      "how to ai",
+      "general audience",
+      "Claude",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. Here is the habit that matters most with AI: say what you want, plainly. Watch. \"write a summary\" is a wish. A three-sentence summary of this page, in plain words, for a teammate: that is a brief. Same request. Different answer.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Write me a summary of this.'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'write a summary' → 'a three-sentence summary of this page, in plain words, for a teammate' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Write me a summary of this.\nHmm, \"write a summary\" is a wish. Say it plainly.",
+            "triggerWords": "write a summary",
+            "replacementWords": "a three-sentence summary of this page, in plain words, for a teammate",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "say-what-you-want-plainly",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the vague request and corrects it into the direct brief.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. A prompt: just what you type into the AI. A brief: a prompt that says exactly what you want, like a work brief for a colleague. And a default: the AI's most common guess, the one it reaches for when you leave a gap.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'prompt' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'brief' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'default' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "prompt",
+                "meaning": "just what you type into the AI"
+              },
+              {
+                "term": "brief",
+                "meaning": "a prompt that says exactly what you want, like a work brief"
+              },
+              {
+                "term": "default",
+                "meaning": "the AI's most common guess, reached for when you leave a gap"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "This is a prompt. A request, a question, a job you type into the AI. And it is the single biggest thing deciding what comes back. Not the model, not the settings. The words you put in.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A plain kraft prompt slip drops onto the stage and lands; the word 'prompt' beside it. A terracotta dot pulses on the slip as the voice lands on 'the words you put in'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "slip drops in with a landing shadow"
+          },
+          {
+            "at": 0.15,
+            "event": "label 'prompt' lands"
+          },
+          {
+            "at": 0.85,
+            "event": "terracotta dot pulses on the slip"
+          }
+        ],
+        "manim": {
+          "class": "B00_PromptSlip"
+        },
+        "motion_claim": "A plain kraft prompt slip drops onto the stage and lands; the word 'prompt' beside it. A terracotta dot pulses on the slip as the voice lands on 'the words you put in'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "But watch what a vague prompt does. \"Write a summary\" hands the AI a stack of blank lines. Every line you leave blank is a guess it has to make. And its guesses come from the default: the most common answer, not necessarily the one you needed.",
+      "estimated_duration_s": 18.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A dark AI block; the short vague slip 'write a summary' slides into it; three mismatched pages pop out in a row beside it, labelled 'guesses'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "AI block and label"
+          },
+          {
+            "at": 0.3,
+            "event": "vague slip slides into the block"
+          },
+          {
+            "at": 0.7,
+            "event": "three mismatched pages pop out, labelled 'guesses'"
+          }
+        ],
+        "manim": {
+          "class": "B01_Guesses"
+        },
+        "motion_claim": "A dark AI block; the short vague slip 'write a summary' slides into it; three mismatched pages pop out in a row beside it, labelled 'guesses'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The default is not wrong. It is just not yours. The AI answers the way most people want, because most people are all it knows. Your reader, your style, your situation: none of that is in the prompt, so none of it is in the answer.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The dark AI block with a row of small grey pages behind it ('most people'); the vague slip slides in; one grey page pops out labelled 'most common answer'. A small slip labelled 'you' sits apart, and a terracotta dot lands on it at the end.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "AI block, crowd of grey pages, 'you' slip"
+          },
+          {
+            "at": 0.35,
+            "event": "vague slip slides in; one grey page pops out, 'most common answer'"
+          },
+          {
+            "at": 0.88,
+            "event": "terracotta dot lands on the 'you' slip"
+          }
+        ],
+        "manim": {
+          "class": "B02_MostCommon"
+        },
+        "motion_claim": "The dark AI block with a row of small grey pages behind it ('most people'); the vague slip slides in; one grey page pops out labelled 'most common answer'. A small slip labelled 'you' sits apart, and a terracotta dot lands on it at the end."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The fix is almost embarrassing. Say what you want. Plainly. Out loud, in the prompt, the way you would say it to a person sitting across from you.",
+      "estimated_duration_s": 11.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The dim vague slip sits left; a new larger brief page lands right and three plain ink lines write themselves onto it as the voice says 'plainly'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "vague slip dim on the left"
+          },
+          {
+            "at": 0.1,
+            "event": "new brief page lands right"
+          },
+          {
+            "at": 0.35,
+            "event": "three ink lines write on"
+          },
+          {
+            "at": 0.8,
+            "event": "label 'say it plainly'"
+          }
+        ],
+        "manim": {
+          "class": "B03_TheFix"
+        },
+        "motion_claim": "The dim vague slip sits left; a new larger brief page lands right and three plain ink lines write themselves onto it as the voice says 'plainly'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Every good brief answers four questions. How long. What shape: bullets, a table, plain sentences. Who it is for. And what must be in it. Answer the ones you care about. Skip the rest.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The brief slip sits centre; four numbered kraft chips drop around it one by one — 1 length, 2 format, 3 audience, 4 must-haves — each with its term beside it.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "brief slip in place"
+          },
+          {
+            "at": 0.2,
+            "event": "chip 1 'length'"
+          },
+          {
+            "at": 0.35,
+            "event": "chip 2 'format'"
+          },
+          {
+            "at": 0.6,
+            "event": "chip 3 'audience'"
+          },
+          {
+            "at": 0.78,
+            "event": "chip 4 'must-haves'"
+          }
+        ],
+        "manim": {
+          "class": "B04_FourQuestions"
+        },
+        "motion_claim": "The brief slip sits centre; four numbered kraft chips drop around it one by one — 1 length, 2 format, 3 audience, 4 must-haves — each with its term beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Think of the AI as a brilliant new hire on day one. Smart, eager, and with zero idea how you like things done. Your style, your reader, the edge cases: all missing. So tell it. Explicitly. The brief is the onboarding.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An open folder labelled 'day one' (the new hire); the four numbered chips drop into it; a neat page rises out with an ink check.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "open folder, label 'day one'"
+          },
+          {
+            "at": 0.28,
+            "event": "four chips drop into the folder"
+          },
+          {
+            "at": 0.8,
+            "event": "a page rises out with a check"
+          }
+        ],
+        "manim": {
+          "class": "B05_NewHire"
+        },
+        "motion_claim": "An open folder labelled 'day one' (the new hire); the four numbered chips drop into it; a neat page rises out with an ink check."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here is a vague prompt becoming a brief. \"Write a summary of this document.\" Now fill the blanks. Length: three sentences. Shape: plain words. Reader: a teammate. Must-haves: the finding, the method, and the limit. Every blank you fill is a guess the AI no longer has to make.",
+      "estimated_duration_s": 19.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The slip sits centre with one ghost line; four numbered ink lines write on one by one (length, shape, reader, must-haves) as each is named — every blank filled.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "slip with one ghost line, label 'brief'"
+          },
+          {
+            "at": 0.3,
+            "event": "line 1: length"
+          },
+          {
+            "at": 0.42,
+            "event": "line 2: shape"
+          },
+          {
+            "at": 0.55,
+            "event": "line 3: reader"
+          },
+          {
+            "at": 0.68,
+            "event": "line 4: must-haves"
+          }
+        ],
+        "manim": {
+          "class": "B06_BriefRewrite"
+        },
+        "motion_claim": "The slip sits centre with one ghost line; four numbered ink lines write on one by one (length, shape, reader, must-haves) as each is named — every blank filled."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Same job, two prompts. \"Write a summary\" gets you three pages that fit nobody. The brief — length, shape, reader, must-haves — gets you one page that fits. That is the whole habit. Say what you want, plainly.",
+      "estimated_duration_s": 15.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Split frame. Left: the vague slip returns three dim mismatched pages, labelled 'vague'. Right: the brief slip returns one neat page with an ink check, labelled 'brief'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "vague side: three mismatched pages"
+          },
+          {
+            "at": 0.7,
+            "event": "brief side: one neat page with a check"
+          }
+        ],
+        "manim": {
+          "class": "B07_Compare"
+        },
+        "motion_claim": "Split frame. Left: the vague slip returns three dim mismatched pages, labelled 'vague'. Right: the brief slip returns one neat page with an ink check, labelled 'brief'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Take one prompt you actually use — something you have been running as-is. Ask it the four questions: how long, what shape, who it is for, what must be in it. Add whatever you care about but left blank. Run both versions. Then check two things yourself: does the new answer fit your reader, and did anything you left blank come back wrong?",
+      "estimated_duration_s": 26.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "HOW TO AI · YOUR TURN",
+            "segment": "Brief One Prompt",
+            "command": "Take one prompt you actually use — something you have been running as-is. Rewrite it as a brief: say how long the answer should be, what shape it should take, who it is for, and what must be in it. Then run the old version and the new version, and compare.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: the new answer fits your reader better.",
+              "Check: every gap you filled came back wrong in the old version."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Say what you want, plainly. At Nik Bear Brown.",
+      "estimated_duration_s": 3.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Say what you want, plainly",
+            "slug": "say-what-you-want-plainly",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
