@@ -1,0 +1,572 @@
+{
+  "metadata": {
+    "slug": "set-it-up-once",
+    "title": "Set it up once",
+    "topic": "AI · CUSTOM INSTRUCTIONS",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "watermark": "@NikBearBrown",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the composer; spoken outro stays.",
+    "audience": "smart general audience — pragmatic, not necessarily AI experts; every term explained",
+    "source_doc": "NEW — built from scratch 2026-10-03 (no mirror source); facts verified 2026-10-03, see FACTCHECK.md",
+    "playlist": "How to use AI",
+    "chapter_number": 23,
+    "tags": [
+      "custom instructions",
+      "personalization",
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "how to use AI",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. You asked: why does the AI forget everything between chats? Wrong question. A new chat is supposed to start fresh. The real question is: how do I make every chat start already knowing me?",
+      "estimated_duration_s": 17,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Why does the AI forget everything between chats?'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'forget everything between chats' -> 'start every chat already knowing me' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Why does the AI\nforget everything\nbetween chats?",
+            "triggerWords": "forget everything between chats",
+            "replacementWords": "start every chat already knowing me",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "set-it-up-once",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive forget-between-chats question and corrects it to the real one: start every chat already knowing me.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms you'll hear. Instructions: saved lines the app reads before every chat. Memory: things the AI itself saves from your chats. And preferences: your standing answers — tone, format, how much you already know.",
+      "estimated_duration_s": 15,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'instructions' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'memory' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'preferences' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "instructions",
+                "meaning": "saved lines the app reads before every chat"
+              },
+              {
+                "term": "memory",
+                "meaning": "things the AI itself saves from your chats"
+              },
+              {
+                "term": "preferences",
+                "meaning": "your standing answers: tone, format, skill level"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "the problem",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Meet the annoyance. You open the AI and ask: explain p-values. Back comes a wall of technical jargon. You're a beginner at statistics, but the AI doesn't know that. This chat started five seconds ago — so you explain yourself. Again.",
+      "estimated_duration_s": 18,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "MANIM",
+        "manim": {
+          "class": "B00_Repeat"
+        },
+        "show": [
+          {
+            "at": 0.05,
+            "event": "chat window fades in with a 'one chat' label"
+          },
+          {
+            "at": 0.3,
+            "event": "user bubble 'explain p-values' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "the jargon answer lands line by line"
+          },
+          {
+            "at": 0.8,
+            "event": "a loop arrow draws and the 'again?' label lands"
+          }
+        ],
+        "qc": {
+          "sparse_by_design": true,
+          "sparse_reason": "show-tell body beat: one window, one exchange, one loop"
+        }
+      },
+      "motion_claim": "The jargon answer lands on a stranger chat, then the loop arrow closes the repeat."
+    },
+    {
+      "beat_id": "B01",
+      "act": "the setting",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now the fix. Most AI apps have a settings page where you can write a few lines about yourself — your standing instructions. The app pins that note to every new chat. It's like a cover page the AI reads before it ever sees your question.",
+      "estimated_duration_s": 19,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "MANIM",
+        "manim": {
+          "class": "B01_TheNote"
+        },
+        "show": [
+          {
+            "at": 0.05,
+            "event": "settings panel fades in with a 'settings' label"
+          },
+          {
+            "at": 0.3,
+            "event": "the note drops into the panel and the terracotta pin lands"
+          },
+          {
+            "at": 0.6,
+            "event": "two chat windows fade in on the right"
+          },
+          {
+            "at": 0.8,
+            "event": "kraft cables draw from the note to each window; 'every chat' lands"
+          }
+        ],
+        "qc": {
+          "sparse_by_design": true,
+          "sparse_reason": "show-tell body beat: the pinned note joins the cast"
+        }
+      },
+      "motion_claim": "The note drops into settings, gets pinned, and cables it to every chat."
+    },
+    {
+      "beat_id": "B02",
+      "act": "the setting",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Where is it? Open your AI app's settings, or your profile page. Look for words like instructions, personalization, or memory. Every app names it differently and moves it around — so search for the word, not the button.",
+      "estimated_duration_s": 16,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "MANIM",
+        "manim": {
+          "class": "B02_WhereItLives"
+        },
+        "show": [
+          {
+            "at": 0.05,
+            "event": "settings panel close-up fades in"
+          },
+          {
+            "at": 0.3,
+            "event": "three keyword pills land: instructions / personalization / memory"
+          },
+          {
+            "at": 0.6,
+            "event": "the cursor hovers onto the 'instructions' pill"
+          },
+          {
+            "at": 0.8,
+            "event": "a terracotta check lands; 'look for these words' label lands"
+          }
+        ],
+        "qc": {
+          "sparse_by_design": true,
+          "sparse_reason": "show-tell body beat: one panel, three words, one choice"
+        }
+      },
+      "motion_claim": "The cursor picks 'instructions' out of the three candidate words."
+    },
+    {
+      "beat_id": "B03",
+      "act": "the note",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "What do you write? Good instructions are short and concrete. Three to five lines, each one a standing answer. Keep answers short. I'm a beginner at statistics. Plain English, no jargon. Give me steps I can try today.",
+      "estimated_duration_s": 17,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "MANIM",
+        "manim": {
+          "class": "B03_GoodLines"
+        },
+        "show": [
+          {
+            "at": 0.05,
+            "event": "the pinned note fades in with 'the note' label"
+          },
+          {
+            "at": 0.25,
+            "event": "'keep answers short' writes in with its bullet"
+          },
+          {
+            "at": 0.45,
+            "event": "'beginner at statistics' writes in with its bullet"
+          },
+          {
+            "at": 0.65,
+            "event": "'plain English, no jargon' writes in with its bullet"
+          },
+          {
+            "at": 0.85,
+            "event": "'steps I can try today' writes in with its bullet"
+          }
+        ],
+        "qc": {
+          "sparse_by_design": true,
+          "sparse_reason": "show-tell body beat: the note fills with four short lines"
+        }
+      },
+      "motion_claim": "Four concrete lines write themselves onto the note, one per spoken line."
+    },
+    {
+      "beat_id": "B04",
+      "act": "the note",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Bad instructions are a life story — the AI can't use your biography. Or they contradict themselves: be brief, and explain everything. Two orders that fight. The AI can't obey both — so give it one rule per line.",
+      "estimated_duration_s": 17,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "MANIM",
+        "manim": {
+          "class": "B04_BadNote"
+        },
+        "show": [
+          {
+            "at": 0.05,
+            "event": "the note fades in again, labelled 'the note'"
+          },
+          {
+            "at": 0.3,
+            "event": "dim scribble lines fill the page and spill off its edge"
+          },
+          {
+            "at": 0.6,
+            "event": "the 'be brief!' and 'explain everything!' pills land below"
+          },
+          {
+            "at": 0.8,
+            "event": "a terracotta X lands between the two pills"
+          }
+        ],
+        "qc": {
+          "sparse_by_design": true,
+          "sparse_reason": "show-tell body beat: overflow plus one contradiction"
+        }
+      },
+      "motion_claim": "The life story spills off the page; the two orders collide on the X."
+    },
+    {
+      "beat_id": "B05",
+      "act": "payoff",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The payoff. Same question, two chats. Without the note: a wall of jargon. With the note: short, plain, no jargon — written for a beginner. You wrote four lines once. Every chat after that starts informed.",
+      "estimated_duration_s": 16,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "MANIM",
+        "manim": {
+          "class": "B05_Payoff"
+        },
+        "show": [
+          {
+            "at": 0.05,
+            "event": "the 'same question' bar types in on top"
+          },
+          {
+            "at": 0.25,
+            "event": "both chat windows fade in below, labelled"
+          },
+          {
+            "at": 0.5,
+            "event": "the jargon answer lands in the left window"
+          },
+          {
+            "at": 0.7,
+            "event": "the pinned note lands on the right window; the plain answer lands"
+          },
+          {
+            "at": 0.88,
+            "event": "a terracotta check lands on the right window"
+          }
+        ],
+        "qc": {
+          "sparse_by_design": true,
+          "sparse_reason": "show-tell body beat: two panels, one difference"
+        }
+      },
+      "motion_claim": "The same question gets two answers; the note is the only difference."
+    },
+    {
+      "beat_id": "B06",
+      "act": "keep it",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One more kind of line: what you never want. No emojis. No 'as an AI language model.' Don't open with an apology. The AI's habits are yours to set — write down the ones you don't like, and they're gone.",
+      "estimated_duration_s": 17,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "MANIM",
+        "manim": {
+          "class": "B06_NeverWant"
+        },
+        "show": [
+          {
+            "at": 0.05,
+            "event": "the pinned note fades in with 'the note' label"
+          },
+          {
+            "at": 0.3,
+            "event": "'no emojis' lands and is crossed with a terracotta X"
+          },
+          {
+            "at": 0.55,
+            "event": "'no as an AI' lands and is crossed with a terracotta X"
+          },
+          {
+            "at": 0.8,
+            "event": "'no sorry-first opens' lands and is crossed with a terracotta X"
+          }
+        ],
+        "qc": {
+          "sparse_by_design": true,
+          "sparse_reason": "show-tell body beat: three bans, three crosses"
+        }
+      },
+      "motion_claim": "Three unwanted habits are written down and crossed out."
+    },
+    {
+      "beat_id": "B07",
+      "act": "keep it",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One last thing: it's not set-and-forget. Your needs change, so the note can change. Pull it out, rewrite a line, pin it back. Review it every few months — or the day the answers start feeling off.",
+      "estimated_duration_s": 16,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "MANIM",
+        "manim": {
+          "class": "B07_KeepFresh"
+        },
+        "show": [
+          {
+            "at": 0.05,
+            "event": "the pinned note fades in with three lines"
+          },
+          {
+            "at": 0.3,
+            "event": "the note lifts out; the pencil appears"
+          },
+          {
+            "at": 0.55,
+            "event": "'beginner at statistics' is replaced by 'comfortable with basics'"
+          },
+          {
+            "at": 0.8,
+            "event": "the 'every few months' pill lands; the note pins back down"
+          }
+        ],
+        "qc": {
+          "sparse_by_design": true,
+          "sparse_reason": "show-tell body beat: the note is edited, not replaced"
+        }
+      },
+      "motion_claim": "One line is rewritten and the note pins back into place."
+    },
+    {
+      "beat_id": "B08",
+      "act": "keep it",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And the note follows you. Same instructions on your phone and your computer — wherever you open the app. One setting, written once, shaping every chat you ever start.",
+      "estimated_duration_s": 13,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "MANIM",
+        "manim": {
+          "class": "B08_FollowsYou"
+        },
+        "show": [
+          {
+            "at": 0.05,
+            "event": "the pinned note fades in at center"
+          },
+          {
+            "at": 0.35,
+            "event": "the phone and the web window fade in left and right"
+          },
+          {
+            "at": 0.65,
+            "event": "kraft cables draw from the note to both devices"
+          }
+        ],
+        "qc": {
+          "sparse_by_design": true,
+          "sparse_reason": "show-tell body beat: one note, two devices"
+        }
+      },
+      "motion_claim": "The same note feeds the phone and the computer."
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Open your AI app's settings and find the instructions page. Then paste this in: I like answers that are short and practical. I'm a beginner at statistics, so explain terms in plain English. No jargon, no filler. Run it on your next question — and notice: the AI is meeting the informed version of you.",
+      "estimated_duration_s": 25,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "AI · YOUR TURN",
+            "segment": "Set It Up Once",
+            "command": "I like answers that are short and practical. I'm a beginner at statistics, so explain terms in plain English. No jargon, no filler.",
+            "runningText": "paste this into your AI…",
+            "output": [
+              "Check: your next answer is shorter than the last one.",
+              "Check: no term went unexplained."
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Set it up once. At Nik Bear Brown.",
+      "estimated_duration_s": 5,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Set it up once",
+            "slug": "set-it-up-once",
+            "handle": "@NikBearBrown",
+            "subline": "Teach it once. Every chat starts informed."
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
