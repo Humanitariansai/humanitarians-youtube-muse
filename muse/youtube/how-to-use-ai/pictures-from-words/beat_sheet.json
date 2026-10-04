@@ -1,0 +1,133 @@
+{
+  "title": "Pictures from Words",
+  "film": 19,
+  "series": "Humanitarians AI \u2014 How to AI",
+  "beats": [
+    {
+      "id": "BIDEA",
+      "scene": "M01",
+      "dur_s": 18,
+      "act": "hook",
+      "voice": "Liam",
+      "line": "This is Liam, in for Bear. You need a picture \u2014 for a slide, an invitation, a mockup \u2014 and you can't draw. Good news: if you can describe a picture in words, you can make one. Describing a picture well is a learnable skill, and this film teaches you the ladder.",
+      "screen": "Prompt text types in; a picture frame draws itself; a drawn placeholder scene (sun + mountains) appears inside."
+    },
+    {
+      "id": "BDEFS",
+      "scene": "M02",
+      "dur_s": 22,
+      "act": "hook",
+      "voice": "Liam",
+      "line": "Four terms. Image generator: an app that turns your words into pictures. Prompt: the sentence you type. Style: what the picture looks like \u2014 a photo, a watercolor, a cartoon. Iterate: ask again with tweaked words until it looks right. That's the whole vocabulary \u2014 everything else in this film is just practice.",
+      "screen": "Four term cards appear: image generator / prompt / style / iterate."
+    },
+    {
+      "id": "B01",
+      "scene": "M03",
+      "dur_s": 20,
+      "act": "1",
+      "voice": "Liam",
+      "line": "Rung one. Start vague: type the words 'a dog'. The generator gives you a dog \u2014 the most average dog imaginable. Plain, gray, boring. That's not a failure; it's the machine doing exactly what you said. Vague words in, vague picture out. And that picture is all yours \u2014 it didn't exist before you typed.",
+      "screen": "Prompt card 'a dog' \u2192 arrow \u2192 frame with a deliberately plain grey dog silhouette; caption 'vague words in \u2192 vague picture out'."
+    },
+    {
+      "id": "B02",
+      "scene": "M04",
+      "dur_s": 22,
+      "act": "1",
+      "voice": "Liam",
+      "line": "Rung two: add the three things that matter most \u2014 subject, style, mood. Not 'a dog', but 'a sleepy golden retriever puppy, watercolor painting, warm cozy morning light'. Same machine, much better picture. You didn't learn a new tool. You just said more \u2014 and the picture got closer to the one in your head.",
+      "screen": "Richer prompt card + SUBJECT / STYLE / MOOD chips stack in; warm picture with sun, watercolor wash, warmer dog."
+    },
+    {
+      "id": "B03",
+      "scene": "M05",
+      "dur_s": 20,
+      "act": "1",
+      "voice": "Liam",
+      "line": "Rung three: iterate \u2014 like texting a friend. Too cold? Type 'warmer light'. Too tight? Type 'wider shot'. Each round keeps what worked and fixes one thing. Three or four rounds is completely normal. Nobody gets the picture they want on the first try \u2014 professionals don't either.",
+      "screen": "The warm picture returns; 'warmer light' grows the sun deeper; 'wider shot' widens the frame; caption 'keep what works, fix one thing'."
+    },
+    {
+      "id": "B04",
+      "scene": "M06",
+      "dur_s": 20,
+      "act": "2",
+      "voice": "Liam",
+      "line": "The whole recipe fits on one card. Subject: what's in the picture \u2014 say, a puppy. Setting: where \u2014 a kitchen. Style: what it looks like \u2014 watercolor. Lighting: how it's lit \u2014 morning sun. Mood: how it feels \u2014 cozy. Fill all five and the generator has almost nothing left to guess.",
+      "screen": "Five-row recipe card: SUBJECT \u2192 a puppy; SETTING \u2192 a kitchen; STYLE \u2192 watercolor; LIGHTING \u2192 morning sun; MOOD \u2192 cozy."
+    },
+    {
+      "id": "B05",
+      "scene": "M07",
+      "dur_s": 20,
+      "act": "2",
+      "voice": "Liam",
+      "line": "What happens between the words and the picture? The generator starts from visual static \u2014 like TV snow \u2014 and sharpens it, step by step, steered by your sentence, until the picture matches. You don't need the machinery. What matters is this: your words are the steering wheel, and every word steers.",
+      "screen": "Prompt \u2192 arrow \u2192 three panels: 'static' dot grid \u2192 'sharper' rough outline \u2192 'picture' cleaner dog + sun."
+    },
+    {
+      "id": "B06",
+      "scene": "M08",
+      "dur_s": 20,
+      "act": "2",
+      "voice": "Liam",
+      "line": "So what do you actually use it for? Presentation slides that don't look like clip art. A birthday invitation. A mockup of the garden you want to plant. Visualizing an idea before you spend money on it. The sweet spot is drafts and placeholders \u2014 pictures that carry an idea, not pictures that pretend to be photographs.",
+      "screen": "2\u00d72 grid of use cards with mini icons: slides / invitation / garden mockup / an idea."
+    },
+    {
+      "id": "B07",
+      "scene": "M09",
+      "dur_s": 22,
+      "act": "3",
+      "voice": "Liam",
+      "line": "Now the honest part. First limit: words inside the picture. The generator doesn't type letters \u2014 it draws them, like shapes. So 'Happy Birthday' can come out 'Happpy Birthdaay'. Always read any text in the image before you share it. Short words survive best; a whole paragraph on a poster is asking for trouble.",
+      "screen": "Birthday sign reading 'HAPPPY BIRTHDAAY'; magnifier ring lands on the garbled text; tag 'read it before you share it'."
+    },
+    {
+      "id": "B08",
+      "scene": "M10",
+      "dur_s": 20,
+      "act": "3",
+      "voice": "Liam",
+      "line": "Second limit: hands and faces. Fingers, teeth, eyes in a crowd \u2014 the small fiddly details go wrong more often than anything else. Zoom in before you share. If a hand looks strange, generate again or crop it out. This is getting better every year, but 'check closely' is still the rule.",
+      "screen": "Frame with a simple drawn hand \u2014 six fingers; magnifier ring on the fingers; tag 'zoom in before you share'."
+    },
+    {
+      "id": "B09",
+      "scene": "M11",
+      "dur_s": 22,
+      "act": "3",
+      "voice": "Liam",
+      "line": "And the rule that isn't about quality: say it's AI-made. Most platforms now offer an AI label, and some places require one. A one-line caption \u2014 'image made with AI' \u2014 keeps you honest and costs you nothing. Here's the test: if the picture could fool someone into thinking it's a real photo, that's exactly when the label matters most.",
+      "screen": "Picture frame with sun + mountains; an 'AI-MADE' stamp drops on; caption 'say it's AI-made'."
+    },
+    {
+      "id": "BVDT",
+      "scene": "M12",
+      "dur_s": 24,
+      "act": "recap",
+      "voice": "Liam",
+      "line": "So: act one, the ladder \u2014 vague words give vague pictures; subject, style, and mood fix that; iterate like you're texting a friend. Act two, the uses \u2014 slides, invitations, mockups, and drafts. Act three, the limits \u2014 check the text, zoom in on the hands, and always say when a picture is AI-made.",
+      "screen": "Three recap plates, one per act: the ladder / the uses / the limits."
+    },
+    {
+      "id": "BHTF",
+      "scene": "M12",
+      "dur_s": 18,
+      "act": "do_today",
+      "voice": "Liam",
+      "line": "Your turn. Today: open any image generator, type a vague prompt like 'a dog', then rewrite it with the five-slot recipe and compare the two pictures side by side. Tell me which one you'd actually use \u2014 and what one word made the difference.",
+      "screen": "Do-today card: 1. type a vague prompt. 2. rewrite with the 5-slot recipe. 3. compare."
+    },
+    {
+      "id": "BOUT",
+      "scene": "M12",
+      "dur_s": 14,
+      "act": "outro",
+      "voice": "Liam",
+      "line": "Liam, in for Bear. Pictures from words. Thanks for watching \u2014 next film: what never to paste into AI.",
+      "screen": "'Pictures from Words.' title restate with terracotta period; @NikBearBrown handle."
+    }
+  ]
+}
