@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "slug": "think-one-step-ahead",
+    "title": "Think one step ahead",
+    "topic": "HOW TO AI · THINK ONE STEP AHEAD",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "watermark": "@NikBearBrown",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience — not AI experts; every term explained, shown not told",
+    "source_doc": "nikbearbrown/humanitarians-youtube-muse: claude/claude-for-education/claude-liam-prompt-tutorial-lesson-06-precognition (Anthropic Prompt Engineering Interactive Tutorial, Ch. 6: Precognition (Thinking Step by Step)); refactored for a general audience",
+    "playlist": "How to AI",
+    "chapter_number": 6,
+    "tags": [
+      "Claude",
+      "prompting",
+      "think step by step",
+      "scratchpad",
+      "chain of thought",
+      "How to AI",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. Everyone wants better answers from Claude. But the real trick is not asking a better question. It is asking Claude to think before it answers.",
+      "estimated_duration_s": 12.8,
+      "audio_file": "mp3/beat-BIDEA.mp3",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'How do I get Claude'"
+          },
+          {
+            "at": 0.55,
+            "event": "backspaces 'answer better' → 'think first' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I get Claude\nto answer better?",
+            "triggerWords": "answer better",
+            "replacementWords": "think first",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "think-one-step-ahead",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive question and corrects it to the real one: get Claude to think first.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. A prompt: the message you type to Claude. A scratchpad: Claude's working notes, written before the answer. And word by word: how Claude writes — left to right, with no going back.",
+      "estimated_duration_s": 13.6,
+      "audio_file": "mp3/beat-BDEFS.mp3",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'prompt' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'scratchpad' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'word by word' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "prompt",
+                "meaning": "the message you type to Claude"
+              },
+              {
+                "term": "scratchpad",
+                "meaning": "Claude's working notes, written before the answer"
+              },
+              {
+                "term": "word by word",
+                "meaning": "how Claude writes: left to right, no going back"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here is what most people never notice. Claude does not think, then write. It thinks by writing. An answer comes out one word at a time, left to right. And once a word is written, it is written. There is no going back to change it.",
+      "estimated_duration_s": 18.4,
+      "audio_file": "mp3/beat-B00.mp3",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A Claude window: a prompt slip drops in; an answer page slides out and words fill in left to right, one word at a time.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "window lands"
+          },
+          {
+            "at": 0.3,
+            "event": "prompt slip drops in"
+          },
+          {
+            "at": 0.5,
+            "event": "words appear left to right, one at a time"
+          }
+        ],
+        "manim": {
+          "class": "B00_Window"
+        },
+        "motion_claim": "A Claude window: a prompt slip drops in; an answer page slides out and words fill in left to right, one word at a time."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now watch what that means. Ask a hard question — 'which job offer should I take?' — and demand the answer straight away. The very first line is a guess. And every word after it has to follow that line. So Claude does not check its first guess. It defends it.",
+      "estimated_duration_s": 20.4,
+      "audio_file": "mp3/beat-B01.mp3",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The same page: a terracotta dot lands on the first word and a bracket arcs from it across the page; the remaining words print out underneath.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "terracotta dot lands on the first word"
+          },
+          {
+            "at": 0.35,
+            "event": "bracket arcs from the first word across the page"
+          },
+          {
+            "at": 0.6,
+            "event": "the rest of the words print underneath"
+          }
+        ],
+        "manim": {
+          "class": "B01_Before"
+        },
+        "motion_claim": "The same page: a terracotta dot lands on the first word and a bracket arcs from it across the page; the remaining words print out underneath."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Try it differently. Give Claude a working page before the answer page — a scratchpad. 'Think it through first, step by step, then answer.' On the scratchpad, Claude is allowed to be wrong. It tries one idea, crosses it out, catches the mistake — all before one word of the answer exists.",
+      "estimated_duration_s": 20.8,
+      "audio_file": "mp3/beat-B02.mp3",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two page slots: a thinking page where lines scribble in, one idea gets crossed out in ink, and a correction line draws; the answer slot stays empty.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "thinking page and empty answer slot land"
+          },
+          {
+            "at": 0.35,
+            "event": "ideas scribble onto the thinking page"
+          },
+          {
+            "at": 0.65,
+            "event": "one idea crossed out; a correction line draws"
+          }
+        ],
+        "manim": {
+          "class": "B02_Scratchpad"
+        },
+        "motion_claim": "Two page slots: a thinking page where lines scribble in, one idea gets crossed out in ink, and a correction line draws; the answer slot stays empty."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then the answer gets written once, on top of the thinking. You can see what it weighed, and why it chose. Same question. Same Claude. Better answer. Because this time, it thought before it spoke.",
+      "estimated_duration_s": 14.0,
+      "audio_file": "mp3/beat-B03.mp3",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The thinking page rests to the side; the answer page prints cleanly left to right and a terracotta check lands beside it.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "answer page prints cleanly"
+          },
+          {
+            "at": 0.7,
+            "event": "terracotta check lands"
+          }
+        ],
+        "manim": {
+          "class": "B03_After"
+        },
+        "motion_claim": "The thinking page rests to the side; the answer page prints cleanly left to right and a terracotta check lands beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So when do you ask for the thinking page? Use the scratch-paper rule. If you would reach for scratch paper — weighing two options, a math problem, a tricky decision — ask Claude to think first. For a simple lookup, skip it. 'What is the capital of Peru' needs no thinking page. That is just extra words for nothing.",
+      "estimated_duration_s": 23.6,
+      "audio_file": "mp3/beat-B04.mp3",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three cards: a lookup, a choice, a math problem. A thinking page drops onto the choice and the math problem; the lookup stays bare.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "three cards land"
+          },
+          {
+            "at": 0.45,
+            "event": "thinking page drops onto 'a choice'"
+          },
+          {
+            "at": 0.65,
+            "event": "thinking page drops onto 'a math problem'"
+          }
+        ],
+        "manim": {
+          "class": "B04_When"
+        },
+        "motion_claim": "Three cards: a lookup, a choice, a math problem. A thinking page drops onto the choice and the math problem; the lookup stays bare."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And one step further. Do not just ask for today's answer. Ask for what you will need next. 'Think through the whole trip, then tell me what to pack — and what to buy before I leave.' The thinking looks ahead, so the answer arrives with tomorrow's answer already on it. Ask for tomorrow's answer, today.",
+      "estimated_duration_s": 22.4,
+      "audio_file": "mp3/beat-B05.mp3",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The window again: the slip drops in, the answer page prints, then a second page — 'next' — slides out below it with a terracotta dot.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "slip drops in"
+          },
+          {
+            "at": 0.3,
+            "event": "answer page prints"
+          },
+          {
+            "at": 0.6,
+            "event": "'next' page slides out below with a terracotta dot"
+          }
+        ],
+        "manim": {
+          "class": "B05_Ahead"
+        },
+        "motion_claim": "The window again: the slip drops in, the answer page prints, then a second page — 'next' — slides out below it with a terracotta dot."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: I'm weighing a decision: [describe it in two sentences]. First, think it through step by step on your scratchpad: list what matters, try each side, and note anything I should double-check. Only then give me your take — and tell me what I would need next if I follow your advice. Then check two things yourself. First: run it once more without the 'think it through first' line. Does the answer change? Second: look for the moment it changed its mind on the scratchpad. That crossed-out idea is the thinking doing the work.",
+      "estimated_duration_s": 39.6,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Think Before It Answers",
+            "command": "I'm weighing a decision: [describe it in two sentences]. First, think it through step by step on your scratchpad: list what matters, try each side, and note anything I should double-check. Only then give me your take — and tell me what I would need next if I follow your advice.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: run it without the 'think first' line — does the answer change?",
+              "Check: find where it changed its mind — that is the thinking working."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Claude",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Think one step ahead. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Think one step ahead",
+            "slug": "think-one-step-ahead",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
