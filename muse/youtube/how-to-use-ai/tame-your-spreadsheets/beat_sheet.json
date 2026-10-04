@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "slug": "tame-your-spreadsheets",
+    "title": "Tame Your Spreadsheets",
+    "topic": "CLAUDE · HOW TO AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "Hallo (German/Dutch)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience; not AI experts — every term explained, show rather than tell",
+    "source_doc": "REFACTOR of nikbearbrown/humanitarians-youtube-muse claude/claude-for-education/claude-liam-how-to-make-perfect-spreadsheets (beat_sheet.json + README.md, read 2026-10-03). All example data fictional (Lena's Bake Shop).",
+    "playlist": "How to AI",
+    "chapter_number": 15,
+    "watermark": "@NikBearBrown",
+    "tags": [
+      "spreadsheets",
+      "formulas",
+      "Excel",
+      "Google Sheets",
+      "Claude",
+      "How to AI",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. Most people open a spreadsheet the way they would open a dentist's bill: reluctantly. So the real question is not how you learn Excel. It is how you tame this spreadsheet.",
+      "estimated_duration_s": 15.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'How do I learn Excel,'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'learn Excel' → 'tame this spreadsheet' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I learn Excel,\nto track my sales?",
+            "triggerWords": "learn Excel",
+            "replacementWords": "tame this spreadsheet",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "tame-your-spreadsheets",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive learn-Excel question and corrects it to the real one: taming the spreadsheet.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms, one breath each. A formula: a recipe you type into a cell, and the sheet calculates for you. A cell reference: a cell's address on the grid, like B 2 or C 4. And clean data: the same information written the same way everywhere, so the computer can trust it.",
+      "estimated_duration_s": 20.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'formula' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'cell reference' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'clean data' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "formula",
+                "meaning": "a recipe typed into a cell — the sheet calculates for you"
+              },
+              {
+                "term": "cell reference",
+                "meaning": "a cell's address on the grid, like B2 or C4"
+              },
+              {
+                "term": "clean data",
+                "meaning": "the same information written the same way everywhere"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Start with the thing itself. Picture a small bake shop's sales list: a month of days, one row per day. The fear is normal. A grid of cells looks like maths you forgot, and one wrong keystroke feels like breaking it. But look again: it is just a table. Days down the side, numbers across. You already know how to read a table. And you are about to get a very patient coach — one who never judges you for asking the same question twice.",
+      "estimated_duration_s": 34.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A flat spreadsheet grid lands on the stage; messy cells pop in (mixed dates, mixed spellings); a rectangle frames one chaotic cell; a terracotta dot marks it. Label: 'a messy spreadsheet'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "grid draws cell by cell"
+          },
+          {
+            "at": 0.3,
+            "event": "messy values pop in"
+          },
+          {
+            "at": 0.6,
+            "event": "chaotic cell framed, dotted"
+          }
+        ],
+        "manim": {
+          "class": "B00_MessySheet"
+        },
+        "motion_claim": "A flat spreadsheet grid lands on the stage; messy cells pop in (mixed dates, mixed spellings); a rectangle frames one chaotic cell; a terracotta dot marks it. Label: 'a messy spreadsheet'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here is the move that changes everything. Instead of memorizing formula syntax, you describe what you want in plain words. You type, or say: write me the formula that adds up my March sales. The AI writes it, explains what each part does, and tells you exactly where to paste it. You are not learning spreadsheet-ese. You are giving instructions the way you would give them to a person sitting next to you. Plain English in, formula out. That is the whole trick.",
+      "estimated_duration_s": 33.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The same sheet tidies slightly; a Claude chat page slides in beside it; a bubble holds the hero phrase 'write me the formula that...'; a cable draws from the page to the sheet. Labels: 'plain words', 'the formula'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "sheet on stage, chat page slides in"
+          },
+          {
+            "at": 0.45,
+            "event": "prompt bubble appears"
+          },
+          {
+            "at": 0.7,
+            "event": "cable draws page to sheet"
+          }
+        ],
+        "manim": {
+          "class": "B01_Coach"
+        },
+        "motion_claim": "The same sheet tidies slightly; a Claude chat page slides in beside it; a bubble holds the hero phrase 'write me the formula that...'; a cable draws from the page to the sheet. Labels: 'plain words', 'the formula'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Let us watch one land. Lena's sales sit in column B, one row per day. You paste the AI's formula into the empty cell at the bottom: equals, sum, open bracket, B 2 colon B 31, close bracket. Read it left to right. Sum means add up. B 2 is the first sales number. The colon means through. B 31 is the last one. So the whole thing says: add up everything from B 2 to B 31. That B 2 colon B 31 is a cell reference — the address of the stretch you want. Once that pattern clicks, half of spreadsheet fear evaporates.",
+      "estimated_duration_s": 42.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The sheet again; an ink bracket grows around column B rows 2 to 31; the formula '=SUM(B2:B31)' lands in the total cell; an ink check ticks beside it. Label: 'the formula'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "sheet and chat page"
+          },
+          {
+            "at": 0.4,
+            "event": "bracket grows around B2:B31"
+          },
+          {
+            "at": 0.65,
+            "event": "formula lands in the total cell, check"
+          }
+        ],
+        "manim": {
+          "class": "B02_Formula"
+        },
+        "motion_claim": "The sheet again; an ink bracket grows around column B rows 2 to 31; the formula '=SUM(B2:B31)' lands in the total cell; an ink check ticks beside it. Label: 'the formula'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now the warning, and it matters. The AI can be confidently wrong about cell references. It can point at the price column instead of the quantity column and call the answer correct. The total looks plausible. It is nonsense. So the rule is simple: sanity-check every formula on a small sample. Add up five rows yourself and compare. If those five match, you can trust the other twenty-six. The AI is your coach, not your accountant. The checking is your job, and it takes about a minute.",
+      "estimated_duration_s": 34.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The formula highlights the wrong column with an ink cross; a magnifier circles five rows of the right column; the highlight moves; an ink check lands. Label: 'check 5 rows'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "sheet with formula"
+          },
+          {
+            "at": 0.35,
+            "event": "wrong column crossed out"
+          },
+          {
+            "at": 0.6,
+            "event": "magnifier checks five rows, check lands"
+          }
+        ],
+        "manim": {
+          "class": "B03_Check"
+        },
+        "motion_claim": "The formula highlights the wrong column with an ink cross; a magnifier circles five rows of the right column; the highlight moves; an ink check lands. Label: 'check 5 rows'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Next superpower: cleanup. Real data arrives messy. Lena copies her market-stall receipts into the sheet and the dates are chaos: the fourth of March, three slash four, oh-four dash oh-three. New York shows up as N Y C, n.y.c. with dots, and plain new york. You paste it all in and ask: clean this up, and make everything consistent. The AI rewrites the dates one way, settles on one spelling per city, and leaves every number untouched. An afternoon of find-and-replace, done in seconds.",
+      "estimated_duration_s": 33.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A grid of messy rows (mixed dates, mixed city spellings); a terracotta scan line sweeps down; the messy labels are replaced by tidy ones. Labels: 'messy', then 'clean'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "messy grid"
+          },
+          {
+            "at": 0.3,
+            "event": "scan line sweeps"
+          },
+          {
+            "at": 0.55,
+            "event": "tidy values replace messy ones"
+          }
+        ],
+        "manim": {
+          "class": "B04_Cleanup"
+        },
+        "motion_claim": "A grid of messy rows (mixed dates, mixed city spellings); a terracotta scan line sweeps down; the messy labels are replaced by tidy ones. Labels: 'messy', then 'clean'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then the fun one. Ask: what is interesting in this data? You do not need to know what a pivot table is. The AI counts, compares, and answers in plain words: your Saturday sales are nearly double your weekday average. One tall bar. That is the whole point of a spreadsheet — noticing something you could not see in a pile of receipts. And the same rule applies as before: glance back at the sheet and confirm the tall bar is real. The AI proposes. You decide.",
+      "estimated_duration_s": 34.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Six grey bars grow for the days of the week; Saturday's bar towers; a terracotta dot tops it; a label reads 'Saturday'. The chat page asks the question.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "day bars grow"
+          },
+          {
+            "at": 0.55,
+            "event": "Saturday's bar towers, dotted"
+          },
+          {
+            "at": 0.75,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B05_Insight"
+        },
+        "motion_claim": "Six grey bars grow for the days of the week; Saturday's bar towers; a terracotta dot tops it; a label reads 'Saturday'. The chat page asks the question."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Look at the sheet now. Same bake shop, same month. The data is clean, the formula adds up the column, and the chart tells the story. You never learned Excel. You described what you wanted, checked the answers, and stayed in charge. A tamed spreadsheet: it works for you, and you understand every cell that matters.",
+      "estimated_duration_s": 22.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The same sheet returns tidy: formula in its cell, clean rows, three small bars beside it; a large ink check grows over the corner. Label: 'you are in charge'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "tidy sheet with formula"
+          },
+          {
+            "at": 0.4,
+            "event": "mini chart grows beside it"
+          },
+          {
+            "at": 0.65,
+            "event": "big check lands"
+          }
+        ],
+        "manim": {
+          "class": "B06_Payoff"
+        },
+        "motion_claim": "The same sheet returns tidy: formula in its cell, clean rows, three small bars beside it; a large ink check grows over the corner. Label: 'you are in charge'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: Here is my monthly sales list. Write me the formula that adds up column B, and explain what each part does. Then tell me: what is interesting in this data? Two checks you run yourself. Add up five rows by hand and make sure the formula agrees. And read the AI's answer back against your own sheet before you believe a word of it.",
+      "estimated_duration_s": 28.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Tame Your First Spreadsheet",
+            "command": "Here is my monthly sales list. Write me the formula that adds up column B, and explain what each part does. Then tell me: what is interesting in this data?",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: add up five rows by hand — the formula must agree.",
+              "Check: read the answer back against your own sheet."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "Normal"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Tame Your Spreadsheets. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Tame Your Spreadsheets",
+            "slug": "tame-your-spreadsheets",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
