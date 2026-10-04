@@ -702,3 +702,1140 @@ I understand the show-tell lane now: one drawing per beat, the voice explains, t
 
 **7. Evidence and next step.**
 Evidence: `muse/youtube/how-to-use-ai/ai-is-a-slot-machine/` (12 files) verified live — all HTTP 200, byte-identical; CHECKS-REPORT.md records 16 clean · 0 warn · 0 error; `muse/README.md` carries the new film row. Next step: Bear renders on his Mac per `CLAUDE-CODE-RENDER.md` (Kokoro `am_onyx` narration, Manim scenes) — never publish without his explicit instruction. [record]
+
+---
+
+## 2026-10-03 — Film 1 of 24: "Say what you want, plainly" (`muse/youtube/how-to-use-ai/say-what-you-want-plainly/`)
+
+**1. Date and what I was working on.**
+2026-10-03. First film of the "How to AI" queue: a pre-render package (script, Manim visuals, docs) for "Say what you want, plainly" (slug `say-what-you-want-plainly`), a REFACTOR of the mirror-repo lesson `claude/claude-for-education/claude-liam-prompt-tutorial-lesson-02-clear-and-direct` (Anthropic Prompt Engineering Interactive Tutorial, Lesson 02) rewritten for a general audience. Pushed all 12 files to `muse/youtube/how-to-use-ai/say-what-you-want-plainly/`. [record]
+
+**2. I tried / expected.**
+I expected to keep the assigned show-tell skill, rewrite the Kore-persona source beat sheet for Liam and non-experts, pass the static QC gate on the first or second run, and push 12 files cleanly with gh-put-file.py. [my input]
+
+**3. What happened (including failures and reversals).**
+- Skill choice: show-tell, kept (not switched). Ran the card test per beat: every idea is a thing/part/flow (slip, block, pages, chips), so the film uses zero cards, all drawings. [judgment]
+- Added one content beat the source argument needed: B02 "the default is not wrong, just not yours" (why the AI's most-common guess fails *you* specifically) — a missing step, not padding. Final: 12 beats, 8 Manim scenes, 195.2 s. [judgment]
+- QC run 1: all 8 classes failed with `no attribute 'until'` — the kit defines `until`/`finish` as plain module functions, so I attached them as `Scene.until`/`Scene.finish` in scenes_body.py. [record]
+- QC run 2: 7/8 clean; `B04_FourQuestions` failed "shapes never change". Two stacked causes: (a) the Gate A stub does not track `RoundedRectangle` in shape signatures at all; (b) the real cause — `chip.animate.shift(...)` is move-only and the stub only changes scene membership for _ADD/_REMOVE/_REPLACE animation kinds, so chips never entered `scene.mobjects`. This pattern would also have left those objects un-added in a real Manim render. [judgment]
+- Fix: every drop/rise now uses `FadeIn(x, shift=...)` (B00 slip, B03 slip, B04 chips, B05 chips, B05 page). Final QC: 8/8 clean · 0 warnings · 0 errors, both with beat_sheet.json present and from a scenes.py-only scratch folder. [record]
+- Push: 12/12 succeeded first try, no 409s; all 12 verified live via Contents API reads, byte-identical to local. [record]
+- Not done by design: no Kokoro audio, no Manim render, no `manim_layout_audit.py --curve-strict` (no Manim/pangocairo in the build VM — deferred to Bear's Mac render pass), nothing published. [record]
+
+**4. What I did.**
+Wrote all 12 package files (ACTS, SHOTLIST, FACTCHECK, make_sheet.py with beat-count/duration/voice/class-name/no-audio assertions, beat_sheet.json — 12 beats, 8 body, 195.2 s — scenes.py with 8 Manim scenes built on the pasted iso kit, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README); passed the full QC gate with zero warnings/errors; pushed all 12 via gh-put-file.py; verified each live. Did not touch muse/FRICTIONAL.md, muse/README.md, or muse/QUEUE.md. [record]
+
+**5. What Claude or another person contributed.**
+Bear set the channel/persona/voice/register lock, the 24-film queue (title, pitch, source, assigned skill), and the source lesson's argument (four dimensions, the new-employee golden rule, the summary example). The parent orchestrator supplied the task spec, the 12-file convention, the QC gate, and the push flow. The mirror-repo source beat sheet supplied the facts — every narration line and visual is rewritten/redrawn. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the Gate A stub's membership model now: only _ADD/_REMOVE/_REPLACE animations put objects on screen in its snapshots, so `.animate.shift()` on a never-added object is invisible to it (and to real Manim) — `FadeIn(x, shift=...)` is the correct drop/rise pattern. I also learned the stub ignores `RoundedRectangle` in shape signatures. I still do not know why this push round had zero 409s while sibling builds hit phantom-sha 409s repeatedly — possibly egress-chain state, not the helper. [judgment]
+
+**7. Evidence and next step.**
+Evidence: 12/12 files live at `muse/youtube/how-to-use-ai/say-what-you-want-plainly/` (verified HTTP 200 + byte-identical, 2026-10-03); CHECKS-REPORT.md records 8 clean · 0 warn · 0 error. Next step: Bear renders on his Mac per CLAUDE-CODE-RENDER.md — first run `manim_layout_audit.py --curve-strict` per scene class (could not run in the build VM), generate Kokoro audio, whisper-check "Hallo", then `art run` / `art final`. Never publish without his explicit instruction. [record]
+
+---
+
+## 2026-10-03 — Film 2: "Tell the AI who to be"
+
+**1. Date and what I was working on.**
+2026-10-03. Second film of the humanitarians-channel How-to-AI series: a pre-render package (script, Manim visuals, docs) for "Tell the AI who to be" (slug `tell-the-ai-who-to-be`), a REFACTOR of the mirror repo's `claude-liam-prompt-tutorial-lesson-03-role-prompting` for a general audience, pushed to `muse/youtube/how-to-use-ai/tell-the-ai-who-to-be/`. [record]
+
+**2. I tried / expected.**
+I expected the assigned `show-tell` skill to fit without switching, the mirror-repo Contents API flow to work as documented, and the static QC checker to pass after at most minor fixes. I expected narration pacing to follow the worked example's `words/2.5` estimates directly. [my input]
+
+**3. What happened (including failures and reversals).**
+- The source lesson (Kore persona, course audience) supplied the argument, the four-axis register framing, and the canonical examples (oncologist/pathologist, tax attorney/Marcus); I rewrote every narration line and every visual for a general audience. The planned "why now" number beat was cut: no fact-checked figure exists for role prompting, and law 9 says cut filler. [record + judgment]
+- Mid-build I discovered the `words/2.5` duration convention runs ~1.6× long vs real Kokoro (~20 chars/s, cross-checked against the source lesson's measured audio). Fixed-timing choreography would have put motion on the GATE T midpoint under real audio, so I rewrote five narrations to front-load their visual beats and keyed all motion via `until()` to phrases inside the first ~30% of each beat — motion now scales with measured audio. [record]
+- QC passed first run with nothing to fix: `py_compile` clean; `static_scene_check.py` 7/7 scenes, 0 warnings, 0 errors. `manim_layout_audit.py --curve-strict` cannot run in this VM (no Manim/pangocairo); deferred to Bear's Mac render pass and recorded rather than concealed. [record]
+- A local `__pycache__` from `py_compile` was deleted before pushing; the 12-file push had no 409s this time. [record]
+
+**4. What I did.**
+Wrote all 12 package files (ACTS, SHOTLIST, FACTCHECK with no invented statistics, make_sheet.py with beat-count/duration/trigger-word assertions, beat_sheet.json — 11 beats, ~242 s est. — scenes.py with 7 Manim scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README); passed the QC gate; pushed all 12 via `gh-put-file.py`; verified each byte-identical via Contents API reads. Did not touch `muse/FRICTIONAL.md`, `muse/README.md`, or `muse/QUEUE.md`. [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic, pitch, source lesson, skill assignment, channel/persona/voice constants, and the general-audience rule. The parent orchestrator supplied the assignment spec (slug, output path, 12-file convention, QC gate, FRICTIONAL.md format). The mirror-repo source beat sheet supplied the argument, facts, and examples — every line and visual is rewritten. The brutalist.art toolkit supplied the show-tell skill, iso kit, and QC checker. I authored all files, the pacing fix, and the fact-check judgments; the AI contribution is the drafting, the estimator cross-check, and the QC run. [record]
+
+**6. What I understand now / still do not understand.**
+I understand now that estimated durations are planning numbers only: choreography must be keyed to narration fractions (`until()`), not seconds, because real Kokoro audio runs much shorter than `words/2.5`. I still do not know whether Bear wants the "why now" number beat pattern applied to topics that have no honest number, or prefers it cut as I did here. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at `muse/youtube/how-to-use-ai/tell-the-ai-who-to-be/` on Humanitariansai/humanitarians-youtube-muse (12/12 byte-identical via Contents API); CHECKS-REPORT.md records 7 clean · 0 warn · 0 error. Next step: Bear renders on his Mac per `CLAUDE-CODE-RENDER.md` (Kokoro `am_onyx` narration, write measured `actual_duration_s` back, run `manim_layout_audit.py --curve-strict`, `art run`/`art final`) — never publish without his explicit instruction. [record]
+
+---
+
+## 2026-10-03 — Film 3: "Show It an Example"
+
+**1. Date and what I was working on.**
+2026-10-03. Film 3 of the 24-film "How to AI" backlog: a pre-render package
+(script, Manim visuals, docs) for "Show It an Example" — few-shot prompting
+refactored for a general audience — pushed to
+`muse/youtube/how-to-use-ai/show-it-an-example/`. [record]
+
+**2. I tried / expected.**
+I expected to keep the assigned show-tell skill and refactor the source
+lesson (nikbearbrown/humanitarians-youtube-muse:
+claude/claude-for-education/claude-liam-prompt-tutorial-lesson-07-few-shot-prompting)
+for smart non-experts: explain every term, show rather than tell, ~3–6 min.
+I expected the iso_kit paste + static checker workflow to carry over
+directly from the skill docs. [my input]
+
+**3. What happened (including failures and reversals).**
+- Read the source via the GitHub Contents API (custom.github surrogate);
+  ignored mp3/, downloaded no audio. [record]
+- Kept show-tell: the film's cast (prompt box, example pages, rule stack)
+  suits one-drawing-per-beat; no beat passed the card test, so zero
+  ShowTellCards. [judgment]
+- Mid-build I staged scene code in /tmp/scenes_body.py and a sibling
+  film-builder was using the same filename for a different film; my first
+  scenes.py assembly pulled in their body code. Caught by the class-count
+  check, fixed with a uniquely named local file (_scenes_body_mine.py, not
+  pushed). Lesson: never use generic /tmp staging names when sibling
+  builders run concurrently. [record]
+- Pre-checker review caught three layout bugs: B03's card row laid out in
+  raw iso coords would have rendered as a diagonal staircase (iso x runs
+  right-up) — fixed with a _place() helper landing card centres at explicit
+  screen coords; B04's bad card overshot the frame — re-seated the row;
+  B06 labels sat 0.2 below the card bottoms — moved for 0.3 clearance.
+  [record]
+- Static QC then passed clean: 7 scenes, 0 warn, 0 error, both with and
+  without beat_sheet.json beside scenes.py. [record]
+- manim_layout_audit.py --curve-strict cannot run in this VM (no
+  Manim/pangocairo); deferred to Bear's Mac render pass. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py,
+beat_sheet.json — 11 beats, 7 body, 209 s — scenes.py with 7 Manim scenes,
+SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README),
+pushed all 12 to muse/youtube/how-to-use-ai/show-it-an-example/ and verified
+each live via Contents API read (sizes match). [record]
+
+**5. What Claude or another person contributed.**
+The parent orchestrator assigned the film (slug, title, pitch, source,
+skill). The source lesson's argument and facts come from Anthropic's Prompt
+Engineering Interactive Tutorial Lesson 07 via the mirror repo. Bear set the
+film-identity constants, the show-tell skill, the general-audience rule, and
+the refactor directive. I wrote every file; the AI contribution is the
+script drafting, the QC pre-review, and the fact-check pass. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the show-tell pipeline end to end now: source → ACTS/SHOTLIST/
+FACTCHECK → make_sheet (with beat-count/duration assertions) → scenes
+(iso_kit paste, midpoint guard, until/finish pacing) → static QC in a
+scratch folder → docs → push → verify. I still do not know whether Bear
+wants the deferred layout audit to gate anything before his render, or the
+next film's topic. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at
+muse/youtube/how-to-use-ai/show-it-an-example/ on
+Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the
+clean gate (0 warn / 0 error × 7 scenes). Next step: Bear renders narration
+(Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md,
+running manim_layout_audit.py --curve-strict first. [record]
+
+---
+
+## 2026-10-03 — Film 4: "Ask for the Shape You Want Back"
+
+**1. Date and what I was working on.**
+2026-10-03. Film 4 of 24 in the humanitarians-channel Muse series ("How to AI" queue): a pre-render package for "Ask for the Shape You Want Back" — a show-tell REFACTOR of the mirror repo's lesson-05 formatting-output source — pushed to `muse/youtube/how-to-use-ai/ask-for-the-shape-you-want-back/`. [record]
+
+**2. I tried / expected.**
+I expected a straightforward refactor of the source lesson's beat sheet. I expected the source's `beat_sheet.json` narrations to be about formatting output, matching its title and README. [my input]
+
+**3. What happened (including failures and reversals).**
+- The source folder's `beat_sheet.json` (10 beats, title "Output Formatting: The Prefill Technique and When to Control Format") carries narrations about grounding/hallucinations — content from a different lesson, likely pasted in by mistake. The README and `description.txt` both describe formatting output, so I rebuilt from the intended argument (`description.txt`: "Output format is not cosmetic… The prefill technique locks it… Match format to consumer") plus Anthropic's Lesson 05 docs. [record]
+- Verified the prefill claim against Anthropic's official docs page ("Prefill Claude's response") via web search; several GitHub mirrors of the docs page confirmed identical wording. [record]
+- Pre-QC review caught two latent bugs before the checker ran: (1) B03's first draft sliced `page[1][4:]` from the kit page's 3-line group — an empty slice, so the "lower half falls away" moment would have removed only the dot; rewrote B03 with an explicit 9-line page split into `upper`/`lower` groups. (2) B02/B07 header bands were full card width, poking past the rounded card corners (GATE T reads dark bands inside ink-outlined cards as overlapping labels); inset them and kept them BAR1 grey. [record]
+- Static QC then passed first try: 9 clean · 0 warn · 0 error. [record]
+- Kept the assigned `show-tell` skill; ran the card test per beat — no body beat passed, so zero cards, all drawings. [judgment]
+- `manim_layout_audit.py --curve-strict` cannot run in this VM (no Manim/pangocairo); deferred to Bear's Mac render pass, recorded in CHECKS-REPORT.md and CLAUDE-CODE-RENDER.md. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py, beat_sheet.json — 13 beats, 9 body, 246 s — scenes.py with 9 Manim scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README), pushed all 12 files to the write repo, and verified each live via Contents API reads (12/12 byte-identical). [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic, the channel/persona/voice/register lock, the film-identity constants, the show-tell skill rules, and the source slug. The parent orchestrator supplied the assignment (slug, output path, skill choice, the 12-file convention, the QC gate, the FRICTIONAL.md format). The mirror-repo source supplied the argument (description.txt) — every narration line and visual is rewritten/redrawn; the source's mismatched narrations were discarded, not used. Anthropic's public docs supplied the prefill facts. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the show-tell pacing contract now: `until()` phrases must be verbatim narration substrings or the pacing silently no-ops, and `finish()` holds the scene to the measured audio — both ran against the real sheet during static QC. I still do not have eyes on the actual rendered frames; the layout audit is the un-run gate that will catch anything the static stub cannot (label overflow, midpoint framing, contrast). [judgment]
+
+**7. Evidence and next step.**
+Evidence: 12/12 files live at `muse/youtube/how-to-use-ai/ask-for-the-shape-you-want-back/` (verified HTTP 200 + byte-identical, 2026-10-03); CHECKS-REPORT.md records 9 clean · 0 warn · 0 error. Next step: Bear renders on his Mac per CLAUDE-CODE-RENDER.md — generate Kokoro am_onyx audio, write back `actual_duration_s`, run the layout audit --curve-strict per scene, then 4K. [record]
+
+---
+
+## 2026-10-03 — Film 5: "Keep instructions and data apart"
+
+**1. Date and what I was working on.**
+2026-10-03. Film 5 of 24 in the humanitarians-channel "How to AI" series: a pre-render package for "Keep instructions and data apart" (separating data: why pasted content confuses the AI and how to fence it), built with the ai-explainer skill and pushed to `muse/youtube/how-to-use-ai/keep-instructions-and-data-apart/`. [record]
+
+**2. I tried / expected.**
+I expected the assigned source path `claude/claude-for-education/prompt-tutorial-lesson-04-separating-data` to exist in the mirror repo. I expected the QC stub to define the full Manim constant set. [my input]
+
+**3. What happened (including failures and reversals).**
+- The assigned base-name source path 404s on the Contents API; per the task's fallback I listed `claude/claude-for-education/` and used the closest `*separating-data*` match, `claude-liam-prompt-tutorial-lesson-04-separating-data`. [record]
+- `static_scene_check.py` errored on all 7 classes first run: `NameError: name 'BOLD' is not defined` (the stub doesn't define BOLD; real Manim does). Fixed with a try/except shim (`BOLD = "BOLD"` fallback). [record]
+- `B08_Verdict` failed the shape-distinctness check (1 distinct shape-state across 5 frames — the verdict card never changes; text is excluded from shape states). Fixed by adding terracotta bullet Dots that FadeIn with each verdict line. [record]
+- B03 used `DashedRectangle`, which exists in neither real Manim nor the stub; replaced with `Rectangle` before the first checker run. [record]
+- Static QC then passed clean: 7 clean · 0 warn · 0 error. [record]
+- `manim_layout_audit.py --curve-strict` cannot run in this VM (no Manim/pangocairo); deferred to Bear's Mac render pass, noted in CLAUDE-CODE-RENDER.md. [record]
+- Kept the assigned `ai-explainer` skill — the film is a concept walkthrough, nothing about it wants claude-cli, profile, skill-teardown, or audit. [judgment]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py, beat_sheet.json — 11 beats, 7 Manim scenes, 273.8s — scenes.py, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README), pushed all 12 files via the Contents API, and verified all 12 live via API reads (folder lists 12 files; beat_sheet.json and scenes.py byte-match local). [record]
+
+**5. What Claude or another person contributed.**
+The parent orchestrator assigned the film (slug, title, pitch, source pointer, skill). Bear set the topic, the channel/persona lock (humanitarians channel, Liam "in for Bear"), and the film-identity constants via standing memory. The refactor source (mirror repo lesson 04) supplied the argument and facts — XML tags as separators, the injected instruction line, indexed document tags, consistency-over-names — not the script, which I rewrote for a general audience. I verified the key claims independently via web search (Anthropic tutorial Chapter 4 summaries; OWASP LLM Top 10 LLM01 in 2025 and the August 2026 refresh). [record]
+
+**6. What I understand now / still do not understand.**
+I understand the pre-render pipeline for this series (source resolution → rewrite → make_sheet → scenes → static QC → docs → push → verify) and the stub's blind spots (no BOLD, no DashedRectangle, .animate-introduced shapes invisible, text excluded from distinctness). I still do not know whether the `muse/youtube/how-to-use-ai/` placement matches Bear's intended index layout, or whether he wants the deferred layout audit folded into a VM-side checklist. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at `muse/youtube/how-to-use-ai/keep-instructions-and-data-apart/` on Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the clean gate. Next step: Bear renders narration (Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md — including the deferred `manim_layout_audit.py --curve-strict` pass — and picks the next film from QUEUE.md. [record]
+
+---
+
+## 2026-10-03 — Film 6: "Think one step ahead"
+
+**1. Date and what I was working on.**
+2026-10-03. Film 6 of 24 ("How to AI" series): pre-render package for "Think one step ahead" (slug `think-one-step-ahead`), a general-audience refactor of the mirror repo's `claude-liam-prompt-tutorial-lesson-06-precognition`, built with the show-tell skill and pushed to `muse/youtube/how-to-use-ai/think-one-step-ahead/`. [record]
+
+**2. I tried / expected.**
+I expected a show-tell film translating "precognition" into plain language ("ask for tomorrow's answer, today") with a concrete before/after, and I expected the BDEFS term "one word at a time" to fit the terms card. [my input]
+
+**3. What happened (including failures and reversals).**
+- make_sheet.py's own assertion caught the BDEFS term "one word at a time" at 18 chars — past the ~17-char `ClaudeDefinitions` truncation limit the skill warns no gate catches. Renamed to "word by word" (narration + show events updated); sheet regenerates clean. [record]
+- Pre-gate layout review caught two drawing-law violations before QC: B05's prompt slip overlapped the answer page (re-stacked the window's vertical layout with clear gaps), and B05 placed a "next" label inside the page outline (removed — the terracotta dot and the "tomorrow's answer" label carry it). B04's check mark sat on a page's corner outline; moved fully inside. [record]
+- Changed the BHTF `modelLabel` "Opus 5.5" (copied from the skill example) to "Claude" — the version number is unverifiable and the label is cosmetic. [record]
+- QC: `py_compile` clean; `static_scene_check.py` for all 6 scene classes, 6 clean · 0 warnings · 0 errors, first run. [record]
+- `manim_layout_audit.py --curve-strict` cannot run in this VM (no Manim/pangocairo); deferred to Bear's Mac render pass per the brief. [record]
+
+**4. What I did.**
+Built the full 12-file package: ACTS, SHOTLIST, FACTCHECK (11 claims, PASS/EXEMPT, no invented statistics), make_sheet.py (10 beats, 6 manim scenes, 189.6 s estimated ~3:10, self-assertions all pass), beat_sheet.json, scenes.py (6 Manim scenes, iso_kit pasted at top), SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README. Pushed all 12 and byte-verified each via Contents API read. [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic and framing (film #6, "Think one step ahead", "ask for tomorrow's answer today", the show-tell skill assignment), the film-identity constants, and the refactor directive. The source argument — token-by-token constraint, the thinking scratchpad, the scratch-paper rule — came from the mirror repo's lesson-06 beat sheet; the verification sources are Anthropic's Prompt Engineering Interactive Tutorial Ch. 6 and Wei et al. 2022 (chain-of-thought). I authored every file, the narration, and all six scenes. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the show-tell pre-render pipeline end to end (research → docs → sheet → scenes → QC gate → push → verify). I still do not know whether Bear will run the Kokoro narration + measured-duration write-back himself per CLAUDE-CODE-RENDER.md before the render pass (assumed yes). [my input]
+
+**7. Evidence and next step.**
+Evidence: 12/12 files byte-verified live at `muse/youtube/how-to-use-ai/think-one-step-ahead/` on Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the clean gate. Next step: Bear renders narration (Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md, including the deferred `manim_layout_audit.py --curve-strict` for every scene class. [record]
+
+---
+
+## 2026-10-03 — Film 7: "Don't get fooled"
+
+**1. Date and what I was working on.**
+2026-10-03. Film #7 of the 24-film "How to AI" backlog (muse/QUEUE.md): a pre-render package for "Don't get fooled" — avoiding hallucinations, the habits that keep you safe — built to the film-builder spec and pushed to `muse/youtube/how-to-use-ai/dont-get-fooled/`. [record]
+
+**2. I tried / expected.**
+I expected to refactor the base folder `claude/claude-for-education/prompt-avoiding-hallucinations` in the mirror repo, using its beat_sheet.json as the source argument, in the assigned ai-explainer skill. [my input]
+
+**3. What happened (including failures and reversals).**
+- The base folder's beat_sheet.json and README.md are a mislabeled copy of Lesson 07 "Few-Shot Prompting" — wrong lesson for the folder name. Caught by reading the file rather than trusting the folder name. [record]
+- The true source was found in the same parent listing: the base folder's own PEDAGOGY.md ("VERDICT: PASS", goal = hallucination as structural property of ungrounded models + three-element grounding + citations) and the youtube md ("Grounding: The Fix for Hallucinations"), plus `claude-liam-prompt-tutorial-lesson-08-avoiding-hallucinations/beat_sheet.json` (the actual Lesson 08). Nothing from the mislabeled sheet was used. [record]
+- Verified the Mata v. Avianca case (B04) via one web search: 2023, S.D.N.Y., attorney Steven Schwartz, six fictitious ChatGPT citations, Judge P. Kevin Castel, $5,000 sanctions. [record]
+- Pre-gate text-layout audit (the static checker doesn't measure text widths): split or shortened 12 text lines that would have overflowed their cards at real Manim metrics; changed the "I don't know" ring to a terracotta ellipse to actually enclose the line. [record]
+- QC gate: 13 clean · 0 warnings · 0 errors on the first full checker run after the layout pass. [record]
+- Kept the assigned skill ai-explainer (concept-walkthrough lane fit); chose greeting "Olá" to rotate past the sibling film's "Hallo". [judgment]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py, beat_sheet.json — 13 beats, 8 body, 311 s — scenes.py with 13 Manim scenes M01–M13, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README), pushed all files to `muse/youtube/how-to-use-ai/dont-get-fooled/`, and verified all 12 live via Contents API reads (byte-matches). [record]
+
+**5. What Claude or another person contributed.**
+Bear (via the parent orchestrator) set the film assignment: slug, working title, pitch, refactor source, assigned skill, film-identity constants, and the plain-words gloss for "hallucination". The argument (next-token mechanism, confidence/correctness uncorrelation, three-part grounding, citation audit trail) comes from Anthropic's Prompt Engineering Tutorial Lesson 8 via the mirror repo. The Mata v. Avianca facts come from Reuters and corroborating coverage. I wrote every file; the AI contribution is the drafting, the general-audience rewrite, the QC pre-review, and the source verification. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the lesson-08 argument well enough to teach it in plain words: the AI predicts the most likely words, so confidence is decoration; grounding (paste the source, answer only from it, permit "I don't know") plus citation audits is the working defense. I do not know whether Bear wants the mislabeled base-folder beat sheet in the mirror repo flagged or fixed upstream. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at `muse/youtube/how-to-use-ai/dont-get-fooled/` on Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the clean gate (13 clean · 0 warn · 0 error). Next step: Bear renders narration (Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md, including the deferred `manim_layout_audit.py --curve-strict` pass. [record]
+
+---
+
+## 2026-10-03 — Film 8: "The first answer is a draft"
+
+**1. Date and what I was working on.**
+2026-10-03. Film 8 of 24 in the "How to AI" series: a pre-render package for "The first answer is a draft" (iterate: how to push back, refine, and steer to a good result), built from scratch in the show-tell style and pushed to `muse/youtube/how-to-use-ai/the-first-answer-is-a-draft/`. [record]
+
+**2. I tried / expected.**
+I expected to keep the assigned show-tell skill: the film is a concrete visual demonstration (one draft page evolving beat by beat), which is exactly what the skill is for. I expected the static QC checker to be the binding gate in the VM, with the layout audit deferred to Bear's Mac. [my input]
+
+**3. What happened (including failures and reversals).**
+- Read the show-tell SKILL.md, the iso_kit template, the example make_sheet, the static checker's source, and the approved 25-props catalog; decided the film's own draft page was a better cast than any catalog prop (no quota), so no props were used. [judgment]
+- Built the 12-file package: ACTS, SHOTLIST (with per-beat card-test notes — zero cards), FACTCHECK (advice, no empirical claims), make_sheet.py with built-in assertions (13 beats; 9 manim classes matching beat ids; BIDEA trigger verbatim and punctuation-free; BDEFS terms ≤ 17 chars; BOUT 1.0 s tail), beat_sheet.json (13 beats, ~150 s), scenes.py (iso kit pasted verbatim + 9 scene classes), SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS ("no generation prompts"), CLAUDE-CODE-RENDER, README. [record]
+- QC gate: py_compile clean on both files; static_scene_check.py on all 9 scene classes → 9 clean · 0 warn · 0 error, first run, no failures to fix. [record]
+- One pre-QC self-catch: the B01 rubber stamp's start position (y=3.6) would have tripped the checker's safe-area warning; lowered to y=2.9 before the checker ran. [record]
+- `manim_layout_audit.py --curve-strict` cannot run in the build VM (no Manim/pangocairo); deferred to Bear's Mac render pass per the task brief, noted in CLAUDE-CODE-RENDER.md. [record]
+- Pushed all 12 files via gh-put-file.py and verified every one live with Contents API reads (sizes + SHAs). [record]
+
+**4. What I did.**
+Delivered the complete pre-render package: a 13-beat sheet (~150 s) where a single draft page evolves from a vague draft 1 ("plan my dinners") through pushbacks — "shorter", "more concrete", "for a busy parent" — to a draft 3 the viewer would actually use, closing with the three-pushback recipe and a Your-Turn composer drill. Pushed and verified at `muse/youtube/how-to-use-ai/the-first-answer-is-a-draft/` on Humanitariansai/humanitarians-youtube-muse. [record]
+
+**5. What Claude or another person contributed.**
+Bear set the film's topic, pitch, and the three example pushbacks ("shorter", "more concrete", "try again but for a busy parent") in the queue brief, plus the film-identity constants (Liam persona, am_onyx, Teardown register, claude-liam, @NikBearBrown) and the standing show-tell conventions from the skill. The show-tell skill, iso drawing kit, and QC checker came from the brutalist.art toolkit. I wrote every film file; the AI contribution is the drafting, the pre-QC self-review, and the narration wording. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the show-tell pipeline end to end: the stub checker's shape-state model rewards one new non-text shape per play, and writing coordinates inside ±6.2×±3.3 at author time keeps it clean. I still do not know whether ~150 s (2.5 min) is acceptable against the 3–6 min target, or whether Bear wants it padded — the skill's "as long as it needs" law governed the cut. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at `muse/youtube/how-to-use-ai/the-first-answer-is-a-draft/` on Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the clean gate. Next step: Bear runs the layout audit, Kokoro audio, and the 4K render pass on his Mac per CLAUDE-CODE-RENDER.md; the parent orchestrator decides whether to append this FRICTIONAL.md entry and update muse/README.md and muse/QUEUE.md. [record]
+
+---
+
+## 2026-10-03 — Film 9: "Make It Interview You First"
+
+**1. Date and what I was working on.**
+2026-10-03. Film #9 of 24 in the How-to-AI queue: a pre-render package
+(script, Manim visuals, docs) for "Make It Interview You First" — the
+technique of telling the AI "ask me 5 questions first" before it starts,
+built from scratch (no mirror source), pushed to
+`muse/youtube/how-to-use-ai/make-it-interview-you-first/`. [record]
+
+**2. I tried / expected.**
+I expected to follow the assigned show-tell skill straight through: read
+the SKILL.md, copy the 12-file how-to-use-claude package format, write
+make_sheet → scenes → QC → docs → push → verify. [my input]
+
+**3. What happened (including failures and reversals).**
+- Chose to KEEP the assigned show-tell skill (no switch): the film is a
+  visual explainer for non-experts and every beat's idea is a thing, part,
+  or flow, so zero ShowTellCard beats passed the card test. [judgment]
+- Film design (original): 8 body beats — the one-line ask (B00), the
+  interview move (B01), the five questions (B02), answers-as-chips into the
+  brief box (B03), the tailored payoff vs the thin generic page (B04), a
+  difficult-email second demo (B05), the "ask for answer-changing
+  questions" sharpening (B06), and the rule of thumb + skip-for-plain-facts
+  (B07). [record]
+- `make_sheet.py` first run: 12 beats, 194.8 s (~3:14), all asserts passed
+  on the first generation. [record]
+- scenes.py first QC run: all 8 classes failed with
+  `AttributeError: ... has no attribute 'until'` — I had called
+  `self.until(...)` but the iso kit defines `until`/`finish` as
+  module-level functions called `until(self, "phrase")`. Fixed with sed to
+  match the how-to-use-claude reference pattern; clean on the next run.
+  [record]
+- A decorative `""""""` docstring containing an em dash broke py_compile;
+  replaced with `#` comments. [record]
+- B04's continuity chips used size-30 text scaled to 0.6 (sub-floor text,
+  GATE T risk); replaced with plain ink-outlined pills. [record]
+- Static QC then passed: 8 clean · 0 warn · 0 error; also ran once with
+  beat_sheet.json beside scenes.py (pacing path clean) and verified all 31
+  `until()` phrases verbatim against narration by script. [record]
+- `manim_layout_audit.py --curve-strict` could not run (no Manim /
+  pangocairo in this VM) — hand-placed labels (≥0.3 leader gaps, coords
+  inside ±6.2 × ±3.3, type ≥ 32) and deferred to Bear's Mac render pass.
+  [record]
+- All 12 files pushed via gh-put-file.py and each verified live with a
+  Contents API read (HTTP 200, byte-matched). [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py,
+beat_sheet.json — 12 beats, 194.8 s — scenes.py with 8 Manim scene classes
++ iso kit pasted verbatim, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS,
+CLAUDE-CODE-RENDER, README), pushed to the write repo, and verified all
+12 live via API read. [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic and pitch (film #9: "ask the AI to ask you questions
+before it starts", trip or difficult-email demo), the channel/persona lock
+(Liam, Teardown, claude-liam, Kokoro am_onyx, @NikBearBrown), the
+show-tell skill and iso kit (brutalist.art toolkit), and the 12-file
+package pattern (how-to-use-claude reference). The film design, all
+narration, all scenes, and all docs are my original work; no statistics
+were cited (deliberate — advice needs none) and no mirror source existed.
+[record]
+
+**6. What I understand now / still do not understand.**
+I understand the kit's `until(self, …)` calling convention now (module
+function, not method — the stub's error was unambiguous). I still do not
+know how Kokoro voices "favourite colour" / "apologise" (British
+spellings) — flagged for the whisper check at render time. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at
+`muse/youtube/how-to-use-ai/make-it-interview-you-first/` on
+Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the
+clean gate. Next step: Bear renders narration (Kokoro am_onyx) and the
+review cut on his Mac per CLAUDE-CODE-RENDER.md — running
+`manim_layout_audit.py --curve-strict` and the midpoint guard pass first —
+and tells me the next film's topic. [record]
+
+---
+
+## 2026-10-03 — Film 10: "Make It Check Its Own Work."
+
+**1. Date and what I was working on.**
+2026-10-03. Film 10 of the 24-film "How to AI" series for the humanitarians
+AI YouTube channel: a pre-render package (script, Manim visuals, docs) for
+"Make It Check Its Own Work." — self-critique prompting ("find the flaws in
+your answer") — built from scratch and pushed to
+`muse/youtube/how-to-use-ai/make-it-check-its-own-work/`. [record]
+
+**2. I tried / expected.**
+I expected to build on the assigned ai-explainer skill per the task, and to
+follow the series' show-tell package conventions from the shipped
+`claude-not-your-answer` film. I expected the static QC checker to pass
+first try after writing the scenes carefully. [my input]
+
+**3. What happened (including failures and reversals).**
+- I switched the skill from ai-explainer to show-tell: the series' shipped
+  films use show-tell's bookend pattern and this film is a visual how-to
+  with a worked demo, so series consistency won. Recorded with reasoning in
+  BUILD-LOG.md. [judgment]
+- Grounded the technique with a web search: Anthropic's prompt-engineering
+  guidance recommends the self-check pattern ("Before you finish, verify
+  your answer against [test criteria]"), and Google's prompting strategies
+  document self-critique; "critique your own response" / "strongest
+  objection" are documented power phrases. Kept every claim modest — no
+  invented statistics. [record]
+- The static checker failed 3 of 9 scene classes on the first run
+  (B05_WhereItPays, B06_TheLimit, B07_ProMove) — all the same bug: my
+  `lab()` helper didn't accept the `bold` keyword. One-line fix (forward
+  `bold` to `T()`); second run: 9 clean, 0 warn, 0 error. [record]
+- Verified every `until()` pacing phrase verbatim against its beat's
+  narration_text with a scripted check. [record]
+- `manim_layout_audit.py --curve-strict` cannot run in the build VM (no
+  Manim/pangocairo); deferred to Bear's Mac render pass and noted in
+  CLAUDE-CODE-RENDER.md. [record]
+
+**4. What I did.**
+Built the full 12-file package: ACTS, SHOTLIST, FACTCHECK (8 claims, no
+invented statistics), make_sheet.py (generates beat_sheet.json — 13 beats,
+190.4 s, self-assertions on beats/classes/duration), scenes.py (iso_kit
+pasted at top + film helpers + 9 Manim classes), SOURCES, BUILD-LOG,
+CHECKS-REPORT, PROMPTS (no generation prompts), CLAUDE-CODE-RENDER, README.
+Pushed all 12 files via the Contents API and verified each with an API
+read (HTTP 200). [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic, the film-identity constants (Liam persona, am_onyx,
+Teardown, claude-liam, @NikBearBrown), the audience rule, and the brief
+(self-critique moves, a concrete demo where self-critique catches a real
+flaw, honesty about limits). The series conventions, iso_kit, and QC
+checker came from the brutalist.art toolkit and the shipped series films.
+I wrote every file; the AI contribution is the drafting, the research
+grounding, and the QC failure diagnosis. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the show-tell package pattern end to end now: research →
+ACTS/SHOTLIST/FACTCHECK → make_sheet → scenes → QC gate → docs → push →
+verify. I still do not know whether Bear wants show-tell bookends for all
+24 series films or a per-film skill pick, and whether Kokoro reads the new
+"Ciao" greeting cleanly (flagged for the whisper-check). [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at
+`muse/youtube/how-to-use-ai/make-it-check-its-own-work/` on
+Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the
+clean gate (9 clean · 0 warn · 0 error). Next step: Bear renders narration
+(Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md,
+including the deferred `manim_layout_audit.py --curve-strict` pass. [record]
+
+---
+
+## 2026-10-03 — Film 11: "Small steps, big jobs"
+
+**1. Date and what I was working on.**
+2026-10-03. Built the pre-render package for "Small steps, big jobs"
+(slug `small-steps-big-jobs`), film 11 of the "How to AI" series: break
+big tasks into steps instead of one giant prompt. NEW source, built from
+scratch, pushed to `muse/youtube/how-to-use-ai/small-steps-big-jobs/`.
+[record]
+
+**2. I tried / expected.**
+I expected to keep the assigned show-tell skill and to follow the sibling
+package's 12-file convention exactly. I expected the beat sheet to land
+near 3 minutes on the first draft and the static QC to need a fix or two.
+[my input]
+
+**3. What happened (including failures and reversals).**
+- Skill decision: kept show-tell; zero ShowTellCard kinds — every beat is
+  a thing, a part, or a flow, so each passes the card test toward "draw
+  it" (the side-by-side is two drawings, not a tabs card). [judgment]
+- First make_sheet.py run gave 12 beats / 8 body / 179 s — under the
+  brief's ~3-minute floor, and B05 was merging two real steps (materials
+  + timeline) in one beat, which show-tell law 9 forbids. Split into B05
+  (materials) and B06 (timeline, carrying the "handoff is the whole
+  trick" payoff); side-by-side → B07, habit → B08. Final: 13 beats,
+  9 body, 195 s (~3m15s); all make_sheet.py assertions pass. [record]
+- Pre-gate self-review caught two layout bugs before the checker ran:
+  per-card `next_to(card, RIGHT)` labels for the later chain cards would
+  have crossed the ±6.3 safe area (fixed: one top-center step label per
+  beat, each replacing the last), and group-shift scenes would have
+  disagreed between stub and real Manim on `get_center()` (fixed: all
+  positions are explicit coordinates, hand-checked against the safe
+  area). [record]
+- Static QC passed first try: 9 clean · 0 warn · 0 error. [record]
+- Deferred honestly, not concealed: `manim_layout_audit.py --curve-strict`
+  cannot run in this VM (no Manim/pangocairo) — deferred to Bear's Mac
+  render pass; B02's five job-name labels land at ~77% of the beat by
+  narration pacing (the early "five small jobs" label keeps type on
+  screen at the midpoint) — flagged for the review cut. Both recorded in
+  CHECKS-REPORT.md and CLAUDE-CODE-RENDER.md. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py,
+beat_sheet.json — 13 beats, 9 body, 195 s — scenes.py with 9 Manim
+scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER,
+README), pushed all 12 via gh-put-file.py, verified each live with a
+Contents API read (12/12 HTTP 200); remote beat_sheet.json round-trips
+13 beats / 194.6 s. [record]
+
+**5. What Claude or another person contributed.**
+Bear (via the parent task) set the topic, pitch, core idea (giant prompt
+→ mush; budget → layout → materials → timeline, each building on the
+last; side-by-side), the show-tell assignment, the film-identity
+constants, the audience rule, the no-invented-statistics factcheck rule,
+and the QC/push conventions. The iso_kit.py drawing kit, static QC
+checker, and 12-file package pattern came from the brutalist.art toolkit
+and the finished sibling packages. I wrote every file; the AI
+contribution is the drafting, the pre-gate layout review, and the
+beat-split and label-placement decisions above. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the show-tell body pattern now: one persistent cast of
+objects, one motion per spoken point, narration-paced `until()` beats,
+and explicit coordinates everywhere so the stub and the real render
+agree. I still do not know whether Bear wants any Gate T midpoint
+re-times after seeing the review cut (B02 is the candidate). [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at
+`muse/youtube/how-to-use-ai/small-steps-big-jobs/` on
+Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the
+clean gate. Next step: Bear renders narration (Kokoro am_onyx) and the
+review cut on his Mac per CLAUDE-CODE-RENDER.md (including the deferred
+`manim_layout_audit.py --curve-strict`), and names the next film. [record]
+
+---
+
+## 2026-10-03 — Film 12: "When it's confidently wrong."
+
+**1. Date and what I was working on.**
+2026-10-03. Film 12 of the how-to-AI queue: a pre-render package
+(script, Manim visuals, docs) for "When it's confidently wrong" — the
+recovery playbook for when the AI insists — built from scratch (no
+mirror source) and pushed to
+`muse/youtube/how-to-use-ai/when-its-confidently-wrong/`. [record]
+
+**2. I tried / expected.**
+I expected to use the assigned skill deep-explainer, and to run the
+static QC gate the same way as the sibling films. I expected the
+mechanism (confidence is fluency, not knowledge) to be straightforward
+to ground; it needed two research passes to avoid inventing claims.
+[my input]
+
+**3. What happened (including failures and reversals).**
+- Read deep-explainer/SKILL.md fully, then switched to ai-explainer:
+  the film's teaching problem is one insight + one mechanism + one
+  4-step playbook, not the 4+ linked mechanisms deep-explainer is built
+  for, and the assignment's band (3–6 min, 13–22 beats) contradicts
+  deep-explainer's 5–10 min / 30–50 beat band. The chat/composer window
+  is ai-explainer's natural recurring visual anchor — and it is exactly
+  where the AI insists. [judgment]
+- Fact-check research grounded: next-token autoregressive generation
+  (inference-engineering handbook; ckvermaai notes); LLM
+  overconfidence and confidence escalation when challenged (debate-
+  calibration study via marginalrevolution: 72.9% initial vs 50%
+  rational baseline, rising to 83%); UC Irvine "calibration gap";
+  Kalai et al. via temperature2 on benchmarks rewarding confident
+  guessing over abstention. The statistics stay in FACTCHECK.md only —
+  the script carries no numbers that could date it. [record]
+- Pre-gate fix before running QC: M07's reframed question was authored
+  as an AI bubble (white card); it is the user's message, so it became
+  a kraft user bubble. No checker warning involved — a pedagogy fix.
+  [record]
+- make_sheet.py passed its own assertions first run: 14 beats, 8 body,
+  317 s (~5m17s). Static QC then passed first try: 14 clean · 0 warn ·
+  0 error. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK,
+make_sheet.py, beat_sheet.json — 14 beats, 8 body, 317 s — scenes.py
+with 14 Manim scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS,
+CLAUDE-CODE-RENDER, README), pushed all 12 files via gh-put-file.py,
+and verified all 12 live via Contents API reads. [record]
+
+**5. What Claude or another person contributed.**
+The parent orchestrator supplied the assignment (slug, working title,
+pitch, the four playbook steps, the "confidence is fluency" framing,
+skill suggestion, audience rule); Bear's standing film-identity
+constants (Liam, am_onyx, Teardown, claude-liam, @NikBearBrown) and the
+QC checker came from the brutalist.art toolkit. I wrote every file;
+the AI contribution is the drafting, the QC pre-review, and the
+research verification. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the skill-routing judgment call now: the assignment
+band (3–6 min, 13–22 beats) rules out deep-explainer for a single-
+insight playbook film, and ai-explainer's chat-window anchor fits this
+topic better than show-tell's drawn objects. I still do not know
+whether Bear wants manim_layout_audit.py --curve-strict wired into
+the render pass as standard, or run ad hoc per film. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at
+`muse/youtube/how-to-use-ai/when-its-confidently-wrong/` on
+Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records
+the clean gate. Next step: Bear renders narration (Kokoro am_onyx)
+and the review cut on his Mac per CLAUDE-CODE-RENDER.md, including
+the deferred manim_layout_audit --curve-strict pass. [record]
+
+---
+
+## 2026-10-03 — Film 13: "Learn Anything Faster"
+
+**1. Date and what I was working on.**
+2026-10-03. Film 13 of the humanitarians-channel "How to AI" series: a pre-render package (script, Manim visuals, docs) for "Learn Anything Faster" — three tutor moves (explain-it-simple, one-at-a-time quiz, Socratic mode) demonstrated on how mortgages work — built from scratch (no mirror source) and pushed to `muse/youtube/how-to-use-ai/learn-anything-faster/`. [record]
+
+**2. I tried / expected.**
+I expected to keep the assigned show-tell skill, follow the canonical show-tell spine (hesitant writer → key terms → drawn body → Your Turn composer → spoken outro), and pass the static QC gate first try by front-loading the sibling packages' lessons (explicit FadeIn before .animate, midpoint-guard timing, verbatim until() phrases). [my input]
+
+**3. What happened (including failures and reversals).**
+- Fact-check research verified all claims against primary sources (CFPB/Federal Reserve glossaries for mortgage mechanics; thenest.com and moneysense.ca for extra-principal mechanics; Wikipedia and eNotes for the Socratic method). Deliberately quoted no dollar figures, rates, or year counts — the extra-payment point stays qualitative ("a little extra each month", "where does the money go first"). No retention statistics anywhere in the film. [record]
+- No gate failures: `py_compile` clean on both files; `static_scene_check.py` per class: 5 clean · 0 warn · 0 error on the first full run. [record]
+- No reversals on skill or structure: the card test failed every body beat (no beat's idea is an interface, a number set, or one word), so the film uses zero cards; recorded in SHOTLIST.md and CHECKS-REPORT.md. [judgment]
+- All 14 `until()` pacing phrases script-verified verbatim against `narration_text` (0 misses), so the narration clock is real rather than silently skipped. [record]
+- `manim_layout_audit.py --curve-strict` could not run in this VM (no Manim/pangocairo) — deferred to Bear's Mac render pass; noted in CLAUDE-CODE-RENDER.md §2 and CHECKS-REPORT.md. [record]
+
+**4. What I did.**
+Wrote all 12 package files (ACTS, SHOTLIST, FACTCHECK, make_sheet.py, beat_sheet.json — 9 beats, 5 body, 200 s — scenes.py with 5 Manim scene classes on the pasted iso_kit, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README), pushed all 12 via gh-put-file.py to `muse/youtube/how-to-use-ai/learn-anything-faster/`, and verified all 12 live via Contents API reads (blob-SHA match, 12/12). [record]
+
+**5. What Claude or another person contributed.**
+The parent orchestrator supplied the assignment (slug, title, pitch, the three moves, topic options, the 12-file convention, the QC gate, the FRICTIONAL.md format). Bear set the channel/persona/audience/skill-menu rules and the film-identity constants. The show-tell skill, iso_kit, and QC checker came from the brutalist.art toolkit; the 12-file package convention from the sibling film builds. I chose the mortgage as the demo topic, wrote every narration line and scene, and did the fact-check research. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the show-tell lane's timing discipline now: front-loading motion before the clip midpoint (with settled labels up by the midpoint) satisfies GATE T while keeping the voice synced via until()-paced windows after it. I still do not know whether Bear wants the deferred layout audit to block the review cut or run alongside it. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at `muse/youtube/how-to-use-ai/learn-anything-faster/` on Humanitariansai/humanitarians-youtube-muse (12/12 blob-SHA matches); CHECKS-REPORT.md records 5 clean · 0 warn · 0 error. Next step: Bear runs `manim_layout_audit.py --curve-strict` per scene class, then renders narration (Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md — never publish without his explicit instruction. [record]
+
+---
+
+## 2026-10-03 — Film build: "Write with AI, Still Sound Like You" (`write-with-ai-sound-like-you`)
+
+**1. Date and what I was working on.**
+2026-10-03. Built the pre-render film package for "Write with AI, Still Sound Like You" (slug `write-with-ai-sound-like-you`, How to AI #14) for the humanitarians AI YouTube channel — an original script (no mirror source): drafting with AI without the robotic aftertaste, via four fixes (paste a voice sample, ban the giveaways, dictate-then-clean, final pass in your own words) plus an email demo. Liam persona ("Liam, in for Bear,"), Teardown register, Kokoro am_onyx. Pushed to `muse/youtube/how-to-use-ai/write-with-ai-sound-like-you/` on Humanitariansai/humanitarians-youtube-muse. [record]
+
+**2. I tried / expected.**
+I expected to keep the assigned show-tell skill, write 12 package files with the four-fix argument, pass the static QC first try, and push 12 files cleanly. [my input]
+
+**3. What happened (including failures and reversals).**
+- Skill choice: show-tell, no switch. Ran the show-tell card test per body beat — no beat is an interface, a set of numbers, or a single word — so the film uses zero cards, all drawings. [judgment]
+- QC gate run 1: 7/7 classes errored — `construct() raised AttributeError: 'B00_RobotDraft' object has no attribute 'until'`. Root cause was my own: I called `self.until(...)` / `self.finish()`, but the iso kit defines `until`/`finish` as module-level functions and SKILL.md documents the call form `until(self, "phrase")` (real Manim `Scene` has no such methods either). Fixed all 19 pacing calls to the module-level form, regenerated `scenes.py`; run 2: 7 clean · 0 warnings · 0 errors. Recorded in CHECKS-REPORT.md and BUILD-LOG.md. [record]
+- FACTCHECK.md's first push died on `http.client.RemoteDisconnected` (transient network drop, not a 409); retry succeeded immediately. The other 11 pushed first try. [record]
+- Found a sibling agent's scratch file (`/tmp/body_scenes.py`, for "Ask for the Shape You Want Back") while working — left it untouched and used my own uniquely-named scratch path. [record]
+- `manim_layout_audit.py --curve-strict` not run: no Manim/pangocairo in this VM. Deferred to Bear's Mac render pass; noted in CHECKS-REPORT.md and CLAUDE-CODE-RENDER.md. Coordinates were hand-placed inside the ±6.3 × ±3.4 safe area. [record]
+- FACTCHECK keeps every claim behavioral and modest — no statistics anywhere in the film by design (no invented numbers), and B03's banned-words beat is worded gently ("None of them are wrong. They are just the uniform.") so the film teaches voice, not AI-detection. [judgment]
+
+**4. What I did.**
+Wrote all 12 package files (`ACTS.md`, `SHOTLIST.md`, `FACTCHECK.md`, `make_sheet.py` — 11 beats, 7 body, est 224 s, all assertions pass — `beat_sheet.json`, `scenes.py` with 7 Manim scene classes, `SOURCES.md`, `BUILD-LOG.md`, `CHECKS-REPORT.md`, `PROMPTS.md`, `CLAUDE-CODE-RENDER.md`, `README.md`); passed the full QC gate with zero warnings/errors and no waivers; pushed all 12 via `gh-put-file.py`; verified each live via Contents API reads (HTTP 200, byte-identical). Nothing rendered or published; no audio committed. [record]
+
+**5. What Claude or another person contributed.**
+Bear set the film-identity constants (Liam, am_onyx, Teardown, claude-liam, @NikBearBrown), the audience rule (general audience, every term explained, show-don't-tell), the show-tell skill and its laws, and the 12-file package convention. The parent orchestrator supplied the assignment (slug #14, the four-fix core idea, output path, QC gate, push flow, FRICTIONAL.md format). I wrote every file and narration line. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the iso kit's pacing contract now: `until`/`finish` are module-level functions taking `self` as the first arg — `self.until()` fails under both the QC stub and real Manim, and the failure is loud (AttributeError), not silent. I understand the card test as a real gate (this film: zero cards). I still do not know whether Bear wants the "Hallo" greeting kept across all films or varied per film. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12/12 files live at `muse/youtube/how-to-use-ai/write-with-ai-sound-like-you/` on Humanitariansai/humanitarians-youtube-muse (verified HTTP 200, byte-identical, 2026-10-03); CHECKS-REPORT.md records 7 clean · 0 warn · 0 error. Next step: Bear renders on his Mac per `CLAUDE-CODE-RENDER.md` — Kokoro am_onyx narration, then `manim_layout_audit.py --curve-strict` per scene class (deferred from this VM), stills, `./art run`, `./art final`; never publish without his explicit instruction. [record]
+
+---
+
+## 2026-10-03 — Film 15: "Tame Your Spreadsheets"
+
+**1. Date and what I was working on.**
+2026-10-03. Film 15 of 24 in the "How to AI" series: a pre-render package for "Tame Your Spreadsheets" (slug `tame-your-spreadsheets`), built per the film-package spec and pushed to `muse/youtube/how-to-use-ai/tame-your-spreadsheets/`. [record]
+
+**2. I tried / expected.**
+I expected a clean refactor run: read the show-tell skill, fetch the mirror source via the Contents API, author the 12-file package, pass the QC gate, push, and verify. [my input]
+
+**3. What happened (including failures and reversals).**
+- The mirror source ("Stop learning Excel.") was a Claude Cowork power-user film; I rewrote it as a general-audience coach film around three moves (plain-English formula requests, paste-and-clean, "what's interesting in this data?"), keeping the source's core argument (human stays in control) as the B03 sanity-check warning. [judgment]
+- Kept the assigned `show-tell` skill; rejected ShowTellCard beats (0 of 7 body beats are cards) because every beat is a thing, part, or flow the drawings teach better — card-test reasoning recorded in SHOTLIST.md. [judgment]
+- No QC failures: py_compile clean; static_scene_check.py passed all 7 scene classes first run (7 clean · 0 warn · 0 error). Self-reviewed Gate T midpoint traps while writing (terracotta scan sweep lands before midpoint, no path_arc on .animate, literal `class BNN_Name(Scene)` names). [record]
+- `manim_layout_audit.py --curve-strict` could not run in this VM (no Manim/pangocairo); deferred to Bear's Mac render pass and recorded in CHECKS-REPORT.md and CLAUDE-CODE-RENDER.md. [record]
+- All 12 files pushed via gh-put-file.py and verified byte-identical (SHA-1) against Contents API reads afterwards — all verified. [record]
+
+**4. What I did.**
+Authored all 12 files (ACTS, SHOTLIST, FACTCHECK, make_sheet.py with beat-count/duration asserts, beat_sheet.json — 11 beats, 7 manim, ~303 s est — scenes.py with 7 Manim scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README), pushed and verified them. [record]
+
+**5. What Claude or another person contributed.**
+Bear set the film (slug, title, pitch, the three moves, the sanity-check warning, the fictional-example constraint) and the film-identity constants (Liam, am_onyx, Teardown, claude-liam, @NikBearBrown). The brutlist.art toolkit supplied the show-tell skill, the iso drawing kit, and the QC checker. The mirror repo supplied the refactor source argument. I wrote every file, made the refactor/rewrite judgments, and ran the QC gate; the AI contribution is the drafting and the pre-checker self-review. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the full show-tell pre-render pipeline end to end, including the card test and the deferred-audit pattern for this VM. I still do not know whether Bear wants the `muse/youtube/how-to-use-ai/` placement to stand or the next film's topic. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at `muse/youtube/how-to-use-ai/tame-your-spreadsheets/` on Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the clean gate. Next step: Bear renders narration (Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md. [record]
+
+---
+
+## 2026-10-03 — Film 16: "Meetings into Notes"
+
+**1. Date and what I was working on.**
+2026-10-03. Film 16 of the humanitarians-channel Muse series: a pre-render
+package (script, Manim visuals, docs) for "Meetings into Notes" — turn
+rambling meetings into summaries and action items — built from scratch (no
+mirror source) to the subagent brief and pushed to
+`muse/youtube/how-to-use-ai/meetings-into-notes/`. [record]
+
+**2. I tried / expected.**
+I expected the show-tell lane to fit: one drawn image per beat, minimal text,
+the voice explains. I expected the finished sibling film `how-to-use-claude`
+to supply every house convention (make_sheet asserts, bookend props, QC gate
+pattern), and it did. I expected the static QC stub to catch shape-signature
+problems if I wrote scenes carelessly; it caught none on the first pass.
+[my input]
+
+**3. What happened (including failures and reversals).**
+- The `how-to-ai/` sibling directories (dont-get-fooled, show-it-an-example,
+  etc.) are empty — no how-to-ai film exists yet to copy, so I used the
+  `how-to-use-ai/how-to-use-claude/` build as the reference instead. [record]
+- `make_sheet.py` first used the sibling's 180–220 s duration band with a
+  "3:00-3:40" comment; the honest total is 187.2 s and the brief allows 3–6
+  min, so I widened the band to 165–210 s with a corrected comment. [record]
+- B02's first trigger phrase landed inside the clip's 45–55% GATE T sampling
+  window; switched to "already" with `lead=0.6` so the fragment drop finishes
+  before the window. [record]
+- B06's first layout stacked the three output cards with a vertical overlap;
+  respaced to y = 1.65 / 0.2 / −1.25 (h = 1.3), gaps ≥ 0.15. [record]
+- Static QC passed first try: 9 clean · 0 warn · 0 error; pacing-path run
+  (with beat_sheet.json) also clean. [record]
+- `manim_layout_audit.py --curve-strict` cannot run in this VM (no Manim /
+  pangocairo); mitigated by hand-placed labels, straight-segment polylines
+  for the B00 "tangles", and the only curve (B08's lock shackle) crossing no
+  label. Deferred to Bear's Mac. [record]
+- No midpoint render-guard verification possible without measured audio;
+  event phrases placed off the midpoint, re-verification deferred to the Mac
+  render pass. [record]
+
+**4. What I did.**
+Wrote all 12 package files (`ACTS.md`, `SHOTLIST.md`, `FACTCHECK.md`,
+`make_sheet.py`, `beat_sheet.json` — 13 beats, 9 body, 187.2 s — `scenes.py`
+with 9 Manim scene classes, `SOURCES.md`, `BUILD-LOG.md`, `CHECKS-REPORT.md`,
+`PROMPTS.md`, `CLAUDE-CODE-RENDER.md`, `README.md`); kept the show-tell skill
+as assigned; kept the privacy point to one line (film #20 covers privacy in
+depth); used a fictional meeting (Maya / Sam) with no real names or company
+internals; passed the full QC gate with zero warnings/errors; pushed all 12
+via `gh-put-file.py`; verified each via Contents API reads (HTTP 200,
+SHA-256 byte-identical). [record]
+
+**5. What Claude or another person contributed.**
+The parent orchestrator supplied the assignment (slug, working title, pitch,
+the 12-file convention, the QC gate, the FRICTIONAL.md format, the privacy
+one-line constraint). The show-tell skill, iso kit, static QC checker, and
+the house file pattern came from the brutalist.art toolkit and the finished
+`how-to-use-claude` sibling build. Web search (2026-10-03) confirmed
+auto-transcription availability on Zoom/Meet/Teams for the B02 line. The AI
+contribution is the drafting, the pacing/timing design, and the pre-gate QC
+review; every narration line and visual is original to this film. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the show-tell spine cold now: hesitant-writer → terms → hero →
+mechanism beats → your-turn composer → spoken outro, with the card test as a
+real gate (this film: zero cards) and the midpoint window as the pacing
+constraint. I still do not know whether the ~3:07 estimated length will hold
+against measured Kokoro audio — the midpoint guard must be re-run on the Mac
+after audio measurement, and narration trims may follow. [my input]
+
+**7. Evidence and next step.**
+Evidence: `muse/youtube/how-to-use-ai/meetings-into-notes/` (12 files)
+verified live — all HTTP 200, SHA-256 byte-identical; CHECKS-REPORT.md records 9 clean · 0 warn · 0 error. Next step: Bear renders on his Mac per
+`CLAUDE-CODE-RENDER.md` (Kokoro `am_onyx` narration, Manim scenes, layout
+audit, midpoint guard) — never publish without his explicit instruction. [record]
+
+---
+
+## 2026-10-03 — Film 17: "Plan anything."
+
+**1. Date and what I was working on.**
+2026-10-03. Film 17 of 24 in the "How to AI" queue: a pre-render package
+(script, Manim visuals, docs) for "Plan anything." — AI as planning partner —
+built to the subagent brief and pushed to
+`muse/youtube/how-to-use-ai/plan-anything/`. [record]
+
+**2. I tried / expected.**
+I expected show-tell to fit as assigned, and I expected the brief's arc
+(constraints → draft → revise → checklist) to map cleanly onto one drawn
+beat per step. I expected the hesitant-writer trigger match to be
+case-insensitive. [my input]
+
+**3. What happened (including failures and reversals).**
+- No mirror source existed; this film is NEW, built from scratch. The trip
+  demo and the four-step loop are the film's own constructs; all trip details
+  are fictional, recorded as FICTIONAL in FACTCHECK.md. [record]
+- `make_sheet.py` failed its own trigger-verbatim assertion on the first
+  run: trigger "plan my whole weekend trip" vs writer text "Plan my whole
+  weekend trip for me?" — the match is case-sensitive. Fixed by capitalizing
+  the trigger; re-ran clean. [record]
+- Static QC passed first try on all 8 scene classes: 8 clean · 0 warn ·
+  0 error. Preventive stub-trap fixes were applied before the checker ran
+  (FadeIn/Create/GrowFromCenter per play instead of animate-only moves,
+  plain Python lists instead of VGroup indexing, fixed literal coordinates,
+  np.array-wrapped ArcBetweenPoints). [record]
+- `manim_layout_audit.py --curve-strict` cannot run in this VM
+  (no Manim/pangocairo); deferred to Bear's Mac render pass and noted in
+  CLAUDE-CODE-RENDER.md. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py,
+beat_sheet.json — 12 beats, 8 body, 176.8 s — scenes.py with 8 Manim
+scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER,
+README), pushed all 12 files via the gh-put-file.py helper, and verified all
+12 live via Contents API reads (byte-identical). [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic, pitch, assigned skill, film-identity constants, the
+demo-arc shape (weekend trip built iteratively: constraints first, draft,
+"too rushed, slow it down", packing checklist), the projects/budgets
+generalization, and the mandated verify-bookings line — all from the build
+brief. I wrote every file; the AI contribution is the drafting, the narration
+wording, the scene design, and the QC pre-review. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the show-tell package pattern end to end now: the
+constraints→draft→revise→checklist loop teaches well as four returning
+pictures, and repeating the constraint-box layout in B05/B06 is a feature
+(the repetition IS "the pattern travels"), not a defect. I still do not
+know whether Bear wants any length floor for these films — this one came to
+~2.9 min because the content needed 8 body beats, per the skill's law 9. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at `muse/youtube/how-to-use-ai/plan-anything/`
+on Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the
+clean gate. Next step: Bear renders narration (Kokoro am_onyx) and the review
+cut on his Mac per CLAUDE-CODE-RENDER.md, including the deferred
+`manim_layout_audit.py --curve-strict` pass. [record]
+
+---
+
+## 2026-10-03 — Film 18: "Just talk to it" (voice mode basics)
+
+**1. Date and what I was working on.**
+2026-10-03. Film 18 of 24 in the How-to-AI series: a show-tell pre-render
+package (script, Manim visuals, docs) for "Just talk to it" — voice mode
+basics, when talking beats typing — built from scratch (no mirror source) and
+pushed to `muse/youtube/how-to-use-ai/just-talk-to-it/`. [record]
+
+**2. I tried / expected.**
+I expected to follow the show-tell skill straight: read SKILL.md, paste the
+iso_kit into scenes.py, write make_sheet.py with the four bookends, pass the
+static QC, push, verify. I expected my beat count (12 body + 4 bookends) to be
+17. [my input]
+
+**3. What happened (including failures and reversals).**
+- make_sheet.py failed its own assertion on the first run: I wrote
+  `len(B) == 17`, but 12 body + 4 bookends = 16. Fixed the assertion; the beat
+  list itself was correct — the count in my head was wrong. [record]
+- Static QC passed first try for all 12 classes: 12 clean · 0 warn · 0 error,
+  with beat_sheet.json beside scenes.py so the until() narration pacing
+  executed for real. [record]
+- The first bulk push silently skipped beat_sheet.json (11 of 12 landed); I
+  caught it by comparing push output to the file list and pushed it
+  separately. Lesson recorded: always diff the pushed list against the file
+  list, never trust the loop's silence. [record]
+- `manim_layout_audit.py --curve-strict` cannot run in this VM (no
+  Manim/pangocairo); deferred to Bear's Mac render pass, mitigated by
+  construction (±6.2 × ±3.3 coords, type ≥ 36 px, all motion done in the first
+  ~40% of each beat). [record]
+
+**4. What I did.**
+Wrote all 12 package files (ACTS, SHOTLIST, FACTCHECK, make_sheet.py,
+beat_sheet.json — 16 beats, 12 manim, ~205 s est — scenes.py with 12 Manim
+scene classes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER,
+README); passed the full QC gate with zero warnings/errors and nothing
+waived; pushed all 12 via gh-put-file.py; verified each via Contents API
+reads (all byte-identical). [record]
+
+**5. What Claude or another person contributed.**
+Bear set the channel/persona/audience rules, the show-tell skill menu, the
+film-identity constants, and the source slug; the parent orchestrator supplied
+the assignment (slug, 12-file convention, QC gate, FRICTIONAL.md format). The
+brutalist.art toolkit supplied the skill, the iso drawing kit, and the static
+checker. Voice-mode availability facts were verified by me against Anthropic
+support docs and three press pieces (Engadget, Tom's Guide, iTechPost),
+retrieved 2026-10-03; the narration is deliberately hedged ("a microphone or
+waveform icon in the app you use") so no version-specific UI is asserted. I
+wrote every file; the AI contribution is the drafting, the QC pre-review, and
+the research verification. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the push-verify loop now: gh-put-file.py can skip a file without
+erroring, so the verify step is the real gate, not the push output. I still do
+not know whether Bear wants `manim_layout_audit --curve-strict` run before or
+during his Mac render pass, or the next film's topic. [my input]
+
+**7. Evidence and next step.**
+Evidence: `muse/youtube/how-to-use-ai/just-talk-to-it/` (12 files) verified
+live — all HTTP 200, byte-identical; CHECKS-REPORT.md records 12 clean · 0
+warn · 0 error. Next step: Bear renders on his Mac per CLAUDE-CODE-RENDER.md
+(Kokoro `am_onyx` narration, Manim scenes, layout audit) — never publish
+without his explicit instruction. [record]
+
+---
+
+## 2026-10-03 — Film 19: "Pictures from Words"
+
+**1. Date and what I was working on.**
+2026-10-03. Film 19 of the "How to AI" queue: a pre-render package (script, Manim visuals, docs) for "Pictures from Words" — image generation basics for non-designers — built NEW from scratch to the film-builder spec and pushed to `muse/youtube/how-to-use-ai/pictures-from-words/`. [record]
+
+**2. I tried / expected.**
+I expected the ai-explainer skill's full pipeline (Remotion Claude-brand bookends) to be the build path, and I expected the local mirror clone to carry the rohan-v reference film. [my input]
+
+**3. What happened (including failures and reversals).**
+- Kept ai-explainer as the skill but applied only its content laws (SHOW-DON'T-TELL, DOUBLE-CHECK, REBUILD): the skill's Claude-brand Remotion bookends don't fit a series film with a locked lean Manim package identity; switching the series mid-run would break Bear's review pattern. [judgment]
+- The local mirror clone lacked the fellows/ tree; read the rohan-v FACTCHECK via Contents API instead and took only the mechanism one-liner. [record]
+- Pre-gate self-review caught three issues before the checker ran: M08's garden icon used throwaway mobjects for placement (replaced with explicit coords); M04's prompt-card line was too wide at real-Manin metrics (re-split to three lines); M12 recap lines were too long for their plates (capped at 48 chars). All fixed before the first checker run. [record]
+- Static QC passed first try: 12 clean · 0 warn · 0 error. [record]
+- make_sheet.py passed on its first run (recap assertion written case-insensitive from the start — a lesson carried over from film 1). [record]
+- `manim_layout_audit.py --curve-strict` could not run in this VM (no Manim/pangocairo); deferred to Bear's Mac render pass and noted in CLAUDE-CODE-RENDER.md. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py, beat_sheet.json — 14 beats, 9 body, 282 s — scenes.py with 12 Manim scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README), pushed all 12 to `muse/youtube/how-to-use-ai/pictures-from-words/`, and verified all 12 live via Contents API reads (byte-exact SHA-256 matches). [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic, queue slot, skill assignment, and the brief (the ladder, practical uses, the honest limits beat, no version-specific claims, drawn placeholders only — no real AI images). QUEUE.md supplied film 19's pitch and film 20's title ("What never to paste into AI") for the outro teaser. Fact sources: DALL-E/community prompting guides, PetaPixel/TechCrunch on text-rendering limits, arXiv on hands, platform-label coverage, and the rohan-v fellows film for the mechanism one-liner. I wrote every file; the AI contribution is the drafting, the QC pre-review, and the research verification. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the series package pattern well enough to reproduce it cleanly (no assertion fixes needed; QC passed first try). I still do not know whether Bear wants the `muse/youtube/how-to-use-ai/` placement confirmed for the remaining queue films, or which film he will pick next. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at `muse/youtube/how-to-use-ai/pictures-from-words/` on Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the clean gate. Next step: Bear renders narration (Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md, including the deferred `manim_layout_audit.py --curve-strict` pass. [record]
+
+---
+
+## 2026-10-03 — Film: "What never to paste into AI."
+
+**1. Date and what I was working on.**
+2026-10-03. Built the pre-render package for "What never to paste into AI"
+(slug `what-never-to-paste-into-ai`, film #20 of 24) from scratch — privacy
+rules of thumb for everyday use: the postcard test, the four-item
+never-paste list, and how to still get help (redact, anonymize,
+placeholders). Companion to `personal-ai-at-work` (same series folder).
+Pushed to `muse/youtube/how-to-use-ai/what-never-to-paste-into-ai/`.
+[record]
+
+**2. I tried / expected.**
+I expected to use the assigned cc-explainer skill and to follow the sibling
+package's 12-file convention exactly. I expected the fact-check to confirm
+the "why" beat's claims in general terms without needing product-specific
+toggle paths. [my input]
+
+**3. What happened (including failures and reversals).**
+- Skill decision: lecture, not cc-explainer. cc-explainer's TERMINAL-FIRST
+  law requires a real terminal session as the film's body — this film has
+  none; forcing one would be a punt. The sibling `personal-ai-at-work`
+  made the same call the same day. [judgment]
+- Fact-checked 2026-10-03 (web): pasted chats may be stored (Anthropic: up
+  to 5 years opted in, ~30 days opted out), reviewed by staff/contractors
+  (OpenAI FAQ; 404 Media Sep 2026 reporting; Anthropic and Google
+  disclosures), and used for training depending on product and settings
+  (consumer opt-out; business plans no training by default). [record]
+- make_sheet.py passed all assertions on the first run: 14 beats, 9 body,
+  317 s (~5m17s). [record]
+- Static QC passed first try: 12 clean · 0 warn · 0 error — no fixes
+  needed; the new helpers (cross_out, person_icon) were written against
+  the stub's mobject set on the first draft. [record]
+- All 12 GitHub pushes landed on the first attempt (no 409s this time);
+  12/12 verified live via Contents API reads. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py,
+beat_sheet.json — 14 beats, 9 body, 317 s — scenes.py with 12 Manim
+scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER,
+README), pushed all 12 files via gh-put-file.py, and verified each live
+with a Contents API read (12/12 HTTP 200). [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic, pitch, and companion constraint (do not contradict
+`personal-ai-at-work`), the channel/persona lock (humanitarians channel,
+Liam, am_onyx, Teardown, @NikBearBrown), the audience rules, and the QC
+conventions via the handoff spec and finished sibling packages. The
+postcard-test framing, the never-list, and every file are this build's own
+work; the AI contribution is the drafting, the QC gate, and the research
+verification. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the audience-rewrite workflow well enough to repeat it:
+evergreen narration ("depending on the product and its settings") is how
+a film degrades gracefully when company policies change, and exact
+policy wording never goes into narration. I still do not know whether
+Bear wants the local `how-to-ai/` build folder renamed to `how-to-use-ai/`
+to match the repo path and the sibling's local folder. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at
+`muse/youtube/how-to-use-ai/what-never-to-paste-into-ai/` on
+Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the
+clean gate; remote beat_sheet.json round-trips 14 beats / 317 s. Next
+step: Bear renders narration (Kokoro am_onyx) and the review cut on his
+Mac per CLAUDE-CODE-RENDER.md — including the deferred
+`manim_layout_audit.py --curve-strict` pass, and a check that the 48-char
+M12 recap line fits the plate at real-Manin text metrics; never publish
+without his explicit instruction. [record]
+
+---
+
+## 2026-10-03 — Film 21: "Trust, but verify"
+
+**1. Date and what I was working on.**
+2026-10-03. Built Film 21 ("trust-but-verify", "Trust, but verify") of the
+humanitarians-channel "How to AI" series as a pre-render package: a
+general-audience ai-explainer teaching a 60-second verification habit for AI
+claims (confidence question; open the source; independent search; numbers
+show their work; match effort to stakes). REFACTOR of
+`fellows/aujaswi-a/2026-08-19-how-to-spot-unreliable-ai-research` from the
+mirror repo, generalized from research papers to everyday claims. Pushed to
+`muse/youtube/how-to-use-ai/trust-but-verify/`. [record]
+
+**2. I tried / expected.**
+I expected the assigned ai-explainer skill to fit (concept explainer, not a
+CLI build) and the source's three research checks (recency, authority,
+corroboration) to generalize into the brief's four-step habit. I expected
+the static checker to pass first try because I stayed inside the
+Film-1-proven Manim API subset. [my input]
+
+**3. What happened (including failures and reversals).**
+- Skill fit confirmed on reading the SKILL.md; no switch. [judgment]
+- Static QC failed once: M08_B06Card's habit-card rows were text-only and
+  the checker excludes text from its shape signature ("shapes never
+  change — 1 distinct shape-state across 7 frames"). Fixed by adding an
+  ACCENT bullet circle per row that lands with it. Re-ran all 10
+  classes: 10 clean · 0 warnings · 0 errors. [record]
+- `manim_layout_audit.py --curve-strict` cannot run in this VM (no
+  Manim/pangocairo); deferred to Bear's Mac render pass and noted in
+  CLAUDE-CODE-RENDER.md and CHECKS-REPORT.md. [record]
+- Grounded the hook fact via web search: the "10% of the brain" claim is a
+  documented neuromyth (CNRS: "completely false"; Scientific American /
+  Barry Gordon). The B02 demo answer (banana / 40% / Journal of Sleep
+  Medicine) is a constructed illustration of a hallucinated answer,
+  documented as such in FACTCHECK.md and never endorsed. [record]
+- Pushed all 12 files and verified each live via Contents API reads. Did
+  not touch muse/FRICTIONAL.md, muse/README.md, or muse/QUEUE.md —
+  out of scope for this task. [record]
+
+**4. What I did.**
+Authored the full 12-file package (ACTS, SHOTLIST, FACTCHECK,
+make_sheet.py, beat_sheet.json — 10 beats, 266 s — scenes.py with 10
+Manim scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS,
+CLAUDE-CODE-RENDER, README), ran py_compile plus the static checker per
+class, fixed the one failure, pushed everything via gh-put-file.py, and
+verified every file with a Contents API read. [record]
+
+**5. What Claude or another person contributed.**
+The parent agent supplied the film brief: the four-step habit spec, the
+step-2 demo requirement, stakes calibration, the refactor source pointer,
+and the film-identity constants (Liam, am_onyx, Teardown, claude-liam,
+@NikBearBrown). The refactor source's argument spine
+(recency/authority/corroboration) came from Aujaswi Agarwal's fellows film
+via the mirror repo. I wrote every file; the AI contribution is the
+narration drafting, the QC gate, and the web-grounded factcheck. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the series' per-film conventions now: the 12-file package,
+the make_sheet.py assertion pattern, the stub-checker traps
+(text-excluded shape signatures; no animate-only shape introductions),
+and the push-then-verify flow. I do not know whether the parent wants
+this entry appended to muse/FRICTIONAL.md directly or handed back —
+the task said not to write it, so I return the entry text. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at
+`muse/youtube/how-to-use-ai/trust-but-verify/` on
+Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the
+10-clean gate; BUILD-LOG.md records the skill choice and the M08 fix.
+Next step: Bear renders narration (Kokoro am_onyx) and the cut on his Mac
+per CLAUDE-CODE-RENDER.md, including the deferred
+`manim_layout_audit.py --curve-strict` pass. [record]
+
+---
+
+## 2026-10-03 — Film 22: "Free vs paid: when to pay"
+
+**1. Date and what I was working on.**
+2026-10-03. Film 22 of the "How to AI" queue: a pre-render package (script, Manim visuals, docs) for "Free vs paid: when to pay", built from scratch with no mirror source, pushed to `muse/youtube/how-to-use-ai/free-vs-paid-when-to-pay/`. [record]
+
+**2. I tried / expected.**
+I expected to use the assigned cc-explainer skill as-is. [my input]
+
+**3. What happened (including failures and reversals).**
+- Switched skill cc-explainer → ai-explainer: the film is a general-audience concept explainer with no Claude Code terminal session to show; cc-explainer's TERMINAL-FIRST/REAL-SESSION laws would have forced an invented session. [judgment]
+- make_sheet.py had an authoring bug before its first run (the class-matching assertion compared against `"MM01"`); fixed to a startswith check. [record]
+- First QC run: 13/14 clean; M05_FourThings raised TypeError — `P(1.75, 0.75, 0)` passed three args to the two-arg `P()` helper. Fixed to `p + np.array([1.75, 0.75, 0])`; re-run: 14 clean · 0 warn · 0 error. [record]
+- `manim_layout_audit.py --curve-strict` could not run in this VM (no Manim/pangocairo); deferred to Bear's Mac render pass and noted in CLAUDE-CODE-RENDER.md. [record]
+- Two web searches (2026-10-03) confirmed the four-item paid-tier menu and that prices/tiers churn fast — so the film quotes no prices by design. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py, beat_sheet.json — 14 beats, 9 body, 359 s — scenes.py with 14 Manim scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README.md); passed the full QC gate with zero warnings/errors hidden or waived; pushed all 12 via gh-put-file.py; verified each byte-identical via Contents API reads. [record]
+
+**5. What Claude or another person contributed.**
+The parent orchestrator supplied the assignment (slug, title, pitch, the decision-framework brief, the 12-file convention, the QC gate, the FRICTIONAL.md format). Bear set the channel/persona/audience/skill-menu rules. The brutalist.art toolkit supplied the ai-explainer doctrine and the QC checker; the sibling film ai-is-a-slot-machine supplied the package conventions. I wrote every file; the AI contribution is the drafting, the research verification, and the QC pre-review. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the ai-explainer lane now: concept-illustrated middle, Manim-only pre-render packages for the how-to-ai series, and the read-aloud convention (every on-screen word spoken in its beat) as a real authoring constraint that reshaped four narration lines. I do not know whether Bear wants the world-language greeting rotation ("Ciao" on this film) tracked centrally, or whether the ai-explainer Remotion bookends (composer cold open, verdict card) will be added at render time or dropped for this series. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified live at `muse/youtube/how-to-use-ai/free-vs-paid-when-to-pay/` on Humanitariansai/humanitarians-youtube-muse — all HTTP 200, byte-identical; CHECKS-REPORT.md records 14 clean · 0 warn · 0 error. Next step: Bear runs `manim_layout_audit.py --curve-strict` on his Mac (deferred), then renders narration (Kokoro am_onyx) and the review cut per CLAUDE-CODE-RENDER.md — never publish without his explicit instruction. [record]
+
+---
+
+## 2026-10-03 — Film build: "Set it up once" (`muse/youtube/how-to-use-ai/set-it-up-once/`)
+
+**1. Date and what I was working on.**
+2026-10-03: built one pre-render film package for the humanitarians AI YouTube channel from scratch (NEW source, no mirror): film #23 of 24, "Set it up once" — custom instructions, teaching the AI your preferences a single time, for a smart pragmatic general audience. [record]
+
+**2. I tried / expected.**
+I expected a straightforward show-tell package following the how-to-rot-your-brain-with-ai sibling's pure show-tell contract (13 beats, no BVDT, bookend remotion props): read the skill, fact-check the feature's existence in general terms, write the sheet and scenes, pass the QC gate, push 12 files. [my input]
+
+**3. What happened (including failures and reversals).**
+- Stayed with **show-tell** (did not switch skills): the film is one practical action plus a payoff demo — the card test failed for every body beat (each idea is a thing, a part, or a flow from the film's own cast), so the film uses zero cards, all drawings. [judgment]
+- Fact-check research verified the pattern in general terms: ChatGPT Custom Instructions (Settings → Personalization, two fields, applied to new chats), Claude Personal Preferences (Settings → General) + Projects instructions, Gemini "Instructions for Gemini" (Settings & help → Personal Intelligence) + Gems. Sources already disagreed on sub-menu names, so the film deliberately never names a product's menu path — only "settings, or your profile" and the candidate words (instructions / personalization / memory). No statistics quoted anywhere. [record]
+- `make_sheet.py` first run passed all assertions: 13 beats, 9 manim + 4 bookend lanes, 211 s (~3m31s); BIDEA trigger contract, BDEFS 17-char term contract, BHTF prompt-read-in-full contract, BOUT outro_voice + 1.0 s tail. [record]
+- QC gate run 1: 8 clean, 1 warning — B01_TheNote's drop-in started at y=2.95, putting the note's terracotta pin dot at y=3.87, outside the ±3.4 safe area. Fixed by starting the drop at y=2.4 (pin at 3.32). Run 2: 9/9 clean · 0 warnings · 0 errors; pacing path re-checked with beat_sheet.json present. [record]
+- All 12 pushes went through first try (no 409s); all 12 verified HTTP 200 and byte-identical via Contents API reads. [record]
+
+**4. What I did.**
+Wrote all 12 package files (ACTS.md, SHOTLIST.md, FACTCHECK.md, make_sheet.py, beat_sheet.json, scenes.py, SOURCES.md, BUILD-LOG.md, CHECKS-REPORT.md, PROMPTS.md, CLAUDE-CODE-RENDER.md, README.md); passed the full QC gate with zero warnings/errors hidden or waived; pushed all 12 via gh-put-file.py to `muse/youtube/how-to-use-ai/set-it-up-once/`; verified each via Contents API reads. [record]
+
+**5. What Claude or another person contributed.**
+The parent orchestrator supplied the assignment (slug, title, pitch, the 12-file convention, the QC gate, the FRICTIONAL.md format) and the film identity constants. The sibling films ai-is-a-slot-machine and how-to-rot-your-brain-with-ai supplied the show-tell package conventions (beat-sheet format, bookend remotion props, assertion pattern) — every narration line and visual is original. Web sources (OpenAI/Google help docs via third-party guides, product comparison tables) supplied the fact-check. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the pure show-tell contract now: no BVDT, the pinned-note cast recurring across body beats, the card test as a real gate (this film: zero cards). I understand the checker's coordinate recording catches off-stage starts (the pin dot at 3.87). I do not know how the real-Manin text widths will land inside the chat bubbles and the B03 note (line 3 is the widest) — the static checker doesn't measure text extents; Bear's Mac render pass must eyeball bubble text fit before 4K. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12/12 files live at `muse/youtube/how-to-use-ai/set-it-up-once/` (verified HTTP 200 + byte-identical, 2026-10-03); QC log in CHECKS-REPORT.md. Next step: Bear renders locally via CLAUDE-CODE-RENDER.md — Kokoro am_onyx narration, 9 Manim scenes + 4 Remotion bookends, `manim_layout_audit.py --curve-strict` (deferred from this VM) before the 4K render; never publish without his explicit instruction. [record]
+
+---
+
+## 2026-10-03 — Film 24: "One AI or many?"
+
+**1. Date and what I was working on.**
+2026-10-03. Film #24 of 24 in the humanitarians-channel "How to AI" series: a pre-render package (script, Manim visuals, docs) for "One AI or many?", pushed to `muse/youtube/how-to-use-ai/one-ai-or-many/`. [record]
+
+**2. I tried / expected.**
+I expected to use the assigned cc-explainer skill and to stand alone on the pitch. On reading the pitch (a tool-comparison concept film, general audience) and the cc-explainer SKILL.md, I expected cc-explainer's TERMINAL-FIRST law to be unworkable — a film about choosing chat AI tools has no terminal session to reconstruct. [my input]
+
+**3. What happened (including failures and reversals).**
+- Switched skill cc-explainer → ai-explainer after reading both SKILL.md files: no terminal session exists for REAL-SESSION law, so terminal-first was a forced punt; ai-explainer matches the companion film's skill and the comparison-film shape. Recorded the choice and the reasoning in BUILD-LOG.md. [record]
+- Read the companion film's ACTS.md/BUILD-LOG.md on GitHub before authoring; aligned the verdicts ("the stack is the answer" vs "build the stack slowly") and cited the companion's 30-minute test rather than re-litigating it; logged in FACTCHECK.md §6. [record]
+- make_sheet.py duration budgeting: trimmed B07 to 65 words against its 27 s budget and set BVDT to 32 s for the 76-word verdict before the final run; no assertion failures in the shipped run. [record]
+- Static QC passed first try: 10 scene classes clean · 0 warnings · 0 errors. [record]
+- All 12 pushes succeeded via gh-put-file.py; all 12 verified byte-identical via Contents API reads. Local __pycache__ removed, never pushed. [record]
+
+**4. What I did.**
+Wrote all 12 package files (12 beats, 7 body, 287 s; scenes.py with 10 Manim classes M01–M10); passed the full QC gate with zero warnings/errors hidden or waived; pushed all 12 via gh-put-file.py; verified each via Contents API reads. [record]
+
+**5. What Claude or another person contributed.**
+The parent orchestrator supplied the assignment (slug, title, pitch, companion-film reference, core idea, anti-obsession beat, decision rule, four walls, audience, skill menu, the 12-file convention, the QC gate, the FRICTIONAL.md format, the no-version/no-ranking/no-price rule). Bear set the channel/persona/audience/skill-menu rules. The companion film's package (Humanitariansai repo) supplied the consistency constraint. I wrote every file; the AI contribution is the drafting, the consistency check, and the QC pre-review. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the show-vs-tell anti-obsession lane now: when a film's rule is "don't obsess," naming vendors is itself the obsession, so the film names none. I do not yet know whether Bear wants a `muse/README.md` index row for this film (I left README/QUEUE/FRICTIONAL.md untouched per the standing rule). [my input]
+
+**7. Evidence and next step.**
+Evidence: `muse/youtube/how-to-use-ai/one-ai-or-many/` (12 files) verified live — all HTTP 200, byte-identical; CHECKS-REPORT.md records 10 clean · 0 warn · 0 error. Next step: Bear renders on his Mac per `CLAUDE-CODE-RENDER.md` (Kokoro `am_onyx` narration, Manim scenes, then `manim_layout_audit.py --curve-strict`, which could not run in the build VM) — never publish without his explicit instruction. [record]
