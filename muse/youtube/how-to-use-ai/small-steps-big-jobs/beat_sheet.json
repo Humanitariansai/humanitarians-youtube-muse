@@ -1,0 +1,537 @@
+{
+  "metadata": {
+    "slug": "small-steps-big-jobs",
+    "title": "Small steps, big jobs",
+    "topic": "CLAUDE · HOW TO AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "English-adjacent (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience, not AI experts",
+    "source_doc": "NEW — built from scratch from the series brief (2026-10-03); no mirror source",
+    "playlist": "How to AI",
+    "chapter_number": 11,
+    "tags": [
+      "AI",
+      "prompts",
+      "how to AI",
+      "task breakdown",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. A friend of mine asked an AI to plan her whole kitchen renovation in one giant prompt. What came back was long, confident — and completely unusable. Here's the small fix that changed everything.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Plan my whole kitchen renovation!'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces the trigger and types 'Break my kitchen renovation into small steps!' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Plan my whole kitchen renovation!",
+            "triggerWords": "Plan my whole kitchen renovation",
+            "replacementWords": "Break my kitchen renovation into small steps",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "small-steps-big-jobs",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive giant-prompt question and corrects it into the film's method: small steps.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. A prompt: what you type to the AI. A step: one small job the AI does for you. And context: what the AI carries from one step into the next. That's all you need for this film.",
+      "estimated_duration_s": 15.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'prompt' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'step' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'context' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "prompt",
+                "meaning": "what you type to the AI"
+              },
+              {
+                "term": "step",
+                "meaning": "one small job the AI does for you"
+              },
+              {
+                "term": "context",
+                "meaning": "what the AI carries from one step into the next"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Start with the whole job. One giant box: plan my entire kitchen renovation. It feels efficient. One prompt, one answer. That's the trap.",
+      "estimated_duration_s": 9.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "One giant sealed box with terracotta tape drops onto the stage and settles; the label 'the whole job' sits beside it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "giant box drops in"
+          },
+          {
+            "at": 0.7,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B00_GiantBox"
+        },
+        "motion_claim": "One giant sealed box with terracotta tape drops onto the stage and settles; the label 'the whole job' sits beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "You send the giant prompt. Out comes a giant answer. Long, confident — and mush. Vague on the budget. Fuzzy on the layout. Wrong about what your kitchen even looks like. The AI has to guess at everything at once, and a guess that big can't be checked.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The box slides left; a big page comes out; a messy scribble draws across it; the label 'mush' sits beside it.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "box slides left, page arrives"
+          },
+          {
+            "at": 0.5,
+            "event": "scribble draws"
+          },
+          {
+            "at": 0.8,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B01_MushOut"
+        },
+        "motion_claim": "The box slides left; a big page comes out; a messy scribble draws across it; the label 'mush' sits beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here's why. A big job is really five small jobs wearing a trench coat: budget, layout, materials, the timeline, and your taste. Ask for all five at once, and the AI guesses at each one. The guesses never check each other, so the mistakes pile up quietly.",
+      "estimated_duration_s": 18.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The page fades; the box opens; five labeled step cards (budget, layout, materials, timeline, your taste) tumble out in a jumble.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "box opens"
+          },
+          {
+            "at": 0.4,
+            "event": "cards tumble out"
+          },
+          {
+            "at": 0.8,
+            "event": "jumble settles"
+          }
+        ],
+        "manim": {
+          "class": "B02_WhyFails"
+        },
+        "motion_claim": "The page fades; the box opens; five labeled step cards (budget, layout, materials, timeline, your taste) tumble out in a jumble."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So don't. Ask for one small job at a time. Start with the part everything else depends on: the budget. One card, one question: what can we spend?",
+      "estimated_duration_s": 11.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The jumble fades; one clean step card drops onto the center of the stage; the label 'step one: budget' sits beside it.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "card drops in"
+          },
+          {
+            "at": 0.6,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B03_StepOne"
+        },
+        "motion_claim": "The jumble fades; one clean step card drops onto the center of the stage; the label 'step one: budget' sits beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then step two, built on step one. The layout has to fit the budget, so you hand the AI the number you just agreed. Now it isn't guessing anymore. It's designing inside your answer.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The budget card stays; the layout card drops beside it; an arrow draws from budget to layout; the label 'built on step one' sits above.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "layout card drops"
+          },
+          {
+            "at": 0.5,
+            "event": "arrow draws"
+          },
+          {
+            "at": 0.8,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B04_StepTwo"
+        },
+        "motion_claim": "The budget card stays; the layout card drops beside it; an arrow draws from budget to layout; the label 'built on step one' sits above."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then materials, designed inside the layout you just locked. You hand the AI the floor plan, and it stops suggesting stone countertops for a kitchen that can't hold them. Small enough to check in one glance.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The materials card drops beside the layout card; an arrow draws layout to materials; a check lands on the materials card.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "materials card drops"
+          },
+          {
+            "at": 0.5,
+            "event": "arrow draws"
+          },
+          {
+            "at": 0.8,
+            "event": "check lands"
+          }
+        ],
+        "manim": {
+          "class": "B05_Materials"
+        },
+        "motion_claim": "The materials card drops beside the layout card; an arrow draws layout to materials; a check lands on the materials card."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And the timeline comes last, because only now do you know what's actually getting done. Each checked answer feeds the next prompt: budget into layout, layout into materials, materials into timeline. That handoff is the whole trick.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The timeline card drops beside the materials card; the arrow chain completes; a check lands on every card.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "timeline card drops"
+          },
+          {
+            "at": 0.5,
+            "event": "chain completes"
+          },
+          {
+            "at": 0.8,
+            "event": "checks land"
+          }
+        ],
+        "manim": {
+          "class": "B06_Timeline"
+        },
+        "motion_claim": "The timeline card drops beside the materials card; the arrow chain completes; a check lands on every card."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Same kitchen, same AI. On the left: the giant prompt's answer. Everything at once, nothing you can use. On the right: four small steps, each one checked, stacked into a plan. Small steps, big jobs.",
+      "estimated_duration_s": 14.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Left: the mush page returns with the label 'one giant prompt'. Right: the four checked cards stack neatly with the label 'small steps'.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "mush page left"
+          },
+          {
+            "at": 0.5,
+            "event": "cards stack right"
+          },
+          {
+            "at": 0.8,
+            "event": "labels"
+          }
+        ],
+        "manim": {
+          "class": "B07_SideBySide"
+        },
+        "motion_claim": "Left: the mush page returns with the label 'one giant prompt'. Right: the four checked cards stack neatly with the label 'small steps'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Make it a habit. One job per prompt. If you can't check the answer in a glance, the step is too big — split it in half and go again. That's the whole method.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "One big card lands on the stack: 'one job per prompt'; a check drops on it.",
+        "show": [
+          {
+            "at": 0.25,
+            "event": "rule card lands"
+          },
+          {
+            "at": 0.7,
+            "event": "check"
+          }
+        ],
+        "manim": {
+          "class": "B08_OneJob"
+        },
+        "motion_claim": "One big card lands on the stack: 'one job per prompt'; a check drops on it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: I want to renovate my kitchen. Don't plan it all yet. First, ask me every question you need answered to set a realistic budget, then wait for my replies. Then check two things yourself. Does the AI ask questions instead of giving you an answer? And does anything about layout or materials sneak into its reply? If it does, split that off as the next step.",
+      "estimated_duration_s": 28.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Your First Small Step",
+            "command": "I want to renovate my kitchen. Don't plan it all yet. First, ask me every question you need answered to set a realistic budget, then wait for my replies.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: the AI asks questions instead of answering.",
+              "Check: no layout or materials sneak in."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Sonnet",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Small steps, big jobs. At Nik Bear Brown.",
+      "estimated_duration_s": 5.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Small steps, big jobs",
+            "slug": "small-steps-big-jobs",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
