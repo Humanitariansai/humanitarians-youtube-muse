@@ -1,0 +1,269 @@
+#!/usr/bin/env python3
+"""make_sheet.py — "Make It Check Its Own Work." (show-tell, general audience).
+
+Source: NEW — built from scratch for the humanitarians AI YouTube channel
+"How to AI" series (film 10 of 24). Skill: show-tell (switched from the
+assigned ai-explainer for series consistency — see BUILD-LOG.md).
+
+The argument: after the AI answers, ask it to attack its own answer.
+One extra message catches real flaws the first pass missed — shown in a
+worked demo, with an honest limit: fewer errors, not zero.
+
+Run: python3 make_sheet.py   -> writes beat_sheet.json (13 beats).
+"""
+import json
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+SLUG = "make-it-check-its-own-work"
+TITLE = "Make It Check Its Own Work."
+
+WPS = 2.5  # words per second (~150 wpm)
+
+
+def est(narration):
+    return round(len(narration.split()) / WPS, 1)
+
+
+def beat(bid, narration, cls, image, show):
+    return {"beat_id": bid, "act": "show-tell", "lane": "manim",
+            "proof_gate": "SHOW",
+            "narration_text": narration, "estimated_duration_s": est(narration),
+            "voice": "am_onyx", "engine": "kokoro",
+            "shot": {"type": "GRAPHIC", "source": "own", "visual_intent": image,
+                     "show": show, "manim": {"class": cls},
+                     "motion_claim": image}}
+
+
+def remotion(bid, act, narration, pattern, props, show, gate="SHOW", **extra):
+    b = {"beat_id": bid, "act": act, "lane": "bookend", "proof_gate": gate,
+         "narration_text": narration, "estimated_duration_s": est(narration),
+         "voice": "am_onyx", "engine": "kokoro",
+         "shot": {"type": "REMOTION", "source": "own", "show": show,
+                  "remotion": {"pattern": pattern, "props": props}}}
+    b.update(extra)
+    return b
+
+
+EM = "\u2014"  # em dash
+
+
+B = [
+ remotion("BIDEA", "the question",
+  "Ciao. This is Liam, in for Bear. You ask the AI something, and the answer "
+  f"lands looking confident and complete. So here is the move this film is about: "
+  f"never take the first answer. Make it check its own work.",
+  "BrutalistHesitantWriter",
+  {"text": "The first answer\nis the final answer.",
+   "triggerWords": "the final answer",
+   "replacementWords": "a draft",
+   "fontSize": 70, "charSize": 22, "charMs": 22,
+   "hesitateBetween": 6, "hesitateWithin": 1, "mistakeRate": 2,
+   "jitter": 20, "seed": "make-it-check-its-own-work", "banner": ""},
+  [{"at": 0.0, "event": "types 'The first answer is the final answer.'"},
+   {"at": 0.55, "event": "backspaces 'the final answer' -> 'a draft'"}],
+  lead_silence_s=0.8,
+  motion_claim="The writer types the naive take and corrects it to the film's claim: the first answer is a draft.",
+  qc={"sparse_by_design": True,
+      "sparse_reason": "Hesitant-writer bookend: the correction is the motion."}),
+
+ remotion("BDEFS", "terms",
+  "Three terms for this film. Self-critique: asking the AI to attack its own "
+  "answer. An assumption: something the answer takes for granted. An objection: "
+  "the strongest case against it. With those three words, you can run the whole move.",
+  "ClaudeDefinitions",
+  {"title": "Terms In This Film",
+   "terms": [
+    {"term": "Self-critique",
+     "def": "asking the AI to find the flaws in its own answer"},
+    {"term": "Assumption",
+     "def": "something the answer takes for granted"},
+    {"term": "Objection",
+     "def": "the strongest case against the answer"}],
+   "durationSeconds": 16.8},
+  [{"at": 0.0, "event": "title lands"},
+   {"at": 0.2, "event": "term 1 lands"},
+   {"at": 0.45, "event": "term 2 lands"},
+   {"at": 0.7, "event": "term 3 lands"}]),
+
+ beat("B00",
+  "The move is one extra message. The AI gives you its answer, and instead of "
+  "accepting it, you send it back with a job: read this like a critic. A second "
+  "pair of eyes " + EM + " even the same pair, looking twice.",
+  "B00_TheSecondLook",
+  "A chat window; the answer card lands inside; the critic's magnifier swings over it; a check lands.",
+  [{"at": 0.05, "event": "chat window lands"},
+   {"at": 0.3, "event": "answer card lands inside"},
+   {"at": 0.55, "event": "magnifier swings over the card"},
+   {"at": 0.8, "event": "check lands"}]),
+
+ beat("B01",
+  "Here are the three questions that do the work. One: what is wrong with this "
+  "answer? Two: what did you assume? Three: what is the strongest objection to "
+  "it? Copy any one of them into your next chat and watch what happens.",
+  "B01_ThreeQuestions",
+  "Three question cards stack in, one per spoken question.",
+  [{"at": 0.08, "event": "card 1 lands on 'One:'"},
+   {"at": 0.4, "event": "card 2 lands on 'Two:'"},
+   {"at": 0.68, "event": "card 3 lands on 'Three:'"}]),
+
+ beat("B02",
+  "Watch it work on a real question. You ask: which months have twenty-eight "
+  "days? The answer comes back instantly, confident: February. Feels right. "
+  "It is also wrong.",
+  "B02_TheTrap",
+  "Twelve month pills; the answer card 'February' lands; the February pill glows; the glow dies into an X.",
+  [{"at": 0.05, "event": "twelve month pills land"},
+   {"at": 0.35, "event": "question types above the pills"},
+   {"at": 0.55, "event": "answer card 'February' lands; February pill glows"},
+   {"at": 0.85, "event": "the X lands on the card"}]),
+
+ beat("B03",
+  "Now the move. You write back: what is wrong with your answer? The AI re-reads "
+  "its own words " + EM + " and catches it. February has twenty-eight days, but so "
+  "does every other month. The real answer: all of them.",
+  "B03_TheCatch",
+  "The critique prompt lands; the February glow dies; all twelve pills light in a wave; the card swaps to 'All twelve.'",
+  [{"at": 0.05, "event": "critique prompt pill lands"},
+   {"at": 0.3, "event": "magnifier sweeps; February glow dies"},
+   {"at": 0.6, "event": "all twelve pills light in a wave"},
+   {"at": 0.85, "event": "answer card swaps to 'All twelve.'; check lands"}]),
+
+ beat("B04",
+  "It works on writing, not just quizzes. You ask for an email to your boss. "
+  "The draft lands " + EM + " correct, and quietly rude. One critique later, it spots "
+  "the tone problem and rewrites it like someone who wants to keep their job.",
+  "B04_TheEmail",
+  "The email draft lands; 'as I already explained' underlines terracotta; the softened redraft lands; check.",
+  [{"at": 0.08, "event": "email draft card lands"},
+   {"at": 0.45, "event": "the rude line underlines terracotta"},
+   {"at": 0.7, "event": "redraft card lands below"},
+   {"at": 0.88, "event": "check lands on the new card"}]),
+
+ beat("B05",
+  "Spend the second pass where being wrong costs you. Numbers, dates, code, "
+  "plans " + EM + " anything you cannot check by eye. A wrong date in a contract beats a "
+  "wrong fact about penguins. Critique what matters.",
+  "B05_WhereItPays",
+  "Four icon cards — numbers, dates, code, plans — each stamped with a check as named.",
+  [{"at": 0.08, "event": "four icon cards land"},
+   {"at": 0.35, "event": "check stamps numbers"},
+   {"at": 0.5, "event": "check stamps dates"},
+   {"at": 0.65, "event": "check stamps code"},
+   {"at": 0.8, "event": "check stamps plans"}]),
+
+ beat("B06",
+  "The honest part. The critic is the same brain that wrote the answer, so it "
+  "can miss the same blind spots. Worse: it sometimes invents flaws and breaks "
+  "what was fine. Self-critique cuts errors. It does not delete them. You stay "
+  "the judge.",
+  "B06_TheLimit",
+  "The lens passes over a dim crack it never lights; a terracotta patch lands on a fine line; the YOU pill lands.",
+  [{"at": 0.05, "event": "answer card and magnifier"},
+   {"at": 0.35, "event": "lens passes; the crack stays dim"},
+   {"at": 0.6, "event": "terracotta patch lands on a fine line"},
+   {"at": 0.85, "event": "YOU pill lands"}]),
+
+ beat("B07",
+  "One upgrade. Never ask: is this right? That question only ever gets one "
+  "answer: yes. Ask what is wrong instead. Give the critic a job " + EM + " hunting "
+  "flaws " + EM + " and it will hunt. A yes-or-no question just gets a nod.",
+  "B07_ProMove",
+  "'Is this right?' earns a YES stamp; 'What's wrong with this?' pops three flaw flags.",
+  [{"at": 0.08, "event": "prompt pill 'Is this right?' lands"},
+   {"at": 0.35, "event": "YES stamp lands"},
+   {"at": 0.6, "event": "prompt pill 'What's wrong with this?' lands"},
+   {"at": 0.85, "event": "three flaw flags pop"}]),
+
+ beat("B08",
+  "So make it a reflex. On anything that matters: get the answer, send it back "
+  "for a critique, then decide. Two messages instead of one. That is the whole habit.",
+  "B08_TheHabit",
+  "A loop draws: answer card, arrow, magnifier, arrow, answer card; the three question cards feed in.",
+  [{"at": 0.05, "event": "answer card and magnifier"},
+   {"at": 0.3, "event": "the loop arrows draw"},
+   {"at": 0.6, "event": "three mini question cards feed the loop"},
+   {"at": 0.85, "event": "the loop closes"}]),
+
+ remotion("BHTF", "your turn",
+  "Your turn. Paste this into Claude: Read your last answer and be your own "
+  "toughest critic. List its three weakest points, and tell me what you would "
+  "change. Run it on something the AI already answered for you " + EM + " then verify one "
+  "claim yourself. You are still the judge.",
+  "ClaudeComposerAsk",
+  {"greeting": "Your turn.",
+   "topic": "HOW TO AI " + EM + " YOUR TURN",
+   "segment": "Make It Check Its Own Work",
+   "command": "Read your last answer and be your own toughest critic. "
+              "List its three weakest points, and tell me what you would change.",
+   "runningText": "paste this into Claude" + EM,
+   "output": ["it finds a real flaw in an old answer",
+              "you verify one claim yourself"]},
+  [{"at": 0.0, "event": "Composer opens " + EM + " 'Your turn.'"},
+   {"at": 0.1, "event": "the prompt types in full"},
+   {"at": 0.8, "event": "two check lines land"}]),
+
+ remotion("BOUT", "outro",
+  "Make It Check Its Own Work. At Nik Bear Brown.",
+  "ClaudeTitleOutro",
+  {"title": "Make It Check Its Own Work.", "slug": "make-it-check-its-own-work",
+   "handle": "@NikBearBrown", "subline": ""},
+  [{"at": 0.0, "event": "title restates; handle; mascot"}],
+  kind="outro_voice", tail_silence_s=1.0),
+]
+
+SHEET = {
+ "metadata": {
+  "slug": SLUG, "title": TITLE, "topic": "HOW TO AI \u00b7 SELF-CRITIQUE",
+  "skill": "show-tell", "style_preset": "show-tell",
+  "channel": "claude-liam", "persona": "Liam (in for Bear)",
+  "voice": "am_onyx", "voice_kokoro": "am_onyx", "engine": "kokoro",
+  "clock": "narration", "palette": "claude", "register": "Teardown",
+  "fps": 24, "aspect_ratio": "16:9", "width": 3840, "height": 2160,
+  "caption_policy": "none", "greeting_language": "Ciao (Italian)",
+  "bookend_exempt": ["cold-open", "bvdt"],
+  "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the "
+   "hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai "
+   "composer; spoken outro stays.",
+ },
+ "beats": B,
+}
+
+# ═══════════════════════ self-assertions (the gate) ═══════════════════════
+_body_ids = [f"B{i:02d}" for i in range(9)]
+_scene_classes = ["B00_TheSecondLook", "B01_ThreeQuestions", "B02_TheTrap",
+                  "B03_TheCatch", "B04_TheEmail", "B05_WhereItPays",
+                  "B06_TheLimit", "B07_ProMove", "B08_TheHabit"]
+
+assert len(B) == 13, f"expected 13 beats, got {len(B)}"
+assert [b["beat_id"] for b in B] == ["BIDEA", "BDEFS"] + _body_ids + ["BHTF", "BOUT"]
+assert len({b["beat_id"] for b in B}) == 13, "beat ids must be unique"
+
+for b in B:
+    assert b["narration_text"].strip(), f"{b['beat_id']}: empty narration"
+    assert b["estimated_duration_s"] > 0, f"{b['beat_id']}: non-positive duration"
+    assert b["voice"] == "am_onyx", f"{b['beat_id']}: voice must be am_onyx"
+    assert b["engine"] == "kokoro", f"{b['beat_id']}: engine must be kokoro"
+    assert b["shot"]["show"], f"{b['beat_id']}: missing show block"
+
+for bid, cls in zip(_body_ids, _scene_classes):
+    b = next(x for x in B if x["beat_id"] == bid)
+    assert b["shot"]["manim"]["class"] == cls, f"{bid}: class mismatch"
+    assert b["lane"] == "manim", f"{bid}: lane must be manim"
+
+bidea = B[0]
+assert bidea["lead_silence_s"] == 0.8, "BIDEA needs lead_silence_s 0.8"
+assert bidea["shot"]["remotion"]["props"]["triggerWords"] in \
+    bidea["shot"]["remotion"]["props"]["text"], "triggerWords must appear in text"
+
+bhtf = next(x for x in B if x["beat_id"] == "BHTF")
+assert "YOUR TURN" in bhtf["shot"]["remotion"]["props"]["topic"], "BHTF topic needs YOUR TURN"
+
+bout = B[-1]
+assert bout["kind"] == "outro_voice" and bout["tail_silence_s"] == 1.0
+
+total = round(sum(b["estimated_duration_s"] for b in B), 1)
+assert 150 <= total <= 240, f"total {total}s outside the 150-240 s band"
+
+(HERE / "beat_sheet.json").write_text(json.dumps(SHEET, indent=1, ensure_ascii=False) + "\n")
+print(f"wrote beat_sheet.json: 13 beats, {total} s")
