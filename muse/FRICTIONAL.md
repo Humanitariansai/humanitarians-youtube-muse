@@ -2135,3 +2135,26 @@ I understand the how-to-ai wave package convention now (REMOTION bookends + GRAP
 
 **7. Evidence and next step.**
 Evidence: 12 files verified live (HTTP 200 each) at `muse/youtube/how-to-use-ai/the-yes-man-problem/` on Humanitariansai/humanitarians-youtube-muse; CHECKS-REPORT.md records the clean gate. Next step: Bear renders narration (Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md, including the deferred `manim_layout_audit.py --curve-strict`. [record]
+
+## 2026-10-04 — Render stage: invalid per-beat voice "Muse" in two Wave 5 films
+
+**1. What I did.**
+Rendered all 10 Wave 5 "How to AI" films to watchable slate cuts (Kokoro narration + Manim 1080p scenes + compile --review) from their GitHub packages. Two films failed at the audio stage: `agents-that-do-things` and `the-yes-man-problem`.
+
+**2. What happened / outcome.**
+Both films' `make_sheet.py` wrote `"voice": "Muse"` on every beat — "Muse" is the assistant/persona name, not a Kokoro voice code — so `generate_audio_kokoro.py` refused with `[kokoro] unknown voice(s): Muse`. Fixed by replacing with `"am_onyx"` (the film identity voice) in both generators, re-rendering, and pushing the fixed `make_sheet.py` + regenerated `beat_sheet.json` to the write repo. All 10 slate cuts now exist at 1920x1080 with sane durations.
+
+**3. What was hard.**
+The first fix attempt raced the render loop: `render_film.py` re-fetches the package from GitHub at the start of each film, so a local-only sed fix was overwritten by the still-broken repo copy mid-loop. The fix only stuck once it was pushed to GitHub before the re-render.
+
+**4. What I did about it.**
+Pushed the fixed generators first (commits 71a1b24, ae415b3), then re-rendered from the repo copies. the-yes-man-problem cleared on retry; agents-that-do-things is re-rendering now. Lesson: package fixes that the render stage consumes must land on GitHub before the render runs, never local-only.
+
+**5. What Bear or another person contributed.**
+The Wave 5 package workers wrote the invalid voice value; the render-stage failure surfaced it. Bear's standing identity constants (Kokoro am_onyx) defined the correct fix. [record]
+
+**6. What I understand now / still do not understand.**
+I understand now that static QC (py_compile + static_scene_check) does not validate voice codes or other render-time contracts — a package can pass the gate and still fail generation. I still do not know whether to add a lightweight render-contract check (voice codes against the Kokoro voice list, manim class names against scenes.py) to the worker QC gate; it would have caught this. [my input]
+
+**7. Evidence and next step.**
+Evidence: fixed files live at `muse/youtube/how-to-use-ai/agents-that-do-things/make_sheet.py` (commit 71a1b24) and `muse/youtube/how-to-use-ai/the-yes-man-problem/{make_sheet.py,beat_sheet.json}` (commits ae415b3, 9a35d75); 9/10 slate MP4s verified 1920x1080 via ffprobe. Next step: finish the agents-that-do-things slate cut, then deliver all 10 films to Bear for watching. [record]
