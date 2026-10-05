@@ -1,0 +1,544 @@
+{
+ "metadata": {
+  "slug": "the-second-opinion",
+  "title": "The Second Opinion",
+  "topic": "HOW TO AI · SECOND OPINIONS",
+  "skill": "show-tell",
+  "style_preset": "show-tell",
+  "channel": "claude-liam",
+  "persona": "Liam (in for Bear)",
+  "voice": "am_onyx",
+  "voice_kokoro": "am_onyx",
+  "engine": "kokoro",
+  "clock": "narration",
+  "palette": "claude",
+  "register": "Teardown",
+  "fps": 24,
+  "aspect_ratio": "16:9",
+  "width": 3840,
+  "height": 2160,
+  "caption_policy": "none",
+  "greeting_language": "Merhaba (Turkish)",
+  "bookend_exempt": [
+   "cold-open",
+   "bvdt"
+  ],
+  "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays."
+ },
+ "beats": [
+  {
+   "beat_id": "BIDEA",
+   "act": "the question",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "Merhaba. This is Liam, in for Bear. For a small question, one answer from the AI is plenty. But for a big decision, one answer is never the whole story. Big decisions deserve a second opinion.",
+   "estimated_duration_s": 14.4,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "types 'One good answer needs no second opinion.'"
+     },
+     {
+      "at": 0.55,
+      "event": "backspaces 'needs no second opinion' -> 'deserves a second opinion'"
+     }
+    ],
+    "remotion": {
+     "pattern": "BrutalistHesitantWriter",
+     "props": {
+      "text": "One good answer\nneeds no second opinion.",
+      "triggerWords": "needs no second opinion",
+      "replacementWords": "deserves a second opinion",
+      "fontSize": 70,
+      "charSize": 22,
+      "charMs": 22,
+      "hesitateBetween": 6,
+      "hesitateWithin": 1,
+      "mistakeRate": 2,
+      "jitter": 20,
+      "seed": "the-second-opinion",
+      "banner": ""
+     }
+    }
+   },
+   "lead_silence_s": 0.8,
+   "motion_claim": "The writer types the naive take and corrects it to the film's claim: a good answer deserves a second opinion.",
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+   }
+  },
+  {
+   "beat_id": "BDEFS",
+   "act": "terms",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "Three terms for this film. A second opinion: a fresh, independent take on the same question. Steel-manning: arguing the other side's case at its strongest, fairly stated. Devil's advocate: someone whose job is to argue against the plan — once an actual Church office, and still a good job to give an AI.",
+   "estimated_duration_s": 21.2,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "title lands"
+     },
+     {
+      "at": 0.2,
+      "event": "term 1 lands"
+     },
+     {
+      "at": 0.45,
+      "event": "term 2 lands"
+     },
+     {
+      "at": 0.7,
+      "event": "term 3 lands"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeDefinitions",
+     "props": {
+      "title": "Terms In This Film",
+      "terms": [
+       {
+        "term": "Second opinion",
+        "def": "a fresh, independent take on the same question"
+       },
+       {
+        "term": "Steel-manning",
+        "def": "arguing the other side's case at its strongest, fairly"
+       },
+       {
+        "term": "Devil's advocate",
+        "def": "someone whose job is to argue against the plan"
+       }
+      ],
+      "durationSeconds": 21.2
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B00",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "The move is simple. For a big decision, don't stop at the first answer — get a second opinion. There are two ways to get one. Ask a second AI. Or make the first AI argue against itself. Either way, you end up holding both sides of the decision.",
+   "estimated_duration_s": 19.6,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "A question pill; the first answer card lands; the second answer card lands beside it; two route pills land beneath.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "question pill 'A big decision?' lands"
+     },
+     {
+      "at": 0.3,
+      "event": "first answer card lands"
+     },
+     {
+      "at": 0.55,
+      "event": "second answer card lands beside it"
+     },
+     {
+      "at": 0.8,
+      "event": "route pills 'ask a second AI' / 'argue against itself' land"
+     }
+    ],
+    "manim": {
+     "class": "B00_TheMove"
+    },
+    "motion_claim": "A question pill; the first answer card lands; the second answer card lands beside it; two route pills land beneath."
+   }
+  },
+  {
+   "beat_id": "B01",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "Route one: a second AI. A fresh brain that never saw the first answer — it can't just agree politely, because it doesn't know what it's agreeing with. Route two: the steelman. One AI, told to build the strongest case against its own answer. Two routes, same payoff: both sides on the table.",
+   "estimated_duration_s": 21.2,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Two route cards land, one per spoken route; a 'both sides on the table' pill lands.",
+    "show": [
+     {
+      "at": 0.08,
+      "event": "route card 'a second AI' lands on 'Route one'"
+     },
+     {
+      "at": 0.45,
+      "event": "route card 'the steelman' lands on 'Route two'"
+     },
+     {
+      "at": 0.85,
+      "event": "'both sides on the table' pill lands"
+     }
+    ],
+    "manim": {
+     "class": "B01_TwoRoutes"
+    },
+    "motion_claim": "Two route cards land, one per spoken route; a 'both sides on the table' pill lands."
+   }
+  },
+  {
+   "beat_id": "B02",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "Watch it on a real decision. The question: should I take the night-shift job? It pays more, but the hours are brutal. AI number one says: take it. The extra pay is real, and the overtime adds up. Confident. Done. And maybe it's right.",
+   "estimated_duration_s": 17.6,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "The decision pill lands; the confident answer card lands; the check lands.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "decision pill 'Night-shift job — take it?' lands"
+     },
+     {
+      "at": 0.4,
+      "event": "answer card 'Take it — the pay is real.' lands"
+     },
+     {
+      "at": 0.85,
+      "event": "check lands on 'Confident. Done.'"
+     }
+    ],
+    "manim": {
+     "class": "B02_FirstAnswer"
+    },
+    "motion_claim": "The decision pill lands; the confident answer card lands; the check lands."
+   }
+  },
+  {
+   "beat_id": "B03",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "Now the second opinion. You write back: argue the other side at its strongest. And the AI builds the steelman — the case against its own answer. Broken sleep. Health costs that don't show up in the paycheck. The long drive home half awake. Not a weak straw version — the strongest version. That is what steel-manning means.",
+   "estimated_duration_s": 23.2,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "The first answer card returns; the critique prompt lands; the steelman card grows a terracotta rim; three cost pills pop, one per spoken cost.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "the first answer card returns"
+     },
+     {
+      "at": 0.25,
+      "event": "prompt pill 'argue the other side at its strongest' lands"
+     },
+     {
+      "at": 0.45,
+      "event": "the steelman card grows with a terracotta rim"
+     },
+     {
+      "at": 0.65,
+      "event": "'broken sleep' pill pops"
+     },
+     {
+      "at": 0.75,
+      "event": "'health costs' pill pops"
+     },
+     {
+      "at": 0.85,
+      "event": "'the drive home' pill pops"
+     }
+    ],
+    "manim": {
+     "class": "B03_TheSteelman"
+    },
+    "motion_claim": "The first answer card returns; the critique prompt lands; the steelman card grows a terracotta rim; three cost pills pop, one per spoken cost."
+   }
+  },
+  {
+   "beat_id": "B04",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "Now hold both. The pay is real — and so are the costs. The second opinion doesn't hand you the answer — it hands you the whole picture. The AI can't live your life for you. You decide.",
+   "estimated_duration_s": 15.2,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Two cards side by side — 'the pay is real' vs 'the costs are real'; the YOU pill lands beneath.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "both cards land, 'vs' between them"
+     },
+     {
+      "at": 0.7,
+      "event": "the YOU pill lands on 'You decide'"
+     }
+    ],
+    "manim": {
+     "class": "B04_BothSides"
+    },
+    "motion_claim": "Two cards side by side — 'the pay is real' vs 'the costs are real'; the YOU pill lands beneath."
+   }
+  },
+  {
+   "beat_id": "B05",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "Spend the second opinion where being wrong is expensive and hard to undo. A lease you sign. A job you leave for. A big purchase. A medical question — which you still take to a real doctor. Dinner plans? One answer is plenty. Spend it where it costs.",
+   "estimated_duration_s": 19.2,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Four icon cards — lease, job move, big purchase, medical — each stamped with a check as named; a 'dinner plans' pill gets the single-answer tag.",
+    "show": [
+     {
+      "at": 0.08,
+      "event": "four icon cards land"
+     },
+     {
+      "at": 0.35,
+      "event": "check stamps lease"
+     },
+     {
+      "at": 0.5,
+      "event": "check stamps job move"
+     },
+     {
+      "at": 0.65,
+      "event": "check stamps big purchase"
+     },
+     {
+      "at": 0.78,
+      "event": "check stamps medical"
+     },
+     {
+      "at": 0.9,
+      "event": "'dinner plans — one answer is plenty' pill lands"
+     }
+    ],
+    "manim": {
+     "class": "B05_WhereItPays"
+    },
+    "motion_claim": "Four icon cards — lease, job move, big purchase, medical — each stamped with a check as named; a 'dinner plans' pill gets the single-answer tag."
+   }
+  },
+  {
+   "beat_id": "B06",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "The honest part. Two AIs can share the same blind spots — same training, same gaps. And one AI arguing against itself still runs on the same brain. A second opinion widens the view. It is not the truth. And one rule: never shop around until some AI tells you what you wanted to hear. That's not a second opinion. That's a cheerleader.",
+   "estimated_duration_s": 25.2,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Two chat windows land; one shared 'same training' band links them; an opinion-shopping row lands and the glowing card takes a terracotta X.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "two chat windows land"
+     },
+     {
+      "at": 0.3,
+      "event": "the 'same training' band links them"
+     },
+     {
+      "at": 0.6,
+      "event": "opinion-shopping row lands; one card glows"
+     },
+     {
+      "at": 0.88,
+      "event": "the glow dies; the terracotta X lands on 'cheerleader'"
+     }
+    ],
+    "manim": {
+     "class": "B06_TheLimit"
+    },
+    "motion_claim": "Two chat windows land; one shared 'same training' band links them; an opinion-shopping row lands and the glowing card takes a terracotta X."
+   }
+  },
+  {
+   "beat_id": "B07",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "One upgrade. Never ask the second AI: do you agree? That only ever gets a nod. Give it a real job: steelman the opposite case. Or ask: what would change your answer? And keep the second take independent — don't show it the first answer first, or it will just agree politely.",
+   "estimated_duration_s": 20.8,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "'Do you agree?' earns a dim nod; 'Steelman the opposite case.' pops three strong-argument flags; 'What would change your answer?' lands; a covered card is tagged 'keep it hidden'.",
+    "show": [
+     {
+      "at": 0.08,
+      "event": "prompt pill 'Do you agree?' lands"
+     },
+     {
+      "at": 0.3,
+      "event": "the dim nod lands"
+     },
+     {
+      "at": 0.5,
+      "event": "prompt pill 'Steelman the opposite case.' lands"
+     },
+     {
+      "at": 0.68,
+      "event": "three strong-argument flags pop"
+     },
+     {
+      "at": 0.82,
+      "event": "prompt pill 'What would change your answer?' lands"
+     },
+     {
+      "at": 0.92,
+      "event": "the covered 'keep it hidden' card lands"
+     }
+    ],
+    "manim": {
+     "class": "B07_ProMove"
+    },
+    "motion_claim": "'Do you agree?' earns a dim nod; 'Steelman the opposite case.' pops three strong-argument flags; 'What would change your answer?' lands; a covered card is tagged 'keep it hidden'."
+   }
+  },
+  {
+   "beat_id": "B08",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "So make it a reflex. A big decision comes up: get the first answer, get a second opinion, then decide yourself. Three steps instead of one. That is the whole habit.",
+   "estimated_duration_s": 12.4,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "A chain draws: 'first answer' card, arrow, 'second opinion' card, arrow, YOU pill.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "'first answer' card lands"
+     },
+     {
+      "at": 0.35,
+      "event": "arrow draws; 'second opinion' card lands"
+     },
+     {
+      "at": 0.65,
+      "event": "arrow draws; the YOU pill lands"
+     },
+     {
+      "at": 0.9,
+      "event": "the chain holds"
+     }
+    ],
+    "manim": {
+     "class": "B08_TheHabit"
+    },
+    "motion_claim": "A chain draws: 'first answer' card, arrow, 'second opinion' card, arrow, YOU pill."
+   }
+  },
+  {
+   "beat_id": "BHTF",
+   "act": "your turn",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "Your turn. Paste this into Claude: Steelman the case against my plan: describe your decision. Give me the strongest argument for the other side, fairly stated. Then tell me what evidence would change your answer. Read the other side's case out loud to yourself — if you can't state it fairly, you haven't understood it yet. Then you make the call, not the AI.",
+   "estimated_duration_s": 25.6,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "Composer opens — 'Your turn.'"
+     },
+     {
+      "at": 0.1,
+      "event": "the prompt types in full"
+     },
+     {
+      "at": 0.8,
+      "event": "two check lines land"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HOW TO AI — YOUR TURN",
+      "segment": "The Second Opinion",
+      "command": "Steelman the case against my plan: describe your decision. Give me the strongest argument for the other side, fairly stated. Then tell me what evidence would change your answer.",
+      "runningText": "paste this into Claude—",
+      "output": [
+       "you can state the other side's case fairly",
+       "you make the final call, not the AI"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "BOUT",
+   "act": "outro",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "The Second Opinion. At Nik Bear Brown.",
+   "estimated_duration_s": 2.8,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "title restates; handle; mascot"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "The Second Opinion",
+      "slug": "the-second-opinion",
+      "handle": "@NikBearBrown",
+      "subline": ""
+     }
+    }
+   },
+   "kind": "outro_voice",
+   "tail_silence_s": 1.0
+  }
+ ]
+}
