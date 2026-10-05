@@ -1,0 +1,582 @@
+{
+  "metadata": {
+    "slug": "the-long-game",
+    "title": "The long game",
+    "topic": "CLAUDE · HOW TO AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "English-adjacent (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience, not AI experts",
+    "source_doc": "NEW — built from scratch from the series brief (2026-10-04); no mirror source",
+    "playlist": "How to AI",
+    "companion_to": "small-steps-big-jobs",
+    "tags": [
+      "AI",
+      "prompts",
+      "how to AI",
+      "long documents",
+      "outlining",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. A colleague of mine asked an AI to write her whole twenty-page grant proposal in one prompt. What came back looked finished — and fell apart the moment she read it. Here’s the three-part method that holds a long document together.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Write our twenty-page grant proposal.'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces the trigger and types 'Help me outline our grant proposal first.' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Write our twenty-page grant proposal.",
+            "triggerWords": "Write our twenty-page grant proposal",
+            "replacementWords": "Help me outline our grant proposal first",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "the-long-game",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive write-it-all-at-once question and corrects it into the film's method: outline first.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. An outline: the skeleton of the document, every part in order. A section: one chapter’s worth. And a stitch: reading it as one piece and fixing the seams. That’s all you need for this film.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'outline' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'section' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'stitch' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "outline",
+                "meaning": "the skeleton of the document, every part in order"
+              },
+              {
+                "term": "section",
+                "meaning": "one chapter’s worth of the document"
+              },
+              {
+                "term": "stitch",
+                "meaning": "reading it as one piece, fixing the seams"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Start with the goal. A twenty-page grant proposal: the need, the plan, the budget, the team — one document that reads like one person wrote it. That is the long game.",
+      "estimated_duration_s": 12.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A tall stack of pages drops onto the stage and settles; a title line draws on the top page; the label 'the goal' sits beside it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "stack drops in"
+          },
+          {
+            "at": 0.4,
+            "event": "label"
+          },
+          {
+            "at": 0.7,
+            "event": "title line draws"
+          }
+        ],
+        "manim": {
+          "class": "B00_Stack"
+        },
+        "motion_claim": "A tall stack of pages drops onto the stage and settles; a title line draws on the top page; the label 'the goal' sits beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So she asked for the whole thing in one prompt. Out came twenty pages in thirty seconds — and the middle repeated the beginning, page twelve contradicted page three, and the tone wandered off. Written all at once, a long document drifts.",
+      "estimated_duration_s": 16.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The neat stack bursts into five scattered pages; the label 'all at once' lands; terracotta dots flag the repeated pair and the contradicted page.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "stack bursts into scattered pages"
+          },
+          {
+            "at": 0.35,
+            "event": "label"
+          },
+          {
+            "at": 0.55,
+            "event": "repeat dots"
+          },
+          {
+            "at": 0.7,
+            "event": "contradiction dot"
+          }
+        ],
+        "manim": {
+          "class": "B01_AllAtOnce"
+        },
+        "motion_claim": "The neat stack bursts into five scattered pages; the label 'all at once' lands; terracotta dots flag the repeated pair and the contradicted page."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here’s why. Nobody can keep twenty pages straight in one pass — not even an AI. By page fourteen it has forgotten page three. Facts drift, sections repeat, the tone wobbles. A long document is really five short ones stapled together. So write it that way.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three pages in a row, numbered 3, 9, 14; the label 'it drifts'; repeat dots on page 9, a changed-fact dot on page 14; a staple draws across them.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "three pages land"
+          },
+          {
+            "at": 0.25,
+            "event": "numbers and label"
+          },
+          {
+            "at": 0.55,
+            "event": "drift dots"
+          },
+          {
+            "at": 0.8,
+            "event": "staple draws"
+          }
+        ],
+        "manim": {
+          "class": "B02_Drift"
+        },
+        "motion_claim": "Three pages in a row, numbered 3, 9, 14; the label 'it drifts'; repeat dots on page 9, a changed-fact dot on page 14; a staple draws across them."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Move one: the outline. Before any prose, ask the AI for a section-by-section skeleton — every part, in order. Then you do the most important job in this film: read it, fix it, approve it. The outline is the contract.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The drift pages fade; the outline card lands; its four section rows draw in; a terracotta check stamps your approval; the label 'move one: outline'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "outline card lands"
+          },
+          {
+            "at": 0.35,
+            "event": "section rows draw"
+          },
+          {
+            "at": 0.8,
+            "event": "approval check"
+          },
+          {
+            "at": 0.9,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B03_Outline"
+        },
+        "motion_claim": "The drift pages fade; the outline card lands; its four section rows draw in; a terracotta check stamps your approval; the label 'move one: outline'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Move two: one section at a time. The AI writes section one — only section one — with the outline beside it. Small enough to check in one sitting, because you read it before the next one starts.",
+      "estimated_duration_s": 15.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The outline card slides left; the section-one page drops in; an arrow draws card to page; the label 'move two: sections'; a check lands on the page.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "card slides left, page drops"
+          },
+          {
+            "at": 0.3,
+            "event": "arrow draws, label"
+          },
+          {
+            "at": 0.7,
+            "event": "check lands"
+          }
+        ],
+        "manim": {
+          "class": "B04_SectionOne"
+        },
+        "motion_claim": "The outline card slides left; the section-one page drops in; an arrow draws card to page; the label 'move two: sections'; a check lands on the page."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Move three is the handoff. Section two gets the outline plus section one, so the facts stay consistent. Each section carries what the last one said. That is what keeps page fourteen agreeing with page three.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Section two drops below section one; one arrow draws outline to section two, another section one to section two; a check and the label 'move three: the handoff'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "section two drops"
+          },
+          {
+            "at": 0.25,
+            "event": "outline arrow"
+          },
+          {
+            "at": 0.35,
+            "event": "handoff arrow"
+          },
+          {
+            "at": 0.8,
+            "event": "check and label"
+          }
+        ],
+        "manim": {
+          "class": "B05_Handoff"
+        },
+        "motion_claim": "Section two drops below section one; one arrow draws outline to section two, another section one to section two; a check and the label 'move three: the handoff'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then the stitching. Read the whole thing end to end — out loud if you can — and fix only the seams: the transitions, a repeated sentence, a tone that shifts. You are not rewriting. You are making five sections read like one document.",
+      "estimated_duration_s": 17.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three numbered sections line up; a terracotta scan line sweeps down them; the repeated line lifts out and fades; the label 'the stitching'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "sections line up"
+          },
+          {
+            "at": 0.25,
+            "event": "scan line sweeps"
+          },
+          {
+            "at": 0.45,
+            "event": "repeated line lifts out"
+          },
+          {
+            "at": 0.75,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B06_Stitching"
+        },
+        "motion_claim": "Three numbered sections line up; a terracotta scan line sweeps down them; the repeated line lifts out and fades; the label 'the stitching'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Same proposal, same AI. On the left: the one-prompt version — twenty pages that fall apart. On the right: outline first, sections one at a time, stitched at the end. A document that holds together.",
+      "estimated_duration_s": 14.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Left: the scattered pages return with the label 'one giant prompt'. Right: a neat checked stack with the label 'the long game'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "jumble left"
+          },
+          {
+            "at": 0.25,
+            "event": "left label"
+          },
+          {
+            "at": 0.55,
+            "event": "neat stack right"
+          },
+          {
+            "at": 0.9,
+            "event": "right label"
+          }
+        ],
+        "manim": {
+          "class": "B07_SideBySide"
+        },
+        "motion_claim": "Left: the scattered pages return with the label 'one giant prompt'. Right: a neat checked stack with the label 'the long game'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Make it a habit. Outline first. One section per prompt. Stitch at the end. Anything longer than you can check in one sitting is a long game — play it in three moves.",
+      "estimated_duration_s": 13.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "One big card lands: 'outline first' / 'one section per prompt' / 'stitch at the end'; a check drops on it.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "rule card lands"
+          },
+          {
+            "at": 0.3,
+            "event": "row one"
+          },
+          {
+            "at": 0.45,
+            "event": "row two"
+          },
+          {
+            "at": 0.6,
+            "event": "row three"
+          },
+          {
+            "at": 0.9,
+            "event": "check"
+          }
+        ],
+        "manim": {
+          "class": "B08_Habit"
+        },
+        "motion_claim": "One big card lands: 'outline first' / 'one section per prompt' / 'stitch at the end'; a check drops on it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: I’m writing a twenty-page grant proposal for a community food bank. Don’t write any of it yet. First, draft a detailed section-by-section outline, then wait for my approval. Then check two things yourself. Does the AI give you an outline instead of prose? And is every part of the proposal on it — nothing missing, nothing extra?",
+      "estimated_duration_s": 25.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Your First Outline",
+            "command": "I’m writing a twenty-page grant proposal for a community food bank. Don’t write any of it yet. First, draft a detailed section-by-section outline, then wait for my approval.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: the AI gives you an outline, not prose.",
+              "Check: every part is on it — nothing missing, nothing extra."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Sonnet",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "The long game. At Nik Bear Brown.",
+      "estimated_duration_s": 5.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "The long game",
+            "slug": "the-long-game",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
