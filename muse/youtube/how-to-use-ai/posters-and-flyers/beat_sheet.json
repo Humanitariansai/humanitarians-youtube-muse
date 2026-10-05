@@ -1,0 +1,617 @@
+{
+  "metadata": {
+    "title": "Posters and flyers",
+    "slug": "posters-and-flyers",
+    "film": 38,
+    "wave": "Wave 6 \u2014 Making things",
+    "series": "Humanitarians AI \u2014 how to use AI",
+    "series_note": "Wave 6 film #38; companion to film 19 'Pictures from words', which taught the image-generation ladder and the five-slot recipe \u2014 this film uses them without re-teaching.",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "register": "Teardown",
+    "watermark": "@NikBearBrown",
+    "greeting": "Hallo",
+    "palette": {
+      "stage": "#F2F0E9",
+      "ink": "#3D3929",
+      "accent": "#D97757",
+      "dim": "#8B8F96",
+      "ghost": "#D9D4C7",
+      "card": "#FAF9F5"
+    },
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell drops the composer cold open; the verdict card is dropped and the recap is drawn as a BVDT beat instead of a card.",
+    "playlist": "how-to-use-ai",
+    "tags": [
+      "image-generation",
+      "posters",
+      "flyers",
+      "printables",
+      "companion-pictures-from-words",
+      "general-audience"
+    ],
+    "audience": "smart, pragmatic general audience; not necessarily AI experts"
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. You need a poster \u2014 a garage sale, a bake sale, your side business. The AI can't design it. But it can do the next best thing: draw the art. You do the words.",
+      "estimated_duration_s": 17.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Can AI design my poster'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'design' -> 'draw the art for' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Can AI design\nmy poster",
+            "triggerWords": "design",
+            "replacementWords": "draw the art for",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "posters-and-flyers",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Four terms. Image generator: an app that turns your words into pictures. Prompt: the sentence you type. Printable: a file sharp enough to print. Aspect ratio: the picture's shape \u2014 tall, wide, or square. That's the vocabulary.",
+      "estimated_duration_s": 15.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "card 1 'image generator' lands"
+          },
+          {
+            "at": 0.3,
+            "event": "card 2 'prompt' lands"
+          },
+          {
+            "at": 0.55,
+            "event": "card 3 'printable' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "card 4 'aspect ratio' lands, terracotta edge"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "image generator",
+                "meaning": "an app that turns words into pictures"
+              },
+              {
+                "term": "prompt",
+                "meaning": "the sentence you type"
+              },
+              {
+                "term": "printable",
+                "meaning": "a file sharp enough to print"
+              },
+              {
+                "term": "aspect ratio",
+                "meaning": "the picture's shape \u2014 tall, wide, square"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here's the job. A poster is just a big piece of paper with three jobs: a headline people read across the room, the details they read up close, and a picture that makes them look. You bring the first two. The AI does the third.",
+      "estimated_duration_s": 19.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A kraft portrait poster sheet drops onto the stage; a headline band and detail lines draw in; a small sun-and-hill doodle draws in the art zone; the label 'poster' lands beside it.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "poster drops in"
+          },
+          {
+            "at": 0.3,
+            "event": "headline band and detail lines draw in"
+          },
+          {
+            "at": 0.6,
+            "event": "sun-and-hill doodle draws in the art zone"
+          },
+          {
+            "at": 0.8,
+            "event": "'poster' label lands with leader line"
+          }
+        ],
+        "manim": {
+          "class": "B00_Hero"
+        },
+        "motion_claim": "A kraft portrait poster sheet drops onto the stage; a headline band and detail lines draw in; a small sun-and-hill doodle draws in the art zone; the label 'poster' lands beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The picture part is our sister film's job. Pictures from words taught the ladder: start vague, add subject plus style plus mood, then iterate \u2014 like texting a friend. And the five-slot recipe: subject, setting, style, lighting, mood. Go watch it if you missed it. Here, we just use it.",
+      "estimated_duration_s": 21.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A picture frame on the left; five chips \u2014 subject, setting, style, lighting, mood \u2014 land one by one on the right; an arrow feeds them into the frame, whose doodle grows warmer with each chip.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "picture frame fades in"
+          },
+          {
+            "at": 0.15,
+            "event": "chip 1 'subject' lands; doodle gains a sun"
+          },
+          {
+            "at": 0.3,
+            "event": "chip 2 'setting' lands; hills appear"
+          },
+          {
+            "at": 0.45,
+            "event": "chip 3 'style' lands; warm wash spreads"
+          },
+          {
+            "at": 0.6,
+            "event": "chips 4-5 'lighting', 'mood' land; arrow feeds frame"
+          },
+          {
+            "at": 0.85,
+            "event": "'the recipe' label lands beside the chips"
+          }
+        ],
+        "manim": {
+          "class": "B01_Companion"
+        },
+        "motion_claim": "A picture frame on the left; five chips \u2014 subject, setting, style, lighting, mood \u2014 land one by one on the right; an arrow feeds them into the frame, whose doodle grows warmer with each chip."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Step one: tell it the real job first. Before any picture, write down three facts: what \u2014 a garage sale; when \u2014 Saturday, nine in the morning; where \u2014 twelve Maple Street. The AI needs these because the poster needs these. No facts, no poster.",
+      "estimated_duration_s": 19.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The poster returns; three fact chips \u2014 'garage sale', 'Saturday, 9 a.m.', '12 Maple Street' \u2014 fly in one by one and settle as the poster's detail lines.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "poster fades back in"
+          },
+          {
+            "at": 0.15,
+            "event": "chip 'garage sale' lands; becomes headline line"
+          },
+          {
+            "at": 0.45,
+            "event": "chip 'Saturday, 9 a.m.' lands; becomes detail line"
+          },
+          {
+            "at": 0.7,
+            "event": "chip '12 Maple Street' lands; becomes detail line"
+          },
+          {
+            "at": 0.9,
+            "event": "'three facts' label lands with leader line"
+          }
+        ],
+        "manim": {
+          "class": "B02_Facts"
+        },
+        "motion_claim": "The poster returns; three fact chips \u2014 'garage sale', 'Saturday, 9 a.m.', '12 Maple Street' \u2014 fly in one by one and settle as the poster's detail lines."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Step two: make the words exact. Type the exact headline you want, in quotes: 'GARAGE SALE'. The generator draws letters as shapes \u2014 it doesn't type them \u2014 so it misspells. Check every letter. Your headline is your shop sign; a misspelled sign costs you customers.",
+      "estimated_duration_s": 19.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The poster shows a wobbly misspelled 'GARAG SALE'; a quote chip 'GARAGE SALE' pins above it; a terracotta X stamps the wrong headline; the correct headline fades in.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "poster with wobbly 'GARAG SALE'"
+          },
+          {
+            "at": 0.2,
+            "event": "quote chip '\"GARAGE SALE\"' pins above"
+          },
+          {
+            "at": 0.45,
+            "event": "terracotta X stamps the wrong headline"
+          },
+          {
+            "at": 0.65,
+            "event": "correct 'GARAGE SALE' fades in, ink, bold"
+          },
+          {
+            "at": 0.85,
+            "event": "'exact words' label lands with leader line"
+          }
+        ],
+        "manim": {
+          "class": "B03_ExactWords"
+        },
+        "motion_claim": "The poster shows a wobbly misspelled 'GARAG SALE'; a quote chip 'GARAGE SALE' pins above it; a terracotta X stamps the wrong headline; the correct headline fades in."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Step three: ask for the layout. Big headline on top, details below, and leave the bottom half empty \u2014 that's where your facts go. If you let the picture fill the whole page, there's nowhere left for the words, and a poster without words is just wallpaper.",
+      "estimated_duration_s": 19.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A fresh poster; three zones draw in: a big headline band (1), a details band (2), an empty bottom zone in ghost fill (3); numbered labels name them.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "empty poster fades in"
+          },
+          {
+            "at": 0.15,
+            "event": "zone 1 'headline' band draws across the top"
+          },
+          {
+            "at": 0.4,
+            "event": "zone 2 'details' band draws in the middle"
+          },
+          {
+            "at": 0.6,
+            "event": "zone 3 empty zone fills ghost at the bottom"
+          },
+          {
+            "at": 0.85,
+            "event": "'room for facts' label lands with leader line"
+          }
+        ],
+        "manim": {
+          "class": "B04_Layout"
+        },
+        "motion_claim": "A fresh poster; three zones draw in: a big headline band (1), a details band (2), an empty bottom zone in ghost fill (3); numbered labels name them."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And here's the pro move: split the job. Have the AI draw a picture with no words in it at all \u2014 a warm morning garage scene, no text. Then you add the headline and details yourself, in any simple poster tool. AI pictures, your words. The letters are always spelled right, because a human typed them.",
+      "estimated_duration_s": 23.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A picture frame on the left labeled 'AI draws'; a word poster on the right labeled 'you write'; an arrow draws from frame to poster.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "picture frame lands, labeled 'AI draws'"
+          },
+          {
+            "at": 0.25,
+            "event": "word poster lands, labeled 'you write'"
+          },
+          {
+            "at": 0.5,
+            "event": "arrow draws from the picture into the poster"
+          },
+          {
+            "at": 0.8,
+            "event": "'split the job' label lands above"
+          }
+        ],
+        "manim": {
+          "class": "B05_Split"
+        },
+        "motion_claim": "A picture frame on the left labeled 'AI draws'; a word poster on the right labeled 'you write'; an arrow draws from frame to poster."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then the print checklist \u2014 three checks before you print a hundred. One: tall shape, the way paper is. Two: dark words on light paper \u2014 it reads from across the room. Three: the three-second test. Hold it at arm's length. Headline, when, where \u2014 can a stranger get all three in three seconds? If not, make the headline bigger.",
+      "estimated_duration_s": 25.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The poster stands center; three terracotta checks land one by one with short labels: 'tall shape', 'dark on light', '3-second test'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "finished poster fades in"
+          },
+          {
+            "at": 0.15,
+            "event": "check 1 lands: 'tall shape'"
+          },
+          {
+            "at": 0.45,
+            "event": "check 2 lands: 'dark on light'"
+          },
+          {
+            "at": 0.7,
+            "event": "check 3 lands: '3-second test'"
+          },
+          {
+            "at": 0.9,
+            "event": "headline pulses once, bigger"
+          }
+        ],
+        "manim": {
+          "class": "B06_PrintCheck"
+        },
+        "motion_claim": "The poster stands center; three terracotta checks land one by one with short labels: 'tall shape', 'dark on light', '3-second test'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One last rule: say it's AI-made. Most apps that make pictures offer an AI label \u2014 use it. The label matters most when the picture could pass for a real photo, and on a flyer for your business, honesty is the whole brand.",
+      "estimated_duration_s": 18.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An 'AI-made' tag stamps onto the poster's corner with a terracotta border and a stamp ring; the label 'say it' lands beside it.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "poster fades in"
+          },
+          {
+            "at": 0.25,
+            "event": "stamp ring grows on the poster corner"
+          },
+          {
+            "at": 0.45,
+            "event": "'AI-made' tag stamps down, terracotta border"
+          },
+          {
+            "at": 0.75,
+            "event": "'say it' label lands with leader line"
+          }
+        ],
+        "manim": {
+          "class": "B07_Label"
+        },
+        "motion_claim": "An 'AI-made' tag stamps onto the poster's corner with a terracotta border and a stamp ring; the label 'say it' lands beside it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "recap",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The recap. One: say the real job \u2014 what, when, where. Two: make the words exact, in quotes. Three: AI draws the picture, you add the words. Four: run the three checks and label it AI-made. That is a poster in an afternoon.",
+      "estimated_duration_s": 18.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The poster shrinks left; four numbered chips land one by one: 'say the job', 'exact words', 'AI draws, you write', 'label AI-made'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "poster settles left"
+          },
+          {
+            "at": 0.15,
+            "event": "chip 1 'say the job' lands"
+          },
+          {
+            "at": 0.35,
+            "event": "chip 2 'exact words' lands"
+          },
+          {
+            "at": 0.55,
+            "event": "chip 3 'AI draws, you write' lands"
+          },
+          {
+            "at": 0.75,
+            "event": "chip 4 'label AI-made' lands, terracotta edge"
+          }
+        ],
+        "manim": {
+          "class": "BVDT_Recap"
+        },
+        "motion_claim": "The poster shrinks left; four numbered chips land one by one: 'say the job', 'exact words', 'AI draws, you write', 'label AI-made'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: I'm making a flyer for [your event \u2014 what, when, where]. Give me the five-slot picture recipe \u2014 subject, setting, style, lighting, mood \u2014 for a background with no text in the image, plus one short headline I can add myself. Then two checks yourself. One: does the picture contain any words at all? If it does, ask again for no text. Two: read your poster from across the room \u2014 headline, when, where, three seconds.",
+      "estimated_duration_s": 33.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens \u2014 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE \u00b7 YOUR TURN",
+            "segment": "How to AI",
+            "command": "I'm making a flyer for [your event \u2014 what, when, where]. Give me the five-slot picture recipe \u2014 subject, setting, style, lighting, mood \u2014 for a background with no text in the image, plus one short headline I can add myself.",
+            "runningText": "paste this into Claude\u2026",
+            "output": [
+              "Check: does the picture contain any words at all? If it does, ask again for no text.",
+              "Check: read your poster from across the room \u2014 headline, when, where, three seconds."
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Posters and flyers. At Nik Bear Brown.",
+      "estimated_duration_s": 3.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Posters and flyers.",
+            "slug": "posters-and-flyers",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
