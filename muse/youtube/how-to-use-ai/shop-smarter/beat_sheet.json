@@ -1,0 +1,540 @@
+{
+  "metadata": {
+    "slug": "shop-smarter",
+    "title": "Shop smarter",
+    "topic": "HOW TO AI · SHOPPING",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience; not necessarily AI experts",
+    "source_doc": "Built from scratch (NEW). Review-manipulation facts verified against the FTC Consumer Review Rule, 2026-10-05 (see FACTCHECK.md).",
+    "playlist": "how-to-use-ai",
+    "film_number": 43,
+    "series": "How to AI",
+    "wave": "Wave 6 — Making things",
+    "tags": [
+      "shopping",
+      "show-tell",
+      "how-to-ai",
+      "Claude",
+      "general-audience",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. You could spend three evenings reading reviews. Or let the AI do the reading, and spend your evenings on the deciding. Today: how to shop with an AI co-pilot — one that helps you choose without choosing for you.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Which vacuum should I buy'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces it into 'how do I compare options and spot the trap' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Which vacuum should I buy",
+            "triggerWords": "Which vacuum should I buy",
+            "replacementWords": "how do I compare options and spot the trap",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "shop-smarter",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive pick-for-me question and corrects it to the method question: compare options, spot the trap.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. Co-pilot: the AI helping you decide, not deciding for you. A review summary: what hundreds of reviews boil down to. Fine print: the small contract text nobody reads — which is exactly where the traps live.",
+      "estimated_duration_s": 15.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'co-pilot' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'review summary' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'fine print' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "co-pilot",
+                "meaning": "the AI helping you decide, not deciding for you"
+              },
+              {
+                "term": "review summary",
+                "meaning": "what hundreds of reviews boil down to"
+              },
+              {
+                "term": "fine print",
+                "meaning": "the small contract text nobody reads — home of the traps"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Shopping is comparing. Three options on the table — same job, different strengths, different weaknesses. The question is never which is the best one. The question is: best for what?",
+      "estimated_duration_s": 12.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three kraft option boxes in a row on the table, labelled A, B, C; the same cast of boxes the film keeps throughout.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "boxes land left to right"
+          },
+          {
+            "at": 0.5,
+            "event": "labels 'A', 'B', 'C' land beneath with leader lines"
+          }
+        ],
+        "manim": {
+          "class": "B00_ThreeOptions"
+        },
+        "motion_claim": "Three kraft option boxes in a row on the table, labelled A, B, C; the same cast of boxes the film keeps throughout."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So start with yourself, not the products. Tell the AI what matters: who it's for, how you'll use it, what would make you regret the buy. The AI doesn't know your life. Your priorities are the ruler everything else gets measured against.",
+      "estimated_duration_s": 16.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A 'you' head on the left hands a priority card to the AI panel on the right; the card slides across and a terracotta dot lands on it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "head + panel + card land, 'you' and 'AI' labels"
+          },
+          {
+            "at": 0.5,
+            "event": "card slides to the panel; terracotta dot lands"
+          }
+        ],
+        "manim": {
+          "class": "B01_Priorities"
+        },
+        "motion_claim": "A 'you' head on the left hands a priority card to the AI panel on the right; the card slides across and a terracotta dot lands on it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now ask for a table. Name the options and your criteria, and say: lay these out side by side, one row per criterion. A table turns a fog of opinions into something your eyes can actually compare.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An ink comparison grid draws: three columns headed A, B, C; row guides; the label 'side by side' sits beneath.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "grid lines draw"
+          },
+          {
+            "at": 0.5,
+            "event": "column headers A, B, C land; label lands"
+          }
+        ],
+        "manim": {
+          "class": "B02_TheTable"
+        },
+        "motion_claim": "An ink comparison grid draws: three columns headed A, B, C; row guides; the label 'side by side' sits beneath."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then ask the question most shoppers skip: for each option, what would I be giving up? Don't ask which is best — ask what each one costs you. The right choice is usually the one whose downside you mind the least.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The same table stays on stage; a terracotta ellipse rings the trade-off row and an ink check lands on the least-bad cell.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "table fades in (continuity from B02)"
+          },
+          {
+            "at": 0.4,
+            "event": "terracotta ellipse rings the trade-off row"
+          },
+          {
+            "at": 0.65,
+            "event": "ink check lands; label 'trade-off'"
+          }
+        ],
+        "manim": {
+          "class": "B03_Tradeoffs"
+        },
+        "motion_claim": "The same table stays on stage; a terracotta ellipse rings the trade-off row and an ink check lands on the least-bad cell."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Next, the reviews. Nobody can read four thousand of them, and the star average lies — some reviews are bought, some are written by people who never bought the thing. Ask the AI: read the reviews and tell me what the unhappy buyers agree on. Patterns, not stars.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Five small review pages above funnel down to one summary page; a terracotta check lands on the summary.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "five review pages land"
+          },
+          {
+            "at": 0.4,
+            "event": "funnel lines draw; summary page grows"
+          },
+          {
+            "at": 0.7,
+            "event": "check lands; label 'patterns'"
+          }
+        ],
+        "manim": {
+          "class": "B04_ReviewFunnel"
+        },
+        "motion_claim": "Five small review pages above funnel down to one summary page; a terracotta check lands on the summary."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then the fine print — the trap-hunting step. Paste the return policy, the warranty, the subscription terms into the chat and ask: what's the catch here? A ten-thousand-word contract becomes three warnings you can actually act on.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A tall contract page of tiny ghost lines; a magnifier lands on one clause and a terracotta ellipse rings it; label 'the catch'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "contract page lands"
+          },
+          {
+            "at": 0.45,
+            "event": "magnifier lands"
+          },
+          {
+            "at": 0.65,
+            "event": "terracotta ellipse rings the clause"
+          }
+        ],
+        "manim": {
+          "class": "B05_FinePrint"
+        },
+        "motion_claim": "A tall contract page of tiny ghost lines; a magnifier lands on one clause and a terracotta ellipse rings it; label 'the catch'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Ask about the money traps by name. Does the warranty cover what actually breaks? Can you return it, and who pays the shipping? Does anything auto-renew after a trial? The traps are never in the headline. They're in paragraph nine.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three mini trap cards — 'warranty', 'returns', 'renew' — each stamped with a terracotta X; the label 'paragraph nine' sits below.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "three trap cards land"
+          },
+          {
+            "at": 0.5,
+            "event": "terracotta X stamps each card"
+          },
+          {
+            "at": 0.7,
+            "event": "label 'paragraph nine' lands"
+          }
+        ],
+        "manim": {
+          "class": "B06_MoneyTraps"
+        },
+        "motion_claim": "Three mini trap cards — 'warranty', 'returns', 'renew' — each stamped with a terracotta X; the label 'paragraph nine' sits below."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One honest limit: the AI doesn't know today's price. Prices move, sales end, stock runs out — and the AI's memory of prices can be months old. Treat its numbers as stale by default. Click through and check the live price yourself, every time.",
+      "estimated_duration_s": 17.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A price tag stamped with an ink X; a cursor draws a cable to a fresh 'live' card with an ink check; label 'check live'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "price tag lands"
+          },
+          {
+            "at": 0.4,
+            "event": "ink X stamps the tag"
+          },
+          {
+            "at": 0.6,
+            "event": "cable draws to the live card; check lands"
+          }
+        ],
+        "manim": {
+          "class": "B07_StalePrices"
+        },
+        "motion_claim": "A price tag stamped with an ink X; a cursor draws a cable to a fresh 'live' card with an ink check; label 'check live'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So the method. Your priorities first. A side-by-side table. The trade-off question. The review patterns. The fine print, asked about directly. You stay the decider. The AI does the reading. That's the whole co-pilot.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three numbered plates stack — 'priorities', 'table', 'fine print' — with checks; a 'you decide' head crowns them.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "plates land with numbers and labels"
+          },
+          {
+            "at": 0.5,
+            "event": "checks land on each plate"
+          },
+          {
+            "at": 0.7,
+            "event": "head lands; label 'you decide'"
+          }
+        ],
+        "manim": {
+          "class": "B08_TheMethod"
+        },
+        "motion_claim": "Three numbered plates stack — 'priorities', 'table', 'fine print' — with checks; a 'you decide' head crowns them."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: I'm choosing between two options: [A] and [B]. My priorities are: [X, Y, Z]. Lay them out side by side, one row per priority, then tell me what I'd be giving up with each. Then check two things yourself. Did the table change what you are leaning toward? And did it name a trade-off you had not thought of?",
+      "estimated_duration_s": 26.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Shop Smarter Once",
+            "command": "I'm choosing between two options: [A] and [B]. My priorities are: [X, Y, Z]. Lay them out side by side, one row per priority, then tell me what I'd be giving up with each.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: did the table change what you are leaning toward?",
+              "Check: did it name a trade-off you had not thought of?"
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Shop smarter. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Shop smarter",
+            "slug": "shop-smarter",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
