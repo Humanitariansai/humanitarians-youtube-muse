@@ -1,0 +1,566 @@
+{
+ "metadata": {
+  "slug": "teach-it-your-world",
+  "title": "Teach it your world",
+  "series": "How to AI",
+  "audience": "claude-liam",
+  "engine": "kokoro",
+  "voice_kokoro": "am_onyx",
+  "persona": "Liam (in for Bear)",
+  "palette": "claude",
+  "register": "Teardown",
+  "channel": "claude-liam",
+  "folder_label": "@NikBearBrown",
+  "watermark": "@NikBearBrown",
+  "skill": "ai-explainer",
+  "derived_from": "built from scratch (NEW); research notes in FACTCHECK.md",
+  "total_duration_s": 341.2,
+  "beat_count": 13
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "act": "the question",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "Konnichiwa — this is Liam, in for Bear. Watch: I ask the AI about MY trek, and it hands me EVERYONE's trek. It knows the world. It does not know my world. That is the gap this film closes: how to teach it YOUR world, so it answers from your material, not the internet's.",
+   "estimated_duration_s": 21.6,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "Composer types the command: 'What should I pack for my trek next month?'"
+     },
+     {
+      "at": 0.35,
+      "event": "Running indicator; the generic packing list types in, line by line"
+     },
+     {
+      "at": 0.8,
+      "event": "The generic list holds — correct for everyone, right for no one"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Konnichiwa, Liam",
+      "topic": "HOW TO AI · Teach it your world",
+      "segment": "Humanitarians AI",
+      "command": "What should I pack for my trek next month?",
+      "running_text": "thinking…",
+      "output": [
+       "A trek packing list: layered clothing,",
+       "waterproof shell, first-aid kit,",
+       "headlamp, and trail snacks."
+      ],
+      "folderLabel": "@NikBearBrown"
+     }
+    }
+   },
+   "motion_claim": "The composer asks a personal question and gets the internet's generic answer: the gap, in one exchange.",
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "Cold-open composer beat: the ask lands answered (ASK→RESULT)."
+   }
+  },
+  {
+   "beat_id": "B01",
+   "act": "the idea",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "The AI is smart when you give it your material. Upload your own documents — your notes, your team's manuals, your policies — and it stops answering from the internet and starts answering from your world. This film shows you what to hand it, the three habits that make it stick, and where the trick bites back.",
+   "estimated_duration_s": 22.8,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "Writer types the naive overview"
+     },
+     {
+      "at": 0.45,
+      "event": "'because it knows everything' is struck through and corrected"
+     },
+     {
+      "at": 0.75,
+      "event": "Final corrected overview holds; narration states the stakes"
+     }
+    ],
+    "remotion": {
+     "pattern": "BrutalistHesitantWriter",
+     "props": {
+      "text": "AI is smart because it knows everything.\nHand it your documents, and it answers from your world.",
+      "triggerWords": "because it knows everything",
+      "replacementWords": "when you give it your material",
+      "fontSize": 70,
+      "charMs": 22,
+      "hesitateBetween": 6,
+      "hesitateWithin": 1,
+      "mistakeRate": 2,
+      "jitter": 20,
+      "seed": "teach-it-your-world",
+      "banner": ""
+     }
+    }
+   },
+   "lead_silence_s": 0.8,
+   "motion_claim": "The writer corrects the misconception: the AI is not smart because it knows everything — it is useful when you hand it your material.",
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+   }
+  },
+  {
+   "beat_id": "BDEFS",
+   "act": "terms",
+   "lane": "bookend",
+   "proof_gate": "CARD",
+   "narration_text": "Four terms. A knowledge base: your own documents, gathered in one place for the AI. An upload: copying a file into the chat so the AI can read it. Grounding: answering only from the material you handed it. And RAG: the AI searches your documents, then answers from what it finds. Plain words from here on.",
+   "estimated_duration_s": 22.4,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.12,
+      "event": "'knowledge base' lands"
+     },
+     {
+      "at": 0.38,
+      "event": "'upload' lands"
+     },
+     {
+      "at": 0.62,
+      "event": "'grounding' lands"
+     },
+     {
+      "at": 0.84,
+      "event": "'RAG' lands"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeDefinitions",
+     "props": {
+      "title": "Terms In This Film",
+      "terms": [
+       {
+        "term": "knowledge base",
+        "meaning": "your own documents, gathered in one place for the AI"
+       },
+       {
+        "term": "upload",
+        "meaning": "copying a file into the chat so the AI can read it"
+       },
+       {
+        "term": "grounding",
+        "meaning": "answering only from the material you handed it"
+       },
+       {
+        "term": "RAG",
+        "meaning": "the AI searches your documents, then answers from what it finds"
+       }
+      ],
+      "folderLabel": "@NikBearBrown"
+     }
+    }
+   },
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "TERMS card: four prerequisites, one plain line each."
+   }
+  },
+  {
+   "beat_id": "B02",
+   "act": "the gap",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "Here is the problem. The AI trained on the internet — it knows everyone's everything, and nobody's specifics. Ask it who is on call Friday, and it has no rota to read, so it does what a confident stranger does: it guesses. A fluent, plausible, completely invented answer. The knowledge it needs exists — it just is not in its world. It is in yours — your docs: your files, your folders, your head.",
+   "estimated_duration_s": 29.6,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Left: a big dim circle, 'the internet'. Right: a small kraft box with terracotta tape, 'your docs'. A question card, 'who's on call Friday?', fires an arrow into the big circle; wobbly squiggle lines grow as the answer, with an ink '?' beside them.",
+    "show": [
+     {
+      "at": 0.1,
+      "event": "big dim circle lands, label 'the internet'"
+     },
+     {
+      "at": 0.25,
+      "event": "small taped box lands, label 'your docs'"
+     },
+     {
+      "at": 0.45,
+      "event": "question card slides in; arrow fires into the big circle"
+     },
+     {
+      "at": 0.65,
+      "event": "wobbly squiggle answer grows; ink '?' lands beside it"
+     }
+    ],
+    "manim": {
+     "class": "B02_TheGap"
+    },
+    "motion_claim": "Left: a big dim circle, 'the internet'. Right: a small kraft box with terracotta tape, 'your docs'. A question card, 'who's on call Friday?', fires an arrow into the big circle; wobbly squiggle lines grow as the answer, with an ink '?' beside them."
+   },
+   "motion_claim": "The gap, drawn: a question about YOUR world goes to the internet's knowledge and comes back a guess."
+  },
+  {
+   "beat_id": "B03",
+   "act": "the fix",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "The fix is embarrassingly simple: give it the source. Attach the rota, the manual, the notes — the file goes into the chat, and suddenly the answer has somewhere to come from. Most AI apps let you attach files to a conversation, including Claude's. And some give the project a permanent shelf: Claude's projects keep your documents on hand, so every chat in that project starts already knowing them.",
+   "estimated_duration_s": 27.6,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "An open kraft box centre-stage. Pages drop into it one by one. Beside it, an answer card whose squiggles straighten into solid ink lines as a terracotta check lands. Label: 'give it the source'.",
+    "show": [
+     {
+      "at": 0.1,
+      "event": "open box lands"
+     },
+     {
+      "at": 0.25,
+      "event": "pages drop into the box, one by one"
+     },
+     {
+      "at": 0.55,
+      "event": "answer card lands with wobbly lines"
+     },
+     {
+      "at": 0.75,
+      "event": "lines straighten into solid ink; terracotta check lands; 'give it the source' label"
+     }
+    ],
+    "manim": {
+     "class": "B03_TheFix"
+    },
+    "motion_claim": "An open kraft box centre-stage. Pages drop into it one by one. Beside it, an answer card whose squiggles straighten into solid ink lines as a terracotta check lands. Label: 'give it the source'."
+   },
+   "motion_claim": "The fix, shown: documents go in, the guess becomes an answer with a check."
+  },
+  {
+   "beat_id": "B04",
+   "act": "the librarian",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "What happens next is the clever part, and it has a name you will meet: RAG. The AI does not read all your documents — that would take forever. It searches them like a librarian, pulls only the matching pages — the rota, not the handbook — and reads those before it answers. Anthropic's own help pages describe exactly this: a search tool that retrieves only the most relevant information from your uploaded documents. Librarian, not scanner.",
+   "estimated_duration_s": 30.8,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "A shelf of five dim pages. A question card, 'rota?', slides in; two pages glow with terracotta edges, lift off the shelf, and fly to an answer card whose solid lines draw in. Label: 'librarian'.",
+    "show": [
+     {
+      "at": 0.1,
+      "event": "shelf of five dim pages lands"
+     },
+     {
+      "at": 0.3,
+      "event": "question card 'rota?' slides in"
+     },
+     {
+      "at": 0.5,
+      "event": "two matching pages light with terracotta edges"
+     },
+     {
+      "at": 0.65,
+      "event": "the two pages fly to the answer card; its lines draw in; 'librarian' label lands"
+     }
+    ],
+    "manim": {
+     "class": "B04_TheLibrarian"
+    },
+    "motion_claim": "A shelf of five dim pages. A question card, 'rota?', slides in; two pages glow with terracotta edges, lift off the shelf, and fly to an answer card whose solid lines draw in. Label: 'librarian'."
+   },
+   "motion_claim": "RAG in plain words, performed: the librarian pulls only the matching pages, then reads."
+  },
+  {
+   "beat_id": "B05",
+   "act": "meaning map",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "How does the librarian know which pages match? Every word becomes a point on a map — this is the 'embeddings' idea, in plain words. Points for similar meanings sit near each other: invoice, receipt, bill cluster together; elephant lands across the map. So when you ask about billing, the search pulls the invoice cluster, not the elephant. Meaning becomes distance. That is the whole trick.",
+   "estimated_duration_s": 26.4,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "A dim scatter of dots. Three dots sit close together, labelled 'invoice', 'receipt', 'bill', inside a terracotta ring; one far dot labelled 'elephant'. Dim grid lines with gaps. Label: 'near = similar meaning'.",
+    "show": [
+     {
+      "at": 0.1,
+      "event": "dim dot scatter lands"
+     },
+     {
+      "at": 0.3,
+      "event": "the 'invoice / receipt / bill' cluster lights; terracotta ring draws around it"
+     },
+     {
+      "at": 0.55,
+      "event": "'elephant' dot lands far away, labelled"
+     },
+     {
+      "at": 0.75,
+      "event": "'near = similar meaning' label lands beneath"
+     }
+    ],
+    "manim": {
+     "class": "B05_MeaningMap"
+    },
+    "motion_claim": "A dim scatter of dots. Three dots sit close together, labelled 'invoice', 'receipt', 'bill', inside a terracotta ring; one far dot labelled 'elephant'. Dim grid lines with gaps. Label: 'near = similar meaning'."
+   },
+   "motion_claim": "Embeddings as a map: similar meanings cluster, so the search finds the right shelf by distance."
+  },
+  {
+   "beat_id": "B06",
+   "act": "what to upload",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "So what belongs in the box? Three kinds of material. Your notes — the stuff in your head that the internet never saw. Your work documents — the handbook, the rota, the meeting notes your team actually lives by: your work docs. And the only-you-know pile — your data, your drafts, your sources. Rule of thumb: if you would attach it to an email to brief a new colleague, it belongs in the AI's world too.",
+   "estimated_duration_s": 30.4,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Three open kraft boxes in a row, labels beneath: 'your notes', 'work docs', 'only-you-know'. A page drops into each box in turn.",
+    "show": [
+     {
+      "at": 0.1,
+      "event": "three open boxes land with their labels"
+     },
+     {
+      "at": 0.35,
+      "event": "a page drops into 'your notes'"
+     },
+     {
+      "at": 0.55,
+      "event": "a page drops into 'work docs'"
+     },
+     {
+      "at": 0.75,
+      "event": "a page drops into 'only-you-know'"
+     }
+    ],
+    "manim": {
+     "class": "B06_WhatToUpload"
+    },
+    "motion_claim": "Three open kraft boxes in a row, labels beneath: 'your notes', 'work docs', 'only-you-know'. A page drops into each box in turn."
+   },
+   "motion_claim": "Three boxes fill: the three kinds of material that belong in the AI's world."
+  },
+  {
+   "beat_id": "B07",
+   "act": "three habits",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "Three habits make it stick. One: give it the source — attach the file, or keep it on the project's shelf. Two: pin it down — say 'answer only from these files,' and name the document, so it searches the rota instead of the handbook. Three: make it quote — ask for the exact line it used, and check the quote against your file. A citation you can verify beats a confident paragraph every time.",
+   "estimated_duration_s": 30.0,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Three cards in a row, numbered 1-2-3 with one short line each: 'give it the source', 'pin it: only from this', 'make it quote'. A terracotta check lands on each card in turn.",
+    "show": [
+     {
+      "at": 0.1,
+      "event": "three numbered cards land"
+     },
+     {
+      "at": 0.35,
+      "event": "check lands on card 1"
+     },
+     {
+      "at": 0.55,
+      "event": "check lands on card 2"
+     },
+     {
+      "at": 0.75,
+      "event": "check lands on card 3"
+     }
+    ],
+    "manim": {
+     "class": "B07_ThreeHabits"
+    },
+    "motion_claim": "Three cards in a row, numbered 1-2-3 with one short line each: 'give it the source', 'pin it: only from this', 'make it quote'. A terracotta check lands on each card in turn."
+   },
+   "motion_claim": "The working practice, as three stamped cards: source, pin, quote."
+  },
+  {
+   "beat_id": "B08",
+   "act": "where it bites",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "Now the teardown — where this bites. First, the AI never warns you about what is missing — your blind spots. It answers from what it has; silence is not disagreement. Second, stale documents give stale answers — the box needs weeding, or last year's policy becomes this year's confidently wrong reply. Third, it trusts your uploads completely. A wrong document does not get flagged; it gets quoted. Garbage in, confident garbage out.",
+   "estimated_duration_s": 29.2,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Three mini-panels: a half-empty box ('blind spots'), a cobwebbed page beside a fresh page ('stale in, stale out'), a page with an ink X and a quoted line ('wrong doc = confident quote').",
+    "show": [
+     {
+      "at": 0.1,
+      "event": "half-empty box lands, label 'blind spots'"
+     },
+     {
+      "at": 0.35,
+      "event": "cobwebbed page vs fresh page land, label 'stale in, stale out'"
+     },
+     {
+      "at": 0.6,
+      "event": "wrong page with ink X lands; a quoted line appears beneath it"
+     }
+    ],
+    "manim": {
+     "class": "B08_WhereItBites"
+    },
+    "motion_claim": "Three mini-panels: a half-empty box ('blind spots'), a cobwebbed page beside a fresh page ('stale in, stale out'), a page with an ink X and a quoted line ('wrong doc = confident quote')."
+   },
+   "motion_claim": "The honest teardown in three panels: blind spots, staleness, and misplaced trust."
+  },
+  {
+   "beat_id": "BVDT",
+   "act": "verdict",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "The verdict. The AI answers from the world's knowledge — not yours. Hand it your documents and it searches them, reads the matching parts, and answers from your material. Pin it to the source, and make it quote. And the falsifiable test: ask about something only your files know. A generic answer means the upload never happened.",
+   "estimated_duration_s": 22.8,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "verdict card lands, heading 'Teach it your world'"
+     },
+     {
+      "at": 0.25,
+      "event": "lines 1-2 stagger in"
+     },
+     {
+      "at": 0.6,
+      "event": "lines 3-4 stagger in; the falsifiable line holds"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeVerdictArtifact",
+     "props": {
+      "artifactTitle": "Verdict",
+      "artifactHeading": "Teach it your world",
+      "brandLabel": "@NikBearBrown",
+      "artifactLines": [
+       "The AI knows the world — it doesn't know your world.",
+       "Upload your documents; it searches them and answers from what it finds.",
+       "Pin it: 'answer only from these files' — and make it quote the line.",
+       "Falsifiable: ask about something only your docs know. A generic answer means it never read them."
+      ]
+     }
+    }
+   },
+   "motion_claim": "The recap as an artifact card: mechanism, practice, and the falsifiable test.",
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "Verdict artifact page: four recap lines, read in full."
+   }
+  },
+  {
+   "beat_id": "BHTF",
+   "act": "your turn",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "\"Here is our on-call rota for this month: [paste it]. From now on, answer my scheduling questions only from this rota, and quote the line you used. First question: who is on call this Friday?\" Pick any document only you have — a rota, a menu, a reading list. Paste it in, pin the AI to it, and ask a question whose answer you can check. Then check two things yourself: does the quote match your document, word for word? And what does it say when the answer is not in there? Take this prompt, run it on your own material — and see what it quotes.",
+   "estimated_duration_s": 42.8,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "Composer opens — 'Your turn.'"
+     },
+     {
+      "at": 0.1,
+      "event": "the prompt types in full"
+     },
+     {
+      "at": 0.8,
+      "event": "two check lines land"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "CLAUDE · YOUR TURN",
+      "segment": "Teach It Once",
+      "command": "Here is our on-call rota for this month: [paste it]. From now on, answer my scheduling questions only from this rota, and quote the line you used. First question: who is on call this Friday?",
+      "running_text": "paste this into Claude…",
+      "output": [
+       "Check: does the quoted line match your document?",
+       "Check: what does it say when the answer isn't in the rota?"
+      ],
+      "folderLabel": "@NikBearBrown"
+     }
+    }
+   },
+   "motion_claim": "The handoff: a paste-ready prompt read aloud in full, with two self-checks."
+  },
+  {
+   "beat_id": "BOUT",
+   "act": "outro",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "Teach it your world. At Nik Bear Brown. Liam, in for Bear.",
+   "estimated_duration_s": 4.8,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "title restates; handle; mascot"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Teach it your world",
+      "slug": "teach-it-your-world",
+      "handle": "@NikBearBrown",
+      "subline": ""
+     }
+    }
+   },
+   "kind": "outro_voice",
+   "tail_silence_s": 1.0
+  }
+ ]
+}
