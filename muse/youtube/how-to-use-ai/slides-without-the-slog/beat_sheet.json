@@ -1,0 +1,586 @@
+{
+  "metadata": {
+    "slug": "slides-without-the-slog",
+    "title": "Slides without the slog",
+    "topic": "CLAUDE · HOW TO AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "English-adjacent (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience, not AI experts",
+    "source_doc": "NEW — built from scratch from the series brief (2026-10-05); no mirror source",
+    "playlist": "How to AI",
+    "companion_to": "the-long-game",
+    "tags": [
+      "AI",
+      "prompts",
+      "how to AI",
+      "slide decks",
+      "outlining",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. A friend of mine dumped his meeting notes into an AI and said, make me a slide deck. What came back was eighteen slides of walls of text. Here is the three-move way from rough notes to a deck people can actually read.",
+      "estimated_duration_s": 20.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Make my notes into a slide deck.'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces the trigger and types 'Turn my notes into a slide deck, one move at a time.' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Make my notes into a slide deck.",
+            "triggerWords": "Make my notes into a slide deck",
+            "replacementWords": "Turn my notes into a slide deck, one move at a time",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "slides-without-the-slog",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive make-the-whole-deck question and corrects it into the film's method: one move at a time.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. An outline: the skeleton of the deck, one line per slide. A slide: one idea on one card — a headline, not an essay. And the polish: cutting every slide down until it reads from the back row. That’s all you need for this film.",
+      "estimated_duration_s": 18.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'outline' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'slide' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'polish' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "outline",
+                "meaning": "the skeleton of the deck, one line per slide"
+              },
+              {
+                "term": "slide",
+                "meaning": "one idea on one card: a headline, not an essay"
+              },
+              {
+                "term": "polish",
+                "meaning": "cutting each slide down until it reads from the back row"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Start with the goal. A pile of rough notes in — a five-slide deck out, every slide clean enough to read from the back row. No walls of text, no tiny print. That is a deck without the slog.",
+      "estimated_duration_s": 15.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A messy notes page lands on the left; an arrow draws to three clean slide cards in a row on the right; the label 'the goal' lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "notes page drops in"
+          },
+          {
+            "at": 0.3,
+            "event": "arrow draws"
+          },
+          {
+            "at": 0.5,
+            "event": "slide cards land"
+          },
+          {
+            "at": 0.8,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B00_Goal"
+        },
+        "motion_claim": "A messy notes page lands on the left; an arrow draws to three clean slide cards in a row on the right; the label 'the goal' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So he pasted the notes and asked for the whole deck at once. Out came eighteen slides in about a minute — and every single one was a wall of text. Asked for everything at once, the AI did not know what mattered. So it kept everything.",
+      "estimated_duration_s": 18.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "One big slide card lands covered in many text lines; stacked cards sit behind it; the label 'all at once' lands; terracotta dots flag the walls of text.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "big slide lands, text lines fill it"
+          },
+          {
+            "at": 0.35,
+            "event": "stacked cards behind"
+          },
+          {
+            "at": 0.55,
+            "event": "label"
+          },
+          {
+            "at": 0.7,
+            "event": "flag dots"
+          }
+        ],
+        "manim": {
+          "class": "B01_Walls"
+        },
+        "motion_claim": "One big slide card lands covered in many text lines; stacked cards sit behind it; the label 'all at once' lands; terracotta dots flag the walls of text."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here’s why. A slide is not a page. The moment a slide fills with words, the room reads the slide instead of listening to you. And an AI building the whole deck at once guesses what matters most — it cannot know what you would cut.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A big slide on a screen; three audience dots at the side; their sight lines draw to the slide, not the speaker; the label 'walls get read' lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "slide on screen"
+          },
+          {
+            "at": 0.3,
+            "event": "audience dots"
+          },
+          {
+            "at": 0.5,
+            "event": "sight lines draw"
+          },
+          {
+            "at": 0.8,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B02_WhyRead"
+        },
+        "motion_claim": "A big slide on a screen; three audience dots at the side; their sight lines draw to the slide, not the speaker; the label 'walls get read' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Move one: the outline. Before a single slide exists, ask the AI for a one-line-per-slide skeleton — the whole deck, no prose. Then you do the most important job in this film: read it, fix it, approve it. The outline is the contract, same as in The long game.",
+      "estimated_duration_s": 19.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The outline card lands; its five slide rows draw in; a terracotta check stamps your approval; the label 'move one: outline'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "outline card lands"
+          },
+          {
+            "at": 0.35,
+            "event": "slide rows draw"
+          },
+          {
+            "at": 0.8,
+            "event": "approval check"
+          },
+          {
+            "at": 0.9,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B03_Outline"
+        },
+        "motion_claim": "The outline card lands; its five slide rows draw in; a terracotta check stamps your approval; the label 'move one: outline'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Move two: one slide per prompt. The AI drafts slide one — only slide one — with the outline beside it. Small enough to check in one sitting, because you read it before slide two starts.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The outline card slides left; slide one drops in; an arrow draws card to slide; the label 'move two: one slide'; a check lands on the slide.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "card slides left, slide drops"
+          },
+          {
+            "at": 0.3,
+            "event": "arrow draws, label"
+          },
+          {
+            "at": 0.7,
+            "event": "check lands"
+          }
+        ],
+        "manim": {
+          "class": "B04_OneSlide"
+        },
+        "motion_claim": "The outline card slides left; slide one drops in; an arrow draws card to slide; the label 'move two: one slide'; a check lands on the slide."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then the polish. Read each slide and cut the words — a headline plus a few short lines, nothing more. And the words you cut are not lost: they move where they belong, into the speaker notes — the lines only you see.",
+      "estimated_duration_s": 17.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A full slide card; its text lines lift out and fade one by one; a notes card appears below and catches them; the label 'the polish: cut'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "full slide lands"
+          },
+          {
+            "at": 0.35,
+            "event": "lines lift out"
+          },
+          {
+            "at": 0.65,
+            "event": "notes card appears"
+          },
+          {
+            "at": 0.8,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B05_Polish"
+        },
+        "motion_claim": "A full slide card; its text lines lift out and fade one by one; a notes card appears below and catches them; the label 'the polish: cut'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Last move: the back-row test. Step back from the screen and read the slide. If you cannot catch the headline in a few seconds, it is still too full. Cut again, then step back once more.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The slide shrinks toward the back of the room; the headline stays readable; a terracotta check stamps it; the label 'the back-row test'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "slide on screen"
+          },
+          {
+            "at": 0.35,
+            "event": "slide shrinks to the back"
+          },
+          {
+            "at": 0.7,
+            "event": "check lands"
+          },
+          {
+            "at": 0.85,
+            "event": "label"
+          }
+        ],
+        "manim": {
+          "class": "B06_BackRow"
+        },
+        "motion_claim": "The slide shrinks toward the back of the room; the headline stays readable; a terracotta check stamps it; the label 'the back-row test'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Same notes, same AI. On the left: the one-prompt deck — eighteen slides of walls of text. On the right: outline first, one slide per prompt, polished at the end. A deck people can actually read.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Left: the wall-of-text slides return with the label 'one giant prompt'. Right: a neat checked deck with the label 'outline, slides, polish'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "wall slides left"
+          },
+          {
+            "at": 0.25,
+            "event": "left label"
+          },
+          {
+            "at": 0.55,
+            "event": "neat deck right"
+          },
+          {
+            "at": 0.9,
+            "event": "right label"
+          }
+        ],
+        "manim": {
+          "class": "B07_SideBySide"
+        },
+        "motion_claim": "Left: the wall-of-text slides return with the label 'one giant prompt'. Right: a neat checked deck with the label 'outline, slides, polish'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Make it a habit. Outline first. One slide per prompt. Polish last. Anything you would show a room is a deck without the slog — build it in three moves.",
+      "estimated_duration_s": 12.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "One big card lands: 'outline first' / 'one slide per prompt' / 'polish last'; a check drops on it.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "rule card lands"
+          },
+          {
+            "at": 0.3,
+            "event": "row one"
+          },
+          {
+            "at": 0.45,
+            "event": "row two"
+          },
+          {
+            "at": 0.6,
+            "event": "row three"
+          },
+          {
+            "at": 0.9,
+            "event": "check"
+          }
+        ],
+        "manim": {
+          "class": "B08_Habit"
+        },
+        "motion_claim": "One big card lands: 'outline first' / 'one slide per prompt' / 'polish last'; a check drops on it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: I’m turning rough notes into a five-slide deck. Don’t build any slides yet. First, draft a one-line-per-slide outline from my notes, then wait for my approval. My notes: [paste them here]. Then check two things yourself. Does the AI give you an outline, not slides? And is every note on it — nothing missing, nothing invented?",
+      "estimated_duration_s": 24.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Your First Deck Outline",
+            "command": "I’m turning rough notes into a five-slide deck. Don’t build any slides yet. First, draft a one-line-per-slide outline from my notes, then wait for my approval. My notes: [paste them here].",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: the AI gives you an outline, not slides.",
+              "Check: every note is on it — nothing missing, nothing invented."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Sonnet",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Slides without the slog. At Nik Bear Brown.",
+      "estimated_duration_s": 5.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Slides without the slog",
+            "slug": "slides-without-the-slog",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
