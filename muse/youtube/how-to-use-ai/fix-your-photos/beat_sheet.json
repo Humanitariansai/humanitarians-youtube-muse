@@ -1,0 +1,590 @@
+{
+  "metadata": {
+    "slug": "fix-your-photos",
+    "title": "Fix your photos",
+    "topic": "HOW TO AI · PHOTO EDITING",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "Spanish (Hola)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience; not necessarily AI experts",
+    "source_doc": "Built from scratch (NEW). Photo-app AI editing tools verified against Google's Photos editing page, 2026-10-05 (see FACTCHECK.md); companion reference to the extra film ai-that-sees.",
+    "playlist": "how-to-use-ai",
+    "series_note": "Film 39 of the How-to-AI series, Wave 6 'Making things'; companion to the extra film ai-that-sees (which taught handing the AI a photo; this one teaches changing it).",
+    "tags": [
+      "photo editing",
+      "Magic Eraser",
+      "object removal",
+      "hallucination",
+      "show-tell",
+      "how-to-ai",
+      "Claude",
+      "general-audience",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hola. This is Liam, in for Bear. You've got a photo you love, except for one thing in it. The question isn't how do I fix this photo. It's what do I ask the AI to change in my photo.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'How do I fix this photo?'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'fix this photo' → 'what do I ask the AI to change in my photo' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I fix this photo?",
+            "triggerWords": "fix this photo",
+            "replacementWords": "what do I ask the AI to change in my photo",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "fix-your-photos",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive fix question and corrects it to the real one: what to ask the AI to change.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. Photobomber: a stranger who wanders into your shot. Object removal: the AI erasing a thing and filling in the background. Hallucination: the AI inventing a detail it can't see.",
+      "estimated_duration_s": 12.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'photobomber' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'object removal' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'hallucination' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "photobomber",
+                "meaning": "a stranger who wanders into your shot"
+              },
+              {
+                "term": "object removal",
+                "meaning": "the AI erasing a thing and filling in the background"
+              },
+              {
+                "term": "hallucination",
+                "meaning": "the AI inventing a detail it can't see"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Start with the photo itself. You got the shot: everyone laughing, the light just right — and there's a stranger's head behind you. A few years ago this photo was dead. Today you fix it the same way you talk to the AI: in words.",
+      "estimated_duration_s": 18.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A kraft photo card with two dark figures in front; a smaller stranger figure stands behind them, labelled 'photobomber' with a leader.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "photo + figures land"
+          },
+          {
+            "at": 0.5,
+            "event": "'photobomber' label with leader"
+          }
+        ],
+        "manim": {
+          "class": "B00_PhotoHero"
+        },
+        "motion_claim": "A kraft photo card with two dark figures in front; a smaller stranger figure stands behind them, labelled 'photobomber' with a leader."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The companion film, AI that sees, was about handing the AI a photo so it can describe it. This film is about changing the photo. For that you use the AI tools in your photo app. If you use Google Photos, it calls its eraser Magic Eraser.",
+      "estimated_duration_s": 18.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two photo cards: 'see' (the companion's job) and 'change' (this film's job); a dashed terracotta eraser ring lands on 'change' and a terracotta check with it.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "both cards land, labelled"
+          },
+          {
+            "at": 0.45,
+            "event": "eraser ring appears on 'change'"
+          },
+          {
+            "at": 0.65,
+            "event": "terracotta check"
+          }
+        ],
+        "manim": {
+          "class": "B01_Companion"
+        },
+        "motion_claim": "Two photo cards: 'see' (the companion's job) and 'change' (this film's job); a dashed terracotta eraser ring lands on 'change' and a terracotta check with it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The big one: remove the photobomber. Open the edit tools, find the eraser, and tap the stranger — or circle them if the app misses. The AI erases them and paints in what should be there: grass, fence, sky.",
+      "estimated_duration_s": 15.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The photo with the photobomber; a dashed terracotta ring circles the stranger, who fades out as a kraft fill patch grows in, labelled 'gone'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "photo + photobomber land"
+          },
+          {
+            "at": 0.35,
+            "event": "dashed ring circles the stranger"
+          },
+          {
+            "at": 0.6,
+            "event": "stranger fades, fill patch grows"
+          }
+        ],
+        "manim": {
+          "class": "B02_Remove"
+        },
+        "motion_claim": "The photo with the photobomber; a dashed terracotta ring circles the stranger, who fades out as a kraft fill patch grows in, labelled 'gone'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "That painting in is called hallucination: the AI inventing a detail it can't see. It does fine on grass and sky, because grass looks like grass. But faces, hands, and words on signs — always look at those. They can come out wrong.",
+      "estimated_duration_s": 17.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The patched photo; a dashed terracotta outline marks the invented region, labelled 'invented' with a leader.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "patched photo lands"
+          },
+          {
+            "at": 0.4,
+            "event": "dashed outline on the invented region"
+          },
+          {
+            "at": 0.6,
+            "event": "'invented' label with leader"
+          }
+        ],
+        "manim": {
+          "class": "B03_Invent"
+        },
+        "motion_claim": "The patched photo; a dashed terracotta outline marks the invented region, labelled 'invented' with a leader."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then the lighting. Skip the forest of sliders. Try the app's one-tap suggestion — in Google Photos it's called Enhance — and the AI does the slider math for you: brighter, warmer, better colors.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two cards: a dim 'dark' one and a bright 'bright' one with a terracotta sun; an arrow runs dark → bright and a terracotta check lands on bright.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "both cards land, labelled"
+          },
+          {
+            "at": 0.45,
+            "event": "arrow dark → bright"
+          },
+          {
+            "at": 0.65,
+            "event": "sun + terracotta check on bright"
+          }
+        ],
+        "manim": {
+          "class": "B04_Light"
+        },
+        "motion_claim": "Two cards: a dim 'dark' one and a bright 'bright' one with a terracotta sun; an arrow runs dark → bright and a terracotta check lands on bright."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Before the fancy edits, straighten the horizon and tighten the frame. Open the crop tool, rotate until the horizon is level, and pull the frame in. A level horizon fixes more photos than any filter.",
+      "estimated_duration_s": 14.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A photo with a tilted ink horizon; a crop frame closes in, the tilted line is replaced by a level one, labelled 'level'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "photo + tilted horizon land"
+          },
+          {
+            "at": 0.35,
+            "event": "crop frame appears"
+          },
+          {
+            "at": 0.55,
+            "event": "horizon goes level"
+          },
+          {
+            "at": 0.7,
+            "event": "'level' label"
+          }
+        ],
+        "manim": {
+          "class": "B05_Straighten"
+        },
+        "motion_claim": "A photo with a tilted ink horizon; a crop frame closes in, the tilted line is replaced by a level one, labelled 'level'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One rule: edit a copy, never the original. Good apps save the edit as a separate copy. Make sure yours does — an edit saved on top of the original can't be undone, and you don't get the photo back.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two cards: 'original' untouched and 'copy' with a dashed eraser ring; a terracotta check lands on the copy.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "both cards land, labelled"
+          },
+          {
+            "at": 0.45,
+            "event": "eraser ring on the copy"
+          },
+          {
+            "at": 0.65,
+            "event": "terracotta check on the copy"
+          }
+        ],
+        "manim": {
+          "class": "B06_Copy"
+        },
+        "motion_claim": "Two cards: 'original' untouched and 'copy' with a dashed eraser ring; a terracotta check lands on the copy."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Check the spot it fixed. Zoom in where the photobomber was and look at the edges: smeared lines, a fence post that grew wrong, grass repeating like wallpaper. If it's off, undo and circle more tightly.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The patched photo with a magnifier grown over the fixed spot, labelled 'look' with a leader.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "patched photo lands"
+          },
+          {
+            "at": 0.4,
+            "event": "magnifier grows over the fix"
+          },
+          {
+            "at": 0.65,
+            "event": "'look' label with leader"
+          }
+        ],
+        "manim": {
+          "class": "B07_Check"
+        },
+        "motion_claim": "The patched photo with a magnifier grown over the fixed spot, labelled 'look' with a leader."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Last rule: an edited photo is a made thing. The family album and the print shop are fine. But never show it as what really happened — and never edit documents: receipts, IDs, anything official.",
+      "estimated_duration_s": 14.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A family photo gets a terracotta check; a document card gets an ink X, labelled 'album' and 'ID'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "both cards land, labelled"
+          },
+          {
+            "at": 0.45,
+            "event": "terracotta check on the album photo"
+          },
+          {
+            "at": 0.6,
+            "event": "ink X on the ID"
+          }
+        ],
+        "manim": {
+          "class": "B08_MadeThing"
+        },
+        "motion_claim": "A family photo gets a terracotta check; a document card gets an ink X, labelled 'album' and 'ID'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then print. Decide on the screen, full size, at arm's length: does it look right? Then print that one file. The print shop gets the finished photo, not your drafts.",
+      "estimated_duration_s": 12.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A grey printer; a white print page with the fixed photo grows out of its slot, labelled 'print'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "printer + slot land"
+          },
+          {
+            "at": 0.35,
+            "event": "page grows out of the slot"
+          },
+          {
+            "at": 0.65,
+            "event": "'print' label"
+          }
+        ],
+        "manim": {
+          "class": "B09_Print"
+        },
+        "motion_claim": "A grey printer; a white print page with the fixed photo grows out of its slot, labelled 'print'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: Attach a photo you want to fix and write: tell me what you would change about this photo before I print it, from most to least important. Then I will make the changes in my photo app, one at a time. Then check two things yourself. Does the background look real where the thing was removed? And do you still have the original if the edit goes wrong?",
+      "estimated_duration_s": 29.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Fix One Photo",
+            "command": "Attach a photo you want to fix and write: tell me what you would change about this photo before I print it, from most to least important. Then I will make the changes in my photo app, one at a time.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: does the background look real where the thing was removed?",
+              "Check: do you still have the original if the edit goes wrong?"
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Fix your photos. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Fix your photos",
+            "slug": "fix-your-photos",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
