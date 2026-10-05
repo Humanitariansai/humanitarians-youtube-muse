@@ -1,0 +1,491 @@
+{
+ "metadata": {
+  "slug": "give-it-a-voice",
+  "title": "Give it a voice",
+  "topic": "HOW TO AI · WAVE 6 MAKING THINGS",
+  "skill": "show-tell",
+  "style_preset": "show-tell",
+  "channel": "claude-liam",
+  "persona": "Liam (in for Bear)",
+  "voice": "am_onyx",
+  "voice_kokoro": "am_onyx",
+  "engine": "kokoro",
+  "clock": "narration",
+  "palette": "claude",
+  "register": "Teardown",
+  "fps": 24,
+  "aspect_ratio": "16:9",
+  "width": 3840,
+  "height": 2160,
+  "caption_policy": "none",
+  "greeting_language": "Hallo (German)",
+  "playlist": "How to AI",
+  "wave": "Wave 6: Making things",
+  "film_no": 36,
+  "tags": [
+   "voiceover",
+   "text-to-speech",
+   "suno",
+   "google vids"
+  ],
+  "bookend_exempt": [
+   "cold-open",
+   "bvdt"
+  ],
+  "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays."
+ },
+ "beats": [
+  {
+   "beat_id": "BIDEA",
+   "act": "the question",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "Hallo. This is Liam, in for Bear. I need to record a voiceover for my slides. Well, actually, I need the AI to do it. Because now, your slides can talk for themselves.",
+   "estimated_duration_s": 13.2,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "types 'I need to record a voiceover for my slides.'"
+     },
+     {
+      "at": 0.55,
+      "event": "backspaces 'record a voiceover for my slides' -> 'need AI to voice my slides'"
+     }
+    ],
+    "remotion": {
+     "pattern": "BrutalistHesitantWriter",
+     "props": {
+      "text": "I need to\nrecord a voiceover for my slides.",
+      "triggerWords": "record a voiceover for my slides",
+      "replacementWords": "need AI to voice my slides",
+      "fontSize": 70,
+      "charSize": 22,
+      "charMs": 22,
+      "hesitateBetween": 6,
+      "hesitateWithin": 1,
+      "mistakeRate": 2,
+      "jitter": 20,
+      "seed": "give-it-a-voice",
+      "banner": ""
+     }
+    }
+   },
+   "lead_silence_s": 0.8,
+   "motion_claim": "The writer types the naive plan and corrects it to the film's claim: the AI voices the slides.",
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+   }
+  },
+  {
+   "beat_id": "BDEFS",
+   "act": "terms",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "Three terms for this film. A voiceover: spoken narration that runs over slides or video. Text-to-speech: software that reads written words aloud. And beta: an early test version, still a little rough around the edges.",
+   "estimated_duration_s": 14.0,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "title lands"
+     },
+     {
+      "at": 0.2,
+      "event": "term 1 lands"
+     },
+     {
+      "at": 0.5,
+      "event": "term 2 lands"
+     },
+     {
+      "at": 0.75,
+      "event": "term 3 lands"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeDefinitions",
+     "props": {
+      "title": "Terms In This Film",
+      "terms": [
+       {
+        "term": "Voiceover",
+        "def": "spoken narration that runs over slides or video"
+       },
+       {
+        "term": "Text-to-speech",
+        "def": "software that reads written words aloud"
+       },
+       {
+        "term": "Beta",
+        "def": "an early test version, still a little rough"
+       }
+      ],
+      "durationSeconds": 14.0
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "B00",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "The starting point is simple. Your slides are finished, and they are silent. Someone has to read them out loud, and that someone used to be you, a microphone, and twenty takes.",
+   "estimated_duration_s": 12.8,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Three slide pages land in a stack; a muted speaker lands beside them; the deck is tagged 'needs a voice'.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "three slide pages land in a stack"
+     },
+     {
+      "at": 0.35,
+      "event": "muted speaker lands beside the stack"
+     },
+     {
+      "at": 0.7,
+      "event": "'needs a voice' pill lands on 'silent'"
+     }
+    ],
+    "manim": {
+     "class": "B00_SilentSlides"
+    },
+    "motion_claim": "Three slide pages land in a stack; a muted speaker lands beside them; the deck is tagged 'needs a voice'."
+   },
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "show-tell body: one hero object per beat on the cream stage, by design"
+   }
+  },
+  {
+   "beat_id": "B01",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "Meet Suno Speech. Suno is the company known for making songs from text. This October they opened a public beta that speaks instead of sings. You give it your script. It gives you back a voice reading it, with background music mixed underneath, in one track.",
+   "estimated_duration_s": 18.4,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "The top page slides into the Suno Speech box; a voice wave and a music trail stream out and merge into one track bar.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "Suno Speech box lands"
+     },
+     {
+      "at": 0.3,
+      "event": "the deck page slides into the box"
+     },
+     {
+      "at": 0.6,
+      "event": "voice wave and music trail stream out"
+     },
+     {
+      "at": 0.85,
+      "event": "the two streams merge into one track bar"
+     }
+    ],
+    "manim": {
+     "class": "B01_SunoSpeech"
+    },
+    "motion_claim": "The top page slides into the Suno Speech box; a voice wave and a music trail stream out and merge into one track bar."
+   },
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "show-tell body: one hero object per beat on the cream stage, by design"
+   }
+  },
+  {
+   "beat_id": "B02",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "There are two ways to use it. Simple mode: you describe what you want, like a pirate captain rallying his crew. Advanced mode: you paste in your exact script, and fine-tune the voice, its gender, its style, how much variety it uses.",
+   "estimated_duration_s": 16.8,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Two cards land side by side: 'Simple — describe it' and 'Advanced — your script'; voice sliders rise on the Advanced card.",
+    "show": [
+     {
+      "at": 0.08,
+      "event": "the 'Simple — describe it' card lands"
+     },
+     {
+      "at": 0.45,
+      "event": "the 'Advanced — your script' card lands"
+     },
+     {
+      "at": 0.7,
+      "event": "voice sliders rise on the Advanced card"
+     }
+    ],
+    "manim": {
+     "class": "B02_TwoWays"
+    },
+    "motion_claim": "Two cards land side by side: 'Simple — describe it' and 'Advanced — your script'; voice sliders rise on the Advanced card."
+   },
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "show-tell body: one hero object per beat on the cream stage, by design"
+   }
+  },
+  {
+   "beat_id": "B03",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "The workflow is three steps. One: write the script, or just describe the vibe. Two: pick the voice and the music style, soft piano under a bedtime story, stadium drums under a pep talk. Three: generate. Voice and music land in one track, mixed and ready.",
+   "estimated_duration_s": 18.4,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "Three step pills chain across; the merged track bar lands at the end of the chain.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "step pill 'script or vibe' lands"
+     },
+     {
+      "at": 0.35,
+      "event": "step pill 'voice + music style' lands"
+     },
+     {
+      "at": 0.6,
+      "event": "step pill 'generate' lands"
+     },
+     {
+      "at": 0.85,
+      "event": "the merged track bar lands at the end"
+     }
+    ],
+    "manim": {
+     "class": "B03_Workflow"
+    },
+    "motion_claim": "Three step pills chain across; the merged track bar lands at the end of the chain."
+   },
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "show-tell body: one hero object per beat on the cream stage, by design"
+   }
+  },
+  {
+   "beat_id": "B04",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "The honest part. Beta means rough, and Suno's own team says so. Accents can wander: a British voice may come back Australian. And dramatic pauses can get very dramatic. So listen to the whole take before it goes anywhere public.",
+   "estimated_duration_s": 16.0,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "The track bar returns; a 'wandering accent' tag arcs away and back; one pause gap stretches wide.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "the track bar returns"
+     },
+     {
+      "at": 0.35,
+      "event": "'wandering accent' tag arcs away and back"
+     },
+     {
+      "at": 0.6,
+      "event": "one pause gap stretches wide"
+     },
+     {
+      "at": 0.85,
+      "event": "the tag settles on 'beta means rough'"
+     }
+    ],
+    "manim": {
+     "class": "B04_BetaRough"
+    },
+    "motion_claim": "The track bar returns; a 'wandering accent' tag arcs away and back; one pause gap stretches wide."
+   },
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "show-tell body: one hero object per beat on the cream stage, by design"
+   }
+  },
+  {
+   "beat_id": "B05",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "And if you edit in Google Vids, you don't need a second app. Vids already has AI voiceovers built in. You type the script per scene, pick one of thirty voices, and steer the delivery with bracket tags, like open bracket, excitedly, close bracket. The voiceover lives inside the video: no separate audio file to line up.",
+   "estimated_duration_s": 22.8,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "The Vids browser window lands; the deck page and a script pill enter; the '[excitedly]' tag pill lands; a check stamps 'no separate audio file'.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "Vids browser window lands"
+     },
+     {
+      "at": 0.3,
+      "event": "deck page and script pill enter"
+     },
+     {
+      "at": 0.55,
+      "event": "'[excitedly]' tag pill lands"
+     },
+     {
+      "at": 0.85,
+      "event": "check stamps 'no separate audio file'"
+     }
+    ],
+    "manim": {
+     "class": "B05_VidsBuiltIn"
+    },
+    "motion_claim": "The Vids browser window lands; the deck page and a script pill enter; the '[excitedly]' tag pill lands; a check stamps 'no separate audio file'."
+   },
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "show-tell body: one hero object per beat on the cream stage, by design"
+   }
+  },
+  {
+   "beat_id": "B06",
+   "act": "show-tell",
+   "lane": "manim",
+   "proof_gate": "SHOW",
+   "narration_text": "One rule before you generate. The voice reads exactly what you wrote: typos, weird punctuation, all of it. So proofread like the voice is watching. Short sentences. Numbers written the way they sound. And read it aloud yourself first: if you stumble, the AI will too.",
+   "estimated_duration_s": 18.4,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "GRAPHIC",
+    "source": "own",
+    "visual_intent": "A page lands with one typo word on its lines; sound-wave arcs read it aloud; the typo takes a terracotta X; the clean page earns the check.",
+    "show": [
+     {
+      "at": 0.05,
+      "event": "the page with the typo lands"
+     },
+     {
+      "at": 0.4,
+      "event": "sound-wave arcs read the page aloud"
+     },
+     {
+      "at": 0.65,
+      "event": "the typo takes the terracotta X"
+     },
+     {
+      "at": 0.88,
+      "event": "the clean page earns the check"
+     }
+    ],
+    "manim": {
+     "class": "B06_TheRule"
+    },
+    "motion_claim": "A page lands with one typo word on its lines; sound-wave arcs read it aloud; the typo takes a terracotta X; the clean page earns the check."
+   },
+   "qc": {
+    "sparse_by_design": true,
+    "sparse_reason": "show-tell body: one hero object per beat on the cream stage, by design"
+   }
+  },
+  {
+   "beat_id": "BHTF",
+   "act": "your turn",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "Your turn. Paste this into Claude: Turn my script into a voiceover-ready script. Use short sentences. Write numbers and acronyms the way they sound. Then read it back to me, exactly as it will be spoken. Now check it yourself. Read the script out loud: if you stumble on a line, the AI will too. And always listen to the first ten seconds before you generate the whole thing.",
+   "estimated_duration_s": 27.6,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "Composer opens — 'Your turn.'"
+     },
+     {
+      "at": 0.1,
+      "event": "the prompt types in full"
+     },
+     {
+      "at": 0.8,
+      "event": "two check lines land"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "topic": "HOW TO AI — YOUR TURN",
+      "segment": "Give it a voice",
+      "command": "Turn my script into a voiceover-ready script. Use short sentences. Write numbers and acronyms the way they sound. Then read it back to me, exactly as it will be spoken.",
+      "runningText": "paste this into Claude—",
+      "output": [
+       "you can read your own script aloud without stumbling",
+       "the first ten seconds sound right before the full take"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "beat_id": "BOUT",
+   "act": "outro",
+   "lane": "bookend",
+   "proof_gate": "SHOW",
+   "narration_text": "Give it a voice. At Nik Bear Brown.",
+   "estimated_duration_s": 3.2,
+   "voice": "am_onyx",
+   "engine": "kokoro",
+   "shot": {
+    "type": "REMOTION",
+    "source": "own",
+    "show": [
+     {
+      "at": 0.0,
+      "event": "title restates; handle; mascot"
+     }
+    ],
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Give it a voice",
+      "slug": "give-it-a-voice",
+      "handle": "@NikBearBrown",
+      "subline": ""
+     }
+    }
+   },
+   "kind": "outro_voice",
+   "tail_silence_s": 1.0
+  }
+ ]
+}
