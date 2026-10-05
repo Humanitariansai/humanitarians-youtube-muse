@@ -55,9 +55,24 @@ The existing prompt-tutorial lessons, rewritten for a general audience.
 | 23 | Set it up once | Custom instructions: teach the AI your preferences a single time. | NEW | show-tell |
 | 24 | One AI or many? | How to pick between tools without obsessing. | NEW (companion to `everyone-wants-one-ai`) | cc-explainer |
 
+## Wave 5 — Going deeper (new)
+
+| # | Working title | Pitch | Source | Skill |
+|---|---|---|---|---|
+| 25 | Teach it your world | Upload your docs so AI answers from YOUR material. | NEW | cc-explainer (built as ai-explainer — no real terminal session exists) |
+| 26 | The long game | Long documents: outline first, then sections, then stitch. Companion to `small-steps-big-jobs`. | NEW | show-tell |
+| 27 | Make it remember (and forget) | Memory features: what to store, what never to store, how to delete it. | NEW | cc-explainer (built as show-tell — no real terminal session exists) |
+| 28 | Agents: AI that does things | What "agentic" AI means for a normal person. | NEW | ai-explainer |
+| 29 | Talk to your tools | Connecting AI to email/calendar/apps. Companion to `meetings-into-notes`. | NEW | cc-explainer (built as show-tell — no real terminal session exists) |
+| 30 | The second opinion | Pit two AIs against each other, or make one argue against itself. Companion to `make-it-check-its-own-work`. | NEW | ai-explainer (built as show-tell — series consistency) |
+| 31 | Code without coding | What a non-programmer can safely build with AI coding tools. | NEW | show-tell |
+| 32 | Your personal research assistant | Deep-research features: how to brief it, read it, distrust it. Companion to `trust-but-verify`. | NEW | show-tell |
+| 33 | AI that sees | Screenshots, photos, screen-share: multimodal uses that beat typing. Companion to `just-talk-to-it`. | NEW | show-tell |
+| 34 | The yes-man problem | Sycophancy: when AI agrees too much, and how to ask for pushback. Companion to `when-its-confidently-wrong`. | NEW | deep-explainer (built as ai-explainer — one insight, 3–6 min band) |
+
 ## Done
 
-All 24 films completed 2026-10-03 and moved to `muse/README.md`:
+All 24 films completed 2026-10-03, plus Wave 5 (films #25–34) completed 2026-10-04, and moved to `muse/README.md`:
 
 - #1 [Say what you want, plainly](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/say-what-you-want-plainly) — `muse/youtube/how-to-use-ai/say-what-you-want-plainly/`
 - #2 [Tell the AI who to be](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/tell-the-ai-who-to-be) — `muse/youtube/how-to-use-ai/tell-the-ai-who-to-be/`
@@ -83,3 +98,14 @@ All 24 films completed 2026-10-03 and moved to `muse/README.md`:
 - #22 [Free vs paid: when to pay](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/free-vs-paid-when-to-pay) — `muse/youtube/how-to-use-ai/free-vs-paid-when-to-pay/`
 - #23 [Set it up once](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/set-it-up-once) — `muse/youtube/how-to-use-ai/set-it-up-once/`
 - #24 [One AI or many?](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/one-ai-or-many) — `muse/youtube/how-to-use-ai/one-ai-or-many/`
+
+- #25 [Teach it your world](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/teach-it-your-world) — `muse/youtube/how-to-use-ai/teach-it-your-world/`
+- #26 [The long game](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/the-long-game) — `muse/youtube/how-to-use-ai/the-long-game/`
+- #27 [Make it remember (and forget)](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/make-it-remember) — `muse/youtube/how-to-use-ai/make-it-remember/`
+- #28 [Agents: AI that does things](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/agents-that-do-things) — `muse/youtube/how-to-use-ai/agents-that-do-things/`
+- #29 [Talk to your tools](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/talk-to-your-tools) — `muse/youtube/how-to-use-ai/talk-to-your-tools/`
+- #30 [The Second Opinion](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/the-second-opinion) — `muse/youtube/how-to-use-ai/the-second-opinion/`
+- #31 [Code without coding](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/code-without-coding) — `muse/youtube/how-to-use-ai/code-without-coding/`
+- #32 [Your personal research assistant](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/personal-research-assistant) — `muse/youtube/how-to-use-ai/personal-research-assistant/`
+- #33 [AI that sees](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/ai-that-sees) — `muse/youtube/how-to-use-ai/ai-that-sees/`
+- #34 [The yes-man problem](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/the-yes-man-problem) — `muse/youtube/how-to-use-ai/the-yes-man-problem/`
