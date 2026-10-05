@@ -69,7 +69,20 @@ The existing prompt-tutorial lessons, rewritten for a general audience.
 | 32 | Your personal research assistant | Deep-research features: how to brief it, read it, distrust it. Companion to `trust-but-verify`. | NEW | show-tell |
 | 33 | AI that sees | Screenshots, photos, screen-share: multimodal uses that beat typing. Companion to `just-talk-to-it`. | NEW | show-tell |
 | 34 | The yes-man problem | Sycophancy: when AI agrees too much, and how to ask for pushback. Companion to `when-its-confidently-wrong`. | NEW | deep-explainer (built as ai-explainer — one insight, 3–6 min band) |
+## Wave 6 — Making things (new)
 
+| # | Working title | Pitch | Source | Skill |
+|---|---|---|---|---|
+| 35 | Video clips for free | Google Vids free AI video clips: 1080p, scene extension. | NEW (producer intel) | show-tell |
+| 36 | Give it a voice | AI voiceovers for your own slides and videos. | NEW (producer intel) | show-tell |
+| 37 | Your song in a minute | Birthday songs, jingles, bedtime stories on demand. | NEW | show-tell |
+| 38 | Posters and flyers | Image generation for real-world printables. Companion to `pictures-from-words`. | NEW | show-tell |
+| 39 | Fix your photos | AI cleanup of your own photos. Companion to `ai-that-sees`. | NEW | show-tell |
+| 40 | Captions that write themselves | Auto subtitles/captions for your videos. | NEW | show-tell |
+| 41 | Slides without the slog | Rough notes into a real deck. Companion to `the-long-game`. | NEW | show-tell |
+| 42 | Tame your inbox | Triage, summarize, draft replies. Companion to `talk-to-your-tools`. | NEW | show-tell |
+| 43 | Shop smarter | AI buying co-pilot: compare, review-summaries, fine-print traps. | NEW | show-tell |
+| 44 | Your language coach | Conversation practice in any language. Companion to `learn-anything-faster`. | NEW | show-tell |
 ## Done
 
 All 24 films completed 2026-10-03, plus Wave 5 (films #25–34) completed 2026-10-04, and moved to `muse/README.md`:
@@ -109,3 +122,14 @@ All 24 films completed 2026-10-03, plus Wave 5 (films #25–34) completed 2026-1
 - #32 [Your personal research assistant](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/personal-research-assistant) — `muse/youtube/how-to-use-ai/personal-research-assistant/`
 - #33 [AI that sees](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/ai-that-sees) — `muse/youtube/how-to-use-ai/ai-that-sees/`
 - #34 [The yes-man problem](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/the-yes-man-problem) — `muse/youtube/how-to-use-ai/the-yes-man-problem/`
+
+- #35 [Video clips for free](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/video-clips-for-free) — `muse/youtube/how-to-use-ai/video-clips-for-free/`
+- #36 [Give it a voice](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/give-it-a-voice) — `muse/youtube/how-to-use-ai/give-it-a-voice/`
+- #37 [Your song in a minute](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/your-song-in-a-minute) — `muse/youtube/how-to-use-ai/your-song-in-a-minute/`
+- #38 [Posters and flyers](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/posters-and-flyers) — `muse/youtube/how-to-use-ai/posters-and-flyers/`
+- #39 [Fix your photos](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/fix-your-photos) — `muse/youtube/how-to-use-ai/fix-your-photos/`
+- #40 [Captions that write themselves](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/captions-that-write-themselves) — `muse/youtube/how-to-use-ai/captions-that-write-themselves/`
+- #41 [Slides without the slog](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/slides-without-the-slog) — `muse/youtube/how-to-use-ai/slides-without-the-slog/`
+- #42 [Tame your inbox](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/tame-your-inbox) — `muse/youtube/how-to-use-ai/tame-your-inbox/`
+- #43 [Shop smarter](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/shop-smarter) — `muse/youtube/how-to-use-ai/shop-smarter/`
+- #44 [Your language coach](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/your-language-coach) — `muse/youtube/how-to-use-ai/your-language-coach/`
