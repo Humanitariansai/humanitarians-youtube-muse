@@ -64,6 +64,16 @@ Nothing is rendered or published from here; MP3/MP4/WAV files are never committe
 | Your personal research assistant | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/personal-research-assistant/CLAUDE-CODE-RENDER.md) | 14 beats (~4m00s), 10 scenes, QC clean |
 | AI that sees | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/ai-that-sees/CLAUDE-CODE-RENDER.md) | 16 beats (~4m07s), 12 scenes, QC clean |
 | The yes-man problem | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/the-yes-man-problem/CLAUDE-CODE-RENDER.md) | 13 beats (~4m33s), 9 scenes, QC clean |
+| Video clips for free | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/video-clips-for-free/CLAUDE-CODE-RENDER.md) | 13 beats (~3m10s), 9 scenes, QC clean |
+| Give it a voice | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/give-it-a-voice/CLAUDE-CODE-RENDER.md) | 11 beats (~3m02s), 7 scenes, QC clean |
+| Your song in a minute | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/your-song-in-a-minute/CLAUDE-CODE-RENDER.md) | 12 beats (~4m14s), 8 scenes, QC clean |
+| Posters and flyers | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/posters-and-flyers/CLAUDE-CODE-RENDER.md) | 13 beats (~4m14s), 9 scenes, QC clean |
+| Fix your photos | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/fix-your-photos/CLAUDE-CODE-RENDER.md) | 14 beats (~3m36s), 10 scenes, QC clean |
+| Captions that write themselves | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/captions-that-write-themselves/CLAUDE-CODE-RENDER.md) | 12 beats (~3m34s), 8 scenes, QC clean |
+| Slides without the slog | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/slides-without-the-slog/CLAUDE-CODE-RENDER.md) | 13 beats (~3m33s), 9 scenes, QC clean |
+| Tame your inbox | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/tame-your-inbox/CLAUDE-CODE-RENDER.md) | 10 beats (~3m10s), 6 scenes, QC clean |
+| Shop smarter | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/shop-smarter/CLAUDE-CODE-RENDER.md) | 13 beats (~3m25s), 9 scenes, QC clean |
+| Your language coach | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/your-language-coach/CLAUDE-CODE-RENDER.md) | 11 beats (~3m44s), 7 scenes, QC clean |
 
 ## Coming up
 
