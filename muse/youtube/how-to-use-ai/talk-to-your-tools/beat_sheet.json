@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "slug": "talk-to-your-tools",
+    "title": "Talk to your tools",
+    "topic": "CLAUDE · AT WORK",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "general audience — smart and pragmatic, not necessarily AI experts; may never have connected an app to an AI chat tool",
+    "source_doc": "built from scratch 2026-10-04; no mirror source. Companion to the meetings-into-notes film (meeting prep beat B05). No real people's names, no real company internals.",
+    "playlist": "Getting started with Claude",
+    "chapter_number": 0,
+    "tags": [
+      "connectors",
+      "integrations",
+      "email",
+      "calendar",
+      "Claude",
+      "AI assistant",
+      "automation",
+      "permissions",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. Your inbox piles up, your calendar fills itself, and Claude can see none of it. The naive fix is to hand it your password. But the better question is the one on screen.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'How do I give Claude my passwords'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'give Claude my passwords' -> 'connect Claude to my tools safely'"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "How do I give Claude my passwords",
+            "triggerWords": "give Claude my passwords",
+            "replacementWords": "connect Claude to my tools safely",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "talk-to-your-tools",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive password question and corrects it to the film's thesis: connect, don't hand over.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. A connector: the plug between Claude and one of your apps. Permissions: what you let it do — read, write, or send. An automation: a repeat job you hand it, like a morning email summary.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'connector' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'permissions' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'automation' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "connector",
+                "meaning": "the plug between Claude and one of your apps"
+              },
+              {
+                "term": "permissions",
+                "meaning": "what you let it do — read, write, or send"
+              },
+              {
+                "term": "automation",
+                "meaning": "a repeat job you hand it, like a morning email summary"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Right now, Claude lives in a chat window, and your real life lives somewhere else — your inbox, your calendar. So you copy things over by hand: paste the email, paste the invite. Connectors end the copying. The chat reaches into your apps, and talks about what's actually in them.",
+      "estimated_duration_s": 20.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The chat window left; an email card and a calendar page right. Two fragment cards slide from the apps into the composer (the copying); then a cable draws across the gap. Label 'the gap' beside the window.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "window + apps land"
+          },
+          {
+            "at": 0.35,
+            "event": "fragments slide into the composer"
+          },
+          {
+            "at": 0.8,
+            "event": "cable draws across the gap"
+          }
+        ],
+        "manim": {
+          "class": "B00_TheGap"
+        },
+        "motion_claim": "The chat window left; an email card and a calendar page right. Two fragment cards slide from the apps into the composer (the copying); then a cable draws across the gap. Label 'the gap' beside the window."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here's how it works. You open your connectors settings, pick the app, and click connect. Then the app itself asks you to sign in — Google, Microsoft, whoever runs it. You never type your password into Claude. It's the same dance as logging into a new phone app with your Google account.",
+      "estimated_duration_s": 20.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The plug on its cable slides into the socket on the email app card; a shield with an ink check pops on the card (signed in). Label 'the plug' beside the card.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "window + app card + plug land"
+          },
+          {
+            "at": 0.35,
+            "event": "plug slides into the socket"
+          },
+          {
+            "at": 0.75,
+            "event": "sign-in shield pops"
+          }
+        ],
+        "manim": {
+          "class": "B01_ThePlug"
+        },
+        "motion_claim": "The plug on its cable slides into the socket on the email app card; a shield with an ink check pops on the card (signed in). Label 'the plug' beside the card."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then comes the screen that matters most: permissions. It lists exactly what Claude may do — read your email, read your calendar, send email. Reading is looking; sending is acting. So grant the smallest key that works. Start read-only. You can always widen it later.",
+      "estimated_duration_s": 18.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A permissions card; three rows land one by one ('read email', 'read calendar', 'send email'); ink checks stamp the two read rows, an ink X stamps the send row. Label 'permissions' beside the card.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "permissions card lands"
+          },
+          {
+            "at": 0.3,
+            "event": "'read email' + 'read calendar' rows + checks"
+          },
+          {
+            "at": 0.7,
+            "event": "'send email' row + X"
+          }
+        ],
+        "manim": {
+          "class": "B02_Permissions"
+        },
+        "motion_claim": "A permissions card; three rows land one by one ('read email', 'read calendar', 'send email'); ink checks stamp the two read rows, an ink X stamps the send row. Label 'permissions' beside the card."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now the payoff. The first automation worth setting up: the morning brief. Every morning, you ask: what's my day, and what needs a reply? Claude reads your calendar and your unread email, and hands the day back in three lines — what's on, what needs you, what can wait.",
+      "estimated_duration_s": 19.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The calendar page and the email card left; kraft lines draw to a brief card that grows right with three lines; three terracotta dots land. Label 'morning brief'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "calendar + email land"
+          },
+          {
+            "at": 0.4,
+            "event": "brief card grows"
+          },
+          {
+            "at": 0.8,
+            "event": "three terracotta dots land"
+          }
+        ],
+        "manim": {
+          "class": "B03_MorningBrief"
+        },
+        "motion_claim": "The calendar page and the email card left; kraft lines draw to a brief card that grows right with three lines; three terracotta dots land. Label 'morning brief'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The second: inbox triage. Point it at the pile and ask: what actually needs me? It sorts the real from the noise — the bill and the boss in one stack, newsletters and receipts in the other. You read what matters, and skip the rest.",
+      "estimated_duration_s": 18.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The inbox card splits into two stacks: 'needs you' (ink lines) and 'noise' (dim lines); a terracotta check lands on the needs-you stack. Label 'triage'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "inbox card lands"
+          },
+          {
+            "at": 0.35,
+            "event": "inbox splits into two stacks"
+          },
+          {
+            "at": 0.8,
+            "event": "check lands on 'needs you'"
+          }
+        ],
+        "manim": {
+          "class": "B04_InboxTriage"
+        },
+        "motion_claim": "The inbox card splits into two stacks: 'needs you' (ink lines) and 'noise' (dim lines); a terracotta check lands on the needs-you stack. Label 'triage'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The third is the companion to our meetings film. Before a call, ask: what do I need to know? It pulls the invite and the last thread with these people, and hands you a one-paragraph brief. You walk in already knowing the room.",
+      "estimated_duration_s": 17.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The calendar page and the email card left; a prep card grows right with paragraph lines and a terracotta dot. Label 'meeting prep'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "calendar + email land"
+          },
+          {
+            "at": 0.45,
+            "event": "prep card grows"
+          },
+          {
+            "at": 0.8,
+            "event": "terracotta dot lands"
+          }
+        ],
+        "manim": {
+          "class": "B05_MeetingPrep"
+        },
+        "motion_claim": "The calendar page and the email card left; a prep card grows right with paragraph lines and a terracotta dot. Label 'meeting prep'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now what to watch out for. The big one is sending. A draft is Claude guessing; a sent email is you acting. So let it write every draft it wants — but nothing leaves your outbox until your own eyes have read it. The send button stays yours.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A draft card grows; a big ink SEND pill lands beneath it; an ink lock lands over the pill. Label 'you send' beside the card.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "draft card grows"
+          },
+          {
+            "at": 0.45,
+            "event": "SEND pill lands"
+          },
+          {
+            "at": 0.75,
+            "event": "lock lands over the pill"
+          }
+        ],
+        "manim": {
+          "class": "B06_YouSend"
+        },
+        "motion_claim": "A draft card grows; a big ink SEND pill lands beneath it; an ink lock lands over the pill. Label 'you send' beside the card."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The second warning: give it the smallest key, and take keys back. If a job only needs reading, never grant sending. And every few months, open your connectors and pull the plugs you don't use anymore. An unused connection is an unlocked door.",
+      "estimated_duration_s": 17.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The app card with the plug in its socket; the plug slides out along its cable and lands in a tray; a check stamps the tray. Label 'pull the plug'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "app card + plugged cable land"
+          },
+          {
+            "at": 0.5,
+            "event": "plug slides out into the tray"
+          },
+          {
+            "at": 0.85,
+            "event": "check stamps the tray"
+          }
+        ],
+        "manim": {
+          "class": "B07_PullThePlug"
+        },
+        "motion_claim": "The app card with the plug in its socket; the plug slides out along its cable and lands in a tray; a check stamps the tray. Label 'pull the plug'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And one more, because nobody tells you this. Once it's connected, Claude reads everything in the app — including a calendar invite from a total stranger. And a stranger can hide instructions in an invite that try to steer the AI. So: a weird invite from someone you don't know? Don't accept it. Don't ask Claude about it. Delete it.",
+      "estimated_duration_s": 24.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A calendar invite card ('from: stranger') drops in; an ink X stamps it; the card slides off stage. Label \"strangers' invites\".",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "stranger invite drops in"
+          },
+          {
+            "at": 0.6,
+            "event": "ink X stamps the invite"
+          },
+          {
+            "at": 0.85,
+            "event": "card slides off stage"
+          }
+        ],
+        "manim": {
+          "class": "B08_StrangerInvite"
+        },
+        "motion_claim": "A calendar invite card ('from: stranger') drops in; an ink X stamps it; the card slides off stage. Label \"strangers' invites\"."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Connect one app — your email — and keep it read-only. Then paste this into Claude: Look at my unread emails from this week and give me a three-line summary. Read only — do not send, reply, or change anything. Then check two things yourself. One: did anything leave your inbox? Open your sent folder — it should be empty. Two: open your connectors settings — does the email connection show read access only? If it shows send, disconnect it and reconnect with fewer permissions.",
+      "estimated_duration_s": 34.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Talk to your tools",
+            "command": "Look at my unread emails from this week and give me a three-line summary. Read only — do not send, reply, or change anything.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: did anything leave your inbox? Open your sent folder — it should be empty.",
+              "Check: open your connectors settings — does the email connection show read access only? If it shows send, disconnect and reconnect with fewer permissions."
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Talk to your tools. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Talk to your tools.",
+            "slug": "talk-to-your-tools",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
