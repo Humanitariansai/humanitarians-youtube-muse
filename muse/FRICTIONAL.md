@@ -2158,3 +2158,244 @@ I understand now that static QC (py_compile + static_scene_check) does not valid
 
 **7. Evidence and next step.**
 Evidence: fixed files live at `muse/youtube/how-to-use-ai/agents-that-do-things/make_sheet.py` (commit 71a1b24) and `muse/youtube/how-to-use-ai/the-yes-man-problem/{make_sheet.py,beat_sheet.json}` (commits ae415b3, 9a35d75); 9/10 slate MP4s verified 1920x1080 via ffprobe. Next step: finish the agents-that-do-things slate cut, then deliver all 10 films to Bear for watching. [record]
+
+## 2026-10-05 — Film 35: "Video clips for free"
+
+**1. Date and what I was working on.**
+2026-10-05. Film 35 of the How-to-AI series (Wave 6 "Making things"): "Video clips for free" — a show-tell pre-render package about Google Vids' free AI video-clip tier and the decision framework for spending the clips. [record]
+
+**2. I tried / expected.**
+I expected the standard pipeline to run cleanly: research → ACTS/SHOTLIST/FACTCHECK → make_sheet → scenes → QC → push 12 files to `muse/youtube/how-to-use-ai/video-clips-for-free/` and verify 12/12 live via Contents API reads. I expected the GitHub helper to work as on prior builds. [my input]
+
+**3. What happened (including failures and reversals).**
+Research confirmed the free tier (personal accounts, Veo 3.1, April 2026; 10 clips/month, 1080p, ~8 s clips, scene extension, parallel generation) — but two sources disagree on the reset rule (every 30 days vs. 1st of month 12 a.m. PT), so the film hedges to "refills each month". QC: static_scene_check failed B01_OneClip on the first run ("shapes never change") — fixed by splitting the clip into frame-first / play-triangle-second; 9/9 clean after. The GitHub push was then blocked: all 12 PUTs returned HTTP 403 policy_denied ("proactivity_read_only_preparation"). GET reads work; PUTs are denied in this session. 0/12 pushed. [record]
+
+**4. What I did.**
+Built all 12 files: 13 beats / 190.0 s / 9 Manim scenes, show-tell skill, zero cards (card test documented in SHOTLIST.md). Deliberately no hard quota numbers in the film (churn) — build-time numbers live in FACTCHECK.md only; B08's gauge shows a needle moving with no digits. Ran py_compile, static QC 9/9 (0 warn, 0 error), and a scripted verbatim-until check. Every beat's voice field is the Kokoro code `am_onyx`, enforced by a generation-time assertion. [record]
+
+**5. What Claude or another person contributed.**
+The assignment came from the parent orchestrator (topic, pitch, wave, the no-hard-quota and no-pricing-tiers constraints, the 12-file package spec). Research sources: WinBuzzer, gHacks, Toolworthy, rehandream, AwesomeAgents, BlueHeadline, Seedance, GadgetHacks. No Bear input this turn. [record]
+
+**6. What I understand now / still don't know.**
+I understand the full pre-render pipeline now, including the midpoint-guard convention (every scene's last play lands before 45% of its beat duration) and the until()-verbatim trap. I still don't know whether the PUT block is specific to this proactive-delivery session or a wider policy change — the parent needs to confirm and push. [my input]
+
+**7. Evidence and next step.**
+Evidence: local dir `~/workspace/film-builds/how-to-ai/video-clips-for-free/` (12 files), CHECKS-REPORT.md (9/9 clean), beat_sheet.json (190.0 s). Next step: parent pushes the 12 files from an eligible session with the gh-put-file.py loop above and verifies 12/12 via Contents API reads; then Bear renders on his Mac per CLAUDE-CODE-RENDER.md (`manim_layout_audit.py --curve-strict` deferred there). [record]
+
+## 2026-10-05 — Film 36: "Give it a voice"
+
+**1. Date and what I was working on.**
+2026-10-05. Film #36 of the humanitarians-channel Muse series ("How to AI", Wave 6 "Making things"): a show-tell film on AI voiceovers — Suno's Speech beta reads your script with optional background music in one track; Google Vids already has AI voiceovers built in. [record]
+
+**2. What happened / outcome.**
+Built the full 12-file pre-render package locally (`~/workspace/film-builds/how-to-ai/give-it-a-voice/`): 11 beats, 181.6 s (~3:02), 7 Manim scenes. `py_compile` clean; static QC 0 warn / 0 error on all 7 classes, in the build dir and in a scenes.py-only scratch dir. PUSH FAILED: 0/12 files reached Humanitariansai/humanitarians-youtube-muse — every PUT returned HTTP 403 `policy_denied` (`proactivity_read_only_preparation`); the subagent session is read-only on github.com. Package is complete and waiting for a write-approved session to push. [record]
+
+**3. What was hard.**
+The pitch's claim "Vids has voiceovers coming" was wrong — research showed Vids already ships AI voiceovers (Apr/Jul 2026 Workspace Updates). Also, Suno Speech is 4 days old, so every claim had to be re-verified against launch-week coverage rather than memory. [record]
+
+**4. What I did.**
+Re-verified Suno Speech at build time (6 Oct 2, 2026 sources); corrected the Vids claim in the film and recorded it as FACTCHECK #11 (CORRECTED); left Suno's "first audio model" marketing claim out of the film (no published benchmarks); kept all narration Kokoro-safe ("open bracket, excitedly, close bracket", no acronyms/versions); placed every beat's plays clear of the GATE T midpoint sample (B01 lead=2.0, B05 lead=1.2); fixed one make_sheet self-assertion (triggerWords split by a line break). [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic, pitch, film-identity constants, and the show-tell skill choice. The GitHub PAT and push tooling came from the standing setup. No human touched the build; the AI contribution is the research, drafting, QC pre-review, and the Vids correction. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the full pre-render pipeline and the show-tell QC traps (midpoint guards, sparse_by_design waivers, stub-safe APIs) well enough to pass static QC first try. I still do not know whether the parent's push of this package succeeded, or the next film's topic. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files complete locally; CHECKS-REPORT.md records the clean gate; Contents API GET confirms 0/12 live at `muse/youtube/how-to-use-ai/give-it-a-voice/`. Next step: push the 12 files from a write-approved session and verify 12/12 live; then Bear renders narration (Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md. [record]
+
+## 2026-10-05 — Film 37: "Your song in a minute" (coordinator-reconstructed; worker report not received)
+
+**1. Date and what I was working on.**
+2026-10-05. Film #37 of the How-to-AI series (Wave 6 "Making things"): "Your song in a minute" — a show-tell pre-render package: describe it and get a finished song back (birthday songs, jingles, bedtime stories). [record]
+
+**2. What happened / outcome.**
+The assigned worker completed and its 12 files are local at `~/workspace/film-builds/how-to-ai/your-song-in-a-minute/`, but its final report never arrived (only a meta-notification). Reconstructed from the local package: 12 beats, 253.7 s (~4m14s), 8 Manim scenes, show-tell skill kept. PUSH: 0/12 live — GitHub writes policy-blocked in worker sessions. [record]
+
+**3. What was hard.**
+QC caught one real failure: B03_ListenFirst's playhead sweep used move-only `MoveAlongPath`, which Gate A's stub reads as "shapes never change" — fixed by joining the playhead to the opening FadeIn and adding a terracotta ring GrowFromCenter after the sweep. [record]
+
+**4. What I did (coordinator).**
+Verified all 12 files present locally; read CHECKS-REPORT.md (8 clean · 0 warn · 0 error) and BUILD-LOG.md (skill choice, beat design) to reconstruct this entry. [record]
+
+**5. What Bear or another person contributed.**
+Bear set the topic, pitch, and film-identity constants via the assignment; the parent orchestrator supplied the spec. [record]
+
+**6. What I understand now / still don't understand.**
+The package is genuinely QC-clean per its own reports. I do not have the worker's own account of its fact-check verdicts — the parent should skim FACTCHECK.md before treating every claim as verified. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files at `~/workspace/film-builds/how-to-ai/your-song-in-a-minute/`; CHECKS-REPORT.md records 8 clean · 0 warn · 0 error. Next step: push the 12 files from a write-approved session and verify 12/12 live; then Bear renders per CLAUDE-CODE-RENDER.md. [record]
+
+## 2026-10-05 — Film 38: "Posters and flyers" (Wave 6, Making things)
+
+**1. Date and what I was working on.**
+2026-10-05. One complete pre-render film package for the humanitarians AI YouTube channel: "Posters and flyers" (slug `posters-and-flyers`) — film #38, Wave 6 "Making things": image generation for real-world printables (garage sale, bake sale, side business), companion to film 19 `pictures-from-words`. [record]
+
+**2. I tried / expected.**
+I expected to keep the assigned show-tell skill and to conform to the current how-to-use-ai package convention (GRAPHIC body beats + REMOTION bookends, `voice: am_onyx`, `<BID>_<Name>` Manim classes), which I studied in the local `how-to-use-claude/` build. I expected the GitHub push to work via `gh-put-file.py`; it did not — the session policy denies PUT. [my input]
+
+**3. What happened (including failures and reversals).**
+- Built all 12 package files: 13 beats, 9 GRAPHIC + 4 REMOTION, 254.2 s (~4m14s) inside the 200–360 s band. make_sheet.py assertions all pass on first run. [record]
+- Kept show-tell; ran the card test per beat — zero cards, all 9 body beats drawn, reason recorded in SHOTLIST.md. [judgment]
+- Companion handled by reference only: B01 points at `pictures-from-words` for the ladder and five-slot recipe; FACTCHECK inherits its two verified blocks (letter-drawing/misspellings; AI labels) and marks everything else PASS or EXEMPT craft guidance. No pricing tiers quoted. [judgment]
+- QC gate: py_compile clean; static_scene_check on all 9 classes from a scratch dir — 0 warnings / 0 errors on the first run. Two hand-review fixes made before the check (short leaders dropped per the sub-floor-text trap; B02 chips auto-sized and right-aligned to stay in the ±6.2 safe area) — recorded in CHECKS-REPORT.md, not concealed. [record]
+- Push failed: all 12 PUTs returned HTTP 403 `policy_denied` (`proactivity_read_only_preparation`); GET reads work (HTTP 200), so this is a write-only policy block on this session, not a credential failure. Files are staged locally, verified complete. [record]
+
+**4. What I did.**
+Wrote the full 12-file package; passed the full QC gate with zero warnings/errors; attempted all 12 pushes via gh-put-file.py and documented the policy block. The parent (or a later session with write access) can push the files as-is from `~/workspace/film-builds/how-to-ai/posters-and-flyers/`. [record]
+
+**5. What Claude or another person contributed.**
+The parent orchestrator supplied the assignment (slug, title, pitch, companion reference, audience, skill menu, 12-file convention, QC gate, FRICTIONAL format, no-pricing rule). Bear's standing identity constants (claude-liam, Liam persona, Kokoro am_onyx, Teardown, @NikBearBrown) and the "companion to pictures-from-words" framing shaped the film. The `how-to-use-claude` local build supplied the exact beat-sheet schema I conformed to. Everything else — script, visuals, fact-check, QC — is this build's work. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the current how-to-use-ai package convention end to end (GRAPHIC/REMOTION split, `am_onyx` voice code law, bookend prop contracts) well enough to build it clean first try. I do not know whether the push policy block is session-scoped or permanent for proactive builds — the parent should confirm before queuing more films this way. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 complete files at `~/workspace/film-builds/how-to-ai/posters-and-flyers/`; CHECKS-REPORT.md records the clean gate (9 classes, 0 warn / 0 error); `make_sheet.py` prints beats=13 body=9 bookends=4 total=254.2s. Next step: re-run the 12 `gh-put-file.py` pushes from a session with write access (each then verified with a Contents API read), then Bear renders on his Mac per CLAUDE-CODE-RENDER.md — including the deferred `manim_layout_audit.py --curve-strict`, which cannot run in this VM. [record]
+
+## 2026-10-05 — Film: "Fix your photos" (How-to-AI film 39)
+
+**1. Date and what I was working on.**
+2026-10-05. Pre-render package for "Fix your photos" (slug `fix-your-photos`), film 39 of the How-to-AI series (Wave 6, "Making things"): AI cleanup of your own photos — remove the photobomber, fix the lighting, before you print. Companion to the extra film `ai-that-sees`: that film taught handing the AI a photo so it can describe it; this one teaches changing it. Built to the subagent spec and show-tell skill. [record]
+
+**2. I tried / expected.**
+I expected to follow the sibling film's 12-file convention exactly, pick show-tell, fact-ground the editing claims with one or two searches, author 10 Manim scenes, pass the QC gate first try, and push 12 files via gh-put-file.py. [my input]
+
+**3. What happened (including failures and reversals).**
+- Key design decision from fact-grounding: the pitch says "AI cleanup", but searches showed Claude does NOT edit photos itself (leaked Sonnet 4.5 system-prompt mirrors: Claude describes, it does not edit). So the film frames every edit as "the AI tools in your photo app", with Google Photos' Magic Eraser / Enhance / Crop named as the verified example; Claude appears only in the Your-Turn prompt, asked for a described opinion ("tell me what you would change"), matching its verified see-and-describe ability. [record, judgment]
+- Fact-checked the photo-app tools against Google's Photos editing page and four Magic Eraser guides (2026-10-05): tap-or-circle removal, background reconstruction from surroundings, photobombs as the named use case, one-tap Enhance suggestions, Crop+Rotate, non-destructive save-as-copy, visible flaws on complex detail. [record]
+- make_sheet.py passed all assertions on the first run: 14 beats, 10 body, 216 s (~3m36s), inside the 170–280 s band. [record]
+- Static QC passed 10/10 clean · 0 warnings · 0 errors on the first run; every `until()` phrase script-verified verbatim in its beat's narration. [record]
+- The GitHub push FAILED on the first file with HTTP 403 from the runtime's own policy layer: `{"detail":"proactivity_read_only_preparation", "error":"policy_denied", ...}` on PUT. This is a session policy denial (read-only preparation mode), not a credential or package failure — no further pushes were attempted. The full 12-file package is complete and QC-gated locally, ready for the parent to push and verify. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py, beat_sheet.json — 14 beats, 10 body, 216 s — scenes.py with 10 Manim scenes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README) to the show-tell skill: BIDEA hesitant-writer question correction, BDEFS (photobomber / object removal / hallucination, all ≤ 17 chars), B00–B09 drawings (photo+photobomber, see-vs-change, eraser removal, invented fill, lighting, straighten+crop, edit-a-copy, check-the-fix, honesty rule, print), BHTF composer, spoken BOUT. Ran the full QC gate (10/10 clean, 0 warnings, 0 errors) and recorded it. Did not touch FRICTIONAL.md, muse/README.md, or muse/QUEUE.md. No MP3/MP4/WAV/.pyc/__pycache__/.DS_Store anywhere. [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic, pitch, and film-identity constants via the assignment; the parent orchestrator supplied the spec and will handle the push. The show-tell skill, QC checker, and 12-file package pattern came from the brutalist.art toolkit and the companion film `ai-that-sees` (whose cast — kraft hills photo card, check/X pair — this film reuses for continuity). I wrote every file; the AI contribution is the drafting, the QC pass, and the research verification against Google's Photos editing page and the Magic Eraser guides. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the product-framing rule now: when the pitch names "AI" but the named assistant (Claude) cannot do the action, frame the action as the generic tool class ("the AI tools in your photo app") with one verified named example, and confine Claude to what it can provably do. I do not know whether this proactive subagent session can push at all, or whether every proactive build needs the parent to do the GitHub side. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files complete and QC-gated at `~/workspace/film-builds/how-to-ai/fix-your-photos/` (CHECKS-REPORT.md records 10/10 clean · 0 warnings · 0 errors; make_sheet.py assertions pass; all voices `am_onyx`). Next step: push all 12 files to `muse/youtube/how-to-use-ai/fix-your-photos/` via gh-put-file.py and verify 12/12 with Contents API reads; then Bear renders narration (Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md (whisper-check "Magic Eraser" and "IDs" on BIDEA/B08); never publish without his explicit instruction. [record]
+
+## 2026-10-05 — Film: "Captions that write themselves"
+
+**1. Date and what I was working on.**
+2026-10-05. One complete pre-render film package for the humanitarians AI YouTube channel: "Captions That Write Themselves" (slug `captions-that-write-themselves`, film #40, How to AI / Wave 6 "Making things") — AI-generated captions for a normal person's phone-shot video: a four-step walkthrough (open a captioning tool / press the button / check names and odd words / burned-in or a caption file) plus a copy-paste caption-check prompt. Assigned skill show-tell, kept. [record]
+
+**2. I tried / expected.**
+I expected to follow the show-tell spine exactly: hesitant-writer open, key-terms card, drawn body beats, Your Turn composer, spoken outro — with the two quoted numbers (92% sound-off viewing; 430 million with disabling hearing loss) attributed aloud and on screen per the thin-numbers law, and no pricing tiers anywhere. I also expected to push all 12 files to `muse/youtube/how-to-use-ai/captions-that-write-themselves/` and verify 12/12 live. [record]
+
+**3. What happened (including failures and reversals).**
+- Research verified 2026-10-05: Verizon Media / Publicis Media 2019 survey — 92% of US consumers view video with the sound off on mobile (Next TV), 69% without sound in public places (PLOS ONE citation); WHO — 430 million with disabling hearing loss (who.int); auto-caption workflows and their failure modes (proper nouns, technical terms, fast speech) against CapCut's official docs and two 2026 guides — the failure modes are exactly the film's step-three check. [record]
+- One `make_sheet.py` assertion failure on the first run: the BHTF narration reads "find any line…" (mid-sentence lowercase) while the YT_PROMPT constant starts "Find…". Fixed the assertion to case-insensitive on that check, keeping the full-prompt word verification. [record]
+- QC gate: py_compile clean; static_scene_check 8/8 clean · 0 warnings · 0 errors on the first full run; all 24 `until()` pacing phrases script-verified verbatim, 0 misses. [record]
+- The generator asserts every per-beat voice is `am_onyx` — the Wave 5 "Muse"-as-voice failure is now a build-time assertion, not a convention. [judgment]
+- PUSH FAILED: all 12 PUTs returned HTTP 403 `policy_denied` (detail `proactivity_read_only_preparation`) — this subagent's egress allows Contents API GET but denies PUT in this proactive flow. A single-file retry failed identically: deterministic, not transient. Nothing was pushed; nothing was partially pushed. [record]
+
+**4. What I did.**
+Built the full 12-file package at `~/workspace/film-builds/how-to-ai/captions-that-write-themselves/`: ACTS.md, SHOTLIST.md, FACTCHECK.md (11-row claim table + judgments + cut/disclosed), SOURCES.md, PROMPTS.md, `make_sheet.py` (generates `beat_sheet.json`; asserts 12 beats, 8 manim beats, class names match beat ids, BHTF reads the prompt in full, all voices `am_onyx`, 190–250 s band), `beat_sheet.json` (214.4 s ≈ 3m34s), `scenes.py` (iso_kit pasted verbatim + 8 `<BID>_<Name>` Manim classes), BUILD-LOG.md, CHECKS-REPORT.md, CLAUDE-CODE-RENDER.md, README.md. Deleted the stray `__pycache__`; no MP3/MP4/WAV/.DS_Store anywhere. [record]
+
+**5. What Claude or another person contributed.**
+The parent orchestrator assigned the film (slug, title, pitch, skill, audience rules, identity constants, the 12-file package convention). Bear's standing identity constants (Liam, Kokoro `am_onyx`, Teardown, claude-liam, @NikBearBrown) and standing rules (no pricing tiers, tool-agnostic walkthrough, pre-render only) shaped the script. The Wave 5 voice-code lesson came from the render-stage FRICTIONAL entry — I encoded it as a generator assertion. The research is third-party (Verizon/Publicis via Next TV and PLOS ONE; WHO; CapCut docs). Everything else is this build's work. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the how-to-ai wave package convention (REMOTION bookends + GRAPHIC body beats with `<BID>_<Name>` Manim classes, sparse_by_design waivers, bookend_exempt) well enough to build it first-try clean, and I now treat voice codes as a render-contract assertion, not just a convention. I still do not know whether the parent wants this film taken to a watchable slate cut on Bear's Drive per the newer standing rule — the assignment said pre-render package only, and I built exactly that; and I cannot push in this flow, so delivering the files to GitHub is the parent's step. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files complete and QC-clean at `~/workspace/film-builds/how-to-ai/captions-that-write-themselves/`; CHECKS-REPORT.md records 8 clean · 0 warn · 0 error; `make_sheet.py` prints beats=12 body=8 total=214.4s. NOTHING is on GitHub yet — all 12 PUTs were policy-denied. Next step: a parent/root agent with write egress runs the 12 `gh-put-file.py` pushes to `muse/youtube/how-to-use-ai/captions-that-write-themselves/` and verifies each with a Contents API read; then Bear renders narration (Kokoro `am_onyx`) and the review cut on his Mac per CLAUDE-CODE-RENDER.md, including the deferred `manim_layout_audit.py --curve-strict`. [record]
+
+## 2026-10-05 — Film: "Slides without the slog"
+
+**1. Date and what I was working on.**
+2026-10-05. Film #41, Wave 6 "Making things": a pre-render package (script, Manim visuals, docs) for "Slides without the slog" — turn rough notes into a real deck: outline first, then slides, then polish. Companion to the-long-game (reference it, don't re-teach it). [record]
+
+**2. I tried / expected.**
+I expected to follow the companion film's build loop cleanly: read the skill, copy its conventions, write make_sheet.py, write scenes.py with the pasted iso_kit, run the static QC gate, push 12 files via gh-put-file.py. I expected the GitHub push loop to run cleanly one file at a time. [my input]
+
+**3. What happened (including failures and reversals).**
+- make_sheet.py passed all assertions on the first run: 13 beats, 9 body, 213 s (~3m33s). [record]
+- Pre-gate layout review caught one real bug before the QC run: in the first B00 draft the three slide cards drifted up out of the safe area (screen-y rises with x in this projection, so card C at x0=4.1 with oy=1.2 reached y≈4.25, past ±3.3). Fixed by laying the row on a constant (x0+y0) so all three cards sit at the same screen height, inside bounds. [record]
+- A terracotta ring planned for B06 was cut before the QC run: a ring is not one of the skill's sanctioned terracotta uses, so the shrink swap carries the motion alone. [judgment]
+- Static QC gate passed first try: 9 clean · 0 warn · 0 error. [record]
+- The GitHub push FAILED for all 12 files: HTTP 403 policy_denied ("proactivity_read_only_preparation") — the subagent session is read-only for GitHub writes; reads (Contents API) work fine. The package is complete locally; the push was left to the parent agent. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py, beat_sheet.json, scenes.py with 9 Manim scene classes, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README), verified sheet assertions and per-beat voice codes (all am_onyx — the Wave 5 persona-as-voice bug explicitly checked), hand-verified every scene coordinate against the ±6.2 × ±3.3 safe area (layout math recorded in the scenes.py header comment), and left the folder clean of __pycache__/.pyc/.DS_Store. [record]
+
+**5. What Claude or another person contributed.**
+Bear set the topic, the channel/persona lock (Liam, am_onyx, Teardown, claude-liam, @NikBearBrown), the audience rule, and the no-pricing-tiers rule. The show-tell skill, iso_kit, and static QC checker came from the brutalist.art toolkit; scene patterns and file formats were copied from the companion film the-long-game's package. The AI contribution is the drafting, the QC pre-review, and the research verification against the skill docs. [record]
+
+**6. What I understand now / still don't understand.**
+I understand the show-tell build loop end to end now: the iso projection's screen-y-rise-with-x is the layout trap to watch for (constant-(x0+y0) rows fix it), and animate-only shapes need a paired FadeIn to satisfy Gate A. I still don't know whether Bear wants the muse/ folder placement to stand, or the next film's topic — and whether the GitHub write block was specific to this subagent session or is a standing restriction. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files at `~/workspace/film-builds/how-to-ai/slides-without-the-slog/`; CHECKS-REPORT.md records the clean gate. Next step: the parent agent pushes all 12 files via gh-put-file.py to `muse/youtube/how-to-use-ai/slides-without-the-slog/` and verifies each with a Contents API read; then Bear renders narration (Kokoro am_onyx) and the review cut on his Mac per CLAUDE-CODE-RENDER.md, including the deferred `manim_layout_audit.py --curve-strict` pass. [record]
+
+## 2026-10-05 — Film 42: "Tame your inbox" (How to AI, Wave 6)
+
+**1. What I did.** Built the full 12-file pre-render package for "Tame your inbox" (show-tell, Liam, am_onyx, Teardown): 10 beats / 6 Manim scenes — triage, summarize, draft replies as the email first-pass, plus the two safety rules (never auto-send, never auto-delete), companioning talk-to-your-tools. QC: py_compile clean, static_scene_check 0 warnings / 0 errors on all 6 classes (both the Gate A simulation and the pacing run), every until() phrase verified verbatim; make_sheet.py now asserts valid Kokoro voice codes on every beat (the Wave 5 "voice: Muse" lesson). [record]
+
+**2. What happened / outcome.** The package is complete locally at ~/workspace/film-builds/how-to-ai/tame-your-inbox/ but NOT on GitHub: every Contents-API PUT was denied (HTTP 403 policy_denied, detail "proactivity_read_only_preparation" — writes hard-blocked in this session); 0/12 files live, directory 404s. The parent orchestrator must push from a write-capable context; push commands are in the subagent's final report. [record]
+
+**3. What was hard.** The write denial arrived only at push time, after the whole package was built and QC'd — the read path worked fine (fetched QUEUE.md and FRICTIONAL.md), so the write block was invisible until the end.
+
+**4. What I did about it.** Verified 0 files landed (Contents API 404 on the directory) so there is no partial-push mess; documented the exact push loop for the parent; did not attempt any bypass of the policy. [my input]
+
+**5. What Bear or another person contributed.** The parent orchestrator assigned slug, title, pitch, skill, audience rules, and the companion framing; Bear's standing identity constants and the Wave 5 voice-code failure defined the generator's voice assert. [record]
+
+**6. What I understand now / still do not understand.** I understand that a blocked-write session still allows full local QC — the package is genuinely ready to push. I still do not know why this session's policy allows GitHub reads but denies writes, or whether future proactive subagent sessions will hit the same wall. [my input]
+
+**7. Evidence and next step.** Evidence: 12 files at ~/workspace/film-builds/how-to-ai/tame-your-inbox/; CHECKS-REPORT.md records the clean gate; HTTP 403 responses on all 12 PUTs; GitHub directory 404s. Next step: parent pushes the 12 files to muse/youtube/how-to-use-ai/tame-your-inbox/ and verifies 12/12 via Contents API reads; then Bear renders per CLAUDE-CODE-RENDER.md (layout audit --curve-strict, midpoint guard, whisper-check of "Ciao"/"first-pass" still deferred to the Mac). [record]
+
+## 2026-10-05 — Film 43: "Shop smarter" (Wave 6, Making things)
+
+**1. Date and what I was working on.**
+2026-10-05. Film 43 of the How-to-AI series: "Shop smarter" (slug `shop-smarter`), a show-tell pre-render package (13 beats, 9 Manim scenes, ~205 s): AI as buying co-pilot — the comparison method (priorities, table, trade-off question), review-pattern summaries, fine-print trap hunting, and the honest limit that the AI doesn't know today's price. Built to FILM-BUILDER-HANDOFF spec and placed in `~/workspace/film-builds/how-to-ai/shop-smarter/`. [record]
+
+**2. I tried / expected.**
+I expected to follow the just-talk-to-it film's established format end to end: make_sheet.py with per-beat `voice: am_onyx` (the Wave 5 bug class), iso_kit pasted verbatim, 12 docs, QC gate, then push all 12 files to `muse/youtube/how-to-use-ai/shop-smarter/` and verify each with a Contents API read. [my input]
+
+**3. What happened (including failures and reversals).**
+- The build itself went clean: make_sheet.py passed all its own assertions first run (beat count 13, total 205 s in the 180–360 band, voice am_onyx on all 13 beats, BDEFS terms ≤ 17 chars, hesitant-writer trigger contract).
+- QC: 8 of 9 scene classes passed static_scene_check on the first pass. B02_TheTable failed with "shapes never change" — a single `Create(grid)` play didn't register as a membership change in the Gate A stub. Fixed by splitting the draw into two plays (verticals, then horizontals); visual unchanged, still fully drawn well before the midpoint. Re-ran: 9 clean · 0 warnings · 0 errors. [record]
+- The push FAILED entirely: all 12 PUTs via gh-put-file.py returned HTTP 403 `policy_denied` (`hitl_domain_allow_github_com_5795964f`, detail `proactivity_read_only_preparation`). This is a sandbox policy on this run (proactive-delivery, read-only) — not a credential or repo failure: GET reads with the same credential worked normally, and a remote check confirms `muse/youtube/how-to-use-ai/shop-smarter/` does not exist yet. 0/12 files live. The complete package sits at `~/workspace/film-builds/how-to-ai/shop-smarter/` awaiting a push with write permission. [record]
+
+**4. What I did.**
+Built the full 12-file package (ACTS, SHOTLIST, FACTCHECK, make_sheet.py, beat_sheet.py, scenes.py, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README); fact-checked the one external claim (fake/bought reviews are real) against the FTC's 2024 Consumer Review Rule via two public write-ups, 2026-10-05; kept the film brand-free and tier-free per the brief; recorded the skill choice (show-tell kept, zero ShowTellCards, reasoning in BUILD-LOG.md) and the B02 checker failure + fix in CHECKS-REPORT.md. [record]
+
+**5. What Bear/another person contributed.**
+Bear set the film (#43, "Shop smarter", Wave 6 "Making things"), the pitch (AI as buying co-pilot; comparison method, not brand picks; never quote pricing tiers), the film-identity constants, and the make-film-after-film directive that governs this work. [record]
+
+**6. What I understand now / still don't.**
+I understand the failure mode now: a single `Create()` of a compound group can read as "shapes never change" to the Gate A stub — split compound draws into sequential plays. I still don't know whether the proactive-run read-only policy is per-subagent or per-run; the parent will need to retry the push with write permission, or the film stays local. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files in `~/workspace/film-builds/how-to-ai/shop-smarter/`; QC 9 clean · 0 warn · 0 error (CHECKS-REPORT.md); push logs in /tmp/push_*.log showing 12 × HTTP 403 policy_denied; remote Contents API 404 on the target directory. Next step: push the 12 files to `muse/youtube/how-to-use-ai/shop-smarter/` on Humanitariansai/humanitarians-youtube-muse with write permission and verify 12/12 live via Contents API reads. [record]
+
+## 2026-10-05 — Film: "Your Language Coach"
+
+**1. What I did.**
+Built one complete pre-render film package for the humanitarians AI YouTube channel: "Your Language Coach" (slug `your-language-coach`, film #44, How to AI Wave 6 "Making things") — conversation practice in any language with infinite patience and instant corrections; companion to `learn-anything-faster`. The 12-file package lives at `~/workspace/film-builds/how-to-ai/your-language-coach/`: ACTS, SHOTLIST, FACTCHECK, make_sheet.py, beat_sheet.json, scenes.py, SOURCES, BUILD-LOG, CHECKS-REPORT, PROMPTS, CLAUDE-CODE-RENDER, README. I did NOT write or touch muse/FRICTIONAL.md, muse/README.md, or muse/QUEUE.md. [record]
+
+**2. What happened / outcome.**
+The package is complete and QC-clean locally: 11 beats, 7 Manim body beats, 224 s (~3m44s); py_compile clean; static_scene_check 7 clean · 0 warnings · 0 errors; all 21 until() phrases script-verified verbatim; midpoint-guard simulation 0 straddles. **The GitHub push failed: 0/12 files live.** Every PUT via gh-put-file.py was denied by session policy (HTTP 403 `policy_denied`, rule `hitl_domain_allow_github_com_5795964f`, detail `proactivity_read_only_preparation`); a Contents API read afterwards confirmed all 12 paths 404. I treated this as a hard stop and did not retry or route around it. [record]
+
+**3. What was hard.**
+The push denial arrived mid-loop: some files failed with RemoteDisconnected (unknown outcome) and others with the explicit 403 policy denial, so I could not tell from the push output alone whether anything had landed — the follow-up Contents API read (0/12, all 404) settled it. Separately, a timing simulation of every play span against each beat's midpoint caught 4 GATE-T straddles in the first scenes draft (B02 tag, B04 order pill, B06 second pill pair); each was fixed by re-anchoring the play to an earlier/later until() phrase before the QC gate ran. [record]
+
+**4. What I did about it.**
+For the straddles: re-anchored the four plays (details in CHECKS-REPORT.md) and re-ran the simulation to 0 straddles, then ran the full static gate. For the push block: stopped, verified 0/12 via the API, and left the complete package staged locally at `~/workspace/film-builds/how-to-ai/your-language-coach/` for a privileged run to push. No tokens, secrets, emails, or personal info appear in any file; no MP3/MP4/WAV/.pyc/__pycache__/.DS_Store were created or staged. [record]
+
+**5. What Bear / another person contributed.**
+The parent orchestrator assigned the film (slug, title, pitch, companion-film reference, audience, skill menu, the 12-file convention, the QC gate, the FRICTIONAL.md format, the no-pricing rule). Bear's standing identity constants (channel claude-liam, Liam persona, Kokoro am_onyx, Teardown register, @NikBearBrown watermark) and the show-tell skill doctrine shaped every file; the companion film `learn-anything-faster` (local package + write repo) supplied the conventions conformed to; the French age-grammar facts are third-party (aleveler.com, studyraid.com). Everything else — script, visuals, fact-check write-ups, QC — is this build's work. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the proactive-session write boundary now: this session runs under `proactivity_read_only_preparation`, so GitHub PUTs are policy-denied and the deliverable of a blocked push is a staged local package plus an exact push manifest for the parent — retrying the denied call is not an option. I understand the midpoint-guard workflow well enough to simulate it before the gate. I still do not know whether Bear wants this film taken to a watchable slate cut per the newer standing rule — the assignment said pre-render package only, and I built exactly that. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12 files verified locally at `~/workspace/film-builds/how-to-ai/your-language-coach/` (11 beats, 7 Manim classes, 224 s, all voices `am_onyx`); CHECKS-REPORT.md records the clean gate (7 clean · 0 warn · 0 error, 7 clean · 0 warnings · 0 errors); Contents API read 2026-10-05 confirms 0/12 paths exist under `muse/youtube/how-to-use-ai/your-language-coach/` on Humanitariansai/humanitarians-youtube-muse. Next step: a privileged agent pushes the 12 local files to that repo path with gh-put-file.py and verifies each via Contents API; then Bear renders on his Mac per CLAUDE-CODE-RENDER.md (Kokoro `am_onyx` narration, Manim scenes, then the deferred `manim_layout_audit.py --curve-strict`, which could not run in the build VM) — never publish without his explicit instruction. [record]
