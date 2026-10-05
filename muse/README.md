@@ -54,6 +54,16 @@ Nothing is rendered or published from here; MP3/MP4/WAV files are never committe
 | Free vs paid: when to pay | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/free-vs-paid-when-to-pay/CLAUDE-CODE-RENDER.md) | 14 beats (~5m59s), 14 scenes, QC clean |
 | Set it up once | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/set-it-up-once/CLAUDE-CODE-RENDER.md) | 13 beats (~3m31s), 9 scenes, QC clean |
 | One AI or many? | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/one-ai-or-many/CLAUDE-CODE-RENDER.md) | 12 beats (~4m47s), 10 scenes, QC clean |
+| Teach it your world | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/teach-it-your-world/CLAUDE-CODE-RENDER.md) | 13 beats (~5m42s), 7 scenes, QC clean |
+| The long game | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/the-long-game/CLAUDE-CODE-RENDER.md) | 13 beats (~3m22s), 9 scenes, QC clean |
+| Make it remember (and forget) | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/make-it-remember/CLAUDE-CODE-RENDER.md) | 13 beats (~3m36s), 9 scenes, QC clean |
+| Agents: AI that does things | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/agents-that-do-things/CLAUDE-CODE-RENDER.md) | 12 beats (~5m24s), 8 scenes, QC clean |
+| Talk to your tools | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/talk-to-your-tools/CLAUDE-CODE-RENDER.md) | 13 beats (~4m03s), 9 scenes, QC clean |
+| The Second Opinion | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/the-second-opinion/CLAUDE-CODE-RENDER.md) | 13 beats (~3m58s), 9 scenes, QC clean |
+| Code without coding | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/code-without-coding/CLAUDE-CODE-RENDER.md) | 13 beats (~4m08s), 9 scenes, QC clean |
+| Your personal research assistant | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/personal-research-assistant/CLAUDE-CODE-RENDER.md) | 14 beats (~4m00s), 10 scenes, QC clean |
+| AI that sees | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/ai-that-sees/CLAUDE-CODE-RENDER.md) | 16 beats (~4m07s), 12 scenes, QC clean |
+| The yes-man problem | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/the-yes-man-problem/CLAUDE-CODE-RENDER.md) | 13 beats (~4m33s), 9 scenes, QC clean |
 
 ## Coming up
 
