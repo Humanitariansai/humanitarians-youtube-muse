@@ -1,6 +1,7 @@
 # FACTCHECK.md — "How to outsource everything to AI & get dumb"
 
-Checked 2026-10-03. Verdicts: PASS · QUALIFY (true but needs a caveat the film
+Checked 2026-10-03; claim #6 verified against the primary preprint 2026-10-04.
+Verdicts: PASS · QUALIFY (true but needs a caveat the film
 already carries) · EXEMPT (the film's own rule/method/rhetoric, not a factual claim).
 Thin numbers are attributed aloud AND captioned on screen (show-tell law 8).
 
@@ -11,7 +12,7 @@ Thin numbers are attributed aloud AND captioned on screen (show-tell law 8).
 | 3 | B08 | 2025, MIT: 54 people wrote essays with ChatGPT / search / no tools while wearing EEG | PASS | Kosmyna et al., "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task", MIT Media Lab, arXiv:2506.08872, June 2025 | film carries the preprint caveat in narration ("a preprint, so suggestive, not settled") and on screen ("· preprint") |
 | 4 | B08 | The ChatGPT group showed the weakest brain engagement / neural connectivity | PASS | same paper: weakest coupling across alpha/beta/theta/delta bands; LLM-to-Brain crossover group didn't recover engagement immediately | none — worded as "weakest brain engagement", the paper's headline pattern |
 | 5 | B08 | 83% of the ChatGPT group couldn't quote a single sentence of their essay minutes later | QUALIFY | the paper's interview/self-report data, via secondary summaries (egorthinks.com blog; isvd.or.jp column, both citing Kosmyna et al.) | attributed aloud ("Per MIT Media Lab") + captioned ("per MIT Media Lab, 2025 · preprint") per law 8; do not present as peer-reviewed |
-| 6 | B08 | 11% failure rate in the no-AI group | QUALIFY | secondary summary only (egorthinks.com: "in the groups without AI the failure rate was only 11%") — not verified against the primary paper | same attribution as #5; verify against arXiv:2506.08872 before final render; if unverifiable, drop the right meter and keep 83% alone |
+| 6 | B08 | 11% failure rate in the no-AI group | PASS | Kosmyna et al., arXiv:2506.08872 (v2, revised 31 Dec 2025), Question 3 "Ability to Quote", Session 1: "only 11.1 % (2/18) in both the Search‑Engine and Brain‑Only groups encountered the same difficulty", vs 83.3% (15/18) in the LLM group — the film's 83/11 meters round the paper's 83.3/11.1 exactly | none — keep both meters; narration already carries "Per MIT Media Lab — a preprint, so suggestive, not settled" + caption "per MIT Media Lab, 2025 · preprint" |
 | 7 | B01 | "Like GPS: it gets you there. But you stop learning the terrain." | PASS (analogy) | #1 + #2 above | none — framed as analogy, not mechanism |
 | 8 | B00 | "Your brain runs on use" | QUALIFY | colloquial framing of use-dependent plasticity; not a medical claim | none — kept as metaphor ("the more you think things through, the stronger it gets"); do not harden into neuroscience |
 | 9 | B02 | "Outsource work, not understanding" | EXEMPT | the film's own normative rule (from the source beat sheet) | n/a |
@@ -20,5 +21,8 @@ Thin numbers are attributed aloud AND captioned on screen (show-tell law 8).
 | 12 | B06 | 90-day rollout plan as the strategy-doc example | EXEMPT | illustrative example carried over from the source's Chief of Staff scenario | n/a |
 | 13 | title | "…& get dumb" | EXEMPT | rhetorical title; the film itself qualifies it (MIT lab asks journalists not to say "brain damage") | n/a |
 
-Open item: claim #6 (11%) should be verified against the primary preprint before
-the final render; the beat works with the right meter removed if it doesn't check out.
+Resolved 2026-10-04: claim #6 (11%) confirmed against arXiv:2506.08872 v2 —
+Question 3 "Ability to Quote" (Session 1) reports 11.1% (2/18) of the Brain-Only
+group failed to quote correctly, vs 83.3% (15/18) in the LLM group, matching the
+film's 83/11 meters. Both meters stay; no open items. Narration and caption carry
+the preprint caveat.
