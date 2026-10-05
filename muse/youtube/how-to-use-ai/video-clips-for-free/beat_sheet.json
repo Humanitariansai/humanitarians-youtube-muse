@@ -1,0 +1,529 @@
+{
+  "metadata": {
+    "slug": "video-clips-for-free",
+    "title": "Video clips for free",
+    "topic": "HOW TO AI · MAKING THINGS",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience — not AI experts; every term explained in plain words",
+    "source_doc": "web research 2026-10-05 (see SOURCES.md): Google Vids free tier for personal accounts (Veo 3.1, April 2026)",
+    "playlist": "How to AI",
+    "chapter_number": 35,
+    "series_wave": "Wave 6: Making things",
+    "tags": [
+      "Google Vids",
+      "Veo",
+      "AI video",
+      "free tier",
+      "video clips",
+      "How to AI",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. Google has quietly made AI video free for everyone. But the real question isn't whether you can make video clips for free. It's how you spend them.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Can I make a whole video'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'a whole video' → 'video clips' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Can I make a whole video\nwith AI for free?",
+            "triggerWords": "a whole video",
+            "replacementWords": "video clips",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "video-clips-for-free",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive whole-video question and corrects it to the real one: how to spend free clips.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. Vids: Google's video app, which opens at vids.new. Veo: the AI model that turns a sentence into a video clip. And the free tier: a free monthly allowance of clips — the current number is at vids.new.",
+      "estimated_duration_s": 15.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'Vids' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'Veo' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'free tier' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "Vids",
+                "meaning": "Google's video app — it opens at vids.new"
+              },
+              {
+                "term": "Veo",
+                "meaning": "the AI model that turns a sentence into a video clip"
+              },
+              {
+                "term": "free tier",
+                "meaning": "a free monthly allowance of clips (current number at vids.new)"
+              }
+            ],
+            "folderLabel": "@NikBearBrown",
+            "durationSeconds": 15.6
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Google Vids is Google's video app. It opens at vids.new, and earlier this year it grew an AI clip maker: you type a sentence, and Veo turns it into a short, high-definition video clip.",
+      "estimated_duration_s": 13.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A browser window with a dark title bar, label 'vids.new'; a film-clip frame grows out of it with a terracotta spark.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "browser window fades in"
+          },
+          {
+            "at": 0.3,
+            "event": "clip frame grows out of the window"
+          }
+        ],
+        "manim": {
+          "class": "B00_VidsWindow"
+        },
+        "motion_claim": "A browser window with a dark title bar, label 'vids.new'; a film-clip frame grows out of it with a terracotta spark."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The unit is the clip: one short shot, a few seconds long, in high definition. Think of each clip as a single shot in your video — never the whole video.",
+      "estimated_duration_s": 12.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "One film-strip frame with a play triangle drops in; label 'one clip'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "clip frame drops in"
+          },
+          {
+            "at": 0.5,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B01_OneClip"
+        },
+        "motion_claim": "One film-strip frame with a play triangle drops in; label 'one clip'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "A personal Google account gets a free monthly allowance of these clips. It isn't unlimited: treat it as a small monthly budget, and it refills each month.",
+      "estimated_duration_s": 10.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A kraft budget jar labelled 'free tier'; three clip boxes drop into it, one per spoken beat.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "budget jar arrives"
+          },
+          {
+            "at": 0.3,
+            "event": "first clip drops in"
+          },
+          {
+            "at": 0.55,
+            "event": "two more clips drop in"
+          }
+        ],
+        "manim": {
+          "class": "B02_TheBudget"
+        },
+        "motion_claim": "A kraft budget jar labelled 'free tier'; three clip boxes drop into it, one per spoken beat."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Spend each clip where AI video wins: a shot you could never film yourself and won't find in stock footage. A drone flight over a volcano. A scene from history. A product shot that doesn't exist yet.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A clip frame holding a stylized volcano (dark silhouette, terracotta glow); an ink check lands; label 'AI wins'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "clip frame with volcano"
+          },
+          {
+            "at": 0.5,
+            "event": "check lands"
+          }
+        ],
+        "manim": {
+          "class": "B03_AIWins"
+        },
+        "motion_claim": "A clip frame holding a stylized volcano (dark silhouette, terracotta glow); an ink check lands; label 'AI wins'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Don't spend them on the generic stuff: a sunset, coffee pouring, hands typing. Vids comes with free stock footage — use stock for that, and keep your clips for the shots only AI can make.",
+      "estimated_duration_s": 14.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An open stock box with film strips, label 'stock'; the free-tier jar sits beside it, untouched.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "stock box opens"
+          },
+          {
+            "at": 0.4,
+            "event": "jar stays full beside it"
+          }
+        ],
+        "manim": {
+          "class": "B04_Stock"
+        },
+        "motion_claim": "An open stock box with film strips, label 'stock'; the free-tier jar sits beside it, untouched."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Plan before you spend. Write the video in Vids first: the script, the scenes, the shot list. Then spend clips only on the hero shots, and let stock cover everything else.",
+      "estimated_duration_s": 12.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two script pages; a timeline with three slots; one AI clip drops into the hero slot, stock strips into the others; label 'script first'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "script pages land"
+          },
+          {
+            "at": 0.35,
+            "event": "timeline slots appear"
+          },
+          {
+            "at": 0.6,
+            "event": "hero clip drops in"
+          }
+        ],
+        "manim": {
+          "class": "B05_ScriptFirst"
+        },
+        "motion_claim": "Two script pages; a timeline with three slots; one AI clip drops into the hero slot, stock strips into the others; label 'script first'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Like a clip but want it longer? Extend it — grow the scene instead of starting over. You can also test several prompts at once. Just remember: every try spends one clip from the jar.",
+      "estimated_duration_s": 14.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A clip frame elongates to double width (extend arrow); a prompt pill spawns two test clips; one clip leaves the budget jar; label 'extend'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "clip frame"
+          },
+          {
+            "at": 0.35,
+            "event": "frame extends"
+          },
+          {
+            "at": 0.65,
+            "event": "jar loses one clip"
+          }
+        ],
+        "manim": {
+          "class": "B06_Extend"
+        },
+        "motion_claim": "A clip frame elongates to double width (extend arrow); a prompt pill spawns two test clips; one clip leaves the budget jar; label 'extend'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The free tier covers clips. The extras — custom AI music, avatars that read your script — need a paid plan. Skip them for now: Vids ships with free stock music and voices, and nothing here stops your first video.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The free-tier jar with its clips; two dim cards 'music' and 'avatar' sit greyed behind it; label 'paid extras'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "jar with clips"
+          },
+          {
+            "at": 0.4,
+            "event": "dim music/avatar cards"
+          }
+        ],
+        "manim": {
+          "class": "B07_PaidExtras"
+        },
+        "motion_claim": "The free-tier jar with its clips; two dim cards 'music' and 'avatar' sit greyed behind it; label 'paid extras'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "One last thing. The free number has already moved before, and Google hasn't promised it stays put. Before you plan a video, check vids.new for the current limit — never plan around a number from a film.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The budget jar with a gauge; the needle swings to a new mark (the number changed); label 'check vids.new'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "jar with gauge"
+          },
+          {
+            "at": 0.5,
+            "event": "needle moves to a new mark"
+          }
+        ],
+        "manim": {
+          "class": "B08_CheckTheNumber"
+        },
+        "motion_claim": "The budget jar with a gauge; the needle swings to a new mark (the number changed); label 'check vids.new'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: Help me plan a 30-second announcement video for [my cause]: a one-paragraph script, a shot list, and mark each shot as AI clip or stock footage — AI clips only for shots I can't film or find in stock. End with the three hero shots I should generate first. Then check two things yourself. Is every AI clip a shot you couldn't film or find in stock? And did you check vids.new for the current free number before generating?",
+      "estimated_duration_s": 34.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "HOW TO AI — YOUR TURN",
+            "segment": "Free Video Clips",
+            "command": "Help me plan a 30-second announcement video for [my cause]: a one-paragraph script, a shot list, and mark each shot as AI clip or stock footage — AI clips only for shots I can't film or find in stock. End with the three hero shots I should generate first.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: every AI clip is a shot you couldn't film or find in stock.",
+              "Check: you checked vids.new for the current free number first."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Video clips for free. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Video clips for free",
+            "slug": "video-clips-for-free",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
