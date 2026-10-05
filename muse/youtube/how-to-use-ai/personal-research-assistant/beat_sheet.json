@@ -1,0 +1,627 @@
+{
+  "metadata": {
+    "slug": "personal-research-assistant",
+    "title": "Your personal research assistant",
+    "topic": "AI · DEEP RESEARCH",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card (Bear, 2026-09-26: 'add hesitant writer as the first beat and key terms like tldr uses as the second'), no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart, pragmatic general audience — not AI experts; a viewer who has typed one-line questions into an AI chat tool",
+    "source_doc": "NEW — built from scratch for the How-to-AI series (2026-10-04). No mirror source. Product facts search-grounded 2026-10-04; all advice original.",
+    "playlist": "How to AI",
+    "chapter_number": 25,
+    "tags": [
+      "Claude",
+      "deep research",
+      "research",
+      "citations",
+      "AI tips",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. You want the AI to do your research. So the question isn't whether it can. It's how you brief it.",
+      "estimated_duration_s": 10.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Can you do all my research for my report?'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'do all my research' → 'brief my research assistant' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Can you do all my research\nfor my report?",
+            "triggerWords": "do all my research",
+            "replacementWords": "brief my research assistant",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "personal-research-assistant",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive ask and corrects it to the real one: brief my research assistant.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Four terms. Deep research: the AI's long mode — it reads many sources and reports back with citations. A brief: what you tell it first — your goal, your scope, your sources. A citation: the link from a claim to its source. A primary source: where the fact comes from first-hand.",
+      "estimated_duration_s": 20.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'deep research' lands"
+          },
+          {
+            "at": 0.35,
+            "event": "'brief' lands"
+          },
+          {
+            "at": 0.55,
+            "event": "'citation' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'primary source' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "deep research",
+                "meaning": "the AI's long mode: it reads many sources and reports back"
+              },
+              {
+                "term": "brief",
+                "meaning": "what you tell it first: goal, scope, sources"
+              },
+              {
+                "term": "citation",
+                "meaning": "the link from a claim to its source"
+              },
+              {
+                "term": "primary source",
+                "meaning": "where the fact comes from first-hand"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: four prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "This is deep research. You hand it a brief, and it goes reading — not one page, dozens — then brings back a report where each claim points to a source. A research assistant that never sleeps. But it's only as good as its instructions.",
+      "estimated_duration_s": 18.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The research desk (open iso box): a brief chip drops in; iso source pages fan out around it; a report page grows with terracotta citation dots; the label 'deep research' lands beside.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "the desk + brief chip drops in"
+          },
+          {
+            "at": 0.35,
+            "event": "source pages fan out"
+          },
+          {
+            "at": 0.65,
+            "event": "report page grows, citation dots land"
+          },
+          {
+            "at": 0.85,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B00_HeroDesk"
+        },
+        "motion_claim": "The research desk (open iso box): a brief chip drops in; iso source pages fan out around it; a report page grows with terracotta citation dots; the label 'deep research' lands beside."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The brief starts with the decision, not the topic. 'Research electric bikes' gets you a wall of facts. 'I'm choosing a bike for a hilly commute' gets you an answer. Tell it what you're deciding, and the research has an aim.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The brief box: a card 'your decision' drops in; a dimmed 'the topic' card slides away; a terracotta check stamps the decision card.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "brief box + dimmed 'the topic' card"
+          },
+          {
+            "at": 0.4,
+            "event": "'your decision' card drops in"
+          },
+          {
+            "at": 0.7,
+            "event": "check stamps the decision card"
+          }
+        ],
+        "manim": {
+          "class": "B01_TheDecision"
+        },
+        "motion_claim": "The brief box: a card 'your decision' drops in; a dimmed 'the topic' card slides away; a terracotta check stamps the decision card."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then the scope: what counts, and what doesn't. Tell it where to look — university pages, official statistics — and what to skip, like opinion blogs. And set a date window. Research from last year answers a different question than research from 2019.",
+      "estimated_duration_s": 17.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Source pages split into two piles: 'in scope' (ink checks) vs 'out of scope' (dimmed, struck); a date plate 'last 5 years' lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "source pages on stage"
+          },
+          {
+            "at": 0.35,
+            "event": "pages split into two piles"
+          },
+          {
+            "at": 0.65,
+            "event": "checks land; out-of-scope pile dims"
+          },
+          {
+            "at": 0.85,
+            "event": "date plate lands"
+          }
+        ],
+        "manim": {
+          "class": "B02_TheScope"
+        },
+        "motion_claim": "Source pages split into two piles: 'in scope' (ink checks) vs 'out of scope' (dimmed, struck); a date plate 'last 5 years' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now tell it the shape of the answer. A citation for every claim — not a list at the end, a link on the line. And add one instruction: flag anything you could not verify. An honest 'I couldn't confirm this' beats a confident guess.",
+      "estimated_duration_s": 18.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The report page grows claim lines; a terracotta dot lands on each line (a citation); one line gets a '?' flag plate: 'couldn't verify'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "report page grows"
+          },
+          {
+            "at": 0.4,
+            "event": "citation dots land per line"
+          },
+          {
+            "at": 0.75,
+            "event": "'?' flag plate lands"
+          }
+        ],
+        "manim": {
+          "class": "B03_DemandProof"
+        },
+        "motion_claim": "The report page grows claim lines; a terracotta dot lands on each line (a citation); one line gets a '?' flag plate: 'couldn't verify'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "When the report lands, read it in layers. The summary first — that's the headline. Then the claims. Then the part most people skip: the source list. Where did it actually look? A report is only as strong as the ground it stands on.",
+      "estimated_duration_s": 17.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The report fans into three layers — 'summary', 'claims', 'sources'; the cursor taps 'sources' and it highlights; the label 'read sources first' lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "report on stage"
+          },
+          {
+            "at": 0.35,
+            "event": "report fans into three layers"
+          },
+          {
+            "at": 0.65,
+            "event": "cursor taps 'sources'; it highlights"
+          },
+          {
+            "at": 0.85,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B04_ThreeLayers"
+        },
+        "motion_claim": "The report fans into three layers — 'summary', 'claims', 'sources'; the cursor taps 'sources' and it highlights; the label 'read sources first' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then spot-check two citations. Open them yourself. Does the source really say what the report claims? When one doesn't, you've found the weak beam. The companion film, Trust, but verify, teaches the full checking habit.",
+      "estimated_duration_s": 14.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The report with citation dots; the cursor opens citation 1 → a source page lands with an ink check; opens citation 2 → a grey dead page with a terracotta X; the label 'spot-check two' lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "report with citations"
+          },
+          {
+            "at": 0.35,
+            "event": "cursor opens citation 1 → check"
+          },
+          {
+            "at": 0.65,
+            "event": "cursor opens citation 2 → dead page, X"
+          },
+          {
+            "at": 0.85,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B05_SpotCheck"
+        },
+        "motion_claim": "The report with citation dots; the cursor opens citation 1 → a source page lands with an ink check; opens citation 2 → a grey dead page with a terracotta X; the label 'spot-check two' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Distrust the shiny report with hollow citations. It reads beautifully, the footnotes are everywhere — but open them and there's nothing behind them. Confidence is not evidence. If the citations don't hold, the report doesn't either.",
+      "estimated_duration_s": 14.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A polished report: footnotes everywhere; the terracotta dots turn hollow one by one; the cursor opens one → an empty page; a terracotta X; the label 'hollow' lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "shiny report with dots"
+          },
+          {
+            "at": 0.4,
+            "event": "dots turn hollow"
+          },
+          {
+            "at": 0.65,
+            "event": "cursor opens one → empty page"
+          },
+          {
+            "at": 0.85,
+            "event": "X + label land"
+          }
+        ],
+        "manim": {
+          "class": "B06_HollowCitations"
+        },
+        "motion_claim": "A polished report: footnotes everywhere; the terracotta dots turn hollow one by one; the cursor opens one → an empty page; a terracotta X; the label 'hollow' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Distrust the echo. Sometimes a citation leads to another AI answer, which cites another AI answer back. A loop of machines agreeing with each other. Follow the chain until you reach a human source — a study, an official page, a named expert.",
+      "estimated_duration_s": 17.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Two report pages; curved arrows circle between them (the citation loop); the chain walks to a third, human-made page with an ink check; the label 'the echo' lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "two report pages"
+          },
+          {
+            "at": 0.4,
+            "event": "arrows circle between them"
+          },
+          {
+            "at": 0.65,
+            "event": "the chain walks to a human-made page → check"
+          },
+          {
+            "at": 0.85,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B07_TheEcho"
+        },
+        "motion_claim": "Two report pages; curved arrows circle between them (the citation loop); the chain walks to a third, human-made page with an ink check; the label 'the echo' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And check the dates. A 2019 source is fine for history and useless for rules, prices, or anything that changed since. If the citations are all old, or everything leans on one source, the research is thin — however long the report is.",
+      "estimated_duration_s": 17.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Date plates: '2026' (ink) vs '2019' (greyed); the old pages dim; a single source page under a tall report — a thin base; the label 'check the dates' lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "report + source pages"
+          },
+          {
+            "at": 0.35,
+            "event": "date plates land; old pages dim"
+          },
+          {
+            "at": 0.65,
+            "event": "the report balances on one source"
+          },
+          {
+            "at": 0.85,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B08_CheckDates"
+        },
+        "motion_claim": "Date plates: '2026' (ink) vs '2019' (greyed); the old pages dim; a single source page under a tall report — a thin base; the label 'check the dates' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Last rule: the report is a map, not the answer. A good map saves you days of walking. But you still walk the ground yourself. You are the editor; the AI is the assistant. The decision stays yours.",
+      "estimated_duration_s": 15.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The report sits in the brief box as a map card; a pen cursor strikes one line; a plate 'you decide' lands; the label 'a map, not the answer' lands.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "report as a map card"
+          },
+          {
+            "at": 0.4,
+            "event": "pen cursor edits one line"
+          },
+          {
+            "at": 0.7,
+            "event": "'you decide' plate lands"
+          },
+          {
+            "at": 0.85,
+            "event": "label lands"
+          }
+        ],
+        "manim": {
+          "class": "B09_TheMap"
+        },
+        "motion_claim": "The report sits in the brief box as a map card; a pen cursor strikes one line; a plate 'you decide' lands; the label 'a map, not the answer' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into Claude: I want you to research this question: [my question in one line]. This research will help me decide: [the decision]. Scope: focus on [where to look, and which dates]; ignore [what is out of scope]. Give me a report with a citation for every claim, and flag anything you could not verify. Wait for my questions before you finish. Then check two things yourself. Open two of its citations — do they really say what the report claims? And does the report flag anything it couldn't verify, or is it confident about everything?",
+      "estimated_duration_s": 39.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Brief Your Researcher",
+            "command": "I want you to research this question: [my question in one line]. This research will help me decide: [the decision]. Scope: focus on [where to look, and which dates]; ignore [what is out of scope]. Give me a report with a citation for every claim, and flag anything you could not verify. Wait for my questions before you finish.",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: open two citations — do they really say what the report claims?",
+              "Check: did it flag anything it couldn't verify, or is it confident about everything?"
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your personal research assistant. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Your personal research assistant",
+            "slug": "personal-research-assistant",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
