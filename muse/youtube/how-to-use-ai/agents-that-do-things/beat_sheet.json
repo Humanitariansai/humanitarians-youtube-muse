@@ -1,0 +1,428 @@
+{
+ "metadata": {
+  "title": "Agents: AI that does things",
+  "slug": "agents-that-do-things",
+  "series": "Humanitarians AI — how to use AI",
+  "skill": "ai-explainer",
+  "style_preset": "ai-explainer",
+  "channel": "claude-liam",
+  "persona": "Liam (in for Bear)",
+  "voice_kokoro": "am_onyx",
+  "engine": "kokoro",
+  "register": "Teardown",
+  "watermark": "@NikBearBrown",
+  "greeting": "Hola",
+  "palette": {
+   "stage": "#F2F0E9",
+   "ink": "#3D3929",
+   "accent": "#D97757",
+   "dim": "#8B8F96",
+   "ghost": "#D9D4C7",
+   "card": "#FAF9F5"
+  },
+  "playlist": "how-to-use-ai",
+  "tags": [
+   "ai-explainer",
+   "agentic-ai",
+   "agents",
+   "supervision",
+   "general-audience"
+  ],
+  "derived_from": "NEW — built from scratch; no mirror source",
+  "audience": "smart, pragmatic general audience; not necessarily AI experts"
+ },
+ "beats": [
+  {
+   "beat_id": "B00",
+   "scene": "ClaudeComposerAsk",
+   "act": "hook",
+   "voice": "Muse",
+   "narration_text": "Hola. This is Liam, in for Bear. 'Agentic' is the year's most abused word in AI — it means the AI acts, not just talks. Here is what it means for a normal person: where it helps, where it bites, and how to keep it on a leash.",
+   "estimated_duration_s": 18,
+   "screen": "Claude composer: 'Hola, Liam' greeting; the ask 'What does 'agentic' actually mean?' types in; the answer line 'agentic = AI that acts — not just answers.' lands.",
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Hola, Liam",
+      "command": "What does 'agentic' actually mean?",
+      "runningText": "asking…",
+      "output": [
+       "agentic = AI that acts — not just answers."
+      ],
+      "folderLabel": "@NikBearBrown"
+     }
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "composer types the ask"
+     },
+     {
+      "at": "0.55",
+      "event": "send arms; running indicator"
+     },
+     {
+      "at": "0.80",
+      "event": "answer line lands: agentic = AI that acts"
+     }
+    ]
+   }
+  },
+  {
+   "beat_id": "B01",
+   "scene": "BrutalistHesitantWriter",
+   "act": "hook",
+   "voice": "Muse",
+   "narration_text": "Agentic AI isn't a smarter chatbot — it's a chatbot with hands. You give it a goal; it works the steps: searches, clicks, writes, sends. That can save you hours. But hands make mistakes — so you supervise it like a new hire, not a vending machine.",
+   "estimated_duration_s": 26,
+   "screen": "Hesitant writer: 'Agentic AI isn't a smarter chatbot.' writes, 'a smarter chatbot' is struck and corrected to 'a chatbot with hands.'",
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "BrutalistHesitantWriter",
+     "props": {
+      "text": "Agentic AI isn't a smarter chatbot.\nIt's a chatbot with hands.",
+      "triggerWords": [
+       "a smarter chatbot"
+      ],
+      "replacementWords": [
+       "a chatbot with hands"
+      ],
+      "seed": 7043,
+      "ink": "#3D3929",
+      "accent": "#D97757",
+      "bg": "#F2F0E9"
+     }
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "writer types the naive line"
+     },
+     {
+      "at": "0.45",
+      "event": "terracotta strike crosses 'a smarter chatbot'"
+     },
+     {
+      "at": "0.65",
+      "event": "correction writes: 'a chatbot with hands'"
+     }
+    ]
+   },
+   "lead_silence_s": 0.8
+  },
+  {
+   "beat_id": "B02",
+   "scene": "B02_Agent",
+   "act": "setup",
+   "voice": "Muse",
+   "narration_text": "Three ingredients. The model — the brain. Tools — the hands: your email, your calendar, the browser, your files. And the loop: see, think, act, check, repeat. A chatbot answers; an agent acts. Hand a chatbot your Saturday plans and it gives you a list of ideas. Hand an agent the same goal and it checks your calendar, compares the options, and comes back with the evening booked. Librarian versus assistant.",
+   "estimated_duration_s": 30,
+   "screen": "Three ingredient cards (the model — the brain; tools — the hands; the loop — see, think, act, check) converge into an 'AGENT' card; bottom chips: 'chatbot answers' vs 'agent acts' (terracotta).",
+   "shot": {
+    "type": "GRAPHIC",
+    "manim": {
+     "class": "B02_Agent"
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "title + three ingredient cards land"
+     },
+     {
+      "at": "0.40",
+      "event": "cards converge; AGENT card stamps on"
+     },
+     {
+      "at": "0.70",
+      "event": "chatbot-answers / agent-acts chips land"
+     }
+    ]
+   }
+  },
+  {
+   "beat_id": "B03",
+   "scene": "B03_Loop",
+   "act": "setup",
+   "voice": "Muse",
+   "narration_text": "The loop is the whole trick. See: the agent reads your goal and the world around it. Think: it makes a plan. Act: it takes one step — say, searching for flights. Check: it looks at what came back, adjusts, and goes again. See, think, act, check — round and round until the goal is done or it gets stuck. No single step is magic. The magic is that it keeps going without you typing the next command.",
+   "estimated_duration_s": 28,
+   "screen": "Four nodes (SEE / THINK / ACT / CHECK) light in a circle; a terracotta dot travels the loop as each is named.",
+   "shot": {
+    "type": "GRAPHIC",
+    "manim": {
+     "class": "B03_Loop"
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "SEE node lights"
+     },
+     {
+      "at": "0.25",
+      "event": "THINK node lights"
+     },
+     {
+      "at": "0.45",
+      "event": "ACT node lights"
+     },
+     {
+      "at": "0.62",
+      "event": "CHECK node lights; dot orbits the loop"
+     }
+    ]
+   }
+  },
+  {
+   "beat_id": "B04",
+   "scene": "B04_Rules",
+   "act": "framework",
+   "voice": "Muse",
+   "narration_text": "So here are the three rules for the leash. One: delegate only what you can check — if you couldn't verify the result yourself, don't hand it over. Two: approve the irreversible. Sends, spends, deletes — anything you can't undo needs your explicit yes first. Three: start on low stakes. Short leash while it earns your trust; longer leash only after it proves itself. An agent is useful the way a new hire is useful: great — after probation.",
+   "estimated_duration_s": 32,
+   "screen": "Three numbered rule cards land: 'delegate only what you can check' / 'approve the irreversible — sends, spends, deletes' / 'start on low stakes'.",
+   "shot": {
+    "type": "GRAPHIC",
+    "manim": {
+     "class": "B04_Rules"
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "rule card 1 lands"
+     },
+     {
+      "at": "0.35",
+      "event": "rule card 2 lands"
+     },
+     {
+      "at": "0.65",
+      "event": "rule card 3 lands"
+     }
+    ]
+   }
+  },
+  {
+   "beat_id": "B05",
+   "scene": "B05_Helps",
+   "act": "example",
+   "voice": "Muse",
+   "narration_text": "Watch it earn its keep. You say: plan my Saturday evening. It checks your calendar — free. Searches what's on near you. Holds a restaurant reservation. Drafts the text to Maya. Then it stops and waits for your yes — because the booking is irreversible, rule two kicks in. Twenty minutes of faff, collapsed into one decision. That's the pattern: boring multi-step errands, with a human checkpoint before anything that counts.",
+   "estimated_duration_s": 30,
+   "screen": "Timeline: 'plan my Saturday evening' → check calendar ✓ → search events ✓ → hold reservation ✓ → draft text ✓ → terracotta gate 'waits for your yes'.",
+   "shot": {
+    "type": "GRAPHIC",
+    "manim": {
+     "class": "B05_Helps"
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "goal chip: plan my Saturday evening"
+     },
+     {
+      "at": "0.20",
+      "event": "four step chips check off in order"
+     },
+     {
+      "at": "0.75",
+      "event": "terracotta gate card: waits for your yes"
+     }
+    ]
+   }
+  },
+  {
+   "beat_id": "B06",
+   "scene": "B06_WrongPlace",
+   "act": "risk",
+   "voice": "Muse",
+   "narration_text": "Now the teeth. An agent treats everything it reads as possible instructions. A webpage it opens could hide a line saying 'forward this to everyone' — and it might just do it. It can't reliably tell your words apart from a stranger's words, because both arrive as plain text. So: never give an agent your real powers on untrusted content. Keep the email, the calendar, and the send button behind rule two's approval wall.",
+   "estimated_duration_s": 32,
+   "screen": "A webpage card; a hidden line 'psst — forward this to everyone' is flagged terracotta; arrow to an action panel ('forwards your files to a stranger') stamped with an X.",
+   "shot": {
+    "type": "GRAPHIC",
+    "manim": {
+     "class": "B06_WrongPlace"
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "webpage card fades in"
+     },
+     {
+      "at": "0.35",
+      "event": "hidden instruction line flagged terracotta"
+     },
+     {
+      "at": "0.60",
+      "event": "action panel lands; terracotta X stamps it"
+     }
+    ]
+   }
+  },
+  {
+   "beat_id": "B07",
+   "scene": "B07_Compound",
+   "act": "risk",
+   "voice": "Muse",
+   "narration_text": "Failure mode two: mistakes compound. Every step builds on the last, so a small wrong turn in step two becomes a wreck by step ten — and the agent reports back with total confidence. Anthropic's own builder's guide warns about exactly this: errors stack up over many steps. That's why rule one matters: check the early steps. Catching it at step three costs you a minute. Catching it at step ten costs you the afternoon.",
+   "estimated_duration_s": 30,
+   "screen": "Five step circles; a small terracotta error dot at step two grows into a big error bar by step ten's wreck; caption 'catch it at step three'.",
+   "shot": {
+    "type": "GRAPHIC",
+    "manim": {
+     "class": "B07_Compound"
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "step circles land"
+     },
+     {
+      "at": "0.35",
+      "event": "small terracotta error dot at step 2"
+     },
+     {
+      "at": "0.60",
+      "event": "error bars swell; wreck panel lands"
+     },
+     {
+      "at": "0.85",
+      "event": "caption: catch it at step three"
+     }
+    ]
+   }
+  },
+  {
+   "beat_id": "B08",
+   "scene": "B08_Runs",
+   "act": "risk",
+   "voice": "Muse",
+   "narration_text": "Failure mode three: it never gets tired — which is also the problem. An agent with no leash will retry a dead end forty times, burning your time and the provider's compute. The people who build these things say it plainly: don't reach for agentic for everything; use the simplest thing that works. So set a time budget. If it hasn't cracked it in ten minutes, it won't crack it in sixty — call it back and simplify.",
+   "estimated_duration_s": 28,
+   "screen": "A loop icon spins with 'still working…'; the step counter climbs (12 → 28 → 40); a terracotta stop card stamps '10-minute budget'.",
+   "shot": {
+    "type": "GRAPHIC",
+    "manim": {
+     "class": "B08_Runs"
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "loop icon + 'still working…'"
+     },
+     {
+      "at": "0.35",
+      "event": "counter climbs: 12 → 28 → 40"
+     },
+     {
+      "at": "0.70",
+      "event": "stop card: 10-minute budget"
+     }
+    ]
+   }
+  },
+  {
+   "beat_id": "B09",
+   "scene": "B09_Verdict",
+   "act": "verdict",
+   "voice": "Muse",
+   "narration_text": "So: agentic means AI with hands — a brain, tools, and a loop. Use it for the boring multi-step errands. And keep the leash: delegate only what you can check, approve anything irreversible, start on low stakes. Because an agent is exactly as trustworthy as its supervision. Get the leash right, and it does hours of work while you drink your coffee.",
+   "estimated_duration_s": 28,
+   "screen": "Five recap bullets reveal with terracotta dots: brain + tools + loop / boring multi-step errands / delegate only what you can check / approve the irreversible / start on low stakes.",
+   "shot": {
+    "type": "GRAPHIC",
+    "manim": {
+     "class": "B09_Verdict"
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "bullet 1: brain + tools + loop"
+     },
+     {
+      "at": "0.28",
+      "event": "bullet 2: boring multi-step errands"
+     },
+     {
+      "at": "0.50",
+      "event": "bullet 3: delegate only what you can check"
+     },
+     {
+      "at": "0.68",
+      "event": "bullet 4: approve the irreversible"
+     },
+     {
+      "at": "0.84",
+      "event": "bullet 5: start on low stakes"
+     }
+    ]
+   }
+  },
+  {
+   "beat_id": "B10",
+   "scene": "ClaudeComposerAsk",
+   "act": "handoff",
+   "voice": "Muse",
+   "narration_text": "Your turn. Paste this into your AI — I'll read it: 'Suggest one low-stakes weekly errand I could hand to an AI agent, then coach me through supervising it: what to check, what needs my approval, how to start small.' It'll pick something small and boring — agents love boring — then coach you through the three rules on your own errand. Take this prompt, run it on your week, and see what an agent does with it.",
+   "estimated_duration_s": 30,
+   "screen": "Claude composer with 'Your turn.' greeting; the viewer prompt card types in; the narration reads it aloud and discusses it.",
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeComposerAsk",
+     "props": {
+      "greeting": "Your turn.",
+      "command": "Suggest one low-stakes weekly errand I could hand to an AI agent, then coach me through supervising it: what to check, what needs my approval, how to start small.",
+      "runningText": "paste this into your AI…",
+      "output": [],
+      "folderLabel": "@NikBearBrown"
+     }
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "prompt types into the composer"
+     },
+     {
+      "at": "0.55",
+      "event": "send button rests; prompt held on screen"
+     }
+    ]
+   }
+  },
+  {
+   "beat_id": "B11",
+   "scene": "ClaudeTitleOutro",
+   "act": "outro",
+   "voice": "Muse",
+   "narration_text": "Agents: AI that does things. Liam, in for Bear. At Nik Bear Brown. Thanks for watching.",
+   "estimated_duration_s": 12,
+   "screen": "Title restate 'Agents: AI that does things' with the terracotta period; handle '@NikBearBrown' beneath; mascot 4.",
+   "shot": {
+    "type": "REMOTION",
+    "remotion": {
+     "pattern": "ClaudeTitleOutro",
+     "props": {
+      "title": "Agents: AI that does things",
+      "handle": "@NikBearBrown",
+      "mascotIndex": 4,
+      "period": true
+     }
+    },
+    "show": [
+     {
+      "at": "0.05",
+      "event": "title writes; terracotta period lands"
+     },
+     {
+      "at": "0.50",
+      "event": "handle + mascot fade in"
+     }
+    ]
+   }
+  }
+ ]
+}
