@@ -1,0 +1,552 @@
+{
+  "metadata": {
+    "slug": "code-without-coding",
+    "title": "Code without coding",
+    "topic": "CLAUDE · AI CODING FOR NON-PROGRAMMERS",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "Hallo (German/Dutch)",
+    "bookend_exempt": [
+      "cold-open",
+      "bvdt"
+    ],
+    "bookend_exempt_reason": "show-tell style (Bear, 2026-09-26): opens on the hesitant writer + terms card, no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "audience": "smart general audience — curious non-experts; every term explained on first use",
+    "source_doc": "NEW film (no mirror-repo source). The one number (25% / 95% AI-written, Y Combinator W25) verified 2026-10-04 via web search: TechCrunch (Mar 2025) reporting YC managing partner Jared Friedman and CEO Garry Tan in the YC YouTube video 'Vibe Coding is the Future'. Attribution is spoken aloud and captioned on screen.",
+    "playlist": "How to AI",
+    "chapter_number": 0,
+    "tags": [
+      "AI coding tools",
+      "vibe coding",
+      "no-code",
+      "beginners",
+      "Claude",
+      "AI basics",
+      "how to AI",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. I don't write code, and I bet some of you don't either. So the question isn't only what an AI coding tool can build. It's what you can safely have it build for you.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Write me an app that does everything'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'does everything' → 'does one small thing' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Write me an app that does everything",
+            "triggerWords": "does everything",
+            "replacementWords": "does one small thing",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "code-without-coding",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive build-everything request and corrects it to one small thing: mistake one's lesson.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Three terms. Code: the written instructions a computer follows. An AI coding tool: an AI you describe what you want to, and it writes the code for you. And a bug: a mistake in the code that makes it do the wrong thing — or nothing at all.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'code' lands"
+          },
+          {
+            "at": 0.5,
+            "event": "'AI coding tool' lands"
+          },
+          {
+            "at": 0.78,
+            "event": "'bug' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "code",
+                "meaning": "the written instructions a computer follows"
+              },
+              {
+                "term": "AI coding tool",
+                "meaning": "an AI you describe what you want to, and it writes the code for you"
+              },
+              {
+                "term": "bug",
+                "meaning": "a mistake in the code that makes it do the wrong thing"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: three prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Imagine asking for a page that does exactly what you want — and getting it. Without writing a line of code. No installs, no jargon, no classes. Just words in, a page out. That's the whole promise.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The hero object: a finished page drops onto the stage, labeled 'your page', with a terracotta check.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "page drops in"
+          },
+          {
+            "at": 0.35,
+            "event": "label lands; terracotta check"
+          }
+        ],
+        "manim": {
+          "class": "B00_YourPage"
+        },
+        "motion_claim": "The hero object: a finished page drops onto the stage, labeled 'your page', with a terracotta check."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here's how it works. Your words go into the tool, it writes the code, and your page comes back. Code is just the written instructions the computer follows — think of it as a recipe the computer reads: do this, then that. The tool writes the recipe. You taste the dish.",
+      "estimated_duration_s": 20.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The pipeline: a 'your words' card slides into the Claude window, code lines appear, a finished page lands.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "words card slides into the tool"
+          },
+          {
+            "at": 0.3,
+            "event": "code lines appear"
+          },
+          {
+            "at": 0.6,
+            "event": "finished page lands"
+          }
+        ],
+        "manim": {
+          "class": "B01_HowItWorks"
+        },
+        "motion_claim": "The pipeline: a 'your words' card slides into the Claude window, code lines appear, a finished page lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "First, what's safe to build: things you can check by looking. A page for your hobby. A quiz for your class. A tracker for your walks. If you can see what's wrong, you can judge it — a typo in a recipe you can see. That's your first safety rule.",
+      "estimated_duration_s": 20.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three cards spring up one by one — 'a page', 'a quiz', 'a tracker' — then the banner 'you can check it'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "'a page' card"
+          },
+          {
+            "at": 0.35,
+            "event": "'a quiz' card"
+          },
+          {
+            "at": 0.6,
+            "event": "'a tracker' card"
+          },
+          {
+            "at": 0.85,
+            "event": "'you can check it' banner"
+          }
+        ],
+        "manim": {
+          "class": "B02_Checkable"
+        },
+        "motion_claim": "Three cards spring up one by one — 'a page', 'a quiz', 'a tracker' — then the banner 'you can check it'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Second safety rule: keep it personal — things that only touch you and your stuff. Passwords, payments, or other people's data are not a first project. A tracker for your own workouts is fine. Your data, your mess — if it breaks, you're the only one who notices.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Your page sits inside a ring labeled 'only you'; a 'password' card drops toward it, bounces off, and 'not passwords' lands.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "page in the ring, 'only you'"
+          },
+          {
+            "at": 0.3,
+            "event": "check lands"
+          },
+          {
+            "at": 0.55,
+            "event": "'password' card bounces off; 'not passwords'"
+          }
+        ],
+        "manim": {
+          "class": "B03_OnlyYou"
+        },
+        "motion_claim": "Your page sits inside a ring labeled 'only you'; a 'password' card drops toward it, bounces off, and 'not passwords' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now the three mistakes that bite beginners. Mistake one: starting too big. 'Build me a whole shop' — and the tool writes thousands of lines you can't check, then it breaks in ways you can't fix. Start small. Get one thing working, then add the next. One working button beats ten broken ones.",
+      "estimated_duration_s": 21.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Pages stack too high and topple under a cross ('too big'); then one clean page lands with a check ('one small thing').",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "pages stack too high"
+          },
+          {
+            "at": 0.4,
+            "event": "stack topples, cross, 'too big'"
+          },
+          {
+            "at": 0.7,
+            "event": "one page lands, check, 'one small thing'"
+          }
+        ],
+        "manim": {
+          "class": "B04_TooBig"
+        },
+        "motion_claim": "Pages stack too high and topple under a cross ('too big'); then one clean page lands with a check ('one small thing')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Mistake two: pasting secrets. Your passwords, your keys, anything private — once it's in the AI, you can't take it back. Never paste anything into an AI that you wouldn't pin to a noticeboard. Treat the chat like a postcard: anyone along the way could read it.",
+      "estimated_duration_s": 18.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A 'password' card drops toward the Claude window; a cross blocks it; the card is rejected; 'never paste' lands.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "'password' card drops toward the tool"
+          },
+          {
+            "at": 0.4,
+            "event": "cross blocks it"
+          },
+          {
+            "at": 0.7,
+            "event": "card rejected; 'never paste'"
+          }
+        ],
+        "manim": {
+          "class": "B05_NoSecrets"
+        },
+        "motion_claim": "A 'password' card drops toward the Claude window; a cross blocks it; the card is rejected; 'never paste' lands."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Mistake three: trusting it without testing. The tool says done, the page looks finished — but there's a bug hiding in a button you never clicked. Always click every button yourself. If you can't check it, don't ship it. Ten minutes of clicking now saves a week of wondering why it broke.",
+      "estimated_duration_s": 20.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A page with three buttons; a cursor clicks each — two get checks, the third gets a cross and a bug dot.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "page + three buttons"
+          },
+          {
+            "at": 0.35,
+            "event": "cursor clicks two, checks land"
+          },
+          {
+            "at": 0.65,
+            "event": "third button: cross + bug dot"
+          }
+        ],
+        "manim": {
+          "class": "B06_TestIt"
+        },
+        "motion_claim": "A page with three buttons; a cursor clicks each — two get checks, the third gets a cross and a bug dot."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "And when something breaks — not if, when — don't panic and don't start over. Describe the problem back to the tool, in the same plain words: 'the button doesn't work; it should open my list.' It fixes the code. You check it again. Describe, check, repeat. That's the whole loop.",
+      "estimated_duration_s": 20.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A page with a bug dot; an arrow draws back to the tool; a fixed page lands with a check ('describe it back').",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "page with a bug dot, 'a bug'"
+          },
+          {
+            "at": 0.35,
+            "event": "arrow draws back to the tool"
+          },
+          {
+            "at": 0.6,
+            "event": "fixed page, check, 'describe it back'"
+          }
+        ],
+        "manim": {
+          "class": "B07_DescribeItBack"
+        },
+        "motion_claim": "A page with a bug dot; an arrow draws back to the tool; a fixed page lands with a check ('describe it back')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "show-tell",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "A quarter of Y Combinator's Winter twenty twenty-five batch — the startup school behind Airbnb and Stripe — shipped products on codebases that were ninety-five percent AI-written. That's why this is suddenly possible: the tools got that good. If startups ship on AI-written code, your one page is well within reach.",
+      "estimated_duration_s": 20.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The number beat: hero '25%' in ink, an ink curve sweeps up with a terracotta end dot, caption 'per Y Combinator'.",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "'25%' lands"
+          },
+          {
+            "at": 0.15,
+            "event": "ink curve sweeps up, terracotta end dot"
+          },
+          {
+            "at": 0.3,
+            "event": "'per Y Combinator' caption"
+          }
+        ],
+        "manim": {
+          "class": "B08_WhyNow"
+        },
+        "motion_claim": "The number beat: hero '25%' in ink, an ink curve sweeps up with a terracotta end dot, caption 'per Y Combinator'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell style (Bear, 2026-09-26): one drawn object or scene on a cream stage per beat, minimal labels, with the voice carrying the explanation. The negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into your AI coding tool: Build me one small page I can check: a page that picks a random name from a short list I give you. Show me what each button does. Do not add anything I did not ask for. Then check two things yourself. Does every button do what you asked — click each one? And did anything private go into it? If it did, take it out before you go on.",
+      "estimated_duration_s": 31.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Build One Small Thing",
+            "command": "Build me one small page I can check: a page that picks a random name from a short list I give you. Show me what each button does. Do not add anything I did not ask for.",
+            "runningText": "paste this into your AI coding tool…",
+            "output": [
+              "Check: every button does what you asked — click each one yourself.",
+              "Check: nothing private went in — no passwords, no keys."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Claude",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Code without coding. At Nik Bear Brown.",
+      "estimated_duration_s": 4.5,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Code without coding",
+            "slug": "code-without-coding",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
