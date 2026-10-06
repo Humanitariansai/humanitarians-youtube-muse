@@ -13,6 +13,7 @@ Nothing is rendered or published from here; MP3/MP4/WAV files are never committe
 | Register for Muse with a privacy.com card | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/register-muse-privacy-card/CLAUDE-CODE-RENDER.md) | 15 beats (~4m56s), 13 scenes, QC clean |
 | Muse making a film about Muse | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/muse-for-everyone/CLAUDE-CODE-RENDER.md) | 22 beats (~6m44s), 17 scenes, QC clean |
 | Claude making a film about Muse | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/claude-on-muse-for-everyone/CLAUDE-CODE-RENDER.md) | 21 beats (~6m58s), 19 scenes, QC clean |
+| Muse Does the Assignment | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/claude-liam-lecture-muse-does-the-assignment/CLAUDE-CODE-RENDER.md) | 19 beats (~6m25s), 14 scenes, QC clean |
 
 ## How to use AI (`muse/youtube/how-to-use-ai/`)
 
