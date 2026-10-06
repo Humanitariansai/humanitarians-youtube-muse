@@ -18,6 +18,7 @@ return `-1` if impossible. Movement is 4-directional.
 | `test_solution.py` | 25 tests: the example, tiny basics, unreachable cases, a greedy-is-suboptimal counterexample, 300 randomized cross-validation trials (both optimal methods agree; greedy never beats optimal), and a 50×50 performance check. Run `python3 test_solution.py`. |
 | `ASSIGNMENT-REVIEW.md` | Independent audit of the assignment itself — **4 findings**: the example's expected output (6) is wrong under the stated spec (correct: 12); "always a valid path" contradicts "return -1"; movement model unstated; number of `B` cells unstated. Each finding is code-verified. |
 | `Wk1_...ipynb` | The original assignment notebook, unmodified. |
+| `Wk1_Beary_Pathfinding_Assignment_FIXED.ipynb` | Student-facing notebook with all four `ASSIGNMENT-REVIEW.md` findings fixed (expected output 12, -1 contradiction resolved, movement model and single-`B` stated). Original kept as `Wk1_...ipynb`. |
 
 ## Key result
 
