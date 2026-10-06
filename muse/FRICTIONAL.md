@@ -2399,3 +2399,26 @@ I understand the proactive-session write boundary now: this session runs under `
 
 **7. Evidence and next step.**
 Evidence: 12 files verified locally at `~/workspace/film-builds/how-to-ai/your-language-coach/` (11 beats, 7 Manim classes, 224 s, all voices `am_onyx`); CHECKS-REPORT.md records the clean gate (7 clean · 0 warn · 0 error, 7 clean · 0 warnings · 0 errors); Contents API read 2026-10-05 confirms 0/12 paths exist under `muse/youtube/how-to-use-ai/your-language-coach/` on Humanitariansai/humanitarians-youtube-muse. Next step: a privileged agent pushes the 12 local files to that repo path with gh-put-file.py and verifies each via Contents API; then Bear renders on his Mac per CLAUDE-CODE-RENDER.md (Kokoro `am_onyx` narration, Manim scenes, then the deferred `manim_layout_audit.py --curve-strict`, which could not run in the build VM) — never publish without his explicit instruction. [record]
+
+## Film #60 — Muse Does the Assignment (2026-10-06)
+
+**1. What I was asked to do.**
+Bear: "use the lecture skill with the Liam persona to make a film on Muse doing a assignment one for info 6205 algorithms." Same-day follow-up to the Wk1 Beary pathfinding work (solved 3 ways, 25 tests passing, 4 assignment defects found and fixed in a corrected notebook). [record]
+
+**2. What I actually did.**
+Built a 19-beat lecture film (skill: lecture, channel claude-liam, Liam/Kokoro am_onyx, Teardown, @NikBearBrown) at `muse/youtube/claude-liam-lecture-muse-does-the-assignment/`: BIDEA (hesitant writer, INFO 6205 credit) → BDEFS (5 terms) → 6 acts (the assignment; bitmask DP; state-space BFS; greedy; which-one-when; grading the grader) → BVDT recap → BHTF Your Turn → locked outro. 12-file package pushed 12/12; static QC 14/14 clean; slate cut rendered (Kokoro narration + 14 Manim scenes + bookend slates, 1920×1080). Companion work stays in `Coursera Info 6205 Algorithms/wk1-beary-pathfinding/`. [record]
+
+**3. What was hard.**
+The static QC stub only counts newly-added non-text shapes per play, so five scenes failed the distinct-shape gate for stub-legitimate reasons: in-place `set_fill` waves don't register; `Axes.plot` returns the axes itself in the stub; `SurroundingRectangle` reads as text; text glyphs (✓, ○, subscripts) don't count as shapes. Fixed by making motion real shapes (overlay highlight rects, split tour Creates, drawn two-stroke check marks, explicit Rectangles, hand-built 2^K curve from screen coordinates). A DP cost-table typo (full-subset min 8, correct 6) was caught by re-deriving Held–Karp from the distance matrix before pushing. [record]
+
+**4. What I did about it.**
+Rewrote the five scenes with stub-clean, render-identical-or-better constructions; re-ran the gate to 14 clean · 0 warnings · 0 errors; corrected the cost table; render smoke-tested B01 and B11 in the VM (frames inspected: grid, labels, palette, 2^K explosion all correct). `manim_layout_audit.py --curve-strict` could not run (no pangocairo in VM) — listed per-class in CLAUDE-CODE-RENDER.md for the Mac pass. No MP3/MP4/WAV committed; no secrets in any file. [record]
+
+**5. What Bear / another person contributed.**
+Bear supplied the assignment notebook, the "do your best work and check the assignment for errors" instruction, the fix approval, and the film order ("lecture skill with the Liam persona"). The four audit findings and their fixes are his assignment's; the solution, tests, and film are this build's work. [record]
+
+**6. What I understand now / still do not understand.**
+I understand the stub gate's shape model now: only play-introduced non-text mobjects count, positions are all (0,0) — so every scene needs ≥2 plays that each add a new shape. I still do not know whether Bear wants this film's slate cut uploaded anywhere (Drive) or just delivered in chat — delivered in chat per the current fallback. [my input]
+
+**7. Evidence and next step.**
+Evidence: 12/12 files verified via Contents API at `muse/youtube/claude-liam-lecture-muse-does-the-assignment/`; beat_sheet.json asserts 19 beats / 14 Manim; CHECKS-REPORT.md records the clean gate; slate cut `muse-does-the-assignment-slate.mp4` assembled 1920×1080. Next step: Bear watches the slate cut and marks up; renders the 5 Remotion bookends + final master on his Mac per CLAUDE-CODE-RENDER.md — never publish without his explicit instruction. [record]
