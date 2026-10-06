@@ -1,0 +1,810 @@
+{
+  "metadata": {
+    "slug": "muse-does-the-assignment",
+    "title": "Muse Does the Assignment",
+    "topic": "INFO 6205 · ALGORITHMS · LECTURE",
+    "skill": "lecture",
+    "style_preset": "lecture",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "course": "INFO 6205 Program Structure and Algorithms",
+    "clock": "narration",
+    "palette": "claude",
+    "register": "Teardown",
+    "fps": 24,
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "caption_policy": "none",
+    "greeting_language": "German/Dutch (Hallo)",
+    "audience": "INFO 6205 students and smart general viewers; every term explained in-line",
+    "source_doc": "Week 1 INFO 6205 assignment 'Help Beary Navigate the Forest to Collect Honey' (uploaded notebook) + Muse's reference solution (3 approaches, 25 tests) + independent assignment audit; see SOURCES.md and FACTCHECK.md",
+    "series_note": "Standalone lecture film for INFO 6205; companion work lives in the 'Coursera Info 6205 Algorithms' folder of the same repo",
+    "playlist": "INFO 6205 Algorithms",
+    "tags": [
+      "algorithms",
+      "pathfinding",
+      "BFS",
+      "dynamic programming",
+      "traveling salesperson",
+      "INFO 6205",
+      "Nik Bear Brown"
+    ]
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Hallo. This is Liam, in for Bear. I handed Muse a real homework assignment from an algorithms course — INFO 6205 — and told it: do your best work, and check the assignment itself for errors. So the question isn't: can an AI solve a pathfinding puzzle. The question is: what happens when Muse does the whole assignment — and then grades the grader.",
+      "estimated_duration_s": 25.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "types 'Can an AI'"
+          },
+          {
+            "at": 0.6,
+            "event": "backspaces 'can an AI solve a pathfinding puzzle' -> 'what happens when Muse does the whole assignment' on the spoken correction"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Can an AI\nsolve a pathfinding puzzle?",
+            "triggerWords": "can an AI solve a pathfinding puzzle",
+            "replacementWords": "what happens when Muse does the whole assignment",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "muse-does-the-assignment",
+            "banner": ""
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "motion_claim": "The writer types the naive question and corrects it to the real one: Muse doing the whole assignment.",
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Hesitant-writer bookend: the correction is the motion."
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Five terms, plainly. BFS: a search that spreads outward one step at a time, so the first time it reaches a cell, that is the shortest path. Shortest path: the fewest steps between two cells, dodging obstacles. Heuristic: a fast rule of thumb, not guaranteed perfect. Bitmask DP: an exact method that tries every subset of targets, tracking visited ones as bits. And NP-hard: problems with no known fast exact solution — the work grows exponentially.",
+      "estimated_duration_s": 30.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.12,
+            "event": "'BFS' lands"
+          },
+          {
+            "at": 0.32,
+            "event": "'shortest path' lands"
+          },
+          {
+            "at": 0.52,
+            "event": "'heuristic' lands"
+          },
+          {
+            "at": 0.68,
+            "event": "'bitmask DP' lands"
+          },
+          {
+            "at": 0.84,
+            "event": "'NP-hard' lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Lecture",
+            "terms": [
+              {
+                "term": "BFS",
+                "meaning": "search spreading outward one step at a time; first arrival is the shortest path"
+              },
+              {
+                "term": "shortest path",
+                "meaning": "the fewest steps between two cells, dodging obstacles"
+              },
+              {
+                "term": "heuristic",
+                "meaning": "a fast rule of thumb, not guaranteed perfect"
+              },
+              {
+                "term": "bitmask DP",
+                "meaning": "exact method trying every subset of targets, visited ones tracked as bits"
+              },
+              {
+                "term": "NP-hard",
+                "meaning": "no known fast exact solution; the work grows exponentially"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "TERMS card: five prerequisites, one line each."
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "act i · the assignment",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Meet Beary. He lives on a grid. Cells marked H hold honey pots. Cells marked O are obstacles — he cannot cross them. He starts at B. His job: collect every honey pot and come home, in the fewest steps.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A 3x3 grid draws itself on the cream stage: B top-left, three H cells, two O cells. Labels land beside each mark: 'start', 'honey', 'blocked'.",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "grid lines draw in"
+          },
+          {
+            "at": 0.35,
+            "event": "B, H, O marks pop into their cells; labels land"
+          },
+          {
+            "at": 0.7,
+            "event": "a small path dot pulses on B"
+          }
+        ],
+        "manim": {
+          "class": "B01_Grid"
+        },
+        "motion_claim": "A 3x3 grid draws itself on the cream stage: B top-left, three H cells, two O cells. Labels land beside each mark: 'start', 'honey', 'blocked'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "act i · the assignment",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Four rules. One: he moves one cell at a time — up, down, left, right. No diagonals. Two: every honey pot gets collected. Three: he returns to where he started. Four: fewest steps wins. And if no route exists at all, the answer is minus one.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A Beary dot walks the example grid, collecting each H with a terracotta check, then walks home; a step counter ticks up beside the grid and the 'return to B' leg glows.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "dot starts walking; first H collected, check lands"
+          },
+          {
+            "at": 0.45,
+            "event": "all honey collected; counter running"
+          },
+          {
+            "at": 0.75,
+            "event": "return leg glows; dot arrives home"
+          }
+        ],
+        "manim": {
+          "class": "B02_Rules"
+        },
+        "motion_claim": "A Beary dot walks the example grid, collecting each H with a terracotta check, then walks home; a step counter ticks up beside the grid and the 'return to B' leg glows."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "act i · the assignment",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The assignment gives an example grid and says the answer is six. Hold that number. We will come back to it at the end — because Muse found something wrong with it, and it is the best part of the story.",
+      "estimated_duration_s": 16.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The example grid with a 'says: 6' tag; the six-step tour draws without returning, then the return leg draws on and the tag flips to a question mark.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "'says: 6' tag lands on the grid"
+          },
+          {
+            "at": 0.45,
+            "event": "six-step tour draws, stopping at the last honey"
+          },
+          {
+            "at": 0.7,
+            "event": "return leg draws; tag flips to '?', held"
+          }
+        ],
+        "manim": {
+          "class": "B03_Example"
+        },
+        "motion_claim": "The example grid with a 'says: 6' tag; the six-step tour draws without returning, then the return leg draws on and the tag flips to a question mark."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "act ii · first approach: bitmask DP",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Muse's first approach starts with a simple observation. Between any two interesting points — Beary and each honey pot — the shortest walk is just BFS, spreading outward until it arrives. Run it from every key point, and you get a small table: every leg, at its shortest.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A terracotta BFS wave spreads from B across the grid, cell by cell; reached H cells light up with their distances, and a small distance table fills beside the grid.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "BFS wave starts spreading from B"
+          },
+          {
+            "at": 0.45,
+            "event": "honey cells light up with distances 2, 4, 6"
+          },
+          {
+            "at": 0.75,
+            "event": "distance table completes beside the grid"
+          }
+        ],
+        "manim": {
+          "class": "B04_Legs"
+        },
+        "motion_claim": "A terracotta BFS wave spreads from B across the grid, cell by cell; reached H cells light up with their distances, and a small distance table fills beside the grid."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "act ii · first approach: bitmask DP",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Now the grid disappears. What remains is a pure ordering puzzle: visit every honey pot and come home, cheapest order first. That is the traveling salesperson problem. Muse solves it exactly — trying every subset of honey pots, remembering each subset's cheapest finish in a handful of bits.",
+      "estimated_duration_s": 19.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The grid fades; a subset lattice grows — subsets of honey pots as nodes, terracotta edges keeping each subset's cheapest cost; the winning order path glows through it.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "grid fades, subset lattice grows"
+          },
+          {
+            "at": 0.5,
+            "event": "edges fill with cheapest costs, subset by subset"
+          },
+          {
+            "at": 0.8,
+            "event": "winning order path glows through the lattice"
+          }
+        ],
+        "manim": {
+          "class": "B05_Order"
+        },
+        "motion_claim": "The grid fades; a subset lattice grows — subsets of honey pots as nodes, terracotta edges keeping each subset's cheapest cost; the winning order path glows through it."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "act ii · first approach: bitmask DP",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The answer: twelve steps, and provably the best — no shorter tour exists. On this grid it took a fraction of a second. But note the fine print: every subset means the work doubles with each honey pot you add.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The optimal twelve-step tour draws on the grid; a hero '12' lands beside it with 'provably optimal' beneath; a small doubling curve starts rising at the edge.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "optimal tour draws; step counter runs to 12"
+          },
+          {
+            "at": 0.55,
+            "event": "hero '12' lands with 'provably optimal'"
+          },
+          {
+            "at": 0.8,
+            "event": "doubling curve starts rising beside it"
+          }
+        ],
+        "manim": {
+          "class": "B06_Twelve"
+        },
+        "motion_claim": "The optimal twelve-step tour draws on the grid; a hero '12' lands beside it with 'provably optimal' beneath; a small doubling curve starts rising at the edge."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "act iii · second approach: state-space BFS",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The second approach is simpler to trust. Forget clever ordering. Instead, expand what a position means: not just the cell, but the cell plus which honey pots you have already collected. Run one plain BFS over that bigger world. The first time you stand on the start cell holding everything — that walk is shortest. BFS guarantees it.",
+      "estimated_duration_s": 23.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The grid duplicates into stacked layers, one per collected-set; the BFS frontier climbs from layer to layer as honey is collected, landing home on the full layer.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "grid stacks into collected-set layers"
+          },
+          {
+            "at": 0.45,
+            "event": "frontier climbs layers as honey is collected"
+          },
+          {
+            "at": 0.8,
+            "event": "frontier lands on B in the full layer; 'shortest' tag"
+          }
+        ],
+        "manim": {
+          "class": "B07_States"
+        },
+        "motion_claim": "The grid duplicates into stacked layers, one per collected-set; the BFS frontier climbs from layer to layer as honey is collected, landing home on the full layer."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "act iii · second approach: state-space BFS",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Two completely different methods should never disagree. So Muse tested them against each other: three hundred random grids, obstacles and honey scattered everywhere. They agreed on every single one. Twenty-five tests, all passing.",
+      "estimated_duration_s": 13.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A terminal card on the stage types the verbatim output of the real test run: '25 passed, 0 failed' then 'ALL TESTS PASSED', each line landing with a terracotta check.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "terminal card opens; first lines type"
+          },
+          {
+            "at": 0.55,
+            "event": "'25 passed, 0 failed' lands with a check"
+          },
+          {
+            "at": 0.8,
+            "event": "'ALL TESTS PASSED' lands with a check"
+          }
+        ],
+        "manim": {
+          "class": "B08_Crosscheck"
+        },
+        "motion_claim": "A terminal card on the stage types the verbatim output of the real test run: '25 passed, 0 failed' then 'ALL TESTS PASSED', each line landing with a terracotta check."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "act iv · third approach: greedy",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "The third approach is the tempting one. Always walk to the nearest uncollected honey pot. No subsets, no giant state space — just short BFS hops, one after another. Fast, simple, and — in general — wrong.",
+      "estimated_duration_s": 14.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "On a 4x4 grid the dot hops to the nearest honey, then the next nearest; each hop draws fast and cheap-looking while a 'feels right' tag fades in and out.",
+        "show": [
+          {
+            "at": 0.15,
+            "event": "dot hops to nearest honey"
+          },
+          {
+            "at": 0.45,
+            "event": "second nearest-first hop draws"
+          },
+          {
+            "at": 0.7,
+            "event": "'feels right' tag fades in, then out"
+          }
+        ],
+        "manim": {
+          "class": "B09_Greedy"
+        },
+        "motion_claim": "On a 4x4 grid the dot hops to the nearest honey, then the next nearest; each hop draws fast and cheap-looking while a 'feels right' tag fades in and out."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "act iv · third approach: greedy",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Here is the trap, on a real grid. Nearest-first grabs the close honey and pays ten steps for the tour. The best order pays eight. Greedy feels right. That feeling is exactly what this assignment is teaching you to distrust.",
+      "estimated_duration_s": 16.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Split stage: greedy's tour draws left in dim grey totaling 10; the optimal tour draws right in terracotta totaling 8; the two extra steps pulse.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "greedy tour draws left, totaling 10"
+          },
+          {
+            "at": 0.55,
+            "event": "optimal tour draws right in terracotta, totaling 8"
+          },
+          {
+            "at": 0.85,
+            "event": "the two wasted steps pulse"
+          }
+        ],
+        "manim": {
+          "class": "B10_Trap"
+        },
+        "motion_claim": "Split stage: greedy's tour draws left in dim grey totaling 10; the optimal tour draws right in terracotta totaling 8; the two extra steps pulse."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "act v · which one, when",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "So why three answers to one problem? Because this problem is NP-hard — no known method escapes the exponential. The only question is where you can afford to pay it. Eight honey pots means 256 subsets: nothing. Thirty honey pots means over a billion: impossible.",
+      "estimated_duration_s": 18.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A 2-to-the-K curve climbs gently then explodes off the top of the frame; markers land at K=8 ('256, nothing') and K=30 ('over a billion, impossible').",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "curve climbs gently"
+          },
+          {
+            "at": 0.5,
+            "event": "curve explodes upward; K=8 marker lands"
+          },
+          {
+            "at": 0.8,
+            "event": "K=30 marker lands off the top"
+          }
+        ],
+        "manim": {
+          "class": "B11_Wall"
+        },
+        "motion_claim": "A 2-to-the-K curve climbs gently then explodes off the top of the frame; markers land at K=8 ('256, nothing') and K=30 ('over a billion, impossible')."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "act v · which one, when",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Muse's rule of thumb. Few honey pots: use the bitmask DP — exact and clean. Want the obviously correct code: the state-space BFS. Dozens of honey pots: admit that exactness is unaffordable, and go greedy — or approximate. The number of targets decides. Not your cleverness.",
+      "estimated_duration_s": 18.4,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A three-branch decision card grows: 'few targets -> bitmask DP', 'want obvious correctness -> state BFS', 'many targets -> greedy / approximate'; the K dial turns.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "decision card grows; first branch lands"
+          },
+          {
+            "at": 0.5,
+            "event": "second and third branches land"
+          },
+          {
+            "at": 0.8,
+            "event": "K dial turns; 'targets decide' tag lands"
+          }
+        ],
+        "manim": {
+          "class": "B12_Rule"
+        },
+        "motion_claim": "A three-branch decision card grows: 'few targets -> bitmask DP', 'want obvious correctness -> state BFS', 'many targets -> greedy / approximate'; the K dial turns."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B13",
+      "act": "act vi · grading the grader",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Then Muse did the second half of its instructions: it checked the assignment itself. Remember the six? Six is the shortest tour that never comes home. The assignment's own rules demand the return trip — and with it, the answer is twelve. The example was worked without the walk home.",
+      "estimated_duration_s": 20.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Split stage: the six-step tour draws left, stopping at the last honey, tagged 'never comes home'; the twelve-step tour draws right, returning to B, tagged 'the real answer'.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "six-step tour draws left, stops at last honey"
+          },
+          {
+            "at": 0.5,
+            "event": "'never comes home' tag lands"
+          },
+          {
+            "at": 0.7,
+            "event": "twelve-step tour draws right, returns to B; 'the real answer'"
+          }
+        ],
+        "manim": {
+          "class": "B13_SixVsTwelve"
+        },
+        "motion_claim": "Split stage: the six-step tour draws left, stopping at the last honey, tagged 'never comes home'; the twelve-step tour draws right, returning to B, tagged 'the real answer'."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "B14",
+      "act": "act vi · grading the grader",
+      "lane": "manim",
+      "proof_gate": "SHOW",
+      "narration_text": "Three more findings. The assignment says a valid path always exists, and also says return minus one if impossible — both cannot be true at once. It never rules out diagonal moves. And it says 'at least one' start cell, leaving two starts undefined. All four now fixed, in a corrected notebook.",
+      "estimated_duration_s": 20.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A four-item checklist card: 'example answer 6 -> 12', 'minus-one contradiction resolved', 'no diagonals stated', 'exactly one start'; terracotta checks land one by one.",
+        "show": [
+          {
+            "at": 0.2,
+            "event": "checklist card grows"
+          },
+          {
+            "at": 0.4,
+            "event": "first two checks land"
+          },
+          {
+            "at": 0.65,
+            "event": "last two checks land"
+          },
+          {
+            "at": 0.85,
+            "event": "'corrected notebook' tag lands"
+          }
+        ],
+        "manim": {
+          "class": "B14_Fixes"
+        },
+        "motion_claim": "A four-item checklist card: 'example answer 6 -> 12', 'minus-one contradiction resolved', 'no diagonals stated', 'exactly one start'; terracotta checks land one by one."
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "lecture style: Manim carries each mechanism beat on the cream stage; the negative space is the style, so only underfill and clustered are waived; edge-bleed, empty-frame and contrast still apply."
+      }
+    },
+    {
+      "beat_id": "BVDT",
+      "act": "recap",
+      "lane": "bookend",
+      "proof_gate": "CARD",
+      "narration_text": "Let's recap with Claude. Beary's errand is a traveling-salesperson tour on a grid: collect everything, come home, fewest steps. Bitmask DP earns the exact answer by separating shortest legs from cheapest order. State-space BFS earns the same answer with one obviously correct search. Greedy nearest-first is fast and sometimes wrong: ten steps where eight exist. The number of honey pots picks the method, because the subsets double every time. And the assignment itself needed grading: its example answer forgot the walk home.",
+      "estimated_duration_s": 32.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.1,
+            "event": "line 1 lands"
+          },
+          {
+            "at": 0.24000000000000002,
+            "event": "line 2 lands"
+          },
+          {
+            "at": 0.38,
+            "event": "line 3 lands"
+          },
+          {
+            "at": 0.52,
+            "event": "line 4 lands"
+          },
+          {
+            "at": 0.66,
+            "event": "line 5 lands"
+          },
+          {
+            "at": 0.8,
+            "event": "line 6 lands"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "lines": [
+              "Beary's errand is a traveling-salesperson tour on a grid: collect everything, come home, fewest steps.",
+              "Bitmask DP earns the exact answer by separating shortest legs from cheapest order.",
+              "State-space BFS earns the same answer with one obviously correct search.",
+              "Greedy nearest-first is fast and sometimes wrong: ten steps where eight exist.",
+              "The number of honey pots picks the method, because the subsets double every time.",
+              "And the assignment itself needed grading: its example answer forgot the walk home."
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "Verdict card: six recap lines, one per act."
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Your turn. Paste this into the AI: Here is a four-by-four grid. Row one: B, dot, dot, dot. Row two: dot, H, dot, dot. Row three: H, dot, dot, dot. Row four: dot, H, dot, dot. Solve it three ways: bitmask DP, state-space BFS, and greedy nearest-honey. Report each method's step count, say which are optimal, and point to the exact greedy move that costs extra. Then check two things yourself. Did it report all three step counts, with the two exact methods agreeing? And can you name the greedy move that costs extra? If yes twice, you have understood the assignment better than its example did.",
+      "estimated_duration_s": 42.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "CLAUDE · YOUR TURN",
+            "segment": "Muse Does the Assignment",
+            "command": "Here is a four-by-four grid. Row one: B, dot, dot, dot. Row two: dot, H, dot, dot. Row three: H, dot, dot, dot. Row four: dot, H, dot, dot. Solve it three ways: bitmask DP, state-space BFS, and greedy nearest-honey. Report each method's step count, say which are optimal, and point to the exact greedy move that costs extra.",
+            "runningText": "paste this into the AI…",
+            "output": [
+              "Check: all three step counts are reported, and the two exact methods agree.",
+              "Check: you can name the greedy move that costs extra."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          }
+        }
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "proof_gate": "SHOW",
+      "narration_text": "Muse Does the Assignment. Liam, in for Bear. At Nik Bear Brown.",
+      "estimated_duration_s": 4.0,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Muse Does the Assignment",
+            "slug": "muse-does-the-assignment",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "kind": "outro_voice",
+      "tail_silence_s": 1.0
+    }
+  ]
+}
