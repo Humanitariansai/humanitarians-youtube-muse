@@ -158,7 +158,7 @@ class B02_Rules(Scene):
             new = T(str(step), size=56, bold=True, color=TERRA).move_to(counter.get_center())
             anims = [dot.animate.move_to(g.at(*TOUR12[i])), Transform(counter, new)]
             if TOUR12[i] in honey_cells:
-                check = checkmark(g.at(*TOUR12[i]) + UP * 0.62, scale=0.9)
+                check = checkmark(g.at(*TOUR12[i]) + np.array([0.24, 0.26, 0.0]), scale=0.75)
                 anims.append(FadeIn(check))
                 honey_cells.discard(TOUR12[i])
             self.play(*anims, run_time=0.55)
@@ -341,15 +341,15 @@ class B08_Crosscheck(Scene):
                                stroke_color=INK, stroke_width=3,
                                fill_color=INK, fill_opacity=1)
         self.play(FadeIn(card), run_time=0.7)
-        prompt = T("$ python3 test_solution.py", size=32, color="#F2F0E9"
-                    ).move_to(card.get_top() + DOWN * 0.7 + LEFT * 3.6)
+        prompt = T("$ python3 test_solution.py", size=30, color="#F2F0E9")
+        prompt.move_to(np.array([-4.55 + prompt.width / 2, card.get_top()[1] - 0.75, 0]))
         self.play(Write(prompt), run_time=1.2)
         # verbatim output of the real run (see FACTCHECK.md #8)
         lines = ["25 passed, 0 failed", "ALL TESTS PASSED"]
         y = card.get_top()[1] - 1.7
         for i, ln in enumerate(lines):
-            t = T(ln, size=36, color="#F2F0E9", bold=True
-                  ).move_to([card.get_center()[0] - 2.6, y - i * 0.9, 0])
+            t = T(ln, size=36, color="#F2F0E9", bold=True)
+            t.move_to(np.array([-4.55 + t.width / 2, y - i * 0.9, 0]))
             chk = checkmark(np.array([card.get_center()[0] + 2.9, y - i * 0.9, 0]),
                             scale=1.1, color=TERRA)
             self.play(Write(t), run_time=1.0)
