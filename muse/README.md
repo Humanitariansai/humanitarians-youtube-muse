@@ -75,6 +75,7 @@ Nothing is rendered or published from here; MP3/MP4/WAV files are never committe
 | Tame your inbox | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/tame-your-inbox/CLAUDE-CODE-RENDER.md) | 10 beats (~3m10s), 6 scenes, QC clean |
 | Shop smarter | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/shop-smarter/CLAUDE-CODE-RENDER.md) | 13 beats (~3m25s), 9 scenes, QC clean |
 | Your language coach | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/your-language-coach/CLAUDE-CODE-RENDER.md) | 11 beats (~3m44s), 7 scenes, QC clean |
+| Edit video with words | [render prompt](https://github.com/Humanitariansai/humanitarians-youtube-muse/blob/main/muse/youtube/how-to-use-ai/edit-video-with-words/CLAUDE-CODE-RENDER.md) | 14 beats (~2m57s), 10 scenes, QC clean |
 
 ## Coming up
 
