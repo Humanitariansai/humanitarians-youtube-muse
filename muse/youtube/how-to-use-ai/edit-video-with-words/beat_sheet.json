@@ -1,0 +1,768 @@
+{
+  "metadata": {
+    "title": "Edit video with words.",
+    "slug": "edit-video-with-words",
+    "series": "Humanitarians AI — how to use AI",
+    "skill": "show-tell",
+    "style_preset": "show-tell",
+    "channel": "claude-liam",
+    "persona": "Liam (in for Bear)",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "engine": "kokoro",
+    "clock": "narration",
+    "register": "Teardown",
+    "watermark": "@NikBearBrown",
+    "greeting": "Hallo",
+    "greeting_language": "German/Dutch (Hallo)",
+    "palette": {
+      "stage": "#F2F0E9",
+      "ink": "#3D3929",
+      "accent": "#D97757",
+      "dim": "#8B8F96",
+      "ghost": "#D9D4C7",
+      "card": "#FAF9F5",
+      "kraft": "#DCC9AA"
+    },
+    "playlist": "how-to-use-ai",
+    "tags": [
+      "show-tell",
+      "youtube-shorts",
+      "youtube-create",
+      "video-editing",
+      "conversational-editing",
+      "meta-edits",
+      "general-audience"
+    ],
+    "derived_from": "NEW — built from scratch for the how-to-AI queue (Wave 7, #45)",
+    "audience": "smart, pragmatic general audience — NOT AI experts; every term explained in plain language, shown rather than told",
+    "bookend_exempt": [
+      "cold-open",
+      "verdict"
+    ],
+    "bookend_exempt_reason": "show-tell spine (skill law): opens on the hesitant writer + terms card; no verdict card; Your Turn is the Claude.ai composer; spoken outro stays.",
+    "caption_policy": "none",
+    "build": {
+      "at": "2026-10-07T14:26:17",
+      "cut": "review",
+      "filled": 10,
+      "of": 14,
+      "slates": [
+        "BIDEA",
+        "BDEFS",
+        "BHTF",
+        "BOUT"
+      ],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "BIDEA",
+      "act": "the question",
+      "lane": "bookend",
+      "narration_text": "Hallo. This is Liam, in for Bear. Editing a video means learning the timeline — the cuts, the tracks, the little keyframe diamonds. Or it did. Because the next version of the editor doesn't ask you to learn anything. It asks you to just say what you want.",
+      "estimated_duration_s": 21.1,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "the naive line types in: 'I have to learn the timeline'"
+          },
+          {
+            "at": 0.45,
+            "event": "hesitation; terracotta strike crosses 'I have to learn the timeline'"
+          },
+          {
+            "at": 0.7,
+            "event": "correction writes in: 'I just say what I want changed'"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Editing video means learning the timeline — if I want a better edit, I have to learn the timeline\nEditing video means learning the timeline — if I want a better edit, I just say what I want changed",
+            "triggerWords": "I have to learn the timeline",
+            "replacementWords": "I just say what I want changed",
+            "fontSize": 70,
+            "charMs": 22,
+            "hesitateBetween": 6,
+            "hesitateWithin": 1,
+            "mistakeRate": 2,
+            "jitter": 20,
+            "seed": "edit-video-with-words",
+            "banner": ""
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell bookend beat BIDEA: Claude bookend pattern"
+      },
+      "actual_duration_s": 13.21,
+      "audio_file": "mp3/beat-BIDEA.mp3",
+      "render_duration_s": 13.25,
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-10-07T14:26:17",
+        "needs": "PIPELINE → fill_slates/remotion_scenes for BIDEA"
+      }
+    },
+    {
+      "beat_id": "BDEFS",
+      "act": "terms",
+      "lane": "bookend",
+      "narration_text": "Four terms, before we start. Shorts: YouTube's short, vertical videos. YouTube Create: YouTube's free editing app for your phone. Chat editing: an AI editor you instruct in plain language, inside a chat window. Edits: Meta's own video-editing app.",
+      "estimated_duration_s": 17.3,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.05,
+            "event": "'Shorts' lands with its meaning"
+          },
+          {
+            "at": 0.3,
+            "event": "'YouTube Create' lands with its meaning"
+          },
+          {
+            "at": 0.55,
+            "event": "'chat editing' lands with its meaning"
+          },
+          {
+            "at": 0.78,
+            "event": "'Edits' lands with its meaning"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeDefinitions",
+          "props": {
+            "title": "Terms In This Film",
+            "terms": [
+              {
+                "term": "Shorts",
+                "meaning": "YouTube's short, vertical videos"
+              },
+              {
+                "term": "YouTube Create",
+                "meaning": "YouTube's free editing app for phones"
+              },
+              {
+                "term": "chat editing",
+                "meaning": "an AI editor you instruct in plain language"
+              },
+              {
+                "term": "Edits",
+                "meaning": "Meta's own video-editing app"
+              }
+            ],
+            "folderLabel": "@NikBearBrown"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell bookend beat BDEFS: Claude bookend pattern"
+      },
+      "actual_duration_s": 14.08,
+      "audio_file": "mp3/beat-BDEFS.mp3",
+      "render_duration_s": 14.083333333333334,
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-10-07T14:26:17",
+        "needs": "PIPELINE → fill_slates/remotion_scenes for BDEFS"
+      }
+    },
+    {
+      "beat_id": "B00",
+      "act": "the idea",
+      "lane": "manim",
+      "narration_text": "Picture a chat window sitting inside your editing app. You type: match the cuts to the beat. And the clips rearrange themselves — no timeline, no dragging, no keyframes. That is the whole idea: an editor that takes instructions in plain language.",
+      "estimated_duration_s": 18.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A phone; its chat window; your instruction 'match the cuts to the beat' lands as a bubble; the film strip below shuffles its clips into a new order on its own.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "phone + chat window fade in"
+          },
+          {
+            "at": 0.25,
+            "event": "user bubble 'match the cuts to the beat' lands"
+          },
+          {
+            "at": 0.55,
+            "event": "film-strip clips shuffle into a new order"
+          },
+          {
+            "at": 0.8,
+            "event": "'plain language' tag lands"
+          }
+        ],
+        "manim": {
+          "class": "B00_HeroChat"
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell body beat B00: one drawing, minimal labels"
+      },
+      "actual_duration_s": 13.53,
+      "audio_file": "mp3/beat-B00.mp3",
+      "render_duration_s": 13.541666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B00.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-07T14:26:17"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "why it matters",
+      "lane": "manim",
+      "narration_text": "Why does this matter? Because editing eats time. The creator who demoed this for YouTube put it this way: a one-hour shoot can be ten hours or more in the edit. Ten hours of trimming, cutting, and nudging clips into place.",
+      "estimated_duration_s": 18.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A timeline crowded with tiny clips; a '1 hour shoot' card becomes a '10+ hours edit' card as a clock hand spins.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "crowded timeline draws in"
+          },
+          {
+            "at": 0.3,
+            "event": "'1 hour shoot' card lands"
+          },
+          {
+            "at": 0.55,
+            "event": "clock spins; '10+ hours edit' card lands"
+          },
+          {
+            "at": 0.8,
+            "event": "terracotta ring on '10+ hours'"
+          }
+        ],
+        "manim": {
+          "class": "B01_TenHours"
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell body beat B01: one drawing, minimal labels"
+      },
+      "actual_duration_s": 11.71,
+      "audio_file": "mp3/beat-B01.mp3",
+      "render_duration_s": 11.75,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B01.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-07T14:26:17"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "the announcement",
+      "lane": "manim",
+      "narration_text": "So here is what YouTube announced at its Made on YouTube event this September: a conversational editing assistant, coming to Shorts and to the YouTube Create app. You start from a suggested prompt, or type your own — then keep refining the cut by continuing the conversation.",
+      "estimated_duration_s": 20.7,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A 'Made on YouTube · Sept 2026' card; a phone slides in carrying a chat window; 'Shorts' and 'YouTube Create' labels dock beneath it.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "'Made on YouTube' card lands"
+          },
+          {
+            "at": 0.35,
+            "event": "phone with chat window slides in"
+          },
+          {
+            "at": 0.6,
+            "event": "'Shorts' + 'YouTube Create' labels dock"
+          },
+          {
+            "at": 0.82,
+            "event": "a suggested-prompt chip types itself"
+          }
+        ],
+        "manim": {
+          "class": "B02_Announced"
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell body beat B02: one drawing, minimal labels"
+      },
+      "actual_duration_s": 14.95,
+      "audio_file": "mp3/beat-B02.mp3",
+      "render_duration_s": 14.958333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B02.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-07T14:26:17"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "the demo",
+      "lane": "manim",
+      "narration_text": "In YouTube's demo, the creator Happy Kelli hands over dance footage — herself dancing, in different outfits. She asks the assistant to pick the best take of each outfit. Then she says: add music, add transitions. And the assistant assembles the cut.",
+      "estimated_duration_s": 18.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Three 'take' cards (outfit A, B, C); the chat picks the best of each; a music note and transition arrows land on the assembled cut.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "three take cards land: outfits A, B, C"
+          },
+          {
+            "at": 0.35,
+            "event": "chat bubble 'best take of each outfit' lands"
+          },
+          {
+            "at": 0.55,
+            "event": "best takes lift out; also-rans dim"
+          },
+          {
+            "at": 0.75,
+            "event": "music note + transition arrows land on the cut"
+          }
+        ],
+        "manim": {
+          "class": "B03_Demo"
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell body beat B03: one drawing, minimal labels"
+      },
+      "actual_duration_s": 13.65,
+      "audio_file": "mp3/beat-B03.mp3",
+      "render_duration_s": 13.666666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B03.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-07T14:26:17"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "the fiddly work",
+      "lane": "manim",
+      "narration_text": "It handles the fiddly work too. Text overlays, on command. Pauses in speech, removed. And it makes suggestions from the conversation itself — it reads what you are going for, and proposes the next move.",
+      "estimated_duration_s": 15.7,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A chat bubble; a text-overlay chip stamps onto a clip; pause gaps shrink on a waveform; suggestion chips fan out below.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "chat bubble lands"
+          },
+          {
+            "at": 0.3,
+            "event": "text overlay stamps onto a clip"
+          },
+          {
+            "at": 0.52,
+            "event": "pause gaps shrink on the waveform"
+          },
+          {
+            "at": 0.75,
+            "event": "suggestion chips fan out"
+          }
+        ],
+        "manim": {
+          "class": "B04_Fiddly"
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell body beat B04: one drawing, minimal labels"
+      },
+      "actual_duration_s": 11.35,
+      "audio_file": "mp3/beat-B04.mp3",
+      "render_duration_s": 11.375,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B04.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-07T14:26:17"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "you stay in charge",
+      "lane": "manim",
+      "narration_text": "And here is the part that matters most: at any point, you can jump back into the regular timeline and adjust everything by hand. The AI drafts; you direct. As the demo put it: it edits with you, not for you.",
+      "estimated_duration_s": 18.6,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "The chat window slides aside; the real timeline appears; a cursor drags a clip edge by hand; the tag 'edits with you, not for you' lands.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "chat window slides aside"
+          },
+          {
+            "at": 0.3,
+            "event": "timeline draws in"
+          },
+          {
+            "at": 0.55,
+            "event": "cursor drags a clip edge by hand"
+          },
+          {
+            "at": 0.8,
+            "event": "'edits with you, not for you' tag lands"
+          }
+        ],
+        "manim": {
+          "class": "B05_YourHands"
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell body beat B05: one drawing, minimal labels"
+      },
+      "actual_duration_s": 11.5,
+      "audio_file": "mp3/beat-B05.mp3",
+      "render_duration_s": 11.5,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B05.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-07T14:26:17"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "when",
+      "lane": "manim",
+      "narration_text": "When can you try it? The reported window is early twenty twenty-seven — for Shorts and the Create app. It is a preview today, not a product. But the direction is set: the timeline stops being the price of admission.",
+      "estimated_duration_s": 17.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A calendar page turns to a hero tag reading 'early 2027'; 'Shorts' and 'Create app' labels dock beneath; a timeline icon fades behind a 'no longer required' ring.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "calendar page lands"
+          },
+          {
+            "at": 0.35,
+            "event": "'early 2027' hero tag grows"
+          },
+          {
+            "at": 0.6,
+            "event": "'Shorts' + 'Create app' labels dock"
+          },
+          {
+            "at": 0.82,
+            "event": "'reported window' caption lands"
+          }
+        ],
+        "manim": {
+          "class": "B06_Early2027"
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell body beat B06: one drawing, minimal labels"
+      },
+      "actual_duration_s": 11.41,
+      "audio_file": "mp3/beat-B06.mp3",
+      "render_duration_s": 11.416666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B06.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-07T14:26:17"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "meanwhile, meta",
+      "lane": "manim",
+      "narration_text": "Meanwhile, Meta has already shipped its version of the idea, inside the Edits app. Announced September thirtieth and rolling out in the US: an assistant that reads your Reels numbers — views, watch time, likes — and suggests what to make next.",
+      "estimated_duration_s": 18.2,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "An 'Edits' phone; dashboard bars for views, watch time, likes grow; a chat bubble assembles from the bars carrying 'what to make next'.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "'Edits' phone lands"
+          },
+          {
+            "at": 0.3,
+            "event": "dashboard bars grow: views, watch time, likes"
+          },
+          {
+            "at": 0.58,
+            "event": "bars feed a chat bubble"
+          },
+          {
+            "at": 0.8,
+            "event": "'what to make next' lands in the bubble"
+          }
+        ],
+        "manim": {
+          "class": "B07_MetaShips"
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell body beat B07: one drawing, minimal labels"
+      },
+      "actual_duration_s": 13.08,
+      "audio_file": "mp3/beat-B07.mp3",
+      "render_duration_s": 13.083333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B07.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-07T14:26:17"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "the line",
+      "lane": "manim",
+      "narration_text": "Hooks, captions, scripts — it can even suggest trending audio. But Meta draws a clear line: the assistant does the digging, it says. The creative calls stay yours.",
+      "estimated_duration_s": 12.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "Suggestion chips (hooks, captions, scripts, audio) fan out; a divider line draws; below it the tag 'the creative calls stay yours' lands with a terracotta check.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "suggestion chips fan out"
+          },
+          {
+            "at": 0.4,
+            "event": "divider line draws"
+          },
+          {
+            "at": 0.6,
+            "event": "'the creative calls stay yours' lands"
+          },
+          {
+            "at": 0.8,
+            "event": "terracotta check stamps it"
+          }
+        ],
+        "manim": {
+          "class": "B08_TheLine"
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell body beat B08: one drawing, minimal labels"
+      },
+      "actual_duration_s": 9.26,
+      "audio_file": "mp3/beat-B08.mp3",
+      "render_duration_s": 9.291666666666666,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B08.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-07T14:26:17"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "start today",
+      "lane": "manim",
+      "narration_text": "And you do not have to wait to start. The YouTube Create app already ships an AI first draft: it trims your clips and arranges them into a starting cut, all by itself. Same app — just no chat window yet. The conversation is the part that arrives in twenty twenty-seven.",
+      "estimated_duration_s": 22.3,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "GRAPHIC",
+        "source": "own",
+        "visual_intent": "A 'YouTube Create' phone; loose clips auto-arrange into a first draft; a 'no chat yet' note appears, then a small 'chat: 2027' chip docks beside it.",
+        "show": [
+          {
+            "at": 0.08,
+            "event": "'YouTube Create' phone lands"
+          },
+          {
+            "at": 0.35,
+            "event": "loose clips auto-arrange into a first draft"
+          },
+          {
+            "at": 0.62,
+            "event": "'no chat yet' note lands"
+          },
+          {
+            "at": 0.82,
+            "event": "'chat: 2027' chip docks"
+          }
+        ],
+        "manim": {
+          "class": "B09_Today"
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell body beat B09: one drawing, minimal labels"
+      },
+      "actual_duration_s": 14.57,
+      "audio_file": "mp3/beat-B09.mp3",
+      "render_duration_s": 14.583333333333334,
+      "build": {
+        "status": "MANIM",
+        "src": "manim/B09.mp4",
+        "filled_by": "manim",
+        "at": "2026-10-07T14:26:17"
+      }
+    },
+    {
+      "beat_id": "BHTF",
+      "act": "your turn",
+      "lane": "bookend",
+      "narration_text": "Your turn. Paste this into Claude: Act as my video editor. I will describe my footage. Reply with plain-language edit instructions, one per line: which parts to cut, where the music should shift, and what text to put on screen. My footage — then describe your clips. Check the result two ways. One: every instruction names exactly one thing to change. Two: a human editor could follow your list and ask no questions.",
+      "estimated_duration_s": 31.5,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "Composer opens — 'Your turn.'"
+          },
+          {
+            "at": 0.1,
+            "event": "the prompt types in full"
+          },
+          {
+            "at": 0.8,
+            "event": "the two check lines land"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Your turn.",
+            "topic": "HOW TO AI · YOUR TURN",
+            "segment": "Edit video with words",
+            "command": "Act as my video editor. I will describe my footage. Reply with plain-language edit instructions, one per line: which parts to cut, where the music should shift, and what text to put on screen. My footage: [describe your clips here]",
+            "runningText": "paste this into Claude…",
+            "output": [
+              "Check: every instruction names exactly one thing to change.",
+              "Check: a human editor could follow the list and ask no questions."
+            ],
+            "folderLabel": "@NikBearBrown",
+            "modelLabel": "Opus 5.5",
+            "effortLabel": "High"
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell bookend beat BHTF: Claude bookend pattern"
+      },
+      "actual_duration_s": 20.78,
+      "audio_file": "mp3/beat-BHTF.mp3",
+      "render_duration_s": 20.791666666666668,
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-10-07T14:26:17",
+        "needs": "PIPELINE → fill_slates/remotion_scenes for BHTF"
+      }
+    },
+    {
+      "beat_id": "BOUT",
+      "act": "outro",
+      "lane": "bookend",
+      "narration_text": "Edit video with words. At Nik Bear Brown.",
+      "estimated_duration_s": 4.8,
+      "voice": "am_onyx",
+      "engine": "kokoro",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "show": [
+          {
+            "at": 0.0,
+            "event": "title restates; handle; mascot"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Edit Video With Words",
+            "slug": "edit-video-with-words",
+            "handle": "@NikBearBrown",
+            "subline": ""
+          }
+        }
+      },
+      "qc": {
+        "sparse_by_design": true,
+        "sparse_reason": "show-tell bookend beat BOUT: Claude bookend pattern"
+      },
+      "actual_duration_s": 4.11,
+      "audio_file": "mp3/beat-BOUT.mp3",
+      "render_duration_s": 4.125,
+      "build": {
+        "status": "SLATE",
+        "src": null,
+        "filled_by": null,
+        "at": "2026-10-07T14:26:17",
+        "needs": "PIPELINE → fill_slates/remotion_scenes for BOUT"
+      }
+    }
+  ]
+}
