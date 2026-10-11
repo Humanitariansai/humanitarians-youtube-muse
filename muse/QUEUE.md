@@ -83,6 +83,23 @@ The existing prompt-tutorial lessons, rewritten for a general audience.
 | 42 | Tame your inbox | Triage, summarize, draft replies. Companion to `talk-to-your-tools`. | NEW | show-tell |
 | 43 | Shop smarter | AI buying co-pilot: compare, review-summaries, fine-print traps. | NEW | show-tell |
 | 44 | Your language coach | Conversation practice in any language. Companion to `learn-anything-faster`. | NEW | show-tell |
+## Wave 7 — Out in the world (new)
+
+#45 built 2026-10-11 — see Done. Remaining candidates, researched with
+2026 sources; re-verify every dated claim at build time.
+
+| # | Working title | Pitch | Source | Skill |
+|---|---|---|---|---|
+| 46 | Spot the scam | Your phone now sniffs out AI voice-clone scams itself: Android's June 2026 fake-call detection runs a silent encrypted handshake between callers — a spoofed "it's your daughter, send money" call fails the handshake and your screen tells you to hang up. On-device, nothing leaves the phone. | NEW (producer intel, Jun 2026) | show-tell |
+| 47 | Your podcast, no studio | Turn your own documents into a podcast: Gemini Notebook (renamed from NotebookLM, Jul 2026) generates two-host audio discussions of your sources — Deep Dive, 90-second Brief, Critique, Debate — plus video overviews and quizzes. Your commute becomes study time. | NEW (rebrand Jul 2026; back-to-school features Sep 2026) | show-tell |
+| 48 | Talk across the language gap | Live speech-to-speech translation that keeps the speaker's tone: Google Meet rolled it out on mobile in Apr 2026 (English ↔ Spanish/French/German/Portuguese/Italian), and Gemini 3.5 Live Translate (announced Jun 2026) stretches it to 70+ languages. The family call with grandma finally works. | NEW (producer intel, Apr–Jun 2026) | show-tell |
+| 49 | Thumbnails that get clicked | YouTube's built-in "A/B test titles & thumbnails" (was Test & Compare) serves up to 3 variants to real viewers and picks the winner by watch-time share, not clicks — and Sept 2026 brought dynamic thumbnails per audience segment. Generate 3 variants with AI, let YouTube referee. Producer intel for Bear's own channel too. | NEW (Sep 2026 dynamic thumbnails) | show-tell |
+| 50 | Learn it, don't just ask it | The antidote to the brain-rot film: Study Mode (ChatGPT, Khanmigo, Gemini Notebook quizzes) tutors instead of answering — hints before solutions, questions before explanations. Companion to #13 `learn-anything-faster` and the 83/11 brain-rot film. | NEW (ChatGPT for Teens, Aug 2026, bakes study mode in) | show-tell |
+| 51 | One video, everywhere | One long video becomes a month of Shorts: AI repurposing tools (Opus Clip and co.) find the stand-alone moments, reframe to vertical, caption, and score them — you review and post. Companion to #45 (editing) and #49 (thumbnails): the full creator pipeline. | NEW | show-tell |
+| 52 | Plan the trip | The trip-planning deep-dive: day-by-day itineraries from your constraints, visual map builders (Mindtrip, Wanderlog), live verification via Gemini/Maps. Companion to #17 `plan-anything`. | NEW | show-tell |
+| 53 | Cook with what's in the fridge | Photograph the fridge, get dinner: 2026 brought dedicated apps (Snapshot Recipes, Jun 2026, iOS+Android; FridgeF, Jan 2026) that identify ingredients from a photo and rank recipes by what you already have — less waste, no extra shopping. | NEW (producer intel, Jan+Jun 2026 launches) | show-tell |
+| 54 | Read the bill before you pay it | Point AI at the medical bill or insurance letter — but redact first (names, IDs, policy numbers), then ask for plain English, duplicate-charge flags, and a dispute-letter draft. Free tools now do denial-appeal drafting (Counterforce Health, nonprofit). The safety spine echoes #what-never-to-paste-into-ai. | NEW | show-tell |
+
 ## Done
 
 All 24 films completed 2026-10-03, plus Wave 5 (films #25–34) completed 2026-10-04, and moved to `muse/README.md`:
@@ -133,3 +150,4 @@ All 24 films completed 2026-10-03, plus Wave 5 (films #25–34) completed 2026-1
 - #42 [Tame your inbox](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/tame-your-inbox) — `muse/youtube/how-to-use-ai/tame-your-inbox/`
 - #43 [Shop smarter](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/shop-smarter) — `muse/youtube/how-to-use-ai/shop-smarter/`
 - #44 [Your language coach](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/your-language-coach) — `muse/youtube/how-to-use-ai/your-language-coach/`
+- #45 [Edit video with words](https://github.com/Humanitariansai/humanitarians-youtube-muse/tree/main/muse/youtube/how-to-use-ai/edit-video-with-words) — `muse/youtube/how-to-use-ai/edit-video-with-words/`
